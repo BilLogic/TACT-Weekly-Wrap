@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/designs/weekly_wrap.html"
+        },
+        {
+            "source": "/css/:path*",
+            "destination": "/designs/css/:path*"
+        },
+        {
+            "source": "/js/:path*",
+            "destination": "/designs/js/:path*"
+        }
+    ]
+}
