@@ -1,0 +1,116 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:28:09 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=24516",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 4.5,\n      \"description\": \"Tutor waits silently, looking at the screen.\"\n    },\n    {\n      \"offset_seconds\": 4.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello Jesse, can you hear me? I just send over a text.\",\n      \"speaker_name\": \"Sumeda Puja\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 71,\n      \"description\": \"Tutor waits silently for the student to join, resting her chin on her hand.\"\n    },\n    {\n      \"offset_seconds\": 120,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Video feed switches to the student, Matteo Maljaars.\"\n    },\n    {\n      \"offset_seconds\": 120.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Loud classroom chatter and background noise]\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuwxCukxAXLI2nwHOvKYZI2QC_wm5FoP1mJQjGpGjioTCHzUcyipR7CRpmrnli_svl2UGYWtml-WmliCuQ-Afls8nwwtHVrnlT_gpPPMtnbZkdW4gycrPjQW2MzJlB8mx4s7pSQpyEMg2uTvAr_8LkxC-A2paIoRGgUs7DNVcPq6s9zCwyqp2OyX4ImS2AQpSO1zvPm_WsqHOTai7OaZxtVkOq3Zdb7JPAOUDlVoL1ajmlEY2pu7bMVwREVXBj6BWKaVRdjaWpMcryaJMVIhcpHH61b6PxAZgJoLisr3qaqhsBbwUYiVZQWaxn0oC2-Avte4UsPYFiLY-jbfyljDD6b6eTwEgVZS1l-GpbS23OdeGgtfAAGM-MRcRF9fg69OutAINE_8jpG5Nqq4KO8dY3rB-JLsLZuWK6V0lpyoyJTUmjEZA9ZxHN1ehJPzMiz_AFHdz1rt9P5KO0G7_bLVW-Vr0aqLA1A3yrA1Xi-OBqFei38mzYm4UhEz7tC4jo9Xjvjug8dV5DeMv7ndsnALluRvBR_6mwAa2t1RfxzV5AKFAVpCJECfny1830mJXLciVpJjm24SLUAGB5x2zUtaYchzzBWpnTsHW-HM2NILTc1RmtxYpi2El_ZsgYcuOvlu-HhQGqsSAadTYtZZ8zO7yg7STmTvr7V1PqACg-YqaF2Vu9NoMVFFu_NpaXjpcOtX9HdcS9IxhJqXJgVcq1H6Rzrx9L0HVkoVRIX_hGSaq_SXv1755jS33AReOyyvWhffBnScaFGjEbpbGGLy3Z_kJPOqZdmYfvyCpGeSkFBsiFCEZdXUNk9N9IzR6SVVj23d-bpS4vE-PB-cbMxgiiXXi3rKKqo3Cf47OTMeloDWm9EjHLFlU9_jzcyOCTbBx1HvJn9HWAjXII70PcDSgvuybhzP2dCzh2UH0M__Vjtz24NX5HtTqKFI4S9Al3oyBPLtQJlgrXc5mHo4ohFiUfxRDJVd661ZScEgZh6gw3HMJXGCcjqY4NiCMf9c-MyqTXBRLXUJWGgJaQhSleVG4J3gOhjHfxYxMInOovOqwkNZN8NOAyUrURu4x451yDvj9trdqwD0Vt7DaSTJLT9gqoVZKbfrE4GJZXeyxrnNLQ66ZzOZ9i2bHgLDv6_M8DEww1lrgUs6ZK2dfLLVmLTxrlOvpuoy3B0xdUBzZNYGNE1tmrMoRUHN5aY7eEBzkL37o_JjUlKd2WpCLq_nGOYoAxExx8KdTVHHAf-kBOaAPRPfVN1Kb5y3eMz6Ur7McBmIDr1X2pqaytn9ZaE3Y0HuuD2-G0CF3TfsFoZGzNWm_5C3Hij3Jg2-PIE4Ac9gh5QzDxTmpxZXOfm-t5DH8Kj9IdaceqfwQAlBmDKj4DfTFMwwOL608wZpsPnJSZ-RdumHDqM97IkeQ2AEiZoMdi-Rj3ow0JC1n87o0p_Tag_zFEg88z3zt_c7Odnm_p_JhI5Erm9YhmeJDgua0PKHYMXuKcFo-0ZQmri-0S4j_o_kX0I4sC5d0eUq65RlZSmjTLCjwLdxpHCRYdX2yXkClg-MrkBaRkjBFarw7IKhPtXX-1b37yJC-ksUqfwWhph0Zly0VFfzR7qUK0iDNAf1Sqmyl-lk8FuodfT92LdZyJx0aQR2f6Nrrtv95aRGcCkKVevu2s-IuTes8LgfN_XyHIWs99e5UPXvZN4BdM2vc08UmExh1VMJAMBOgmHG_Vqr3PfJqDlv4D9_Iq_t46czV2-t4IrM0IAFwQ_jeKp3dI92WAGZOvKKYkW6FqKVHBTka_0Pk6OyUFtIKLeSnIwlRAZV1e0Zr4oVbJn2Fzj8r3QxTwG34TKbyqxGZeEvvalmKACsI-OeCAHQpJFZ2INX9GEGewlxA0GRUNDiWLr_zhsYbtb3E0x0_kSdJzW-v67bqGn926iu3IIwogvEdEk5YMFVVvWOMwtBfRCYCuyRG-VGpJ38eAF00BpafU_6Mq2zY6yDVZ9rSXeFWWL_lsNTuy1Cims0sfFFDq0pltRrcqcMS-d-bhy3lEVYS7XLbWCFn5p5Wr5kPJAuEdX-N5xcVI4SQwVkc6_ZOrSuB3DnkFUGNODw7SsAtAoTGZifB5xto48NAXsI7lf5OsO-G3jGbsXtYpSRoJ0yme1TWNVad-PmdpxG3hBMXBcF-72mfCw8wj86thjFUTYSYY9jS3tDd6WLmqmR_Ctv96GHG0cE2-GBWi_fUCR12EwLPO79L5NFZ3uYZS37NyUV4DIRHaR92MKm1knj-hk4t2fqNoLeDQpkhGro29DY2xe29AVtPkyvYsaM7Bd5W0nWFZFBnUKMEcvZbIFgtqfMUF09wa5Y6ZbHptlxm4pwK6qKgo9d5XQemuljtFzsfqkcNh7Red6mPSOWUaFUm0qEuFGEm90cwLO_nyVPb1AnHj5euNAKn2glLTXLBcuU2FK1FIlIIXOFHw6NPo2fuDm_L0jVycSmnNcRsgDEDfsF431q5SoYkhZk7G_vxd-iq2hAIpUpE7R3B1VKKM0gEgNBupwfZzdkdOvx_C2CyPTNH9qudelivUNlZ2Zp5gHhtV_kYrBh_bZOviB_A3ODrZl9lkwX4ACqbNbjRVMHdFi5tQpse-0KZcOJZ_SyRtZAh-WVyCfRwBoIP3Edrv7svApc6Z-dJkUmoLV-BZV2bcDqUGFc8awbPzqA247NbUomXYe50Q-d7Aa34klAqzCjsQJF7u3GZHIrfhlIgUOAstf52jciKRvSDbKrF-vQaXQ7bQglvSuJZsdd_haOqJPiZPlAB1rwdu7leyqUPVSrXZb5ixoEvxNh8fgPgkqx70NnjrLDg5IlP9d8xQcK6z2JStu5-zO3CiT7R2dPydiN7QrSuRBo_D7qx-ecITpeiJZkj1Nb6A7zkPStXR9EBGbaslYGFFhEouwYWDMu-5HC-2C7irEXzcCUCIUHigteyl4cNIC9HjrBah-NKETSC2B-tjj-S9DwPF7l8iaRFHd6xX7Ddh6DC3TtpflWSkDQLmxMTZTxJXSSY-Q_76zBvbDtM8R-zrTjvYuwmN58p_PQxq4D5wxOtSM6S6LHhzTRFT6ltSJh4MjxdUExp8ot_kHNMoFE2UQxhquX5hJZkLA0tNiw3gxJYOfUgThBb36aIktn4fnXGbhS1zVAnW7_gtek4IWSh8j4eD0gZsRqAhoavTiLlXFwh1a0Jwxlf8q5JS0T94cKERSwcLUZiMBUeDZHsnzW1XfL3WE7bEySQkseTTs0orPJlQTN5jnKqEC-Ab3pTYg35G0K7ZDM3BHHNZF9ncJxsUe0GPLfTXXmwHa8dtiFp1p1Zv-aY3hlDjvQ8lMdRDhMzZbfG2O7-qaO6lIsB6xt530AnbDEoebtJrhht2tjinV30MjnhXoctV7YhHu_KBrj188YBEnnW7IjFvQFnpEadA_KGcifgiXtnfq8VHrwr-42NNLrIFaJVowHLLqktbUwzSXQgb2lcmDiaVr-eUdI9UxtDr3pAUn-NekeION7ZEMX5o4Fe1Pd0j3dJ-dJmEf5fdCPAenvljuV33LrCg5kJYs7HHBfU7e7FGcxaKJ2DHAi2uQgPh51dFVfD31j1JY8xjpvF7o9HUDLflDUKnA9yy3bo3WSOpJdSsTvoext_vI2L1LgzePDUrkb3lFeWhnQWDhoyY9mLS3iHXDkYaL5s7mMIJdXBRCcoVEadLsfIy0_EpNqsQD3UPFQNFO7IvSzg4L8YpjGptZ0yBW7VotPYJCRz1WJE-v1Frtw47OzC3ds_2K-xsDXgB5nQCBxk5K7CuqpVHejzRyvn8oLn32FbjNtfI6pYgziNGARQYqOJds5THzHCqH5TymirD6AEVwXtrTGScaZenVhepAJJESYZUCzq1LQfUFZfhOVwG2hCbO-Q4qFfRFQPrC26xQFCHpoyPJvJEyFSInFPddvMUSLFJf0CCEP5WKcqS6Zkxz0OWBOEaoGBOXwr_PaZw9Tq8g0qwqw4VCiKfCICRnDnZ7KsldXQlLx0tPFD1m7o68qj2MZT0H_z5YYIzMVvcWaOxzS8JWCHBdA5K3WgOCbPJc7knaU2JOMnHvFQDhFoKSbZkP2R20DcI6wLS1x1uQbK2-BsUPDCRlnbayI6_Qjlci60moe3FxBJ2w7Z9UXHoga61oHTjmjxR3-l8biYljLr_9PbqOiXeygPphNN4ro7ewTNYC_C99Rd9FSFsG8pYBqgLht9Pbl5WJ7iz8Kssxkev3AOVyDcc1vtOJAeKqiYbtgrlDfxuUNn-rxUSNgfpNpbmuUjPP_Be3vSLMaTsxtUl_oDcSqSKtCfGgvoZEO8vnwK9uj3A86Ne1xkRruALnvneViVekWP3D4GqD7qemSPXPNME1rw9_cf7exDn1U0tWc2vs6jyqdWytV7Sqim0mkac4OujjGbT5XFY7_PF3ZgRKbdPO7K5R4qtaVc0FWcPSVhM-inDTuXLrO76SNcys7O96rrOOOHpOfVF7bj2iwgHePYi7lO13lGBZ7kDZ-9OcCaFexxDozPW4msoPdT5WGm_INVyfUzmGxzXubFl0RzuI2cqRQjiC86Ds9cJGD9USdjhrEmn0gOSJs38yd6t8jzlZIoTHOnW88yAmbieK6HAW6270kG7kJG1ywBmK88CH6kitxib4j8YRrnhvBnmBGzW-vYAI7klJUW520sphRtpQaxWzsdmuMsmNC0i2Q4k6gGog2gvDB9qrOvjMT09IW5jzAEcJI5RSt6I2YK1g38Y0eYf_vLtlixvBVOnp7wKSL7DFU1GwSHFyUl-VnLcuHtynt7Td3hz3DTARtG_zYTXnf7xf_TBmZ4oKIq8iZcxSDIK_RV3nN39cX2UMUnC8Rmngdj86j7ViWC6agQH1cQaG-TE1smJkj5_l714rLXKapCUpL1_7_Rsk99g5R_-5gLGdT4KJ-XvBbaWHpyH-JXOcX1sJcJsFxqDg5BDLEkOQ3HuM4vVHz25TdFzQSb9dhz4GdBlvgmOtYde2VjgkkIbs01CGoa21IXV9EptLrxb2clLaOk2kjKRA--B6aBaFtjY28PJIwynx2Rnjtk0UnJjazaHpRXYvMDzF1MX6MPkWFauc0M0MdLIcZ1Duu6rnmFvi1AiQIV0eD2dxb59F5f4V_nAfrgnIXAMxmRYtWHuGsxIo8_Jgds93w00IknjRJY2vEjglbrauW0FK-LbaCJ4DxCTUKgOZxFtj4IQ1VmQfEl8fXpLgDTHvBuruI3W21EutAJ5ruPbg0qOXELSAwhWFs2M_7x6R0NRId0TqrECIHrdfnw5ZsRmmuxUnrpwW2IH7jXSY3zZQEphNSk2E3c9ghx-rhZldij67tc3BT5vN9mfpeejZ1Ff5jmt1jfChcxAHsGL9ZIouzAb6uxI9F_C2uivPqrviy5GrU_lvT6yU14sev0hyG1YQbIQQ0ljLzXamL0B-bXSzJ2SdRUFciVxQfaDFUp1j4l17Gp1XcGeb1FKugfp0cGv-bkLjhsDPX7Ys8Bt-PwWrMIbhI5GCfrbvB4t-R6XmvUtbqEH7lR-0_ENq-Cs-FNa5jAosOOE7qW7EXxAn1vvQpJP0akhcLrohB9eSqY10uSrg3BMdCCPt4MYoqusR9iFpAa7EZ1y3oJ-mbXfdXAoAbArQmCGZdk_I7jE85fAFxb5gRoXk3avRL4TCHV0DpdsrQkr-9FqTkZ6wHSM1ze5tCh4xefkgTx4eAjF1fWm1FrvzhxL_-_Nb3br7xVJIMVTjfjikeoHpEVGzutDAiibsaL3j3U6c21dSeCz8-dPxJgj_eEb4JOdvJub_cYRaSFyjSdA7eXwMq799VbpFNhWSKE6amLFFuOXMhD9L3Qf-zM7cLdJyr_n74HRr7RhPlzjEpFQhiUkheXOKX5rvXi_hz6RDjo1KJapPC5JtvM5uRC-t8hpr9P9YgesKUQNPUkftljw5QVsPf1VS_Jw_rzYvkwNVMxs0cjo4N92U3xnrAIOvEFa3MTEYfPZndpEtqddPaXZ64M5FvRaYuXhDFGEYBYDyLxuuZrMIB07pyrzo1PsU-wzx3kqn31ioYXeIAMXvkSgoxJh6QPDatiOLTWnGhs3U1n2WI2XYwH3rcW0AtfvyqUzhkEbWVQ2a09FoNGQit43coOeZDITCLLc5kgrk37Sh4M9ftXCOoPZOE3bHeUKL-rj9AP0HzPnx6GL0TiRY4X9uaYbJyTKKcLYe3cq9axSwxvWRAljaTQSbcQLDG-4af2rZ_RqfkckPefX22exBRo84yhF-CZ0bHeYNUQ4buVp2fyuJW8HPQFOS-NGkL3UIParlcK3-s9FY4EtkPKFJqaHtViL8CQReDP5_11QlG7ExFIv7BX_du96SHo4Lm6JPEVEPnUguqM4GyO6GQ1yraUPe2Fvly3poL3jmoePD9GMj69vhD4V3Seu1KeZQgMO2Bo4MvGlDkBgMdV1lWixDc14uiSHhDdHtZ8fzRUDwaXtUTQllqP4b4bYVvCHD8FEeCWfECc8AryYmC34gD74eoGTHY_Z9tVCb34PFDkPD0irrPp5D41bRlJRd3TnF7Vh1hih4KjqAU-c2wOF_8Fsa-r9vs_vPjoUeiS1phfVCDgWNskwRykSgb95Kbe9nOQcr4NHVQxuGMrcKF6kQW-Y9R-ABQRLH1nvJNJNWXhHqFcwNgiDBmOwM8TCbKhl-2rgjHUa96i-zF9RF-ty3ywlf480vKi-IWqbwGqVhZCKBuzrVa99jFomLWY9RjbbpGhBNMKuQ61Dm8Lqps5LoqnhZpuEzACubJPRi6eE1UAqmtAesy64a-rrLt3NJ2p2-cbvU0kasQJio74YL_sI17Sobjpf8ZEVmN8rhdklamLkyvbjEFAD_IBthowU4JLY1mHS0_U5-Fm7hHL8HFK7b_UY3if0pOqAXjfB-YzebFPplI5XKhq9vUOYbyMhbtDuaEk5sBvuKE-MqbnbcsJKgAzT7bKQ3BFEh8VgC6r3hYTS95z-1_RV9XDRL0jv_e_yRasVjoIGJAxiUcxcHqKSSs9hu15IIt38x-QBbt6RK9TU02OQhxu7j3vUNbCq5a_BjrLNLO06zZMxjJAK_sodu6O7rkXe0FIZWo1K3agP9loDZCRU_S8CspPBKDUft-TtuFLHKxffHshJVW_HPRt-ZkgStLFsmWWfg8j_tP-We6ztPk9TeSdAr8LymWENraKNa37hQ2h3Rr7gTU7PIQjzBevHC0zQUnp0oV5r1czXNDSvYs_rygWTD_7NYW7eO-0-EBEYteQQ95fLxK6U4nQPlK7Bs_c9Fd_Fsc5vjb1Le_BKYf_WppoS6s9GtTyndUrNSfh4DdhVurVlLhrb3wxk5RC4wWn_c3ydKW4if8EaTddXqKb3SJlspeyvba6Zs7pmL5IrQHWT7VmCzUUF409N4dW0pgLy8uaQXMLiM6DhbkTNVewTe7T0uaHH4FOTTpEfhwEzRcaILIGopb-Em2naxLuDC1jzto2Zztgr8u5gKEm6NdUutpuEzKrCcqfG1q_3EgVYXnRwMBKer6ZCbJxnmrrh_A6jJhkyFdwT0pVaOhgkZQlQXFvgdstxnPgK5qRMYLDUuBKgK91k46eIbHhTiJNr-o4S_uKot7sx84bmVOJ3mlBXrE790N6C402q0VxP_sGhtxu7LUdMAdKZiC2CyJfJxfij7CrfZB-fHfHe0BhGNxWNzsUx9q79_j3y1e2zUuoaOJN2yIbmZ9aRmRX1h_yBbMXn1pKEOYIHA2dBeV73Fcte23xNieXxLtjeiF3piTOfou6hbSHTxv_v8HGXIPF5mY30wq0nFpZALAsQLl9O74ah62ratUhZvDWdraT8b0sUf71ZzZjuxhfGD9AjNadBhzY-aFe2k88-8b7KDx86QYXKaa5ndvx4XzGRQaqBaFX_idZ6u-5zOnKbYcWPJxt_vGLCRIsGAQcyIQo9GYpNT8ehC8CB8sWf6pEGBy8hxxdPpSS4H-liwQ0KW4zLPCAsL5I5ebzF73cpwhRCh23R9jhapxJf_nuLg4Pq2wVakRewZW4FIPIms4tJE4H0x1E6LBRRErPAy7rVz0lP3PIPn1_yiedrk-PjYZg7tMtEi3YQ8qsBhnePe_pTNT7iv7Yd50RzrUg53GSrdLElzTbEdSCmN2CKTYq5zxzxWvrrEt_iY1Y9VyADocnmPqMXQXC-PBgNtJ0CPVdfYLyQ0NZA7mACece-qFrDszL2u9E_oezw7hG8pEVOj5VC76f1Rbiqni4T30-p6P-a96qwygQUKetzBxVptQiNI0_ECnlVfuxcEwQqf67l3BRNFoKGu98ZJd_TWqjgodoOC_F1MA7b7qRPOUwLhIdtqpv0YjFgnjL-sRIP8Iu4gBSNvtCLstTAEsXgKCwOTNYVS6aJnQVki3FWDlb362XKx6JW-yM6SBcWEAqMWzHxJ2kvyXlnCByOxJZ4Iu-7FlGOGJrXM7agg6kH1fmJT5o6ekHC4ofh-wiFF-qPpenIIOaFeFxB6uAAGCMR4TsYCVvBxPLHDAOgxDb-5JfTc=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "WZ9qaZviEuKxqtsPmYSomAc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 340,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 24609,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 24282
+        }
+      ],
+      "thoughts_token_count": 1927,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 26876,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "inactivity",
+          "duration_seconds": 4.5,
+          "description": "Tutor waits silently, looking at the screen."
+        },
+        {
+          "offset_seconds": 4.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "Hello Jesse, can you hear me? I just send over a text.",
+          "speaker_name": "Sumeda Puja"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "inactivity",
+          "duration_seconds": 71,
+          "description": "Tutor waits silently for the student to join, resting her chin on her hand."
+        },
+        {
+          "offset_seconds": 120,
+          "event_type": "system",
+          "duration_seconds": 0.5,
+          "description": "Video feed switches to the student, Matteo Maljaars."
+        },
+        {
+          "offset_seconds": 120.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "[Loud classroom chatter and background noise]"
+        }
+      ]
+    }
+  }
+]

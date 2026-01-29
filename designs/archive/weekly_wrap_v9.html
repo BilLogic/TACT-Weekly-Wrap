@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Weekly Wrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* 
+       Design System:
+       - Headings: Lato
+       - Body: Merriweather Sans
+       - Palette: Bento Colors on Light Background
+    */
+
+        :root {
+            /* Bento Palette */
+            --bento-blue-2: #f2faff;
+            --bento-blue-3: #e4f5ff;
+            --bento-blue-9: #4dc1ff;
+            --bento-blue-11: #007eb8;
+
+            --bento-green-2: #f5fbf6;
+            --bento-green-3: #e8f6ea;
+            --bento-green-9: #4cab65;
+            --bento-green-11: #297e43;
+
+            --bento-yellow-2: #fffaec;
+            --bento-yellow-3: #fff1c7;
+            --bento-yellow-9: #ffc94b;
+            --bento-yellow-11: #9d6e00;
+
+            --bento-magenta-2: #fff7fc;
+            --bento-magenta-3: #ffe8f6;
+            --bento-magenta-9: #dd2ab0;
+            --bento-magenta-11: #c6009c;
+
+            --teal-2: #effbfc;
+            --teal-9: #00bfcc;
+            --teal-11: #007f89;
+
+            --neutral-1: #fcfcfd;
+            --neutral-2: #f9f9fb;
+            --neutral-11: #62636c;
+            --neutral-12: #1e1f24;
+
+            /* Typography */
+            --font-heading: 'Lato', sans-serif;
+            --font-body: 'Merriweather Sans', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--neutral-2);
+            color: var(--neutral-12);
+            font-family: var(--font-body);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 32px 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .email-container {
+            width: 100%;
+            max-width: 560px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+        }
+
+        /* === HEADER === */
+        .header {
+            background: linear-gradient(135deg, var(--teal-2) 0%, var(--bento-blue-2) 100%);
+            padding: 40px 32px;
+            text-align: center;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .brand-tag {
+            display: inline-block;
+            font-family: var(--font-heading);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--teal-11);
+            background: rgba(0, 191, 204, 0.15);
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1.greeting {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            font-weight: 900;
+            line-height: 1.2;
+            color: var(--neutral-12);
+            margin-bottom: 8px;
+        }
+
+        .week-range {
+            font-family: var(--font-body);
+            font-size: 14px;
+            color: var(--neutral-11);
+        }
+
+        /* === SECTION === */
+        .section {
+            padding: 32px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        h2.section-title {
+            font-family: var(--font-heading);
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--neutral-12);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* === AT A GLANCE GRID === */
+        .glance-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .glance-card {
+            background: var(--neutral-1);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .glance-val {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            font-weight: 900;
+            color: var(--teal-11);
+            display: block;
+        }
+
+        .glance-lbl {
+            font-family: var(--font-body);
+            font-size: 13px;
+            color: var(--neutral-11);
+            margin-top: 4px;
+        }
+
+        /* Wide card spanning 2 columns */
+        .glance-card.wide {
+            grid-column: 1 / -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: var(--bento-green-2);
+            border-color: var(--bento-green-3);
+        }
+
+        .glance-card.wide .glance-val {
+            color: var(--bento-green-11);
+        }
+
+        /* === TUTORING STYLE SECTION === */
+        .style-card {
+            background: var(--neutral-1);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 12px;
+        }
+
+        .style-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .style-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .style-icon {
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bento-blue-3);
+            border-radius: 10px;
+        }
+
+        .style-text {
+            flex: 1;
+        }
+
+        .style-label {
+            font-family: var(--font-body);
+            font-size: 12px;
+            color: var(--neutral-11);
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .style-value {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .style-value span {
+            font-weight: 400;
+            color: var(--neutral-11);
+            font-size: 14px;
+        }
+
+        .badge {
+            font-family: var(--font-body);
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-radius: 6px;
+        }
+
+        .badge.yellow {
+            background: var(--bento-yellow-3);
+            color: var(--bento-yellow-11);
+        }
+
+        .badge.green {
+            background: var(--bento-green-3);
+            color: var(--bento-green-11);
+        }
+
+        /* Talk Bar */
+        .talk-bar-track {
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .talk-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--bento-blue-9), var(--teal-9));
+            border-radius: 5px;
+        }
+
+        /* Think Time Scale */
+        .think-scale-container {
+            position: relative;
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            margin-top: 8px;
+        }
+
+        .think-target-zone {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 30%;
+            /* 3s on a 10s scale */
+            width: 20%;
+            /* 3-5s */
+            background: rgba(76, 171, 101, 0.2);
+            border-radius: 5px;
+        }
+
+        .think-marker {
+            position: absolute;
+            top: -3px;
+            width: 6px;
+            height: 16px;
+            background: var(--bento-yellow-9);
+            border-radius: 3px;
+            border: 2px solid white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* === HIGHLIGHT === */
+        .highlight-card {
+            background: linear-gradient(135deg, var(--bento-magenta-3), var(--bento-blue-3));
+            border-radius: 12px;
+            padding: 28px;
+            position: relative;
+        }
+
+        .highlight-card .quote-icon {
+            font-size: 48px;
+            line-height: 1;
+            color: var(--bento-magenta-9);
+            opacity: 0.3;
+            position: absolute;
+            top: 16px;
+            left: 20px;
+        }
+
+        .highlight-quote {
+            font-family: var(--font-body);
+            font-size: 16px;
+            font-style: italic;
+            line-height: 1.6;
+            color: var(--neutral-12);
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .highlight-label {
+            font-family: var(--font-heading);
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--bento-magenta-11);
+        }
+
+        /* === FOOTER === */
+        .footer {
+            padding: 24px 32px;
+            text-align: center;
+            background: var(--neutral-1);
+        }
+
+        .feedback-btn {
+            display: inline-block;
+            font-family: var(--font-heading);
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--teal-11);
+            text-decoration: none;
+            padding: 12px 24px;
+            border: 2px solid var(--teal-9);
+            border-radius: 30px;
+            transition: all 0.2s ease;
+        }
+
+        .feedback-btn:hover {
+            background: var(--teal-9);
+            color: white;
+        }
+
+        /* === TUTOR SWITCHER === */
+        .tutor-switcher {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 6px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 6px;
+            z-index: 100;
+        }
+
+        .switcher-btn {
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 700;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: transparent;
+            color: var(--neutral-11);
+        }
+
+        .switcher-btn.active {
+            background: var(--neutral-12);
+            color: white;
+        }
+
+        .tutor-view {
+            display: none;
+        }
+
+        .tutor-view.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Switcher (Prototype Only) -->
+    <div class="tutor-switcher">
+        <button class="switcher-btn active" onclick="switchTutor('baik')">Baik</button>
+        <button class="switcher-btn" onclick="switchTutor('dalvi')">Dalvi</button>
+    </div>
+
+    <div class="email-container">
+
+        <!-- ========== BAIK VIEW ========== -->
+        <div id="baik" class="tutor-view active">
+
+            <div class="header">
+                <div class="brand-tag">✨ Weekly Wrap</div>
+                <h1 class="greeting">Great week, Suzie!</h1>
+                <p class="week-range">Nov 18 – 24, 2025</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Your Week at a Glance</h2>
+                <div class="glance-grid">
+                    <div class="glance-card">
+                        <span class="glance-val">3</span>
+                        <span class="glance-lbl">Sessions</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val">7</span>
+                        <span class="glance-lbl">Students</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val">73</span>
+                        <span class="glance-lbl">Minutes Tutored</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val">1</span>
+                        <span class="glance-lbl">School Visited</span>
+                    </div>
+                    <div class="glance-card wide">
+                        <div>
+                            <span class="glance-val">157</span>
+                            <span class="glance-lbl">Skills Mastered</span>
+                        </div>
+                        <div>
+                            <span class="glance-val">51</span>
+                            <span class="glance-lbl">EdTech Minutes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Your Tutoring Style</h2>
+
+                <!-- Talk Ratio -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon">💬</div>
+                        <div class="style-text">
+                            <span class="style-label">Who's doing the talking?</span>
+                            <span class="style-value">81% You <span>/ 19% Student</span></span>
+                        </div>
+                        <span class="badge yellow">Room to improve</span>
+                    </div>
+                    <div class="talk-bar-track">
+                        <div class="talk-bar-fill" style="width: 81%;"></div>
+                    </div>
+                </div>
+
+                <!-- Think Time -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon" style="background: var(--bento-yellow-3);">⏱️</div>
+                        <div class="style-text">
+                            <span class="style-label">Think time after questions</span>
+                            <span class="style-value">1.6 seconds <span>target: 3-5s</span></span>
+                        </div>
+                        <span class="badge yellow">Try waiting longer</span>
+                    </div>
+                    <div class="think-scale-container">
+                        <div class="think-target-zone"></div>
+                        <div class="think-marker" style="left: 16%;"></div>
+                    </div>
+                </div>
+
+                <!-- Encouragement -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon" style="background: var(--bento-green-3);">🎉</div>
+                        <div class="style-text">
+                            <span class="style-label">Encouragement moments</span>
+                            <span class="style-value">45 times <span>you celebrated wins</span></span>
+                        </div>
+                        <span class="badge green">Great!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Highlight Moment</h2>
+                <div class="highlight-card">
+                    <span class="quote-icon">"</span>
+                    <p class="highlight-quote">"You're doing great. I'm going to come back, but just keep sharing your
+                        screen and solving the problems."</p>
+                    <span class="highlight-label">Empowering Independence</span>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="#" class="feedback-btn">Was this helpful? 💬</a>
+            </div>
+
+        </div>
+
+        <!-- ========== DALVI VIEW ========== -->
+        <div id="dalvi" class="tutor-view">
+
+            <div class="header"
+                style="background: linear-gradient(135deg, var(--bento-green-2) 0%, var(--bento-blue-2) 100%);">
+                <div class="brand-tag" style="color: var(--bento-green-11); background: rgba(76, 171, 101, 0.15);">✨
+                    Weekly Wrap</div>
+                <h1 class="greeting">Patience Pro, Saanvi!</h1>
+                <p class="week-range">Nov 18 – 24, 2025</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Your Week at a Glance</h2>
+                <div class="glance-grid">
+                    <div class="glance-card">
+                        <span class="glance-val" style="color: var(--bento-green-11);">2</span>
+                        <span class="glance-lbl">Sessions</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val" style="color: var(--bento-green-11);">6</span>
+                        <span class="glance-lbl">Students</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val" style="color: var(--bento-green-11);">72</span>
+                        <span class="glance-lbl">Minutes Tutored</span>
+                    </div>
+                    <div class="glance-card">
+                        <span class="glance-val" style="color: var(--bento-green-11);">2</span>
+                        <span class="glance-lbl">Schools Visited</span>
+                    </div>
+                    <div class="glance-card wide">
+                        <div>
+                            <span class="glance-val">42</span>
+                            <span class="glance-lbl">Skills Mastered</span>
+                        </div>
+                        <div>
+                            <span class="glance-val">45</span>
+                            <span class="glance-lbl">EdTech Minutes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Your Tutoring Style</h2>
+
+                <!-- Talk Ratio -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon">💬</div>
+                        <div class="style-text">
+                            <span class="style-label">Who's doing the talking?</span>
+                            <span class="style-value">47% You <span>/ 53% Student</span></span>
+                        </div>
+                        <span class="badge green">Perfect balance</span>
+                    </div>
+                    <div class="talk-bar-track">
+                        <div class="talk-bar-fill"
+                            style="width: 47%; background: linear-gradient(90deg, var(--bento-green-9), var(--teal-9));">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Think Time -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon" style="background: var(--bento-green-3);">⏱️</div>
+                        <div class="style-text">
+                            <span class="style-label">Think time after questions</span>
+                            <span class="style-value">7.2 seconds <span>target: 3-5s</span></span>
+                        </div>
+                        <span class="badge green">Great patience</span>
+                    </div>
+                    <div class="think-scale-container">
+                        <div class="think-target-zone"></div>
+                        <div class="think-marker" style="left: 72%; background: var(--bento-green-9);"></div>
+                    </div>
+                </div>
+
+                <!-- Encouragement -->
+                <div class="style-card">
+                    <div class="style-header">
+                        <div class="style-icon" style="background: var(--bento-yellow-3);">🎉</div>
+                        <div class="style-text">
+                            <span class="style-label">Encouragement moments</span>
+                            <span class="style-value">12 times <span>you celebrated wins</span></span>
+                        </div>
+                        <span class="badge yellow">Add more hype!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Highlight Moment</h2>
+                <div class="highlight-card"
+                    style="background: linear-gradient(135deg, var(--bento-green-3), var(--bento-blue-3));">
+                    <span class="quote-icon" style="color: var(--bento-green-9);">"</span>
+                    <p class="highlight-quote">"I saw you pause and fix that mistake on your own. That's exactly how we
+                        learn."</p>
+                    <span class="highlight-label" style="color: var(--bento-green-11);">Growth Mindset</span>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="#" class="feedback-btn">Was this helpful? 💬</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function switchTutor(tutorId) {
+            document.querySelectorAll('.switcher-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.querySelectorAll('.tutor-view').forEach(v => v.classList.remove('active'));
+            document.getElementById(tutorId).classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

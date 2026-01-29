@@ -1,0 +1,849 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:26:42 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=82957",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 32,\n      \"description\": \"Zoom interface shows black screens with names 'asayvio' and 'Victor Miene'. Victor is visible on camera adjusting his hat.\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 4,\n      \"description\": \"The name 'asayvio' changes to 'major.cartwright.clancy'.\"\n    },\n    {\n      \"offset_seconds\": 37,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 43,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can... Can you hear me? Are you there?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 57,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"The name 'major.cartwright.clancy' changes to 'Diontai'.\"\n    },\n    {\n      \"offset_seconds\": 60,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello? Um, are you there? Can you hear me?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 108,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, hi.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Hello, hello.\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, my name is Victor and I'm your tutor for today.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 117,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I wasn't doing nothing...\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Just tell me to stop talking... Worry about yourself.\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 127,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Where's my pencil?\"\n    },\n    {\n      \"offset_seconds\": 130,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello? Yeah, I hear you. Um, how... how do you pronounce your name?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 134,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"Khan Academy - Negative fractions on the number line\",\n      \"details\": \"Student starts screen sharing Khan Academy.\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Chrome\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student switches back to the Zoom application window. Camera turns on briefly showing the student adjusting headset.\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"x\": 36,\n      \"y\": 863,\n      \"details\": \"Clicks the Annotation pencil icon in Zoom.\"\n    },\n    {\n      \"offset_seconds\": 153,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share content goes black or is paused.\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Diontai.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 155,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, Diontai. Um, my name is Victor.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 159,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"click\",\n      \"target_desc\": \"annotation colors\",\n      \"details\": \"Student clicks through various annotation colors (pink, yellow, green, blue).\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And I'm your tutor for today.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 201,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 201,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"tool\": \"pen\",\n      \"target_desc\": \"screen\",\n      \"details\": \"Student draws a blue squiggle on the screen.\"\n    },\n    {\n      \"offset_seconds\": 202,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Yeah.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"Khan Academy\",\n      \"details\": \"Switches back to the Khan Academy tab.\"\n    },\n    {\n      \"offset_seconds\": 205,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"A B C D...\"\n    },\n    {\n      \"offset_seconds\": 207,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um... Are you... are you guys working on Khan today too? Oh yeah, I see.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 214,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How's your... how's your... how's your day going by the way?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 221,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Day, how is your day going?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 223,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mm, fine. Um, I had a class some moments ago and... right now I'm working. I'd say pretty good.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 230,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"14... 10 plus 14...\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah. So, we're supposed to be working on number lines today.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"14\",\n      \"details\": \"Student types '14' into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 245,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"You said 14... 10 plus 14.\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"delete\",\n      \"text\": \"14\",\n      \"details\": \"Student deletes '14'.\"\n    },\n    {\n      \"offset_seconds\": 252,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 3,\n      \"action\": \"type\",\n      \"text\": \"-1/1\",\n      \"details\": \"Student types '-1/1'.\"\n    },\n    {\n      \"offset_seconds\": 254,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"24?\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks Check. Result: 'Not quite!'.\"\n    },\n    {\n      \"offset_seconds\": 258,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh, that is not a fraction.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"No.\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Who loves to cuss?\"\n    },\n    {\n      \"offset_seconds\": 314,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Nobody.\"\n    },\n    {\n      \"offset_seconds\": 316,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"I know you were cussing.\"\n    },\n    {\n      \"offset_seconds\": 337,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Chrome\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student switches to the Zoom window.\"\n    },\n    {\n      \"offset_seconds\": 338,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Camera view of student appears. He gestures 'shhh' or adjusts his audio.\"\n    },\n    {\n      \"offset_seconds\": 345,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, Diontai, if you can hear me I'll be back... let me say hi to the... the other student. I'll be with you in a sec.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 353,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 25,\n      \"description\": \"Student sits quietly, looking around, waiting.\"\n    },\n    {\n      \"offset_seconds\": 418,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"What? I missed that again?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 420,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, if you can... if you can hear me I'll be back in a sec. Do you know how to do the question?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 424,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah I know how to do it.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 427,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh let me... let me see. Cause...\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 429,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Let me see what your answer is.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 433,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"Khan Academy\",\n      \"details\": \"Switch back to Khan Academy.\"\n    },\n    {\n      \"offset_seconds\": 434,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"drag\",\n      \"target_desc\": \"problem text\",\n      \"details\": \"Student highlights the text 'Look at the number line below. What point is marked on the number line?'\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"details\": \"Opens a new tab (Ctrl+T).\"\n    },\n    {\n      \"offset_seconds\": 443,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"tab\",\n      \"details\": \"Clicks back to the Khan Academy tab.\"\n    },\n    {\n      \"offset_seconds\": 447,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"student\",\n      \"text\": \"So if that is zero... then negative...\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 447,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"hover\",\n      \"target_desc\": \"number line\",\n      \"details\": \"Moves cursor over the tick marks on the number line between -1 and 0.\"\n    },\n    {\n      \"offset_seconds\": 450,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 4,\n      \"action\": \"type\",\n      \"text\": \"-1/1\",\n      \"details\": \"Types '-1/1' again.\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks Check. Result: 'Not quite yet...'.\"\n    },\n    {\n      \"offset_seconds\": 459,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so... um it's okay if you... you're not getting it right at first.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 505,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"What you need to know, you can check from zero. From zero to one, they are like... you can count the number of... vertical lines there are.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 513,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"student\",\n      \"text\": \"One, two, three, four, five, six.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 513,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"target_desc\": \"tick marks\",\n      \"details\": \"Moves cursor along the tick marks from 0 to 1, counting them.\"\n    },\n    {\n      \"offset_seconds\": 518,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, so you see that there are six.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 521,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And the width of... the... the line from zero to one is like... one.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so you have to divide one by six places.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Five?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 536,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"If you divide one by six... no it's six, not five. I thought it was five too but when I counted it, it was six.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 545,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So... when you divide one by six places you get... 0.16666... that's like 0.167.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 553,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So for every time you move... to the left or to the right, you are going to be adding either positive 0.16 or negative 0.16.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 606,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 9,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"In this case you are moving to the left... from negative one. So you're supposed to have negative one...\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 618,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"-0/16\",\n      \"details\": \"Student types '-0/16'.\"\n    },\n    {\n      \"offset_seconds\": 620,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And they said your answer should be a fraction. So that's something else.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 629,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 9,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Your answer should be a fraction, so anytime you move to the left you're supposed to have one over six... minus one over six instead of 0.16.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 642,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So for this one, you have negative one... since you were on negative one.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 648,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 3,\n      \"action\": \"type\",\n      \"text\": \"-0/1\",\n      \"details\": \"Student clears field and types '-0/1'.\"\n    },\n    {\n      \"offset_seconds\": 653,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Instead of zero, you can remove the zero.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 656,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me Diontai?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 658,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah I can hear you.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 700,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh, okay. So, what I'm saying is that you were at negative one and you're moving to the left. So you're supposed to add... for every time you go to the left you're supposed to add like a negative one over six.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 713,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"0/1\",\n      \"details\": \"Student types '0/1'.\"\n    },\n    {\n      \"offset_seconds\": 718,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, no no no no. That's still not it.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 723,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Let me... let me see if I can pull up my whiteboard.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 728,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share changes. Tutor shares a white screen (whiteboard).\"\n    },\n    {\n      \"offset_seconds\": 730,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you see my whiteboard?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 733,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yes.\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 735,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 15,\n      \"tool\": \"pen\",\n      \"target_desc\": \"whiteboard\",\n      \"details\": \"Tutor draws a horizontal line segment, adds marks for '-1' and writes '-1/6' (or similar math notation).\"\n    },\n    {\n      \"offset_seconds\": 753,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's going to give you negative one... then one by six.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 755,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"whiteboard\",\n      \"details\": \"Tutor writes '-1 1/6'.\"\n    },\n    {\n      \"offset_seconds\": 802,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah. So this is how it works.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 808,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Each movement is worth one over six... in this case.\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 814,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Do you want to... try that out?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 820,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Why the breakout rooms closing already?\",\n      \"speaker_name\": \"Diontai\"\n    },\n    {\n      \"offset_seconds\": 823,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you guys have to leave?\",\n      \"speaker_name\": \"Victor Miene\"\n    },\n    {\n      \"offset_seconds\": 825,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"A B C D E F G...\"\n    },\n    {\n      \"offset_seconds\": 833,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Breakout room closes or session ends.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EqVJCqJJAXLI2nwXWCuhZTT61FIddDCSBKlj0y8BQu-Znq9EX7NdoA0jYx9bhp3RXr1YgQVAX_f3PRh0jm_XROfTIAnYaqaskpym8Pw9aDNqaXQyyqwHB4hPA_l5X1zmaG_sBfVWpRm2G-Sr2uXMP_q_ESjngAalSAHyqvCpj5nP2EzzM7BuAub1c1b9_wgaAW6tHQJtNbjs3Z1hUxYNNPFNs1A8a915m_Dk-hdYZCC1PKLQQalQ-UD_5PbQJgZpvqy3Tr_PJs2r0KhKw-DtjZ3IAwydS8G0xeuI0XMITyzUonYlk2i8oZkW0PkMNPvjsdVRUe3V7LboZ-8o_vSKFSajFMoLv4T07JoUOeMFPYZvyrXl6EB8mDyrDGkdXWTukLIBwJoFLVRdlyG_TfMzpHOlmaz6SPOL82tPoj97sVQDsWHw_WPfFl6AwlGQVbhOaKw8vM54xj1SE8uIn0r8R79OXpeYJrO_8vOvZVx2Xoky27b5sb5rYIazD4tb1GphbY_cAPk7GWDdNZqKbELqZnOV8mSaDl9rsGcWFPSlNX9GG67SXNLOx3Qeyq6f2jLXz9W_hmv595TkbKLOd38wQ7q3J8uBMjNosqr-H4nCgKxdjCP_BlsTWWgt-L13HDMprtQy_cUEEK8ruSVNALOyOulA5mJhoA1_v_bLNua0wqoVVzC2MmDSrgy_TbvDVs1L1V0DfKozeqTVFen-0tbNB-17nqnWmyMHqCq97OVSprJsiTisRmk2a_dGdneTQmQ037Pe-m3hmjCq6nrPtqsLYDJsoaYIoo0PhI__s4RUwX3LhPyZdsCQo3hVWM2WIDvugKerZpWnmSjMlsKLWaiL4ybCt4rxzSMZXe1pE5wudNWDnWjzHKq8SILEi1TZyNm58-twq0rSGf-l18vPoyZ0h3HubXeXFH6ltNwj8_3mnlI-6wBdXQx29WOv2X8ph2BAf9MsYD5K-iEMzTgZ_qd75avHTrMgo3fjv2dELykfriaFkhBvIBbEVN0JwBSXY7I4E5-r7f_ufnfkYYDdDlmARY8gAfq-J1mSA0w-Tg_an-kxZe_adsuHoJ9pv35cdG8ZbL1F-vwXRuIcHdiLLn8BXs9ZoGEwMYMvcw2hcQj4cIbs2fBY9UrdVVJ9A4-Wg8_v_wZ4p0QxLXEu_njIFi63neOVIcku60Woto0k15GTmWNmcrggjbN4x7quI2jeWfTAkDxll1svcdl_bHOtdKUPFPsA4BhcflTFIkoJTqazknW_AIMEClv-VRjvExh5R6cerqkDgqUBC85hlS_vwBLrcDlCd2uWc0-umSaOSel1aphsso__h9wGMJkzMbVoRhvrLrNI07HX3T-Whk6V5x6ws2U9xNsvwGbEXCT_XcJ7hI_QUXYO7OYWlwfOxX_IIMccYTMR9JHKPnPwD5B_eAiY7RRTFDLI0IuW6Lyus_VkthFwq0-VHsK0AMToYqDuO__AD8G1EdorAQHfZ72GxWVTEt2BOu0YsxJujO_kOc-DlO9zLjdhiFwHyfbi0VNd2R3Q0Ip0RkZODZT22nbDSD5BaL8zFLYT1JVr9Qzj3woPWI9Sqyig8lKb2Ktl1rRv3b0JpRcsDcaZpAYUaxIabNpV0VODNbkJ_BgCobsXDuf52G4UMltBevk0KkZEajPuUiDLYhcyvElB6bTpmzmRo3NqV9gp2jktNGer5zyZNxqa3zklCXRp-9CpsNYeajYNRiDyj6n5yvMXTnUgHY2D1xD8GLfNF5t3IgaLiR_HuJFLxly7OBF1dSd3P2baQg0r_zVEzDqkj4WUyPaVf-B6flTTpFZDDy0Q2dkIxn4MH4cf-7JYKJXdgW4TMMWWpkbAt6WisJq7HnWBNK6svvetVhLGAwjHtivIGhD9ocH7XgCSJUuYsGCzYjrmn6j6qNCVWgfrY63aGtUEGvksrPsxEx79hi6VKvlYanF4YmXSWbV0Pd7RgYixrF1kagHKui92bl8j6HE9XeypnDZ9KO31imIj7AMaCP-ObpmCcYn6HFAj-5nCcf7W5K4paUpJROx6nNmd-jd2vbKvmKZ3gdYTzYwzU8ByIgMX4iaReeHyOI46k3LYmqMuTSh6a2iUhwqCBUqQ9L1sr_kowLTkViZFowpKEdAP7JqGg67oOhGo93lfh2ve6ttfkWTK5sz6ubtGKgDe5qYW657lBe05mtEDZSe0NNsfp5jBzhqlfZ5gguKKRmbK0INoU783F-59AlmkErYcuEP6Otsl2L0HsHUL_3lAkGmWTWs92dIrxBE8qSIlwgghJjtFbaDxMS03b0R6j9yTNqnUCq8-0wZ5-sFtBRwzhy77iqyqa8CIfmListjlG0o4N4AUTiSHjzDTzNnxtB5m9Znp17Oft-y-j-Q1Jnn-kQzwGLop5-5diewUuZjSEULqW0F4rrQF-BqhmWDVjXd2KgAWOQVHu61f6t5PRoRqP9xv63PfsJZVPdFcqjzApTe1tDSOASKK9_zucHLWzi_yxFwuJCYOxb1-zu17JLeZjPt-hvpF-pNd8F_xzJOE1TRmBWZPq6YwYEajUhM26n6nbzxntPwdfVbcBORy4zrkh3Z-FKYd4wEayX0lvHy5fDEQSzuStpbgbqXUr12TBZWyUqkqloGs1htThjyKDxsqqEkhy-1wpxwgsbJFOULDurRmozWEtHS_sXoOOco7iTjkK8XeqqHkD4eC9RbgeuVRIfYPrJ7UqEhaCt02tZ8SZbhYFTK4SyYwpAeCk77steJKs8OETabPSQa62I0u4952XBrUmH2dVCCnZofjgD7ldGAhZz2ubdgslS2teCQ4zZzJC2uEwaU7L_inMGVSYFKX6ux9F_g3RYyD1ZE6wz-6ZMm3RLJhlG7kUgSYaAh6xOCks2T9cmsA2e0t1Wgo9luOb1AbHTS3wC8joVl2Mzt3YACjFrkYLDFJ7xHqT1pgWt3LHLx4m-DjiZxUHOqozSz1uQ4Risb3pWP7mdhuqmDEahKJwfOCDFTFrY1s-sKXeSh97IzyRPknhiymG3FoEw5jXyqyXdowOLwPZ1Jmg9WxRP88tSCZhUXqLB0bI69fTL5bpeNaC4XGGKnR82saoEDc7tF2enT7QokBOdycJS0RtqqdTh2Ld8Egs9rOsRk4NnHYVd9Dtnnhb5aAmVEzA5IT9a597kLLMi-_7ryfX1ZDJnstwBwKJo21GHDcb0Lx1_r_enRb91nU_mYHuGEAg1rNd6YBkY5KaZFITbeMeGryrZe7ah2pWNWnqGCYiv_0SzKZDnf_m0J14NqIGbiP8oKh3STVQa_NqY_-hX9Zpoh_-ScZaKxg9AO9t5SB5q0762Qd2sPfpO0TUp2vNqtP4n1mU3FVP459a8iQdkXCFQ89IK8449o_d2IqeFo6VB8eTt2BxFeDR8HXgFeq5Bt_shN4edWN0vtX1YNSs77hn0QHqh4IMaYw-hhhcJZvg172ZT4IXfuReK1q1rUjr8NVU24X2Gf-CXnLNNdo43TaA96-UUSRv0TMs9V8sJtTD6P69EHkChBES9vpzXjgiu5gkmj7uQW-NeMkWRSIWp6KIAifF3HkaxfKkfD7Dvbfq_i12HGe-8_SwPZSOl1VfICRK72pjiFoZxcAzjNiTu4k_7qSH59RBvcBb7Iq_rmSDzoNXIvgn7kFOO7GlpvlRQxX9pZkx5WgyF2ycu8DgQP6xsJe9cBY1hpgf_kPqKt7b3WaP052BxnOAgkqOYzsNIYmyzTof_25F5bAvuuj-2HUBhyBwKNS2iXv8a29KlcAAHc7wBaUAFEYqeSZav-aWmuBENW_GKHFHyWnL_mPAc8ZozBiJsCZKH-EDwEWCvTN99B8XcRRsfRG02bSsuWWJlenPFZcErxdRTLGte5mb11izJTr0_ulDTePzxm2OD3zjFnAM34HSvPLOoZjwXqI4tZepYThGlGy8RT1rsK9pwsYRp2Rt8TjXoLHgsuSUpSpBsZdwO8kjS_Te-7YieLogkpe14D5VSMJcIw_IwKArw0nCi143Gfg22BKgmcz9rr0LtNH-2wYDQlqUukpc8__UwXaoG55EIclF9ybWpQ6bEx3w82Tb15a0wjlwaUxylyBH2z2ddBgN-QXXhWQ-9Qg7iXN09Fz4wmRE3MVM4XiSEW76G0mrDyCj2BWk6nhGEFy5pSuetuUaETqpLhFW4z_viTpbMPbMlZ2nTUVJAo6lUgnqo8T5mwaRrdNQztjfOPGca7vCUQPyM0AE-JTY0o_pLwp8mqg1WndIJlVFoWgAyMG5gnSx-byVTt9MRMOmonLHuyDRxlAhu325qqgwMJkjjPNJD0q4uumjMyHrwZokvoIOqnt4RKZSeefeYESv2ARK4Qq9-Wj0eYRRJPPUYav0RhTTbXkmSivdwBm011ijjnCOkhEv7G015ObPdsVsbNg0XkbLBCVIYo1MkPIMWW8e7Il7TdGlp4anij1Qp8yNBMuUp6J7wUEerehK_7A75SGvK-RNJov6zDUITCYr_YNRr85SWA7iSUN8CqEDP8HeAY4h22lEWMpnjbWYjPSpK2YDfSKv9RnNTwe7hwBR9mhOCcJ7IuIBVmTArWB3tihEzN1f_5VGRiQrRKG53tIf0QYt56YP4-1iKBqREyiThH10Nj7qywc79f4hhz3ExA2xvffcVIYpR_5-KExFN_b1bVIvyMGOO05DN8bPJ54eLIA6nTNcQjOCoxhK6lmgRt0InmUeDvnC2JG_Ie4-WZinnQXzbEmkIFtQK1GZtvJ0ZMhg5kBJnBnwTz8XCxbW1wfQU4Z8P0iHs_rl2hvAP3nLa0EDnh2KHK27uWRm8LYpOwSvuymVNn5FHMPwVXNKKVJcfCQw9C9YK43sCbLBDQ0jyBDjCeTRmzh4nBrvVYuA7lkS2BpKgR6STPPh1vjhXd5UKu9ABpuz5Tjif6Cek4To63K0MsxZ650iso65syt60ySkKIftO-mb5mVSWlytZBw6YjeEo643y7fneUL3-YOWUILZQ3JScURvpqhb7_ch7jRW4KBwCMgT0u1X7d-48EUKJ7oqWXn6eYl4b9iMivCPAJaz-JAK8TJDtFCHqdkeXvAi8YrooNjhs793Ux88jLNE6MPThc5FuNizovahwRPwg1FUDJK2Y4Qr9DzYBATznEQRVw6IT2ltEADxBfcj5gkW7mrqyUPpVaF_Plm-fZWaY8LJIYDejnEa1ZFNts8XV5JIG9GKieLaPVPnT-UmTNgJlFZhGxx4rKnHIYeMI8Uwdz1BEIG8mX7XYc2ndPQ8QwYUVs640wh7YRyGPm92EsurlxyebW3dMAn2uoizBSd55d9cVgimk0_3LA1XJ57qXRxlbh6hrHot5haUSiTjragjrRBaOmWV9XusM1Np6ZnnbrxRdGinqc3Oi5ApiBMjl9wWnEpw6Tr8ULr2ulhvYlWmdaej8rLOdJkX31vuEmDa5mrKo-w_uysW1i18xksQNV5oW4baJB3MJelUuep0q6S8aTm-3MqOK6kzX927cUALHMmXSkeHZOYwkJZZNzjaq_gpBnjTgRJ4cOyOJyKJFQYbB_Vuz9m12QAS51G6n0bCZSCqB5SR6H3gTswkVfqrYm-hviX2tUNrLU2CGisNukvqho1-THQ9HLdEB_a8uMyDCFL3yOqERZAa9eIwKlWBQD9RBCAy5PhpGpI4OzI0yAeH5ltuMHpF7GxrzCOjejSkGwohJYTiH4hp3oTMSFnuKjCxBDK8oq9YCyheJlOTf_WAke4uRuO_DBcnSnHZQs-ZhyYUPYCZWWhULACZOBGd7RtuA6Dtzng52IxP8_KaJgfDJVAAe7lwf6pI5om_WcPyZsA8rhlWhpkl6BmDI2WmlholdXx3G2_XOZo03tyt0UOsX5ulg4vah_nddzf_CBGQ2MGZgCZFDlldqbqxVqxOtV0Mr3SupTctuUq6Dw7ALKL2q9VMsQ16VDmaLeqbZb2LnrYZWIhvSawJFLxPfFF-6hc9JH_T1Y0JvcO1CPqZPlSbbZ8n8lqtI1vAuTrYchArXcPXcwhtlH1O4sQsc4vIXiFYVww__1DtaDJjYj8d1iuJ8SO7fC3Ni4bnyG9UmqtWx0o1hfsdMnZHWu6k4djY1aCBinRKCBypuG9dctSat9--BstVZeyosO-mIAFzOucKwaL3yG7EikQ8eCJURyhW0BIr_Eei_R32QRFD4-nqM2ATYMR7ys5_wN7CZPVt4oCzkKltqxvB_TMIR112-IEJUzb4Rd3OqdbNBGsqvg227Q4lWdUBVZ_czFv132wf8OfZ5WXyNd_j1mfWaa0ZjiLq6oM4OsHSlL6wtFe8AJ2QbYKE9bW-XL_glxpgwwuaDymM6xA7OolGjt9NG4XAeloKQ5rPg69l4TguJzVvQDQioInZzjbmOrJ9YwcqpJIb7SxVCj03cxw81rGXcV5NEr7BRfRcE02kPpB_cON8Gpfgj_wFgzqBVgw5jZEjOm0dQuHRUMxHq7YiYTNlv01EmL80Z8rZkFQtkHYlfy2Ex2AbQ8ecvDXeo1WlvNNehCiekNZjDyTEyeHp3s8i_YIPMzZR5AR2evRLv7xu1TKRm530KtdcueoSMPNbSG-Nqfn4xeL7z6xMnEOl1MrN_GlFy48Kjn9jPpCfbykJJwl9X4pTN4Ae8hUp7jHTH5RAW2XkQlPOC6f78c_2CZJzR8GhFdk0Yo3bXT9sVINTHj-O3hBB5erifXaZUbgZSOj0FCs9hh8ckFFm4N0sGl8JDe0IeNwGRvO5waK5eqcM8Pgb_IcBaOlibTPzHa4wBfGCUgWi5mDK8_7FAfgeSigyyskiOQsIZAmAGdkuBXPzzb0vqsBPcQVqEaOXicT1wufCgBPc9J7TjNTnD2tNy9Z5509i0Plk2TWOvw6DlJJCQlZiVy87uky83KV3ebdvZSRevjyd8x9qPp41pM1sERudClS5bpQnp2eW9EQuCnQtjJLJ2bODImmGTJyV9HseaDM47GJGB50viK_Oa5eORcA4jBVFugvBD4SGIxAGmVT3osDBaFL8_U8R9fWxxu7cI9B6NgviFzNsLH35HcsGcK2qiB6uQz0t3yu3Xz9nh2uNIkZITKtk0-X_H0xNPcAaLLgmKRMSAXA6uq3rNCWki9JWeL_YHcNK8FeGh7cYWu1_Sf10LL83uK3mMfpcjEmaQm-lb-fBnFV-hPBAU2ro1PFDJWqUa4JNoTCTQxE2kOpcBZ_J6BtweM8sIy_ARAzZ3WiNfLR2d8esmjExGKw6PH-g3haM5zzvSIhFrc2kVn5R01lkLRAHzZAiLy6GlGarMvmTHruP5b8JO2m2CnjYb94Cg7kGCgx9_nnvB29K12AfCIGpQL1KQzX7bRcWnlPln2N31o9NoDb8c-8CsIpJ5NKbA1PGqi-61EjsZMaHDqgNhAWc8lJ_0Yull9cYGeypo1T1rk2RrMOWLGoFHBBLl2tJIOsPe3aeW6X2yY36lgPVP-ybMkCOQSdUmvSrQUFGPLf0Ic7zoAJ9Hfm5z21LLb0oidCJnmtSDtYXUVKed7DJoPU0NBEZGNFbptS7n-qvP2FHwYEowTn8YTnjNHP9YN58XVLE1RtbDzWjCWn7xrFPFT9-PX_LaQS2bLszsCjjgJwxgIkppxeut9qvL_kzSJWW5eUAZP0n1G6itynoIIkxhGh9MLKHMhphZz0tMDQiuBBxwMWST8fk9aXee6oAiEIHlu_Dk4JL4GEfA0ELFNTKXLGFiLc8oI4ezrt9VLGq_WADWtg5YGZ9cUFEeAx9VHXJYhqInR_6635eccEjRknXBN9mvCygPejVDjpnTsZv2EClNndKZEZtLiG6zDDpIkjQAMbjN7SdiC34cNp-ntihIWkNXPa3z1WCo4EIE8SJ7w4O0VqiC1snmpttIew5vojbOcgTaqxWLrOcwIej9igeJ9AUBJDjB7PplzsOK-ZExoDrEp3Ma_cut1GX2_R1KLfbaKLNkbtst0NphJwLNa-dFOT2WogWDvkYIu6E268mMTPt3vqFdvRsbDDRYWcGfm0FkVKKxmNPH1W0QHLm6N-MOu_1GUbRnfaPFWj3CSl9C0htNJM3XrYrw_xbGh5v5a3A3V5txFlWpjQzBQVCPwXiB4T9gAEyuy76_IZ28LmE0gq4lB9AhflllA3mdJ194-SOUW1n0Wrklsb7zgp025PlrBi9tm3v41cLJzFqIfNeTgQ5mAKkvDkkLRAWeUWt0ngPNKXqes87ef7W7j8fjVUyGj2Lg5znZidX_7fd6c5XZPSKGgO4teghNNUu_4_dYL--vmW6nYNWFcF11dceO8LAEPDPV58ZSp3cfRBmw3UKzEwLmfe7TboDBYXgmQWbMYyulLUCZ7cdGkUcj5rf8Fi_mfY5NMhrn93nuwbylmuh7Hgrjr-e-kk4P77xQZqxPoaJot07AKXB_0DEzSZjenx1SFuU2zXzcii4XiHLeUh5Az9dFNdq5Z_GdM0or_wxFpASDLvAIrEfYaIbqRD6zrCkPc2nvNu6tStflaV0--tTk0lMBYXdWwNQFzovtFm5d6hrR8yvLy4mGoGLnA-Eoy6YluvmPi95kWZfhDILKD7QngpKc0SRjVurDoAfaqogEgJEftdadS0FmUjpGelksNRE7BlSUtOBeqzxtWlUmyphnRv_TO-YM3YwBXiVZwv71geWwbtI8guhCrBCSI7dsxddAohUhr_uXQumOKO5h4D6o9EUambTLPx0k9smgeferw-tTSubcOdKSk-ph8sO0PVJ3OvveOHPcdYby6yTVFlqEmzX_elYcXq9LBmjkiajL3mxuj_hJl1dO0THqUrO4Pq8Yu3Jeq2_yWDjvAhwLi-CwmLoLTBRc4pGy8FJU7hZllu0HkTl7je3--kv15umzQMt-_OBdKSke2_2Qe4ilZ3BmO2S2lkCNGrso9Q79F-5wmRqwMqX47LditFnUODzTciMqExrD0I36Dweuci1yWQ57lLFfbaoEuF4fl43M-4dzDPICYMbLbHe7E4YcUcsdJx9ibRWcLRHolF-GDJdkxWCAxTjPMPpnCo9pDmQTWny59FWI3Dh7mZGS0Afm8MoV7fXhGpByIaeKynFqYphlq_nLp1mkLp08EnSYgGSFcYg54m-hg3mzvx2vuhqkNy0CHLYwfy9O8wajv8ZG694EjjKedv3Dn7hEoRUYAY2Zrj-dNKGwrA5wO7w21mCjnHAfGTZHBI4q7pn8krBzPa2cc3Ct-wQgidMfCbpe16fQm_PgMXeEUe8tanVZaQfBxgAEjXl1UAFGl8Fi8RPkwZ4fpPaSc1uaXm9X-0W9Vez_-KpGDWKl82-XkXGzim3TRGisDi6pmCQD7Vv91rYR_66ZtUH7t2gbYCqbOwL3MdJz-xX7gMxwVpIlQHj1ZKobGFdDWZpP2ob8nhiVj_XgzBvSM26gpFeaP0HMLrJzU4yhWWvq4SeMdXXPP9pM_V866rJSHIzIhYHNCrkE3c-pK4PljKiewcXVKhxEacVripBcaHrNrsYIqK9iGoFdee_SiYyULP61mwnG-dJNhlkkxXbXURDDOXVj8T5Q_AbQBvrcMV6uSZQ2ie6Le0aAiJxKKdmdPvAomVt7qDjYwc5a0OvhBAvMjW_0rQsPbSzSdCiG4YwBHA3W6HrQKvXi6txXgCuWbxXL2PGOmUQ1RWbryEi-T12uW6fJPEafZHjmUxZb5Ey4vNEGzoy4n4hGh9cpfs1EqK_yFQ--yW-PFSeaWOQ3lnSRTRPdwfbMpAYY-Md_JCB4o20bfM4knvy9tSsxnxlW-wSAkObht2cnkSH87oL38EFJbTGIlbh6bKU5uy2rpNXfSwuHhxXif1eTHojZkbOld7_vM6fdPTqZApIEAv4xEloWD_-BJkknwx6E-ZQz4Wt4gyDO4-foG-7RyMEY3YQnOHmL3cQsKcOgw7onVaon2tV--vEuMWEVqJKevpRYulvnALXxIvs8XYmnUbywI08T0-376PCoHrmAZ9_iomFvc7QKD5SvSu2uUQmwNJCzMTcxiLBsdpXmGpBKLEpW5RbcbrnUQ3As6fODYqwxRD4RTPJsUKZZhKshlN-fA-LgoKf_VwCOt_Lz-93hO2s82aisYD9YrpJgbqnK7aH6Hun4Uv9xE89cjYvX1gvufYGHhFA4wDWc32cfptolHuJhnGfAAGRePpYvw57fItcvi6BrcR_LSYXIy550TxryCX1kt6AqULS1JU78Ew6afU-ueTwC5fnCR-46Go1CmWPkwDMeGXU08n2WbCoUs8dlAyX-r_B4kuIY-UF6BKOdQvITde6HK6aNGm6_hLZNq0jxuS0Qg16XlhR8KE_MTbaJucKIgE7f2D9rhbb1mU-UVuOtP-CdUT0oM2mY4SfTU1Z_YzmCDcQpfJ4ELpx0tSdlM6EPBC6zglfNmjHqPoBCOpp2x0sHn1IJ2DNXH7aRUf9uFetb2b63IuFWv1ClGLlFpEjlPoy7uTAsnhetR-2MaLynLhxQuXfUWBbtQrfgasvcf2HQlIQiPUwGvWeIQMrWni491Z5t2H6LSenuodjjC6SC_CYYXL2tb2bk8DSzQH9tZrCaSpFBe5vv8GNRNv3uKNeBWSh2W81197OxRu6rOcH5l2w3-nv9ar2qvy2poJ2TeBN4QwIeKtR1WyZzadJ3u2KlwwEZdKolj46CMvH1612h-1uuMfLtv90b6uqTRUHPqAO9hb453yEenwIupyiIrLnCFmimldCEJNAIQ0cGGPKgwF13RQIJ2NsqUOgPLjSOaRfLgfWEJ4IuJKJ1AKHgzp8n4PZfjaTmqmuj-aKyoIzNc9ZZQngItjJPgRAWByMZEt-5gD_1_xgO_zFuaF8JC2FJoWHLn6UXkkWVbysrf20fRZim0PYlG-z7rvi_Y-D7xLmnbcUwEmVPSl-UUjXPJtLiQuXeAX6BamUqbwNh1XJQhU_q_4IxYYxx8G7xeBhxvXFEhOjYlwz3-fbeIWGD5J2wT2uKRFKkIco7Sb42OxZEXSF_xFqPN5Vq_Mdp5LCAttEhp-LcKBjlOWBOT4zrDfuzDh_-yXaC36uneOoDGZAC_UA_kWWNwBIoz_mFc_UlahuSB1z6bBFs8pMFMnY9cPikhn0_EAkQJD0cuYN0f_hgAuId1zzN6UsVar-beNOYwTshyHjGlWBen7IpkmqeT8wQTwnSFnj5IU0O2qfdFj9j3arayV6qdvztVLfIkYOdhbljoGo5KWig6SlK-cUuGhzUPQJxR8RGU5BA7MbkicLOFaB45OEhtDZbj6xVYI9o_nJdqebFcmPQosI28VbFzVQre7cF53VWp4yIwWO6eUr0GHI7RBxMvR0w1mc4-U_49RssWU0FSqdWmi20x5qDQgEOk9H3quYb_9__Y73Tc679-aZzsTDfKnf3q5tuvp-WBa4zZaolu_aWH-9M6uSL00AGKNoLBCZE-fUiJoBiRUmrKGWh9-ccCc2QoQeN5efsxaCAUfWeRVN9fvb6Qh1AjoNdACl4ypING-B9rnKQFcwcS9Yu81X2UgAj4RhHH0ll7WYB8SD6DDuX8SLQsgcjVdoolKYjPDNW4xH5msPlo4mojRRpGf_dCVtif83dJ1yVFeDSv-HhUB8XLpagxQ7mS8twXNGVIdEXIaM4ueGNidy1Dtuzmr0VhVdHjCAIQdTojIf-LbBs7s6kaRGPvpl9QtZmdY3vHP-Qq9M58xFy-ELgN1FEmHBHdlGHdP3y09e0LqmzMtPHeil4PWrs7H7YF7CYf0j7SiVYlZi649DZr-3GvwM1NKYEz1yaAke4InuagrdVgPpMUdYAfws-R-tjpGlH5LmR2i0Arzm_uXWCstwml72C7kYS8dNZfaYy6dKhuhN6dN9lJKy8GuXTdXnhUW1uYt8ElYneOMUxUDg5bl1VVqP6ejpX95OpqqCHvHV4yYx5URIRXzAYiv_05qi3uIrhykE7zXQ6wMj5J2WmGcZqNROjNT2HuHuzZY7jyk1IRHktbmxXUq8DRR13JJsodVgnxRsOus2RVCGodDAZFx_CqUBp8hIVzXZkYasJ4IGOA8gggV8QW14QIufldkCgUgwwgb58fpf9op3FqEPVOYpn5Wk7KwtU1c3kV-18ja8S8MpxGKKcgg4SYb3qhC8ovqQJUtZsX37mc0a-CnA2GBIDg3mA2kKYaH7m4iXQCsrRQ56dhrkrjIIF7Gobr6NkMSp-GYthAo3tsC9Hd3uzblHeH6QiS9693PxejIQQRL7E8PCGeX3ycFtM7VKylK6lQtMOleUtubBcFXAL7Df0ojREC5QjwvpG2RVHANNbYeiJ6frFVIyL7YHaUheIUzrALjLTDk1n-zn_0xaZVJCUGskBFIs_kTljS-ZC86HNZpuK9Yq4W5pe7Us96TLg4iUsi3qkdeUVHY4JPwAr39xE2FQp5Bv2qSZCu7VIAVY7oGQ4KU37PJ0O04ql1GBQs3KQkVpd1ae3zHDF70m1cd38SW6bMMohhCyXh5nD832mx4gg7v39ali32zLy7qdXGiMs8rsgnVVwhcgJ9bedG_Z0HWkwhU5rdtyrXS3133oXjg",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "IrtqabDhDsCDz7IPqYbYmAs",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 7694,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 151779,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 151446
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 333
+        }
+      ],
+      "thoughts_token_count": 3024,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 162497,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 32,
+          "description": "Zoom interface shows black screens with names 'asayvio' and 'Victor Miene'. Victor is visible on camera adjusting his hat."
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "view_change",
+          "duration_seconds": 4,
+          "description": "The name 'asayvio' changes to 'major.cartwright.clancy'."
+        },
+        {
+          "offset_seconds": 37,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hello?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 43,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Can... Can you hear me? Are you there?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 57,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "The name 'major.cartwright.clancy' changes to 'Diontai'."
+        },
+        {
+          "offset_seconds": 60,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Hello? Um, are you there? Can you hear me?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hello?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 108,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Um, hi.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Hello, hello."
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "So, my name is Victor and I'm your tutor for today.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 117,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I wasn't doing nothing..."
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Just tell me to stop talking... Worry about yourself."
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 127,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Where's my pencil?"
+        },
+        {
+          "offset_seconds": 130,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Hello? Yeah, I hear you. Um, how... how do you pronounce your name?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 134,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "Khan Academy - Negative fractions on the number line",
+          "details": "Student starts screen sharing Khan Academy."
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Chrome",
+          "to_app": "Zoom",
+          "details": "Student switches back to the Zoom application window. Camera turns on briefly showing the student adjusting headset."
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "x": 36,
+          "y": 863,
+          "details": "Clicks the Annotation pencil icon in Zoom."
+        },
+        {
+          "offset_seconds": 153,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share content goes black or is paused."
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Diontai.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 155,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oh, Diontai. Um, my name is Victor.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 159,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "click",
+          "target_desc": "annotation colors",
+          "details": "Student clicks through various annotation colors (pink, yellow, green, blue)."
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "And I'm your tutor for today.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 201,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 201,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "tool": "pen",
+          "target_desc": "screen",
+          "details": "Student draws a blue squiggle on the screen."
+        },
+        {
+          "offset_seconds": 202,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay. Yeah.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "Khan Academy",
+          "details": "Switches back to the Khan Academy tab."
+        },
+        {
+          "offset_seconds": 205,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "A B C D..."
+        },
+        {
+          "offset_seconds": 207,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um... Are you... are you guys working on Khan today too? Oh yeah, I see.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 214,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "How's your... how's your... how's your day going by the way?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 221,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Day, how is your day going?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 223,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Mm, fine. Um, I had a class some moments ago and... right now I'm working. I'd say pretty good.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 230,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "14... 10 plus 14..."
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Yeah. So, we're supposed to be working on number lines today.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "14",
+          "details": "Student types '14' into the answer box."
+        },
+        {
+          "offset_seconds": 245,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "You said 14... 10 plus 14."
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "delete",
+          "text": "14",
+          "details": "Student deletes '14'."
+        },
+        {
+          "offset_seconds": 252,
+          "event_type": "keyboard",
+          "duration_seconds": 3,
+          "action": "type",
+          "text": "-1/1",
+          "details": "Student types '-1/1'."
+        },
+        {
+          "offset_seconds": 254,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "24?"
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks Check. Result: 'Not quite!'."
+        },
+        {
+          "offset_seconds": 258,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Uh, that is not a fraction.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "No."
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Who loves to cuss?"
+        },
+        {
+          "offset_seconds": 314,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Nobody."
+        },
+        {
+          "offset_seconds": 316,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "I know you were cussing."
+        },
+        {
+          "offset_seconds": 337,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Chrome",
+          "to_app": "Zoom",
+          "details": "Student switches to the Zoom window."
+        },
+        {
+          "offset_seconds": 338,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Camera view of student appears. He gestures 'shhh' or adjusts his audio."
+        },
+        {
+          "offset_seconds": 345,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Um, Diontai, if you can hear me I'll be back... let me say hi to the... the other student. I'll be with you in a sec.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 353,
+          "event_type": "inactivity",
+          "duration_seconds": 25,
+          "description": "Student sits quietly, looking around, waiting."
+        },
+        {
+          "offset_seconds": 418,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "What? I missed that again?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 420,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, if you can... if you can hear me I'll be back in a sec. Do you know how to do the question?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 424,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Yeah I know how to do it.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 427,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Uh let me... let me see. Cause...",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 429,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Let me see what your answer is.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 433,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "Khan Academy",
+          "details": "Switch back to Khan Academy."
+        },
+        {
+          "offset_seconds": 434,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "drag",
+          "target_desc": "problem text",
+          "details": "Student highlights the text 'Look at the number line below. What point is marked on the number line?'"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "details": "Opens a new tab (Ctrl+T)."
+        },
+        {
+          "offset_seconds": 443,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "tab",
+          "details": "Clicks back to the Khan Academy tab."
+        },
+        {
+          "offset_seconds": 447,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "student",
+          "text": "So if that is zero... then negative...",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 447,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "hover",
+          "target_desc": "number line",
+          "details": "Moves cursor over the tick marks on the number line between -1 and 0."
+        },
+        {
+          "offset_seconds": 450,
+          "event_type": "keyboard",
+          "duration_seconds": 4,
+          "action": "type",
+          "text": "-1/1",
+          "details": "Types '-1/1' again."
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks Check. Result: 'Not quite yet...'."
+        },
+        {
+          "offset_seconds": 459,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, so... um it's okay if you... you're not getting it right at first.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 505,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "What you need to know, you can check from zero. From zero to one, they are like... you can count the number of... vertical lines there are.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 513,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "student",
+          "text": "One, two, three, four, five, six.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 513,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "target_desc": "tick marks",
+          "details": "Moves cursor along the tick marks from 0 to 1, counting them."
+        },
+        {
+          "offset_seconds": 518,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah, so you see that there are six.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 521,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "And the width of... the... the line from zero to one is like... one.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, so you have to divide one by six places.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Five?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 536,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "If you divide one by six... no it's six, not five. I thought it was five too but when I counted it, it was six.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 545,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "So... when you divide one by six places you get... 0.16666... that's like 0.167.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 553,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "So for every time you move... to the left or to the right, you are going to be adding either positive 0.16 or negative 0.16.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 606,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 9,
+          "speaker_label": "tutor",
+          "text": "In this case you are moving to the left... from negative one. So you're supposed to have negative one...",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 618,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "-0/16",
+          "details": "Student types '-0/16'."
+        },
+        {
+          "offset_seconds": 620,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "And they said your answer should be a fraction. So that's something else.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 629,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 9,
+          "speaker_label": "tutor",
+          "text": "Your answer should be a fraction, so anytime you move to the left you're supposed to have one over six... minus one over six instead of 0.16.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 642,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So for this one, you have negative one... since you were on negative one.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 648,
+          "event_type": "keyboard",
+          "duration_seconds": 3,
+          "action": "type",
+          "text": "-0/1",
+          "details": "Student clears field and types '-0/1'."
+        },
+        {
+          "offset_seconds": 653,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Instead of zero, you can remove the zero.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 656,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me Diontai?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 658,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah I can hear you.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 700,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "Uh, okay. So, what I'm saying is that you were at negative one and you're moving to the left. So you're supposed to add... for every time you go to the left you're supposed to add like a negative one over six.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 713,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "0/1",
+          "details": "Student types '0/1'."
+        },
+        {
+          "offset_seconds": 718,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oh, no no no no. That's still not it.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 723,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Let me... let me see if I can pull up my whiteboard.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 728,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share changes. Tutor shares a white screen (whiteboard)."
+        },
+        {
+          "offset_seconds": 730,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you see my whiteboard?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 733,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yes.",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 735,
+          "event_type": "drawing",
+          "duration_seconds": 15,
+          "tool": "pen",
+          "target_desc": "whiteboard",
+          "details": "Tutor draws a horizontal line segment, adds marks for '-1' and writes '-1/6' (or similar math notation)."
+        },
+        {
+          "offset_seconds": 753,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "It's going to give you negative one... then one by six.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 755,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "whiteboard",
+          "details": "Tutor writes '-1 1/6'."
+        },
+        {
+          "offset_seconds": 802,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Yeah. So this is how it works.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 808,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Each movement is worth one over six... in this case.",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 814,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Do you want to... try that out?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 820,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Why the breakout rooms closing already?",
+          "speaker_name": "Diontai"
+        },
+        {
+          "offset_seconds": 823,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Do you guys have to leave?",
+          "speaker_name": "Victor Miene"
+        },
+        {
+          "offset_seconds": 825,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "A B C D E F G..."
+        },
+        {
+          "offset_seconds": 833,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Breakout room closes or session ends."
+        }
+      ]
+    }
+  }
+]

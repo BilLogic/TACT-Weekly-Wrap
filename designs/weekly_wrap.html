@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Wrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/weekly_wrap.css">
+</head>
+
+<body class="style-spaced">
+
+    <div class="controls">
+        <div>
+            <label>Tutor</label>
+            <select id="tutor-select"></select>
+        </div>
+        <div class="style-toggle">
+            <button id="btn-spaced" class="active" onclick="setStyle('spaced')">Spaced</button>
+            <button id="btn-compact" onclick="setStyle('compact')">Compact</button>
+        </div>
+    </div>
+
+    <div class="main-wrap">
+        <div class="email-wrap">
+
+            <!-- SPACED HERO -->
+            <div class="card hero-card spaced-only">
+                <div class="week-label" id="week-dates">Loading...</div>
+                <h1 class="greeting" id="greeting-spaced">Loading...</h1>
+                <p class="subtitle">Here's what you accomplished with your students.</p>
+            </div>
+
+            <!-- COMPACT HERO -->
+            <div class="card hero-card compact-only">
+                <div class="brand-row">
+                    <div class="brand">➕ PLUS Weekly Wrap</div>
+                    <div class="session-badge" id="session-badge">📹 Based on 0 recordings</div>
+                </div>
+                <div class="hero-layout">
+                    <div class="hero-text">
+                        <h1 class="greeting" id="greeting-compact">Loading...</h1>
+                        <p class="week" id="week-compact">—</p>
+                        <div class="archetype" id="archetype-badge">— Loading</div>
+                    </div>
+                    <div class="hero-stat" data-tip="Praise count from transcripts">
+                        <span class="hero-stat-num" id="hero-praise">0</span>
+                        <span class="hero-stat-label">Praise<br>moments</span>
+                    </div>
+                </div>
+                <div class="mini-stats">
+                    <div class="mini-stat" data-tip="Zoom session count">
+                        <div class="mini-stat-num" id="mini-sessions">0</div>
+                        <div class="mini-stat-label">Sessions</div>
+                    </div>
+                    <div class="mini-stat" data-tip="Unique students">
+                        <div class="mini-stat-num" id="mini-students">0</div>
+                        <div class="mini-stat-label">Students</div>
+                    </div>
+                    <div class="mini-stat" data-tip="Total minutes">
+                        <div class="mini-stat-num" id="mini-minutes">0</div>
+                        <div class="mini-stat-label">Minutes</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SPACED CIRCLES -->
+            <div class="card spaced-only">
+                <div class="section-label">Your Week at a Glance</div>
+                <div class="circles-wrap" id="circles-container"></div>
+            </div>
+
+            <!-- TUTORING STYLE (Both) -->
+            <div class="card">
+                <div class="section-label spaced-only">Your Tutoring Style</div>
+
+                <div class="ratio-block spaced-only">
+                    <div class="ratio-header">
+                        <div>
+                            <div
+                                style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-subtle); margin-bottom: 6px;">
+                                Who's doing the talking?</div>
+                            <div class="ratio-value" data-tip="Transcript speaker duration">
+                                <span id="ratio-tutor">0</span>% You / <span
+                                    style="font-weight: 400; color: var(--ink-muted); font-size: 14px;"><span
+                                        id="ratio-student">0</span>% Student</span>
+                            </div>
+                        </div>
+                        <span id="talk-badge" class="badge badge-green">—</span>
+                    </div>
+                    <div class="ratio-bar">
+                        <div class="ratio-fill" id="ratio-bar" style="width: 50%;"></div>
+                    </div>
+                </div>
+
+                <div class="think-block spaced-only">
+                    <div>
+                        <div
+                            style="font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-subtle); margin-bottom: 6px;">
+                            Think time after questions</div>
+                        <div class="ratio-value" data-tip="Avg pause after tutor question">
+                            <span id="think-time">0</span>s <span
+                                style="font-weight: 400; color: var(--ink-muted); font-size: 14px;">target: 3–5s</span>
+                        </div>
+                    </div>
+                    <span id="think-badge" class="badge badge-green">—</span>
+                </div>
+
+                <!-- Compact insights -->
+                <div class="insights-row compact-only" id="insights-row"></div>
+            </div>
+
+            <!-- STUDENTS -->
+            <div class="card" id="section-students">
+                <div class="section-label spaced-only">Student Goal Progress</div>
+                <div class="section-label compact-only">Your students this week</div>
+                <p class="spaced-only" style="font-size: 12px; color: var(--ink-subtle); margin-bottom: 16px;">
+                    <span style="color: var(--green);">●</span> Progress &nbsp;
+                    <span style="color: var(--yellow);">●</span> Effort
+                </p>
+                <div class="goal-legend compact-only">
+                    <div class="legend-item"><span class="legend-dot progress"></span> Progress goal</div>
+                    <div class="legend-item"><span class="legend-dot effort"></span> Effort goal</div>
+                </div>
+                <div class="students-grid spaced-only" id="students-spaced"></div>
+                <div class="students-row compact-only" id="students-compact"></div>
+            </div>
+
+            <!-- QUOTE -->
+            <div class="card spaced-only" id="section-quote-spaced">
+                <div class="section-label">Highlight Moment</div>
+                <div class="quote-block">
+                    <span class="quote-icon">"</span>
+                    <p class="quote-text" id="quote-spaced" data-tip="Verbatim from transcript">—</p>
+                    <div class="quote-label" id="quote-label-spaced">—</div>
+                </div>
+            </div>
+
+            <div class="quote-strip compact-only" data-tip="Verbatim from transcript" id="section-quote-compact">
+                <span class="quote-mark">"</span>
+                <p class="quote-text" id="quote-compact">—</p>
+            </div>
+
+            <!-- TIP -->
+            <div class="card spaced-only" id="section-tip-spaced">
+                <div class="tip-block">
+                    <div class="tip-icon">💡</div>
+                    <div class="section-label" style="margin-bottom: 16px; color: var(--ink-subtle);">Try This Week
+                    </div>
+                    <p class="tip-text" id="tip-spaced">—</p>
+                    <p class="tip-reason" id="tip-reason-spaced">—</p>
+                </div>
+            </div>
+
+            <div class="tip-strip compact-only" id="section-tip-compact">
+                <span class="tip-icon">💡</span>
+                <span class="tip-text" id="tip-compact">—</span>
+            </div>
+
+            <!-- FEEDBACK -->
+            <div class="card spaced-only" style="text-align: center;">
+                <div class="section-label" style="margin-bottom: 20px;">Was this helpful?</div>
+                <div class="feedback-row">
+                    <a href="#yes" class="feedback-btn">👍 Yes</a>
+                    <a href="#no" class="feedback-btn">👎 No</a>
+                    <a href="#issue" class="feedback-btn">⚠️ Issue</a>
+                </div>
+            </div>
+
+            <div class="feedback-row compact-only">
+                <span class="feedback-label">Was this helpful?</span>
+                <div class="feedback-btns">
+                    <a href="#" class="fb-btn">👍 Yes</a>
+                    <a href="#" class="fb-btn">👎 No</a>
+                    <a href="#" class="fb-btn">⚠️ Issue</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/weekly_wrap.js" defer></script>
+</body>
+
+</html>

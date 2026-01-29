@@ -1,0 +1,1902 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 21:44:09 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=86918",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"Tutor and student sit silently waiting for audio connection.\"\n    },\n    {\n      \"offset_seconds\": 5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 25,\n      \"description\": \"Student looks around the classroom; loud background chatter is audible.\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"[inaudible] sets the stage...\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Seven-eleven, it runs.\"\n    },\n    {\n      \"offset_seconds\": 31,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 32,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Tatiana\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. Okay. Um, Tatiana, right?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, I'm Suzie. I'll be your tutor for today.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 42,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Why you look like that?\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, do you mind sharing your screen and, um, showing me what you were solving for the math problems?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"You look like a ton of snot just came out your nose.\"\n    },\n    {\n      \"offset_seconds\": 53,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"[Laughs]\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student starts screen sharing.\"\n    },\n    {\n      \"offset_seconds\": 112,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Zoom notification 'You are sharing your screen' appears.\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 1,\n      \"direction\": \"other\",\n      \"details\": \"Student swipes left on iOS home screen to change page.\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"My Apps Folder\",\n      \"details\": \"Opens folder containing IXL\"\n    },\n    {\n      \"offset_seconds\": 116,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"IXL app icon\",\n      \"details\": \"Opens IXL app\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"IXL question loads: 'What are the coordinates of the blue pentagon?'\"\n    },\n    {\n      \"offset_seconds\": 119,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"It's yours! Not yours, it's yours!\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"x-coordinate input box\",\n      \"details\": \"Taps to enter text\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"7\",\n      \"details\": \"Types 7\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"y-coordinate input box\"\n    },\n    {\n      \"offset_seconds\": 126,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"Types 6\"\n    },\n    {\n      \"offset_seconds\": 127,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer feedback. Next question loads.\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 7,\n      \"description\": \"Student reads problem: 'Which shape has coordinates (3, 4)?'\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Guys, why are we talking?\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"I don't know why we're talking. Unfortunately IXL does not require talking.\"\n    },\n    {\n      \"offset_seconds\": 145,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Orange pentagon option\",\n      \"details\": \"Selects correct shape\"\n    },\n    {\n      \"offset_seconds\": 146,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 148,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer. Next question loads.\"\n    },\n    {\n      \"offset_seconds\": 149,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"Student reads: 'What are the coordinates of the green triangle?'\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"x-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 157,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"7\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"y-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 159,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\"\n    },\n    {\n      \"offset_seconds\": 160,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 201,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'Which shape has coordinates (4, 2)?'\"\n    },\n    {\n      \"offset_seconds\": 205,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Blue square option\"\n    },\n    {\n      \"offset_seconds\": 206,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 208,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'What are the coordinates of the purple square?'\"\n    },\n    {\n      \"offset_seconds\": 215,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"x-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 216,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\"\n    },\n    {\n      \"offset_seconds\": 216,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"y-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 217,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"4\"\n    },\n    {\n      \"offset_seconds\": 217,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 219,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'Which shape has coordinates (9, 9)?'\"\n    },\n    {\n      \"offset_seconds\": 223,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Purple pentagon option\"\n    },\n    {\n      \"offset_seconds\": 224,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"I'm in group seven!\"\n    },\n    {\n      \"offset_seconds\": 226,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'Which shape has coordinates (6, 7)?'\"\n    },\n    {\n      \"offset_seconds\": 227,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Get out, bro.\"\n    },\n    {\n      \"offset_seconds\": 228,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 18,\n      \"description\": \"Student pauses and looks at the screen.\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Pink heart option\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 248,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'Which shape has coordinates (2, 3)?'\"\n    },\n    {\n      \"offset_seconds\": 251,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"If you need skills to work on for math, you can go to learning and click math at the top...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 254,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Blue heart option\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'Which shape has coordinates (4, 7)?'\"\n    },\n    {\n      \"offset_seconds\": 259,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then it'll give you all the skills and all the grades. So if you're on level, you can pick sixth grade...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Yellow star option\",\n      \"details\": \"Student selects the incorrect shape (Star is at 8, 9)\"\n    },\n    {\n      \"offset_seconds\": 304,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer feedback message appears. 'Sorry, incorrect...'\"\n    },\n    {\n      \"offset_seconds\": 307,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\"\n    },\n    {\n      \"offset_seconds\": 308,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'What are the coordinates of the blue circle?'\"\n    },\n    {\n      \"offset_seconds\": 314,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"x-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"4\"\n    },\n    {\n      \"offset_seconds\": 316,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"y-coordinate box\"\n    },\n    {\n      \"offset_seconds\": 317,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\"\n    },\n    {\n      \"offset_seconds\": 317,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 319,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\"\n    },\n    {\n      \"offset_seconds\": 320,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next question: 'What are the coordinates of the blue square?'\"\n    },\n    {\n      \"offset_seconds\": 321,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, I'm gonna go check on other students but keep sharing your screen and solving the problems and I'll come back.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 328,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Please let me know if you have any questions.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 337,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to a different student, Enrick.\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 345,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"Enrick looks at the screen but does not respond.\"\n    },\n    {\n      \"offset_seconds\": 350,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 400,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"[Inaudible mumble]\",\n      \"speaker_name\": \"Enrick\"\n    },\n    {\n      \"offset_seconds\": 419,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Could you please, um, share your screen?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 421,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Enrick starts screen sharing.\"\n    },\n    {\n      \"offset_seconds\": 422,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Sign in with QuickCard button\"\n    },\n    {\n      \"offset_seconds\": 424,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Popup alert: 'ClassLink does not have access to your camera'.\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Cancel button\"\n    },\n    {\n      \"offset_seconds\": 430,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 30,\n      \"description\": \"Student idles on the login screen, unsure how to proceed.\"\n    },\n    {\n      \"offset_seconds\": 605,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"ClassLink\",\n      \"to_app\": \"iOS Home Screen\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"App Library/Search\"\n    },\n    {\n      \"offset_seconds\": 615,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"App Library\",\n      \"to_app\": \"iOS Home Screen\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"ClassLink\"\n    },\n    {\n      \"offset_seconds\": 618,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Sign in with QuickCard button\"\n    },\n    {\n      \"offset_seconds\": 619,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Popup alert: 'ClassLink does not have access to your camera'.\"\n    },\n    {\n      \"offset_seconds\": 621,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Settings button\"\n    },\n    {\n      \"offset_seconds\": 622,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"ClassLink\",\n      \"to_app\": \"Settings App\",\n      \"details\": \"ClassLink settings screen appears\"\n    },\n    {\n      \"offset_seconds\": 624,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Cancel/Back\"\n    },\n    {\n      \"offset_seconds\": 625,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Settings App\",\n      \"to_app\": \"ClassLink\"\n    },\n    {\n      \"offset_seconds\": 628,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Use QuickCard button\"\n    },\n    {\n      \"offset_seconds\": 629,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Loud singing/vocalizing]\"\n    },\n    {\n      \"offset_seconds\": 630,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Could you please log in to...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 640,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 33,\n      \"description\": \"Student is stuck on the login screen with the error message visible.\"\n    },\n    {\n      \"offset_seconds\": 713,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Use QuickCard button\",\n      \"details\": \"Repeated attempts to click despite error message\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EvNjCvBjAXLI2nwAeTjgluaCSSa8FLJS-S2fw6hCEruvDXRTS9zJX5iPZZf_dlzKImpX2QLkr5qOgezUUtzYeynQzZyPgXW1a8EhWy9pWNHG7kpGXalEtjFzmL7ecnHoL8eXIYHhUPXUVxgFj4cUA9d-lQvEHG2HH67YJ0Li5iPEgDvL45WluMlHj213RjyLikioylLTB4pPjMQ29By2SjWULU60D--49irJ_z9dJJuvKQhM__44V0dbxznKKQ_qK8MrR4xpkkFHbxAsRV_x6Hjb5Uprj-OC35RZiXCFnf8bfVMVXdRoycTt0nApQzyZO4wmTM17taUgRk2jUlYt3xd567jo_weN_K-ESuNWWRSvSd25jRgFB_w6hZS7OswfAwwF6C05-Bso8QQbFv9UnzyeCaNpcFi7vwFAlF7xlZvDbsTi7NOYGK0T73VQOild0BfHcoKNJlYNtTJBpT17Clrjnoihge--KTcvTNiP7ATokQrEv0i31bVxKo__eYBJs2BLt0CfGsYfW772cBbfmUlz3P7ylxo60aZIfFKrmGX5-oSJn654shl1mYTlMGzamgCJqZFmunFoq0Y7pLlEmW2LOCHAO9wt-Gs9Im_UPDQhwILq6XNVf-o3_PRbCHQptsBsXZNklYPTszzFVKFujvmxq0KOHc7BaOmacAfSXTm6qVUQznv9GxFrgLxeDELlaWLXqYn8To_KsISlFUqAzt2HTMMn1sD2JRKiuF4fzz28A7E-ib9p0Js2y5NBmTCBpj9z5VVB6hxbaqmaV2epzNu3QLDP77HRYlPUdhvrznG8mE-hrXtzNSkR5k91Rc2_xouN8xM2MoPEi4lnuT8hH1yQcMqokATrkArBjb_IoLHejDOpoPHvr2PVv_ty1YbSRutEiKkmlGapA70VHx6MGDhhxCm3anmy5UMZnmSk68W6m2QF8By1inrtfB-2io19nLpvkgcGq0S3W84-N_qT2KY0osAVXWF4sITK_d99hqP8Jm7LumkOotImAvpkl9--_LFVobOYGzG0bEncxXuPYsoFbMF224js7pJ_FSfsEK4_n7LTrMBPRteRdrxk7tPXyhBwactzNBMCR9BYIfJJ2MtwxGKgSNy5eEmi5QATP6hw1ewKP3CsrEsWOeTbNSgJ-8s4rPgSxDSlXVbh0UzfkquHcBAQSI7JEAg1jUm5o1HQkcy-bZSXhZwEkBNgpOKQHI001UFcdvX_dIw7L0HSFL697GsVxmu-bP9VGheodu7EDKmtJMN_OOPSRo_eYWtV9wZiBBKnPruaEWTPvp_99nB4SBEziR4kIk9azsUGoPekdaQPkEpNSYOUj-vSrABw-LHuFWZTYVoFo9zX42m8WBkEwTifKCbVhrX_IGTyp75Bya9wn6in80AFRbsq9ylzKV0uA_rezKMnL-zAAKuI2WwrJ4LGiIIrJQmylvsd9ErmpbsWMQfXOGWQcMwqgdH4lFd9S1Ud3v5P2QYF9tKp2WlUlm_Xv_N1EuUmtLuYRRp2QXSk_C6eW6bkNK9frTwTcDOg9C51rbLajC6ek3k7RYjovSHGodvUiLAyC-tDe-WcqqVzkUXJJpAAD57NaqjBAbFoc2j5N9OUcum18gwMo9JjjaQO-plyT7X-8pMKYYzCMINX4sh1TjMGy4LA854fuCQX_LbDupqyTudHlVyLliAalawYY4ztIen1X_NURLGhTL1btYPK62mJE8DldNp21b9SAFZOE24lQiPI9kJehUZxuJhMrZAtMWLAcz78GKaJWkqa3rKRUak1NN2ffkrngIR9JfZ_t7nZr9NAGgGZGOr2YDyX15ZvY0jwh8ElltPs2hdVgNgJtYSMoIRShGu4S5hlt10_N8ZXQ7eHltkvUA6nl6VncbS8oAr1IODBiNeb2vRxt2GgRbSTiS1Z27NHIEc-cesASrgguKPrJwby1_UCGLqUDPjbeXKK1kVVio9Ototts4aLE_bjBmuEM_e_FFOU77_Oi0WinpATIk2ALBchWpG1SZaXNrsbbpJ3hIsTpBBDtNIKtQdsP1NuO2mRKI8T9V-75lFx2zSUSX-1J7kuCOqx62G8eFlo5EP2DhTbV3KhjWkWHcP707uC6MOTFry9pV9cX4iozQrLTnQLDwN44a_BWqxatn2rudtPi2JSPQ_uP0i_GiHhCwMsP4l9sqIywcIgt3gu3yjW-_xhEc13drFZkdiFwa9NF8KS8F1jzrAxRyPtT7Ifmvopj2ToUWXT809NX2XtfoNUEsy2O2KWgeM4TiwCBSnIm7dfGIjo6Bn9DcsD4lbEA2pGaBadAMVP5pSNZwR1D4pNwIw1X0BMf084JkJ8VLY_0vv8_RzhwnHOXy9hAryelmnhpe2yJB72_E4FHd2I_3SLCK-dYm8syUQB2jCzWUgcoHr-OVLyPryivMQAiKXNCVGElWiLjuCelaHnO1ZbrToWxVzWL_y9W75CracqxY0qOv4o560SNp6lrLQobsvGfo323A29FY5Ex0-9Tt1gW1Yhrw83u1y0SXzM1RIpHM6UM2U3cDh34OYoqYrWbS3yTFp_uYIHwUewzfQ_1oq1djmBwNqdCa6yMXtitTlBIc93hLFhhjGIc1Az5zw94CdRwaGrmffJlZU67kRNrLRRqaxVMY05mJjmC4WDnrXYaezLbXADPYSKKd4TapN4Yo2asZAtJUFx1wD829tnAZrA-5K6wTwERuX-3M7RQMzRjvhwZlMcC0WxRo6ok7yAdboHEe5KJX7BvIfbki8llpyLw_WdnoXs-ng0BcPjFpdT44WAIIRJzgTY7cFSlM2ceuo5ZFZNVXQxBaPIhKG92cD5mOZtKF6mqcviocvjZ7rHl6cgwv9O3RGCE8ycLTIDclbsKCnhuLOJLmQPA5gdka0vWQjt5WDMOQKW3j3oH1IwwV0eYo12v6ZCHovdqhEAqtpOfP-C0D7g94EeUhRKUqjFRE9VV5ouFQ2KN0gt67AKRb1a1U2gLnAIC-rCf-MTttDVqnncofnVHg5EBLtGS4V02WtODayMnnEn6y9EMLGN6BC1CFDUt96qn6M744UpTlV0CW_VyWgXi8vmbCE5Va2ksPAYxV2LhKxsJMn0cbJX9um3yGAbfMrnFsJaqJnRhgARXivynD_YA1w6BF4OtCzqF3AgZcV1pH1DsUiNliPywgNnlmQa27rBT8rdSwEHrMtBEPCc7FwKilYNBc6iIG4AqdWEsX8RxvV6YoNMBWVaW6dOX0Emc4YQuET2kZRFLhwm4cHEi2NrNEsmLlP4EqfNVDjtd-urg2qg3ZF2kLK93r9-jniHknHAZiOcgk-LIiIRmsDVtuqzuYaAO5Tvvpkkjcr3LzdK_ln6J9p8WG_w4r8Te72Ym81bIW2WrkgQ2PbrFzDkpAPIkGpsueot7iCVRW6F5wRc4m0169JrsizrfBShbzzsADcgE9mShzsHaDEpQu1EcQqxwzQslZqfrIitTe1IJya_6K_rgB6-Cvh0t_89bQCSHjhZIf45yuh-jkuoE2qmHGoaLDlAcJIrxlAl3kbSwPjjF5LukUYcxYB4N66i9lyCAhaZUJ5_RMErnM1xEMMpmGk6DIW6cgapZEnwcKnq2N2Vnp-zjIbjqC37aL9aIVA2BDiKR9OBOpv9vvuad7jvnG0Fd44QozK12YME9bAfXI1kPy4JHFn0_F1Itrw_R0JeohcZ1EpDRaSfq8LoMRKJmXqcqIqyIxvMGNJDQELLInDElAeILMW8IEXmKDMM5jLXUAMID5KTbtDr0VqUtUhM233AuHVEfhpUuM1qcgeTDp1zOOTu9qDKZg612J3XHpF2XtB9a1ylYHYTFFoAxJVYIqs9Dd1yZTM9qs-tkjU6iH4xOomtN1vr-srfkDA5rOyXBuCHTnXMAD35o08sTeaPRA-t71Z0Z3ZGD1dlpLxWAoO2T9gjY6SQeP6MqeCg6rhklXHhlr07lYXaLFn0zzCR0fQloZe_4ztYH0UORb32w3zypiIrdDqCfWuhTlghJOWYSfw09oEiacR5xjEL9jnUM2B1kfO4cu8mF5A6U3TtqflU9UTAwMTsu6uNEfNdyqMG6zthsG1veihp8p9CPAt1R3UVvU-Mctt7bcOtTFYir3j5iNKXApBS8E7oMgagYw6gw7bKHcFxPtp-gYXAv4_2DGTz7T5oMMYrCN09A0YnADtoLSofozCaZbWe08VeuwUtpzWUTBUOeBeUrIzAKdF600qKjDMULyxhOin9fFpH9j4iEI8lh8UlQsMBWWnJK8X3EUQ_ieWfekzMzVrKkw_NV8HzxjH76PmT7JlcCFRL2WtKbc7SUVt4jed_TXn9kcXlXa1_mL5ZnogOfgiisnh5Vz2UIHJGvgSAzZAkMosULJbpoHra-GsXthkp_gbqjihFbAGZdbpTrw5hP0-ihWt34gsvoDC8AjawGTn4cANcIWgishYf1eAjz8y4tyr1zk-UIublbz56A__f9ZvlHaPMFKT9de0QrB4fRIgoET_IuWXa3lk31ZN28HPoQBhmkcAHAdQ1L3lX3BMjKTwGT1tIJ4YBu993KYGJkCt1eJbhzZAgqXQi7pZSJjDGzc6-fMzI987_8BwPpocbqeSx4UhNKklrOwXXpf9welY-FMxd8A6qRWHwPkVsdeA82Ype9ARQHdNDVBmoKq7RALfeJhV6sm4jTeS_dMclCPgmQ_abAO6OeS7ecvqALRDiKrqRdcNgHAUCtzso5MxDzLrt09bGvknjt6i5rGWp6eCwKdy4bbWsirXKHnhLW-c5lgw4QD1LopF4Ez2FJlWtngxh8LtrNXb5Ts7dTkyqjUG7wL8zvz55_zenP35zgsUrTNaeZgR537Rf6diCFt0noE-J8J8AsIQCZCKf2tMUjO9Q2rNfj3EaIJRr8WrOVWYt5t24FwkRo-D0beQ3L7AQ1H3PgpUUJSpBA4yFW7mW4mQBZTxOIc0djr9WCdn14k5dGEdZH7cQgnqLR7FyeoI2lWC-LLMvbfyRip7ClLuQtVYf2GVBcQnYHasoBKr63a--XROQFUoBUEV3anGh5Qybmzpt7y45RFrE35owZm5oQh2ZNgLbp33dD4ZP-Pyt-tdMFL02W9ABrSzFtPrSZgoW1RhSNpyOaq-OmoB16F-F0s2tSJGDyhYKzrWGWTXVEZs3a8jpauREkwTKJFW0ciSW3P9bYDZ6XAfh9g740xck_VZqfuWu9A9lsQCP1MO9eZdIPS7BqzA0CzKtqoyqC9tngAE50XnMzNbcFbr_IMrdSA4TU5FE-g9UAbzn2_vRPN0kyB_fAIa8PpLY8QN_jKMe8i5-N9-eDoYaR_0PIcCrXMlYy44gBSMkKQEfQpAnnr468uza1O05EF4bmTpo2bCYTPO4MJijzwoVVdo5k-MBRT1chZWdnR9HDYna_Wxm5eeEq0s-VyUGgP1v4NBAc9JDP--Y4UBpQDyjZppheUXq4z0PBABmXFoDlZnBKMrlhZ71s7L5NkHPYaXoM_APIF0B0UZpWEE8sQ_7yY0FKhWAClFLvdYIJspoMJn4d4G5yihxNs89CZnwD3x6QWtbBDBS3RV_S-6fZFxG2WnGxMBjQJz2yg93otZiFwtp51Kg7kMTEXOVGfHXZzIExohXUZZhQ40LOmF3yKHZy9FXpYdgvqnCbOvFxpNDIS-P-HtNDICnDngssM6RtVs22ABLO1Ws8wPrmwIkds_4nsD0tHocPiqTizMKHD-OYajXxDhgfkFZu370Iiw8HA1CDknuaIUKkfmhOwUx8iiqztX_cn6qMexf7Y7XJ1CYa6ZAhP-BwJpe090phf7K7XruxeRSMSkKMDzRdWOkU0fbspuTIt2lA2dcvw3bnzpbfh5xGbOLWrKnKm1JmLWA9Dt-nkfUZpXPLuNOhcPJ-wTdejPpoy3AYg3AH3gi4QUXvNtbcZE5xNERc3Lylw2Rv4ebq6fGCU8F5DTCe3enGBW_w8UPAAZbEvna3Z53kisysD388HD3HdV4zM0KKFVRSMScXgR-TdCfxgHGJIl5Qqzbp0ccK2ileaniESCyIkzr2lI9uI1COXMt2TFgGJlkqMvXsMy39WsFrCEsgxcK7yNDrXueRfUgA5W52lqDTvr8BfVW8WeQ3fj14mzvMh9WvECM443ORb1i2418W27kBPJU9YifpvqPZcISjDA2ojt0mXxOqGS-4W4t3-mkpiCm9Isply02s1ZN08puq4FPivfT3cTIkbHk2rQUe90ENmXJmU0hC8zBg-ybAFvnamW7x1YZWkvFlHo7w_DdWDweVjG73MTnlV369MLn_ooW22Q82-x-4CRBX-P6tZD5yXKFutmqyaINcJHp_l4484ZhOf2N0RYOxAqHQpr9HAyExG3R6hKNLj3bb_9IXfaBl1E730MZZjAqkWLGVdflQgQ9T2TR1KTRtZ1fPiMAJ8RdCUfnxkBMS5y8lTXZ8QuYqedjPS4AZKZlAQNLtDOZsAKmJvFo-jnzegkj4OzDYGKCCpxzjp1uM_95TvsoTV8dwar7p3KHzB4wWE2yOt6wYOkw_zPMF7lRnb9p7EB8ZH5wzShLoup2aad37xFk8aKQGthH6i2F2a9IPaQDu-aahvPYb2AyKUbCw_za7qSXYeScW7GOVBA6WxMlw3Lw65ktiE2qWUIhhuDTFxIXSz9BuTyY1uTphGOBy8shee34bMFE1uXi0We2giFysjZF9xQzDPKUOZvMJWkNlYKSF26t691KizxKsT5Kl9FD5sUAwxQlEtgWnjYkiMj-hqv2Q6WdaF9KM3-aAnFoTCxcTb3CuMpqjB4yItQKZLM9fQdvU9seyvMNHAFeHxh-tQy3vtAtmYV5qNaCCLRXaCWxK7IRBOoulgSHoBS1JzOmM8AU-0l7PI7vrQ842sKH4ptyhaaLhAZR-J3VFa6i9Wp_MxnJe-GC2UQzmq0MbW4kUMRIWJj7G1t65NkbGiZPCUt1yZFdZK3q12KbdSF5Ji-F6GhD4AKjrun7IuPO__IQgZO0R8_OKHLMVWOU5zxPRtWvLSyCMvdwrTGocKgS2zgDHAteEaF8y9ZleaPnhM6A37SksOVW1lZfyoDOcObGIoet-jLTmVkFT1WW6q0yRi_RgdSMivkR-CN2V5ZCgBa339zOQx8nxPqm_xdRrID8goxqt_7lv2BBSJQQufLXO0FMu5LmoKfezpwxbF6eUr5j7bnFiDGXLt-AkUza6t4oE45fPslYvVWrk7CuoliOMM8HYaJ7fAvCzLAiYfNhM4sTfywvPWKfCiQOMuXqjTfvCnEb8AR1sK6jS0dMRfIKdaPhUjK07c7eUFpRiSlCY1Ii7Kj3F8s7eFLGa1dI75xjY1WCde0AVX1MgSuvb2NRcbKIhMqPIbkTxkNRjqciJTNp9ao3FS0eYZybLJtXHu7oFjn_MXG2nV0hvZ6EDjpMwEF-jF2KNl7ZAZQpHbIgSfC28KWImaV9mXZVlU2tgJAVY5jzcK8oN3Obb-6AXXCIHM6lygF4ArLvvBqZK5idu_nhofvFxXQHV72x0sLGmD6ee0r70Xlf2VgDRodPZWtPPIeguOv2U41TVQEl72blnoqXT_FHACdm1f98rzg7cxUx-P2q67OiLzsl-CGAe4GQ9pYpObFLXzVVcHhDag8XGu2Zjkq3tG_8zylgQxBDZ4XJgXVgJdADSh7tnkBTriyLg0xthGbyDzBbhYXo43rtRgoEPamJa6c2iblvdTQBmA6kKM-P4RT9ubETLOgIBK6CqUUDfPslbpsuxn7s2xwwm7-EVTj4XavYpGlCI8aSmrsYVa0FJ2806v872nPMM7vROe5pOy-43JCXEklEymOXBRL-1aZ6YQQGVs7NsvkbPyV_asFuFLduD_iC454nche5XrfOjlR8Q1Uk_fZZuEWudYOqA-ZRYMXjJtPko9BZxcaKncXOBbW76lsv2OEyYTN9bPajpi8Wt0tGdoeOpVylXIucJcCYIM7gTVRgP9BL4zqT-fo2YdD-s6rr9IT5Rnrm3UrqSCSbEABjDlHrxV5vcBF-8BSa4Er1w_x_Y6UZK1Ty6gzTOUompQObTYSILm6Ko-V9sU8uJNw_LT9ronYkVd91Xi9kn4wKpj3gbZvKnCrwSQSsLnwx5paWqyXJLOa2SEN3yJ5CwGSvjsbm16H8I6sVYZK_4hbTu09FubH8hDGQ0ffUmkfgh0iLVOedJW1z4B1c2WPMvnqVyI4SUP5yo3r4XBsjQrBiRT3TMIbi2wT1vCQUbpNUHOj5mYgWwPhAFkMLvTvkzowJDsrP6sJIvXXntdwm7Q8LUeW_7ajL_mtBIbyZ5fnaAXBkRXQ9VWFPALhZYUh46-QNafGuV9Jcb4kIyH2XRQhubqjZBLsphwMET5ZwCbyKazQEvpKNiLdZdhhXeRg0MA_bD6WYhRttJ42CmN8TsZk-ESDSdnUQpHfuF0eh-ABx3R7m6FJ1TZy2PuZC6fiJCYPFi5BpDPEzyPti5DWiZaJ-FYHH0icr3uqdt2sYBDEC7kbEGpO5RoRf_eCevzhxhoaL3Vq47opR4zpPeLkFuSKV6IzCg86vlQEzxCH6KUGvjtw7mQMbayVkk8yW_Nq9qhA3ZDAeAKlglUkMws5STuQy0CchJ8dYQIAzf2Hj3eM5h4EeD3SuaQs49ro9uY_rzqjNUtrNLlVWTNZR89MSiKjDNh0IOM77UqizcGOWnxVvBORBwWS42wssFspob-zvL8xjQS3oc-X6aLIH1b6tctLypft-3Em01Z_ty4zpjXPAwW3AiWpwL3IkfbVTzEzAP60_xCcGmW3cqLkkmVzWd6pSB3Enu_ZY4hPReCJMwYz31PRBFSoOr-I6wXH5NDUWAaJB_76bW659Yx0zYC8FmMiFIzI3FOxdVC5FuCtPwopLPAqZstI_6JSQoVshMgX9xDMqN5LN2UHavS5lZ3y1Eh0Hh1kye2jMy8y3mw1qLqAGpJYH4bZWkuKKJOOfk1Ve3_QSIoNlUvVE06CrA2lrnMsgKSuWiL4UnySDaQhZAB1C_pIOBn_seAhCnDlroHkdkDME5clbhTKpGDoCxLk3Run7aS1bg9Fr_vxRqMA0n1aJcd1p-wBzOHdTG3LNPNB4juiw8ENq0Gt4XJO5XcAF0-NaM30U2ZokYFp5oxNOlqPDijYf--zO1fp3nfeMtMaY6QIs8OuQADiFe1KjctsGgKylJJWaws-PcaOiYELBLYodBZep6ElawS1MNUSP-y1THjP2uJwyxDdDHU_wshl2LPppz3YRcmwSkPFe__4A7WMhNlsDrFrki0fomMLsOuAQMgYhdqZA8SdnBK24ar9Kw8OlmerUcCU-fQ84eHK4I1D61wJ4QD9hWNyPZdTUVyh6maMEPBVoo7k0B9lMS58ImitiPpSz1SEwsIaZVA4RiANbIDeAC-T6qZSOKLeM0KI_u0PiCf6XtySb8k3dTpS9OrQJyZcUBt0oUQNvsgSZ11Z426rnUPwmyzxRBocjzwGkzdVzo2-yMpRueZ36G6tATcGYLHC90EmOd-L-60zdDvG_kU_fhfajnAIIhnQuFd4SYAnmcgLsa_4aTukRWxs9JXaEde5G3C_hDWT9uJKBcUrXj_9pxT_jdwtsjAhIjHiV7BjAoS4N3hsqywVDmXHfR15W3xLerY-Nr93JNbVlRy9ae9XP4SGUVliuwvo73pS1JowWFVpREsKJ4YChDOnzDijfHUJ8IfJpRwRcpiMxR1AkmW9Aeuq8CoIbWy7OqloojdNHTrHtrNZ9L5voNXAqq3f2trhvMSUgGx9WZKbaYumIl-Mo-ki-s3riKrBQl3FwguLfUcxXrG6IFI_gOfmZxOHqioLJ9B3dRNpxfGyMLIQVgj5DfT4hcm2wJvzafM_iU9y2ecpxAxs-RFOm0AdthSQ4b5aopt0ghwkdHhP3iSquMpCo5biZ235rTk9FZw7-Q8_2Ez9Og02zElbA5kgnew39_EBCQzSXo9029nE0qbTLFwC_6cSv5bz8Jb6ttqwx0aUFdoFrirPIsylNEw5g8v-JylsK-v8M1bnJWJt-UP8IXti0BzQse7_GceqYbM981Ymm0K5dXZFRfm3Tkp2vVlQlQQNNj8TyN6PkP4YwhXMiX413HH3N04lgofvkyHG3lCFrenX6RSIHyr9d9TjKhdnUf7ALFfiVO-rjhm9cziFSnW-OYNvH2NWY0lLLWnvbFIDzDMRFc5le7Hzj89e4l8TkfO555Aej1aT7AGm8MGwdIGq6Y-QH05tPku8GbkVCG76HYXqpI6iZqLtio7PA1HgmLwuGWgPJ_2fqBxhx0ij7SUKcHHFdBKR7k6kolVLoZviG1QN_LlTk6CVDlAsgXmJi3tYW9EUZNaX-Slq9mrvECgI10lINh9cdaisWYy8hZXga_KNmh3BLz1zraQJ1tz6q6ik7OoWtAdnK6VbXm8_5S80_TDlCzI9BK_YEBl2dE559MboSVAyhsaBF0Rt1qfkkTMI-D46PKKY7cOEfsmDqdjLAfkGqufiuugDB6OrdW7mHR2h8bqJAACLhH9lgLzWUokuUMnP59s50EAygZpMh6cATqrv8jT6dwFG39RHg7UJHYQtRI2hKcyl6OeJNUX8rUQQd_4aRv2UKMOCrUn_fnlfy3EdM8dKI1R9vmXJxttTaC0Yz6jRsXBtnYwRWBgp4N7RI38oSCagBi3cHw1GNJvYaJI6tUug4zVoI_SJTd5xWWH0BZV4IFoctK2XKnCS5i45yn-qQkPxmRnPuJvUNAMQWqBfW3_7Imr8s5qVm22t9brdt1NabRVlrHg5HOuS59yn3eSe2Q3cDxigMpa5XNgWMiV5zRYp1eRf9p1lba3BUrjD773e5-Kof_RkWYW8v5VSaxysDLESXaAb5LbSMbfiCDitniC5omjeyWNaS_EX_kmO1zMeKfWxCb31H5Cpcc-cPPXJ0wiG7VfMRnIdDO_5st5duKhDh9JoF-Y9ll6-gw_wU_N50tpPIw3ZtWTbykLqtzZFbfYdM6fOE7maKVkOBUR_s-GCKG1BIBRzgRrZD7gxurA3TX3pq0r6l9aqwBFfjPvcL7bElJxckjsmb39lJ0ZrsHEka6vr_yLdQximC6HsyYL_Bqg6iLGAdtSmrfypCxsdj3aYd1bzRU9BOwgN7KfBfyv5eWTrhDU277_aAshFQ7INM658x1R3Sal3z0GieHPcO1Q8OPll3wqWEthAyVvmSItOwDTQ5KR7APmJ9aGn5wLQC6051ph_zJPIsLKofF3lOElu_GrxexNr9wRFI7m_9GQhniiIMwa_85qMXtPNBWqQh-NlxvCSSGd4UdGjqRo_YqBrXMGayzq5l43Who3mYD0ZqJ-LX1-ldMZ-b_4T7wjflhCOUiu1FwzZEqFEqyVnSfFUvUsGOBYorVuvy8MMmCqQ-stn61mqAYhlWiu7sW-AAMxAuQ7EEBkWWc-FfxnYIlDqG-WMIoFoM-rmybkI9GPn2hWLKRs2zrsO-iuReUqydUZ2XcqOJCPz1HNu0W24jmsuV0a-79Xl1xC1QZGECxyHunsnj62uB93dl8Ujxr4ZI7S3YS3ESV7_5v_sNB_myLSDqWWu_a0koq2bsuvK85ezrTYHrJ-FG98Y4CtdspKis1xBPrTzbqn-2yhfp8X_V5FVqI7PofWuoLsMvNeCRqfPjId0Q4NE06YLw2htvB_-1drTzFtxQJSHTwIXqr782MxYdTCdzJg7Y5LQ5zVl_6BD9I-vXlPWtERRp6Z1AjcFtklCN6Wgq18ylaaTgyTlhv7FpP3KJh0NT96jJ1D7O3eQKBbAzZVZIrqdhzlbs19Ti4mc_Lg6wuUOHitMVI4PUtKgEJcdxJ44-G8HSbUsHqTyJiwVWC-6IAoFKmTFE5r7ycbl30t1zImodHUBEW-TS3OSA5FRJFpQ64nEjM9lkErrBDUYgI9GYOU6SCfBiMTNRi53E2225GtcvY439dhMJBCEmPv_VHjUyozCpjlDayHOT0jcC4b48yLnW2Jp9Y583ih-GU3ggG6hP3B-rCUEKmLISh7oewoAeLpd5eC6ropExM3_nu6PPIxqMsewbWK1RdO-dePCE5hygxU2owl3_r2utFQoozDcuBhNK3IPxhu4fn2sakAfk4raMpacSiDlmqq926kdykEvcJv-QZC5TlzBBPLTKILxMa0ezcVJ0j8NL1xSnoogJv787NiZP8dmcZxemGdV_VknygvVFzHncvtf0u9bMHUg9UEY6dR7kA5H8hi1PmK0GpkjrfH93dBaliI2_MVM4hKZKgnz--0iUgc2uCeLIWIe7FOXk4LpZa1BklFnJ-lS9bBwe3Xv0dIcs_vodXhCW6XQXn8mVMOybpE0ifL_OKlLeP7UwhBHApaboRwWMAjfO0ZavVgDgU8kUhFg50jRVuZZFM_WobXLSKK0MstzHLZkSTgZAEJS2SNKXagPDzZNZKKS-wkdlaiTk6_Xijl9Ca5J-ItR3btZjEtMzMCnKcGUTzJBniZ2h5xJ_BKq1LYuyIrKE351GRnfiSSPH0P9oN_p5lvN1LrBuNam-Za7PhmBupi37xj1aD-if5GBW5WFLVrXvzbWZiRV9zhWn7p7woldKmdNpQpj2SGqKFaK9hIO7KEv9yEyV2l4A7rtYMCyoHN1LDrohki2ol5yoLZNtAMgocodCk1hXigMvOZ_HTHO-Q2zte4A_CJl657qb1Mv44fxvLPRJ_ijKG_oF60OAQt9QxmCwq3i5vjH2VmD12zEHjRhupv1FiBdToEaj42Oa2rcgXUhSwrmCamgqdaw8-sx5jFKt2TpFLvXJRe4u61b8_kB87yi3EZUsf_-0aX3hLBDXmLTvLfoOWWvy6L0xZPtKtLonD_xXNyvVfygnkAqS-mW3y-ehAtlzz7yEY5ISW9Wxu-hg3gL0i-CaWFr7uuGHAtUV5edlocdUCbjZQpOvcxAW4qpwHIAPiU_Yz_A0yTNIXDx6pxqv8uHWKbaOKqKo4SkrTiFF_Xfmjjp3KrgibeXSL1IXj_ZgcVw0gexFvuDPeFthsxGEwXUM7pnHL1vYj5J5J9-BJtu19-MNmQEszZNzZX3smV5PrQ5SrVFwuNKM7XmhUMWBUfFUIXmmL_r6NPkKIBwWCv9hPNkdYpJZK72Bp9iUhQI9pA8RIvyZK-2P0pG4njN5H7zSS0ba5ZJN7u5D9zcIjJfpf5kH-esg1hxNNlbTu8iqOHeAJL-XzCqb3XduMyRAf80ewRGbTKuHTVhtHvLoa-CoVya13UBN_t3D4V6bI9vY1PWSsj_CVzrmDCdapLsDVCPJuNQn8saqbz3cLuB8p-7R1fUicWeffrseV4f4wcsppQW-3RiWNLxiCtGGexyJJE-2k_U3lNKXrJPDfDArtw3YY2z8SAFQHb8dEofHWCMB3E1KZS24zMirlOrXSubP2_B33V4ibvkryZHnrTkYHJLikpIUvVAkqb2w-XYCfk-Y_eM1rLT_dDHxhH-MNkztRAK1cO-ljhRbsbwNLPbymPuAZtiLciAtgEOYOXK9iJIeRf0K46T8oTHaGw5Itjwex7cW-rK5EUpBfw0oPeSs1bNwomEQ0oMlaiUEhy6clkN-8Cj33fJiT5iUeCwTcPLWnMo5XwgS2NbbaWfAgIZ-wwHpz9VCpVMe803ZIi_zkwjJPYTTpbSZtVkuPijafK23ALFTfoIqcwpNl4QfDQwffSiuB6xEAxytziNXvYgA4LW9eCfh3eHV_iwWUHSdHLrC_NmmPI34cBhIkgkCW2BC5HznPfEYUGA_5RVtUeHVFBBday-VqYpd3RsXguAlAeaCqSKq1Dg689YXpogi5jSi0JYaey0dqlIm3U-TuMxOXZxkTMz_Y1cb3d0LHxr6JwQgeQPopdWSS4eKshCfu2b1p2ovD8bLNmOWTiA7K1VuxO6XRvImESsYB3eJ69VNFzIgWBrt16ysOfosMYGMFLuiW1NpGxB9diR0qeN_CvyKkBhhJVeoG1h3UQ29Ws_SHyyJU0cnaYnfL-hNkp-BGYw0ZVJgEBVrTeCrBOf9Uu-h2odGRYttDkcuAR_gWVAhUXtaaxLf2gbQOPuzuDrqDtc9gduGhnZuKgeDogHvx3Z8iSycTFwcB7dadtICMtG39zqKX9nvRdy-FZOaE3RZJ6050rZLZhK1h3Wkm3HcbLuJaVkf10tMQ7nwtRaQl-ATe_DTFdYFKphrCNhr4Z8ACwo44J_COj-5V69Z62TqBqKsm2tRQoo_EDVxp2MFOkbv6MqlcywGlV4Ysql3KEVOpJxWVBBPZW1WD0gu9EHebZcgZ-Gt5g7lC2DyjSie4JLgyqdJnnmRDnREIFy09m5TBvNn3pHnIznhz8iihDkl94Jy7OXokByIC7rWKdrm30oc4uFqJUwtza85XFwvpTiEFsyeBbpwOJRD-GIsENOUhfThlbQvhniBdV-gtIBFtAvpS9E1qnWJDZdA0tivH2VPWkjD3pPWrRTcPBJCZ5-spju0HMWhNmuFnXhRG5LggW8OAWBveMuoPkOlMQeUm3HIFhawmCEu7L8YvZ6wy9jaVu8qYm3gHMBGTmP4PKkbxbUHzPEr9ECBa48_JfvdrMAzhbtL2TS8hDtq9vzsje1qq4P73hYg2tcSA8YolcTsJhw061IgFvVevbsPx2aROZqbVuvMoZnrvo-FLyk3qjY7P-S3lBYzsQyx2-v0UvnAPgsF_gbmQ42pev3_N1C_Wp4ydHZaOylZYHn5IylWyut_LnsLg7KKl3rRODdQO8fAAKfxLJs26DqYfZT23mpCn8TFID3U3gzl9GQb21UAaqIZMktfXEk_mRgVvnKfxnL00vzHtnTOjRDDngmT34vraY3kJvAaeFuvTQNO4468bH0VckPvnLbsmNLMa-LV_Sdv3qbRMj56IRd7eULH1O6ufh6DXwLC6vimVQNTcs5Z4tz00hwIKRX4xsc1s2C1eLDDr1alSnl9u-yJ5I7jHjD-xTeNc208icLjzy22BcRN5pWepYfHXBtcQop2NNSvIWrbhrArp_6sMmFB2_W-F5PrN308vem68KGAnzxJO6lK6b20xPO8hb0DNeO--b3QRAqiAdRjXnHfQo5dnW3owJ3ldrZXbaSmsW7tKHdWltbGojbpbTfr7aOiRheUjWUTmXLDpPJfeVY6IEZ8mO-08RrU_0sUKW1k18eiS2qsuPYW505n8_f-L35B8WavRZIEOy7-mNAK_S4VjatYorVqbF98R2iCtfck2GFZ1i2ZMd8qMmQwiIC_syA43EiGU608p16QeALDWjxLTAXnWuL-uq4cpd-CXKEDOtN4xl_gEh-WI_ERioKgqzHWecW1AzAxJQqJ5PKsLeFLp84vxuhCp6uBFS3wuhKozzJXQTpVPcSlBWvN0UTpdjJ0MsMUEb_b45RMPgDpTrynIVaMSAqLlKci6p-WCjmVld2obz1kEP_LaaVklSjbBCiyC0jsH-2SE-RkTMoveWPybfrYuM55mUXCyRBQ2gV9QxDgVPn5GY3bUnQ3iSJ9avxZVhX5CNaenTRdr2_MpCYJlknmcRGztteXVMmhHLLnzecpF78oPUjUypNUh85iNHhr2Htb7PJE5a0sifFVc0vDjKfGIThECDL9P8QxkJS8zUua6JV84VQemYXD_Ok1x06u8wUGGLz65ZjSnfRub6J8L6F0gY4E-Y3wSfuI37tc7-LRUB4EmgbYAWogCcuKM_eLQn5h0mpNjQyH6H87tC_f_nW6vSSNhp5W6TSpcP4K7h5qKnXMAjLuk2Zyn4Q7aHyfIBtGroq88ZFIY7uLeg-aeDnkykZls0-E5bhIUa4YSvJgkuAKAOnc9stzWMaQVUgUIFCWDrjHAteq9B_xISFUbPDYmv97IWRAKEKvkZFbsz2ypleArdrevFsRxceW4SGztGwllMt2Y7_xihPHp3Gn431XniLVjjvv7Vi04IUXnZumPaZnWCOZeH6_IXkpAoK_3Q0ZrLPM_xbFY8-X4Z_AZHHf0FRiFE-FPemRdi7GWkAL8yOqyM0q4-Gc9OGAqP4LlVNIIFxTPItSEJkhtelnMUY3qFOKUkcK2KVYXva16yypZUWRv2qYChM7iHruMgK-7BxAgCP3yjavpAMb5g1mD8_kCZPo6MPeeUItCrOce3-6doEoZy4SsyijRRWeeIyVUmAP5lJr5KblrOzGRjXGCZY3j-6HyQMzQd5gkjJ2SIpXnS1nexDeWAmhFf2_0FzjTEJQDPXq9dL4IP2FZh6VOEGUJtwTWMrNso8IIrB7OYRsi60V4akbHZMjDidcT0e34v8lb_LpsLLIwnm__H_kRulNjUmpVK5Cfpqml0xnGs2EnENeBYEP73_-XNngODFy3DZNysYXow9Lq7Zv7JjvgAVQx-p3zACO45Si4rR0qV3hvUvyaowoP1BQk_bUvnKnIGMCLejZflpd3loHmQY_SJCfRaPVhB9JNKa-8CtyoBIfRFM74JX8IVp77GY4CxApJdNk7-pNFuRw1SMYc5k_W9VDQ-3ZCYJEL_JucvqaRcT9Do0ROV6R97dljdqZMXLdqJSiG7tsyrQkrjhMWuoxI2vqVuunfXRob4OYEHnajtsa5ZA4-a8rnmzEaoeZ-yPwZSVJ25nSitNNt_Hoa2e2-LC-8PZp6yY6feCmPsT4tdANSlK7rlUmN36r2o8G6eGdOP5uL9EGd0V7fEJyPf9EY_PJoV57fqf61kKmk5k4TkDYfgafDeR1BpdFXOXcNFdG8wys3Ul_xqsxG-IcKvNWyNXUo_f2Vlv-yvgFxvFOdtXEH75M98N022sqCu94TXXsiPbaZglpuh-AAG6fZ-eTt9ABD6XeT-OZEk_ZQS96GDndTDCnT9l8oYoJnkNxkEmTVDvcrnP56ZuaTTtK1FnyElrKbPdzuHNn3qHtuGaRRlIIAtAUrY9JY9BTBiBVVz6ZMOMt8pkkO_eMQosnlJMeDF-gZkVf6H5U72tkxAz3GfdtjdjxdCI7jSTn2BSPcq8ytP4QbnfdPPpZA1ytbB_GLC_8Bf2Gp9IDMBJNlhc-PW9rnCw10qJrmygUq9gLykX7vw7YAONXNfJr5DAeXniRERBJu7XhVET_e81JsCLjGt5gXg==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "KbFqaY3jEv6mmtkP7JDYyQc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6618,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 124591,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 124263
+        }
+      ],
+      "thoughts_token_count": 4175,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 135384,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "Tutor and student sit silently waiting for audio connection."
+        },
+        {
+          "offset_seconds": 5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "inactivity",
+          "duration_seconds": 25,
+          "description": "Student looks around the classroom; loud background chatter is audible."
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "[inaudible] sets the stage..."
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Seven-eleven, it runs."
+        },
+        {
+          "offset_seconds": 31,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 32,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Can you hear me?",
+          "speaker_name": "Tatiana"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Perfect. Okay. Um, Tatiana, right?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay, I'm Suzie. I'll be your tutor for today.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 42,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Why you look like that?"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Um, do you mind sharing your screen and, um, showing me what you were solving for the math problems?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "You look like a ton of snot just came out your nose."
+        },
+        {
+          "offset_seconds": 53,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "[Laughs]"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student starts screen sharing."
+        },
+        {
+          "offset_seconds": 112,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Zoom notification 'You are sharing your screen' appears."
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "page_scroll",
+          "duration_seconds": 1,
+          "direction": "other",
+          "details": "Student swipes left on iOS home screen to change page."
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "iOS Home Screen",
+          "to_app": "My Apps Folder",
+          "details": "Opens folder containing IXL"
+        },
+        {
+          "offset_seconds": 116,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "IXL app icon",
+          "details": "Opens IXL app"
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "IXL question loads: 'What are the coordinates of the blue pentagon?'"
+        },
+        {
+          "offset_seconds": 119,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "It's yours! Not yours, it's yours!"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "x-coordinate input box",
+          "details": "Taps to enter text"
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "7",
+          "details": "Types 7"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "y-coordinate input box"
+        },
+        {
+          "offset_seconds": 126,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "Types 6"
+        },
+        {
+          "offset_seconds": 127,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer feedback. Next question loads."
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "inactivity",
+          "duration_seconds": 7,
+          "description": "Student reads problem: 'Which shape has coordinates (3, 4)?'"
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Guys, why are we talking?"
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "I don't know why we're talking. Unfortunately IXL does not require talking."
+        },
+        {
+          "offset_seconds": 145,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Orange pentagon option",
+          "details": "Selects correct shape"
+        },
+        {
+          "offset_seconds": 146,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 148,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer. Next question loads."
+        },
+        {
+          "offset_seconds": 149,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice."
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "Student reads: 'What are the coordinates of the green triangle?'"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "x-coordinate box"
+        },
+        {
+          "offset_seconds": 157,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "7"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "y-coordinate box"
+        },
+        {
+          "offset_seconds": 159,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1"
+        },
+        {
+          "offset_seconds": 160,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 201,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'Which shape has coordinates (4, 2)?'"
+        },
+        {
+          "offset_seconds": 205,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Blue square option"
+        },
+        {
+          "offset_seconds": 206,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 208,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'What are the coordinates of the purple square?'"
+        },
+        {
+          "offset_seconds": 215,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "x-coordinate box"
+        },
+        {
+          "offset_seconds": 216,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5"
+        },
+        {
+          "offset_seconds": 216,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "y-coordinate box"
+        },
+        {
+          "offset_seconds": 217,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "4"
+        },
+        {
+          "offset_seconds": 217,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 219,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'Which shape has coordinates (9, 9)?'"
+        },
+        {
+          "offset_seconds": 223,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Purple pentagon option"
+        },
+        {
+          "offset_seconds": 224,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "I'm in group seven!"
+        },
+        {
+          "offset_seconds": 226,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'Which shape has coordinates (6, 7)?'"
+        },
+        {
+          "offset_seconds": 227,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Get out, bro."
+        },
+        {
+          "offset_seconds": 228,
+          "event_type": "inactivity",
+          "duration_seconds": 18,
+          "description": "Student pauses and looks at the screen."
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Pink heart option"
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 248,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice."
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'Which shape has coordinates (2, 3)?'"
+        },
+        {
+          "offset_seconds": 251,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "If you need skills to work on for math, you can go to learning and click math at the top...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 254,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Blue heart option"
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'Which shape has coordinates (4, 7)?'"
+        },
+        {
+          "offset_seconds": 259,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "And then it'll give you all the skills and all the grades. So if you're on level, you can pick sixth grade...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Yellow star option",
+          "details": "Student selects the incorrect shape (Star is at 8, 9)"
+        },
+        {
+          "offset_seconds": 304,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Incorrect answer feedback message appears. 'Sorry, incorrect...'"
+        },
+        {
+          "offset_seconds": 307,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button"
+        },
+        {
+          "offset_seconds": 308,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'What are the coordinates of the blue circle?'"
+        },
+        {
+          "offset_seconds": 314,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "x-coordinate box"
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "4"
+        },
+        {
+          "offset_seconds": 316,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "y-coordinate box"
+        },
+        {
+          "offset_seconds": 317,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5"
+        },
+        {
+          "offset_seconds": 317,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 319,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice."
+        },
+        {
+          "offset_seconds": 320,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next question: 'What are the coordinates of the blue square?'"
+        },
+        {
+          "offset_seconds": 321,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Okay, I'm gonna go check on other students but keep sharing your screen and solving the problems and I'll come back.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 328,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Please let me know if you have any questions.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 337,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to a different student, Enrick."
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hi, can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 345,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "Enrick looks at the screen but does not respond."
+        },
+        {
+          "offset_seconds": 350,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 400,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "[Inaudible mumble]",
+          "speaker_name": "Enrick"
+        },
+        {
+          "offset_seconds": 419,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Could you please, um, share your screen?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 421,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Enrick starts screen sharing."
+        },
+        {
+          "offset_seconds": 422,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Sign in with QuickCard button"
+        },
+        {
+          "offset_seconds": 424,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Popup alert: 'ClassLink does not have access to your camera'."
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Cancel button"
+        },
+        {
+          "offset_seconds": 430,
+          "event_type": "inactivity",
+          "duration_seconds": 30,
+          "description": "Student idles on the login screen, unsure how to proceed."
+        },
+        {
+          "offset_seconds": 605,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "ClassLink",
+          "to_app": "iOS Home Screen"
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "iOS Home Screen",
+          "to_app": "App Library/Search"
+        },
+        {
+          "offset_seconds": 615,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "App Library",
+          "to_app": "iOS Home Screen"
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "iOS Home Screen",
+          "to_app": "ClassLink"
+        },
+        {
+          "offset_seconds": 618,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Sign in with QuickCard button"
+        },
+        {
+          "offset_seconds": 619,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Popup alert: 'ClassLink does not have access to your camera'."
+        },
+        {
+          "offset_seconds": 621,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Settings button"
+        },
+        {
+          "offset_seconds": 622,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "ClassLink",
+          "to_app": "Settings App",
+          "details": "ClassLink settings screen appears"
+        },
+        {
+          "offset_seconds": 624,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Cancel/Back"
+        },
+        {
+          "offset_seconds": 625,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Settings App",
+          "to_app": "ClassLink"
+        },
+        {
+          "offset_seconds": 628,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Use QuickCard button"
+        },
+        {
+          "offset_seconds": 629,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "[Loud singing/vocalizing]"
+        },
+        {
+          "offset_seconds": 630,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Could you please log in to...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 640,
+          "event_type": "inactivity",
+          "duration_seconds": 33,
+          "description": "Student is stuck on the login screen with the error message visible."
+        },
+        {
+          "offset_seconds": 713,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Use QuickCard button",
+          "details": "Repeated attempts to click despite error message"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 21:45:28 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=54721",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 29,\n      \"description\": \"Student is on the ClassLink login page. Fields for username and password are empty.\",\n      \"details\": \"Screen shows the ClassLink login portal with an illustration of a school building.\"\n    },\n    {\n      \"offset_seconds\": 29,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"System popup appears: 'ClassLink does not have access to your location'.\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Cancel button\",\n      \"details\": \"Student taps 'Cancel' on the location permission popup.\"\n    },\n    {\n      \"offset_seconds\": 32,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Sign In button\",\n      \"details\": \"Student taps 'Sign In' without entering credentials.\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 26,\n      \"description\": \"Student remains on the login screen without taking action.\"\n    },\n    {\n      \"offset_seconds\": 59,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Login Here button\",\n      \"details\": \"Student taps 'Login Here' under 'Can't find your login page?'.\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 4,\n      \"action\": \"type\",\n      \"text\": \"lxl\",\n      \"details\": \"Student types 'lxl' into the search bar.\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Global - IXL Learning\",\n      \"details\": \"Student selects the IXL Learning option from the search results.\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"ClassLink\",\n      \"to_app\": \"iOS Home Screen\",\n      \"details\": \"Student swipes up to return to the iPad home screen.\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student opens the task switcher and selects Zoom.\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 27,\n      \"description\": \"Zoom interface active. Tutor video is visible. Student video is off (showing name 'Enrick').\"\n    },\n    {\n      \"offset_seconds\": 148,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 283,\n      \"description\": \"Long period of waiting. Tutor sits silently, looking at the screen, occasionally resting head on hand. Student screen remains black with name 'Enrick'.\"\n    },\n    {\n      \"offset_seconds\": 633,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share content appears.\",\n      \"details\": \"View switches to the IXL app showing a coordinate plane problem: 'What are the coordinates of the blue square?'\"\n    },\n    {\n      \"offset_seconds\": 638,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"If you can't share your screen, you have to download Zoom in, um, Self Service.\"\n    },\n    {\n      \"offset_seconds\": 648,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Angel, look. Angel, look.\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Angel, this you?\"\n    },\n    {\n      \"offset_seconds\": 700,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yo, I have four streak.\"\n    },\n    {\n      \"offset_seconds\": 724,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"IXL problem changes.\",\n      \"details\": \"Screen displays a new problem: 'Put these numbers in order from least to greatest.'\"\n    },\n    {\n      \"offset_seconds\": 729,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 730,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"IXL 'Brilliant!' screen appears briefly.\",\n      \"details\": \"Indicates completion of the previous question.\"\n    },\n    {\n      \"offset_seconds\": 730,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Enrick\"\n    },\n    {\n      \"offset_seconds\": 731,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"New IXL problem loads.\",\n      \"details\": \"Problem: 'Put these numbers in order from greatest to least.'\"\n    },\n    {\n      \"offset_seconds\": 733,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. I'm just going to look at how you're solving the problems.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 736,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mhm.\",\n      \"speaker_name\": \"Enrick\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Ep5MCptMAXLI2ny0UDyNr3cMm7seZXcdLSHq8cD6YAwXJiG1UiQ55OdOdGKTZXLPZhypl23ZuH6eOF0JdK31awkBgrgzmK3NtRmWJFQkvun0pQrtTzBFrJUyofFyoAe-xfvTjqHG2-wXzjYujaPc_0KSDAGSAO17OLzo_iUcSAHKRs1shZMe21B3LQYovOJbO3I6_42ttbn_zjLXxF6GjqnfPzcQwBlqtUKcXZs27Pt3VT8PDPcLdbA-cNuU1GxRK3OR0EHnyy5mMyp7wwHil5jpqBtL_q_lqhwF3DrKBYFDZs1hkyhhg-SosyO-kMMU2yh2VGfc9ULsGVf1uS3a1oI0brvfuPO_AqvuVZ44Rs_1RrQ1FcX0-lMykJq7ChP7FM_3Cyu_pbOzN1Qsc06xan6KEwUEDhafGTy5pnqiMaAPjQKYS3vipQwfrRWB3VBJlmb_C9U801MNo8Pwl8apmVXX5SRHD6kdcYwGIXvWEVCUDKQqCpLElKN8kT_MsnvgJ1QsS3zZp7Lc69Bi9R4RlNZWZbNSZ0GEKu4VQU1DFn-e9driCPpqdTM5-O4a-rI-9WAFNMR5ZZTgmSMujBNHZBlSjsgZ_CudbOXsLfkcqds14oXdqqzUuksJMM_JSBnk5TPEv72JJVjNuyb-W7lZL8CmPFaS3Hvtqdp1BDdT_MC9DZcSTlA9FtOvRGv6jyhqxvho224UKFGNJuC2ghc0XJALyXBfG0N_91rrdh08KvHXqsMrWjVqNgOE_rL941D9JyeZQZBoIGPH04t2cOhkYSNt6XjnkoFw4ezw8ISUR85103O_50WvEIIK2iYm4ZqplmlCUi0YB0SXHP31au4EqXpZM2QuKmFpzwgU26YnqEN7t1bc9ScY2Haq3zVdIrBkARZ19tsMwD8E6pNgjMctng8-DJtINQa_Sx1o0eBT967Oaq0zs6UC1i3I2kr2xBKPhKQkqCf7C9AIq8M8fotwaq42lMhGpibWoKlUfk586AbREfjfiSmx8NLgj40p66lkRMwGM-yUVClQXd9XebO9nii_Amw6-m17ElOqb2_R8qUW1E8Hkyg5TPrJov0PAT2YvKvxQ585IyqZm5maS5-UZmOFootWCS-DCuBo45yusoYeh6J4VVN_UfcVaxGN8Ik7iVFCw64Nrga5p_-wCDoPZsQcRfXpA6o30nDa8zMFMsRpgS9zKrxK21abESSoV98pJEtLdIrdZObPxpv7xQjhN8mfm6-wq-tzU6MNeaa7jqiOytgr1KUejhAWFV2YhjkYDsa4rPF0CTVt1mdt0bHMgB5WTk0X6VBd3m0bh2rwfvfJnFJeyf_3p92c8w__xXQqQ1UWJS9gkOnPL1w3Ik4MoJlarYTvriWMVTUG12KdzqqIsckAvEhaV-C-7Rwbblexx3_zinlLEVGLEVGofigVHDXybMCWWcda018CDPTTOXZKJauEm5NoeIuTOIp9SdLfVqwMXtUirqqC_4ckA0VTomXF1LcauCcXOVO93EfBSVc8s2JKDI5Dyb4KVFsUDfXuJPRVH70uYzyRN5idySxrjDq8bEsTabKwaHBGmLY7PBVew-PHtpDGG5GhWTdGycwqNnZNVmIDZxnpzHPvwpcD6o7m56LMKyoNsOYkx4diJcX2tTiVTwFbkFmbzjimaZy0yxG5zYu5741BVYbGyQxioDNo88MDGAfQkl1bLgDNrZcANDRJX9yipc4r0UCHebUocCj2hleXM4IQ4tkAe0PqA9Vx7oPsHfrWUiZuiofS58Ii0WsrWSWYTxv21rBBJ-Vz8scfFG-JtPTovxP1Ox8GgcfZGYwatRkm6Du0Q9O8HZWLU49rsN3_qzNB2Gw8Z2FFXPZiZOlc6w191TdWYJIxqrqLJLCUoPhwivG9uuLbwuJoxCG7rPjqK53CZ6OZoZy_yyV2FR_l08qeQJi33Oto5JHCSt937Xi8A3GMz5fc2fKmNjq3NTZbzdKNGdWUgbR8X_FcPO9MGjhqlaVHSfds_iLF1fOcEIxWp1gtUa7GR2vy8R9X0vBV5kpVLQmtrybR8_18VHK9YrKr-gpYluA4xCneX1Z188NjEoDN3EViYmMgi2ofeUUtTYB1y6_FA07tONRz2fG2kQgyTRo39KkaBVpm5TTabvNRzJlI4YCR22vmY6ogVmDzZdFrScZe3zmSu7iOjVpbHeJThR7eWFCO87lnVKfYNcviI6c5yggNquLpgBJS7Llu2ev8VabIb7mJXOvXkmHpcNP4nIU9dCjeQd2C36Q-_BCGBnBuHkqE3bYSwaZ79fcD397RPgpi4PhlO1ksyr2R643gaou4bfc0KcSMJg2IjuVEjbTu9-pVi0NFR0M9mWkAABPeIysUD46aA9k1kXlBqh1vXU4GcSn23FNB6Vu1zGz7cDWXruz_FaSZb_lm7ktcEzqg032-MmbRvCNvzHkL7QK4OdQ9R7sUkm_xj5dYt71pyzO4AIrRJL0D1CRJ34PpzWoCCPMKuPZUbDRf48_LLbW_BT_5VPBXxkLvJJN2yqwyOVtJI-jPmmodTSqoaDg32sq0gPmeDNVCCwh3kv5Wnyc6gl8np6wmqS_WABbzWQZK0r75oJNIV6RAMRvNXs1T5bPD8kBNARlKp7L4zDeJTV_xUmr1WvwH6zo7_Z1plVnM-IF0qBBWekpbCbN_1gNG-dGt-7Are5yEwZy_vDMDXMCZfjuBPw4qfYSn_NQFa8adr59fU5UtArarLfuLBTDrKDcxStHe9ZFqn8GVG9a-dzSLG1BmiPsia11IC5IN3v_BjRB_FIGxxmT6w6dka7-9S7gzEEJLhujrULWYScMHEi-iINybHmY9rCfAZMV9lbmBNK1Zr_AfRCTL8__Vsp3CzklNI1uCzgjI3_Ukz5wdyzVN_tjKpPRprvY5gqZpS_2msAJEZmx-72DpZNIqQNIWShS0daOGI_A-fseCVUpgCzCqLERkSSsEz9npfQPTAYeAMOfevVrwyQbxmC1AznVAM0dB8omb0RlCm-fb7xKink07-wDKuAGipH_0yYTany1v_q1aWxQ9efFFJ8FgNubhLIA0MVGpJLb4L6LqaKA5bmOreIQQbRDuV5I_8HGrq0TJzqc1un3YEt_YBBkDUNFqiPyuZkpEYIAH41NLNN00A4UvRxRfTFlpNSoalSuX1fQSqIChmh_ZqS3M0MPTjNIeZ1HsNkQZX6z8X_B8wfyJQOmZpkq02oDaTb3ZWA7ar2VshYn6osccm1nSSq8kui2JTluoON3pB8AhcYMP1O3nFLpTZdolNWG7PBTLpAHJV0zk_jqJZJpbgfAqHZO-Xn8DKBrhDcif8KR5Vsf2DZ77AbzE44HJaZtiE-JxbK_CqEpCduaAyj8AqWdTSzzpsu-KwvveAfGSDly-6Ui5kRwYqwbRaerImtZoj5epD7r01n6itMIVN_lwrlZpgIASuA5Y2AR_TRYhITKBj0ZWxdA-gbw41AirpsxLj8vlexTKPucwoGj3m4utbYxKeaExJT1YGeuUwIvUjs3E8JXnBznHI6Rg5YBo-_T702ZI50UB7JHwNPrgW-2TYOBn74saFOz746rVWRp8x4Vm7klcaAd2bIsAoE-97JUNjdZM8VEOzUV3dBveTjrvnKdqBCIhuzKAj8N2lfzBmZhVIF6pYlFlu0n-33gMu5qZ7n-E6OiBVP96UmzivEXQSoO35IpaJSscWpqPuQ9SjawKP5wUorg0HotfgKUURsmLGu1I5l5Ybt4w4mclbwHZr4Vhz1VtIMT52aRwhD_nyn05Dk6pHs0InmugaoLGoghVAM7jDDX9XDGL0uP2yrQnHjP0s3Rc4kO18Taqm-S9I3phtOsRzR9qRU1_qgUothIUdC-HzRTstxciujvoGgIDfGMzewtYiGVmXfHRkl2r6eRFwcGieKpSIBG7b1azk7r1iTlACl8mjzsyezm63CIZXoJMmnQBolza2FimVS10JFWLulYLDXK9KaYDRob1V0DtKlDNtL2zECZFbgFf8XZU69ObsvY-nnc0H9Jk40bzrEurMWrwtcerWZbeDpFgFjxf5nGGxsxxVMePLMOXu13qgWgAmAlFWa_qQ_TIRhcVeVjdMtM6HFp8tzOms8y_Us3hz2yQ8tBgDlVBiRWKF-CNiBsC17RsFCtMaLgZBdRla0gmFYMDO8aNaZyRvCUpF4FBGmkvo5rGxHBGck8CUZGr2MGZyqhRw3vZCHkFRYuUHYhCdi42lsSoECQr46ONLP2Bc_6w6m6qnrju7wDe2OHcKjNWmQwLRwCkKP8uE9WRKKoeJ_-bRMf8ds9hW9jVtu1F8t5niTeKokrW2d2VMZ6WE7Y9q1jWAy-cQ8ykYtxFf7sqhvE7WG5IkDHs9tfkh_Nn-yfTXUK-JQv5SIx4bOkDZut95E9E118tWMb0B9Utwev-o3pYzspHWIdDLtIv_2R8_5NK_QJrrpaNLLjjcUY7sMu22LB0qCzbgOKvP5SY41QALzqemWz-VdFEI1V_LOh7y3_zwHCXVvEmjFymQX8kDMlyyvJxRoIRJgCv_Q3k3RgeDYhY4bVhiaI8cIYvTjaY9WW7JGU-_fxIhnifzfsC22kYNPIJBiKRab2sxsYTr6Iu4m14EYmvVnaQkYEYtIEHDhuE4CZyEccyVbc7p1_IavhgLMQaApTfqXDo6TmqzO-awLxWeo2fwNBZowi3r254LE8nk7XyeHmfHeVOstmKQpX2hy2GKnzjZAXn9-aIc0NofQqBrJrBwNb728QUo7YNGjm7aboSibDQwrsAsIdHCgsBBb7cDXrc45Ty0UKiZboles-XzCO1l0C6N0Q3zlRNflqcgkAeO9wX5qOI0n2kfrnQvD3HuFnmSgNlb9sRIeWFaUB2Mxwp0w_c5UU1MS4ne-qMbrfdM48v7vHzsrhCX4C8fbI9_5-duoVsf18oKxRapiEXuhOBc8Ba5Rw3hFFKpD_Oj_3SyINlaBvO4fgNPggLlDhex-JEVNa1QxOl98rUQJGNQ1-wJ5kxEOKzmOahne9qmmwF0gX-Fnp4mB_VwT2bw4tE84StR_D3V8JA2GHMpeoYj0aeot12JdKPmc6AK1p6ol0gy9Hq_rQEFPmCzuj5Tc6Oey56HAi2MynjxgsRr8ISllINbgClSeZphzYe6oercYlRAFMtdYjk6WHfQhTrVbdWvnowjXkTCj9akLSufEcuvBwMFV2pqnuryvAbl_55kpXaIEuJlUhyeAod46pVwADyLtq8iqQWTYb7yJkBdzhtZmgEJxNHB9uGgqVFio21Pi0IAal5Ee-dwJkVqeUDDf7l6_DOTCY8ShIJLodOc8QS0l2rLyCDJ9uI8A7H0hdyktaMOTCMSDMRrifOA5OLZ30KnRvN28zjVdgklZOCycSrvzkrKkKzV6U8733Arm4jUsClTPykuhdTWMY8G3BMn-TyZ-Rv_7d6i18sF-8IJx0Nyogcn56_T2R_gmLIb-TiwLKN8D4K75YNy_RPVuN8bu0MguLwVspSRyE5obAkZwILzBbgXH4LiqOTdCh6dij1WWacxfQNqy_vIpy1C2iK4gHzUgx-vvq1iSHsoLtoiCVI72fjI_FHx8h2AueXdzTRqPHVUQQAoK2s1pNfy51niuneopq8Sv004hF8ZVk2EWfzc5OxTSlMvMeJoMbxPgZWUhIyg77QphpFdhXVoKGInFEDGDfOAKYQ5nlLvAggbK2txNNSiSIKw5GOXAw1OFPy6ziBNqyZlqlB0Pgq1Agj-rdtQWuycfgKoJN8gc2IyZOloFAtFxgeQltK8rpKpOfVB6AEwfckEbI91VupnfJ2Efp0Qnqg1NB0XD1WP6vZe26GQ3TQt7iKFnO4SnxumMvNXQNT7HoZiQt_6P2aLaks6m1X8PLXlmv75dspwuHqnKINy_xE56gGi3Be7oVpleKqZoCokQOXOgj6-riSOB1BjNaO3IrhWCL6NWhKX2LvRP0IgLp75cHtEUF0Uz4QnOYPr-dXTAgNNzLAlwgUvFZ8pCia_tnXiJYpMA0TpXBbLyboGs39je4TQROH_IupLgh8sL1zOwP9d2XzYDyd1O_kgl2Tc7rzTJy2TFKHwuIsX4PgdnIO8Vn0OS_gHh_X1c-pKiDUWF9CLs2NpzumMoXUue1z0tPLP3P08Mu2v1_Lbc3bHU86D30Kz0FaqWCK9JruzNngQPdACSpi1OvOPjm8bkqjIt-Esxs6WbOxl4D4BEHOyNI29Bokbcxz9wPUscpBzHR6OR6XjwaLGUxjySidb8o0PCPWeOc9A0rKm8fO1Kx7wkgz-Ghzx7HSdiHyu_d5DbcyIbUUTm64pugROE-hNuckeQfN2aUYm11n516EKJrxay7LoRkiX-73ILXFzaozV1ox9xesuF_iY5uCWbcARDQkMm5cIxRC9b68-xbUwJRQqOgl6DAZPgnp0jDelivR5pDoWqfOKDg7m3H7NoqrkbT6aMsdNRARNRvumutZG73whFDJQV3RSUOscKLyJGsWkmayv2Epyi2QvAzLcrEDgRDvn4foIdpS3-Ht3jec4AJFSJBkKx_dvCMAizfRBXS7yk5X04n9mqQ1yBcwkBWYPSYbZ4C1U64C-av2QuplQVVBd_UPY0Bqjel14geUY0zv8xu3IMWhslupJOSkcrD2GiGupvtgHvmPj5xMIxsh8mks6ZARyeZzJMmZ0TtnnynIaNtl9HkDk1h1FW54o_NknLWeo359nHDtn1z5ZGwGGFs0d6CEw6KZKUd3hlWHjjW_3ZNHgodXPiZXZf1vOfxR9AYtk2X5SkXpDSnMd4-D3YiljRve7DTRIGI78M_OsSxAhYDSkcPDKgotbdum3pkgio49QkqSc-Lm0h3m-KZnjdpfU-9AmAp2AAhvPxsloXAjn3uL0tFUaIkloPasosFI_Oy0R8xF7kWCPGt5itonNZEvQJUpmhCdpqCM_wwP2fGPvwhxb3yRyQChYsWLQm1hJr6tIke_ea1NhbMjdIYtSltN1OibRc97v_usD51FlmHU_SYewUMZA5Ubpf99SLefG9qmeylqGT6CBTn9478UFOOatef5LPeGhefP9Ec9t4svSJyAlqfMyd9YG80MNT559ssZPIfhNxCZJt46maZr9ZCmrtqSU17qYAEbt5en8Fx0Osfm6AfM8bRmDWeqNuFgWXS70Y4BXJP6A2-3ppNmGbH_t8ZxP5ZpZoE_wuCrLXrgVv5x6yczqJPHaQUiCBAGJaPAciXzo0BU0goNLrYvUwrfvpLi1Ax7Ceajazrwg5V3S27q2k7qxpxeLkYyM5nqV6R_QDVciFKY82QQxCxK01RQHrcU5jOBcq6FnNWYCSmnTap-c43OnNX-JMyYsUFV5-jdzvsx2ezVineT5eg5hQyfEf8vbB6o4B4Z52PYlR-3RxyDJfl2xQAHiWCxXsVmQQO0oT51hCc2G0KispC8AY8ZDKD_8TgJqwcJD-bkG7SmZ2n3KdQIwX-EmLziaN29bfiKGd2i2DYF5Sp_7zLnlfq8coyEDYGmOx6XHSKFdfuzWWi7ae-HPAlUh7UlonL88azL8OzZ5Fws1UXjcMy_rML6FQpUjHWJnOj7E30zTWgH7vVtxYP1Mpeq51r52GG1wTp_HJNwbKDg0xX867QX5sYKUpO7ZO01nS4qXLoRARmExiBwPM_HcHlckd6UWIfFZ-UcYZrWKF4UOFgVL532OCufYThMV8Pw2c4s3LrpT2PNi4Wx1aVIjmoTTIaoKEmoizCT-vH7zBUAGVh-FKckvy7eEbTXOAEQ-lpp0iMUEhNyxQ9zcsjxuAS4B4iMQhHQehZ2O6iOL3Q4HNHdjiOxMn56SKORjWQBE_ED2JdAJl-PH_EbfGlm5Ssj75pqtDz6g6AX4q6MuIjtq3Tn6hde3itZzW_mBEwZgciCOLUadS3cLVW3NUGbPe6op4Rj0L1njdXBZT5zpDUD5H0-eZjTVvqmTRXcq2044WpUDWmFDAcNZN8OX_aR3XTO14L8ZGZA7RGgCPd0HuQejLFqLXsvv5iYq1iplaaPW-yMOD4n-iu0VP0MqY9w1QuQiIyEeewyGIIIsA95eRCCGASxcnM73bgPgIjkf1A0Hwut5HLMrW9K_d3y7p--ulbXlrXHfRWp51q2CY_H_0PiyebxIMltoKQX7reQuhmx-p9eSsBwSIzCewciAklDqsV3w38nONKP0RhC3q45WUuuOk2mUVS1TTB8EBmp8B-yF5MOkyrcA9JUM9WNRblzgIO8t6ho2_eaEZQYgG2PN8IUO7P9hsY1Kj2fZvhobu5luyCNUNilP1cJSQkF76KjeqIqSm_U-OsMCc7tVufbJn3Ae6tJVroApzC5nJ8-lOqiH_wlZDvebq3XZhHwdRaBld8P0gZkFXAWACt7K2benNc4yjcQ6OUAq24imiZYW7EROEJFN51-vG_74Eq3RrJSuE9WNwHbYGMkZUCPG5JpFejppUVxP0pcPKOTkFIEOx3loESUtHrJOcFo7vMzVjPD_I4bXxIA31l3Lgu-QHMhbieR482iOO3mNAL_GeJhAcaEYKU5G3z9XuXq5SAYgJf9TSq8vx2Jc54Em2Y1uS5eazVezuzmirrHsyF6FYNBkSDTy4kc4CZH-wE0vU7kRpUs91yyRHWmVS8L7NKaJ34W8QDSdnBlMwaJgvvF8DVoRW2zQa-7PJPQ068PwdRwOWm-O_ha0A7MzVpRUCYL7fbCYsccb6EoI3Qc9xk7JyFALMOLgtGyACXxW0uNFKPSiZb1F9teW8-eug9IBYpaHTcMObSfbrB4ghdkRFiCzl987ZOYeAJG3EtliZD2Wd-loPe_AI7L5ekAXGMRJiV2qcvbtIGOLi3Dfbf6pkT70Kp3s-naRBaneyJBuv5VTWykVFbyVD9csdPq2gLj3EcpxP0trXJvf-fB7u8sGRiRxqoAILJHXq0FHhnZbhvDjbF7Ls0O12_eh3nyTbmYeoiVSmtMgcKKrHkufz-raiMl82E6lp8KxrSDQv5C6bD2Ii2xTuNQU8v03pKoxvPk8eVd8xt3b5yM5p97LQPbsVut9D-YyGaAj_5bppi8u80ecRsX0kQiORNGgmLzGjH_jynKokRfMaVelAYJhomdsOT1A0_XW8KZzKgeyS08AZVg3-eOt8iuBc5NBfjGlblc8ye1zKrFgiiBSL4EyvWfLNiFVHdTFN5GpDo8icCj6oZWcXsjodT7Zrft4v13L5iQHO7OjSOgv-o5ybZ6MiJuUsdEpIfNuiK1TOqhpRTt0V9bw4HVn4ZGTZqAhmNsb4PflWhUpt7bYAOkVKu3tsQfZm4RQlOZomOPwdlorjqwvPCQEbLoTn0oq_wn58svhW-GtmABFEZZXSJ1xHizaTUzA0syMhKusRX9DGv-ZnmkFbnPF7dxJxARKvwJ0Gz_MWv7OUWjK19L-uZx9rJS-SU5NTEt2BAhAYn8Cr0b1Aba3Y4LDLGqRviRlE7L2OGJEVeCz629Y7l2XnhyQAkmjr9pseVntS1TTnlee2Zk-TB_fWx2BDpcrtZ0pH1cA5x9YBac6anvOeR-GKJYJEov_XVWhdnn0Vj9Dqbwbc5FELDC72j2zsxjYsfvDVDhrCek0tQeKXIYhVqOjhusNJZ9Iq2SQm4oqYud4ax9G6yDcCbnk-fCIgvW6yDvWiHkU9-fEDAFRaUEqBp2ojdsMQjSFHkmqSAO1MOoiGeVKJ3qWOJxF3FgWj9vQiVRNTksC2O3ImseWTv7ZEAKgRJeVNx11tR7Zx_4Bajvt4dn-A-K5konYjpiI9XgYHAnswNOnpd9EYju_ufS_we_4qeeTRWSVy5w7JcUmRADnmVmsVB7gGdo5IjnQ0wLLQgx7QMLna6vfuyR1RxYZyQvqEvIAo1a3b7zqtTLkQaBcqOoMM-o28ChRIBR-6Kntk_TE6YBpQMugFXVm-FEDFS6Xke9kfN3hd_9MrFBhkX3PGy0zyIP630delZ3XUu8QesXCSSbwdsDzULJb7FFG4RgWaF48oBW21TBj81LuRNMGqzsxQbCYl7HiktqmerK-Gz_8u6EibZp6Fh7tTygSaS3s_VLswdvt4aZ4_Oz46BrSVAXZlo2x-s-7DW181beYChBavqmXOl-IP9HGNCb5PdhchR88oc_1dk06f3jWSGPwekavqeD7KKbFP9jm0ZU0sz6No-dVRnPGGpE9zhHmz16db2SuuW6b0RpWPm-vJFoZ1Bl8N3Vw9t8sPduLNozQTHtFLTvcV9Znvoe0SAfpM6RErVeZh8ZO3xsO3uSp-I_2FomfuT7qL91YdnA1nVxwF5aVfa_YbPR_ye6hD2tpimVzhjSOyLO-aDORuIMkWbJIB4o0dvQnoNU6nOWK7GzZ7dQ7BUvPyG-1WVnrDWKOnyKDB9LYW69KFO3gDBwgUtPSDoGdMg2I0rzzYmUVrdA9jcOTwlNIuVdw5nBi5Pc3p3DZGBlSDumJrSemoVM6Rq7xGMWr1I1OLsZoD0G1kOog95j7y75ArZex74HM8mlhaujfLKltU8WacoWJQTcPuOPwRWh1mBihbFcQaM4dc1Tf6YqwkObYHxbUiqgK_5qDNWMNXMElM_ck6WcGg1GoazeXQt20emhyNdZtYRLZ9bNQziqb_lAblDFzrDaIarzyIOtxtgL55ITR-qvPMLSk2_XgqnXkJ48L1dQSPdiEOojTZ_dMrENRt9mL-PEv28o6CQ5t_vwf4WF_6CpMVOrjRCToGtS1Ma7wuzHQGEqhl4dNalYGl1bUHV15UyRZkjdiwbHUQp31CW0XYaN9hZdZ-YyZk5Z7DrFLrElSkzhExwlLOAmNE7fzDGJAENnRP7PiRWS881nbXyw-cQ44kCW88wqQ5lWnKPyKllH2X7BezudDrfmBX1IUzKb-36b2ZfcwTZn9d3KXYze1N8tquuqUxYUu-7lyqSDMBSi8xkm9fWM49FUCheGOJVtSYF1b6VeKHlBY3dnPkcJacTAAONOjj-8KCmHRE2q7pVUnt5H71WyKtAg27Dhwdt3b6Rps5lbb21PnBcT4dMLAjXKp9lgrY8ZVBXZLs6MhB8ZFt9DEu-eQSK1okAzA-7ZHampYj0DJuZJ71Y-yI9pLEDgwsi7Amc_1NiM-xVmXT7PY4AbXZZ7-7hqLvgurlesYItwhRWnaAS4P8Yx1XMFzhOl6yhfn9ZAlAojnGfV8NaeN4N4fwo9iOKITQPkb2Sh4Y4xspZqqByNohpigIDqhTAtDBcIkUFOWNazVPNziXZUstJOs7lcPst1pDKD3xufVTL-YNdHW2u_6BtCSnU0rwyEidYWm25909AQsst4nZKtwHLC5KTFGTu6yJeL7FdnmKQFqcfq5Bc78PrB1liymTG4eswuYAvUbS_G3aNdB8jcL9BfeGcZK5v0LvFrB1p3jbiL5rRZ3R-XYxlhSWzXUi9LBhjl5UG24yyODuEbFBVFLXYBTsEAA4FcW1fJX99nt5nVwb-pPEDy9v7y_ssTf70t7qsSxajfAlYH7dMpL2fWo6vTVjnR825JAW2N9NSYBrExXQUVLbKMaUVmt7Nj5XjIGOOruN1S2CaFWf42FqLADtIyazQ6HEVEWpsfMLj9fXXFoL6cfvtYHVqqBP-kQrPw4GsioIYyK2Rxx6l1cShZ_3f4rpcFiGZF0j9Ie3ieg-eYmrsN6qkOrPaNnvizU6Eo5vvUk2l2j945bRL26hzrDqDDcyY_AWeuybArJLZCpyaQriUBwYBFGFb0-dhL9wEVpLcykUuma--GFCiLK-oBiMlfMNe71K4e_-T_cMmxXbCkbnf5V4CH6SLU2GsGqkURwAZT9d3KqOI2W0_WfABrvar1KPnyAWB3HPG0iF5W95L-J-oII6ijeaHtCAiGRvzb6HXIZFHiBck10PTAcB1VEV70IB3LIzLk7SBRAUYohKpnmSuUVbjv5IU6oY0ZQHfdBHba0W3edJFKv5Lph1yfSHavD-_FSrljEw5AscJVYtouUhGs7MqOvqxAw4X1ZqPDQRBLM0MAoIMOJLNBwHoMGzQHR97e7CNarIPXNCtJwOfE3taESOQqm6zzZLYcJyjqI89Iw_hKuSd9XW3mSwwW0Cn0DxOhymLqRHbzL-YEU0Dfdb6NRzKe76KuhZQQows3R8XGsavoT15Zx7sx4KGwCw8MpFgk4rhTCCgIvmdbLAuqk6bRtpTDxwN3HAE8gv6ejliwQ5DICv4aQ7DGiY-2frhXJPrzVwKxLoaiXsOqfvVH10D7bZU6i_q_U3nSovFx2YUycVEBJgAQfFb6LIrAoVP7rjgw589dLUPYV-x86UAjwjLC_9u_1fZdqb2QW7PIGDfYzEzH12d6qcZIGAetcoFJH0aPRmety4SInuivcAr3cJ6pqASAlbOyK741dLJOt2ikWlu1fi45s1MepHXu6u2QzzaQ-W9MN5WQF4M-TDzof-bOsk6CL-eveJQWTe0mvBY3RnvMI4JJknD-CGZHLc2wA-ZARjf5emm43HCLbjgvO4QZoizCURB2RnFly-_qLbR-Oa0M8M97DF9_2hAdWs1yv3R3b0iVpDP3Hq-H8kxRQF8xdQ50h2HD3k21lINLofSJ4Oo-mbgP1qBJQpcFWn1801GHFncjPyqGWC9SfTfLCzHO0vwwYQmfAMs61tDzw61pVWWXi_ID5S5tci_WAH7j2lo458-4Y1Vsh3ZZQRCKqa5-rKGqNZV4PFE5RI6I0KVLSgxqVWfMn_bzRmu3j2bwVu1S5DppgtbY5eMt0jhUDdXvWe4ksQqVRms_HUDb7uT2oWWYSSgboh2Y4QHTPsdYsqz-xpB8M7gnTjxqDfY9m5J080KfLu6elucNz4lUFQDUpsE2jPvPPE-6M_S6rpv2LIjVvq24eu3PI-mKVqfs-aC_5qAXXebY-EsVGYh7sLiq2xPXY8Ara2ay8gBwB0X27fHN8ab4qJDnNbkB0zs3cwh9NT_hjwoYQjqX9sjdFWerKpouH6iKY_d5hOFK6s1wg295DVumBmpHuzrfVTUeivTejGt_D00In6C00vfXVjLSc_IDUqOYClEtVpZJVAI=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "eLFqadi0FI67qtsP2Pz10Qc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 1830,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 130582,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 130254
+        }
+      ],
+      "thoughts_token_count": 3295,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 135707,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 29,
+          "description": "Student is on the ClassLink login page. Fields for username and password are empty.",
+          "details": "Screen shows the ClassLink login portal with an illustration of a school building."
+        },
+        {
+          "offset_seconds": 29,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "System popup appears: 'ClassLink does not have access to your location'."
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Cancel button",
+          "details": "Student taps 'Cancel' on the location permission popup."
+        },
+        {
+          "offset_seconds": 32,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Sign In button",
+          "details": "Student taps 'Sign In' without entering credentials."
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "inactivity",
+          "duration_seconds": 26,
+          "description": "Student remains on the login screen without taking action."
+        },
+        {
+          "offset_seconds": 59,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Login Here button",
+          "details": "Student taps 'Login Here' under 'Can't find your login page?'."
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "keyboard",
+          "duration_seconds": 4,
+          "action": "type",
+          "text": "lxl",
+          "details": "Student types 'lxl' into the search bar."
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Global - IXL Learning",
+          "details": "Student selects the IXL Learning option from the search results."
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "ClassLink",
+          "to_app": "iOS Home Screen",
+          "details": "Student swipes up to return to the iPad home screen."
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "iOS Home Screen",
+          "to_app": "Zoom",
+          "details": "Student opens the task switcher and selects Zoom."
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "view_change",
+          "duration_seconds": 27,
+          "description": "Zoom interface active. Tutor video is visible. Student video is off (showing name 'Enrick')."
+        },
+        {
+          "offset_seconds": 148,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi, can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "inactivity",
+          "duration_seconds": 283,
+          "description": "Long period of waiting. Tutor sits silently, looking at the screen, occasionally resting head on hand. Student screen remains black with name 'Enrick'."
+        },
+        {
+          "offset_seconds": 633,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share content appears.",
+          "details": "View switches to the IXL app showing a coordinate plane problem: 'What are the coordinates of the blue square?'"
+        },
+        {
+          "offset_seconds": 638,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "If you can't share your screen, you have to download Zoom in, um, Self Service."
+        },
+        {
+          "offset_seconds": 648,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Angel, look. Angel, look."
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Angel, this you?"
+        },
+        {
+          "offset_seconds": 700,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Yo, I have four streak."
+        },
+        {
+          "offset_seconds": 724,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "IXL problem changes.",
+          "details": "Screen displays a new problem: 'Put these numbers in order from least to greatest.'"
+        },
+        {
+          "offset_seconds": 729,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 730,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "IXL 'Brilliant!' screen appears briefly.",
+          "details": "Indicates completion of the previous question."
+        },
+        {
+          "offset_seconds": 730,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Enrick"
+        },
+        {
+          "offset_seconds": 731,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "New IXL problem loads.",
+          "details": "Problem: 'Put these numbers in order from greatest to least.'"
+        },
+        {
+          "offset_seconds": 733,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay. I'm just going to look at how you're solving the problems.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 736,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Mhm.",
+          "speaker_name": "Enrick"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 21:47:34 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=102692",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 14,\n      \"description\": \"Student is on IXL screen 'coordinate plane', problem 'What are the coordinates of the blue square?'\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen cuts to a new IXL skill 'B.4 Order numbers up to one million'.\"\n    },\n    {\n      \"offset_seconds\": 15,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 5,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student drags number tiles to order them from least to greatest: 663,199, 663,979, 669,199, 673,179.\"\n    },\n    {\n      \"offset_seconds\": 20,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 21,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Enrick\"\n    },\n    {\n      \"offset_seconds\": 21,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 22,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 24,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm just going to look at how you're solving the problems.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 24,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 12,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders numbers 229,623, 338,127, 338,737, 47,174 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 29,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And let me know if you have any questions.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 37,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer message appears.\"\n    },\n    {\n      \"offset_seconds\": 39,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\"\n    },\n    {\n      \"offset_seconds\": 40,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 7,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders numbers 68,655, 98,684, 221,775, 62,451 from least to greatest.\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 49,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 15,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders numbers 848,731, 384,112, 237,535, 384,612 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 65,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 66,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 66,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 47,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student completes multiple ordering problems correctly without tutor intervention.\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Message 'Wonderful!' appears.\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 3,\n      \"description\": \"Challenge Zone animation plays.\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 15,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders numbers 278,807, 191,009, 658,883, 614,450, 490,220 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 143,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 143,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 11,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders numbers 570,180, 463,567, 25,515, 25,620, 25,525 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 155,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 157,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 11,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student attempts to order numbers 120,202, 564,623, 240,580, 170,389, 120,287 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 169,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 170,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer message appears.\"\n    },\n    {\n      \"offset_seconds\": 170,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Very close.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 171,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 1,\n      \"direction\": \"down\",\n      \"details\": \"Student scrolls to view the explanation.\"\n    },\n    {\n      \"offset_seconds\": 173,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"'Cause [inaudible] is always smaller than...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 175,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\"\n    },\n    {\n      \"offset_seconds\": 176,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 58,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student solves two more ordering problems correctly.\"\n    },\n    {\n      \"offset_seconds\": 234,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Message 'Terrific!' appears.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Message 'Keep it up!' appears.\"\n    },\n    {\n      \"offset_seconds\": 258,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 13,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student attempts to order numbers 270,908, 812,721, 816,721, 816,782, 812,726 from greatest to least.\"\n    },\n    {\n      \"offset_seconds\": 272,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 273,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer message appears.\"\n    },\n    {\n      \"offset_seconds\": 274,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Umm not quite. Very close.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 276,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"'Cause 270 is always smaller than...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 279,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\"\n    },\n    {\n      \"offset_seconds\": 280,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 18,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student orders a new set of numbers.\"\n    },\n    {\n      \"offset_seconds\": 298,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 299,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 120,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Student continues to solve ordering problems correctly.\"\n    },\n    {\n      \"offset_seconds\": 448,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice. Good job.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 453,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student navigates to the IXL Dashboard.\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 17,\n      \"direction\": \"down\",\n      \"details\": \"Student scrolls through recommended skills.\"\n    },\n    {\n      \"offset_seconds\": 471,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Try this button for skill 'Multiply a mixed number by a whole number'\"\n    },\n    {\n      \"offset_seconds\": 472,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Skill R.2 'Multiply a mixed number by a whole number' loads.\"\n    },\n    {\n      \"offset_seconds\": 475,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 476,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer message appears.\"\n    },\n    {\n      \"offset_seconds\": 478,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\"\n    },\n    {\n      \"offset_seconds\": 479,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Scratchpad (pencil) icon\"\n    },\n    {\n      \"offset_seconds\": 480,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 4,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '3 2/5'\"\n    },\n    {\n      \"offset_seconds\": 484,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes 'x 2'\"\n    },\n    {\n      \"offset_seconds\": 489,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 4,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '= 17/5'\"\n    },\n    {\n      \"offset_seconds\": 498,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '17/5 x 2'\"\n    },\n    {\n      \"offset_seconds\": 503,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '= 34/5'\"\n    },\n    {\n      \"offset_seconds\": 507,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '34/5 ='\"\n    },\n    {\n      \"offset_seconds\": 508,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 510,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '6'\"\n    },\n    {\n      \"offset_seconds\": 512,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 514,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '4/5'\"\n    },\n    {\n      \"offset_seconds\": 526,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"Student types '6' in the whole number field.\"\n    },\n    {\n      \"offset_seconds\": 527,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 534,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, wait. Wait, no. 34.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 537,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Wait, so if you do 6 times 5, that'd be 30.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then you have...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 543,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Wait, what did you get? 34?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 545,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '34' again on scratchpad.\"\n    },\n    {\n      \"offset_seconds\": 547,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 550,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"Student types '1' in the numerator field.\"\n    },\n    {\n      \"offset_seconds\": 554,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Student types '5' in the denominator field.\"\n    },\n    {\n      \"offset_seconds\": 556,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 559,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"4\",\n      \"details\": \"Student changes numerator to '4'.\"\n    },\n    {\n      \"offset_seconds\": 561,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice. Very nice. Good job.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 564,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\"\n    },\n    {\n      \"offset_seconds\": 569,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Scratchpad (pencil) icon\"\n    },\n    {\n      \"offset_seconds\": 570,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '2 2/3'\"\n    },\n    {\n      \"offset_seconds\": 574,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes 'x 2'\"\n    },\n    {\n      \"offset_seconds\": 576,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 577,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '= 8/3'\"\n    },\n    {\n      \"offset_seconds\": 580,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '8/3 x 2'\"\n    },\n    {\n      \"offset_seconds\": 582,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '= 16/3'\"\n    },\n    {\n      \"offset_seconds\": 585,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Close, close.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 587,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So if you do 3 times 2 plus 2...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 591,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Wait, what is 4 times...?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 594,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student changes 'x 2' to 'x 4'.\"\n    },\n    {\n      \"offset_seconds\": 596,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmhmm. Yeah.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 597,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 3,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '8/3 x 4'\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '= 32/3'\"\n    },\n    {\n      \"offset_seconds\": 602,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '32/3 ='\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '10'\"\n    },\n    {\n      \"offset_seconds\": 605,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '2/3'\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice.\",\n      \"speaker_name\": \"Suzie Baik\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EsOCAQq_ggEBcsjafGM0viZQD5uqnoHdGidN7UKjJygEobceRZz9Cso-cSHoBq6l9thGboxVWKVNGr_MIujUXeWbtQ19r_G_SYTBwJwd0hW2jgORgBAWd1XfUho6zTx9gADbVKxSZZcdLUFvVTB9aZEzjKle5IyDLffK7Faoqx4cg_Oztk4e1ZVSYILz-SyXnSpP4kzCCTAshCXJFUGU3aYNdUydXf2fg8h9qrXXjw4w0bHvOyACHUB8Uu0DHsZ0f6WgESsrHQkkxUSihDbCaVvejJJF70dio_U-3B0lKH_Sob_ezmNtBUlpPtvouRX1ujmbazLastbHKBR9_Klz6jqhutI2jSciVXXREWST6Ly2OnFou3RrsyLy1U7O-iRpfTolYqjQoroar3dfR9HsNWxh6cMaKTOwX8EQU-Oz2XBQReNCOCgh1zaUfim2nEy8hP5Z9kagxgHDEdytYG64lqXchauwVTgjGTrSrkIn61ZcPySgcRNBDtYR3_LW52QNNVPeaFgQPDXPSDGQlPOK5flonghi54Oeiuf0IQLC1jVSU25m1gG1WI3KtpfxfGZMtipA145xbGIxZjgf72hpip3Jj-14dkGl1VCBR6gjwq5fNQnxWwSGCD9ILJsoKmBa7o567uskOifQkEfByHDGE3zjEyEl1I0F4873PWX2kPj9hUjoGenCDRLlTBYlWs7QrxduSG42nCalzV2Z6bC8xDzUe4YHiuA_xNtzQj-lqAXbqZThjtRYbhtWPwFb06G7YrjKblL-TimlKsoIIN2vOHeMRISQfbIaGfJX8bzsMljUEARmg8fbWr0GBRwnhLKCHW_YqQWpTH8bBLhwxdWQg3Lh6XgZMTQBtbR_FOR_IWwtsC6jWfdTZrdbMiEyVcmJaoGOzwIlAfDIWhsN9ZxBlzlPZEIka8Vz98Owm9S--Es7SHKO04TBIU5QzO03VYkieCPFCuFQb5JG6vvgV4QppmQMJAPTwGmC4_kA4FAuXKB4K56AqwwqXjnyKMOEPYHHXZNKHgAnqV-1AfNtAkru12CL8pL8E_Q3PZCKOHEUeSGk_VTnLVScdcdVwPWfkB05DsQcR0MNZAvlPBVUJvAMGj7u1pJBIXYDVEFdaaDQWH05tWpSnsLaYQsw7lFBzGwZbCt1JEet1_sCPOQqMsd0yjjWogi0dVDAuiJ6_Wj7SaUdHBGWiOGXMcRVYvIjh8GbwMWCK3w7QY8f58pJqApiSrjMckAzlOYrLwLmQJ7vCwVWGzvPnRKquMo6U3S4xsxaU3l-KSVpuktsRhhx1THoh4LSbYdQAYmZzKzUyURFGBylGmqMkVrBeViUmske0KxngtCRM7qq3MfBD28wPGoBUUa7ahXDB3eF0ID4kGAMs96CJ7OEHHNHJ7VchWXHszFwAe92M63aTohOMW6sdPvgPqnZL1qmLiCbzLllZEY1g4tspUXRxDK0ijIdM7FZ-4T_UKS2cDzlxDaIfFyIes3_BNO8T8K_htKIA2P0jYCfzCDfRbFBMbGxtOiZNh2qdAxRrTxFV2qbASfFqd7_qDFu4khH7sp6HCJ22KBvQuFWVmRSqqYz-hhltq2t-g6NoQwh5dH004ljKICJWGB39QVJuRS8aiY-uUuhVyeivvWzXZwNaXGZ9G06vJtXyfwPziu1kZriPVsgB2I9lfwgkA0eS2ueL5wBDK5WAb0XJXXiAa8de4mmweQt5LiBABX3orG03s3Yfzq8GPvvc_Z68yXm7vA8qpZGBcjCSreyVO07dwIbBQjaSQXzQ999Jnk-kFjyI9xhMH_YeOj8aif3ZUTtoQtIzHtR7i7Qujn5_P22_OEDu8Wa64vYY58uRaahIVKrfbA0R2H8kemtTRuzhpZjunxlaY0VVmf4lPWpTplg5C4O8x-Hw2fe3q_1SgkdgxS3A34rVWEYMsTWbSWeNBOS2_3ghhWe3FDRMPdv4d-YSd7p72QeXWtWZ5PUSPCjK0CKbI03iBJekEIJXZ8zRXyRclKDOlClRnErgQyZ6p8i3fTJ0dBNE3eVJOsAo129i-H6c2t6JnlWRjbaO_wKKHglJwLQ77NcnhYEY3ELfMOk4d3eS2qCxjQR3rIhPRxo5FMsG7QmS_JUyB4U55W4024PtJL2V50PG_sb2pbXTf-2wPLQltNOtNNYCZ4_6oVULYJiter36arjym6wH1IdwIWe2NfFVp4uPNGYohwcRvPLvQamsBsnDaM24c2Aq_Pjdktq1uPfWIIcVJjx59e9hensc93zYtoh_SgVyanF3nRPdCgl4SwFxqQSPvxdPP_md8ACZZnNczmra7XONWmWQOxK0ELobMky7NTpc3w0sZufGxrON8D8xB0d2VcQlKlYjHSMp84SpWhDQrstY0-V4L6u4T62gtZzYd8rsefKMlBj3CBJKT4Go5hwFo6JmxBQDUTxUY0yT0DpGkpjV8GgdqSn7LCFBERo8YaYznz_yHYhPOI1OGBwlGAL-SO4EDOe6A-iy2wQmndJYdJOaDhRSCktn4NIJg6AbGzZIvjFWZ7qF6UO4tBArZnaj2r4ICqPkvpmer6uXfyyLZnKoDoTGbcM5aX8Z2_-FNMw4C0C1Ap89u9zytAOSfM_uIzKGEWNWqHuJvRBBCIisWYrqguyez6rC4ESGdsvmIxieeKmAol7lYMnZvLAz9bx4tsMp1CAXMZPf-9VcKTYg6KLVa_JzQ49frSViV0DdyDCCY_UTjtyEKJzl1RS3Pb13KlEyXt9P1-Do8hPIVSy89hDNqxVVQeRI32kgRYnOjQQiXWb1_C2hlecsDyaHPHOaD-S28lw9ksUo5SUY2VLJsdOzylFBUiV51ZSSR-owtLd-6mwxp5i5RUOli1XvlhgRoiLaaQB1-g1eSbk5QnAv1OYOnbAgW9ronkwdN-F_xkkwrybm3DV0qsY47uHA_DQG6KffNaLVWFfCjFnPMoMswIdjs8tloVGFORPFJ8o5hdNIK_7U7JtBF-wmvSyngbeeG_fe7R25io4p6ko9dRaOsI-ROMouJmuYE90qzDqcIiVb8_iUN0jAS6rpQmmdWOxvVLCr2fHWSGCORJrt1jq_mI7fo4aWabw92_5L1lfyqoK9P-b02EDb1P4HKDgDyz5t9G089a2F0K8huycOl8fA9RYc6NxCRP8pc1O1qMYEsnue5G5YH2GMw_zdfhnTWUDYZbBIcPJvE72p9QSiFTMK6Rb0cwp1nl-MWr3C65L3FKkfwyVxjXV-nA19H5r9BRCUS0BmIZyNEuSmqxrMENlZ-cWKQeiCkCwUyao_SSOw40oCYnb3OghsMAXc_SCEcBKXMpBqLz2l5Cecc1EdXU3hDr514GquCnbA57f2HpmcT_C8xXAwqilUnWNzkHW_2-41BnjdgKpP_xZBVYn-LeOz6uqr3iHz2mMYA_A2THQ8zCBigfPQB_jhH_kojvK_WASg6J0hcOAWx97UGrzXW7M8PawSl77HueAPLLzcKQZK8uDumpOaqA8Wuo0382vGUmS5A6W6SOMyZd3fUBGkki6qoJc-tmIZJg4EkALVow8I4DHb6kkCSVGGfFKfyzlzbngsjEv_nEq4nk7MZfPJ0O_rya-uQ_P5ukH5KcnHwRHqOJTrYfvVSuz_b1AVSOrvFZ0nbHQi1Jb92R6EtXtMyzve8_G8dztZ490Lch-9aBm9ngcgA6x-vfO6e-06NtAythOAjUeqReHONrgoFMYf-LeWltdhL_pPbAjPHHdZDK0zsbQuvv5X37Q-i8Z6Op0wtTCR88L8S3m2ANjEe5K1igdMYNXPPGrLvj7lPuKmPCbQopM1zJaZLRLqNAQO1V5c3k2BYA3Xu_vkJEy31-zSGnfOu_M2HyicsPfVsGgXdXJ-3cL3WLPIJasuDPOMYaPDHFI-XTVsMN1dzH7qMCSmDBFoB45fahM73j_dqn1qxd2shiL7UAhAvN3ar73U_FrB8h55d0ibz-lyO3U7yEbcRHZotlVXiGK7tBDCGODpCWmngSEuNP1yrz_iPXRrD_o3jQYdLJf837kg5DmpqCra3Lwt1ONkNIWmVYdCsJHMA8g16V_-Ns0cuQeBj2_F48GJF0AYqRsmxQ8PJpnwCbwPAsLfQtC9Y4s6K_gfR6iZtTfohwyBoBUbDTo2B4onAadBUnUANf25y9PuiTayEFknFhnmeOX96NtpejaLoX4xOVF6GfROskreI_S98Vy02nNtuwrF50b2RMNrO8ewqZGGjhhs8Z6PhFNTzqf3qZFMiFBPWzUZGRnL_-Hr82EXJ1pizGQ9OEF2yP5DYq6tKiwgLsRc4GgtT6PNpkrRzLvOj3AP6t14RlHXUZSHZoT8nc0P76Tcj2F54bVqmi327fsi9y3nTdp3qz0FMv7FaAaIZVloHVKdplnwi8bvdLWpFMsz9OGXRoVdTRKp-5HVNHMzt_BGDaMkEYi3oyKpBjTeBsVFzdg5V7JsW3p_3fxj9AzoQnMOYyXOCfzEZDrTnrtTk5CDxFlw-KjhJoQIieFb83y6MLlfT0rBdXZfoeeQR_GyLeAshCDF6Wr8GRS88vP74xW433qNo-4CLIpF0Ry3FSD3WluRaOne2w2pA-FdtAXOsEQtCzNiQ0AmVCi7LFLeThNlOgDafpwsOnJuVfLYYnl2p2OxaNbwDmrDUwdQh5pBAmVPVyt9ATaBUr7T89xE2NJJkZWtuWM-UexLI67YZ56H2GelP31Trc2CtxS3lrvrOyS7fAgvw9Oew9LnOTCnUQZxDWw_3WeRgoB9WzVvPOaIpwwMxuEt27XuyJocQXV2hmjnZNEDCaRL5-MprTvB9v24mrAUQ-mRWhF-xcsj16F2VYzQCtVrQdx3E-QCHeHekTvjttCL500ktCFq6PVjJWcpIbgq8VJayAklcuWMy_4px0ThUdn2WFf2fz8lYcDwGCrWfUhdBRKlI_8WJYwvks7XAf8ZPlvDqbDYGOyfc4KmvoYL1zxks6N1njfLbqn-EURrHmyQ6TPsXVnWZvqlmS0zvnk0k4Pg8JzSIz-R_Z0wZOaPMZLcyokD1ggvqD8dfue73dxuDAoZHX7QJi4wgsODiIEPWBg_LRZknxkjnAB0LBR0bXN0VkLVLI_pXQJjb3ZiI3q6fwYE62K3UkWMDpUneVcAZheAgJh_Dh--JpFxgS1bjxBLZaR1FIFmakugoshbDZxweKPHANoRg6x7NTM4z-yITsmKtn71Pim_fd9c8W6ePab-SMlw360AMo2Y4ScTL-dWqarTcD3Y8LAC2QGM-BiVwh_4Sa1h5l4lhV6t8AZ35Cg6oWCEbbNPgt6bfLDhjT3LJqVRW7htLgs4XaTndBuLkBSdwWH_pF0i0Q2ONuwlL6KpFSkyf2EQjUwuH_EIhOpgAcEnMSUPicrKxLZhFvMcSZez3J9qVhtvFd7WfxOSeCysC4FDWeQPdMKWNF5cz3qKxtIs02PQZ_vwRcLNEmq01tfPDjIbyqDR3ZY7GoX9n8SkiKXd2JYhUN8Kc73LweX-sHo6yy1QUdcv4v264HYV8J-QYB-drDLztADTkoui_Bn0ZnnX8cMuJr5PKSvXYEi4bTeSVmWwMnSxkEBZj5z5QuSttB5vflIuor_PRuHQIuvrYN2HSZLssJjl2IgiUhqF8QWg_Ud0PchsHlTy2sLmlBcXlG0lbpxbz1ZufT7jWaxsollf8mfH3fYgmMC-4t-sBYl1ULgQWN2fFjpzbBT6JxvEBFDsZKy7tqCV3r0_xoTk6LKWoRxIAm0-SAES7b6XcD8b9RljTpCEQVilGBwYtBFcRVRsGP0XgfCedlxkTXFIW9S9tmeVbo2VGsS_DtaIEMB0Sf7ITBqgJvHGsEdoSY2VSOskkCZvODzF88Xbc-fOYsd_SvKs2J85fxr18GWyo0RxYmWIv3FNRBeMPZVfvLvhOJ2gW01k-0TlI93c0amEMTp-N5sg1aM1Hfu1U30JoSxNrKNziKFOU3WsMmmndw4eMcqcKpKzdSlRUOophFK-ME255DOR13oQvvdPrnHkjm1PWkc8xyD8fgrCKjJp17bGYvwp8kQFQ3lfQ3wNGOp4pIASf4mtEvMESrX4W2beaoqxBBdrcEBd_seAkFVRv331NVBE9L8nYj-bB2gMyNBKjYAAuGIRjXQvMjWCtL1Sgf-FsYrs3qmjVn-VKEGZnpfma393N5X3Urd6ZAkDTavam_yaeQPpdkEL7nMpjik6cDG0CGT-CjxjoSeg1quwiJ5Iv7Ef36RmunFAGyCqASDDFAoB4T1YqBmIuX4_17hYYMyUpYB5UXEaQZxQHW-VqyFGYA9FL4Y2w0T-N7Hv9r62VeTyy1yE2Pc5ztLFFKGsLhj7J5VkHypXIpTcB3abWtm2McAkyismDrOdYUIaFxBqqFAikTHV-3Id1td7t8HWILlyiPgBPn4AM_Mo_kiJMY6YDC90qEQfnjbD8ziGejREFnFhC9AxTVLPHr1-Fy4rmGeyFONqa-rZLoOT4Iiw6HEWN3Wyi1_m0euZsie3pSF9CbgRO-VOY7zK_pjhVqPJO_KU4M_lAabTOx7ALrLjLoF3FbtXz0S91I6ByiDsai3CBnBCUUdnNtfffOhEfE6kSXaXHlj9piRCxC3IXkruhR6AduUznhXyAf3ZlUG8WqbIhQTm67_F75FO0YUvFxgYme0247lXZFyAVcTdteDWAvl-zIXN_HjfAz097Qgl1NFHWPBzjuI_mJ27ijXJpxQep5yb7PgVCJO-ZTAk56CEMyQ0_EnY0yNHnifp8gpa8nPyl-uEeERbmrjwKhJdVoYgFHhHD9j_ONykdfDSUScm4jLjgbzminYxhR4hl5Ky_opmXMqaP9f9BGIV-9UJMwNNCQXU1PbXVlCJMCPt9-QX--ctB7UYeCDrGpom4-CRNmDWrZIKitkgN-jokIKVx-94CSNHnAxQFobZraHNO5eeYin6tBJrHW6qgpv2zYAN_l5Ipu8m1ITig8wtjmzYUTlSvg6LeKugVVzWuagakA_7XrXHekV0yykH70vLumU-EAQ2xVvGbC9w7XwOYcNjFdoSCkjZZXp6ucorNa2Px1dUcEPNjnSyR8Y65e913fxtXh93H7vj1AFBqKDl6q6XB_PznFbH_4C4N-tkLCy2eTQh0vxM7jCKJbaZVhPPtCbuJFr5oenGHTjESLIORs-ytMww8dBR2sn5PE6rGX1Dw2QgM4SBCni63GU9vIa1_73qtwQyxBkKR7fTYw5B7F_MJ25SZhTv30Enrp4ojAdy09HCbcT79t202FCph6S8JUO3l3wgX8cG8llutJTz4P_Gd5K-VcnUf7HhPzqrZTuUytg1klo95j3LJAo8VhT4WAIs0OG_jmM-KvhcNvgHqGEWhk9hLgEaHS9d293gO7VT6oZK3Nf7uHKHdObuhi6kYDaG-Y5Uf6rbYlFE1ihamMbyATEKPVeklXgyZiPuKzWI9HQxrbo4-eBzc16GtUqWUm8T_WPYBDpSMBxDAZYfbEhUwCtGsmXpESldWTleUX-gymTKasrN19olIZuo2wALBoauQhSo92WocdQR7JuIHVqnMt3dwqGLfS_qIEOkBN8qmKAsVPeqD-l1H7bgKoQkTeesVOfJgBPJY885N6G1QXlXEv-Y42hPCF1MgsO2aB56NXtPwlPNA8sYdKSwipQ6tek7lSSv-Un8aqXFjQ3NTX4P4XFAw1PlueSW6HLZm8E3dB3Fcw-57fmT5R1MgzOMregceWNx8YgbaiaWhvXPPW17D8MkVrDJge9FgLq014Ee5nVFvZ8lr_Q400TWlQOvadZlO8m53f1-stivEli3sZMtBvywl4cQgjW_qYrLkhXVeOenKYG5l2nkIcCY7cXUVmoURCVTx27a1vkhrNMLu5lhcF-l05Y3Q-jV13v3N5jDtDMce0q6r73x876MlxSs6w-ElUW0nK6w9ytO1bjhVYaJF3onuqIIQd4RBWqQhkkUnIptTQMtDrv8LOqsBuxcm9zlaVqAso5WZBCQKzi-EEOvCUGfGtAD02AD3QWhxPZFrmheQ7Ug1cy4uMp9-g6HB8gJaMnSKUSvgYLsM7wox5wf32KQ0yER9fkcb7w3bMKSFcOnCSG9UnJVpY9nFWYCgj8iEXW6JaE3l_qthYfFwQ009oQJpV91E30iPTiip5p3SpZuvmysIetXouPw0bOVZygzMD3j0xreFrFksOU6pWTjUzhbioLkOZ_YbvFIjhe9iaOspy8RcgQKHlXk3d6b9j9IW_j8VpjW0rbHspYhD-tLWVCyt4lxMq0tqiWHwjwTSORaLzJoCsnweItMO_8Uojt5rv5ArfrQeqGgu-tpublBzemNm2_S-Rfsu-XwxLL0vvALIJ-Up5P2Sm7hrkRSprGRyu16MKIQ8akKeoIX5fmuki6mL-0XNybZ4CPForV3zZwc1yW4rYkfQLUFEwS3XbrHW2BvFFNbeenk3AKQNy9aEJwXm9Cp7Deao71G19ii2ubTG1O57pZzRO8hOHb6G2I3BOHjDjRFH019zpYzz3EUU-kqUE2c237whhwqkfzIojoN35vQ0-RgMUcNjxVKPiift30ARYQPGHu2IhNEPTgEtn5e7HlbosZTuqmO7itYf2us2wWbUm3-Q5JNw_OD1ToT-qmHPI2sUkTEU7o4S93C8heJEEzNm59y3qHNj8_YkKkbXZ3Mymp2K1by40haYVYRlx4q8z3GLdxgQ1DmBA0SL1b0RML3-nlPlQabMofC6-DF8KGjUGH_44jNv30zptjX6yB15tkgNxwlvAeWNRkuRMEGX6BxHdZjh2XtvcKyL-HVMKXC9z4yf7syoad5-0zVDfoRM4celxZYRqq30aaiJTRKotGT4tcXNUQI-0n24sYgWJ3DvIZfXrulmzw_RNcG_Si5vucUlUL9Iqf3oFcB7ralHwqHgjuh0rWT5JseX520shTGK_5IyQfZdkEmPKZYxJFiC_AAmeFynubtrdxC5YExzsZgBl13KtPqxZfM7gFmsIPvzLVjOGvbTBneoHJVfk-gIMda76UV-vjRTpq7VWWxrTqUkHMzWrlep3iQS9XFvyTj3S_KSX7VzTjqmP3ZCLFb8DtNC3M-aYCwV00IbBCoiTORXyHw4qoaxGRYvoSOj-bX_CIWZgSqJRdjzrzKIL00EvqHEwNHG3l4k7RWOtxQWt_x8RGHSMf_7lG2rdo1IAOu6x6A0d-PnkHowNS8z1vIIi04Lv2ieHuFO0DgYSxSD4_lfj_n_0vfMiguzxQhY2rnJ3fn5yhletpqmtkxbNEEiJyXHCQPsoNFYBKphyqCiarVz8kNaFQrkGKCFTHN3h7sUGC_p9mGPHAH7A5kpHWmx5tHvhkcbBjmPardmBRwZVb-qw42So3M18pTJTYFWDPI3ynD7drFmSncMLzWJlnxmDpOXlPgbEgBKA0Vhu_0T3vbg1diitpDGD4Vu8a7bSmWjf9j-Z9AzTvheQq2ihOP1u40MxDbtiz3fAE9LO6KCD_ZK5Dw26oRIQImNCAzahh_VfvE2AN2NWJJyzBi7JF9BexF-1XTzxnFmiPRr0w9j37cLGETwzCblhrjG5NYS2XZvNo14nee8mNllefyRya7UNmH3bYwUV5CHUhE78I7IGNXGOXqVfsqDgAs6K-nIsAZ7CDUsgZa-BiVS-4KiT99uTtHAVf8qDsZVmYjC-_T2sP7sGzQyPKWR0KJervyOdYBYG6Lh4PIWSHtGT0RkF9UDyVNl7hzh_M7Z_oRIeuU-GKmbCm_DfpbgaRGyvvSgh2NtwR6QX0XHEeHdgJ0pRFVHY7KdnnhCyAmBIZoinHZCF0LMf7_Or1cCrcPhsnCGHlLZh3B5aWWztFgTKUzfFtJ69s5RjlvGcDeJSXxCdmT3okoBEOyt8xAdbJ1Ol0f4lWcZrytST-zZYVQWtYtetMIy4IU0tC6276KbtJhtetG14GLM77Rba3HVwbZzTkkFZy8liYIWzZRDQyCedZ9eVLLw5QQvUA4wJLkTU389X0Mpd5OKlOH7xZ1LogEns979CQUpwz7DGWYCsej6qgYfQ-OXK9AjyohLdyMq42DkoFiBXPHpp8ZRpJHP1xq6nl1Rf8gzkutbL51qE5whVlVl77rk_f91_qT99g_6hkcbxmgKwwL2KmMnA88cEokfWaV-Fw6lh_UbSJuH9weJWbr6yxyzW_ehlugBxFrNzks1xtkUK2IEM2JpRa4hC8hGU8hcnj0p1BSN0bpwnEetEgpJMM6-0rPVdKTuQkdBIvQVQigX_brU8-230m2HI46Sy8EomjJvLpvzmTBdB5fa96rYWB3fD5LVkh13KWQg3DU6dZqTC7rtlcKKEB76_ltFoqrTpzZEICC2M_EI7XdPW7AekiqIpZlkan3j4UK6cpdzh_WYkWh8iOjkrX9SLmPjtpwX0giqyJ023HJqD5tGZBcsAHcfujq-kQaztQ9biOG368gEC0lZ9J9u8wiEcSqFBZ8xuKL-ybNDOSdIJpo3j2MoIVe26WKjslLZBzJLtYjDGJEfZeqbFx5WprhD6h44vadzt55z1WRR_IuKM2mpQqWVMZAGBr5i2iz201xFawnYqhfNkjOmnxjXOvUQDW1pBEklibSmT_fLokyJEku7vUc1uOvd7xPss3KZQ_uHbmE6JWVho1XIwOgrstk3Jey3iesXLRbSM6TeVF_OzivLtNrIJzaCVBDQtQQGZ86d7CMEJYBgxRwWOmZ41A26-lwo6Dmqufe6aMxMk4t5q0FneUZo-qYjdb5ldibizaWT2ziBY1ePy6--uRj8YohsIvpm2L0Oq0M7vuTr0tPOQoIldUcaGgE6NIDB814W89klGbKfGq2wn5KCJ5dsVl70XfHNHlXWcPkpCv1QSn1L1NXbnJka3aPsa5FefItgdDpPHRxHIBgutQbQ4K3FZ9U8HSSew707Z-_yUEz_Z6fZLRXwtp7zgAVcG1MhkiITDuVj-GAVMY1xT-U__0A3EC6ulJmYMopPLrNR8wmf1qGuQNC-1S-REaMQcQTmloW5Ar6GRz1d0erQk-mEYH9QM-_5MdD1EcQ2j9pAt8i3T9824zP0tpJ7PH4Vyo0wAai6CsVpJZ2Ddm6-8cS7XO6SsrYoySHq1j5KLdQS-6gl2po0Xd_OiTk5vAMjFXURvlaYi-lFqci5IDUcC63xAjfl1SeXEdC0jIix7D0axh8G1e6ObPTdv_kXjhYArkNTa2lMLAfXhUeps3qcSsJyXH3RwLIy3wbaCXS1-Mv6qc3a60rSla2N41hFWK_oNLXlHZLpXFbTbZ7Ubo2O7_kKk2J-GOYC4DIMXBZruXMBXBM0lDdbGwE_4iG_Q-J4CLuJAkzM-aKHiAC5in_awiCLRAJCHTEMKTBDWes2Elsud0DsJZWfp3P7hAe1uPdPFpYWu3kbF2YXrCL7wlNLjOzfh1DCu7ciVbykQX6i9WToCNHHZH7LG-hgXwzJYwopj9ilo8yDcn4eENK9v8NCcrOGMwLmI-t2JVkoMn-kL1tqijP776-LbDCP4h3QSjaT5qe8GLZ1aMTHEn4fChlitsldGjLFhYPj13oaKYuN2LoYeeCjoebgYa7Z3eGPW4R7sSc51VlAbdC1DuMeUuOX-LEcxrlfYgQ5iob1agR5C_KwdY21US0J-peh9ykDxAOYIHzZQBQf73NWQ8b-_k3JFJ5qtPbbS3MN9F2xDEzgFW8Jf445CMyc3rZzcaDpjFR1QSj2p6sfqA2hD2w2f8-nQxsqBKLhAXOyuCeMIMguB44jy2Nz61lOihdnwxYO55xfzsegTUflhVlsGtUOO_Bpb-9QID3hAI5EyiESMHaLmui1ryAMeRLaN1Myq_7k-nro6b5TWXA2t-O-jysSbUT_fpPV7EipfU0mlazbzUY21Jk4-OtgEkYMPQDuoTk6aX4EDcSYe_M7rNYwZrL6a328MOuBKw8FAWFy40mmVdGCZ170FE-OaAnB8u7L7yQW-AUyR6bbczhrh2XbQopstidosaS18X-aG5yrnoTCBRcRm9erwD_E0E-nTvjqJezY9y9G2Cc924_LVZFDbHYJPVE-Qpvj6rH4Yzt0jQDi5PWaxFV5jzJrHIAc1sp-kD7fI3ZujNe9LoF6ee0xw92ywTHVQOdZ5yIJsVDi-8f71cQiRfWNd3l4QNSRqDrxaLx6GN4RAZUx1ymUr2uEK9TrXeij6_KJcKBvL2LEl-jIbAgtOnZ-s6JGMvBcuI0IwPEYCrJ8t8TriwTHs15zIvyohYH1_N-5TTQsn-DuoeNIQ1OdmtbPuzLFq_Ssn69lHZJJscbbO9K3KGNAAt1GEnDJQ_5L7Ig--a4NpafXR5ZN17pyErRDXamWdFqNtm9auZtJRWYmeGcWyo_6bBDTGNWuIkNaHo_N0BsHnTI4x9ZKGzRJrzCt1MCZLR_1e9nVyoDQW8cJri5bR8iS-U06MoJmY83TsjFU5ad89x0ZZtCPVcbxUV801QgrxAiZOtMvwp3TGopjX9R07261xZHSZND0xV0sPEKV7gF1LYsd3Fj0-QNyXn5vmywNmjdvTZ0Xeecs-wZOM3nreCWBU_ncJ3kvAiWGxQ5vX2kPJ_5zu97t8k8aTnHEqEd2bMKzf5Bt7N867PPG3icRkSwZr8pTezulkf902aHpxUez3mXbpM_CD78cSzb_fkaALmJzvxEC-tSL2NMGdOuTeDd6EHtYRFTdifhlYk27krCLrZ_Rdi-JR9Uo4Ca2uEJWssYoLNouLRl2_7d7Sza3hxFGVLEHeHt1fDWZGpmnFnSvIPXnqVrDL-KPgo0Skfm5S5i_oVkXz8Ej-9ObdwiekG-6SZu2elOyspHap4iisFWHcA4cQ3EWvs1Dw2PqaPVU1Ln3KhuWcpyI11dgEC9J03e5ujncsEuToSpfN_hm4RkXo2wmzC1mMUGDtZEKVQxaLDUxPnPM8BK0VAu_G_cd06oGCAAByWC76MFFuLUNZk6_XXF2CJ8vFMyxsv0Jtk3RlwGUtskF3FH6y3lmxTypy4zTBh4eNNfuOksFQ0sCbHfTZUtWnw30GkkDWPVqJ7bmg2BpT-u-Erd8J0uwu_b3FHyiRww4CvyyXFtVdtcLSZcvzdhy6n3BdhGrsoFdJ4KLOcqk6dhFIoOVBSxzs-daEH2EWyNYSERN4ct-luWIaT10u5P2cwa3MecpqIuavzXecfUwDy1oDcRWUctARR9LEOUngyT7vdcbZnJjgFbFUJyEsWfYnhYR01IBRAkldlnf2N1VZ0t2aMOD-qDI7PBugA0o4vVrckyQGbeLDWLHfA948cj1FvR6E6Ti7QrQsEzONlR0Pmuhw2zpK-6jO-CejBAIbRd_MNdWIOSAqtG9TYEBp9qsc9Fjl3gLdVVWwt1-CWQ_goMrgqYkOHyFC5mf1bpvgyUL2fC96URrL-uS6ldRxk8L6IY6tfUEqUPhLVBT76fqH9b-fOLzzWrhkee23xsasaLdMUlC6JwRQCwTonos58nbHDMVz79S8NHEAc0cARG2F2SzPHB_LUWKnu0Stx19A1nC94YjJ91dTJpCNaYvO7_EU2UViPCxgTybuEbBikslIjUjQQLPY-aUrb2h9WI7djuRoAaBM6CRNaO8qtrZJzn6-o0JuKY0KskqM3TQrfXkU1YKG88toCXqG-w-RSWxYMWNz8U2ckegP4H2-9QH9whws8SeL4rvxXmjHBdvKXO5B2FV8iY3P4JG-1gql20JgiQ60i7DBg9PllvqZeTXfxqvq8pk3ofsC8rd6z997_AaWKnjq2KHScvgk2D59UIFjwEhWssse5UHKdS9n1CHKtnOH028AkD2np_iur3FqlTVoa9Bf9xSrl8YBO0Yfjz0F1nqiRO8fQjPq8s2dortusQbqIrLR3T9lRfVnsRqH5yqtljso7ERdSX8ZhVzOEtpbofVDKhnxEZx1ThjpCY3HTaRHtXQjphmpe7Oi5PHVcqDrXlheaZ1upjX-47uWeTMsk5fGobVqaLr44mEqivxJA-clkgbw65yuVm01lbQyuptCOyiaVvUC7D99SwuATOgexGWNkrqZvXVA_TEnKftKZ-qjevuGRw90JHPHTVTkBWB6UA5qEns8UxkVAYFndOY0V8FIM9UpGK-anP4y74_hI_m3ZftpfO-erfh1pe32IdaRfXF14vDNFYwqSr_V1FlOXTqxYwAMhQko_mzRzBrRSYtsYpE13WzAm0EAV80WSAb1eJ5ruotkSKVLXhwDsU1pSnvufcZW4FhFbQb1rDE_K0pYhUW5SAiP4J8h6C2c4Rp5RUlJqfUfRTRvZnSwV1Jeyl-tDHTy5du04VE-hTXTZmE5VMZMsml_7Vj_weIkFOLsN_uq_q1GeokxvJ3POGbotYU3CWYhTONmosOGV3nh3LX4nsFiyQbYwgXrZi3qZeSfabEnstAbqc0LyzFZmj_qR4fq-cDZz0P4R_wL-OQ7hjyS9t6iisYDXHqF4F10rPdVcHxvtS42We6AxPvKJgs_GpO50PW_AKa-93wR2FkuoMIyeZpN3gCzg0ZA4pL3ecKNzF6K6bnsXDKCUNgfTBNOIka609QmEue1wSg_fHUo0FTQTF5KjJGrRpujOxTjZjKjrklkQmZaS6Ob5Iwp923zwnm_R7Myy7EXsDFSjmPj8TAphGXwUqm2ES7FPxkecHtFXH-N7jLykIjbg3IF8zqq9x4-EB1aFMjqSD2D5GVar1qSngLMyTBCLrCeLMUeZbRV_0JOvFNPwPEv7kWEQNjVAGo8FHrM6u559ruWS6-cqb34bhhFZ_hEMYz_GFuX30N7OWe80_R4g3nq7lVfD3z7uBHGI6OALH4YE7xO51pbPeHM71XMwTUghNSyi-cWyxaTnUHrEcSYBkyGMCaZRTJ2_bhgbDqSCowFSeuyQ5_5i5-4gkKzGsZMi5H84mVJENxvIW_rAIYbF02M74FnZDqWiH9v6r0gkiMkOzaAoat9eyAfDttaenxeBMHLUT94kmhTvZd1L_pfyFci-fBYfhKx3DHSya2kNnUAiKfuEIX1MCGxKc9kBSmPjVp5cAOuLV-ETNPtM8K_9_Wxpd-m7V4rii6bW3R2hvtXjJosu4C93g4kq1Ca-r-AbXClGA2lIEkSUogfU-YMgpbxNX6jnQBfoW96r5rXtfUeabckVn6n0IqDJszNRBagpN8Td_HhQ3uhomlEuE5YlhTChFUdhFURQWolGwvXEvAxPeRKTkSjUkCKQLi0R9VpFzqeIZtAaPixKvhSngAKgnWPffmzpF0CNB-NfqRx6sTSN2sm14zbgtJUDDx1VnxbFeKpk0CCzBJ4tTThXthZyEvLAeiQgWLXpOcOvq-AJO0c3bcyUmKjusIO5hHgxVXkxlEEr7tJFBT9rSAg1LJYRCiBQ6doZGLZqayCnxrwftfd1SbhRMN1RQ98JICpWyA9sgdHzMUJ2AOFu4mS8jPNlCBqzXGIXGBpfuhTDX_W4A-_XKUJr6abkPjW8xP05cjEIhS9FgFfx5nJWpvRzCFuPoILtSN2Rt6uqR_dL-m6nBs5RVTSOgkTzZirzbz5bQWHQ5OFvtRjJLvmz4LxArJlwE14K-myLKbNP8B2AfYy5XnU3YmNye_Bs72dKlUzAKEp2mwuVhC_dbpUV4RZVq5idC5Pxf0RzFQBBWjN4iMSi7tvVyWdwQKzSAMJWQRtYPUnB6zcpY9wpiWbliDCQw4eXppitUi_PHQmArbm_IhinQi3teGJLtMi6USV28UfGOn4OJw8wlRqALnG1xEnNVzGZpXKvXczNuzGYWPX7lmoOpYawfJhoj4kPZ9861sb1r_Jk9nUSxAlMcFhU-3rzLwcidjKLs3BX-ohGa3XT6yi__zEiFBEZgYCkdWLRGP1BDW9c_br5Sedyz28xTJ1tmN-_Emz6V75eWbdSBiytzohU_WsOPCYwq8otcLNjXcY34DixFIXt7qc0LCQOm3nhKoAJlbQegNK8XMkBjCjeUfoHY5F-f8ds2nYjR96KeI0cTjJ7U-AzU1liF-Hx1Oy9laC9eFcwTaHDLWoHurp0lnvRVYv5FAJ4GboKi7AJkqiFLqoo-l40buqilUJxEGM_tvTZGadhQf5A4_m8WFUoXGUUmaUcBnG4iDixYCLanV3WcSRx9tZqimE-OaZputnZXjriHKtrNHSow5vsnFxsmbnY5rNdzEFXBe7ZeV12LOo7T7lqrpafKpzkjDV4kYO7R6YrCVujmZLfne8zn0_XZBkJLey73ngbpOxqJMzoWhHR0nn22TejmGm4LcoZsuz6x_JC320x_30Fm2Zbhlf0SgA4bUnbRzg9uw10lIELdWv_eGGY8LLvVeKQBrXSkybbaB0flm1cNlWeGrc7nnKnJmIHq9VgT7hlnT5MbEXal93Io8iT2T2_O3dFWZXr1tzp-EggJRSqiqjnS2ZZy0B23SyleZhgS5EZ8enAkux2gtVsi8i7jcH0w_21G-3nVNoCSz8xKKlptVQhu88ibdz86Kj5GKDl0REw13yGwAcWACHl2_EvwH8RSL25k1K9UCVY5AHHHNTwtBNR3yGlEBKjJfJ_SQX8y020mHbO37tsUSBdRHoBdcWnxVswwub4ZYQ_MiuCOmzhkAQZvxJ0mkaF2nyk-SKZlQcgvjJLCDnILj0Gc1Ue8IYrOuP51rOkEvuLxf_ccNXPBoZyBNU-00L6IIEfBmpQlzifkS8lPiaeKXCFKSOQCkukFzyvZaBK5C-gKXpWyLp23nKfbQQBI-eK5CgvMxNDSlzewBoQs7q_0RvSO-T742webCvbSZXBUCAd4gcN-xV5qyK9It-UPHs9LXF4qdtwvB8B9ZTwg-1xEjPztINXS0MAXgJ2c9eYQZKZzQWGBVaW8oPrAZjqNUr-w_9BrrVNgVIHmV-m5zUAVkVDfHyimN_7ToRcoavuLEzrtWIRrKLTgtefBk8XRaAmi1mlTw5dMaJ5BJT1J4kWsl0HBMQnJd6P_r1CP9D3gmbzXydjbkxeI64_rXUNIRNumakycRK0LwrR-FcApqEfsTh9VgeyQJQ5qV9xBlTrVEC4UW_4A725-gFKHcu-8Rg_uDOvku5lX9YxIZzAuoek413fhrm5K-vj6jVc1mKd1I4mBjmDZnxE1wjMTybKl7RTFskHSWMKc1C17dBECTXApN7_HvogR8KxlYUqTanPfOtM37LPPE-uBjXCtfjriHr1l6W50L1ViqqRJJmAx3cMnQjnslv0Cty0N_XgsvUtzDWe7rvjhfp7jvsNrO8T3pjNrKxdy0SVaF6iT5dpKQ1m1Cdz5iewTIRY2DwDVxaKxYCzzyWItPPK8I1YEMP6ahJJPnnIjJ95WOnMMg1tMZVSZOFeZWmH8D5FeBKiSg0waSEV1ZUsbDIletISCdqPJLja9G6M3heUZ5eA8s4I82Gl_FyLs0Il0XaVBTn6uIzJ2rzQ7S0MuBQNF22c-P5SdBjE2q1-s06iRgH5Qu9J_0f8WwxAmNitPTCFo_0vSH-hTzplkomVJD1Zt45_mmkcYbKYlxo9vRLrHNFK3tycVeTrsQ661a_jyDjMPPymMetBCngbRwBoobTRWN-HJF7gHAf-k1Idk-hGJ02eiD6x6qaVCv4c0c70oCPvKBvOrYmPCod5uHcn4-eNDjFOSEST5c5UIa6QiUoGHjqwKI00wFpC_Nb659M9rwzMb4FEkQJSDc4NKzIieLwp4xotA5hZ3a7EFMbtzsq4T7bNKrWtTrJD3-XhjodqhYWbYu5RYWRy7CEx9pqYUIge3XJ6B9p2onSijpKnom5pm7kNc1GuO4O48F0iLENsjyXWBEFqS7osVZ5DAgbwpv8XuAuqvTiXbsiba7nTDD5jEAZZ_Oqp8m0yT3bV8KLUm9lXhl6lTZTpOIDOrG7SNs-wcZwOPZrpb8YIgcVZ1o2v8eONrLx94UiSmvaMZtIVDmrUwCdAjQ4xq0fG_c-4sO0Di3p837gTGOIXCDIDdHFq0cB-wIGpZ5bVA1GoVbWhu2UovqYJdV-GVIKUhipnyR8UOS05eMf9SDWbWU8H7NUBEJ9X4apJbOUlQ8-fod1bX8gd_Bc9ow27Oyjvv-OSP4ioPbEu43e4q4RMU1cAEs_oy2OayshQMySfL27mwIrlhbh-bxop-KQ2A4yg1TsscDojyxtMvZm7DfPDXS76EFVa-CD7d8wR6nOmzgPJwpsTR52HkhniZSw4O7SjjOVJYA6i91OlKTQ7FszvNA76j__DADXpFz2Av_IH4bntplhlVQIyag69weRp85P2n6KkkTEeGDIkr4ul8kUt0pXLQvfIQMV-NWuXD3MtQQqf-kBp1_-hcM166BYVfewnL9Uskr9BiaO7nY3rbM7bZAjFu6kPlRDOfcDyOByVU5HH6M1Fe0Z8pk6ZPDoW7jHaWq6CZ00Z-GeMx-Lp73VfCDVieNXFFDcWszuc_ff660p-XFfGacOlGElx9kSMSJttxQlHRku-zCWbfy_bhvWroRwT8tTA_tAtON5wu6c4KRUh6CL-fr8kxB0TmpDdl3LvRnkdVDjzIWFsklFK2Z4HzR2Cx4z4_lAR51j9dubE0DxQK7_mSAdcU4JY1lDVWGSH_1VLg_3RzaRTRp5wwreCzPuwd1M6CbpZImvwKRW8eG9Mb2ieObjgN9-Cul4gzQwukmI8BKoes2rUL8qZm0VEWLPWRmPtW7MH_2k8UgFfXpApoeh8SGf72uimPF_tkFA8UB3YYsGm9IXLDKohVpH4a0yG6Rr_Vy34h-BS8jqWKwnMNieKq-7zc_vxLS3YfCsjSl0jKfkQ9vD6Bn4DIc0mMnXSXaWtJEIuLniegi4QQNCJdXfsNG-AEuJb7YC7ZESHRvCtnjt8XNbZFZrpYp1O1DzPJTp-QRyBXxbJDz-ILRDycRceDLZK8s8thf6vgR14J-KWnONv_raHgtpqHyE2xodWeBe6Ki6w09GAa8-gc46OauVeFX1y47aRAUZRhDoCgPFUKPyam13FMbPATY6UdBDZo8pne1Tr4DWCk12q3CUSppXMaVRuzhNBHO72Y5MEsG4aTvciNZD02ZcETtTxRBD7DIL05qDhsxRZjeU-XbsQrPD-T_B1oY0xi-YMkDaSzwrW7hBVP5G70kUAV0XLXGqw4kXsZz0NZ9L23kmERB4aQ7sBlR26l0cz8LlCLXL4gMFx-0qyP77Nc1sIOctJ9mbYRd6LKo_RuiKl2xOn5Mq1rl1gK-AjmXUV04QV5lqUKoSZkcftS6LF1Pibn3OqZZHQu9euci609NkuVE1__hqLvoBkbL8z-jSt-EWtZEXc5PCL_xK3sfe-j0LHUWBS7FPJf56ZrOdJvRkeLcmUT7VzeIKbUY0RILNeUy-QYS-EXlXtJy8iMcBzCQrIvN1tGdiYE9b4wkpEZ53hVaWw9TVykYT1yXVF2wx5Z62Gud-6cFQ_gxrGNDqc_g_LCgX8MM3bEloTb-Qb2yBcs-zEXboiia-Z6Jp-dBdF4aApraY091qmXaKlrprSGOTXJRhA2wakgBerE-jehb28rwqT1xnrPa6XKemzilXwfbxopO8UleRmvq4OMQln4DzJSzrNHtP433WNvDoPeF06c49sXdURvahhOCVTHhD4KhXDJvCsNBmQyE8gWITm8zCxNtKWkjgVi3dcW4A-V545qskOmtgPpIBKcoZJWBZ6gRyOR0M3N4Bt4fumtV-JzQNZOI1Yj7MPeqRLBZS4uqdvXynQCK9nynVbAudnk58c77b5B4yVGNgGAKKTrIoGXtvv-qnFzHSkM6xf274E4YncH6xSTyUoLDDGAFv1XV_oB85UPU6b9GEOeVGPoxVJ4_bt7o1SG-aw282-GIFddrhAZb7rPxj-ledgO_Or-1LFgE7bwIkRWGtaPceKRL61KFp96L-5VN9Qzvcfamp4e49I8yrTxHPB0MQnty0GFTZjjOC2Kt9uy0DpXKaVkjdXHmlzc_xKi7BrO5Ma4moRnhHRis3jqGDp9B9U_g2VIEw6fR9tNSvFy3E3Jqu_qDHL0vm9cp2RboyAwYzaShHoosYKEbgZmZhMf1cU68mbmTGVpCrRhkiTE5nzj6j7oFJLLP8uiuM1wPT4BhmPbIsJZMOStaEP8fJxXh2xnVPF6u0NJYVjcU4fmlWFFaskY4CWrrX0V5ub0WtouMGGtKsdf6Y6XpnCj5yNYD_LTxJ6kF7BmTDyPKI8t0JyYa0CfG4oneDd1HZnAanGE1llLdGbO-YoeWrjyXkmbqnY2Y56DUvqOktSiKl8r5SKoWd2oqbVWeZhAo7cc8KNiZEdNVM7YN2oloKWSTjpVAMGzV6YRI0FbFGkV4KB1u7vgNfCOHsPi_bBIf-XEpqQ4QVeSJGj1eRqpMc3_flpSi-HrcBYFI5sATa8q5_7WqzDqQBXnjes2pFhey1CVBmSBRACYgk6oG8Nxn7sfY9GM3mWXHrRxVurbsyqI4ZzLAmebmRyXUWvcpP9EyDmciIU6VMxhgFzeZYIf_a487VnF1bolwfVaYtCHEPlq-NhP-hAyXRxLs25PlKOPYoTPouNli_47t0dDiLtVxXWymjLK2dsYnAvadMD4Q7Xo7M6tHt7qdBanB8ATdveLTISyuH-gNvbDMp1S6oDSCZdM12uo_A8V3ck-M3kCqRdV1bo9KMHTIFS507w0wGTc4nQevcbSmFJ4K8agnWWcIKQUNlZxvCl-DpUvb0HimtaIRtOLIuiXuANHLauERQ25XUQ-_s3T2fgiYuhoEp5UG9LTkB8vneXntgFu3cZq0N1VbOqzd7_FfwhFkmvjtfRA5wU3RrPc14P7VqRQdKnnflI3U1QsynQduHHWY1OUsyjdjelI9yBtbfn_9uR5jdoD9qXpbDbaF3Iq8s0zqEVmHHAVFullGlRbx8M3IGkG_xytQTrE7ws8h7YwOirHQmjsVulUq8R7sQ-gXDgW4NC38RiW0AIl-hIGsL2AQiCnWA9mvt3uezQyumwzAxoLLMlQ5ooodwDJuts73tpDHpEhxRnJTn2n09LV6icGiS97lyY9tM74ZgH-Qrv1D03C_PkCtQgpSrhw9Ko8pkBxATUJcCzh609uZVqx8Ih_G1OBLWs8AgcSZGkZC3mx0NfLdykCJ3_W2piG-5jsTmPpCspGpe4ZaTsH1TK6bsMoUSxCZrSf_pQlZ2j9hGXQwGWEubIQyRGLqLvrz5ScumWNmMI_GEhKytvU_Me150-yLPFux9RsOZkRjUghx-CZ-X3UVzve3mPGdR2x-QHq4Tl9u2uEmf1AqhB1hvEQs7L4jrm9Uz9yJDbVMLePXV4q2zTYsEBSmQ8LiTLRX1HmLgcnyKO-Nm8kS1BiEgrZ5FvNlEngUxMJNL5LpTkxmRK70WC_HLeSVuhObIlsmA1CXvA542zIHJePBhlojOxSv2wazxExG5cKM_2nntikO4UQFMdcLFcvXRTQWHqE2z4rFN2DGXjKjpnkOLMC01BHXr1Q9b-IlQLg9zsgJdOAA6X709Y4TXppFuTcIwCkoGd-SKU8TEs-v3wrSmnaYph5UIGruJJu1QNwHPw9guq3VYcBwcHr8FCWNSOdOSuYA4SvK8RDqcNQwrx55bYzbsaJrjON6JdVCQkZgsbC_NKrt-hkPBTXfIbWjdaQJsvwBiCcDfWkXpMuiTfU51cT2VBKmC2qzvhGPBhyjsSAzrzmhrrLzIp6uVun5EECKtTmgVB2WDIcCH1pOkUzgSL_Iqcm5IGpR6wxMK3lhPretceoTqmgbBsiMgYdpAohQW5g5uvGlnU5KkhH1x7CiAB8VPqpplWpEVtG5yKGtDMJVB8qOgNmhn8RP3KBLQcHPerotv-YKPaZE6FQQHRbdPm9qYihkHAjaLE8dAeZ842LXG8n6N6GEa6ER7sNMupOP78c1qHsvuVn1IWaTdvX72jDi8FR5VJXu3P8ttNsCaKobU63KS5dXjbRUyIqSbrsd0gD621W7IW4zMUJlueY3BexSXlquDruOu7nLSO-KZru910ZObHrEPCeNhMEhvf7QK3-FHqjKzURsxMqJv6VyrW80lAhVZd3LuE3h7E3aNvshzBUih2rgnRJ_qbXjwK7Mn-0z5HLN3xgiUNV2xNiJxYrkoQ7dWFD16gInZ-psUYVNiEVC3lj7cftiHgPBKU9Tu0A1p5d7yKwYF8X_-ZRa2dfEV501NPhUpQobprq7n0iqSIje8yevhfMYQzw5v2x3M1B2kHeFSKbS8HtkxmxYGkZR4mvDYn6VdiQVnzkxOvcV-xp_Z5YWt-COAgr6XMRTCoLOxyFT4gJ0isbmgfW-b5hkJPNO1bm0ZuVV9uTIxik_00IK-r6TVGVBepat8jWMXuK40TDzk9aIbnuKZTKg==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "9rFqadb9ELqzmtkPmOSqaA",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 7067,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 127147,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 126819
+        }
+      ],
+      "thoughts_token_count": 6474,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 140688,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 14,
+          "description": "Student is on IXL screen 'coordinate plane', problem 'What are the coordinates of the blue square?'"
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen cuts to a new IXL skill 'B.4 Order numbers up to one million'."
+        },
+        {
+          "offset_seconds": 15,
+          "event_type": "mouse",
+          "duration_seconds": 5,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student drags number tiles to order them from least to greatest: 663,199, 663,979, 669,199, 673,179."
+        },
+        {
+          "offset_seconds": 20,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 21,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Enrick"
+        },
+        {
+          "offset_seconds": 21,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 22,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 24,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "I'm just going to look at how you're solving the problems.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 24,
+          "event_type": "mouse",
+          "duration_seconds": 12,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders numbers 229,623, 338,127, 338,737, 47,174 from greatest to least."
+        },
+        {
+          "offset_seconds": 29,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "And let me know if you have any questions.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 37,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Incorrect answer message appears."
+        },
+        {
+          "offset_seconds": 39,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button"
+        },
+        {
+          "offset_seconds": 40,
+          "event_type": "mouse",
+          "duration_seconds": 7,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders numbers 68,655, 98,684, 221,775, 62,451 from least to greatest."
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 49,
+          "event_type": "mouse",
+          "duration_seconds": 15,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders numbers 848,731, 384,112, 237,535, 384,612 from greatest to least."
+        },
+        {
+          "offset_seconds": 65,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 66,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 66,
+          "event_type": "mouse",
+          "duration_seconds": 47,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student completes multiple ordering problems correctly without tutor intervention."
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Message 'Wonderful!' appears."
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "system",
+          "duration_seconds": 3,
+          "description": "Challenge Zone animation plays."
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "mouse",
+          "duration_seconds": 15,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders numbers 278,807, 191,009, 658,883, 614,450, 490,220 from greatest to least."
+        },
+        {
+          "offset_seconds": 143,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 143,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "mouse",
+          "duration_seconds": 11,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders numbers 570,180, 463,567, 25,515, 25,620, 25,525 from greatest to least."
+        },
+        {
+          "offset_seconds": 155,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 157,
+          "event_type": "mouse",
+          "duration_seconds": 11,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student attempts to order numbers 120,202, 564,623, 240,580, 170,389, 120,287 from greatest to least."
+        },
+        {
+          "offset_seconds": 169,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 170,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Incorrect answer message appears."
+        },
+        {
+          "offset_seconds": 170,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Very close.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 171,
+          "event_type": "page_scroll",
+          "duration_seconds": 1,
+          "direction": "down",
+          "details": "Student scrolls to view the explanation."
+        },
+        {
+          "offset_seconds": 173,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "'Cause [inaudible] is always smaller than...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 175,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button"
+        },
+        {
+          "offset_seconds": 176,
+          "event_type": "mouse",
+          "duration_seconds": 58,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student solves two more ordering problems correctly."
+        },
+        {
+          "offset_seconds": 234,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Message 'Terrific!' appears."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Message 'Keep it up!' appears."
+        },
+        {
+          "offset_seconds": 258,
+          "event_type": "mouse",
+          "duration_seconds": 13,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student attempts to order numbers 270,908, 812,721, 816,721, 816,782, 812,726 from greatest to least."
+        },
+        {
+          "offset_seconds": 272,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 273,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Incorrect answer message appears."
+        },
+        {
+          "offset_seconds": 274,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Umm not quite. Very close.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 276,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "'Cause 270 is always smaller than...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 279,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button"
+        },
+        {
+          "offset_seconds": 280,
+          "event_type": "mouse",
+          "duration_seconds": 18,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student orders a new set of numbers."
+        },
+        {
+          "offset_seconds": 298,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 299,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "mouse",
+          "duration_seconds": 120,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Student continues to solve ordering problems correctly."
+        },
+        {
+          "offset_seconds": 448,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Nice. Good job.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 453,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student navigates to the IXL Dashboard."
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "page_scroll",
+          "duration_seconds": 17,
+          "direction": "down",
+          "details": "Student scrolls through recommended skills."
+        },
+        {
+          "offset_seconds": 471,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Try this button for skill 'Multiply a mixed number by a whole number'"
+        },
+        {
+          "offset_seconds": 472,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Skill R.2 'Multiply a mixed number by a whole number' loads."
+        },
+        {
+          "offset_seconds": 475,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 476,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Incorrect answer message appears."
+        },
+        {
+          "offset_seconds": 478,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button"
+        },
+        {
+          "offset_seconds": 479,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Scratchpad (pencil) icon"
+        },
+        {
+          "offset_seconds": 480,
+          "event_type": "drawing",
+          "duration_seconds": 4,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '3 2/5'"
+        },
+        {
+          "offset_seconds": 484,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes 'x 2'"
+        },
+        {
+          "offset_seconds": 489,
+          "event_type": "drawing",
+          "duration_seconds": 4,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '= 17/5'"
+        },
+        {
+          "offset_seconds": 498,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '17/5 x 2'"
+        },
+        {
+          "offset_seconds": 503,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '= 34/5'"
+        },
+        {
+          "offset_seconds": 507,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '34/5 ='"
+        },
+        {
+          "offset_seconds": 508,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Mmhmm.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 510,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '6'"
+        },
+        {
+          "offset_seconds": 512,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 514,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '4/5'"
+        },
+        {
+          "offset_seconds": 526,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "Student types '6' in the whole number field."
+        },
+        {
+          "offset_seconds": 527,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 534,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oh, wait. Wait, no. 34.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 537,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Wait, so if you do 6 times 5, that'd be 30.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "And then you have...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 543,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Wait, what did you get? 34?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 545,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '34' again on scratchpad."
+        },
+        {
+          "offset_seconds": 547,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 550,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "Student types '1' in the numerator field."
+        },
+        {
+          "offset_seconds": 554,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "Student types '5' in the denominator field."
+        },
+        {
+          "offset_seconds": 556,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Mmhmm.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 559,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "4",
+          "details": "Student changes numerator to '4'."
+        },
+        {
+          "offset_seconds": 561,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Nice. Very nice. Good job.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 564,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button"
+        },
+        {
+          "offset_seconds": 569,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Scratchpad (pencil) icon"
+        },
+        {
+          "offset_seconds": 570,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '2 2/3'"
+        },
+        {
+          "offset_seconds": 574,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes 'x 2'"
+        },
+        {
+          "offset_seconds": 576,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Mmhmm.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 577,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '= 8/3'"
+        },
+        {
+          "offset_seconds": 580,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '8/3 x 2'"
+        },
+        {
+          "offset_seconds": 582,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '= 16/3'"
+        },
+        {
+          "offset_seconds": 585,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Close, close.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 587,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "So if you do 3 times 2 plus 2...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 591,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Wait, what is 4 times...?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 594,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student changes 'x 2' to 'x 4'."
+        },
+        {
+          "offset_seconds": 596,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Mmhmm. Yeah.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 597,
+          "event_type": "drawing",
+          "duration_seconds": 3,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '8/3 x 4'"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '= 32/3'"
+        },
+        {
+          "offset_seconds": 602,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '32/3 ='"
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '10'"
+        },
+        {
+          "offset_seconds": 605,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '2/3'"
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Nice.",
+          "speaker_name": "Suzie Baik"
+        }
+      ]
+    }
+  }
+]

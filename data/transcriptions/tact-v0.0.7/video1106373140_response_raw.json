@@ -1,0 +1,1411 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:29:56 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=80702",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 4,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello, how are you doing?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't hear you, you muted yourself. Can you open the mic?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 18,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Dude, shut up!\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How's your practice going?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, oh, it's going good.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"student\",\n      \"text\": \"I got stuck on a... I got stuck on a... [inaudible].\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I should break it, dude.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh my god.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 23,\n      \"description\": \"Student sits silently, looking down and adjusting his headset.\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, I asked you a question. Are you stupid?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Are you answering?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wake up, wake up, cupcake, wake up!\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 139,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yo, I should pay attention.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"You gonna suck my toes?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 157,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I should pay attention.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 210,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Unk. Shut up.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 216,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No quitting, unk.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, how old is... how old... wait... how old... shut up.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 228,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay, I will be around if you guys need help just raise your hand and I'll come around.\",\n      \"speaker_name\": \"Ms. Lopez\"\n    },\n    {\n      \"offset_seconds\": 234,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, oh, yeah I need help.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 238,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 243,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"I see, do you have somebody in your room?\",\n      \"speaker_name\": \"Ms. Lopez\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I need that.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Come on eyes.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"My brain is not braining right now, bro.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 298,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Man, that's too much.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 303,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, what?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 317,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"What you trying to do with that inchworm?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 331,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"student\",\n      \"text\": \"How come Mr. [Name] find little kids crashing on him but when, when [Name] goes he's like 'Stop being stupid'. Uh oh.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I need water.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 405,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait what for real? Why?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 412,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"No uh...\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 415,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Let me see that real quick.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 504,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"How do you have three screens at once?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 514,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"How do you have four screens?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 524,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen sharing starts, showing Moby Max application.\"\n    },\n    {\n      \"offset_seconds\": 528,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello LaRose, how are you doing?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 531,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear her.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 547,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Moby Lab App\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"Warm Springs Lopez Pd1\",\n      \"details\": \"Student switches browser tabs.\"\n    },\n    {\n      \"offset_seconds\": 548,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Chrome\",\n      \"to_app\": \"Zoom\",\n      \"to_window\": \"Zoom Meeting\",\n      \"details\": \"Student switches to the Zoom application window.\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Let me scoot over.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 552,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"Moby Lab App\",\n      \"details\": \"Student switches back to the Moby Max tab.\"\n    },\n    {\n      \"offset_seconds\": 554,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you have any questions so far?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 559,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Huh?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you have any questions so far?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 602,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear her.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Huh?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 605,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you have any questions so far?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 608,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, good. Um, is your mic doing well for you?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 614,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"My mic? Yeah.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, that's good.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 619,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait so this... This is confusing.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 622,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yeah I'm coming over.\",\n      \"speaker_name\": \"Ms. Lopez\"\n    },\n    {\n      \"offset_seconds\": 626,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"All right.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 628,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Still tryna figure it out.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 632,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh my god I forgot how to solve.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 634,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hurry up.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 639,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear you.\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 643,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You want to isolate b by itself.\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 646,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait what?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 649,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So you want to have b...\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait which one is it?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 653,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"...on one side. So what's bothering b right now?\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 662,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 37,\n      \"description\": \"Student hovers mouse over options, seems to be thinking or listening to background.\"\n    },\n    {\n      \"offset_seconds\": 699,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, what one is it?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 706,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"hover\",\n      \"target_desc\": \"+7 tile\",\n      \"details\": \"Student hovers cursor over the +7 option\"\n    },\n    {\n      \"offset_seconds\": 714,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"+7 tile\",\n      \"details\": \"Drags +7 tile from options\"\n    },\n    {\n      \"offset_seconds\": 715,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"up\",\n      \"target_desc\": \"left side of equation\",\n      \"details\": \"Drops +7 tile under the -7 on the left side\"\n    },\n    {\n      \"offset_seconds\": 716,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"+7 tile\",\n      \"details\": \"Drags another +7 tile\"\n    },\n    {\n      \"offset_seconds\": 717,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"up\",\n      \"target_desc\": \"right side of equation\",\n      \"details\": \"Drops +7 tile under the 4 on the right side\"\n    },\n    {\n      \"offset_seconds\": 725,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"input box\",\n      \"details\": \"Clicks the input box for variable b\"\n    },\n    {\n      \"offset_seconds\": 727,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"Types the digit 1\"\n    },\n    {\n      \"offset_seconds\": 728,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"Types the digit 1 again, forming 11\"\n    },\n    {\n      \"offset_seconds\": 730,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's 11, right?\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 732,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"more button\",\n      \"details\": \"Clicks the green arrow button labeled 'more' to submit\"\n    },\n    {\n      \"offset_seconds\": 733,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer feedback\",\n      \"details\": \"Green checkmark appears and next problem loads\"\n    },\n    {\n      \"offset_seconds\": 734,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Ah!\",\n      \"speaker_name\": \"Student\"\n    },\n    {\n      \"offset_seconds\": 739,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Are you stupid?\",\n      \"speaker_name\": \"Student\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuRQCuFQAXLI2nx2SuyweuASqDjtLD08lQdAAAMuyswj799azF0ObaIOzGass7nrngfJUfl4vojgEECYBntBEmuUI6n4uvLOgwE5zz2Vtekcjyv-6GJ4oQIxY6kkQA07aruZEPdPG0VjVf-IagSlY9iWtdH8aPeU55bgBu3JlkL0v7fjKRcbFEgX0FMYEQA42r3NBHCB27Ck8XOBCUe-ogFlsk01rKTVUSVzJyE_aXxbOwSwGaewYDEfy6hPF6OF5QwGGzkmBYXPpxlkdpHcrbAwNtOfgzF-20t7SdY3UTIiMnUd_TGawjXWZ71svG0G0Jo160SdsAshU9umeYN-Z2_Fz_2XdiLxgh5Jw1YkW4BTbwYMLfN2KUAHLER_geIqNVaiPABjl89aBiQx8tyagYdx5NSvVBsPj_fjTFTtuIqL1GICSFc_zey0l913IE_VCC8t1oICZzL8_tk9mc-5MII0zK1TlLyjgAZZ3sm7wIciQGwW3z07IJFKf7ZbLxQeXIX9DzzKlxQu_6Eep_sSGEhVeuBjpfqZwerOd7-S8ImuJhbBk9eVgArPFw_p0zr8ajZsJfQOWW1z-mLTiMRhSEsx6sEsfJ_H6IGRqxg2-faA6Hk3_S294VD8Vuf9XnunASZVLfQ91WxrjT12hHM3ah2pzo3MEhUOfvuhOxUxcgmSMDUbkYD--TKMJPABwmZDIDaGOa44c-rwHD_D85R388bPF9Zt1o5OoU7-ENs9xWM4UFM5X0mvaBQCBEe_BCXSCUlCmwTIZcK1KDMHUBISKknzm58wgZKlrHDE4HafGVQdLjS_F_oC219I6l6f2YmIj8Oqco_vc1GIMb8mM33Zhi1XIa5KGqMFZydlJ-XQhEb_Z5GzZVV5acYY__uZz_Ixu8YASJ5DUYbNnvoFVuohQVAoQMzSXL658fqEP0i7vXJqClJeY563D5ucMoYHfTNUVinaOY3WQdeKEgaGVyMPHrSAhjkyUcgQhHrM9qhwMzJQT_DKIbxXhrA3jVQcatHKRHUVN3NlP23HyMreI_sicFyjUvTNx5FOt_cQKHuJFDfL-IlmbBgoi2uLKTV188xLdleZIue83VvZ8zgSKNGFs7WcZa0lAfOMOeZ2iMFTjR1mquesaoCKPLCedxf0sb_YC6EU8fAVF9aY7wIgxh-PTkfSO7LaqWYcADgXjJel2n0CopTdBpI1UhrP0xJ86hTE4IUD9obdheoJU0VKCswnZDJgNRUIvJ2KDmKXAkegAMxxp4EX-saRQXvYwEjavyzzB2FNLS3kuugSCKz2gCuGyHEj8CG-FxBSz_nBLT6_yQIVH4BWjtQ6aP_TlqpR160MmAGckHzgeSiNnIRQjmpSaknVqW6oPA4OSSLMABoh1DAhfjR01zoWGuLvxrHcncIpqO0n0Ib93OyJk4e4pGPQ_VKIQ7459KzImiXk2xwQcSOZCfBAeC_v09ynK74iI6icRUjqAVFojAwbLK42FDStSM4kq_eqwz0kkKZsthteYCasI8GILXKWpIpjNaBtNbAPiphDRayxrdyg1cDU4cRzXpIsGaNr8nkicLwQJyfzAABsn5A50txm9_OSQIUFJAVUbVYU2my66aFjRIjHSttITPLHP9HoGwXjGzZzQy4DFzwv2UtzouPKr7Guca5eUSdkcRkJ9wFPpTccNfTggiaswuCkkT4IJ0fZyTlywrQ6Oy9eX-EIfgxeplrX14xhQlv2iEfNrIdyEFlZ99ZFRVgw-p-g9uBUxFT7IrTaTxZtyK3FZTzRRyJ4rDJiEGpT8aZ1uftlBNAtZsCme9_vU5aN5uvtE9T_635EWCDMmgUbd9YHzH_1yOiWIhWz1la99wGt61sNKAqwWa2uiyaPYYzqPDaK0Yn5WHlqfToFqnap6jFqZ_cXZotTmUrbCMkU9A5xZ4CQWStI81ZS4_25bwfRDcERKuaNqpIGt197EoEat_NAFXxmd7RM__P2X3bbXO4jBWi_F9rbznL1141ZvFopi6QbsL3ypNfo3cus1ZB8InKhOBgwGVKzydBf4fGgrvQbw9dRKhip45IvwAVz93veAE2d-Vu_K1WuqUibfPqItPaM5rG5yL632SplAqq-KJeE8-0oBAx-ntPKU09OIUm4qM7qF9HwzlHOKpRximUsNKj4G8XDhR_4aBSAyr91SNX6Y5dth-h2AkKPmw-yfLvvORqpmQF73cP7SAW3tfyxsk8FbwITXAKyVXilKdbW_1EATxJI6MkN3UYkGpfwdqPivC7As2FkGtE4Ghz-U-VyklgpIo7uyL8RAg1TIzFcsV_z83sYVNgKBTwodjhEs42G4xmuC54PAO1SBDAuIcwh0yz7V0mqyKUxh2fBDpVG8CkiLYsoMeN5RvyD3n7u4cpcReraZX7ti2frn0u-8H1THbZYXEwEN7cmpvFcjvSgcwb0HZwDWUEwdl6a59KdmSiPtrMVHWIa37VUbJTKH-ew1LR46twXuLg38zYevrrMjY9fDYsY0vK1CHcwPzJhzGoJRcoZvWbjuHp9CuD4AvU2Adjz3jaEVOjFTE1TlzHQa70IK2z_QBh0s9J1YjeC7w8aAmwA4vAG9_w08AO91GwJoaqBmeQrtBs3Czw_TZQzirXIvq3tFFFRuJhLAA6o90N46mzFKDB3CyaZQEdjYgkq9fKVmuf-L44SGB5xzkEuC3836L8ARe1P081e6hFFVNRBFej78lKSJbA-bROj_-JJc1w-3ukxTV-cL8DZcyav8oGyBDjf5vRN8KbYn6Ra2606_UdQEx0F8Akc7jtyzqHm57xzOhJzCGiAixishTqhannKc1cpoL_OCKbySeSkVAVai1-tZObjBr1BMr4g0RspXH9Vz-h3070kPgTPFn-kILFqWd7revGCSiCBTxvqTiaZneJCZBbjeXu6DJCMS16uGvMr8i3zEu60YSh-ccLmF2t3fNeSjfCMPDahad9rzmURQsUG6iZhAAdhaMBhXy8Q3xhVB3idvaYwllL4thnQFfUHlHK_dvchv3qKRlYVWWnzyAe9FLcds5c2sD5F3sNvPDCeAe48NwFZl8vzlo262rRgxGNrD50rpaIpum4cRdA_Y5jPxRmPG0YDTVjw8WLiYT07B9sfB0oMKeJ7oBkV0I99fM2yqSqWZ1LRwqV7fdENLusNajgzK-bpWWFb9Lqqd9z8bAWBFetv20uv2BS2WFIIbQy3p0d0CIXK-55oCeCljaBrNC9SCWFOuCX7WDl7yvYngYUf-oJBfOm6uoIxUx5I41IZooiPXrfEPpLP9IFn-MW3fOv4-06QG3Iq64Wc_UYgr0eb9bxWJQ6lO67wAkW68s9ftJ7y3u0nPWJOn84Ygv6YTZ0RjH4eXVUdlRW_f9qlwUJafo-yJJmx9zgncgKLT23o0Jjr8jqTaRCQ9qBu4y2S04dMRjf7lqJp2XDikUzxC8VmDCp2MqJR3FVXh7RGZp_sFUAP9wJ0o_8udeyejpfoACQnXKQjLM3bbfD6D3f3tLW88_raGoqR5Y2Wy3XhOlrf5oW3XrXQBerdfCoWfcpA0xGUNrg-c1pGasoMEMln5Dkhqb0uV4TJudxvYSwtax8moHOQShOrKLt5m0iYQHO-mkgEi64kIQN_iWA5EFz9hngggEjtXmby6edYs3OrB_n6tVVaopSYZVMRNGxRj9JxgiP6dK_ZpagHTeQLSHg-rVtKxUr5b4NGjE4ZwiY2fmGpH1oq9BtGOi5FZCYD7m-rbx1c9nOp821oghfVVioDYMBgXXBYi5rMvzWUOR2qh8hXpkjMRWiL6mng9TAyD3Azdnum7PBDDdF8PNLyqC0qUGljAihZj0fNwRnNrQtDlW976rTBZbr14cwyeKJh9LKcKuKU57RY8Ny-YVRj8IOv0bouBIg4syTOk9wOStbfguIWNCYDI5OwI0hMuHoqs2TsD-SMRXrUwD-WtSUO6AWq75haDA8Cgfp389PibWeUdm7VIPnYXjeAs8kdgPDGXCxww7-vsqhZEiuazu1YUuugOipEhw8854fmv2U4RMikMjGRtYm3JVekXwMYld_Q3g4okSgfRP2CEt0zIXeUYg__DiXnjWkmeW5ULl89uWFzfYxHwdTRuhE-hCNRjEfFwne-aOtoKPiL8_7YiQwvqD6BTNc9eTwevRkHj5dpf2fTWvDZzlJ7Vlxju2w3gWu29hd1lIbix9M2FMY4uh87RehqanJ4t3SbV8wWvjwuHltLbG_jldXo6QUl3KwYSPR-fmMHktQnfpfbzEnqmCc61HoOWxwYPJpZX2J9kEkDL6GBLRIHIk_fwTTaK1mVe8eXnwPsec44Bb2nNgtoXKnuY5rH7U341mD0-fguB6Z1eLRBcN595k85eWD9MrCCOq_6P_VymIR8rQyFEIJOfjPXp3uR817ZntDhdXv2GncHQ2jIU6PpetlXsgP5AjySANfBOp8DHvX4Wev_N7KXodwtfUDGIj66WLOaNiN1FsUO_dOse_qSmEsYSymo3EUAdx43qCgm3JDFnrBh9lCepMJ-wdHFzfC5Qbgq08hHYLH74Wzyn7ORViqKX7SR5kmMCJbgR7YF579dwAZeQm_vLC3VOqVcYQGmREQFQZOpoHpe6S1johgkuVOdfXSPAplzAK5VyFNw8J1o574KgNdqeBIs3wH15kbYBWa3G75xC2_JYtx3_qQE46WT3YAVYsdKSfb3fCbqGPc3-YZjImwp387WSDqhCLeVOwCNgrd86OyOyboWTsO5HAMce1o6BQ3UG9hhfuuQJxpP8pzCjDxduwiVdf2nOaAWC3-1_2d1XlUCPDjUoSk98B5P753_o9syC0sDlMbmeONyqrf3D8WKhiTGVFBWRH7CsqUhB8l02vt3Oimi62FSq3BBd-xphPncQsyVrmUWOibSzJpX2MKUqM5Qk53PLSBen2PP6YEGeMf6W5EYlpbnXTo_L1B8-vai6xJkz7VuEnu-3HZngU2q3aOwXNdEaIN2o4VqBt-DcQLe_-YhlT2qN2NfZGIwxhdso9UHbm1YH7tph0EdUVHyb_Q3_Gyo2qNS4IhqilX4GmbFu-JJ8YGcziCzPmy4nEa0Ef1uviN4xn_Z8Dm5U6Zxa7Hzz1d3MmHA9NBSRr4sAgNDchUWaGN4Giw-wziRQ3yRvmfNJ-E454TOh-dx0PiZ935PL42Ryu3PM_n1J8rCVSP5HC0SrAYXF5a8L7Fut3ltEN8nbZ_g4AzYunl_kEHLKNPAdZXv11fdg6tU905pbU9rbn3m_U02qIkvuB5RYhJE3-sCzTYDriKzTUKknpwLgsgZ6YA0mszYTMPj3uNRa_s3hmK86ehoS-pk_tWNxhxTRbZr1yRuo4SwSLytpGiBTH3kG2Lx_bXZoOOkvJaVyR3GU6AgasuI3sNS0mSMxmIwtP8GyZGtiNFIv-BIxtv3N5y5qNHoLsyEycYWb0gqV9PUT9kz-ov-69xo4TMYepO3ITQZieF3j_TwgpxISUOfy3YuXlIUSAYhn003u3luUkC1yUOP6jd5YI48YXfCBydV0evXTOBMQz2XQGSatcq7dMskHalARAQqdXSiTOdWJMZceCiiTw_tcKtbjMxwyEOqizEoTb6q0fntrfwIAQoSHFNAKzDVZcoolmWFL6ind6abiIxT1VZWPU08E029ZtJ8NAgxZcA3xSij4C5tchYXG6fq9Wsvjvg6nObzCoVt1GobXr9PoTAo-gBXOzik-ignnS5yzW6iXTs6JRE3Ar70Whz3KemeackvzmYL3VVTLo_ya6kR1SFcfGVShigw5qzpv7hxL8FBbVD7NtcnKV9fH5oUT_MgQhKOD5xuVatVNmt9uY-3gu-9J5dbc530bABlBa990atO5CvmaniJANaHjo6v-Kq-ZQg5CDSioXPEeL8l2ys0DycoiYHYheXeSEAMs3KIfL7nrK-tw3zfvM1wzcNPAu000KODNZftqR8wVOQy-mKPYhpcG6uhoZtcdTZUr14T2EGWs84NDwo3dAGEXoXUqWTPVUbIYAIlhqsz9pCXx_5sQAu9RDdDw-2bbTjnSb-Y6BHB0zYQQmHCfJHxonsQSDsMqPBnbNCJQmb3ZKZiNX3dbxTztjzcrY9xBXscWgRq5fEQsHh9F319ul0Tt-Z4hZV9hG7gcpoPpod-vX98YpscmDUOzfhujY7mThdMVD9l8eq0eG6i0F2uG69WjEg5VSp0ay6ennQdEvwJNCeiqdffI0ZMb0en1en7KLh4xM4t9afMvkf-ZjCcokuuXvanTi7Y8FawTUo9HyOaVqKLv-1Jz1POzw9i76w-mq6siNNOW_tuHG2OPvLb3CLkT30UqTffVGSaRBXcYy0hKgfZm2KLJEVyjjZnZBrw4j-euUWg8qC_fq3DiKDkfsRUCqfHwvtsUsugWU4yhCbxnpx7LbaWlVNUjW3K3AaNb-Gqj7H39OwHyBLsm94wxABg9M0VCtshBP7FtMlSNVfiTOaRUFZjCJ1EU2ci0VK-_iu82jcdyz-6GCDK4pqfohUZ63KOKq-J0qxpeXM9J-YpYSPyzvKRyA4v9Ab1-XMCmoZr42f2bYS4lMnoYYEDvohd8ase9ENV4nSbU5xR47Kavfc4awevjZ5FAhvcSDxXrIeLJHaLJLV3BrLG_iR7b8-z5qDvSKKW4AzllhGobjwdSPkd4QarGe-Oo59_bYrpdMRjQsi6_yLMU2_Hztb4gGVmjdhAnRzRRKFEoFWIIJMrzF-FVF4CSHNgJHCAyWIcDoiwZIPlaaU_tQa7fRmdj6RXm_8xkPSaC5EUmlMnSqA91PPE3Cun6vU8B_ywpk9aXMixezSZfXm0oLRqNLRxjKHlNes_F7YlwpYq9_-j3goVygjKNhUyl-HzTt-RSDmpuARWrc5ClJYN5vzhTZkLODLsoiTnJD8NpkVEbTB5brYadSEEZckSUlPIHFsOUTNMZ-6upzIUZ-F0EOeDctGQ3OmNScIgbYddQUBgkIcCz8Tadj1Hih__8GToOd_zOcdsYkew1hKN6dDulGlvmjHwyFpMq1pw5dpASn0D3mHp55EGC9bJE-V-_co0VSoL8Li9PX3Ni7o3jQQ7angVKIWTD1rNRihqkeM2xoOthwnImFx1ubsS8f6GBmg6v_pmFcKLbvEDMmwMULAwRESSCLldOrRsVhFiKvFZCJZ719_0dR8m4YedO8js5gOiLo73_ypI0t8B4vww9bqG7ZGAELz1bdOOjaBfL6C0uJeDd5YPR1I7VpFkGA0JFXrf43-GGLsU0UnyNf0bg7KTdPCMnHEsWDsMGvuOOIi7_hTUOOX-hwDx9W5Fw7Wl5yz6e9TlPDx7FSePVU9riIFOxXf2uoYlFRi2xi_DobSm_CHelQJDTXu2E0_OLDpjMeE38AMmA_Tfw6Eus78BVfl2Rx8eNI4haslGMzQgE51zdANDD7is4JvCmMsooV_wUP5Sd8OGx-LYln1OpozcvH739rfawMKv-0Wk2ieoxzHmMsWOI5sgMaxkLvW_mjhXpaLdneFgGSmyRHSX9WXHzAvl6so5Lot1zRwZd8QuqUn6QdBymYj-Cc-0-orPMImBB3wj8IP9eUxZIU5mlUBxCTi2EyAsERlo-kUA_ocGWYKTK57ZSUC03Mp3LrbWxQtFz6TPwe15r2lu-imEF7U-I8PlfqcoMksyEVa8bdi-JqtVyJO2egMFwlAxzOaIfiKYCcX92OtuBbLK2pshqQgJIsvcudic6JBz5gH8V3-kFZNybENJAGiV2zRJAoCfhbRS4efHfuW2qNAhLd2qONZGc07PgEEy-OhCiHcDmobqaDh74NGmPINK_YYnyACUosh9fYVBH7s4OZzTUy1SQFu-z7KVRd_SQi9LGOaYICcZO8TppL-mEQ0sfUHw4grXkp52_cFT_07r63NY_wypT_NdxwrHg9gTovtftbTbYjA5uN4-qhWbpubk2FQXetlSJ2i3Nz6vKHmFezZjPyddtNkTKkFiVd-W5o9izY4EcwrTNda62h1PUa1lUOghCIvMHZ4rJDnBzNR6BauxgKRp0kA8I19kOb8yhqiN2Up-u2GzMn0Fp-3Tbfrn6hksUKwBujcTTDD0jNk9bUWzrPnkrXMCoj7SUUibs3dcCZno09jnFKc61IedMU_LRq754yukDy4XGKpDWG9ryH2EC9mj0nxw7F-kPiUhcfDDoUFJiSBaveKix_qmwTImu5I9fIE6DPuiey21Ri-s5Fj0cPMVH9jrepPFOgTZfHAJGoKk3SQQbqEUKkYbJW94SSf1cvcmNFrn4lHg6eqIA_q9DEJP8d9gucZl0WyhBhwEyiGxuysehpxOXtTPBbckDf4jCgqf91iZWmd3lIdm5tW0YqSdHX7z3OwO3YFtXaYYi3VWMNPB012doF-vxqhhtG6HmiMHSgjL-pepaPBzLvIGCo2tjQ6_XSo8-DnWOg6P053AM1u81pYUBvqZ5TKRhJZAx21BDybuITd0mBBqKHZ3t_C4yiTT1eDuow-8cpgni_yzY0ymff461vj3I5C5i8v8mi4OoO7GAvMs7ga22JeMNeD_lhVW3jRwx2HXBI4ukjz3sSl4sD2ehttZzYI7hWaob0cm4E64lEIMdjUq3EP64lAy7H5nsM_4OqjEIWmL96cPwMMUO-ddJhLRBjif0tr0mgqRZ6angonO-kAOTf5MUkXWz_ZvAVy3aTrdevtiUWH6R0pHcWLDKZ4R53YCxb7UlpbzIEhRx8SZsuLUkf7NaSRh7VLbv0vNBzjD208mq8HzDLX6bv7ASG1vvrebOhDTfoMVHYkqwRHoxKzOk5PxmqwuviMKv09amoS8xsFkkJUyZaUP6F2zBpXe8dn1tW6K5uQSIUkxAIpSfTvV1W0JKp2r0VjJ6qCXcufeN9pf8Ch54deNdXnMhM4rCaLCR6Hmqrt-6hLP--j7hdXAtTCn80WhslMXLfLE8snBC7VtElsUSid4ybGTd3kCBxntaQvlzD4IpGbohIg8_lVyEzLWZWyUiTT_TbuBL7pQWzhQKL7Bf2Pc39LcoP4yVO5h7s48SQLvY0nn-AkdR11EFdeRlc7eJCQ3x0JtMXE4yWlAKZWN8_kBdedMav1I7aOr0Qg665Wae4iruHUbM66DvMfq45yMlkN57KK90gdqf2frDU2PTrkSU18ZRwO-7SEmwDq8H0D1CESEKRdBrbfrWeISO6STWTvWqk4VZaCk-dkZNVUDcLUzcw6NFFAtHd8fD_MRKTCOfzPOxYS_PHwWLijLb1fqMCgesYFGMs026sEb0SG90UDkymzSAqd8TyvOSlB2FHd-oth76HmMtSSt_oLYlFYZgp70jo_Ewl8o3AAMIskN9TVGWFzOYP2hm6QxVaTuBce6IDQbSZk8lJft0Ywu9BCbhXyih7VfTqYPxs9FJ5KI8E4l1AHF6QBGH8mVe_PAABOAurK1lE30u-bNmCHbiV894X1Rxe6MLqtlcPSuUPUDtsSeaMshmZS5lvilMgy1VT-1dDPHpiIJKRtA2Cy9MYzVDjmheYMVbgZUYIPcgkwbrzZNKa-xNoWMv06ZIYEeQWjkdEJ0D3ZP5i1IUGJaZ5FDa96hOXBlV7upyLUP9RZKjKlJtF895pbjIRBe99NAmeT7cj0Ii_naYekEzzE06Y0sCRGzM0pNOpJvgee98V1aaokHJf1Ur2_ffDKYgiI6B8g49Yn5vtkJLzGFZjAJfzxNz9R36xwUCrG3gbJjoOLo5KV8KjOKDjGlBJRkZ67JwKmS0v5F_SjrZEXQtBWg1z0Tb3t3VHHyEcJHFiTrhtppMlp3jouQOmlmF2fbuxkEgvL9bu7aRoR5SwnlKHH3Z47lVDLvVNOxmjNbTTin4F-FPOreC3Yruvths76bL1UxhatvL8exaujY23F2pj229xrwWIoUxiDM7misNiqGCfJjhhNS20Jib6OEUXGBs5NzdPM6WUD9D15YCOXPb4cWVOEYp26GKuzirVmz52_uRl5glNADdDFIoj0by4fBfjAl8seDw5xxYAa-cfRKdq3QNrtYJ3EnUpGb88mCh2iPEGZCdlv20FtPXSUgS2gZz6BlylpbsEEmX4b1poOg5ECCNuR0q-WALodqwtSyxtQMhBAX-Ka8Oi1mAofFGJdr3PSR767apJmc8JTEk77VuoNh161tZ26BaeNjOV3dsfUDDnHsOuP6qi-B_rYTFxTpLAwEHUeEfqXW0sNRosyPq9VrmG5wZS6c1ayH0YqrPD3hEW3vfFSFqZzmq1Igf_XAtq1rHEXoYFX0i0pckBHWeoYGGgqmcArFEZw7eYY3fULO_IXt9ZsUVROHheId_8YuzHEb2H53P0vl3MMSl3yfVPj7WYDo8BTX4jbbFIPNd3yFJigJbDBFyxSrrglBEDLsm3IVO0zcWVbhVygpd-3pT71X0ZQMEZrqZpXaTbArUJvHgDeuXqgo2EKD_q_L8Gs0MWAyzlYD484bN0EKVHbXd-nFUD9Wls_pNX0IkcxBEcPlEWy-y0CcObFPGaiu8QvtaIfIWTIETn6KL_3CW77GlvxSDSua6qQO3r2PQbvyJCJeDrZtuwxwT2ZOou_0LydShB3NRjLCPjGcmNYRHmaGdTUJ-_Pp9LNIrpXRfGwNgl830OfvtWn7AEmgopNovloOBtWhp3WucBUb-FYEWS7vSxU5rkEPwFULHkNyggD3g_7paN0EewtJTU4J9rDqrgwvGUFjCroSh-0E5_Vj3UkHImyvkKqaXDLt7Nxuk0StXlcZbMQnCHDeU5X_YQl6Kua-6vJoMHHXq9epKpasSgjLwDlDPY90rdgsZc-8NXc7Y-GwLAPzVje21BLyRGrS34YPJWAcDSTilVQRwWe0fSqZuGZzI-motKErL7GCVNOk_Fbknv6vMm6Q6d9LIJqpx24CllyRRRqpKvW3YiNo2VvxYo9zG3xV0DhFkLkBkCwy-WheBTnfxYCelfaq8biIZO6KYYxYiQ2ceSkYbREvwQLIt2igVfVTJYfClC8JJs1swCDjznwSm1LS4IQu7mQmeuj6Ze5gQYjoGfAkNZPbzxrTa8uumuLXQ4COfUcrXSMj3qa0jzD0wjGHZpPkakh5iIVFlLoDjZmSj5j42rEo8bRntadRzapFpx37hMzQpKuuQvhRVMo1PRDuzLWuTkNY-vQG6WKUacemcjo0htG5g7DBcqdgL7iGRNritdyf_wlby14ls9FGcvnFdfjTPsZ_yBEOMOJ2qU69uBN_lWNv6PTFcrPnNFZiY8b42IuCXwqznZXuyO2dasETH566OUdATWmdhrzDGfF1yQAs7fCLu75Xph6okYDkSAh1Y9hqZlPeHSc6HaZdmRU051sSQxsEy2gROsK9k9aKuQGiWbCiPp-873l5Brexl7ZG0ADPVjlHFFIMBLyQGz_zB1gf3eYTLvLy8VYY9j6v-xm-0BJoXppCxlZWBP8wmQb14ItZlAIV3D1cCFyzDyag7C0QHFF_qwrZ80M3_tmxMkYJbw4La0xid1nJIpbycpAgF0PDzLQPKjTMSc9L5SNjdmrwCaUU-loSTu7G7ABer9HCnpeIhRuB9kbcaHzkLrnUJhjwVTok_722aiPDuQYFJ64mX01fHo0OinzEeueXGNGXfmEhguluhCcahAgSdxraFKPsSa9YbHESU1YodOMKlufyq8l86B_LClFUqY1od4_qreh30mIgbFQ2xl2SNnjJ30lsS03TJmCxsy6djMdRSLlK3DdI7p-i6CqHgbw0qTZAZZ6rBtxC6B8zd-fY84dbGpuOOFYTvwG0m4ITA--e5k6RXWbyFjqGTeZKsK7cfsaVTeSiWPzjtRrhSgVhwNqyvrkgmuGnt2EvzkdRYbtYSpoAgYqj_8iZIVUEhGaN6RhI1rQzB3nNhPJhwUK_Eq1yFOaAftEz1DTEObLQq_mfn60pG45Zm76o14xL5i3Rveut4XLT6Z1b2AZF-h2i8ZZnB154kpHazIZ_LnYTfKj1Tv8Di4Y_ploXlYcM_F0Rlt7eI-ztIecH_LZj-CvafywvGv43QO90S228g5YN3XhoGEhbmEPFABn1QmXLNpZx1l30_KFOmXgxvP_dUANZYeD1_tWqddK9va2jAO_hbm3wxA5H640hxnAq8Ts4r8DxWKCMw__a1JDbh6zi-lhgyXu6FISqN_hhokZXJ37vmOCSFbmplgHJi9VLGxVn5MBb5Mh5Ypz2XbHybnMa_8lRX3-MKSUSPnccPHhAljPbXrAQ_TguhBkGZYgRDRpURm8qb2f4tJKBTGePeJVFtQd3SIywVbRFo0pBHKmUrrA66BkPYjAuIllXRAsWC8twd3XydAjv78fc11vn-fst3wOnXRWwCHa0feuFPY8eLW7j3-RoDhj2mg-1FONWsLetATWfGd9_oer-CETca6ninm9hLP5RxzNASubXiN0-T4Kh_h6g4Sk61bX9D6euU87Oy-85W-DoCoC9qbdo7aXnUn8hz2GF8-J0FBLfWzXpL7hdYWbW91pm-Sz390seZ2bSCzYRufTIO7dR6b4kqgehvrs0iJ4OYS1iTy7uejRwSCx0e6skB3LvQ06VJKtuUvFIuzFGfb05139b0TIlOUMbJr5CoF4uOg1ZYeeMt39X2a0sVD_MHLAp2u8KLhsn2hYI1adzWEJJr7bAgj6qu20NbO93P9vs17A0dZQqZTss0LEOSeedDCwDoud7uCeCvov7W-RKr5zr0chQ1kjXEQU580U1qCHNAiN74dLjLl0DKXFmD7tuEgJJb9L29_ZC64s6v6UWPZoSPqod1G9QboSj2ZgSoq3H5xlTmT6QM1BDeGB0fsxx76M3G8cdpbog_6H2Wfk33-_ubW5ThghsZF8GaYHBZBq-VoxCLpNSXjh88HHJibeHjUgnvBsIS2kK_OjZVyBvJRsVeShu4br5G8-uIfKU4xUKhhqNpaFxLyz4nhEGDo0Ag1G96uVkDAjTmuyNF09ApGMFpf2qJnrtFrRjTKSlDdrZq6EfUqKShX8E_ikBtldx0vaWgnOdNoiSR-DVbmLZcYzmr2uD9clmiKnrvv0vyU7jPKtNZb6_RduJ7NsxCuZfwJYySNAScPPeRzq5X4vt3fHc_V3gaVf68vlGhMVgX5VSI72bctj9_KEyRQWLLn-T1_qDfoZvvlqOUZtEno7KcvbsVbjyfeB0xL81EKEtnhZDY-6dV52CcSvIbpWhR9qYosyjUHyHRPqsZOodb9-DWadZcqYaei7Wf91fcjEH1C0_k4Gt3jCZ4fGWk6I5Mb4V8mPdfoCJqtBmYK4S9cAvyV9S1Vjht8p92ikzXYOTJ07SREocIHihKYlrt_HdocCfx1o1sX06sb58SwOzq1V7qGZd2bphgE1-rNJ4CNwmwWVaANpUT2bk8aDTsMUVvaF70ECBHmzA7QKcw0RiL0yVZjP4HoQBkYt9QVTqXwFA7xfqNAFl8xY8-hOqBrexXHuhru74Uh8k0NAuhboHuT1FvFH007F0Ic5ZSr3Y1_PeGef5SQMurhjj0XqG1PIYuSInTAaarNH9vs41ky4d7aH3zWS3YpROO6wZ6Gbk41Z1rMZb7DRvk9gPHBu4dGlWUVGnpbzukyWb7_mwMyLMBHgJ1WpJE3NX9rd2adn8L6ltnx4OJaZGFCenxcdr6T6qENfDqlq1o1lXNc-y3h-khENF_Z97M65VbK35Yqv9Dq7O-eQirBm6Le9SDLMvnRviEtPEgQdiQ2Yq5xTNMR6yY3Ybyfd0OlAEWFNsgaRS_k8LpqM5IQGL-bpMOLK2YkCscmbJPk6BwQH5NzYrH2356JwwsllVT1O2vFqxxrkjymAiS_cNDOoFX7xBGno=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "xJ9qaa21Lr-Gz7IP7rirsQY",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6049,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 139386,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 139059
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        }
+      ],
+      "thoughts_token_count": 3374,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 148809,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 4,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hello, how are you doing?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "I can't hear you, you muted yourself. Can you open the mic?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 18,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Dude, shut up!",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "How's your practice going?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh, oh, it's going good.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "student",
+          "text": "I got stuck on a... I got stuck on a... [inaudible].",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I should break it, dude.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh my god.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "inactivity",
+          "duration_seconds": 23,
+          "description": "Student sits silently, looking down and adjusting his headset."
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Bro, I asked you a question. Are you stupid?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Are you answering?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "student",
+          "text": "Wake up, wake up, cupcake, wake up!",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 139,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Yo, I should pay attention.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "You gonna suck my toes?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 157,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I should pay attention.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 210,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Unk. Shut up.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 216,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No quitting, unk.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Wait, how old is... how old... wait... how old... shut up.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 228,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "Okay, I will be around if you guys need help just raise your hand and I'll come around.",
+          "speaker_name": "Ms. Lopez"
+        },
+        {
+          "offset_seconds": 234,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh, oh, yeah I need help.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 238,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 243,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "I see, do you have somebody in your room?",
+          "speaker_name": "Ms. Lopez"
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I need that.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Come on eyes.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "My brain is not braining right now, bro.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 298,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Man, that's too much.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 303,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Bro, what?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 317,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "What you trying to do with that inchworm?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 331,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "student",
+          "text": "How come Mr. [Name] find little kids crashing on him but when, when [Name] goes he's like 'Stop being stupid'. Uh oh.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I need water.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 405,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait what for real? Why?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 412,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "No uh...",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 415,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Let me see that real quick.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 504,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "How do you have three screens at once?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 514,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "How do you have four screens?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 524,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen sharing starts, showing Moby Max application."
+        },
+        {
+          "offset_seconds": 528,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hello LaRose, how are you doing?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 531,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I can't hear her.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 547,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Moby Lab App",
+          "to_app": "Chrome",
+          "to_window": "Warm Springs Lopez Pd1",
+          "details": "Student switches browser tabs."
+        },
+        {
+          "offset_seconds": 548,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Chrome",
+          "to_app": "Zoom",
+          "to_window": "Zoom Meeting",
+          "details": "Student switches to the Zoom application window."
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Let me scoot over.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 552,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "Moby Lab App",
+          "details": "Student switches back to the Moby Max tab."
+        },
+        {
+          "offset_seconds": 554,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you have any questions so far?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 559,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Huh?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you have any questions so far?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 602,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I can't hear her.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Huh?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 605,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you have any questions so far?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 608,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, good. Um, is your mic doing well for you?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 614,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "My mic? Yeah.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay, that's good.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 619,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Wait so this... This is confusing.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 622,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Yeah I'm coming over.",
+          "speaker_name": "Ms. Lopez"
+        },
+        {
+          "offset_seconds": 626,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "All right.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 628,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Still tryna figure it out.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 632,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh my god I forgot how to solve.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 634,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hurry up.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 639,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I can't hear you.",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 643,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You want to isolate b by itself.",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 646,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Wait what?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 649,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "So you want to have b...",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait which one is it?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 653,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "...on one side. So what's bothering b right now?",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 662,
+          "event_type": "inactivity",
+          "duration_seconds": 37,
+          "description": "Student hovers mouse over options, seems to be thinking or listening to background."
+        },
+        {
+          "offset_seconds": 699,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, what one is it?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 706,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "hover",
+          "target_desc": "+7 tile",
+          "details": "Student hovers cursor over the +7 option"
+        },
+        {
+          "offset_seconds": 714,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "+7 tile",
+          "details": "Drags +7 tile from options"
+        },
+        {
+          "offset_seconds": 715,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "up",
+          "target_desc": "left side of equation",
+          "details": "Drops +7 tile under the -7 on the left side"
+        },
+        {
+          "offset_seconds": 716,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "+7 tile",
+          "details": "Drags another +7 tile"
+        },
+        {
+          "offset_seconds": 717,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "up",
+          "target_desc": "right side of equation",
+          "details": "Drops +7 tile under the 4 on the right side"
+        },
+        {
+          "offset_seconds": 725,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "input box",
+          "details": "Clicks the input box for variable b"
+        },
+        {
+          "offset_seconds": 727,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "Types the digit 1"
+        },
+        {
+          "offset_seconds": 728,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "Types the digit 1 again, forming 11"
+        },
+        {
+          "offset_seconds": 730,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "It's 11, right?",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 732,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "more button",
+          "details": "Clicks the green arrow button labeled 'more' to submit"
+        },
+        {
+          "offset_seconds": 733,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer feedback",
+          "details": "Green checkmark appears and next problem loads"
+        },
+        {
+          "offset_seconds": 734,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Ah!",
+          "speaker_name": "Student"
+        },
+        {
+          "offset_seconds": 739,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Are you stupid?",
+          "speaker_name": "Student"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:31:53 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=93242",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, which one is it?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 4,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"hover\",\n      \"target_desc\": \"the options +7 and -7\",\n      \"details\": \"Student hovers over the additive inverse options\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"-7 tile\",\n      \"details\": \"Clicks -7 but does not drag it initially\"\n    },\n    {\n      \"offset_seconds\": 11,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Why am I so smart?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"+7 tile\",\n      \"details\": \"Drags +7 to the equation boxes\"\n    },\n    {\n      \"offset_seconds\": 15,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Is that plus... minus...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 18,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Plus the boom.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 20,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Do you remember what inverse is?\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"You still doing your homework?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Mm.\"\n    },\n    {\n      \"offset_seconds\": 26,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah, I'm on that one.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"input box for variable b\",\n      \"details\": \"Clicks the answer field\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's 11, right?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"11\",\n      \"details\": \"Types the answer 11\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Correct answer animation plays\"\n    },\n    {\n      \"offset_seconds\": 39,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 42,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next problem loads\",\n      \"details\": \"Problem 5 of 6: 5a + 2 = 4a - 8\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Are you stupid?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay, minus...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 49,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"-4a tile\",\n      \"details\": \"Drags -4a to the equation boxes\"\n    },\n    {\n      \"offset_seconds\": 55,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hey...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"-2 tile\",\n      \"details\": \"Drags -2 to the equation boxes\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oops.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 108,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay so if... matching number to the additive inverse.\"\n    },\n    {\n      \"offset_seconds\": 114,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"input box for variable a\",\n      \"details\": \"Clicks the answer field\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's 4, right?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 117,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, 8 minus 2.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, I mean 6.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"Types the answer 6\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Oops! Incorrect answer modal appears\"\n    },\n    {\n      \"offset_seconds\": 126,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hey, I got it wrong.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Try Again button\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, why is 2...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"So just the question is...\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, what do you do with the negatives?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 146,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Add 'em.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 149,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"10\",\n      \"details\": \"Types 10 into the input box\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Oops! Incorrect answer modal appears\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No you don't!\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 153,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Try Again button\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 155,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"That's what I learned.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 157,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's negative 10.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 159,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"-10\",\n      \"details\": \"Types -10 into the input box\"\n    },\n    {\n      \"offset_seconds\": 201,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Cause I add 'em.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 202,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 203,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer animation\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next problem loads\",\n      \"details\": \"Problem 6 of 6: c + 1 = 2c - 6\"\n    },\n    {\n      \"offset_seconds\": 209,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, was that simple?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 212,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"-c tile\",\n      \"details\": \"Drags -c to the equation boxes\"\n    },\n    {\n      \"offset_seconds\": 217,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Maybe you just forgot what inverse means.\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"+6 tile\",\n      \"details\": \"Drags +6 to the equation boxes\"\n    },\n    {\n      \"offset_seconds\": 228,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"What the...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 231,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"What does this say?\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I think it's just backwards.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, that one.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"7\",\n      \"details\": \"Types 7 into the input box\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I was just gonna say...\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 245,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I already knew this thing.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 253,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Correct answer animation\"\n    },\n    {\n      \"offset_seconds\": 258,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next problem loads\",\n      \"details\": \"Problem 7 of 6 (audio question): Solve for a: 2a - 5 = a + 3\"\n    },\n    {\n      \"offset_seconds\": 259,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Solve for a: 2a - 5 = a + 3\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 92,\n      \"description\": \"Student is inactive, looks around, drinks from a cup.\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Play audio button\"\n    },\n    {\n      \"offset_seconds\": 433,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, I didn't hear this thing.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 435,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Solve for a: 2a - 5 = a + 3\"\n    },\n    {\n      \"offset_seconds\": 440,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 145,\n      \"description\": \"Student sits silently, looking at screen or off-screen, minimal movement.\"\n    },\n    {\n      \"offset_seconds\": 705,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Play audio button\"\n    },\n    {\n      \"offset_seconds\": 706,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Solve for a: 2a - 5 = a + 3\"\n    },\n    {\n      \"offset_seconds\": 711,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Um, we got 3 minutes left, so we gotta go.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 716,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, you can leave. I'll see you.\",\n      \"speaker_name\": \"Mandy Li\"\n    },\n    {\n      \"offset_seconds\": 720,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay, bye.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 721,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bye.\",\n      \"speaker_name\": \"LaRose\"\n    },\n    {\n      \"offset_seconds\": 722,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen sharing stops\",\n      \"details\": \"Student clicks Stop Share\"\n    },\n    {\n      \"offset_seconds\": 726,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Zoom gallery view showing student and tutor\",\n      \"details\": \"Student is now visible in the main camera view\"\n    },\n    {\n      \"offset_seconds\": 729,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student leaves the meeting\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EtxxCtlxAXLI2nzQ1jnViYw1Sr7RPbuwliGLkiU5R65tdW0VVy5MU07Wd-w50ioUD7zldsDywAvH_8XkY0px4VxdhecNdXXyLhPKvjtqteVTM9BxM3_rAZbyf6AtGOHZGptpEhAUnKDjWoe3FbAKIzA8yZ9WcERvtJq54FNAsrsyyAjtgV3hZTsTCyffRIbEo_C4TBGMUliNz1aPWX3mJcQPd9zCkUsqhPcuK4kTqh2kXMmuu9-WEVcpzkV1HhZw1XOV45-_PcEuRouzf5onzAzCu1nSN34tSydJK9F91I8Hgy753bG9B9Aau0cAi1bpji9arN4ptPa4j_E6rivIwglStegLefRE_A8gr8Qy4tXrnLI-AlEgWNG7r3dFcYRFHVTl6RmW06C6kf7AUYwsq2dWzbfaBaAnHLy_h4EDirK9HyM-qpojDrn29rVn35gYjTicBheGlpTdr_dgDO0vvCsPkehUP9OLVXTeY3VvalhNlu6xaWBBaKzCHlBu2W4Fs9txLwivI6OFem4zY-XRqto8zH-sSkDHrX2o4RkWz3azBkwliuyFLLqDBb-tQzuPk01yIl5HNzwiNd7LFOKpYqtdoGfG_WJQzDUMhEf2PltOjgssJdUgSpTX8Tlg87FY1aB02IGn2lkUzkRRz0QGL-FazuWCOK7OUyPH0XjPEoIJ6D8I2MJnozmZtMWeAUQYBIE24C9uhpM1khjod-3zsfT0REZh0ilunySFxIiX88zYutdven8plHR9qNjYIeP1rHzfcNsI-H0ZD_eaR3-2_O-lZG8c4cN-3wOf0_u_dSTG_ODrzeEECHHeiWIYCu2pWn2uSNIVClnxdvfnFHYFTGN2vVD4AQ5-zqhjp-wOBgfC34uQ0t0Oj-_5uIEke7H4IQR5VX-ZC8i6LnMbGedC8fwkAmeon2b8cZWbFZMD22MTInv3i7Nj_TP12xDK5mGnL0v2rqqqk5kD2q0Yybi46juNaulpnH9TGdajQoj2caSFKoTt76veRAeZti0ECVpHFRK3NbhnDEDtBnw4gT4ItRohOvSPfqsqd50xyiPLy-W0xdZ2yllHKMKcA4PDANtO8p2raXjWkmxeMUcLTWDWujajQt5lYixEpwAu3Lo2pztD_FI7K-mXX2WMOnL1q4A3_D71rDwM8nT2xY_F52BlCs84V1G9g-JLGedsYDBZ5npoEc8-cthbDosx_FT68RgYi3n6FnLGHOEgpnfYe1lnaBvXMnI_L9OVcNQ8UoGAv-TdIqJgi8g-vI89KCvdefLp_eV8zk0F56IuiQzpjCccqbwWlj-ClWdOStmko4shYNJKeDso-L0QqyKHdMF-O-4zW8cWBd3d_bP2dKKH7Q9Kli4B8QGrnBG8TVluMAhIbEdW_gM40427idXCtQ07J1mrtg3EeRmUAnTrHHc1Ml4kLDrTNcETHfU94Zr0WtxLUdWmVTQv1UFStpgxLzAltA1H1yes_djq0oibKb6NH60oTKhCoSGL07sI3tduEflGZ7jlXe4E1rIH-nTtRS1TmSI_cI0EAX3H4-yLGchMohnTUl6SrprkYremp8hGRh2RaPV9J46KlNfsDZuC22UchjtnORa_Kaw-YMcYVC6Qa-132gHQg7SxdC6clzC86ve1tGu3AuLRY5Hmgs7x6Pp2EsQGoS75-HhJquCF5_iUhNguQJJUNEMvlP37r03xmbzgsiDeV2A6yUWVZD0u3Q5JNfGEyvP89A37FW8-XjMNeOONTrvAGMYgEpWj2hn3vUVxC0mOQAor3a_FxT_k-4XZ9mR-zp7_lIF7GHGtoIpEOIUwAhWrSRgjXa98lvn6BC-lQE4CW7oogeUychq2LQY_MogN7XklezrBXk82X2qpfoQ8UfjacuQmUCfGUeywdh-VUtSnHWv_9zWI6i6VBW9ssVW8UZHH-JKwSAwamNXZaVXD99y8jTPWcgMSj7m04NPRPZ9zs-xA7jrqV7g7_ufovVbstSvvpitQIJJ7L1mKdpncDT3MZ5yS23fl82g9ffwCDgEjOkNydkvFG9EaTsnnF9g9VoZa_4fNamFJ0I9hgYQSHGk2trOnIo_atNOmUr5pff1TlA9ogax-HjH2naL-_tGM1DLGN6-Sw-SMOknMf7dTvH0ooUog10qOcB20T6Oonbfwfo2T1LJ_69Z07-Uzp8NZv8nuVqQ0joa5tCvGL5BgbEI-VpM5ZtoUh3HLmafK_LfuJmd23AP6D59CgRvmXFLtBqYn-LgwsRwR9rQn6T-OKieUOD_2rI9kPtGMdouPF8uEP-YrlEBerZ-7vxs1gfX1NY2vqx66Cu4DqOBg76et1oYM-7HVpRmfEMeJ4jx-XqUpZo-EYHLZVipQOzAZqAa0fnbwyfxU2Wsw-saDMPgw5KlFtGishkoUte_FKdAARmJhgydQFLdPQfEPxbYzmTHuobOZEnq3vrR0KC2rgC7gOiiH8WArzFgShVgKCwY46fjwrBm9AAhwkK_wybmTasrctRHQ1YW15EmtF2O3TbxitR-2-vZHj_Hw2G1x6siHVLMrnN-5wd9N4MKCuXzM_VF0rAadNhyPFKfz8ZlNhKIdx9sKJqVCjSdpfpoCaMTmvzg92guq4gtmDNiQytQUPuxl1QmcSdLu1vgZCjuQa7XOHnidUAljeE4zXvTb7S4bHbWSQSaPXbBHU2QgBU_KHCbDOpVutcxiLDYnqZbm0HT5VCSAVoDtUzpVGA_gePs1A6Se4sNgAJXnIaPsy2ibTBc3YerKSDebZKrnD91ZjH-_OcIJ4xYXn1HP2RpYYeVCdQXXdSQeyPTalwzXXpA67hj5T5J728w_UYQmrbIrb1Fo729l00_QfRyutc7os2XSUybChyGoavqpPMxaY0L8eIK7FnQ1dHjdfjr5TyM8lo9n1gzFz1m3kS0zad5BpxSBitah6bvB04O2A43GoPGuhDBeibIGqOPrk5RHtuHFkWatrTDPel2W8_pvqUH_I8MvRpQTPu4Ho3rgUNV2XgVTrYpy6pc3rEtiSz8_e9u2O2YvMlajJptqhkCVJ33CUYespBQ5tlNow9TnkzA1QoxjXv25BDMRPprmjwxqquy9q44zkn4GSkiBsQMqTMXMihdUYOxBeNa1VADyNLtwUxXudS7lKJMEygCGfyrdLQX6BNXMR7ghrcksU48610qZvcTo22kBgqT11mw71TsVRyJEzdXoxvrFUHLRqOm80LMlALT31AyjlJ2lxAm6PISAk0v9HReifp0JZ0Fr8z_crF5Xf8u1NhKNOmqfnot4pF4P7RWJs5bTGIzePRmWQlyPNQaY_zhls2yuigP1sKzOBDLDvclpeofJ078VhXIt7UnCpKjYa6K70DCYFDYPWsVRSNGPN8ZI6Vath1lpXsLTdl1X1ft30Z-hUM1UUcjY7zT9r3TOwsGvAb18StQFPnuoTfFMW6yQA5fPqwR6HgwE3HnGs0s2dcBFGBZ5eJdXUbl_D-d4MV7IAAHe71MQh7Z-cTuG4Uqy73Aaz1DmgB558PA-eqhQG3dGSDsBoKsXqAXJVGKU_15ov_AgaJVR4NKOFfqkyg3OYKv0yCMU3sUQ2pF9xIS08YpIBR_59gNmUbxiCocwtu3Cfitsn4rw99FrwEwg7PGd64QKTlyZdzPLBjI37LAXIRoSU14rGptGhD-qknSVyuD2WG7zogR5FXRj9GJZLCkINyl26NdtwygFJFQzgR8JeUSJbb-_W5RUlXUoZdWhhGgM5f724h96qp1YGn4UobTBqoXwulJCDbTSNfXzuwkFUTi4YjWGJ4viB7EVXybI9ks7KqM48f011u89zG1eD0d_OSuMU-CAIxXpWdBRYiqVzTjDrfdo6c4FjSqDBFrBHy0Mxw4xvgPieEF6TBUvIYFrxtvoyM0M8ZJOjuO8cYwm1pRbeYMWGKaKiY4NCOzSvfFsJFTixFBICG7knbYAe_Wkj_8zWqM4bl7V1mkxMB5gNSdZA2NvTMr7kdOeF_jLGHzqdgnVcfeU7o_b813QjwR4UWX6uUmQ3TWi4_jbHEs2klK3Mh8UWXLvOV6wGEvMyrsqVkdfRtVfVHP1kx_5C-w_JooWfOc0HrJv579gULWPYjw9n9Vv2Ve8TNx35M6ZwNLw5AgVbKK69iw5FDlQ5bdzO6mmhDoulzN1Td6UuMQYdJwtSmLR9kJPTdLJr-7QWQ2vRyp1K_ZKRwz5AqXd3olYOkLUp2dzLJ9fbJu5Yu9ENBOJN27Q7TEHQW6bt1XEEqjzhtlWWtPC5JfX5ssytxPvzuGIIX-nlPIXll_v85ruQ6IIgjYbraRWyB1iU3v1u_eKdtxpU3RCdDW2P_FBi-1_Lv1he0EDFSAncNwzN38TvOhiRhdA5CHDA1Ip4OfN07Ycx0lpjgTEgI92ag3bwnPtHMASuetdnQs4uRFYF_JekNTsJtbAGU47ijfay5KrxXUqjcSke9SpXZ3XAbwT2akJZpfHRtm3tZ1aFHC-wqykTlwFM33V_D_OjMefKL0mMQnp6iZ8rGvlJnM0BUgqa0MuTolgC5P_ThqYC0GW5jAAr3MwNUSfIoNmAiU2MVgpNAA1vTrrqRqvqyQz4ahOaqwszGKjsGRTqg1uytytFh_vFe7gVrRy4oq3ftDE_FPpomYB8og2ls2EfADF76t5HWqyyvXbvqir4V_nM6JKDz6_nH9hHst11ilBZoOkXB_fgE9a8pIkkrLnJUS6nWhEZ-Tx2F2MdNt1e_8tu3r6FlOIT5tpkD4cW7CDAWd1daQ3ID5Jq4_ZdKFAvnfXlMIFORHO_dQIAN9lpcHR1tu1F-0a92MAPOufZttC_30RAxRwOAGRWfNnc2RBzFPJW8KJ0nOgcTauMzYyhOBCSkneFWJgw5P50s3cJNGFd2had96sjiJA-iHeHUgjaPrMF4Gr_b-ZfOexj5qWZAN6mw4wW6tyEHj70dI2wSBtVHsCah0j4drkwRQNUSZmkExqq_YbfEVGLxbSXo7LRhI_VaRXGOB2ojoxwgJce7jbn7MndJvqn3-klmypnt02bF8FdcYMNnOiICRKayrA6LirX52hg5GBdQ6CQphyJhXOWEnSwovZYmkx2dxoo9UL99MDuJNXAnfUDHZSjzh6PfDIM99X89Ql2rHVxaNe5de6DTD5DLlg47PO2K1UIlvxeH_5LcvCa-I0UssQnEnzJcKSgSdjKwZkKy4vaZ_49716SW-V23czDQHIP6CcHvMtY1APYpt9rTgT9wLt2tXMUP0m2RLnLq0erB23L0xMoufnFb4fTcIt-F3Cdn3AlUAIG5dkO7p0l_0cnQVIpKCXtrka0wNE_r_VOx_G90bmLfmLx4--ErdeeBuGJ-8_t3TkO8I5CsIznAZ13IRT1cObayfHKlIQsCDlQ2FhEKKYnGcyTZI96hlwleysIhj29vLWbn32iIlXWE2BHdYUATJRIKYU0Fp0GPFatxanm7VxTn10OMXBLi0jGfOjSqvfeLrrRErF2Iz7OzVuxmXuFiUcGT87R7c_U07wXxK8CwWJ8wzSJFVFpbTJg71wNpx2FiskmDlez0lkL8agHs57vL_bRWmfHSxdIhzJ_mo1uw8FFrsP5bGhH7dmSw9NY2UhKfaOHZfUYhwM60jjdxoM6nD4IQrwDBNyDAelLuWqBr5ZPtbXftzt-Bj2D8RjtgVtlrx7ADZSAJcqaTyYgUm1WqyOTtED8fTBg8jZCaWDteuVabVS-Ml8Rm65UpyLsTgu4kSqoX8YbpPq8wbFccUalkQyzHdW9K8_to35Y_OxvlSDWk_uY0mV7bSRcu70v6y2F8TfBjNEEBJUAy38QVQSufsuXViZvoyt87q8EyNpdhgms8H3U2MfOBHbSZBmolrI_-lnyo__8_UKH31lMQb4tIzRUXV4-OspUCreUmw6I4E1fkYpW3HG-K1TFgk13FGo6iaFRirPqO2SWca7vv1eXoba_IHVl8T9IKcx8qU6-yfu2wQy1xExaM3gig-9mV3miflDj4anBQOX4xn-Ysai9DFvS8nlalphiNppqEr3M41U_aSgzXuR9eqvpJtS2T8qzxM4af_0g24VJgpFEHMjXwd4uJjYFurkWF0a5KP77FdMFgSLslYU8rMZt6zFZAB04GlR035f47qPgxUda5ATYk-bGPt3BUpSxrB_pl7ZpknKR0Go9J4bBRcPpSdhxQOdWuq3v9sw6q8DiIZCSlzKMpPJlGWHBbHdYUvfauSr0y4V-Kwb5aUkX_CRVqK4jhNqI40LthX2W2oPd8GpQyQsFexsHY6Wi4RctF6KR340KMXap2IHe1HrHTJWb7pVQJT1kACuXU7zAE-pEUQTNiDRLIhaXARZpidRzqpQQqqH84B8KSewSEgxCbxXCPJlwL_d0ApRHw6ZPUG_2mMsqm5pNSxy9x7QEB3Qq7gUxPhJ9XmzDbDKe9rf-d7vq5JVjeTFl0OQjNQlyFO8if2YU7fTyV6bqN1rj0olzdjk4GaTzeMrW3uJa3wZmpM7SUPn7b90tIT2novVG4fYIR9KnDlAKM1M4Z1iZ0bjZCVHeEvnP5d31YX9Cy2Z6r9-THzzxXM2ppWLpaqYAg-5Efe12Og6Zg7-Iu02itLz9bJ0cPlwMMerbBzTVP4sGkU9U9jKWNN2M2uGGymQUJ0ABGJrdhkbOWfn3vpnuUThinEDiSKh5es_GGAYeCwb-b3LSKiVE9Fml4dq2q4RUT51u766ywq3gL44O720WNVie6aOOo2DGpaf3dLtVE9MIMnjj58cRV_Zxob-HXW2y0w7Dy1ENA3xltBMJMhyqabvHMuLhZyLbNFENowQMOgcltp6psStZGgWCCtRT7i0R73G8epOpmXOPrFH4dwD4XCmVl0IEQJgaeSvfk5l5YshrW0J1Ef9ECI-UvuBqBuoWZDe4rC5sHbsoJ04duIc0miSq0j-vNk47n0LSDBMvhNQNm16uxfP7wDTh4yhkdZwM8MkU-7bM--IdGKVrULEg_40MBnD7SV0C97DDsDRAKcG4NyG74qqksDpfeLyXoWsrGPhG1N9vy6YUw5-oT1aSvmZbllkt5y4Kjbxx7YtbS8Igxx-EmYZ9BIx1PpEo2vdLSYA1pChjuVO3ncQW3TGTUmUg29FnWoPXAQJzOIKzEJae3Rw41bnAd0sEmmH3If-wr1BslcgGXoghC1YQUtNgcIzlv7PIpGk4zjtZCChI6Ss-dJTqKf9um-yBCwq39BF2lhDleacjoCV2QAKI8Zo6jxt9KosEeluWMKsBOIoFj-UxAR9B3scJsg1JsNxqQ1kZd8WWPuCxbO52hB0K618Qu5sOsA_jB4cyA7QcVJl4UJ3fCgbsXqgIkyChPocKPdQPJZR14ZmGyQvlPyCNqos55jnrf4hdssp6GKUNExDjnlSi2yFBpK78FlJSd2dcwd1MWVF21UOSml8q15X-_4U_AqbVZnNzaNQlya5BBPFbZVnNrOOWLmO5ZohiOUIDnzgynG2v83VolsQTnCyZFMuXXlYKukelMOdC7hFNwc9C4PxxVZg5gMEz1tJTc3AOym8mKkzkZ0mdjNoSsXzruhqRLmofeqLjl7Zn5nb4pFcFRro1B2lwJ_8LlBkIpHTqqhPSV5To9K4klHIi_jQiZg7xVTAWSd26kLy27sg6X0ulmEC43PXyZzXVnbtQyxtlJ0bNdHl1I5_a8KQ7lJagdpATKS9Jen-x42dowIRQT2Y2hOSus3W8fqbfkr79HWRZHvOUKbcPapl780ThIAeBSY8TE6y2i9yHEnkLX4pRgLX_acOHbVg6ZuyW25cJS_Kq6KaVxTie0_rdfI_qA05S-3OJ3b_vPMmX5tzKGWrbToEbI7W61zclHjjVc-_HtznMT7Tq1lCY9uxUy3lup5S0ZP-tETjcGp07MGyNoOogYc776dA1qlbIfFAErYuyLuatQVjO92mp3O3SQtTNKS3R8pfAqzesT0KRcQEXEdXxpyNKvDCWdPwqupCttUtkmGyoRYZjiM6rFel-CcVgdhDIzjwubw0R0NV7D19fGe-VGEDYPRs2v0S1QvlY97RrfF2j0UvFMs7stvzCnVsDhBnRr8sFCyALzMZl8l5ojpa16AjlXDA9pw6ktEQvfO6iWCzPwsRQAzUavIc3qa5ga2pppmOvrlge-ZpCuDdBfuEQ3St4TJTc2OY4I629TFxoLCHFxiWX_rqb1EHg1tEyqPytf5dBuSLPHY6DhmSvUCodZJlINvqkXVZ0pH_ASriU0z2oIRsJJx8lF3-DveejMyl3w8h_JsYnNq-ufy5rPJiLbPdyoomoUXsob4DorWgjYGouueaGNjldmbeagVIIHpS2AhFvG-YdEOO-mX_RzyV2ABgFy8KTs7C765N0A94vvi8Wnjc94L5NMzKjRCtJDYIVsH6X2FLXjNTNLbpvHTrEPPBudlrpR7GNdPUsQKoVu3dyIaSB0zQimysUYIRFdTJfrexTMnpCKKf_8GmCJOZv9v9F5uyiEzoKA26xE5Uedi3VBzJ-ZuYooAR-cZgjcSlevr524WtCtkiwQ6TlXZ33jq1I1-3DjIbugrGKW7KH2a4SMhwnYTwZfuB68uZg5p99k56_oygwJ1QbB0Vu5HXJSor47U4ovfTcAlob-jFcbMpiHNdJq7T2J1Je13pE08RilzYUw0zWJeFoPFbTSGdKATApOQBjVn_eJdGcOAEWQLrUpA93FWKOy60EToXv3s5gqfr0GptLSKY097MQWeYINfuYSUfAoQGeG17Qhu5ySCBtdcI0cMP4kK-jM5VbN6KYo-EjzaZZP5s_uAttbGy11ECXUWiWWVtx5_kGRpsLoJJshHe0oI5pbE8XXno8D-e1KOWq-PETLKnATEaCTPxg1bOcIp0ed-ohy_vw_Bn_BD5KmqZu0GehKPFMOF6fR8BJTtEQ_Z5Gm8qHt4Z2NaNa3Bj5tOrEnyBpsYpp6A4skWercdZ7V-RxF_7nVOiu_6YDkQlYE8VeMGrlaK60XN8qDj7tDlH1cxEEvti4Tw41Pvw-WVLBRSFcwG3IVPO9ddrTrl7aeFsbm3_4WiBJ9OpqhNblSxvxCUNX0blYBiM5Xr_MggO4-t_2FPkH6XfRwxgeHaJQSpQdnQwBx2yVXlz9E6EUbyDENPuczQGUYZTXNOvzj9nuI3Qbt2HVmWHrUeX0-1n-79MqB1UySTY0WcPp3sZgEThVQvUstRnO4DNK2-qJs-yQ3Gt5WNhdDWudpw57gS-E2vYtQxAO7uW61de9TUipr7ab47oHWAM4g-vQk1gscRHeUokcqEImsedz0bopPUF-1H9IFNxWR3K3Sm02JUT1KQ4hODSn-sxYksdS8emPBzzPywegYYEzeYYexUkuqMGMVdCCzkVQLz77WnyEhWzXYaiBk--zbUmuBHzCc3NquY2FaePblskZeggQDIposG6YHmYZ94qtIu3jrzsj3bLVITP6RYEfMkfB9AM81zggyQP8zi9iiwwowrNgq1-n3ud3UzqOlfg10YPky6-iq6Hi4GNS93OzzEhDpzIMa8NAOyYyjZ32vcgtdfzbPGiCAuKMqwwYdV2w47V1Gfep-Z3jxh103QzapSG6Y0LE-8-XbaOV5iXm13gSzr6lUQCQW-oLYaZE_sj6IihndGRKZsspNAS_iw6i_7kvr7BP60R96BqGHpr-rReqBsVryOeWCYBmpT034cMEwzZTbTmWcIWGaSVaFynUaJdLXxr5z64DDVPc-l6B9Y1VIBX1TKztlrzBSi7pfk_1Lobz9W8pGzBtBeHKIEf1vbBIWjYai2GTGQQASQtTe2RjsTHw4eaAuoqdQUqMIFNTwIvh-C6wuXmnHEklEtkcX2bYx_EAgH0Wrvo6S_-89CCC5sARs-v59RMRnsK8ySldNZD5q6o9I7y86SbDmr3Cy8vWNgvmLlA9zjP9pwTgBUj44sqMVnQL4aipCT2HfSVNTPrl7IATtUyWPSLMfMYTtuoEITxzB7MWWLI5gSzqczxjrbEzWAuL2YmZEfk0ZcLiN68ZLRjDzm2nTNRcj_kWT_4cdjwhs_E7ZNTU6DMMk3qNMK6X4sCR4xdzfmQr1RenUtrJZ0DiOqMx6xBgo7O_zbWQxmjwoLajZ_sMRjizfsTSmrFGrk_0ilm6oEI-VElStEaulNB52xaNuIa1ppl8vvr_KkbQiHQX_qYkc4cLIK25VCq2DvTI8rtQsiUg3Jao2N_Ag0LM_ZKbephuATD9PAYdNu-BS7M8qDtIT_ISMgqUlkgXNXhl4I_nRsQjaYIZJDHE1Sin6xHSSPAeXqft8lwV74Ky8Eeoo1vzV6lhxJNtBLDYI1aQVEyECEInrekYQhPL_ZbAgnguRn2bwrvcSBNPXYOL7Zpnpp0u1GQtJzA1OFz4drM2dPJuJUM7Oo-YDHlGpcIH5iB0u5JTQwm_QYBwRjWejTjakatALNmZjWbclDqi7uZEuzj15eI-lAP-pUZFoSxbOti6uyzK_mwrKpxNrLkEKx-aKcECv7RL37eXJzaCNVlpFQw1dPDbuC4gO1h1BeQ99CAq94QTogGasQbk0djaRJCRR48eJ07P_IP3NLEt7XSshwOmtpEko5n-K3ZceyFLAlp44ZyLz7PVHCQ8EgTtPVjjeODYhSfXt3VTuyeoKl3lHLgKMxd_nnIbop9AQMzdeoPtAT8D7U2hamQYq0pTDQPBpAj2EDARKuRPmmclg38sd0z_5nCNQ3WEe7z5DkFsM7PCfoqWybuASPqFDH1AS8YV5TH0zWzoLGhfNrGY-yHf-b9I49j1DwxUi2ZvceF-wwO5NF2ixE6-3dCq9P06tZIpnoIu4avjL9bS8G-W9CvBxy1Xcl_MYBCWjmqTSG-g8_zkDOp8-8TsKm0VAdbpkvFjkURdFdhXGIuyWi99eCfPW7MpB0ToltoAxubTZuFAR7LUKbNw1SIiNxgbl1luDq3LE4qy6Ze-v-GEWToyAavQWGWekz6ZS9Y6ikZdSPe1dGv5GJ26XWa5nChrXtmf4h3pnQUfbO8m3W0vxITjUAI5lRNPyspmvQ84qBOY69aLWxA1kBx4J7KLys2b7GU5QWJBpZSIm1QTShEH1uvdVRGKjqbrcLv1AySjIUCUIhsHiQ-hEnssHU5tg5yGByLzp5cs-omxPT3UubylNpJ-M2vufOFuEwaaAz3787dpqVdjzufEBYYBEhU5rroEH-khHhQm4fda0EVcOKEGsk-Dxn9BKlBKH0LChx27zWKHMvKdMNI_GiA5K4d8Mjw0Ith6e_djhE6HMeve5jrAKfFWhJOYJODzXSynxzoyHnKslG-uAmomBbqanLm_ItipLuzQJ_R7Wo_qv52cR1dsQd5ErPi6VplOO00dXj3B40iApiht4Qq1QLmZ5J8gsSziUciTRwdd20vJc6ebYnyQCbbBWlScnqbXsRe-ZK1MrfCANI7wuM_zwunXSdYbFrabSWNt2O0zQAmAuyAnoHC_UNSQkVcrJlcM_-hZs8xUJRamjg1nS8wdTIqxNm7unnNEIzjEWEkvKRovYsBkQN4wwqB-QztXRfgopcbmVvgOpaYub3lZkjUTpOigAleDKpBuvCs8zcm5wMi2gp_NyunOddTrzKPVyudRZr7oFDVGWGH8z6KpEGW8EDxlmP7DvMfwudmnTbUU5l9lzWQeh-353VAQN5f1BMSU7pWq0Iu54SYijt08R5qUql0eyy5pXTZ43sHKDlCNly-qLTMkKFWQSrXNrQlAMHI6gXWxxwR20oa6ZHTh0QRVETPaYxOI7mbEj9oTKfsqQ-Ko0vEyAwRYNQd0NWu6YXYGN-h8uEW4vc6p4PAz7cxnc_ygI6wPz-BTlNOhrQgBkaoZe1fnU27IfNdSlBQkj19sV_BF-hbTn_JE4sv39-Um-fbweT1Tqokw99F7ewOT1wciBfSNH7Ed7YYg6gxEQNFCtqLhqtv_7FFVIQsa_oNquxR4bXlv3uL_oGjpPuylcju2I4jTLGsEqyAnnJmkhZaOxHA-kyHoTr0C0l1NBm0ylkIlKx9xwnNJBuZ1PCgCs7iClQhC7YeE22pVnDkES7y6WzPkeDk05gUqK_YURSSyN0VA-_fR6RHkwsmMeSDFUkSYVGpkxO1ymXE7pvt2OsziEtdIQA4sz-XcCsbSEagrqCVh3otHMuby5jELRpfbiEMuYGmD_NI4HiL9ZkpgRPQ9mIJklNxabkPz0ID3vM7Z6hxBTRUka6PWryjFYwIRhdWgjNWxkWbt-19IXcEfaHhOQERZhL9ui6s3FXCTfqYm0wxb7wFN6vnu14KThcQvaMjsir6zOHofHd8jDVhHEzH36umv-zjJ1C_QyoLJ9H8Nk4q_Q06-WTtJ1RmnViLfuIflgvvxgTMaq6aSzNoghM6XAW8g79nTQe2iEoGDnH6eNgOOdHQrGKqkUs5mZ9odeJaZzeiwMGbR5J5aviF3bY5VI7oAqzWsgTb4mGeLvaZ_wmWA2RManWIHiONFce51mS_Dfu7pw1zP9kquKr8Zom_SXXS60LyYNHE6GI4DhoRn4TdS9Kp80Nw_C6ytk1EO8NInFUnSkYWJDSIJWdhApBJQvtM9z0F1HGJrCkVtphAlj6XGsxGhibcP9dGlFVJFvC-PsPxw37M_JjoUHwRm1MGVIA6mhJEP_9vaM_BX-1SVtKuxxEh7SzIDHBWazu5a8gPF0ZfSJCJssrnnXUdZ8CF30kX3vwQZo8jFRG9xyjMG1ddGzeO5CCD6-hM0TVxbsYtrrst2PhxxwKcIb3oIYVhokgc1e2SqqMrS1Tskey2E2XHmj7PdcVwWyHC-gMI8WKeXG6FtC1hD-BVlQeyn677E1_PvSiO9F3EnWBCPhY9KzOoFM9lmWc-VcCWw_J-6wKOUSO9DGcSRjCr07T5sOgSPyf0ef9g4vq9nlENkRhTkuOEhnRmcGzzJ1MqIawRv4xbfzdJDa_2zAxtDoX-b-ldy_24uJga2cr6vDdLrMIJsuN2Z-94-FaxucnchKpOrwlZddb8ueaoraZsy_x-ZBihZxUQ_Rao6HEnnWbraH4r_NrWWoEJSUN0YmX8cU4tL3a2BDTMrXkNfCf0DGjVZqlfRKXHmvnjOSxtEWfkWqFXIjpAp1Vi5SnRObXDoU8K5PBaybg_H0ySugrtdpJqfQ_29JPIFPBgNa_x0qF-ydL_YHx0iKQlfNjM0KU3e58NnGNr_NMOFlkwIozfsR_7RObHuDKJBcssEtqFYv6jHrkk4YDUUEiDAfCmboTWFsbqwEo14UMCOcKIdvQq2ZSXplNP-pnzk07HOLZKkloK3bPOd9Nis86Yd4igwJNhTyLZ8JRnRMItb1ZG-KWSaZUXMJwPzPG3xPL3uYCFVeWhF9R9oUnyCLyukouak0aDGUtanh8xiky-RgSMZtLvjaWKn6VDzDYyXWXVPxaWp_c8exjn-hFMKRQ0lFof0kF6ubgLcJ6NE1PeqZf_7miJ9rydiej5qxXjB87J3xy2QDrheHmXJ7qRsuMq-4k-kV2A7gmgdyhJxU3ffFjgYp9_P0C55BLLfzfqqVCvtBjWCEFwR0oyACBXKke_P8qMoZMhhh5PQ5VPIXmCKXQQi8ImECPoZIIcksIMUDfi6_QakEbST4nypBemelcYH75A05JY57LQd-1qHbi1FPtDEsRW3gxaz-luxgsVvEsPzKei_2ow03Rg5SumJnpVdhq5Q3GFxO9SwYhuS6J5GkB6GFkI1ePnZlPUXBBWVQOpcxQz3HQbXbPqqgdS72oMRMVCMtaGueJhN7MolLSNOdjPoVHf5IGtwpqMTVuNqFZSiMUAKeJgHAKceIIIO_KG7DtItcgJ44bkqYBAODqvO7InMmONydt7eQO3IZf9iQHozBnXw5NeaZcybsh3iikA1bnMiCskGQG1MlrXBX7eQQbSE9FRnZ-OJO7nWrx2LgvkDSM8lzlmW1-z-XlpEmOyJH-t_B2rb6su37XIC6mLDqQelgoPf0DjGQMo_35DNzmip8PuiRiC_emEM_812NxFKX-pRLc1yytz0eiCaNmXE5T6G_kPeDiF4UAk2hgqD72bE1Xncp33d_bHQ0pt_56CjbG5QhpnoD8H0SXJc3J_CBNaZL2PzFhwow1agSIsrwbMppZbbf6wIpaJAS_yU-2KyGjUVzbDlfbcp4qdfWuWeWNQ-ZNiPkf6mqO0BnfK8DR0-HUb1Je2zfk8h1qM1msLV_x8oJxvXAOBF3-YLKNbegvEh-rjt6uVG8BOwhgoLxOaQTtO-1ohP4gAIkC6DdkaQvSASHY5CN7A9Fz5oXy4fEBAuWYdaqy8jN1qFPPBtnTWaSF-LvoLV_cPS7CDTLxibg_WpmoeXOUEJJBCmFyn9lrLxVEh92sFPDB9utTjB_wBR3x8Ry6j5fQk9S4vfdO2DPTWh9XQbsoICxdtP94AzBpyBg5cUMAZNrGBLck7nJUMs4jbziwkuDhSaCDdX-HBwHCx3JMlBGzUz636KS0yThZItyAKx9mAYba-sw_-wWhl30XphKWm_jMIegxhG3Z39AnsAbvnvcD3IqgajrACV-mzrzGDfEPbVM47XwBSmDmlTu0WzddDdxOijA1iqZQas4xC_qrfdSyOt7qzVok9IMuYdHDrxJhBW1Ys1WT52xQ3gxtYyDsg90jf2gTcZegRBq8eUBv5ckjxfEDaJo9MHbdkosv-MGPTbzTG0CIGU6zNKK0qqcHhyALHdKZJpdPC4ie5EQve6-BheuwvYwXBui58OjUXbDDqC-pZ81i1FWjbM1SW4WuPaPJL5wIRUpVGrJv2KyfSzRH-gSeijzOd_fmXl3hM1AR8nlcnAw0XMwZBIbySdcKgTYA5e8RLJYndg0sxviraEw2l8kLDNiJ3X_Z3ZOCLo8ekhg4HW7v09yDL2gnPeeSH8QNHIdYLj4_dM8YF-fkNFm2yfKiR326SLvbFdsgdY6J9Hr_kn9o9UVpGnFGaQKsTlHEDMZV8wvvOhK5LWCeKyeYvbaXg70yUJ5HDc0bqv7UZ0zfj7ogN1YcZeTRzz1t30d8GVa6wAacwqsdEykIKKBfTkPoPTVXxHRsgISIBL5qlxTMleGmXjSqBtlYy_6UTcfFZJJgNKtQ1LNkIgzGjywz3dpYatDiu5Hkv2GiQs2-827dmhimrpJSjwJUCHbPPFqv_VW-6ujiRm48w2bTLQC0HzGfDOeq_SU-Hlb_lvz5yPk8SlpehMnziGUbUG6dyGiUqDFGFEZssR_v7GHk-BbKxF7OyDbBNqQeQIKETvaluV8dtnBe8-VJqLKMuNnUssVl1VBCFdPbXopowCY8FX5qRNCTiDz899tvNdbtU-CvT94SM6MHvO22iuPmd9g7v2GgdQqaXh9ZJv4fo7CDcU6m36ucmet0TyMriHjwIDIgQQOHJTpE_yNK2XvHyHeWGoS5lMv_OWscb3FvX0fyWBCJ3ScHbytzGCdmcyWLg5F2qHQck3zp66Bs0p7pkgYwL56sHIxI0TwXdL-C1Ipt5itzCo4efno6IA3EY7HeMIcjd2GRdvnzLryfF3yeYkqSoXxgpraNLyPjmJP6ywPh0fH3l6SdsKw5KiXCzTxCniCOvSHYXJ7Gm_kneR-qRd8lvu6wvbvNayJTZsBd9zV3rZLEbBMbdGDGA3M_WwEXx_edZxUDkmPle2wearbeXHPWnKrycmGYGNyOpYGHz_EMpqzrO0tn_ZlSLQbw3bocDzWTSR4CJVXSHNaBYWwip1U1dVZvHrUKUzCTUFp6VQXqjtQOb30da34PSRL2VtSkRiMChPKRLacDMiL5Hl9i3WcsLkiYuFR2Jj2xs9WNVrDW-r2Bo1Pn-Xf5GYZRMnZ4xFMseeYJMhx40qx5IYmQ63-XxHHFM2dBIkGvF-far5jguMKyntxkPqR_FMVVaztn1lxggowRESvNNYkNgS6Yiyj1zaWXMyPMXVIs4W4siWKJh7a1vbDX-5twOy5eZ0YHhM1jxGsR2hd2VZWkYNzHOLgGLpylRjgvKlXvevW56EwnPe6vLO8jFSZ8isnB7Z0foH25R1iX4G-bYANDuhfzMJcNkHeEtX3Kx50dvHw0ppLTYDfm_5QEnAGvzKP9e8IBmE5Okai-bYm3uRtq3NJqtqVZGdwKgCWlrAoic4uI1a0V7mfHTq-2pWk7nM0OO2VIoeLiB6XAzyZvPrHyBFul1sxsmWiHxdzepsH-SkXNvYsgLXOSWlXWmF4uuRCU4cWluQ3JucVuOVAUP4esiBZJ56mKJhsSsSMyZytB921CTqD_PIJsZSsqG0nZwq6LqGa_Xd-xYV_kRY0rQ3acQJ4OasdORUbdxrw8LLacFBNdbKNOoGsBwvPkB64AXFEaRjgCTSv0rgBSDLWamO4XGR5-25o4kt2sPskyg7Bg2tpnHNydWzF2gFxPe7MtGIqu3WPKJyDtRNO6op1AeOpzbe8loI73eYJIAE_xKGPd9j_HNjQZoKLye3y36BqWoh-Y4xkeCRtHoUHqHskLkQVLtQlIxliuA6c8OEMVxMi-FaedT_QEG7F1OqKTrlon4oqPRbb7HrBvlOr8-Pn6hOISkzMVY9frTnkqFisYuRm7hfAXPMd2S0t6JSP1PoYp8OPaAmVtQrpYgpcynKXvE6UOCO7yecDAnEndkKJILTqPplzDbtHqBas-6ZsuZ7qp8ik7Z-Xokr0HhvH8l05knv5gHDm1AtXMmVWZY3OTG5DN6xQfoG3g2Rtac4WzPzlnyQ9LGuTXleHo2UG-cJKE1APeUac_U5rJchr4E6sjnUvSCP0ujSZl0ymlqfBGXKSji1dEdM3j0nChaEJ9IRJhNjzZtAUVAiivlVUC7Ca9D9X-nJ4t98JsbzWvdoYrai4uq6nTc5PCXgqNFScS1Qpwe_SnejoBI8HTKPWnWEviv8_4ROEoKFfhZvPl8IUFQ1T-pVzq7FFKFnSsj-tY4Ki5b1g198CZDfN_IngO4DU6hEB-bXBMvV6FdBG4ye2tH_wnmOYCGdF17FPgDHZPYlmqvbRRyg38k-obsJc0AXj6Wli0yTePNon0cv-P7RC38X_CMGXbSQmNEXW5IbW5oU6Ggrvy0hwE6RVl3bVrz408M7C8ULDO58mkicZnY5fqc2cOmKapaKeugrSU5JocC2QxdjJnPuwjwdo1Vzaa6DPDljL3j3Vbs0agDzSQqoniowLBslINR53AeaiQV1ulzh7v29uRBu0-mrS9nqPKTDk59pV5Iur61oolqb7kJlamfRcOd2dHDiCXdRgQjuvMiczIMfjpyXGuQZEoikFoBiP8YJVUFMoMwoHDjup7DWivfB4okt_rQnnEl1IkY3_eAoNUlkpiPM-LF5a-AXZ5iqbzGF_SDmkbqe4z7uCMbPfRBLDipt4pypHwh4o5LNfajElTGlSkt9HqPGKMu0c5RJGtANo0nxc5U_59_TA7ayW1JkAN-xl_z74jiDglBEO-LtDBvheFdkPtY3P3cIo0dtruP4WN6baCK2zr-6jD0KcGrlOw28AnmbhSB-KZgWwvW2H5-CBm1ucZLqv9nfGJTHkPAFLZMuaVgIw5mHjGgW74-kAchqAdyh8TtUM0rAvwukIpTzWK-KyFSIsbYZ-wXhD6vHm1w0xW6ezx3ajEJoQ-UdtZlsL635cZL3VxCl0z3IPRXYlki4GCF7E6sljHBstjE9YvORnTlzYf2QksSzHRapDNSdELRIr0mcuuNsJiOdhTgnfGQbhqao5wonUItSw6qEIZBtg5RWDhb1L0zWpgstZ_waK02iyAIWuqBSiYZZGPBMc1rBlD_oXNV32QdXICBIrUUna1jvshdzOKulf8ymkgaN08ROFbztgs0hKvirWnb2P9MkPLF5a2of01US8nUbfLtQZ9rDYppUgEXjQAGzBCkJz_Mvd6UBvBFp2AYEjbXNDWsu_1VCw56NqaKQjnJQyHSpWxPBCevrlj3Pq6zFdssnMyvTaBSBn6HJDB6sF1FnLsSyQcW3_KImNiinzgJLVDp0EYcx1jgIbo2cmAbZzycQrY3zdhnDTV620AF9bx5REqhgp7d7sNa5eoLPb16HcfyiVlRE1waJ8zIup0rnOAxTbFC7GznVXO8GE9jutqmknciN1xu07QqHH_11U_Hf9XuEnlkLZ1uGAMMjLYa2uD-cOBLUiCweVBoyBDUXXUKuOF0ytHLQMDNNRRCGrX0AcMeoPcGYRW4Fbe3Q_QHm7RHXE27kGN9yZZTgIO_UdKiRjB-j4syuK26f3y3brlNXkGMbCXkH488F67KE9oivZmtt5Pj1OZzmc43j0nkMM3zcWPDvDUQcDZUGDq2Lc4bLvpWQMucgvjudxPGPGiG33lOiHJ1Uc_tCACnK80UBcvjT0ptLvfoGlhkZE-ic0PiLOpC5w1im83R27TD2KMEJ_nVs6J7Q0QM14jw36322s2p28uzAWbZt8dAgwpKRllr0htX2pOEaFor9HW-mWecRXkysBj7aiBr3t4l0te_7CtJyLPXjdxOUJAs5ETVWBhKR6moS5MzWVM97S_I5llfRduRJaIZA9bWfA-0s6_mpvUC3V3luuwxfOaWjqd003ukZWwl3mJXGU3wRKirGNk1oqkrNEkL5z1-Rg0jKRZxyNXtDCTsiLSaaJ_2sI8L-sMJ_Pq-MhGqEPB4X-YQjnEoARNf4_JnDZP27s_ZeOAjqaYVxyRNhywDrUCEqwMFfSsbCLZ-0paWex58uzieiXrkDnLHNLHB1ukV_N6pv_JU5R145HXsJMnOc56uhMCQihccCJMfeliY0_5jJx2sxEWzaclXxUuF6m-jooqTpiGbi1mn1SjPX5sVC5WycHaxGXjmmg-EVa3vVh9HdV9iYPLeetyuF__D2qV_-tKwf83CU7aoM0Pjz4ey9mc4QmzuEbBzyTuXlgOpDzWyyuRleQ1Va5mjEShZbxYNsvsBBRK77hyEUS3hsOgE1PQMKbqKRDUm2Na_Fa3nusmwdxBMK2-1jsbW_LhVsyX_LFuJMn8XnCPgzML8r_tzgQoxlloen0Gil23AWUwHrC55Ri5fPqPZ-RSOpu9LpAztxMQcto7QwgL6kPL6undYO0KbDSWHRSmnR5XUsg5WYDoxas1canFGJg1itmpTMjl5kl8ymJnATLyopmW-thqSND2KNYRh0wGOmqX_Z7tINga4vJLy2jH42i_HLdlQXRb9AvH7GOOWy5R1VoInwH4kl_QJdxitdEAf0tQPUru8ksBqxLMYTBoj77Iorngh062LjpxB4VGNcC327DDZ2m_yXnh459nESI5qyLULLO4fIkqvCBXjxnQrqv-mSSxsJW2-I8b1IkKb2jxUQSXtDC_Xyge_jjK6BYyL4QxPf6Mu2iQSNunrQjQeCPVBVTASrUMcskFwdragkeo3sheQ3pq45feVINH1jCSDfXqI6o3M2nRazU6Kzv3edUtk2hSr5FSZF5uob4i2G7EpBno2W3duPcERpp38ojZYZAhJ",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "OaBqaevNDpOkqtsPs4iEwAc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 5509,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 147515,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 147188
+        }
+      ],
+      "thoughts_token_count": 5663,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 158687,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, which one is it?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 4,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "hover",
+          "target_desc": "the options +7 and -7",
+          "details": "Student hovers over the additive inverse options"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "-7 tile",
+          "details": "Clicks -7 but does not drag it initially"
+        },
+        {
+          "offset_seconds": 11,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Why am I so smart?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "+7 tile",
+          "details": "Drags +7 to the equation boxes"
+        },
+        {
+          "offset_seconds": 15,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Is that plus... minus...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 18,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Plus the boom.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 20,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Do you remember what inverse is?"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "You still doing your homework?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Mm."
+        },
+        {
+          "offset_seconds": 26,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Yeah, I'm on that one.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "input box for variable b",
+          "details": "Clicks the answer field"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "It's 11, right?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "11",
+          "details": "Types the answer 11"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Correct answer animation plays"
+        },
+        {
+          "offset_seconds": 39,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 42,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next problem loads",
+          "details": "Problem 5 of 6: 5a + 2 = 4a - 8"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Are you stupid?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Okay, minus...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 49,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "-4a tile",
+          "details": "Drags -4a to the equation boxes"
+        },
+        {
+          "offset_seconds": 55,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hey...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "-2 tile",
+          "details": "Drags -2 to the equation boxes"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oops.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 108,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Okay so if... matching number to the additive inverse."
+        },
+        {
+          "offset_seconds": 114,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "input box for variable a",
+          "details": "Clicks the answer field"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "It's 4, right?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 117,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Wait, 8 minus 2.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh, I mean 6.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "Types the answer 6"
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Oops! Incorrect answer modal appears"
+        },
+        {
+          "offset_seconds": 126,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Hey, I got it wrong.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Try Again button"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Wait, why is 2...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "So just the question is..."
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, what do you do with the negatives?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 146,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Add 'em.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 149,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "10",
+          "details": "Types 10 into the input box"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Oops! Incorrect answer modal appears"
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No you don't!",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 153,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Try Again button"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I don't know.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 155,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "That's what I learned.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 157,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "It's negative 10.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 159,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "-10",
+          "details": "Types -10 into the input box"
+        },
+        {
+          "offset_seconds": 201,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Cause I add 'em.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 202,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 203,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Correct answer animation"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next problem loads",
+          "details": "Problem 6 of 6: c + 1 = 2c - 6"
+        },
+        {
+          "offset_seconds": 209,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh, was that simple?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 212,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "-c tile",
+          "details": "Drags -c to the equation boxes"
+        },
+        {
+          "offset_seconds": 217,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Maybe you just forgot what inverse means."
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "+6 tile",
+          "details": "Drags +6 to the equation boxes"
+        },
+        {
+          "offset_seconds": 228,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "What the...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 231,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "What does this say?",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I think it's just backwards.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Uh, that one.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "7",
+          "details": "Types 7 into the input box"
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I was just gonna say...",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 245,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I already knew this thing.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 253,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Correct answer animation"
+        },
+        {
+          "offset_seconds": 258,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next problem loads",
+          "details": "Problem 7 of 6 (audio question): Solve for a: 2a - 5 = a + 3"
+        },
+        {
+          "offset_seconds": 259,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Solve for a: 2a - 5 = a + 3"
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "inactivity",
+          "duration_seconds": 92,
+          "description": "Student is inactive, looks around, drinks from a cup."
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Play audio button"
+        },
+        {
+          "offset_seconds": 433,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, I didn't hear this thing.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 435,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Solve for a: 2a - 5 = a + 3"
+        },
+        {
+          "offset_seconds": 440,
+          "event_type": "inactivity",
+          "duration_seconds": 145,
+          "description": "Student sits silently, looking at screen or off-screen, minimal movement."
+        },
+        {
+          "offset_seconds": 705,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Play audio button"
+        },
+        {
+          "offset_seconds": 706,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Solve for a: 2a - 5 = a + 3"
+        },
+        {
+          "offset_seconds": 711,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Um, we got 3 minutes left, so we gotta go.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 716,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, you can leave. I'll see you.",
+          "speaker_name": "Mandy Li"
+        },
+        {
+          "offset_seconds": 720,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay, bye.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 721,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Bye.",
+          "speaker_name": "LaRose"
+        },
+        {
+          "offset_seconds": 722,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen sharing stops",
+          "details": "Student clicks Stop Share"
+        },
+        {
+          "offset_seconds": 726,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Zoom gallery view showing student and tutor",
+          "details": "Student is now visible in the main camera view"
+        },
+        {
+          "offset_seconds": 729,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Student leaves the meeting"
+        }
+      ]
+    }
+  }
+]

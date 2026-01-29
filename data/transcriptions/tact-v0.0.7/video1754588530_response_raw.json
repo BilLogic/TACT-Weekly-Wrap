@@ -1,0 +1,361 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:42:29 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=60687",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 3.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 4.7,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 6.3,\n      \"description\": \"The tutor waits for a response, looking at the screen.\"\n    },\n    {\n      \"offset_seconds\": 11.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 12.5,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 9.5,\n      \"description\": \"The tutor waits in silence, adjusting her hair.\"\n    },\n    {\n      \"offset_seconds\": 22.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'll come back.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 23.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 11.0,\n      \"description\": \"The tutor sits silently waiting.\"\n    },\n    {\n      \"offset_seconds\": 34.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"The screen view switches to a shared screen from student 'hannah' showing Safari on an iPad.\"\n    },\n    {\n      \"offset_seconds\": 34.5,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 0.5,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Safari\",\n      \"details\": \"The screen shows IXL.com with a math problem: Solve for t. -8t = -9t + 6.\"\n    },\n    {\n      \"offset_seconds\": 38.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 39.5,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1.0,\n      \"from_app\": \"Safari\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"The student switches to the Zoom application showing 'You are sharing screen'.\"\n    },\n    {\n      \"offset_seconds\": 41.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Loud classroom chatter and shouting 'Bye!']\"\n    },\n    {\n      \"offset_seconds\": 45.5,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 0.5,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"iOS Home Screen\",\n      \"details\": \"The student swipes up to the iPad home screen.\"\n    },\n    {\n      \"offset_seconds\": 46.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"My name is Suzie, I'll be your tutor for today.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 48.5,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 0.5,\n      \"target_desc\": \"iOS Home Screen\",\n      \"direction\": \"other\",\n      \"details\": \"The student swipes left to view the App Library.\"\n    },\n    {\n      \"offset_seconds\": 49.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's Hannah, right?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 49.8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"hannah\"\n    },\n    {\n      \"offset_seconds\": 50.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, nice to meet you.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 52.0,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1.0,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"The student switches back to the Zoom app, showing the tutor's video feed.\"\n    },\n    {\n      \"offset_seconds\": 53.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um...\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 54.0,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 0.5,\n      \"from_app\": \"Zoom\",\n      \"from_window\": \"Video Feed\",\n      \"to_app\": \"Zoom\",\n      \"to_window\": \"Sharing Screen\",\n      \"details\": \"The student minimizes the video feed to show the 'You are sharing screen' interface.\"\n    },\n    {\n      \"offset_seconds\": 55.0,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 0.5,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"iOS Home Screen\",\n      \"details\": \"The student returns to the iPad home screen.\"\n    },\n    {\n      \"offset_seconds\": 56.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, today I think we're just gonna introduce ourselves.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 58.0,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 0.5,\n      \"target_desc\": \"iOS Home Screen\",\n      \"direction\": \"other\",\n      \"details\": \"The student swipes left to the App Library again.\"\n    },\n    {\n      \"offset_seconds\": 60.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm gonna go check on other students, but I'll come back to you, and if you have any questions you can always let me know.\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 63.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"hannah\"\n    },\n    {\n      \"offset_seconds\": 65.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Indistinct classroom chatter]\"\n    },\n    {\n      \"offset_seconds\": 69.5,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 0.5,\n      \"from_app\": \"iOS Home Screen\",\n      \"to_app\": \"Safari\",\n      \"details\": \"The student taps on Safari/IXL from the App Library.\"\n    },\n    {\n      \"offset_seconds\": 74.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"text input field\",\n      \"details\": \"The student taps the text box for t= to bring up the keyboard.\"\n    },\n    {\n      \"offset_seconds\": 75.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"Student types '6' into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 76.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\",\n      \"details\": \"Student taps the Submit button.\"\n    },\n    {\n      \"offset_seconds\": 77.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"IXL displays 'Correct!' feedback.\"\n    },\n    {\n      \"offset_seconds\": 78.5,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Screen sharing stops; view returns to Zoom gallery layout.\"\n    },\n    {\n      \"offset_seconds\": 79.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 81.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 41.0,\n      \"description\": \"Tutor sits silently, waiting for the other student (Mal) to respond. Mal's screen remains black.\"\n    },\n    {\n      \"offset_seconds\": 122.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.0,\n      \"description\": \"The participant name 'Mal' changes to 'Dawry' on the black screen.\"\n    },\n    {\n      \"offset_seconds\": 124.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Suzie Baik\"\n    },\n    {\n      \"offset_seconds\": 125.5,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 293.5,\n      \"description\": \"Prolonged silence. The tutor waits for Dawry. Dawry's camera remains off and no audio is heard. The tutor occasionally shifts posture or looks down but no interaction occurs.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EsA7Cr07AXLI2nw2reELVh69FoG14w7Q3zRrm2SSl0DDab0RwZP8FrwvAeObaXQublum0BalwXpcuveOYhB9-ZZ2oQDF_7V52AtnssQVRpe-Jzi-MiuCp9bwuSzZGaVFUC6xGSzv47Zn3Q2MRkyoNpW_pT2K1eQd9TWeSMmNw5xur6kl2ufdPgYgmFPvp7Hr1Awl3ObEe0Xb-W8uk4cq57YYywRCU_Ma-tAgfWElFI0onYa_Y63aplrmSJBxQaN8kU9V8QOx9Pvd49BqA3yo3qsti5-PhIhv1KEnna2zjlYpXDNjZ9YLmyrml3BNQ3kx0rQno5octWDbVXX8TVP8sl_ULiW7YOQK4CKZ9tfUZZd3rKYSZRRdUl5VVssWQ4ueifo_75AUV3Apjxklu08W_4GZfyk3fmrLBJSmqlrPxSOuVdfj8DhUmLkZqTX4F9GpV0LSqz4LBzV19IhZn_CblMLyqZFqVZzI9FcXDnbKi6ymleLKfeVmgIwSjCw24PyXbuFaSYCkXjsvTaLir0tANvorm6Ll7IutKTVZiMRA8wOOdvVSsRLPs5fo7LcT84rw-FpIAk86zwHcOmRw_o6vVhGLhEvrGhrtqa8xwcYQe6d_5opFKKNvmGZ3kRII28jew0d2atFNlGeOUK-pQUX3FRDGXtvtMluY3oQ45CYejIHCkItceIqOs9cbZJBr1WihgfGkFBv3zAQTdnMVoob6evVna2BVR5JHLRzYVv6JNBoB0LCQTnI7NAE79MyzCcbWQtOfnepxGypF1bkdfSSHz_x0v50zqsLCw8Om8f2j4fjZXpBgRhTbAF-bC2oZ_o5p5l49JfTix_3Zq9QGjvZymAorNsqnQrhVMsvV4DToNN0O3zMAZZhyWaxlu3qqO5dXfD0FXXwzXrFRYZHmIcnqV7QQUfLp80DsgTVbzRcZJJ_Ldxct8v2FPVBuxu15ExeD9JYR_VuCxLZs8G4q0-7qNVYKoITgjwjHJ69akgBvDHEDkICn5KIrrncMROKzgcvPpIXPEu7EJ5X2YcQ38kCieSp6UnIoq2grKaC4QljQ72IUCSKUHpfq2iYUfjXrrCglebhTF_CykBeyETLBC3ldSzjRJucrC7r0vRcBOE6RYmD6jFSOnp5fXDsbuqr5S8RTvSzjVv-HD0GwIQ8cfa6dTYGF3dqr7bW_xUfkTy8aT4e4EMOrjyKEs_s27zNkYxeD2wEjJZCYm-BrbSJLSDFSo-1Y6bObM0NEXXJJjfuoZ7TwhzbUx5XqFFqF4HOWo2BHPAK2v4z63fljkfd7UVwEx4JYcdgeC9jD3F3-iYLeE9yILXWQczkBq7v6HWQtLb6wiZj0ocWx6KtzzJei7MGRelajQaUE3-GTJoFqgQx2guJNmuE0FWIHV1_0TKlCjkaENlZJwuRqTm8R3HNSLJ3MSEgkfAZBVoJTuj7qgIgDcdaCc2slI7-9Q7P0yO4CfGaCKjqOi-TM_QPAiJlzv5OFpspP-1LyfGvY8Vjc_VNxrFP1LQniT1B1HoJTbz1XXV_XjN4nhKY0Vn6U6NsZjjIeKAOVuGWdi7p_OiVPSda-L4K8dJu2Q0OR0fBUhbYtgoz-7Mn1D3A1hedFnDxhBp5cs1THBOiMY62VsSDdz5mQdM7bSGFk-fk4a4SrfnXRcbjbcZ9zRv-DOWIGnxKKa5MYCZ5WPorBNW_KVlN0kbCZ3C1lN5B2Vrb_YB3cOBv5xhmoM0nC2E3JTHtbnwbznUOm3QfPj8q6zTreUAZs-BeWm_RmhM9r-RA1oDIWFEBcNcdjKbzfb9JT0U8tYjnuNSCt0frsI8adVu_9FzA2K47h6oXrFrozDqJH31dLHUFgpOkUQUnZzKFWJn3Hg55bNbOm4K7qFxvLci_qVPOtuh68nqS-6RtUrL9WZzbDv-d50qYKRU0Zd1L9VzFRn1vFGVP0q5e-Kcm9MLaw0tzqL8E-8OS80WGteQUrcY0WBXJDvkpF_UMXbxHaGgXI7KwllFOWUWDosnozPeP4xYZZxcqEtslXhxLK7k2i1_VOKQMw6znSELeunxLLwUk_OPJdFvEQEh3PEIcvJ980SCv3x3b124ZPMFX78eQfXU43qHwV99el7vgShZd13ZYXuvl5pNixGzy5O_JvApqbQUGP9wMrTr8oL88sZmVzw_ymjl8lh7G7Uy2TN_hqGQVtF1tKmYhT_Wv8F453SwbpWDA0984rSYvan12kVRcGqsBIUp6hI2aS_pRCqBs94w979ELsuDABN7hOcegKflOdO_GDikeN3PZeHIIagFiQB86TrSffUFNl1uH0kfUpuV-xyLLuhCQALE_z2reeR7GY-EF3C22IX8FLsiuUmiUg7oYN7U8WxgXKoQTB3WxfOA94oHnK77_jb0Y7uCKCCCJyFPffo7lAhXcN4PomoGynZ4yP8kBLW03iGoAMqiSVLUOeKELnmO_VGhsRB5dgzFW87DLOezkAbpbOJRXSWJRHu5F0M9a58GudT-zcCfbvjOkzKXaZp65z42dWcjo-dXhbCthKPWO2BN9REvg5HzmyMLU2Z4YL5QHz5oV8poN3a-TfBYlIJnuKheG0TZEnUvlgKstIcn7mHrLrVNJUnizo4DYxy4a8y_sWBjYwmncNuWBjon4Mv2c3W7jxOiNDOhlBFe-5Wz-BTyIvVzNwXFW9auxCtUIkVT5kxSDRNG3cpNApQTl4mOVWACOapSasFAFqRsmtwgkjkWPosTxFVnOwoolInzl3tFwZPD-R6dxDgrr77Gi0B_KXxgoobUKFYep5eFP-K6cwi9_xFMZlOIOpftAU2We7lNHiK4kcmR3_yVYvBG3W6e8EkFhcZ0cCy7gsNkbnUej6F8xaaZwIjxip40UvX8WIJ4HhTdOx2rz_vRM65pMp_2rDguqrfKVnMUIlz-xwcdN3Kc-PLTR8CaNkuJ-bDTW38Lz3V38Ni8isKO8rLJ0HkmUzqCYv78bCyBmIXUjVBQcdPuOtIXskSblVDGUFwa0HP7CaLMhZQtXqokJEKoJoRiMgOnKuY_7r6YHSt1AFHuWlaDZaFqPjknmNRAyX-yUOgF-rB9ND60Pka8f--X3PBiy_c2Y6l9JpcyzhiR8Ktm4N9G98syGw-UdXqefjwqJOrjw7cUM_VNbaVSyQaMvEc5jlPTPMF-VfF5Y_4wKpg8WZ0VMY1MVQFhFyNgCMc_GfwJ-i_X_otZilUtiJnVqR_1rpRxkFGwxbm6GGKgobrMOyURTc0WwzSjVzBZ8DIi-J7W-Kz9kBYi_xj1G4gAl_USsZQfJZ2KJfA9kw0b8A5J2iV9UenZheSVtnr6XCZ6eLicaySsDALIIXb5EfNDhdw0oDnvwn2cJL_YKOo6nEN9VPmPITJxsvxWFz001R_YvHPh1hBnMNRitaMH-icqlimwXRIOY6Nj5OMS9c2LSR5z86AHGwrrJXtYnORTU-AUVxyHSfWeJtybxfIrtHiRv-Td7RmIJFrZe63Mx1JxsWj3CktTr_m75Uht4Jep2Y7pbJplugmPfkFGPD299h5TfgsDykEP13CLZ-zNCOc1_qtEL7n4pWimKkeNYhO32NHBMdarz8rI0Wca7klvPp03vwkE5lVbFUiNZEO4jSn24qw5H8_v50VHxrGQLmtagGPWZp1s5wr3ejoIFIwu8xVy1mnelkk6yQO__IyCLZ_GHfL-9Cgwiy5MLa0C03QU6Vb-K6x46Q0XZVfVa5oTOFMGqP-4OC0hbC92v_Wy2FwcgNGNGtfbp792Y4Tt-Xwt442RbcNfefVJOYH_SPj0J5W4anf2yRhCFO7OYtHGDGf1cB7M4YfVssTXjqdmcI-dk-2xN9XxJ9GA17aKwtKzcEtupQKug4oA5Mx56teGa44ldsZIrCxXF9nSBtWLHoBxNdutgpQgbJw5G7WooQTBGtPTVCVRb3FMVREhnMIReoEDa9J_JsXylENByTur284TqKdnHW1pvRfDgbFKyLv2c_RRnUMTIL18Bq2fZKlDXY5WiKZjA9m6huiRS00nGVfSlVbb6xO6zMvbyp9SdMXkqtAI8pcHJi-uEn60wCrshtHXaUc23vPHjcb0ylfu3FKaF2FwX1itLeo8zTco1EvysvV8td6XYuvgg5XwBQOAUz2AhNqm-EYbJjar0U4cpCEDEwOouSIox77-puWw8M_mWMiiBsWSORKhxiQYVOc6CeypdxjxVM858hLSTmLzQpUQ9Zx5xL0IwYf9R132a4wwuIbhRwJ_mPeZUZbSPr5ia9qK3MFShCyPtRh6GJrtpASaF0OQU6HrBa3Zs21XwgWUZcjyJkCmuV6t9uUIUnPQTqeEyc26GRSf26g_5TzGoo4h6SUPbMTV75WYcTqucVUjycD3uXxj0zwmr5VBfXDb2Yhn3mfiROeIOm_ZGFVQw1SwKwQ7Uq8CJF7k7GzBBu3OREu6Yorpql2J314_ucfoJcA_KkmwxDePwl52hEL4MxNsHE6mr_CTkdpKq7YTkAZHxVZNvw-Va07dEQrpwEnrKOP7JApt9_8B3rBpTgXH4Y877kbbLsvmsIJoxtU29u4WyltgnoGz36_pEHJbMQVkFlI_aIlibdshvUbEkQAkoi3gTE4Tx6fkdxJCGMsNXSQkDf8m9-jLwAjoPz5fWiSiu0lDZHde9DVL8g-xGBNgYUb9broKM52YdIxfhF5Nm38zCkDapW3ZaPK6cdObbbqE5Dawjf3D97bnRXrctVfsiZTKc2Q5L644V044UDllCRYa2cw1DznJ9obuN6goSXzPnXLK1hHN-C6EwrmjhrRZfDcHn9mn-AT67C7bB4Hkz6GnXcBa-aoDdqrQUNxZGuDfbZkK_VwGwu10EcIeVOnKB4CYpq9C24j5ebswtMcs__5n7pdZ6dk5jY8nRB0EWhlIAcAI6IRhU1D3R_nkJIxY7ZNKQlyXTgu_fYgErmLGI8_DXEVR5WWF0is1NowOhmqtZTJwfk-Y1-Z0B6sKml7tBqE-mPWcbPt95RaHNA9_7-hZchLjcKHC28V8INycz7nRB6It0CHRSjGS_MS-uBNoBKHddpOcwDqdSSjCI1asZo48dLfomjRW1u7mu8w_DXIW9dhGAoeUKxSGy8ue3FQ1OU12bxZcTYBU2OV9shwTHJcXvB6DUUgAas6wCO15TCvEAgl_hjkoZE-hEwg0PwgOc-TuoqoZmNVHL3cRPpJTDXu2ZB_6UAav3RUag6ztA4V5xvx_kMiUweZ8NC6iobSPVUOX8Jkg8kAt-DKj7EjUWBXWuqoD18nmy7t-TDO9_IfGZIn1_-CBbfS0s3RH1Bx8VKgWJ2ryR_x-MjYiN1aURcG514q2iE42D7vBA_001Y_x8GiuTJO-RKleUlNxJP0-ZvwQyXPckv5fkSE1NzmLrJp9goqgzectly39sRg9Z826SeyEEpnAAzltGLcBl2fiX9Kx4zef72zTVbkK-RIVE_wT7gkAZ5k7vonV9JtYCTGd58qGOn7-OJDgCT7o6kg2F4CreSZhb-Kc_PwncuDYrJwCgBrYT-Mrtn8PHsgO1AzSA0MVaumWrM9vs8Sph7b0xxbc2a3_B-7EtxwcYyT2Q3fh2RiSkJ8WRU0wEpgOaSNP2C6bmoB76FTzHx8SDJGosUtklbr4n6Hm39YMxlcBTyx8IKkULpbYj2Ei6yOnTFn-JIdwU8Ng5evzA8QUhpOMlMBUm3y4yROWCSOZhia4AZkooGWXAJnJnKxdroyIFw8Njm88n5VKKfdYtpdFllX_a4KXviRrbXyFgrUSAZTlWJR76vTV3CK7QaFkFM9kDN4G5KvQOVMhJnvGUw_aOSw8vAWeDihDRGaGhJSwR8qxNvYUiOWklNB3bRn6vPyd4Ew_Xj7wU6BDTlDa9r-OIpOQQ1MS4fkKEKisvf7PNLoLcOU3LPSz6XWCGOs_kaFEMxxBfHfk4CxcswxPgK0J1xti03NUs2AVFQRT5XVT44z1a5DoPFzt5HApmwP72FU4ZXYsDcU5Q5hLINLYev2gE7A2-iTOZc-ExkXb1FzIZkobw1opjU1NvBUHhLl6kwpGhFC9a_K_ZTF1-E3jeF8v-IYlbj86acIsI-vI_bF1hAAVsgsR7m5afS8Wy8byFcFgvMHFxOJn2FYr-C9t8vLhXCFRVr2qRwkts7wB1c-8pWGOGTynVyNWCI_YjsXwpyYnsSP5o99IAvsC3cPyflgY83hnftdUxC_PwpE1L5IxTjjQu4jk4IGiHP-xmqbb4MY8VrZuZLEfzDvDlr1lWGDFSzYtMa4PWpjUumumU3nNMjSs32zOsCQDFFxWfBUeBBmEDuyJQwQpKl8Li_xUoaKUIPI481Rve-T8rbTjfXND91Ae4Ko0NSumJoRqi-YsijvpFk9HxBZXg2YRq32yfHYJyLKrZr70aeqDUKN8OXx4hybD0WSXZdffwyd4wL328TIQLFEQ8WQf_aVPZHAkbxtFZkL49djzEGMmQH8xzy2zE3NBwAOAETJkEgfAJqfuMJ1TiVB7p-W0uzooIUEjo2NX3Xsp_EWYkfYInkSrU5tECm8h5PfgeXU4ZdtPpLaK6imo6NV6Sm54yURJb-POHXiynjEywquv6kAruvwq2mYqyKuNTu2RMt27x2SfZx52vZl7KfMEx3sXzY-cQ9tBC31Vd_p0j_DE9LcG-BtdZxLXWhIgkX3mD0-VxfmWlvx0hgt59jGilAhbG7UIeUhBw9OXYQWjF0JRklB2uigJVE8jUbi2wdbBbOItVli2VgHEZHmiOC8IqvWWXVIJCgXxEg6JCjCqFh-REIviLwDMlRNz5kkVrHDxmoJ5ip3cl-bFQXJJQp56RNUt5XhreCaQAdU2o1I2y4Ho-zYzra_KbWsm49pJ-dRSp36x1iqpn_KvSYek_zSTQT0C_g4G3WDezNMA5VsQafrEXkoP_VX-PPuakiFDS4DL2Hbl_H9qsv4Hn39wyDFLigdPk51eP7NPfApixKLqLdRjlco-LSzqVB090T-fCWYNoBQJh-rxbcviFncgPnEvbn7fq-jHCyVM0ZjodxpEEgo5V68KstJrO4ovUNv6yFAnpe4fkCfc0rEAbClCTKUAcdkxP7q0Tg-zRei8tWwPec5thOZOUm7v8VfCTdmK0qtyGDxeBorjM2F6Nx7ByOwSQYsepLz8wm3rI1NtwSHLruitnFINHoUA5aF8YzcQG9j7nuB_eQc9ry9fOw18K8Ta50KV9n53I70CB1JoDK_ziWYds6PgZVC7tj237p7HZJB62Xuh3APffHIWtL9bdHYtOlgjxGJQXHE-KNrYboyzUchNGj6-8NeMxEGMJMp9RzqrYPQUXTn0SIJzaiREjp7i18k0Hdij_hI66PnMttdqRLqJ-Iom6JI1cWCjfGMTljPKx0CKdPjZ5gP3gESok3boWEhue0-L34DGfXPtBpCgW3cKiYKCgF98Dc-i3iTziWZXtnUqwiP9dL3alyivMjp8MHUFJmzdtnqnakFO77w6TJnIQUBXDTyaCOZxVoeKbMgHWEFVdyOxreFJjzgWMCkt4GAwrOCCvE2toR71WgdbexuFZQavzFUshXiDfIxNIZ7mdRyoYcoainEk3qq16WXid4Ft5JQnRI_e6IGPC5mLnjFi4RRThAPMVqH9CXf-TZi7TUBesQX3IZGfZh7BkcFelsQFseJUa53De_Lakio7ZGmGA_mWQGqTji_uVXU3wdvxs2Ss4thcuRbf2y4xQWQzTOlEwCrB60epgG8KCIrJcVAgMoeB2N-PdzlKHZhDG-jxFZIy42c1CPTYTf08sQVD4zAgQSf77B0TUAoD7lrIiXHeS2_fq9zdgbk4BbLVGKFnM71ASgVu8PmebvfKZq_P5Eu9LvroxXpKJ226xQrzFutRTgILEQwlAvmvcGoGBG7Dkv7yQ0DZ0kylmTV6LfaZX8kq3avyvaPyJruf5Apq4mTmm6dO6OlNdwsT4fl68tI72NKhYWwKF1c4tlmlgodlwAKtlB7gZZHA49z3UpGu694DrwF8gsEl-xZOPBHoYll5svWHAzC-y-yg9dndObADX1V1SYkFlHUcueFq-Hm60XjdbM14xqZuNak_M7yK12502dnEaiywA2OkqX6lvZEe2-LQw-k27guhhq-dQ8h9jUikOuHCFejs-tG-GrhNc9ZqyaR-u9p0W77rVaCaU9UxVMn7UQP-bu7HxVqlPRu4-1AtvB2fenQ_3E7BeLGK31UfOJFIdMNXwpmEaj_bG6lO8lSsRJS6BtxVNh6IWiCSFB0E4kAQ6WmVNBWCe7HppwBWeIZ8X34ExSQo10tqMVJ35eleniFXIgjKonoRhySlYO5-SIo6wW9zQjqOVeYY_BRr8VxfVP8_5w3qEv_xyILtp1HruYkuO23XorGbXjiggPGJs5m0-aGhJQG2eYF03R69xz_TeOqdh6u-TiFaJz9Wet0yV1d7F7JSEVDL0ld9OnGPnZEU_wwZr2MfH4SJJM_lX2DJ78Rv4RJdJ2tsR6QyGnyp_kXQGNsjqw7ME6H1eT1f3Rbr18KlbOEBLEEV7_qygOb_cYbdV3gCj6ovxqEx7Qduo3upC5lyB1_UT_KjSX7tUB6QtegNjowYn-pHXDN-OvsHenxz1VuLkcVic2f0SvIwZZrfufHc5TE4HPGoiH-bEBClPIUqQkuTVzohrqy8q54r4rtJOXuxZnjLEcuLSm9f5XL72ObhQtVqxM35oTECFx93RIyHQOGXr40ZXmnsqqEdE9WrgMgWrDnrd1nkiyjk4uNYWKmD-BOII4mXuIwDbDn664VB3eR7ncghzKaocp2V-TPAaZJSsmog1Q7j4ukC25ynOOs7lQjNZIAH7GNHce6n57cdSbNfW893uEGqU8n7ATaPAeL-fzKyVaN2eHft6nn-LKS9V5YblSI8D-V6ya4UBfezvF2fDgwFFsXPzsJF5nBn_pd6Y98o0dz4WnC_SLqPWrqd7SATVRdrNFQADc-RG_u-82MKjwiuZDPD0FSPYPATb_7Q1jIDA6UUP4Z3fPDgosuBiDJDYP9rBAj2PfAEJ-CqSxGiIG816A30S6fQOp3LWvyJjzf9KNZ30XukEuAl9afsrBfHmSv9Xqvl2_ahVN94HrG72JzFOyl94cHlnocXXp8dOU-lQgZXcJgC1f6_K7eVawoK12N_N2LxVJJXNSAOWdInH7qcXLOBzct6lQxoLLRebtXzD6BJhZ-e6T4Aj5-NxMI5O0Upzaz6X6tbyJvF5m89pdeNpWxhSllNRN16nW60Rv1GIq3LLRB1YqyJ5tmf0Tfyn8lTSss5CgfCw-UGASY0asUQBwjSjwX8zzrBn1AGqkfM-Gvy309dh548w0qvw3qg_BSZ6Dl39b5iimmpS8C_qBVfnCHUnmb4fqRPSO3aL8-c5Pi2h4L4dHdgKD-12oMf6X2IV7o2_HFDajpAA4GAs8qvQIwfhfTbN3SPAlNPrU0Xlk2N98Xh8vXz_tFCIU-wv_2mMsfeoDPxKVsUeB5dM26Vklw5QG6T7PUS3zn-fCY03cQX5aYLzhCASxNWsacntVyGuGNznirf5RYTStKFxjto685ROz7xJmPGZRTE7Ebq4VLWXGq27-fgA4Z34-eWwA-vL601rOOan9m6scF-08kk1CtTXRQ2-Ss_eRaEqYto0Os8fcujzQ5_ZSLOoVfhrRJ_QKV_r3mSjWJAjGvBBt7W2xMev4HrTd1wa3UT0BnPaQoXC-Vjhn53h2I4WkJZkv0Oy_kPz9eGKjobWaUeTNrfdq35D9UZWorfJmY_SiY1LtLbVTJHaDhz2JzDPjmPqB5xC4TYbVxAwbPfqUoFNgNu_ypf2OTdLdG0fyV4NhaZIGOZXmV4-A7oz_LG-57zkNTmpeOvTYYi2GdoeFLfnjxwRNfmpoS9g71Hn4pMTTcnzhUbPYLtdsWFLwGPDpaFfX4c9LaJUnBD1vA7DIxfs1f0X8QTqw3vIoZAI3gt2urGhAJ7HbRQUktzPHN1o7C4JPQd_N-qQ2krpVP3fdGqEh9r3SHw6zWKnrYVcgfM54UgFfyyLz18v4LjRMh4yK-8m8GwB4OxSDb5NVCMIdsP-XCIZMsouUROdkopVvWsmEvvtjKOsHsd9XSGQhQtbkgpLIZapun8PUdwNMWDLsJznQj9WHtpZiJboqqJZuEaK6OM8R-5gA6QCwR2uyZh5MJxc=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "taJqaePCObCnmtkP-pCa6A8",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2875,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 75703,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 75375
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        }
+      ],
+      "thoughts_token_count": 2816,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 81394,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 3.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.2,
+          "speaker_label": "tutor",
+          "text": "Hi, can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 4.7,
+          "event_type": "inactivity",
+          "duration_seconds": 6.3,
+          "description": "The tutor waits for a response, looking at the screen."
+        },
+        {
+          "offset_seconds": 11.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Um, can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 12.5,
+          "event_type": "inactivity",
+          "duration_seconds": 9.5,
+          "description": "The tutor waits in silence, adjusting her hair."
+        },
+        {
+          "offset_seconds": 22.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "I'll come back.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 23.0,
+          "event_type": "inactivity",
+          "duration_seconds": 11.0,
+          "description": "The tutor sits silently waiting."
+        },
+        {
+          "offset_seconds": 34.0,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "The screen view switches to a shared screen from student 'hannah' showing Safari on an iPad."
+        },
+        {
+          "offset_seconds": 34.5,
+          "event_type": "app_switch",
+          "duration_seconds": 0.5,
+          "from_app": "Zoom",
+          "to_app": "Safari",
+          "details": "The screen shows IXL.com with a math problem: Solve for t. -8t = -9t + 6."
+        },
+        {
+          "offset_seconds": 38.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 39.5,
+          "event_type": "app_switch",
+          "duration_seconds": 1.0,
+          "from_app": "Safari",
+          "to_app": "Zoom",
+          "details": "The student switches to the Zoom application showing 'You are sharing screen'."
+        },
+        {
+          "offset_seconds": 41.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "background",
+          "text": "[Loud classroom chatter and shouting 'Bye!']"
+        },
+        {
+          "offset_seconds": 45.5,
+          "event_type": "app_switch",
+          "duration_seconds": 0.5,
+          "from_app": "Zoom",
+          "to_app": "iOS Home Screen",
+          "details": "The student swipes up to the iPad home screen."
+        },
+        {
+          "offset_seconds": 46.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "My name is Suzie, I'll be your tutor for today.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 48.5,
+          "event_type": "page_scroll",
+          "duration_seconds": 0.5,
+          "target_desc": "iOS Home Screen",
+          "direction": "other",
+          "details": "The student swipes left to view the App Library."
+        },
+        {
+          "offset_seconds": 49.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "It's Hannah, right?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 49.8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Mmhmm.",
+          "speaker_name": "hannah"
+        },
+        {
+          "offset_seconds": 50.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Okay, nice to meet you.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 52.0,
+          "event_type": "app_switch",
+          "duration_seconds": 1.0,
+          "from_app": "iOS Home Screen",
+          "to_app": "Zoom",
+          "details": "The student switches back to the Zoom app, showing the tutor's video feed."
+        },
+        {
+          "offset_seconds": 53.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.8,
+          "speaker_label": "tutor",
+          "text": "Um...",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 54.0,
+          "event_type": "app_switch",
+          "duration_seconds": 0.5,
+          "from_app": "Zoom",
+          "from_window": "Video Feed",
+          "to_app": "Zoom",
+          "to_window": "Sharing Screen",
+          "details": "The student minimizes the video feed to show the 'You are sharing screen' interface."
+        },
+        {
+          "offset_seconds": 55.0,
+          "event_type": "app_switch",
+          "duration_seconds": 0.5,
+          "from_app": "Zoom",
+          "to_app": "iOS Home Screen",
+          "details": "The student returns to the iPad home screen."
+        },
+        {
+          "offset_seconds": 56.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Yeah, today I think we're just gonna introduce ourselves.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 58.0,
+          "event_type": "page_scroll",
+          "duration_seconds": 0.5,
+          "target_desc": "iOS Home Screen",
+          "direction": "other",
+          "details": "The student swipes left to the App Library again."
+        },
+        {
+          "offset_seconds": 60.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "I'm gonna go check on other students, but I'll come back to you, and if you have any questions you can always let me know.",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 63.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "hannah"
+        },
+        {
+          "offset_seconds": 65.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "background",
+          "text": "[Indistinct classroom chatter]"
+        },
+        {
+          "offset_seconds": 69.5,
+          "event_type": "app_switch",
+          "duration_seconds": 0.5,
+          "from_app": "iOS Home Screen",
+          "to_app": "Safari",
+          "details": "The student taps on Safari/IXL from the App Library."
+        },
+        {
+          "offset_seconds": 74.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "text input field",
+          "details": "The student taps the text box for t= to bring up the keyboard."
+        },
+        {
+          "offset_seconds": 75.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "6",
+          "details": "Student types '6' into the answer box."
+        },
+        {
+          "offset_seconds": 76.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Submit button",
+          "details": "Student taps the Submit button."
+        },
+        {
+          "offset_seconds": 77.0,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "IXL displays 'Correct!' feedback."
+        },
+        {
+          "offset_seconds": 78.5,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Screen sharing stops; view returns to Zoom gallery layout."
+        },
+        {
+          "offset_seconds": 79.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 81.0,
+          "event_type": "inactivity",
+          "duration_seconds": 41.0,
+          "description": "Tutor sits silently, waiting for the other student (Mal) to respond. Mal's screen remains black."
+        },
+        {
+          "offset_seconds": 122.0,
+          "event_type": "view_change",
+          "duration_seconds": 0.0,
+          "description": "The participant name 'Mal' changes to 'Dawry' on the black screen."
+        },
+        {
+          "offset_seconds": 124.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Suzie Baik"
+        },
+        {
+          "offset_seconds": 125.5,
+          "event_type": "inactivity",
+          "duration_seconds": 293.5,
+          "description": "Prolonged silence. The tutor waits for Dawry. Dawry's camera remains off and no audio is heard. The tutor occasionally shifts posture or looks down but no interaction occurs."
+        }
+      ]
+    }
+  }
+]

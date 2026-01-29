@@ -1,0 +1,2203 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:56:59 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=107628",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Zoom interface with a screen share active showing 'Room 2'.\"\n    },\n    {\n      \"offset_seconds\": 1,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello, can you hear me?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 2.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Um... How you doing today?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 7,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you stop sharing your screen? I I I want to see your face first so we can introduce ourselves then get started.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 17,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 18,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"So that will be a one fee.\"\n    },\n    {\n      \"offset_seconds\": 20,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"So one fee? Yeah.\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, you're still sharing your screen.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 26,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share ends; view switches to tutor's camera.\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, yeah, so can you please turn on your camera now?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student (Daisy) turns on her camera.\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um why are you at that... Hi Daisy, my name is Joel...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 40,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Ah sitting... You look tired Daisy, what's up?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Did you sleep late, wake up early?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Or what time did you go to bed yesterday?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"I'm in a room. I'm just a calculator.\"\n    },\n    {\n      \"offset_seconds\": 56,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"1 o'clock.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Jeez, you went to bed this morning. Why? What what were you doing?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 66,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"background\",\n      \"text\": \"Miss, what did I do? I'm in a room. Change it. Switch it. Switch it and then go on IXL.\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You don't know?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 114,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Wait wait what did you that? That's what I'm talking for. I'm talking for my mama.\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I said what were you doing till 1 AM?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"I'll do that yesterday. Me too.\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are you talking to me?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 130,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I said what were you doing till 1 AM, Daisy?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh. Showering.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Showering?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Till 1 AM and you couldn't you could not do that maybe by 8 PM, 9 PM?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Like did you have um activities at home that spilled went through al- most most of the night?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"[inaudible]\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh. But that's quite late and you have a long day today when will you be leaving school?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 206,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How will you survive? If I sleep by 1 AM I'll be grumpy all day.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 213,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But anyways, yeah. Nice to meet you Daisy. Um let me share my screen because we need to set your goals and...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Like um the lead tutor said, she if you complete your goals, you could get a free healthy snack from your teacher.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Web Browser\",\n      \"details\": \"Tutor switches view to share screen of 'app.tutors.plus'\"\n    },\n    {\n      \"offset_seconds\": 228,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Miss ain't nobody talking to you.\"\n    },\n    {\n      \"offset_seconds\": 231,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay what's happening here?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 234,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh, no.\"\n    },\n    {\n      \"offset_seconds\": 236,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm coming.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you see my screen?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 238,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Daisy\"\n    },\n    {\n      \"offset_seconds\": 239,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"Hulogh will stop threatening. It's not okay. It is a threat. It's a directed threat.\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Goals button for Jumaa Alkhalil\",\n      \"details\": \"Tutor hovers on 'Jumaa Alkhalil' and clicks the 'Goals' button\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Popup appears: 'No session selected yet'\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"No it's not. My mom said it's not.\"\n    },\n    {\n      \"offset_seconds\": 250,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Goals button for Jumaa Alkhalil\",\n      \"details\": \"Tutor clicks the 'Goals' button again\"\n    },\n    {\n      \"offset_seconds\": 253,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"background\",\n      \"text\": \"You are saying you are actively going to call someone to come to the school. That is a threat. We are not doing that.\"\n    },\n    {\n      \"offset_seconds\": 304,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Daisy I'll be right...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 306,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"background\",\n      \"text\": \"The fact that you were not even willing to have a conversation... [inaudible]... if you are not responsible for...\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"in their breakout rooms.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Miss I said please. She said nobody can talk to you.\"\n    },\n    {\n      \"offset_seconds\": 319,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 15,\n      \"speaker_label\": \"background\",\n      \"text\": \"Miss lookit... Look... There's a difference if I just say... that's in the CCC it says... [inaudible]\"\n    },\n    {\n      \"offset_seconds\": 335,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"started.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 336,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"It's a breakout room honey. They're gonna pop in. I think we don't have enough tutors for everyone to have one, so they're going between the rooms.\"\n    },\n    {\n      \"offset_seconds\": 354,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Jumaa, how you doing?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 400,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 401,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hi.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 401,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, what's up? How you doing?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 403,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 405,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't hear you. Why... Okay.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 407,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah I can hear you now. How you doing today?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 409,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 410,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good. How was your night?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 415,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 417,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You slept early?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 418,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 420,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay cool. So my name is Joel, I'll be your assistant... I'll just be your... I'm your friend here just to help you with your math task.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 428,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So I'll be sharing my screen because we need to set your goals.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And goals are we have two kind of goals. We have the effort goal and we also have the...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um so you are Jumaa Alkhalil, right?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 442,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 443,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Goals button for Jumaa Alkhalil\",\n      \"details\": \"Tutor hovers on 'Jumaa Alkhalil' and clicks the 'Goals' button\"\n    },\n    {\n      \"offset_seconds\": 444,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are you Indian?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 446,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 448,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're from which country?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 450,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm from Syria.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 451,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"+ Set Goals button\",\n      \"details\": \"Tutor clicks '+ Set Goals' inside the modal\"\n    },\n    {\n      \"offset_seconds\": 452,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're from?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 453,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Syria.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Syria? Oh cool.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 458,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so we have the effort goal and the progress goal and it's due to be complete in four days.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 503,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So the effort goal basically is how many minutes do you think you can complete a challenging... not an easy goal because... yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 512,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So how many minutes do you think you can complete on your math app in the next four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 520,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Like, do you mean IXL?\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 522,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 526,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know like... 8 or something. I don't know.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Like how many minutes?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 533,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"How many minutes?\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You said you said a number I did not get you.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 539,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know how to do that.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't understand like what you're asking.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 543,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So what I'm saying is on IXL because you you have to be using it in the course of the week.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 547,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So the question now is how many minutes in total do you think you can spend on the IXL app in the next four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 558,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"About 20 minutes.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"20?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 601,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"20 or 30 like that.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 603,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I think th- thirty seems fair. It's in between.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Time Spent slider\",\n      \"details\": \"Tutor drags the slider to 30 minutes\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so now how many skills do you think you can complete in the next four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 615,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"8.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"8?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 618,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I think the highest here is 5 so let's just go with 3. So 3 seems reasonable.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 622,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Skills Mastered slider\",\n      \"details\": \"Tutor drags the slider to 3 skills\"\n    },\n    {\n      \"offset_seconds\": 625,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Save Goals button\",\n      \"details\": \"Tutor clicks the 'Save Goals' button\"\n    },\n    {\n      \"offset_seconds\": 625,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so that will be all. Thank you Jumaa.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 628,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I will love you to please share your screen, log in to the IXL app and get started.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 636,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So like I said, in case you don't understand anything, feel free to reach out to me. I'm here to explain to you.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 644,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But I would love to say hi to your friends in their breakout room.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 648,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So I'll be right back.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 649,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 650,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are we good?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Jumaa\"\n    },\n    {\n      \"offset_seconds\": 652,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah but when I'm back I want to see your s- I want to see you sharing your screen and you've gotten started with your math task.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 700,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so um let me say hi to your friends and I'll be right back.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 707,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yeah. Yes, yes. I'm sorry.\"\n    },\n    {\n      \"offset_seconds\": 711,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View switches to a new screen share showing IXL problem 'Simplify the expression: 3 + r + 7'.\"\n    },\n    {\n      \"offset_seconds\": 713,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Jalaynah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 715,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 718,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Jalaynah\"\n    },\n    {\n      \"offset_seconds\": 719,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How you doing? Good morning.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 721,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jalaynah\"\n    },\n    {\n      \"offset_seconds\": 722,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you mind if you turn on your camera? You can stop sharing your screen for now.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 729,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yo he got one.\"\n    },\n    {\n      \"offset_seconds\": 731,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share ends; view switches to tutor.\"\n    },\n    {\n      \"offset_seconds\": 737,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student (Jalaynah) turns on her camera.\"\n    },\n    {\n      \"offset_seconds\": 739,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"You won't let me.\"\n    },\n    {\n      \"offset_seconds\": 740,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah I can see your face now. Cool. How you doing?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 742,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jalaynah\"\n    },\n    {\n      \"offset_seconds\": 744,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're cute. Nice.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 747,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um so my name is Joel. I'll be your assistant tutor for today.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 750,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So basically...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Eu1rCuprAXLI2nxunpRvdMkA-Cq9WiGg_6XttAkHG-yQjt4TiLmy41t0aJzV_mJYhcVwDF_razTBNWe9yxHvAGB9zNbEWSLJcCYlqmIvkHgOsnWxCNYADPVhw7qEVxNFTdPLi-O7Vbpt_ZDKuaRrfPjm8lw3kzI3zfrnDb10B9ppKBNzkH8fHXYIjyW9vdW4BVOiLJcR2x1KIgT_kivpYRBd2q0tNOZIVM-Y9SbipIhtJFCBimwg03zVQS23oJ2aNOF98nJ1v2k1aisSj2LIlo5mrU8uvX7g4vOeR-4lBFlF8pip7w3la0gD0Q3h1wfOzX82SNYg0onDizyZHE6klqF-NqkoihYrR4-_XqSVp61C3hsXPyglyivcfg4I2eQ7bDiEsqU6s_-bH2O3RZPhbVQ6Dc88JXmYkBdwEz6_bupVVVH_EAhkRO9NAInrkvNTCbZ19uattUrza2-pAZGwa6KjrqIL_wFG4mmWSEczVcMvYwG93Ap3adOC8zzYHTSshbUnE_vRH6pec9w82_BoVTY5J5K-RpSk80WXZVBXWkoLb91IAx-_NhceMyPbF6GijuGfrDDcAitmPqno5-BDJRGEN-m6eeAgGxE6bmz-kr25I2M6tdTdgJLGS8Eq4_X4Euswtb_nhD4tup0M1BI20Uz7CScmCE1gxUTKWwWIv4KiF_K5m7eYwqH4QPGAS4XqPzh0JdfBFkkXUaRsd92Ph_aAXHr-g42kP94aXfpic1vvgjs7HQ5EPNZHGtx1UH2c7okhUaN5ONOvNDUexRTYKP9WyACwodCMl1F8odN4sVmmfnmt7DgTmb5ofssyCgT_cIF_31jwDGRiYxn6gsgEq59HIdsno9tL3unlyFc0C-KF1nm2q_F0N3qbMEB8crRfEnHg-P8hEnJ2K4HDOsj0z8y8pkw_f_sRvuxD1FDzCs3_mlm2OytxEE9jcumGp2an-Jap-ED2i3284sX55keQWf1J4PD2RAUmm7KCAYfCZB0O0nBgzvcAXBCdmOkX-DTlVWSoGa3W50u2DITeSp_t8LNxGqoHHJb3AKm3RniuPJvWkSsHOOFf_FpEws2dG6IfXl4cK0md8B3Y07cPHCs-zL4rUNk6kQTcYaa0F0dxTPMzFjEwmRZ5_X2MegqUyku1B8E-H1-cF00z_z_DSFWM3FktOcrVAVy75DjXndg95RlWAfLbvWB0ZV3mhPwlgrpCScEVHx2MQ-As4g2FYOXIV5Zj3vmZ7zE3tsolpTaOpo-hD-c4KHHhHvy_wnjBP9Qve9W-H8KZEpfK3ZrI3vQYQbd6pcHg74n2arfjTgw_o-gTpWrf4cmWGKNsmgoBis7FNGfdeMAWNiprvPI84reUebMH8IofPpPQvnJPilzWENSLZmq-4ROUGlCiQmxfa31vKmp3uhU9bT5gV_xM8ymkD8AqmAuYolaIKZNaQCHbb63L590PLMQOcqBrEPmYz4mc0zIEszDdRqIhLemgBl0ndr1ycZJExJDpb6a10oI_1DoSAI5Mu0jVMRH308BNfas14EDaOEyn5Qk_F2Rdk2zNxOv5gF6nx-w0XFAL2wC11jKFRQGzRqjDPsdtnClz04FRDelZUpd0u77wLa22_-viHebo7woePj6fJ4KB6Okxr1lOU19Ew3s2pOr8indEJSiwbCAieBcGv0tE-yg3nw4TiPBRdWP5PtnQMg1GZ0XN4DVToYPkBdPxLQuh8tw824wHLT4l1ELIsW-69IvlrqsE50pzZfv1A6oD1H4gzItOYYry-HgMchtG7qgu_WRacgrT1HmIOWFtSNWE8BszuUyPtegeIC8UAkISjHaO1WAUQsS-bHy_5ISMZLC-8uz3K-AnIv0qg2nzczHbkd6g2NOpk2IyaPhyDVmkpycfJlJfPo-BllkcIrA3P6VAkTKiVxkpf4-EDEpjd8H-2ihP0-kBttqU3GwoXVHhLp7tNe1S75ZkijWJAiVhDfSAHDUlyUmAe2t1wnrkH6-yJOnbB-Z19AHSBp16_XA7sx9TBjAJgaQItkxWdjwn-zyI7ATvcQPTJtgcNPfTSpcdrVD0YZ_MlcGSj3jemzjAG0gwVyUY7H_DM3nTJx-7gxajAaaHel4DReFoiw3KNdDhGCFrUCZ8v1Vx9tmjwA-G-cTI4uPH6c8ku1ZX6cu-kZUiXGVrdRmn_Vv06kmrjAZdgaDHKv70XU5VBO2Zx_qQRWVsicW_nuAfKstwfp7v-oyIdWa4w6IfpzFSIRtgj0cVQQXXgHV970N2uH-2pJ0jh9pavlSg9mrCCO6PJWhFWs9sn8ZeTDkA2JYRDNui7cnZMgfRLbJbeZoiSSGC5Gnrnmj4I-tF6SpgjCdlefZbLUIg4K2Da7boutYGqFrujB4Xs5JWEYAHoJ_OxeuL1U6p4KNwREPfD_boI9ZuI8vk1oAU7HF_q1QEVNm-KoNR6YUeaR9HaC5FpnNHAyMS-5QwF9ZYXmjw5LuDJbv694kPjAP0T1bQN5vNoYew_89tjHWj3uO4r_re_CiZCUn60dgx53sZ_E3V9IzhyOcomWjeDUU2k9RjBTzAdLaDrTEr1uFgXEFoLj166S-8CF0ih5h_A-TluUyArQRMZ4zlA993l13JQiJ92tQelkuBC6l-4UD-uY-tlvW9-wpU9TvJjnhElKHLc8lTkWiURYlVcT05Feh24acSZrzDvn3mQS1XoU-SRhrdbZb2iZEMNOQXx53LRnVv9bercbzkUMn5fbTaBaSBeL5Qxdfv3EnczUTiWYeJxP4Age_Ex9C3HYJxkMCdZ8SXB6Rido_pWGN8zKlBUddKGdX9V1YbLXvXCa_wy9vwvtDqA1yL5p_MduuAuBomaIj5E9WP6YRf_lxW2fiXBu_r7_AO94tujzVNGbkj5DwGvxb7MTDu3F1SehpCpLmLbmqvr7W3MZbIXlyKDKkYH820yo0qSBCO8UtH-YGajzjhszy-O7gR4tLYdpgtgE10nG9GTLfRxxnk1pwbBRBLNxDLVYUoK-36m-YgNSnrLqKxd2kiMJ_RKYiDg2RBt7WIAy_bvVJhXg31FD43NI2g5LBmt9-kT5P8BVysIrIFfySl-IsktDscWXchKCgJUtgMPWcsgTlaZS4F70EC1sxH7ZEsM4Edj072CuCgso5XoWPJo0f3HwrxENrs5fmK-c5ca04BUDPtedtdl0hNudC8t8YziVOSFWBHneM7yUe-xA4fvnyjCekxcdE-WW_5y8hbQ-pbzDxRxJ2JH9FA0WvyG9kkwOmbOTsxf6TFsbyIIiY8DwVB8-ojSwwMU6WzkFqU3lw20QSESKTK0hDLUBxf8N3DWm_zw092jv8qyAn4boVEbLjH1J8jUDWiFOXtm1gSwVlqHqM9xFoAvSlpBT20a5rG45s6IEO13cL01Y1K_u1wDNnOWIyix72arVB10ygn2BD0dHalxyourB8aYv-q7pnM3KzT2aOPVfhW1OcO8v8pb_kJIVaPjQQIat9RiG8W8dYAqaSIn3kpb66JfeACgBI413IIDgPAZBJBDkJASHE6Ygs8aFEKsbopUgymzE9u8ixtn5hb1g5IL1mA_skorP2HA4_1YDD0--MSamoRNKxxYk3oPVHC-I-iqz35cSIvUp3ZWmuMkLRTUM1fMoo848NlKFQikIMxSxTMVDEemJipI-CilQ8U1ngnvh9zdEdZMD364Yg46BAENKtCQLA_8GpNyT0QVyH8Bf5YDF03h4oPdVS79sGUMGa1ekPjzxJ-sILR4L81ElShOLdmSROmqs6WknamdR4qzQ1AN5IYUB1ttgECCnlMSd4jICw_-_hlJ91fByOboH8mKi5bFRSA_ZiIHJXBJK77Y-9lf03K_3rei9Sq8Z2B_JTMf3Dt-0omjhKNQF43GkxW6seHL6Zyj_mq29qQRfyyN1fEayXrwNQ6miFwgWUBdbbFlnvpa9m_Bzv6vjKFJBlrOyUXOihBqryBBsAwSAoNylEMVmgRl4zGcYs78bJHjQIlrws3awah1e7PMdPccgK6piT8quL4ql97tiDZH9nQWVThkQMbt0DhHZm5fM7hkRSPo6Ql3453sKIOVt9cazSnbc-uWZEezd2MCDjQh7NpCprz87AgW5VTCxFJP2QyNDLpxOwkHR0W_Hf9dLUqfIsBDE-6eZwgemV9sYo1qZkyKn11qAEW6NBfuX6ZSV9d299qHawvdHkTYq_W74xVmYo5jb5-yRSWPYCYI7LGlBQxcpmTodd6arsPamQiYFz9FKavbAZIT7Ews0ry-TKUyTh_93SrpJzqcRhnyYXWRaPvMzYRxCfHEe2hpdPfWFoXqCYNTONjmZu-sQaq9kJOhQAR1CJDPTKCIExcjp_KX3nlXDwtuUh16byxNugJbTtFSVtKnrw2HSrLiiniNcx-7O37zqTYxDW1kmKiSZYYYpoOWn8R6p65jhzh-j7EsqlICIWmKS4HtPcc2g4Lx4lDBvdhWxK320PTQBuOylc4yOteS0KUluNurieB0b8NUZrWqmCj1dx-BpLX8aWUCP6MtTj-N6tpHByYuiSNL9ZqMTTBGqfVcF62W27UpIOYJiH2RVSpgsyUDmzJLzus43IP50cEPRU7CePgHQU5cCMVNkkGxgMygyQT5dYndwNdCDxPsLfGBaFu8_S3UZ6kEsiPDo500vpmMM7ZMYKXMitu-zYFeEP6y2oZjPqT4Tg9TP-H0Ezb71l9l-8Xj96bKbW3ZzGOHdquRrDqpxndZUbIZNDL_1a3D4i0T_qiWRonVXA3Z7tbauE8Zf_g6lWVJ1SCL-RsKAToQi1gOz7jSoyIox07wTG2Rk_TiosK0vwRH8xdZl76MIsPIQTyfTXAO8KgIOnF0Vu0shdiT2N2zPiT3TbXB_s0mcie9IauQlPcYZEB5GZRRU34acsX9822TvJWRIIbLi-XWHG1RCl3mwKgn56m3yy4BHL40qX5E59raRBe9Dj-jFp0acPJr5XmoK6cCqTHBd-VzgM-Cj64mK7tlNnKdbWc3wjwrOwLXcipJyARMgdTHDs9rEjQ6aojPEc66rV6_pEV2IQNxH74c0ptUk-IA5ir9Ii13jrExNMmEfFu-c08DPmcAMQ1uz5N5YjxJcxgcCLNKcLZFcBUovrlsl2zHnukMH1IcNOhxJ56DcrczKDm5u7rpPSAukDB2JwK8Pmf_8DRxdaf4a_N7rID0xHDKXYk-JDi6mGZYadeSuAYS8lPtKVtVZ7ldu1j1fUluIkxoxd32dWczFViBeZhZJXYlHoBcexcrDWd5pWzQwzdSsrWgMPfv0B2hDk3w0FrzqGhRA1hCKFCj7CpxuFZ_mnQMynQ-4LWJGl0NTnLaDiBGg115K2XfWt43KeRAqIohQkWFOzp-5ywt_3uOjrf3Ihb23FwDcWrnbluSZ8PEG5eJM39FZuNRCHsZkWOl021xQZzaOKkEFWPAyBnXr9PX7c9OALKgLNuvOEqKo3CkC7fa0D0CG9JyNtK07WJroWzr38viFbUCj1V7JolAzL3yLx3WlCgC3YXcdv6ccZMY1Zp-55kBpbKMj7Zs1r853ruLcJ5EzzYzi9K6_DBCL2gthXQoR7R52jscd0_F9wwSmYCZb56PI3HC5btRDi0L9YvKSgmTYxbo4GhHxXeGk8Idd1-w59hC_QsjfNra2LG5ZjlES1iotj4p2x1FhCoXuFLSXm2bT8HKy0UkLjen3FW4D-xZE3pf5Q7P08Bz7fBKtgvfG-HxiG0GEPacbp4egVWZ6Az18N2iKN4TByNI7u5JLozJ78198SrwSDw9rWmzWLXX8kvJB7g9cVtjQo_-WMgYEU94b31cz2pJCUiSlfXafmnJWVjs5ihwnfrojDMe0vj9huH42JYAC2QEydpAcOazn-yFjFBsBrHaxQ8ScQRNX6vTn8GSfsl4smMXM_lOqGWupfiJCIyG2KnUD6oucSevZpMAqFm4vPjWr-ltc1jqB6A8S7ZYqmjaj3jU4GyUEoyWjfD9Rp1r54fu0JT5IJDrUPQOYCBhLB3ILoDFOOe7ZCfKP4MeJFmj2Yv-ZFfVoClRboWkzmrZ11S8QVBPZZt7E8cpxHJsYQfmdgjaH1LskapXtnL6VFdu3lGpyIHTpm31dKN60-c_FaUzRoz2JFNp501aktZhkhnGsffyLKMLfqYTxCuT3vdWJKIxfmY2sn7Ft0buiWyVSqTuYqXZ4xFuuWkYynweOePHx6Il62pt19qdcFrZSJEom6xVLa3vZj4KR9BhO_Y057KrWpOsfLvcllJ3K9Ug5Z5ppPTs4SW2uJ9w-HsJYk7M4OflqwcXbsQg9d7WNJJ_phXpzhUi7CLz5t6gyFgcYxKcJSfpyjRgPJDHL0kJUzOnePaw_4ST9JOHh8rp9XgvJ4yiQehFquOSyHRhVNPZxbt-5pshR-vCJAy8DGbwCKPLGHbasnUxRkpkL4b516n_DxqiYXeurWCdXY1yymUkqSb1jifivPksgc2EK5NuVYLcYdL7tuSWkzyqO2vUzlPebn5yOdINJNATWgy1-PPz29NzJrOrS6DgDS-nHJmkBpAHAHzeJ4inzXztE7aQSd-A8AlBbMffM0gTpMWbc9edJKpMFW12mkUJOkgEpuq1GCFPk0_3cpMpyUUJ12MsB8PhCjQyvrMsRKD-qxZFTa7Yjj8EtNHDmqu4oVyt0vC1uNd4LnNwTzvOjV0Ee8vAqeM4LqDU6aOkNnlH-b2HVDOpku101g8MbF3YUUpMjPJ5eEwClggHoACZT4IB59m-ZcKosKuDyZpzyObV2gBxhU5ry4jHaSCEca-aTS_vl1Dp-aXLz2N6zrFKeSxKFWsyThILkpGE8ILFASB52oJWmEPFTR8FG8MToKIWP9pntlBpTCWWxxWye6aO6VOjvZfoZ4ux0kclMmGBINYptU07chEb7rrf7kzJjxpxETrnLoo6cTBepPoMzv8GM3r7FKFGd9kmAcDBU_dxIwrrS66gmfRz_JlPYKFYyWXoiTM1P9XUjrY2hf6PK0ITHa-olzwMIpQmB71-ifo18FOOJgXapX7QAAxkWWd9xbfo_EdIRt9Nrz5Q7C6axUiAKbNAWjydm-N71PtyzhpzSBbG4SqAnlz1I4iOcB3UrQz4EpMCxQpFwU2A2ZNjeprEeb9qKUlKrYEmVoRbaE-Ide_UVOQnSJiVc1QFDlqeXmOrfIXpVRlJFPPAPT1prLzsqOug_JARiF0TSnPzX0LIyhEe0x2Z8cnkW14D6h52hZ2MD4HAxiK5ekAvi8JBW4Bnp3HdQFebE-s3oNv9WcUmtK2g7P3MseeCyHLV0QB7DXQpk7APRAI2WqxHZ5_39l_dD18AvMjx_vHgRnlcTL_C6QuFYLVmI6lDC_YKVSWWiBtuyFdevSZkEAerNZD7Dw-c6YHbQvYnQejfQGBKBF3Jli1VpLsutERRp3BzaCsOqDMiR84MLJsvdeZC3xBIOQUXJJmg87Rt_de492kDAmX2SOPgVjJogHM_VDajBfOmNo4o32dqBOx0NfHV1M4lvA4EjhwfXT3uY0RAjVGgltZjGFiCuR1QMxBAbgZJQ6TXC4QEokB0qNmXAIOZOgcj3fqs_Y7cw9A9RngiwVyyDSszuSfdwinh-o5BSvMXxa-aVPuwnLo5lorREOockfqS4wZpeiJ-kJ5d5O0cUWQVhcmhqPHMrgI9HjuEswM4rHtRM8zPK0L7SMMDKmEWBFsFcCCZSpJtSxc8SQgOfkZGdeTNm1sVkNp29s-EOthOG04A5QyW5Kz0JD4zFFz0JYOCd7Dpa7t3-XD89rWkCBPSzhWm_Oa2t5IWU5j7HahGV9ye5i68WuEBOKvuKRoPgaCG6-kSj62meXrtsokQyH6jy-oiezx4rD62h_0alPCm1slwKZFo-qIIzkDx03Y9eiio1r263DdlVTHgZqv8VFg6fcqBs8Bf9N1yLBpDY9nobciMuT10zu1mVK2_Btafgb67ij9l0v-Q1GwxInXSV9vHADLBXWhwOfXJZA1kdIQq4gYi0xoS5iVYKAUI9vXtO1ZsykQ65o5xwBaq8jhKwUf8oj801zF3rQnT0_CDlclIu9ybXo1TeAKBpU774fvVoNp6ExtnJXU4BAwIpSQ4iTmUnD-luRv9eAgSQVMqDG7-Fx3k0JSbB_Tlkm37V4MfGGh6dCgboYkJNUZiMF2BRSykTk1PhKlpbGzczshjqqs3Po1bG7oY__bUObVKEUN4fMwWL05MoSXEaTSljo10fglcGXg512x2J2ocPYll--1wj3M8eq7zPkGtitUUIFzef8n1WzHNtGg3dNEGG8jdl8NfLHBLselk7C3j1W2z-LX2AC7E1_yOoUc2YtAHxFHGp4SAEklOfCcjth_zNsN7clNmQC-zYYK5Pf5fGdCG_w3PSbe6J6t8wQTk4zVSzNzkmBM5cxJBxkfPAyyesvafbxnRTskPBb3svsI1cpfmNTuadKlSUQ1B9t_K9-jDy0BhQ_FHOKMzHDWz0Z41_HlxD-H2P2n54_pRYaTls28vOdPLu8spM9KDPv6Bn2v4S-MfOzqWVQllKQMatf-ointqAEJF88AowcGtely_LYJS5qRp3i69f7wqiakJ4xDRp121_v1Gd40LR3j6TH35sWBpsXYER6kaCheWHwTvBMuOHCJdzj1vS8u9hnvv0TSX8fle2RMuWjhkoaDbtP1qoD2Hp53KKJ2mQvHMzzd68RzYrACXvJPse6c8hHjk2rogYbSW4z_LZQn4tlZSMOwqUYujupQ2JEwaTzmcqJorP-HMO_LIw1mox1U6_nCuwd69s1SdxXVhmLMt_lf-6dAnRyeaudDYHLyk3ZJwoJK_ItNMFEdTsXt1jfoeHyuK8VChoI9JQmNQaBP9RzNdM-9xE_cWkNiC7jRL0BVG2_J2l_kkqYh8Es1gOHQcfmY05MBnPF1vO2iNKsRzsJmj2Yw9_r1hXCE8Dr19TWiwifQWLoeGccZhHsmOrJekBxzVik_WN82wojCaHjy3rzfuQo-LlobTEsXg00dvbzB2hcjYubDElwyX_UVtq8QCuXbibBTOLylLCtkHdOVSA_lP81PAcFhdiaVioyxvS4E_d_Kz7oJQf2CMAsLWPp2ebCWnU2cKZS4cs6WuWSmZtDYXyWxkHORXdFa8z81GdmcsfzPt_FNumrj2i2i0kMusdm80NCLjL9rgib6j3ZG5CpMvqjGs0cqCCOSM-fpZPHAIoTs3jXQCqGIPjSUA4dYegOdhIDZDf8KUdVwXb0R46vnjoKiXbR3FqK1Q716xSV8Mie0z2InFV9u66kdR-0eCAyN4WCNv_9Zenuh0LFH9tDSNUIlaRmtPOgHzt7weMp0sEcpFy7mC6ypsTeffIrzY41Q3X5OQ8WrtAz-JqxUA8LxfWwfmQZE56dOSOAo3QiI5r3GPZJCW2OVekzXLkadjnwmmQoQHs47w_4zJSHmlSJDeTaeunbGoyR7isQJjq-ya2i6Q6EXqI3EXxTU7H_uqK73zHORssqvMQLom6huV8xcyT7FACjFnVLy9BoXUbZtfxyt7HVgIPECbtUHXE_5_JKgd2eMJq-yl-SkvgR68lMmpmGCvW_Y4TZoN2T8NDL7YIujrzPvzH9_V80C6Wm1wLAeRiO0mC5JfVkVNR8GxWWKAOpsyXpDty_L8A4318TqsQl0BQqNFG-SyjELB_2fFyuOpY9txXkM11UqmXc3f17RT5xM_WUJjQws4hoOYjrK2IuqSNWbHxC2OPFnvDbXyGUByNZSw4vF42TsHcw-WsagllcoT45TJtQcAeiOe9JTZ_c3PN6DB7FT9nOElO4hnpjT0-B7xuktG5opxMltpOTTnd5p5z0nTFwQeaVFcdCOPDXhFG47JODzL7Pgp5Fi6_5IW34evCnGezFU5IHBxnL9Rtrd0xPpb2SHEusYnDaqpSXGS8nTD2_z7hvGSEqG56ZIenWsa_V9y2Kk2Wh8AFRD0ATYMEH3b3Dan_ru0p2wwFgg8YjGL5yR2X0uDzfPFKrpbSCtsOPjt9rcsaapfe4iGKc6oduMyVwfQqlsrs4YLgx6FundX-UfQF4aT3Dn_IV6EZMuiNmSXn4vbEZXjMuUQVKAAkdLqUCkSUn620z-8HZBhoXp-Vo-msSt3Wi-evJWx54gZkEGxdJYu1hXr4Z6wuz27NthvTG0wng-89lXEHG1zMfDyhzo9xaRfAHICJ2eplogAsYP2crO7CtPYWvILOFyr9qIeSc5H5TJJQfNBcu8IVP6uuoOtUix39UMJlhXIIDK6QWH1pMhJ9nM834H2hIAzTjuidhtVsS1d_cuoCZaFMORaFfCqFmo21c46rWEz5G9eP8N9YP0JrudhteA5lBGr6HeLcP4hh9_rj2qCHXNJ2jE3SD-rMibCbPAMFZPBGicfA_6cvODSTPyKhl3lZ26rVbdF4AsVh5Sgqg3Awqq7UiEURhEjA0BLMSJbLqOgW8P3wO9ypmaoZzH3tuZarpQ88_NX8kygOCybu1Nz_UPW4JG3e_-9kjtYyzasUmrh3S_5rNmGr4yOkw3uHG5zOtXJh9ABwNYgMVVs4qbQybLmJYpopTAQ7le1ukLJvviOh4POdULndlEROrpiVqICLfTc_HxAbX3J2Omc2hpq5_C-ex6YuEsyXO471ZUjviVsG-D7dBnY8Hpjsnh4vRcIrUnkkWihSqDOFvlpLufpcylDQc-RecjdeAgQ_3s75bc25mWf5IFN-5398VmFRUWRXu86IjeZl_lk6tz6aGZLoPieFr2YFrdA5f5GjL_PV7SvUa-UoIrN2wB1YNk5ysc0Ys-wjD8un1NXkkwUYNXayWRo7xjtAlHGSu8KciB6EIMWy_KLS1FE7H5xMpHI3k7DJwpUEGewTEzdkC_1_AcfNExBi5lvOxQium6CotLDx3LEfzqQiI4JNN4M45sz50k5jNXsyCJj6bMybem9vBn8kBDOZ1dPVExsuqZOwq8AqJeqaNmFGndqDfaqy8pC1Af9AuOl7kbAn_DAc9KtI8RUmkTlJ8DgsBZZ7nIgdoTAbLk9CadfTOCjU_kID423_2357p0whiF5zSSp50ECQvewvAQ5w_2BxF4gxtpHQBJnlI9DraY8p5qwH_uQYnxeNxQyMANI_Apbal3OLGWw4HH56lhlZsFZniOFpu6TXJRiNbugLV2CdhTQlJOwW4G9HlhZ2xIyXQX6itB9pcdiPzNjQT_pSltwLfr3ZQOrRSgO7Q9IZWORB-Zdd3-hBy-4qbyB8xdLDxrEKG7kmNl0vLHnhBeKAiL5ba76e6O-YpPwPJufjEEMXG9USjjvH7vHBpRoAYk0v9B6uDL8824JPlJxSVS_2YN4ZOacpUdnLeaX7ZTF4ajJ6-9tKx1IePjh6kME-tx0IOXNoqy8FHHDfdr-HDjAQkVk0gY2Qao-2YR6_7qYXyqHlteq4GOsLKQZX1M7Xr6B-cyrX86PxsrotatRT2LpHKdo0isLFjZ-KyGHofgUFEzyFA-wrwim24blddlb9BC2uYgao0ququjyRgM1_THbhT9PEpf-0Vc0dbus92v4tt6DLOZ3lZgpV0FVybnMEjVgpfjw4-G8VV4i-khHhdWOuBtGTIMDWpxby0DyvkPRTvHMhUv752IV985YnqH-MydmVTRqZlAVn_O6nRffKuS0LYUR-01nyDFr1S-HO_bR6AcVmW2VsbXtu-nmz4v7Ig2M9Yz3jNMCvX8KtdGMx1uL41Lk0dnWrycK_oCmaIIvEdpuTHw5_IeK4A-F264FP7weTO6h7-N60weYuvqybFcRg93clwlQAGx_PJkZ1rLyWNgHtbaBVkwJyPGFo27v6nswhuIPmX6Qz37Mt_Q0Jq-UuF44sReLqk6chPKaoMZjpl1JAOfm0fYJPHBlzbZypV_cri4ThcbOINvj86JtBVRPq7mKHOWD8QHK3LsPI0bgzu15YpMtxqafUdITmZGq7Y4XYyPTRe3ouUkcbmpsy1GJ5dsQ0gt7qRMtrP09DUPrwALPm8RTJuxvP-P12ICnerOcubPCZ2p7ZmVU4Qt68UA7nxh31faNNRqWr3jIKZhGxEvrIz6AtV76lv0EWvHj5B4Cw8E4agk11K9wZ67iLxOP3zB_avx-UPV5g3VnzBR-LzIAmPbm3neQNJR4RTia9r6WLmDaQjQoeXCkbKlibHs-Kj-zAH6rH4QcjZr92u-2o-bZDOUdp1b6vhZ1cbLN_Uw_-JpUZ6NZszHuA03lqJAyn2iQfRY-RghIDCYlPpEvrIRyUQBR6QMuHSaQD0_jJArMHGaxpUE_0n6T3Nqxidb7GdID5uZ3hGbvuaxjBSlWdueTyCEeoAB39jRzaLDKR1yCqJuYvsiERK9a3XVzUP_SvkTV2G1bfjtFkXo57bF_Fv1RR5Ii4ZnMUDfg3vYO9AEkeF5l6REXFjIUxtzvdI3lkicBXO_0k9Buqu_tiHHqGAZW2czSiEUJrr-QzyZDi1UOectO48Q1cJXPMdCq7898cQgkAdKiDZgfhRzkmEv0z2PGi001TcZJfHoIUeL3n3g-e4F4IQOX5l4F5A-wmeFYAJORNAn27tmw-tKOGICdsv6payCGJbGz-p6Y9I5e0vVllhhHCm1rVP0fU4hz2k7o2R2nWcpQYAKIlOuRv8GGaWj4yVEG0vSTqkR2vnhE9UKkKf_kDXpA4rFs4zj-SQqhLHc7-oGPvek99Bvp7RtsHV4tj-uNbqEjQFybrpjvfNGtiIrQrhaXBh2lnxpbVj-Qof0SKzysl0fK8Pq1X6gjXZkH8QVwkeCcc5O0Z3pPF0bVhSMS3jkOcOujv1G4nNOUVkfLRriJb2mOHVWiCVTzQMA-DndaAAvPmL2hq3Y0aBe6eN-upyisUzDruXkVgCjI1qpUHbcqdEJ5Fc-ijOPKmM2srzaEg3kp9yASUwYTQhCikA1Xfe6ENKlayAP6ED73I51VeDJCSqbGQ-6svws6LcRnKku1WSWuSxnXgCI6trzQEXG34Y7xorHxOjicVnpk4YfkcdHQzmPYlvkAVehf1brmG638an6D6ep0zQCs7WYu-_8b66RxBSo8ofPufi0ZblAze6KKoJhLcN1OWNTxjqsPEvgu8fjKIfjMfUmuPOYne_lfOlr7q5l0-qcuInUfRuhTFRGI9uR1WcRF9Vm7S6XAZ1yoaEO47olUF_SYif4mcdGZEf0ZcXn5vuRFnhlIJ1MZ9OqrKbne3N0djl-n0F6V9B77RShDe4Te633F_naB2LzkEMfVecyktsachSz-pFoM2aeRVst5pkKLXagRK3f5HsawtM8gg1j7kUTHTob5NpS9T88eF3cHdiuwR_Ro13-zXl8ijgbDlj25E8yBBK-sM8jsaW6kQIj42LfgyjOzZCJQKyc0A_8oDbKZkwvaNKQaOYy-iOs5W87Lr2zsvkxoJu24xDEMl4_MJ_gPyMuSbDX3xlHQ6Dc_XesA0iKf4OlF5yI-dSv9oSL6ncWMHS-ceulqLv9oB1iJHSxC0W6qTLP7M4szfoAgiLSOz0rxoxVTH-J0XzhAvx6iy3Z6Nt-jUBlCLcjXVWI5yZXGeF3CPDwbhqzngalmRbEknR9rR3A35h79Ll8hhOo-E2qM_NOqmqSxtIT6uv1WqItcG9WGTleYm1TAgfWDaKJqenioU979Vo5DY7G9X8OZMF0W3r5ISsX0EK1YlkT4cDIBL2ShCgVFvpntwDU9DCYvBSrXUuvu9s8a244ASwTLBBYV5At6zKKE08NEkrCAS4_AlrOeHwEp2H8G2eet3KkQqo9KiW7QZjdFtXRmxA6Q0Lk_PlXtK9efpehTMGIFWBeXRHumNojbz3lYt4mDc3oW9BCTOVUgW2CO3fjHIW0OiO1J6OIPLqib3CePY2eK4A1Rh7y76aM5eSUUR8zmgEeOIpFnkn_F4X0GzXMXgalHc22hOxPduyS0yWR92Y3aPui7LjHFa2KmeLem7Zh-znHQT2fZayQfC2WSGPvUsVBjTWtC4UR3gXQ1-Zxr28aWZjXL3lwb5QrlgDQVcErvMuLwzeH-FJ1SyRQzTO0j3bmy_ZELi23lSzYpcm9nESWQdk8uh7aPGAEdxAOyvUX8983BJcERarH3HF1M99ICWVMH5NdqFNP7zxDe-qKYeA4ee70ZmYdUnd6g-q6vbCMAmUto7_Y_coljfePIZVONgaSM8yF2agJlIooe_X5FNwO1I2qNFNE9yVQ8dNUB_44Ya38z0efi3m0GS7aAkNg9f82wpYFNv0G_mzqzxu16zcgHJ601d2LNgzov-PKCUlLKHkx2waITftss6uNErbDgJojLmf2SjzdAPhSguc4AkR_BiyVRL_8otE2MWuL1uBv1EFYX5rtOACOBwqe6AfrvMaC0hY2I7HSQgvR1NbAYM9EpkteeaFke9UDxJIPbtUsnL1q_cskqFkRwv1cH256C1zlfPYSjBneT-sy1l38rW8QVBW_8HXKxDMwvEReyyqOfVjIWnRcaC-ZJfMiOdF8jaCJprE8sF1oSfCuGzd7FgLDmUgz5ENSbQNUUvb-IvfV5EU0fj-SSjlogw5inMw3EW295qzWw57TQKWy5TKkTEK8ShHPTkQHCQgE6kl4Vnhy9AXgWwzjPo344nvZFV3OMVRHGT9sLJd6dh8mAL6yoknyOhmFFFbNvLp28KD-ll05uqRvdjzg3dRU1bufby3R0Vn-fGmOKjW2odVm8gyzQoo-TVywaFVf1Mp0qaCnczRsD5T7CWIRmFLe1U_l8TA8N5iM4Wfr64p2YXpOj9lwSKMxPFDd8dAxotP-Xd9ogGhHewo6Wre6uaAEfYKFrdgs3OB3sj2vnDfllgI615llL0Rfd7VCwXKcxpeHumCxTCKVPw_f-LWXkgGIo3SW5CGGvDNWlQ6gQcerwMvY7ncE6TykypUGkAnCNIVlMlhqp3ubgZtSfXDvqO_-tsY3xroAtZO2Ve5pXbhUZgzihQLa462Ydmzns138mMxlMNX_FN2pk_9RjgRz0vAgoADvc8ImLBAafoumCempSOqNXTLPeyssbvTOAhxP4aIf348pzRDSO8jo_10Yj0ixsjj3Z4Aak7bSPaMrwexN1jyLRIzZmtaklC7yZCJ3LF5teX7W5nfAXDm0FHL9N83k4JZ8ZdvFoP6C5EKo0X-Urssl4xOVhHVgAFT2pGXkeziZXUQnciBjq-Egkbfyj1dTGJ2GSOZEdmWVsIu6_Stnb26Y0mZiBsdG1p7AUFtmvcVKvoswWahbV469PYu46jJxEDQGD0Yfvzxag6U31Go4bTwqczvnlwvVUz5q0VHEBSL7oyTNc8XrlNqJlsE_pBWG04H0S9jD5K_MDccZT12mISj9b4yAFuITd7-CTpQEbnb1SPLT3rEL6z-lUXGCsyy2KXyKjnBFwOrMh8PuZHFBwZt2mSfJQuiWIJ0gtVvqk_nNbHyivKhdj5FB077Zgu47DaUZrqJb4S7dmo6-kHNM4fZM3m409OI0ebSCbQD-hM1JuwRljdE0pcdOR2Hucl_IwE6aR2ZoR5viyDtSfjrxq8O1fz-JfCFx-jneu0z5nMoNPcPmQJJKbi9k02S0v0sRW8KqBA8FoTKGHE5z63Dl48ByriNsMaEE-1kN-YxEI6ltz7EbehytTNIXXHSuz9aOQqU9HlcMWiyt8wcp_9qmVYQn2Fr_XwVavOwPR8AEVmzNvSOuDWgeszoqXzs_KzXLXcaB2Xcj-MZRvfVKGBK8X7CEllUjdGcXJWJDJGw95pZOhKBpaLsa0eiYouTmn2OOsQgSUryPqN59RrDVVNknobQawitbSNbDW0zfdXVSAjGFpj7TRfHmaEl-xbw42B9-Mnj-4N50xRqQm6Toi8oKQ1aJKNaVN61dMyYGZdhlShHNN3cZXxxvf3YkFifBpp95Uxa5sDhfdK-uh7PNcJU9mvvArYgUrMipaC8fvCXaHKy6lvpm7YlPbVPJ3NOGQt9mqqYpWaQUyOMOMx8shLsUWjS61bC1ohMoHXMEZqB-1zD_ksqLR33v60U4YaDGysHAjqpX4QBftj55wvP0tO8L_X9QMPXL8A_-3B3iNM4h0N3Ga0AErWm0m5pRTlu08PoAOXia0H6ZVy40tR2-KnrJMoKwRUuLRfANU9Qf5u5kutZPBMV8jiqDDeb0C8-hCkz9NMSxT0DB-QdUYY99AghxvafQP0CdlHdDp3UKGhZMIL96hjYOimkeUwElkdDIbWKrWwfc_aw6GjKkWeR4snkeH-pEZTOak-ctUxSFqWB2raJsXwKtMy7Pmk_54PkSKzPGIhPoGR8ZycCvEDKqZrAGGajW-JR0qvN6PB6NuVjCeNlTcqkZhi-JZuk2knHN0vu6Bw_a6WqX8qV7yULsdSbpVWDeKE5tuEEbK1x5Au9xhWQSaB1KVs9klANulCL44GIkQXDqkQ_L02f6fGCAniXw_KsfTwfbMSClhG4Lt-g-rDIpfBQEMQONOuTQWlRfN-QYA6BTwdD5F9QK06X6nwvhaUvdLLpEPfSI9Ed0dH0s2-om-3f5aXOPMuMERUDyTB0Ofdgr_wl7RWN3aJlY-UWPrP9v0N4WJhgIVA9GuKWgC4EtiOWgvI3vhNg5xU4NxY4usKIsfI48w1-twq9V2u5QYqLbFs39B84NQ5JPpXF5sAeHceoIQr9RRZM7Y5hd6hZ9z3919s-D-7zGiCeFTGvIGtZoueniUCk-QK2ktnpJ179-UKUo_PQAfObKTtzPHqD0N4QVD6qrfN3xaUEf29xr2t4yL_Dbdxe9PTN8UgvBH5iEglkxFoDxMxrBFKJQ_8I4x-NII0IFKtRiiJckMt_ftLsumNXomkj01h9l5amSMAMc1ICZxiDdXxjk4jWr-snTF21Unho2sVUJbGPaThhvAnukwg6WxjwL8Ud_p6lhWn0hbJwAqcN0u_2XhPTavpyEGTx97XxnDu4P7qouIkvls8ib06u1F2wwRTVt5P2GI59B-DeGjNEgm4VPz6-0Clv9RSTR12E5z060_KFzYqllf4fbCJpi8GI303BO76a7eGQe5egw4MfGJBRgCds9k6Z7vgVolO3Xentqwew4yIQJbRP31FKDsjI0R3ZAPGigwVehiwZbB-qwNw4LbKyLLdKfXbykYMv1PxET7oSqLzdAy592R8Oo8h8d-SFakUI5ML5moWkgdVu54EIpeNLlIG_jvUXD7aDTDXM5WYp5SHffPgu1nOaRyfJFyRQju0_6gObRR458TFdB9hBiqNEAuQcdnDj8cjBZzMq-r_alYoJC9jOkpXGcgiHxyq_nzTlMyjisfA-v2Ep9DqWX_6HN19xKHRQl1FtrnomxEnb2AZ9hEvaozU50IDqlcPQZ5HomN_18Ra9uS_PT7P0O5UwEiOZSYPtC73kU3WJL9hQS6rZVz26kP2zVRz8OW23ZTkYOGYEuQWlX16yt3dqV9lqKFXlueqUVLC-zwr_dRULvzOw6rkURCZYr0rCijYgWo_-nhEbj06wJk-Em4kTm-b_hm3RSgXjRUwkd2VIS-f-Obpekt-QA_IRi6ivBPfTfkQL1f8tjqnB7JBKeIOt-iLZ-mtJtSCxhYfQ-Ew2BWOKFkF5A6jkEn0GIifbQY8gKS1ipF-kZxuzosGfDWdh0wuvq9OdbMFIS2nkHVLiE1H1JcBlwFbSwWI4HJYuvUXZux0fCplmGJvLoJeqweNxiIbrhSKQMgAZkK6Crl8rO_ggoL7c3HhLpRk8qmD8y3wBZpyD7dxQVdmDumP7tKjz6zP-af6Hr-khmibGkzADclUkqCABfPdlxtYJ9vlGiwE-xusGYgwoEcEnuSELXGvNP9DWhVuEbPy4shw9fAU7XE97RDLXiVLteTIDU0NTMBZPDzaB0TZfjxlKYkHxu3OGxwyYBDm9DU-uOeaPOdv-gH_e2F69wNlL-T-qD0TZUNoHj7GOh0ECmSO_q3kIQ85TmNodt6x48Q-zWXp1BEIWXUbufQ99d17RikocfbGwfRnOMMBmty2rK4zf18Ir6mPwkMlqZizTO-OhRHE_K52GZcmDH-SXMwksQZSUQ0cHUT3gqCU1fy33LGOboWoo6os77og5YL01AdIFM-E2gO3xA46Hm4vvDIGrg_iP2osOvaWHvIEB9m5YuOUDH0ZjP4kESmX2Mw3j0rgdHXtH3YVnq0sD3rIz7uAsn3atKQoV3rbjNavk7sCN__2wf3JPgEkRQ_-WbFNrDrboUv408UE56Yg22irATD05tx2r1Kb4101WnyeE8NdHBfxeLc1cbFRreX8IGORpfphLGuhnhSvxeXA2Vq7EHxsqVJr09JuA6b6YiOLFvZMhqO0vLdFtEp6mXpNOvZ3-PHKRBdEDfD2CrZkRhV8sxGgW2IG0GUbm5I8ODJQW24Le2kmbgqt0SswWdnoglMPuiJ7TJAGpahmPITkdOLrHJgut_igYu3bynAmnvGlC9ZaR9hEi-vdtTxsfS4Ic=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "O8Jqae-HG_jgz7IPvJ2QwAc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 10583,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 136745,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 332
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 136413
+        }
+      ],
+      "thoughts_token_count": 4925,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 152253,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Zoom interface with a screen share active showing 'Room 2'."
+        },
+        {
+          "offset_seconds": 1,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Hello, can you hear me?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 2.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay. Um... How you doing today?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 7,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Um, can you stop sharing your screen? I I I want to see your face first so we can introduce ourselves then get started.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 17,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 18,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "So that will be a one fee."
+        },
+        {
+          "offset_seconds": 20,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "So one fee? Yeah."
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Oh, you're still sharing your screen.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 26,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share ends; view switches to tutor's camera."
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay, yeah, so can you please turn on your camera now?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student (Daisy) turns on her camera."
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um why are you at that... Hi Daisy, my name is Joel...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 40,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Ah sitting... You look tired Daisy, what's up?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I don't know.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Did you sleep late, wake up early?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Or what time did you go to bed yesterday?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "I'm in a room. I'm just a calculator."
+        },
+        {
+          "offset_seconds": 56,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "1 o'clock.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Jeez, you went to bed this morning. Why? What what were you doing?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 66,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "background",
+          "text": "Miss, what did I do? I'm in a room. Change it. Switch it. Switch it and then go on IXL."
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You don't know?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 114,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Wait wait what did you that? That's what I'm talking for. I'm talking for my mama."
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I said what were you doing till 1 AM?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "I'll do that yesterday. Me too."
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Are you talking to me?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 130,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I said what were you doing till 1 AM, Daisy?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh. Showering.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Showering?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Till 1 AM and you couldn't you could not do that maybe by 8 PM, 9 PM?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Like did you have um activities at home that spilled went through al- most most of the night?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "[inaudible]",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Oh. But that's quite late and you have a long day today when will you be leaving school?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 206,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "How will you survive? If I sleep by 1 AM I'll be grumpy all day.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 213,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "But anyways, yeah. Nice to meet you Daisy. Um let me share my screen because we need to set your goals and...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Like um the lead tutor said, she if you complete your goals, you could get a free healthy snack from your teacher.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Web Browser",
+          "details": "Tutor switches view to share screen of 'app.tutors.plus'"
+        },
+        {
+          "offset_seconds": 228,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Miss ain't nobody talking to you."
+        },
+        {
+          "offset_seconds": 231,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay what's happening here?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 234,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Oh, no."
+        },
+        {
+          "offset_seconds": 236,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "I'm coming.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you see my screen?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 238,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Daisy"
+        },
+        {
+          "offset_seconds": 239,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "Hulogh will stop threatening. It's not okay. It is a threat. It's a directed threat."
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Goals button for Jumaa Alkhalil",
+          "details": "Tutor hovers on 'Jumaa Alkhalil' and clicks the 'Goals' button"
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Popup appears: 'No session selected yet'"
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "No it's not. My mom said it's not."
+        },
+        {
+          "offset_seconds": 250,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Goals button for Jumaa Alkhalil",
+          "details": "Tutor clicks the 'Goals' button again"
+        },
+        {
+          "offset_seconds": 253,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "background",
+          "text": "You are saying you are actively going to call someone to come to the school. That is a threat. We are not doing that."
+        },
+        {
+          "offset_seconds": 304,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Daisy I'll be right...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 306,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "background",
+          "text": "The fact that you were not even willing to have a conversation... [inaudible]... if you are not responsible for..."
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "in their breakout rooms.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Miss I said please. She said nobody can talk to you."
+        },
+        {
+          "offset_seconds": 319,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 15,
+          "speaker_label": "background",
+          "text": "Miss lookit... Look... There's a difference if I just say... that's in the CCC it says... [inaudible]"
+        },
+        {
+          "offset_seconds": 335,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "started.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 336,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "It's a breakout room honey. They're gonna pop in. I think we don't have enough tutors for everyone to have one, so they're going between the rooms."
+        },
+        {
+          "offset_seconds": 354,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi Jumaa, how you doing?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 400,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 401,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hi.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 401,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi, what's up? How you doing?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 403,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 405,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I can't hear you. Why... Okay.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 407,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah I can hear you now. How you doing today?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 409,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 410,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Good. How was your night?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 415,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 417,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You slept early?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 418,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Mmhmm.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 420,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Okay cool. So my name is Joel, I'll be your assistant... I'll just be your... I'm your friend here just to help you with your math task.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 428,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So I'll be sharing my screen because we need to set your goals.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "And goals are we have two kind of goals. We have the effort goal and we also have the...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um so you are Jumaa Alkhalil, right?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 442,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 443,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Goals button for Jumaa Alkhalil",
+          "details": "Tutor hovers on 'Jumaa Alkhalil' and clicks the 'Goals' button"
+        },
+        {
+          "offset_seconds": 444,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Are you Indian?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 446,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 448,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You're from which country?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 450,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I'm from Syria.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 451,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "+ Set Goals button",
+          "details": "Tutor clicks '+ Set Goals' inside the modal"
+        },
+        {
+          "offset_seconds": 452,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You're from?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 453,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Syria.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Syria? Oh cool.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 458,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Okay so we have the effort goal and the progress goal and it's due to be complete in four days.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 503,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "So the effort goal basically is how many minutes do you think you can complete a challenging... not an easy goal because... yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 512,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "So how many minutes do you think you can complete on your math app in the next four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 520,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Like, do you mean IXL?",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 522,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 526,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "I don't know like... 8 or something. I don't know.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Like how many minutes?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 533,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "How many minutes?",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "You said you said a number I did not get you.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 539,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I don't know how to do that.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I don't understand like what you're asking.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 543,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "So what I'm saying is on IXL because you you have to be using it in the course of the week.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 547,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "So the question now is how many minutes in total do you think you can spend on the IXL app in the next four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 558,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "About 20 minutes.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "20?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 601,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "20 or 30 like that.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 603,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I think th- thirty seems fair. It's in between.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Time Spent slider",
+          "details": "Tutor drags the slider to 30 minutes"
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay so now how many skills do you think you can complete in the next four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 615,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "8.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "8?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 618,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "I think the highest here is 5 so let's just go with 3. So 3 seems reasonable.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 622,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Skills Mastered slider",
+          "details": "Tutor drags the slider to 3 skills"
+        },
+        {
+          "offset_seconds": 625,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Save Goals button",
+          "details": "Tutor clicks the 'Save Goals' button"
+        },
+        {
+          "offset_seconds": 625,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay so that will be all. Thank you Jumaa.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 628,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "I will love you to please share your screen, log in to the IXL app and get started.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 636,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "So like I said, in case you don't understand anything, feel free to reach out to me. I'm here to explain to you.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 644,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "But I would love to say hi to your friends in their breakout room.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 648,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "So I'll be right back.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 649,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 650,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Are we good?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Mmhmm.",
+          "speaker_name": "Jumaa"
+        },
+        {
+          "offset_seconds": 652,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Yeah but when I'm back I want to see your s- I want to see you sharing your screen and you've gotten started with your math task.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 700,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay so um let me say hi to your friends and I'll be right back.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 707,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Yeah. Yes, yes. I'm sorry."
+        },
+        {
+          "offset_seconds": 711,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View switches to a new screen share showing IXL problem 'Simplify the expression: 3 + r + 7'."
+        },
+        {
+          "offset_seconds": 713,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hi Jalaynah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 715,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 718,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hello?",
+          "speaker_name": "Jalaynah"
+        },
+        {
+          "offset_seconds": 719,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "How you doing? Good morning.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 721,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jalaynah"
+        },
+        {
+          "offset_seconds": 722,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Do you mind if you turn on your camera? You can stop sharing your screen for now.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 729,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Yo he got one."
+        },
+        {
+          "offset_seconds": 731,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share ends; view switches to tutor."
+        },
+        {
+          "offset_seconds": 737,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student (Jalaynah) turns on her camera."
+        },
+        {
+          "offset_seconds": 739,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "You won't let me."
+        },
+        {
+          "offset_seconds": 740,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah I can see your face now. Cool. How you doing?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 742,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jalaynah"
+        },
+        {
+          "offset_seconds": 744,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You're cute. Nice.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 747,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Um so my name is Joel. I'll be your assistant tutor for today.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 750,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "So basically...",
+          "speaker_name": "Joel Adebayo"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:59:44 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=114624",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student screen share of IXL website\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, Ja... Ja... lay... na...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh, someone?\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Got someone now?\"\n    },\n    {\n      \"offset_seconds\": 7,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hello?\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 10,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How you doing? Good morning.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 12,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you mind if you turn on your camera? You can stop sharing your screen for now.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 18,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, what?\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share stops, switching to Zoom interface\"\n    },\n    {\n      \"offset_seconds\": 21,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You can stop sharing your sc-- okay, cool. Can you please turn on your camera?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yo he got one! He got one!\"\n    },\n    {\n      \"offset_seconds\": 27,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student turns on camera\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"You will let me.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, I can see your face now. Cool. How you doing?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 32,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're cute. Nice.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 16,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so my name is Joel. I'll be your assistant tutor for today. So basically, um, like the lead tutor said earlier, so I'll be walking you through on how to set your goals for the next... for this week basically.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 51,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Alright.\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, and once you complete any of the goals, you get a reward from your teacher. Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 53,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Chrome (PLUS Dashboard)\",\n      \"details\": \"Tutor starts screen sharing the PLUS student list\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you see my screen?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 60,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 61,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so you are Jala... Can you please pronounce your name so I don't butcher it?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 65,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Jalynah.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 66,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Jalynah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 68,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Matos. Okay, cool. You are from which country? You're American, right?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 73,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"[inaudible]\"\n    },\n    {\n      \"offset_seconds\": 74,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so let's go ahead to set your goals. So we have two kind of goals. We have the effort goal and we have the progress goal.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Goals button\",\n      \"details\": \"Clicks the 'Goals' button for Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Modal dialog appears: 'No goals set yet'\"\n    },\n    {\n      \"offset_seconds\": 114,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"+ Set Goals button\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Goal setting interface loads with Effort and Progress sliders\"\n    },\n    {\n      \"offset_seconds\": 119,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 13,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"The effort goal basically is like, how many minutes will you spend on your IXL app in the next four days? And the progress goal is how many skills would you complete in the next four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 122,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"Wait, maybe this is the day that has less people. Yeah.\"\n    },\n    {\n      \"offset_seconds\": 132,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So on a scale of 10 to 50, how many minutes do you think you want to complete in the next four days? Or you can complete, not you want to, but you can complete in the next four days.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 142,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"You have four or lower.\"\n    },\n    {\n      \"offset_seconds\": 145,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait what? wait how what's...\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 146,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"In the next four days, how many minutes do you think you can spend on your IXL app?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Maybe it's... Alright, bye.\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uhh...\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"down\",\n      \"target_desc\": \"Effort Goal Slider\",\n      \"details\": \"Holds the slider at 10 minutes\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"10 minutes.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"10 minutes is too small.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 160,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"15.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 162,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"15 is too small.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 164,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"20.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 167,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. So let's go... okay 40 seems good though.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 208,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal Slider\",\n      \"details\": \"Drags slider from 10 to 34\"\n    },\n    {\n      \"offset_seconds\": 210,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal Slider\",\n      \"details\": \"Drags slider from 34 to 35, then 38\"\n    },\n    {\n      \"offset_seconds\": 212,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"If only four want to work... Everyone start math.\"\n    },\n    {\n      \"offset_seconds\": 212,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal Slider\",\n      \"details\": \"Drags slider to 40\"\n    },\n    {\n      \"offset_seconds\": 213,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 214,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"What of the number of skills? How many do you think you can complete in four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 215,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"So you guys all got to do...\"\n    },\n    {\n      \"offset_seconds\": 218,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"You guys are done for today? You guys are done? I'm sorry.\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"The host was very excited to talk to someone and no one would talk to him. He's very sad.\"\n    },\n    {\n      \"offset_seconds\": 226,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Well next time I'll do it. Yeah she's still in here.\"\n    },\n    {\n      \"offset_seconds\": 229,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Wait, it's time for math though so we gotta go. Just let him know it's time for math so bye.\"\n    },\n    {\n      \"offset_seconds\": 229,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Jalynah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 231,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How many skills do you think you can complete in the next four days?\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"20.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"No, the max is 5.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 239,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"4.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"4.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Alright, here we go! Math Labs!\"\n    },\n    {\n      \"offset_seconds\": 241,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Progress Goal Slider\",\n      \"details\": \"Drags slider from 1 to 2, then to 4\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 243,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Save Goals button\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, um, nice to meet you once again Jalynah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Layna.\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Close icon (x)\",\n      \"details\": \"Closes the goals modal\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"We will see next time.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Here too? Say goodbye. Say goodbye to him.\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Where is the... There?\"\n    },\n    {\n      \"offset_seconds\": 258,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Can you hear me?\"\n    },\n    {\n      \"offset_seconds\": 259,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Alright, we're gonna... she has to go to math so she says thank you and she appreciates your help.\"\n    },\n    {\n      \"offset_seconds\": 304,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, it's fine. It's fine. Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 306,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Have a great day.\"\n    },\n    {\n      \"offset_seconds\": 307,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And you too. Yeah. Bye.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 308,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Bye.\"\n    },\n    {\n      \"offset_seconds\": 308,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bye.\",\n      \"speaker_name\": \"Jalynah Matos\"\n    },\n    {\n      \"offset_seconds\": 309,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"You couldn't do that, Chica?\"\n    },\n    {\n      \"offset_seconds\": 313,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Joel stops screen sharing\"\n    },\n    {\n      \"offset_seconds\": 319,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Switch to gallery view/active speaker view of tutors\"\n    },\n    {\n      \"offset_seconds\": 328,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Yeah, so I guess they also hop off a little bit early.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 332,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It kind of depends between, um, schools.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 339,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 12,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But yeah, sorry this session is really big for some reason. Um, and so I'm sorry if like the assignments...\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 351,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Because I know most of my... only one of my students in my assigned list were actually present today.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 356,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so and I know it was hard with like doing the survey and stuff, but next week it should go a little smoother.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 403,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, yeah I think just kind of notes like try to join a few minutes early.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 410,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, especially because these kids did join on time. Some schools they join late.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 415,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Try to join a little bit early or on time so we can split the breakout rooms accordingly.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 419,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, and then for next week try to set goals with them.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 424,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'll reiterate next week, um, but PLUS is really trying to focus on like setting goals this semester and it also like rewards them in the classroom.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So that would be great. But does anyone have any feedback from today?\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 436,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, um, thanks Gabby. I think for me, so...\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 440,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 16,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I think initially I had seven students and I was about setting goals for one of them and all of a sudden I think my assignment changed and I reduced to four.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 451,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Then that particular student I could not find her name on my assignments. Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 499,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, we, um... we had additional tutors join after I had created the lists.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So in order to have everyone with assignments and like keep attendance accurate, I had to like change it which automatically changed it.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 517,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so yeah, just kind of hopefully for next week we can all get here like at like 7:37, 7:38.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 527,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, that will mitigate that issue. But I apologize for that.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 531,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay that's fine. Thank you.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 534,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sorry I have another question. So I wasn't able to join on time because I had like a network issue.\",\n      \"speaker_name\": \"Jenna Zhao\"\n    },\n    {\n      \"offset_seconds\": 539,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And when I joined and you assigned me like students, I also... I suddenly got disconnected again.\",\n      \"speaker_name\": \"Jenna Zhao\"\n    },\n    {\n      \"offset_seconds\": 545,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then when I rejoined, I didn't have the co-host access so I wasn't able to go to breakout rooms and I wasn't able to like send chats and anything.\",\n      \"speaker_name\": \"Jenna Zhao\"\n    },\n    {\n      \"offset_seconds\": 554,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm wondering like how I should do my reflection or should I like talk to the supervisor about this case?\",\n      \"speaker_name\": \"Jenna Zhao\"\n    },\n    {\n      \"offset_seconds\": 601,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah I would say probably reach out to Alex, um, just as like it was an issue today.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 608,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, but if that happens again, because I know like once you join the breakout rooms like you can't like chat me specifically I don't think.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You could always just Slack me so I know to come back and add you as co-host again.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 621,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. I did Slack but I think you guys are all busy but okay.\",\n      \"speaker_name\": \"Jenna Zhao\"\n    },\n    {\n      \"offset_seconds\": 625,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Okay. Sorry.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 628,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I was wondering is this group doing goal setting? Because I know in the early session on Tuesday we were told that we weren't going to goal set just because it's the shorter session.\",\n      \"speaker_name\": \"Alexa Rincevage\"\n    },\n    {\n      \"offset_seconds\": 640,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"That's a good question. Um, I guess I just assumed because in like obviously PLUS like it says like 'Needs to set goals' for everyone.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 648,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, but I can definitely double check on that.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Because yeah. But thank you.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 656,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 12,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah I think yeah in the earlier session I think I was there, was it on Tuesday? Also yeah. So um, I think what M said was if you could rush it through, that's fine.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 707,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah so for me now I think I did for all of my students that were present today. And that was what we just did today. Yeah.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 716,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 16,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah typically the first because I know it's supposed to be like kind of like a weekly check-in every other week or like whatever it is but yeah I know it's hard like the time is really short and like it seems kind of unrealistic to like spend one minute with each person setting goals.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 735,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 14,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so yeah I think if it's... once everyone like has goals set if we're supposed to and I check on that um like then it should go quicker but I know initially it will take a little bit longer. Yeah.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 752,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But if no one has anything else, you guys are free to go fill out your reflection forms.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 759,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, and yeah I think we'll definitely get better as the weeks go on. But thank you for bearing with me this week.\",\n      \"speaker_name\": \"Gabby Centi\"\n    },\n    {\n      \"offset_seconds\": 807,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Thank you.\",\n      \"speaker_name\": \"Alexa Rincevage\"\n    },\n    {\n      \"offset_seconds\": 809,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, bye guys.\",\n      \"speaker_name\": \"Joel Adebayo\"\n    },\n    {\n      \"offset_seconds\": 811,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Thank you.\",\n      \"speaker_name\": \"Jenna Zhao\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuNJCuBJAXLI2nwXz3M6TyNYcMF3QKYkibLOJUhGh8PK_NIEP72yCnCVRziWKsqkqo5VBGkJAOs_-4zt7xeW8u-HoHS4oHeJtOeqEIFNHgJfBgMteYtKPabbrubGXx5SAOjJKL_CqSOTTzf-xsZnPj5OTVS1H8n57gjr6PE_6S-57if3c3ENyEhyYrcO0aG3DmXASK6563h1KtW_XRazhmI69Dx9KBnDb-BZc83GdJEVlqwfn0Uwhu0SJV76hUDiXNNJZTwsvEj9-B50tf0Rj_Wlzf6YpVB_Ten77dImBM6OCwI0hxKM1P5gWGOnnCzJDFHiKL_nLJWIZ_mwzXpNkDp0cDAoBPhKXAqUiSnw4gI77Pcu9UD-nHVyah0yGqniVqRHeJ6ax2AoAcUcNDxx9WXMTSZcke1lF-tpKh-Ko7Qs6yX3GYUg_b5rW1fA2luJAZWpt5agI3d2iZCPY8vztC0i-X0h8i2XbtrDNQ3o-MbuP1ikhnjJKWckiB-39h7HHZZsDU1TAHVCLHcGmfPcdmcIFRr3pSWbQKGXuM83BYjOZLjQq6Te3oZxCnD3udgakQt0-ZvecS0eyEzV627nY3WiBvJi4JOk7WMnOrtn9XxcGOzKq-AdJNGviAl6YUQzDL_bt8Rgb_SpQIVfeHwGygbIXXBAQIIIaxgIxQjeFzJBShL2FQNGtfuHxK-r3QPbzYkDeTMUHHOn6Ow9gdVVaIcFbzNgCAnDYjz-QZyeLoeIRBb5htlqw0UQg3pSxImLLjwRVqMsRIdWk3_zDeNrxET-HKUvxqBHwWBTulL2D-ZAABkC35IoSM7-Rm_4xb8ct4AcOUWMEh27xlxvV3KlZH8aa3cZFHFl1OkR6gu7XQ3sfh0V8RmYBJ_lkI0ooalopPC26BgH1VPcf6XdL_l1bOP_-m9Y-0MS9MKlYyIeBjpEfis66Qwj_F83WOMx-yKYAUaYsQNOB1rbSkVrdpW5Fh2HYE74MQ-JRCB_8w4EcRhO98OSwCX3WsUGwzTt56rEBDA5WvFa-0zEdV1cVS5OHe9Wqu71EwLXHNPRTG5VnksXe1ESV3M7JsVDq6aCt7xSKHrLzPRP57WlAEo-P4SNyxLSjEtMgs7RJXrs509JncC5YWpQ-6_q5mmbAYMJ2KNKKrXS1lhp7IZh205CUAzBaABxolnUfVE313BBm7A473Ra55zGH4hGZ-DSoMWHX_I6k00Tuedq9x7zMtDdtwAS2SQMB0z-l59k2gcxdVSGpm5WGv6Ie2xKCW4_Pe6xGLAsXviMRiG6bAoGYx_4y8aG6WWdAbCNqVCqCcZR_grwyBGYjXz3pv2_bRntIpcX9B57JC9u4U7QO13MuUgrVH33nkCSdyqJSvPNbP-yaSq3cgF9qlfe2BmjSzNX63SjlXDc3vXblXnZY4AvgdFN1vgKiL_1BQ4jW4GJS5Fps4Y9dzlhm7se9yVOnk59TTFeaCzw9R39bOEIL9sHQ3AWnE_E5Gc4K6MjT9ksqiESSoY_c4IymjWV2fYgzKAtC4FnGaWXTqcAg-sSs2G91aaXdGg5BP4qu3xr3Tm-bVsbks6nnxnc_XqQ9bU0sWMxHAuou35T2Vyk9kMdkHMASItlZMcobyG9TyJp0Ahv-X6kE2VEG2wf0c5msf4YdB6VNZPZUPPVkv0ctuBjnPdLi0arGj9nY9-ZtgclA47pecN6E8XF8nRGs7PGHJmomgxHQnvJBf-GnJCz5Dkw_s8XM0AMmBAO9qPZFmN6pe4KM5wLm8dCWYahCwsuLej1QGnMQoYz_n7dmqPteSgcQIFiB0dLWkhhA1iTp9yPK3BtUOFsGuE0QyN5K_jVflFRj5t3U9AWPAI8EKpHI-tnHES5eK8li_nT8SxLMiJhfWz7T8mYtPuN_8oFBJbK1TNckAkxdXgF-lLLFF5KczQOV1N8iFKVI5xlN30JHctvqqWdbQE0_7e4nLDK1i5OcJe2vnSDZ3DIkNohpNXbImjwJGlnqVrUn90MZrkdflReP4dKp4BC0mKujHdQNGTLXZA1DEKF7-0O_SU5ZbUAdB9po4yYrtb4mRpGsHPFhoBgVEoWokXH8VI9Ll8oXNa4_kz4mvVdJ9YV1gFUH_jnprH3EAXIu3gSt_TqFhjuy5JXDlQCEYnos-G4HMXcMjJQZRWkGYrPctp2qQLewbUnxHTk5YlsL3nN0rbbFndZy37d6gpSaTmNYYVsGuLOUyi2wrxkShz943ifrIgB4tHmPV3gS2w9Mfo0hQswhreTOqdS2VnWrcSJSqd6RlnxYV1Ic0q0ViUVZh_ZAKYa1bomUmzGrT76DN7ko8KIbtuCKHlUYI79f8cDWXrIPFyXQKXo0_fr8ycbFDMyMNSAYV3fl_cHGF0EKVJIPE6VWmDOmNG0uDKQLSIULBcpTxYdefB9jkdxAj_5GwYcOQ0XItt3gXX1Zvcqkgc6WVQ5kGdqf4ur3dDEP8ipbisPSXFn-OoOFCOdfq72cp8oCZY1Kyjh95L9hwmwODRycCjFcTbj098W0qEGT_Y1aJaBWV5jBqh4eoxp8guELBcovSXTErsur9mBkwhayYaH39A6nymxQwUxOU4Xzd2mR9768HEWtzqHK1YfkCFfU81KHrSuu_IaAengsCIJ2SxVeZszW-fCTHcVE7lfhwtm7LHRvkKblyXNQHAOzp9A4D-riK9nAdLW1Pe5-_7pTbk6rHZzQdyaNcq1fSqp2adTHii-GNB47OE8yXhVIcbWKkVUln-8qPrLYyjJ0DNp6kT9TujaTrdTTSirA5dDROBhs1VY0RvP18t1l6rMnygnHgrLvl_GtFrIgwdxH_mqbB1AXXvzDzsMjWhlDIFOQPADRvLtysSLNP6YcC3Zm4UKXPE2LXeM3uJRTuD5LpTozUdKlEMbygz6-w7b0MSJ8B5D8qccqPsuagJLvsojCpmQLDGzFDPhbIp_KWvDLBAheW_YbPXHBEmyjkMpY6YpoJWKdcEZcdWuEzfgAhxKetFZNp0z06kwS5BZBIVTPQuiyIzWggI5owXSlQITYk4WNsqOZxvLkQcX9Z3p4nlHKwVUNNRSpwFYt0N11dPNKcmHAabn0XqC9TCIrgD35ROd5TcCbZvNmWJcULqek2tSU3KKW-ZWKKC3Sp6NxP9Jytacum_UuN3qS0pm3r9RNUeNZcv2LBFbH_pMqWElErurKlVQQ_43AJJtdjLAB53jyjeiL99x4UdDwdrlXqEkatuLzDQevOoEItU6BJT8eY3RrZDc7myvnFATFzHPgzFojCLnbH04oJNu3nGct-QAkQvOg5kduIpXoAoa0mbc5r-kf3RnwlfoHJWLK-8Jg8znl09KLtx7dPeEABFbScSkWtrZp-PD8sAMc79s87ZwXXMuA9iZgfh3O2W2XJmu2zoWd4xWmkNjEKIOukwpHWOE3HKkU-Tph5yIUz8-G7Z_Tz_UDT_bg1DOj_w07AA_6NR8OPQk6AhsxTzWJtoxtsvfcQrCYxSTZyHBWRG-R9MWSIun6LfcWRkC2siKxrigCn8mjS1YPbBu09knjVoinqh7psHofZb3WLVps2QjrhLjITnLZ0oJaByguvtFIRUAHJU737CNTcvzizQsbw8JURrnMcQ1hgJpQPgBxmwsbnJyHkzIdwVlRGq1uO0otlXFdkVTGqbgZJ1xPcMA8vdtwUtnQB1sbKIdzyNHDEvtzeoqjiySTIBJ6FV9DUz9_WsAweEtfNiIlDgq_Us5oZc-UfVDA6w9RA0yhj8_3t0AnlXkDCAwQUgTs13azJx8AB8y1W9h0o-B5rCUpnYID6QXBdMcvR-p_Ezbpxn8lkYmmv7Jyzq0tqzbbVVWnB8RK8omuXNxY3On9bRYnPkaCbM-ocHtjoTUtlpvKBhIfOjMD2mN7Pb36lA2u18MRh4C2cNFVSrRwxzSi9wHUHxY7X3B_qNfZk5eKshQOyxH7_Ttak6ZuDWr1cInt7AZNrRikx7pxEjnCOLjAM1ScaSa_--pwFwC-OfwiH2HMDGNQow9cLrIi3MLZgooKrtc-jr8LWbUrcwCf8SJx-GlrttJJ_eqzudnXjsRVtyk9gSjxV4-teX_623Rd-u0j2_iQsIMQujvRTizc-bkPtnBj9FWtVsghmaH_uwOHSjaVVwATm3GnWsLGCBUa_S-Hxs3lAsVgVIEvEHRSat6Ch5TjOEp543l-FaOVvaMZCaeUmDZ0hy0UE0ENclL7OUqbt22M2Z3ux8xI6Sdo9-SkJ6DboSHhgmE24aDXR3Lv8gXUCX5ZtE1C_Tdyf9XaL2Vb0kt3i_bMZQsUW3raicCNSJiHNreGNuEmuQUhpIGjkUMAqpNz0d7-1uBqXNFEiSQui0NMVt8UdSJil3A13go9ElC3PJWmvFldyx7PU54biv-1MhtPp2LlPFiyD_sSSzLay6MNlG3h-q0usCm6BLyN2z3Bl8fn4s09JhK8RcYxmO_pXVNRANcgzJ6T4G936RJSKPR252kkyMV4nlL3Y-eTKUrtX-JnqGgEWAPF7fs9EuSX0qamc_ZFoAwGUDfGkwYJRKnB51aw7QeXZQD-zpZg1ssPKCdw4juTtHiPnb71O7wFFUdRa9B-zPD28GLzyAkRH60s4wwwNbk7_lI_uiAzCB-CNOeh8qt3NbjR_bMSHjrUZfvLqVA8jNkcA7sQOkk7E1V6liDLAlSQEMJCFzGdHGD6ZTloOxav-kX6CQRF4-5rDQZ4hb52JMvncAUuhoiblCnX_F-yvOKTs1wQS9-SMTfsMHSM5zjLpP94gpjHWA4fuMTZB6B1vnSopax-MozJVp8jQ_tROSz-CStwWqHBTcgWHP-h9Hbr9iFHfJm-wF1AlyFb6RjHsXt56jGhd7tHvM6wtdT2Rm8aGc0s5gLUzvisvSiHKp_GgglXe-627B2Fy0_4tquT1B5zoO0tRdZ9UMQfH5DhgfwsGw3dV0ESG_bGHlJc5N8kZgyN_Lo-VYd-ktXzfdGtpwiamywwYSiFQX2B8Rt2yJVxSuQzvlP7fAnUUjKDauCKNDJ8gKFUkBIHnOa-8H6C-bVO-m3sXjlJk_P3NmnUmqEOCfi7kp3FFNtCddupdejFruDB39pdML2m0Ya73QoxZUyuV9vBi6vq8nFXfJgQGJ5vPPeZdPKZ8scvCqCcjBf0uCf_i0gpWJaV8vwIAFljYOrYwbaKliM-ucYu3HM0PdPS2f2JXiK63U63p-giufkox1nAAIjcq7w6kEUYw9GPwBCNu5uut5qLURMgTdrv8iKb-qjtKXDH1n-plFslCossrQbhv9QyGG6oa2cfVMIEdiJYGuA_iGMKdCKaom0vN-WX32TBIdFfcmOpVLRcMbUJRBcPcIKfod0thbbOZfN00wmZG-kuCSzmSVOAmW1LuPTG0bHYmP7v7H0sesaXl6m1OzoC3GgiJ-rkw3SfqvyMED_-xnTUEGCI1NBLEe5AwxQaBesTefpztrFBcq1_s9UiGd7_UlbrXpdjUEoeSENlYB7-XlbkRtpFVcDTWG0EnXTIdwpqVZ6h-QW2Zfiqh6zyoSelvQ5971WHVAdcvyr6CyPeBvlgz0LDsK0NZaBVPsL0Ot4H3EPn6a9uKNsKwnTqwOn-78TQ4ZsYfkViyIS7ZesgFXGser0XVoazco5TsAsQ2wn5fRiLGYCd91sMI0CMJ5APkaSd2uMx6Con1Z9RWr4kyBqaxPh1WQx6qcdX2rEPUJryAl_Iy2_lnYT0ft9NC3vlrXD8hLLfIaiu9RCeUBftIflRv56-ZLC3fdLTRhC3grUmvZGiLX4biF4eMUDbuOxSVnjK-nPvyZN4Ar-Ap8FHKHCSsAw3sQko80PeYLjpwBibfn3lr610FkbGRQkz9sAkWD02QVwfD_20t5SPyhxLM0ZO4wN2O3TdJS3rISepCP71MVwPiK7zcE9qh5ockAlv-K8kfr3GPRC3Uk3Taux6aDXMf5NsKWotIOg4LqKxkzvPagvYdD594HNcUiuh3S2rdK1cuC1V4tT0Nb86u0FPubJMS8fKzfcT1JIS4DJRRNfO-M5HyUIFm67pyA3zXy_eHGP1TV3EYq2CYTPjiwI3AvPFoIHPAviiAaT4-JM_8O6byf-cTDLyxR60q0T0gssSenQfOniavHIegpm-oe9s1NnJrrkdI-xO97o80wu-ab5AhUVjuifze084jTabmyJgxBAclCBFcoeHWEx5rQmlH8GNGsAmCaZNGDt1m8ZKeKSuE0VwAd9aKUDmgYi9PUNsZJ-5QywwfORDgizCqr88JVizhO9TYBZkcQKVndDzk8qxZ1sWauJSdorJgXXEWhql_0Q5alNA53uRAxYJ_6gub_mhOV1D6Bf7yR17Ki4JI1sRhk4bGRrK33aUCOOp7-6OofNqXA9S5mUuVg9x6zmHnQOKF20Cw3rVf_vipiPFPyzVohmZqrIYm_y3yBLhpECeymc_tooWJJNGMKh2KAmDaB1BPobTuKo74l6GlG-4UHixDCdAjP2VaWY6Hens49zsJf_GqbxklP_OmIGGiSAJ-JxS9Sl7ng8HBui1hdANhk_lwGQWAbTSvQl1GJ-pWGmVjT9RSGmNbyIsqjYOq-3P3s1XBwk5eb0-xC2AHv70VfySxiYp4qmfTgg9nsvdhBnvm2R22x6aPs4DjU2CicGgATlrZRQaQVfdTKp3Wplboxm3HqrhhEiAqzzY18q4b2KN6kLd_0yPuQtOGEvGigZHuqaOE1aoDs90q7UHVR1RqQDvTp61BYylqdkBYfIyJj9XHA0bH5uGyUg8bwSjXlYAJlTSUr6LrubtjG0rK62mYa2YZ7pThhUgZQ0HQKvGRmm5DwhoK7lmVStNs2A0owOAbtsnBY-OQYGsxlbrH8WIl1ZN6GZcsR4BqEKKR8MGeOgdWPMGI4uw28K0JiZ0_xvhdkVO5NqYD8eOXM9c7j1bYdBu9bLO7ChXAG3xiXrgr-IjZMzbW-8Uwp33ovbd8mAkEyqhLaBHiKjOa8sXk8SZpF7lv8YoRvoqT3bxip_FDOh14zU31OiE7TeovFpOGxPfqotlyQsMEQv16DFJuJaSbv2Nq1z9Jp0cWQUZHG9f8p2Ersx7pgiQI1rZr0uqr36uc3wMB2h54DBeQQLlIU159Oj06uyMOh81k91mbQiUDZ9ytiRfiVX-qUchiOUK85L6nAyVOvW0BheigGVeWMGMXOwgdJrQgUSpzgv9iJldXuOL466QNK0EFwtDMHI5bI14fRMkgsXq99sJFaz_3l3hSt5X_kYN-4zMtI6ei5zBbRO3StcXZl_0GOEwV98Q9XIuTJzfEwvqNJaxV-WcqH9QZ-RYMuR5JoENTNnjCMyouPiKvUM18SX4dlJSHQ3k28CDaROprJrrD6LtOXYGyGMAMCwE6FdR3ADf4qGDmS8KU3YKEBgPCwbDclhqMfiXneFXFbT7la5yYpS0eMZN_ar77N-513b_5NCi8BIFBu2tMY8xMLizSHYiO3QUxtNjaqqOfdel41j7LhLu8aTj0jT_DeQJPh_0vmKbkxnnzhsleCJ6qIroDUFrzUKOo-T_lLEHmh4gehG_KtHCLDIWg0hXA-iWnXYR3KEkapW7YRqplFV-r3-hbcd2V8JGvYkXqHEvbbH9T-8JmH2QLbxkDYe9WeSYKBY7NduFGO0C2PriLx0cM45Z_sUiAX7Ofn-6JLsoExtx1ds4yA9JkHRn4FVfYvwbdEc-d0i7PHUXirSX8ENbj-LNkKxW2TrtxUxXvjiGphdH2LfI4JL8M7Ju_G5Moy6i7ihBpcK1wVlSvFwkChDB4gfPihfQnrm-sGWeUfavknEfZK4PJdAeEcnTp8lET_UgpbmnhOuHBuH2USvXAOVUh-Cs83QFSmJtj143qRrUOTTAMX_lZAj1JVqTtTqn6JBHF4vKMU0f-D-CvoGXzxMD0QN9EDyuLF95dE88tIkzCp9odWXfVRrGPC9IxiYzMHu5jPN-QeAd62mLt7EPXSehgrn1u6gj6lPgcgxazRJp1motHU2HKO9TllZYn-4VUARH97YfnpEYCp3pTBe5GGH6zFZBm7fMeJCaSEov22NM0QOarvKCu6_ivn21ba66Fl9LhR5ChK6vFsEJOia1Pm1w9AHhWsP67ppMAa6XcsSlPNxQrMjBwQufZx9Q36136ourK4u2xJ7axSDkg_irgv2A_nf_HM0ZHzGHwRGKDv8TkXSO5PnhIKuh6Xj60VWDs8XCECsIokFYT6ViyU5NeZCaL8YCftqMfLRF1nihR-zbGCUkdWZUbFwZg3gqeugBaF5EChXVbd8Is4q92vbwFMs7tmgTBcpLYc48s_wLuzB-e6KG6aCFOAcra-SwDE0AxXaSBKekeWKLlb_qZlcpTPu2IEFP9md5ES3qFjSABpM8jEBsEwUqvwJHN_J5oNOkBMIRvob4K97g8m4JNx22ZQ5_yXn6oLk7ZH7ZNv-46B98iWlefZAYoq8Th817lHxLCTry0LdIRqcNVtQZ9sSJKwinEbC8lbVrkhjI6WOe0fL1BPVEl2i84oycy02wAx6hgPQNMdlKvo2ClWA5zhsMG0wVUjzhb3Y8iXgLwv70O_LVjTG9jKb7AUaiLfuyvhTfvEVECZzQn6xVBe3TKmgYPSEuGE5wfw6BeOSWyMb4hC4gB__yRJRqcCv3sJ4rqnYqMbD6PbQSpgz1sGmKkFCsyvBwRf7sZjQFqB3S5PV4gfF9Jjw0Nr8VZpMOyhZHiJXckINpyZ6kz10Jdj4W6E9YjlJfeMYTEwYDqwtbHxbs1K2ZmXGM4oeWfK8ATbQ0qfa4v7M5Fu7U79GbWxsoFxoZwuB_IAHjyUHexf1Y-L13Tew2_jCgHWYqByhTEwKCCCiayKsw4KUkfhAmEKNR2rDeZfOlJCAaOQeSlJTdDq7sVWII-gxzrkSPc4Byn1nYP-yhYdEAgv3c2RzJSEqfwt0Ak8BsNoI4iYpRp0fHk4vDPMm9T0qXeWPZfU4xPikzKsTZrURdRB6Da7byDI3_SZ1-vn34LsBQM1O3Iypsti2kMzCKo-qyX_3FI2ufYuJ-dqWxkEdtzsU2gy8_GRNaNNQebnP053rpGs7eAweCkMGUJwXJM_UGpqYFWwy-kdh1Dm6aU6xbH2hUJLMWAhiRKgZSkGRDsPx0rN1MIrKiA1k3HVrVzEJeGs-WJdScnMuZxMcOFVPG70jamcTFYrcdG3qLHhtrq3HtumHdnQQBVyvGTOpgyDczl6IVIVSWJkpeCKC--uT_hWiURlMa2w0cDZlv1cRAOcgl65_7j54Vw6qIYqlJHHhIhjHa24p8exLGaIAcnek_zPCDvc6Ty57qnBzr0wcpCUWasFi9shttNxu38e7_oRhGLuLzPxbRJZHaz6AIL52WM-jPHRy5YmLw6S3MXiYHw4M6PvJxlhK4W1wcmU9wGQaK3TFKlm4Dv5OhqXNl8crjzoMxZz1_X_KcUcU4puPz2kevrnhTqBRlPc07ZdAfuAD161Sz3lJhMGWfzOe7P9kt4uacY3ZgeLGR1BC7DlAdDISEYMuQ7FyI8LS-E9fWvLeM8i359FrqLm6vgPjkV3bSWhrQlX8Us5Sqzydjid0FReXbqkOv5Q4t7zrwjY-PqQiK5OanpIlZIR5xERBSqrZdosP-KxPkmsIv7qIdy_N38UDkCSMrX_SMFOQGMif2tcXI9302FSNSQPOBWKLhB3qjhLdjwRY2WIHQyQjC9y__Q8pT2SeUgoC7iRBrp-lb1ELaa04uguconHtyDJpXuEBrdOytbyANpu7PiegKolrv82N4JZCQqRdhCyrzrP_VKFbPR3suy2jZtkke6SLBNkVEdWe_nXbjEQ46Pt0kzjRzDzah2sIu5zJvhJ9B6yCpzMcgVrQ6E7ypaRdxbJ8A2I29SOhttLfhHd77U4NeLL9zvzulavRtnYLQvOXQ-IKmOWq731rzbqRvu0UdZVn8LwnyycoNcEYAQcCNQlnVyCihsP9xqxRWvGftF3n0GZHSYexQgOWqWElnxPH5tRBJA52v61SX7L180FiORNfCmGlVSD-ZF3O9XzIzizWqQtJ3xsWKpatBPV4W7D5Al8ZFrMSrlJuCRcefGta0JMzQmqOkFHjXdqOn9elCISNdNT-AeXiTl-v0Ut9050-BtHdGz66ZPEq8aR5_Ys4Za1gjp7ks0U5j8evHWAt4HlmCCT464JDvFKXtoEXyWxnr5dpenlmHpsD_IQ2Z7cd0QId_si7s-PLuW2stoANngYG-Jp00QRkWMd48EZVoNkaEdAjuhh6tefDSwNgOqeB4yvaiV1o8x6oJ-3yPYrd1vyrX_rp3a7KWkz_alymXbtKorUL5flhCl-6-J-carKQsG0wsMWvz1SwusXJBbpuvsQdTyVr0JTIshtjpCIoE2UtRJVfCdPKmK8aPDVAmzzh3RgAychAZPSbzkYmcyA0mpNEcNieUkRjlSL5WY_WoDkG_2hCSm0Y5HoNiv5JayJlHNvge4GwwQ3DSBTigG_Px4Es3XEqOhjicc19cghp4TV5vDjvVnJo1aakS3S4jMMo709DVZXU7gxOlz7g5WN81dRdeli2_S9j_4CoIyw4cXZ7D467uytGSlOZYb0RoElq7p27Getbznjfavy5CrWsyueQvVIurq7IPwTiu4NUz48AenaK51cxloJhia_Ed0Tlm7hjYKtOAMo6E4ZPFcnDWZY1hN4k_91ct0wq1BREt9y_EJuFkXzPBOCdTD0B8JADJG6AicqLenFqvJp2H9mSMEYuZy-vQ1Mi6DcM2N_Jo-eevU81Vh0omjQ87fcA5qb5LxYN3Hj7_9w9uJ61NVGpkxJBzHLma2aISR7i3rDjfRtvjOcQdKGNm9YxGo0-qB6p-2o_07SbtJ68qrzyNIaYd3r97DI37I8WyFGM5LKL5fC2qP2xGLfJTQ63Ugka8MCjRh373WJURzYRnrKEdpYoCNtZkIwKQEipDXsvQrdEayY4xDdyd_4AOnLJLBO_hE-6F8zD8xo90ehRrPr_qBPS_L32EAQ4MGIYCXsQs6Wtel8HoJoYM17j6vKdx1FKxnZ1Csl6uzp3Gnggx4ETKnOXo48VJpKVKrQYCnXx-2efXL00jHskvqKcrecBh8Axwi3YfyDotshn8k-N4afrFsF4vPHnOUobUijbkjES2JRnGORJ3GuGYgu5uCRFDIAbhLHe5FtMxamiVqqnIzEWR8ieJ78il7wQfe3tPYvOU8cabpD5Bti-T84DdTnz-qKWq1wvqcStcccsrkEsaDTk883bsZsgFgLcLPdpgFFVmgi9kUcyu69ZGxH3kPSAHa_rPbl0h0z2Q0TUjzYQUvj2hMniROMbMl9pkl2Cq-f4HvNZ9GvmBPYX8wieSfdUJmdsEo3sa4Rav--2MGLVnj7SFHsHEPSHLthEHjAwaZiKUz68pb9v3IGo9Tc4eaI9z0Yyct6LnGjfnAjHcmlez9qFOVSZzeyFGe-nPo4Q1VdMtJ4hCdbFmyPOKNFcrbQnm0-g9nadObD77nAzCpm46K0C8rCn7sNZZXSOScxEwrh9Y4Q1Q-8z9_PrHgSwQCy0EFUbL0bBENSpZyKLWsTCug67kHSyCvJPdCwIzr2eUJ5HOi4V-96xDslbengSuS4KHRGBLqZT6kAR0WVeT6sDYlbbQ1pUX7ytHIV7PnAGeR_2gMEjhYOSZtOd0UcBnKXoK2Jul3aGEtBc1x3f2A83fvY1v1FZ1sSj9naEsWa_U8BRJg6Qiuh2E0SMIN0oBKesjMqoMdXoJgAxPGlvorl61pYBoQLvOuPTzeVFbiAM55k8Htfax86l8E0ohBsUK3ZA9PyGbi9Lsqu_ru6rPu36SgD-qVaI--jfFHgRY239wjKxaZjqq4B7-cbSBmI2tKhZj-BthQuSty5QdKuTO-9546n-dZHWPmbgaLqGHx870mC6BSt0qXaaFm-pgH9FYH9_sGHPZkAVdxP3yPFNz7E76e4K5u4u_ZTf4f6a8xcDQh0pvi76_EJdKJ18c894j5EamMKi30S74JHhhkX3RVHfikLNuctPk-B3stGdrsSAYuDXU3TfGQuR9yKSFJmqRqJYVLKvXpScfxYfhMy7fAJWaTAWyRpdVqAKYQTTKWqtGEHBWByMFH0RU0F4H2_7ITc4enn8uyb6XG8HxBtnEd2SEYrCqA59-ZQ-hpK3kOw1IO26I6i_-10LWJeGiSxBfhpPcNupSycAzFDErjsvjD3qKIsZvcRjcvyhWdg45lIJg65l-NeynLNSa5buLPpToGyXAnBUbIMFjcNNFMu977kpKEhcY0FmTRC9mDKXHORM-ZwWkUI1gB96pEMaiNbGX8d-qvPAklb7ufPAgI4whisuM1oI_Hn1q6pPBRti4T2f5_g0zbfhRv2j6fczMPUywN5QD2m96d5YrvOmSpx9O442FyGROqtKMYguza0e_SPqNA8v4If7QPO7_n64SlOPvM9iAT9uzbENLW25PsfItmBnNwIXnW0hqBE5WceRYlYX5PWU-cj3O6VwGUXdGTd9XuPQAt2inF3dxJsoz27aSSOD-sVyev1PXxPV7SL62LTzyC9pRjibvn9qjucsl4SI29GqNZje6AnkPZ3xciDpXRb3xAy5kMg8UBFL2lzH-kU=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "4MJqabLFD467qtsP2Pz10Qc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 10394,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 143094,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 332
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 142762
+        }
+      ],
+      "thoughts_token_count": 3043,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 156531,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student screen share of IXL website"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Hi, Ja... Ja... lay... na...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Oh, someone?"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Got someone now?"
+        },
+        {
+          "offset_seconds": 7,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hello?",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 10,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "How you doing? Good morning.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 12,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Do you mind if you turn on your camera? You can stop sharing your screen for now.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 18,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Wait, what?",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share stops, switching to Zoom interface"
+        },
+        {
+          "offset_seconds": 21,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "You can stop sharing your sc-- okay, cool. Can you please turn on your camera?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Yo he got one! He got one!"
+        },
+        {
+          "offset_seconds": 27,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student turns on camera"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "You will let me.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah, I can see your face now. Cool. How you doing?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 32,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You're cute. Nice.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 16,
+          "speaker_label": "tutor",
+          "text": "Um, so my name is Joel. I'll be your assistant tutor for today. So basically, um, like the lead tutor said earlier, so I'll be walking you through on how to set your goals for the next... for this week basically.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 51,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Alright."
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So, and once you complete any of the goals, you get a reward from your teacher. Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 53,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Chrome (PLUS Dashboard)",
+          "details": "Tutor starts screen sharing the PLUS student list"
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you see my screen?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 60,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 61,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay, so you are Jala... Can you please pronounce your name so I don't butcher it?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 65,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Jalynah.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 66,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Jalynah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 68,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Matos. Okay, cool. You are from which country? You're American, right?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 73,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "[inaudible]"
+        },
+        {
+          "offset_seconds": 74,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay, so let's go ahead to set your goals. So we have two kind of goals. We have the effort goal and we have the progress goal.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Goals button",
+          "details": "Clicks the 'Goals' button for Jalynah Matos"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Modal dialog appears: 'No goals set yet'"
+        },
+        {
+          "offset_seconds": 114,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "+ Set Goals button"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Goal setting interface loads with Effort and Progress sliders"
+        },
+        {
+          "offset_seconds": 119,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 13,
+          "speaker_label": "tutor",
+          "text": "The effort goal basically is like, how many minutes will you spend on your IXL app in the next four days? And the progress goal is how many skills would you complete in the next four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 122,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "Wait, maybe this is the day that has less people. Yeah."
+        },
+        {
+          "offset_seconds": 132,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "So on a scale of 10 to 50, how many minutes do you think you want to complete in the next four days? Or you can complete, not you want to, but you can complete in the next four days.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 142,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "You have four or lower."
+        },
+        {
+          "offset_seconds": 145,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait what? wait how what's...",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 146,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "In the next four days, how many minutes do you think you can spend on your IXL app?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Maybe it's... Alright, bye."
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uhh...",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "down",
+          "target_desc": "Effort Goal Slider",
+          "details": "Holds the slider at 10 minutes"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "10 minutes.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "10 minutes is too small.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 160,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "15.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 162,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "15 is too small.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 164,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "20.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 167,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay. So let's go... okay 40 seems good though.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 208,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Effort Goal Slider",
+          "details": "Drags slider from 10 to 34"
+        },
+        {
+          "offset_seconds": 210,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Effort Goal Slider",
+          "details": "Drags slider from 34 to 35, then 38"
+        },
+        {
+          "offset_seconds": 212,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "If only four want to work... Everyone start math."
+        },
+        {
+          "offset_seconds": 212,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Effort Goal Slider",
+          "details": "Drags slider to 40"
+        },
+        {
+          "offset_seconds": 213,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 214,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "What of the number of skills? How many do you think you can complete in four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 215,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "So you guys all got to do..."
+        },
+        {
+          "offset_seconds": 218,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "You guys are done for today? You guys are done? I'm sorry."
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "The host was very excited to talk to someone and no one would talk to him. He's very sad."
+        },
+        {
+          "offset_seconds": 226,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Well next time I'll do it. Yeah she's still in here."
+        },
+        {
+          "offset_seconds": 229,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Wait, it's time for math though so we gotta go. Just let him know it's time for math so bye."
+        },
+        {
+          "offset_seconds": 229,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Jalynah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 231,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "How many skills do you think you can complete in the next four days?",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "20.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "No, the max is 5.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 239,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "4.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "4.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Alright, here we go! Math Labs!"
+        },
+        {
+          "offset_seconds": 241,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Progress Goal Slider",
+          "details": "Drags slider from 1 to 2, then to 4"
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 243,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Save Goals button"
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So, um, nice to meet you once again Jalynah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Layna."
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Close icon (x)",
+          "details": "Closes the goals modal"
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "We will see next time.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Here too? Say goodbye. Say goodbye to him."
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Where is the... There?"
+        },
+        {
+          "offset_seconds": 258,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Can you hear me?"
+        },
+        {
+          "offset_seconds": 259,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Alright, we're gonna... she has to go to math so she says thank you and she appreciates your help."
+        },
+        {
+          "offset_seconds": 304,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah, it's fine. It's fine. Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 306,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Have a great day."
+        },
+        {
+          "offset_seconds": 307,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "And you too. Yeah. Bye.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 308,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Bye."
+        },
+        {
+          "offset_seconds": 308,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Bye.",
+          "speaker_name": "Jalynah Matos"
+        },
+        {
+          "offset_seconds": 309,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "You couldn't do that, Chica?"
+        },
+        {
+          "offset_seconds": 313,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Joel stops screen sharing"
+        },
+        {
+          "offset_seconds": 319,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Switch to gallery view/active speaker view of tutors"
+        },
+        {
+          "offset_seconds": 328,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay. Yeah, so I guess they also hop off a little bit early.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 332,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "It kind of depends between, um, schools.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 339,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 12,
+          "speaker_label": "tutor",
+          "text": "But yeah, sorry this session is really big for some reason. Um, and so I'm sorry if like the assignments...",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 351,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Because I know most of my... only one of my students in my assigned list were actually present today.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 356,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Um, so and I know it was hard with like doing the survey and stuff, but next week it should go a little smoother.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 403,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Um, yeah I think just kind of notes like try to join a few minutes early.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 410,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um, especially because these kids did join on time. Some schools they join late.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 415,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Try to join a little bit early or on time so we can split the breakout rooms accordingly.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 419,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um, and then for next week try to set goals with them.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 424,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "I'll reiterate next week, um, but PLUS is really trying to focus on like setting goals this semester and it also like rewards them in the classroom.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So that would be great. But does anyone have any feedback from today?",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 436,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Yeah, um, thanks Gabby. I think for me, so...",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 440,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 16,
+          "speaker_label": "tutor",
+          "text": "I think initially I had seven students and I was about setting goals for one of them and all of a sudden I think my assignment changed and I reduced to four.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 451,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Then that particular student I could not find her name on my assignments. Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 499,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Yeah, we, um... we had additional tutors join after I had created the lists.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "So in order to have everyone with assignments and like keep attendance accurate, I had to like change it which automatically changed it.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 517,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Um, so yeah, just kind of hopefully for next week we can all get here like at like 7:37, 7:38.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 527,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Um, that will mitigate that issue. But I apologize for that.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 531,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay that's fine. Thank you.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 534,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Sorry I have another question. So I wasn't able to join on time because I had like a network issue.",
+          "speaker_name": "Jenna Zhao"
+        },
+        {
+          "offset_seconds": 539,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "And when I joined and you assigned me like students, I also... I suddenly got disconnected again.",
+          "speaker_name": "Jenna Zhao"
+        },
+        {
+          "offset_seconds": 545,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "And then when I rejoined, I didn't have the co-host access so I wasn't able to go to breakout rooms and I wasn't able to like send chats and anything.",
+          "speaker_name": "Jenna Zhao"
+        },
+        {
+          "offset_seconds": 554,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "I'm wondering like how I should do my reflection or should I like talk to the supervisor about this case?",
+          "speaker_name": "Jenna Zhao"
+        },
+        {
+          "offset_seconds": 601,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Yeah I would say probably reach out to Alex, um, just as like it was an issue today.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 608,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um, but if that happens again, because I know like once you join the breakout rooms like you can't like chat me specifically I don't think.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "You could always just Slack me so I know to come back and add you as co-host again.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 621,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay. I did Slack but I think you guys are all busy but okay.",
+          "speaker_name": "Jenna Zhao"
+        },
+        {
+          "offset_seconds": 625,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay. Okay. Sorry.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 628,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "tutor",
+          "text": "I was wondering is this group doing goal setting? Because I know in the early session on Tuesday we were told that we weren't going to goal set just because it's the shorter session.",
+          "speaker_name": "Alexa Rincevage"
+        },
+        {
+          "offset_seconds": 640,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "That's a good question. Um, I guess I just assumed because in like obviously PLUS like it says like 'Needs to set goals' for everyone.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 648,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um, but I can definitely double check on that.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Because yeah. But thank you.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 656,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 12,
+          "speaker_label": "tutor",
+          "text": "Yeah I think yeah in the earlier session I think I was there, was it on Tuesday? Also yeah. So um, I think what M said was if you could rush it through, that's fine.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 707,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Yeah so for me now I think I did for all of my students that were present today. And that was what we just did today. Yeah.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 716,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 16,
+          "speaker_label": "tutor",
+          "text": "Yeah typically the first because I know it's supposed to be like kind of like a weekly check-in every other week or like whatever it is but yeah I know it's hard like the time is really short and like it seems kind of unrealistic to like spend one minute with each person setting goals.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 735,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 14,
+          "speaker_label": "tutor",
+          "text": "Um, so yeah I think if it's... once everyone like has goals set if we're supposed to and I check on that um like then it should go quicker but I know initially it will take a little bit longer. Yeah.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 752,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "But if no one has anything else, you guys are free to go fill out your reflection forms.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 759,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um, and yeah I think we'll definitely get better as the weeks go on. But thank you for bearing with me this week.",
+          "speaker_name": "Gabby Centi"
+        },
+        {
+          "offset_seconds": 807,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Thank you.",
+          "speaker_name": "Alexa Rincevage"
+        },
+        {
+          "offset_seconds": 809,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah, bye guys.",
+          "speaker_name": "Joel Adebayo"
+        },
+        {
+          "offset_seconds": 811,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Thank you.",
+          "speaker_name": "Jenna Zhao"
+        }
+      ]
+    }
+  }
+]

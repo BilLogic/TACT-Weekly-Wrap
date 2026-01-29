@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Weekly Wrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=General+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        /* 
+       Weekly Wrap V10
+       ---------------
+       Philosophy: Skimmable scroll-story. One hero idea per section.
+       Style: Technical Minimalist (Paper/Forest) + Bento accents.
+    */
+
+        @font-face {
+            font-family: 'General Sans';
+            src: local('General Sans');
+        }
+
+        :root {
+            /* Technical Minimalist */
+            --paper: #F7F7F5;
+            --forest: #1A3C2B;
+            --grid: #3A3A38;
+            --coral: #FF8C69;
+            --mint: #9EFFBF;
+            --gold: #F4D35E;
+
+            /* Bento Accents */
+            --teal-9: #00bfcc;
+            --teal-11: #007f89;
+            --blue-9: #4dc1ff;
+            --blue-11: #007eb8;
+            --green-9: #4cab65;
+            --green-11: #297e43;
+            --yellow-9: #ffc94b;
+            --yellow-11: #9d6e00;
+            --magenta-9: #dd2ab0;
+            --magenta-11: #c6009c;
+
+            /* Typography */
+            --font-display: 'Space Grotesk', sans-serif;
+            --font-body: 'General Sans', 'Segoe UI', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--paper);
+            color: var(--forest);
+            font-family: var(--font-body);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* === SCROLL SECTIONS (Full-viewport slides) === */
+        .slide {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 64px 24px;
+            position: relative;
+            border-bottom: 1px solid rgba(58, 58, 56, 0.1);
+        }
+
+        .slide-inner {
+            max-width: 560px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* === LABELS (Monospace metadata) === */
+        .label {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--grid);
+            opacity: 0.7;
+            margin-bottom: 16px;
+        }
+
+        /* === HERO NUMBERS === */
+        .hero-number {
+            font-family: var(--font-display);
+            font-size: clamp(80px, 20vw, 160px);
+            font-weight: 700;
+            line-height: 0.9;
+            letter-spacing: -0.03em;
+            color: var(--forest);
+        }
+
+        .hero-unit {
+            font-family: var(--font-display);
+            font-size: clamp(24px, 5vw, 40px);
+            font-weight: 500;
+            color: var(--forest);
+            opacity: 0.6;
+            margin-top: 8px;
+        }
+
+        /* === SECTION HEADLINES === */
+        .headline {
+            font-family: var(--font-display);
+            font-size: clamp(32px, 8vw, 56px);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            color: var(--forest);
+            margin-bottom: 16px;
+        }
+
+        .subline {
+            font-family: var(--font-body);
+            font-size: 18px;
+            color: var(--grid);
+            max-width: 400px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        /* === ACCENT BLOCKS === */
+        .accent-block {
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 2px;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-top: 24px;
+        }
+
+        .accent-block.coral {
+            background: var(--coral);
+            color: white;
+        }
+
+        .accent-block.mint {
+            background: var(--mint);
+            color: var(--forest);
+        }
+
+        .accent-block.gold {
+            background: var(--gold);
+            color: var(--forest);
+        }
+
+        .accent-block.teal {
+            background: var(--teal-9);
+            color: white;
+        }
+
+        /* === PROGRESS BAR (Simple horizontal) === */
+        .progress-container {
+            width: 100%;
+            max-width: 360px;
+            margin: 32px auto 0;
+        }
+
+        .progress-track {
+            height: 12px;
+            background: rgba(58, 58, 56, 0.1);
+            border-radius: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--forest);
+            transition: width 1s ease-out;
+        }
+
+        .progress-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--grid);
+        }
+
+        /* === STUDENT GOAL CARDS === */
+        .students-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1px;
+            background: rgba(58, 58, 56, 0.1);
+            max-width: 480px;
+            margin: 32px auto 0;
+        }
+
+        .student-card {
+            background: var(--paper);
+            padding: 20px 16px;
+            text-align: center;
+        }
+
+        .student-name {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--grid);
+            margin-bottom: 12px;
+        }
+
+        .student-ring {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .student-ring svg {
+            transform: rotate(-90deg);
+        }
+
+        .student-ring .bg {
+            stroke: rgba(58, 58, 56, 0.1);
+        }
+
+        .student-ring .fill {
+            stroke-linecap: round;
+            transition: stroke-dashoffset 1s ease-out;
+        }
+
+        .student-percent {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: var(--font-display);
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        /* === QUOTE BLOCK === */
+        .quote-block {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 40px 32px;
+            background: white;
+            border: 1px solid rgba(58, 58, 56, 0.1);
+            position: relative;
+        }
+
+        .quote-block::before {
+            content: '"';
+            font-family: var(--font-display);
+            font-size: 120px;
+            font-weight: 700;
+            color: var(--mint);
+            opacity: 0.3;
+            position: absolute;
+            top: -20px;
+            left: 16px;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-family: var(--font-body);
+            font-size: 20px;
+            font-style: italic;
+            line-height: 1.6;
+            color: var(--forest);
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote-label {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--teal-11);
+            margin-top: 24px;
+            display: block;
+        }
+
+        /* === CORNER MARKERS === */
+        .corner-markers {
+            position: absolute;
+            top: 32px;
+            left: 32px;
+            right: 32px;
+            bottom: 32px;
+            pointer-events: none;
+        }
+
+        .corner-markers::before,
+        .corner-markers::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-color: var(--forest);
+            border-style: solid;
+        }
+
+        .corner-markers::before {
+            top: 0;
+            left: 0;
+            border-width: 2px 0 0 2px;
+        }
+
+        .corner-markers::after {
+            bottom: 0;
+            right: 0;
+            border-width: 0 2px 2px 0;
+        }
+
+        /* === FOOTER CTA === */
+        .cta-btn {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--forest);
+            padding: 16px 32px;
+            border: 1px solid var(--forest);
+            background: transparent;
+            margin-top: 32px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn:hover {
+            background: var(--forest);
+            color: var(--paper);
+        }
+
+        /* === TUTOR SWITCHER === */
+        .tutor-switcher {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: white;
+            border: 1px solid rgba(58, 58, 56, 0.2);
+            padding: 4px;
+            display: flex;
+            gap: 4px;
+            z-index: 100;
+        }
+
+        .switcher-btn {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            color: var(--grid);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .switcher-btn.active {
+            background: var(--forest);
+            color: white;
+        }
+
+        /* View toggle */
+        .tutor-view {
+            display: none;
+        }
+
+        .tutor-view.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Prototype Switcher -->
+    <div class="tutor-switcher">
+        <button class="switcher-btn active" onclick="switchTutor('baik')">Baik</button>
+        <button class="switcher-btn" onclick="switchTutor('dalvi')">Dalvi</button>
+    </div>
+
+    <!-- ========== BAIK VIEW ========== -->
+    <div id="baik" class="tutor-view active">
+
+        <!-- SLIDE 1: Hero Greeting -->
+        <section class="slide" style="background: linear-gradient(180deg, #effbfc 0%, var(--paper) 100%);">
+            <div class="corner-markers"></div>
+            <div class="slide-inner">
+                <p class="label">Nov 18 – 24, 2025</p>
+                <h1 class="headline">Great week,<br>Suzie.</h1>
+                <p class="subline">Here's what you accomplished with your students this week.</p>
+                <span class="accent-block teal">Weekly Wrap</span>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: Sessions -->
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Sessions Completed</p>
+                <p class="hero-number">3</p>
+                <p class="hero-unit">sessions</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Students -->
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Students Supported</p>
+                <p class="hero-number">7</p>
+                <p class="hero-unit">students</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: Talk Ratio -->
+        <section class="slide" style="background: #fffaec;">
+            <div class="slide-inner">
+                <p class="label">Talk Ratio</p>
+                <p class="hero-number" style="font-size: clamp(56px, 14vw, 100px);">81<span
+                        style="font-size: 0.5em;">%</span></p>
+                <p class="hero-unit">you / 19% student</p>
+                <div class="progress-container">
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 81%; background: var(--yellow-9);"></div>
+                    </div>
+                    <div class="progress-labels">
+                        <span>You</span>
+                        <span>Student</span>
+                    </div>
+                </div>
+                <span class="accent-block gold">Room to Improve</span>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: Think Time -->
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Avg Think Time After Questions</p>
+                <p class="hero-number">1.6<span style="font-size: 0.4em; opacity: 0.6;">s</span></p>
+                <p class="subline">Target is 3–5 seconds. Give students a bit more space to process.</p>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: Encouragement -->
+        <section class="slide" style="background: #e8f6ea;">
+            <div class="slide-inner">
+                <p class="label">Encouragement Moments</p>
+                <p class="hero-number">45</p>
+                <p class="hero-unit">times you celebrated wins</p>
+                <span class="accent-block mint">You're a Hype Machine</span>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: Student Goal Progress -->
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Student Goal Progress</p>
+                <h2 class="headline" style="font-size: clamp(24px, 6vw, 36px);">Your students are making moves.</h2>
+                <div class="students-grid">
+                    <div class="student-card">
+                        <p class="student-name">Reese J.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--green-9)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="35" />
+                            </svg>
+                            <span class="student-percent" style="color: var(--green-11);">80%</span>
+                        </div>
+                    </div>
+                    <div class="student-card">
+                        <p class="student-name">Jayden T.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--blue-9)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="70" />
+                            </svg>
+                            <span class="student-percent" style="color: var(--blue-11);">60%</span>
+                        </div>
+                    </div>
+                    <div class="student-card">
+                        <p class="student-name">Sienna C.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--magenta-9)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="18" />
+                            </svg>
+                            <span class="student-percent" style="color: var(--magenta-11);">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 8: Highlight Moment -->
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Highlight Moment</p>
+                <div class="quote-block">
+                    <p class="quote-text">"You're doing great. I'm going to come back, but just keep sharing your screen
+                        and solving the problems."</p>
+                    <span class="quote-label">Empowering Independence</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 9: CTA -->
+        <section class="slide" style="min-height: 60vh;">
+            <div class="slide-inner">
+                <h2 class="headline" style="font-size: clamp(24px, 6vw, 36px);">Keep it up next week.</h2>
+                <a href="#" class="cta-btn">Was this helpful? →</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ========== DALVI VIEW ========== -->
+    <div id="dalvi" class="tutor-view">
+
+        <section class="slide" style="background: linear-gradient(180deg, #e8f6ea 0%, var(--paper) 100%);">
+            <div class="corner-markers"></div>
+            <div class="slide-inner">
+                <p class="label">Nov 18 – 24, 2025</p>
+                <h1 class="headline">Patience Pro,<br>Saanvi.</h1>
+                <p class="subline">Your calm energy made a real difference this week.</p>
+                <span class="accent-block mint">Weekly Wrap</span>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Sessions Completed</p>
+                <p class="hero-number">2</p>
+                <p class="hero-unit">sessions</p>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Students Supported</p>
+                <p class="hero-number">6</p>
+                <p class="hero-unit">students</p>
+            </div>
+        </section>
+
+        <section class="slide" style="background: #e8f6ea;">
+            <div class="slide-inner">
+                <p class="label">Talk Ratio</p>
+                <p class="hero-number" style="font-size: clamp(56px, 14vw, 100px);">47<span
+                        style="font-size: 0.5em;">%</span></p>
+                <p class="hero-unit">you / 53% student</p>
+                <div class="progress-container">
+                    <div class="progress-track">
+                        <div class="progress-fill" style="width: 47%; background: var(--green-9);"></div>
+                    </div>
+                    <div class="progress-labels">
+                        <span>You</span>
+                        <span>Student</span>
+                    </div>
+                </div>
+                <span class="accent-block mint">Perfect Balance</span>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Avg Think Time After Questions</p>
+                <p class="hero-number">7.2<span style="font-size: 0.4em; opacity: 0.6;">s</span></p>
+                <p class="subline">Excellent! You gave students real space to think.</p>
+                <span class="accent-block mint">Great Patience</span>
+            </div>
+        </section>
+
+        <section class="slide" style="background: #fffaec;">
+            <div class="slide-inner">
+                <p class="label">Encouragement Moments</p>
+                <p class="hero-number">12</p>
+                <p class="hero-unit">times you celebrated wins</p>
+                <span class="accent-block gold">Add More Hype!</span>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Student Goal Progress</p>
+                <h2 class="headline" style="font-size: clamp(24px, 6vw, 36px);">Your students are making moves.</h2>
+                <div class="students-grid">
+                    <div class="student-card">
+                        <p class="student-name">Emma L.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--green-9)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="0" />
+                            </svg>
+                            <span class="student-percent" style="color: var(--green-11);">100%</span>
+                        </div>
+                    </div>
+                    <div class="student-card">
+                        <p class="student-name">Marcus R.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--blue-9)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="88" />
+                            </svg>
+                            <span class="student-percent" style="color: var(--blue-11);">50%</span>
+                        </div>
+                    </div>
+                    <div class="student-card">
+                        <p class="student-name">Aiden K.</p>
+                        <div class="student-ring">
+                            <svg width="64" height="64" viewBox="0 0 64 64">
+                                <circle class="bg" cx="32" cy="32" r="28" fill="none" stroke-width="6" />
+                                <circle class="fill" cx="32" cy="32" r="28" fill="none" stroke="var(--coral)"
+                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="123" />
+                            </svg>
+                            <span class="student-percent" style="color: #c04a2a;">30%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="slide-inner">
+                <p class="label">Highlight Moment</p>
+                <div class="quote-block">
+                    <p class="quote-text">"I saw you pause and fix that mistake on your own. That's exactly how we
+                        learn."</p>
+                    <span class="quote-label">Growth Mindset</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" style="min-height: 60vh;">
+            <div class="slide-inner">
+                <h2 class="headline" style="font-size: clamp(24px, 6vw, 36px);">Keep it up next week.</h2>
+                <a href="#" class="cta-btn">Was this helpful? →</a>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        function switchTutor(tutorId) {
+            document.querySelectorAll('.switcher-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            document.querySelectorAll('.tutor-view').forEach(v => v.classList.remove('active'));
+            document.getElementById(tutorId).classList.add('active');
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+
+</html>

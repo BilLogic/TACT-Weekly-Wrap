@@ -1,0 +1,1234 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:52:19 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=65800",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"So we'll work on that.\"\n    },\n    {\n      \"offset_seconds\": 1,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 33,\n      \"description\": \"Tutor waits on screen; placeholder image and tutor video visible.\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Edward, how are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 10,\n      \"description\": \"Tutor waits for a response.\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"If you're able to, you can unmute yourself or type in the chat.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 41,\n      \"description\": \"Tutor waits silently.\"\n    },\n    {\n      \"offset_seconds\": 131,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"View switches to a black screen displaying the name 'Edward', then switches back to the tutor.\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Jaliyah.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 142,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 6,\n      \"description\": \"Tutor waits for a response.\"\n    },\n    {\n      \"offset_seconds\": 148,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"If you're able to you can unmute yourself or type in the chat.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 49,\n      \"description\": \"Tutor waits silently.\"\n    },\n    {\n      \"offset_seconds\": 241,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student Jaliyah's video feed appears on screen.\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 250,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 251,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you know how to share your screen?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Um, so if you look at the bottom of your screen, there should be a little green arrow, and it will say Share.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 304,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then if you click on that, then you can hit share and it will share your screen so that I can see your problems to help you.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 314,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And if you're not- if it's not working for you, you can just ask your teacher and I'm sure that they would be able to help you.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 324,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Which one is it?\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 327,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"There should be a green arrow at the bottom of your screen. It says share.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 330,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"But it says like whiteboard, website URL...\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 334,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"and it says iCloud Drive, share camera, photos, and screen.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 337,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, you're gonna want to share your website.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"So it's website URL?\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 344,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Y- yeah you can try clicking on that.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 347,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Or, it should have like a window. It should show your screen. You should be able to click on it and just hit share.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 353,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Says input URL here.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 401,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um...\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 403,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, so I think you're on a different screen. So if you look at the top, you should see a part that says screens, documents, or advanced?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 417,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You want to hit on the part that says screens and then just hit the blue share button at the bottom.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you see that at all?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 429,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, is it four buttons on the top of the screen?\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 436,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 437,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And there should be a part that says screens, it's the first button I think.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 442,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"The one with the question mark?\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 446,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmm... No.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 450,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You might have to ask your teacher.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 453,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Raise your hand and ask your teacher and she can- he or she can help you.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 457,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 40,\n      \"description\": \"Student raises her hand and waits.\"\n    },\n    {\n      \"offset_seconds\": 497,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"What's happening?\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 519,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"She said... I... if I don't share my screen...\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 521,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Who's that? Julia?\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 523,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"I feel like you are all missing something.\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 524,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"We have to like press the button...\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 527,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"What do you mean?\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 528,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 10,\n      \"description\": \"Teacher leans in to look at the iPad screen.\"\n    },\n    {\n      \"offset_seconds\": 538,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 3,\n      \"description\": \"Zoom 'Screen Broadcast' dialog appears on screen.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Eto7Ctc7AXLI2nxhkQGqKH8xQ5VOtdAqsGuWujndNvDBmZ1SHGsc-7TIpsaa_vzu1RBcayYjsmDb2_RF_v3aLn8PoH3LTJLFOHYG_pN_A6yEnGBcPK3-fZuigeAKylB1c6Bud70F1CYxcWmCIN0Og7VHveu3uw1LQ5fC8ZEZYE4ZpENQ-9vxTXLhG-2InSfbeN2fLiNhPKEz9281-hmr9GVLOvNfUIguExrihyjtFUUW_bgRXrLTXXkrvAdQ0fpC1TbGg47lz-6BUGlBuUD06XgDlxrrndUQLb_lN1C5S3PRWcTS1h8GxGKs9YPfAaV1pUb-RAXUo_8dqh4l2P8z1iQEibzyGxpFvwJDkmKSMunX-F8dQZZwR7f6jsMWKnTP-Wgl1IOgH1gok_DJCxHhXcaYbG4bDd8YvejABd-1Sd-hJ2La1ClPW1RnIiB8R4SqfGXHloodmx8n8gmp1ukY0Twrt2TF4ECcxR6EvXW3qQc_DzQ-texRw_zVm5EoOvG-VZqCB_HDpwiACyTrYmnu7NA4PoDQFasuadx7XpMR0Bix75bNGEvzco0GsJ_8ojJ3AJ7e1E0qSBqOCLRJ-dbSTKMvAdN6j2bucuMqvrXzTb5kKXpLEWY06NhLPHX3PiPLqsZCns5HqGuY9wBx_0clcyXtjLZ6ZRlr3p0mHo5fGN248kxrLtIeAf7wpanlcO2UeGI7jNP6n1QDCvgGqeM1CkTZsFH9lN8GOiw3VrXeRK836ZfHlxEUA6LDiCcVn5J7GSlXZ9cQpdGwRFMcLAyaaErBC1k3rn99LJvICV-uEnEWghk8d1jOlC4xrzSXUmSDgs21VYT-KqFZ69LYxqipqxutZmWe81T5SLL8iklXr9StYjqreA4sHBN7wQjbq5dVO_MzkeMm7SJZaLzOQtwIjTlJ8o_wxK623u_63OKzDxlnmMpyCd-e0lfd5GWTZ8ZU-Qa01u4Qzb8CRY3GdnnXbZ4DDSfM0FpAbv9jP4Xkjlkfd2dR0AHRi5qvmf_mGlqfRtStKli9unZo6c2sWWP4eSYCHVXouw3JkE5Mm7GuWH__-UwY0lZeAMWkttiJQT-pISptSOLgRZ4dYHmkGXEBgyMy3VjgwZNI5kmYoVEXpuw0XC7RVSb7-3Uaa8rwt7efK7fwk7E-YZyvxwGkqOlneKskNpY7XEspxTIVTfl9XdUPOxhLA77Tp9un3mkkdx2Xgl3xKPt03zr3awV0Og6Cobzr2EwkhCqpvjyS9NUnUVtDWOg9Lhb8YOCVCMpzP54iwI3xQcmHRvi1mDhU5SGlYLTKSbvrNjNPNgPKskT6euHUQeV74DNq9nDLU9kHQhaMnFX_Fo_LZVqRwOATWT8ob00tc0tzk8PP5OyP-1Use3QPQIQjlDtrvngiXCj3JtVfMFLcS6fl-FvLsLKbwrA2MaeV4PgFGbcrgSkvJRQKPFiPpnrXsWYj4hrVWawqrHvbhUaBv0r8u9bp0B536apEj-DnyUGTWH2M7Ca48I3r-5HiZ5h5cMcOxIg00IEKvwaxdGTOsHFTGaO96WamUIV98fLPGrvL4h1JSYyncs0mw0_UZNohapkjKWEFBBX7y6XmBOPzWdY_53pCLbC5X2JYbqKDDCK4qp-rQ3bkOgKVTEETONGHB0Boxk2WnyAR9SfXAGy5L3SwDDN-GJwXmCGDmdTPUF8_KEOsTHA4LvJhIWBnjFiBZZIl-i4UrruCfJoDIDhOe7NyudbMEbZh5jOQbCOC0t48OHvq7DGskOET3rjM65rPg1LMUVbJEsQQ_39Sy1oN1zWmbzHHOxMOH_6iAmsrr8j3c44HDduRYACpfCktXmYaCstyOfbfwlulaXVK4yi4xxqvl74n7fCwiwZ_X61snMbFbNun0TqsSMkCcII0EQHYadJVxDYgB4OBhc0McZ23nV1QFBGu1fc-mSdlMG92Bov8_D4sNxfpUy6ZHthwpDm79KzjdqPEN7JN8tfL2QpVm_bqA-FgaKQVFUErDF180EqNAqfEsgUl15Y4yHc05aiIUqlkly0F70_xhMkfjoDhrWgIijcyy7GmCIpyEqTGo8PS3Q0r4V4S0bQGh8n8b5eGIAn6dtONCxxBDXen06E1w_gXdNl0WLMWMgDdWyr7IopLJhfo2i3BylAYNwhLXio_zQwAi0zVveAXjq2_wxoyD6kdMvl7Et2xwVxht59_S5flMbBlnm0ulHJw60jqp9EX_wAKXwqy_XLrVoLUwQIpDI8eMnOrVqQlnQqYgEQfrLWt14DihfLPsnhkDiYXnZvIo3WwcPK4dwQXme38FSja1VnVJNu6neqc8UScpD8m4PhD4XKHB3dIfSt2aC_Afi6v5YnQGkURyVsGE9bNXOqtoN70LKMBU5yGoX1NorVkvCRHa-G_IyiuXmWQ2voPuN8BE7qOeeZVnXTebeNcDFf2_5yrTJ_CbLvJsfujlAjqR-W3SwCuB4wyqGpeKDOjkJEkzt0lDt-feNK4_owXT9nJjgz5xMqiNiG58Bx4wztFnA18pK3LOFIym_N0TXB6ulPZmzYw2XM_eXQOSE-0TWqYhxwTUsqha6jJ0xTzOoURE641EFg306G_IGuM7hlEo8BpfITMmriycVyKO5v178Xq5H9Llt6_gihOV4Z5Sf9p8o1nkQBU2_JljHOrS3C3G7PJp4jQABwcpv8e_rKxJnn7CXh7MOyavCgzhVbeW1lQ-fxOe67b2si7wYAzeaWA_cK6KNl6YAsjD_K_yU_W_Fgk5RclocnhDmeu886ETkcKDEwOTD49tsAZZYXFF4WCRvXwCg5WNrgDfhnc-xGn3dQ92pA0guzdynzG0PkLH8ieZbrnzXrOECNjV2jsj09s3a1naL-G2x6OltWScmur-9dW6pCj6Bw_k_mkHtYUxpXyUGnVvnHtX1xycKHiWt_ptJvtj1lGiE_HXjjQP1z3_hBmsE1R6m4qxarWxlqVndnb_CBnLtiWhoJhlmKrPftKlFOJTzbNXueoB9W_4l6uHR75ECLDMqPhaQcPtf9GKbUUlN23g5U1SuvjHitgBxtbe9UmL3oyiBbr_uK2no5qEkGsZuWQr29WU4U6waheBr76bK657LBXjlwBsTuJJtidJbaii2JW99mw-2uy5ijHzhhNa8E6qGPYLW6Igs8QP07kE_tpabAgPpIlp-Zh0oZYF5xOZAM0xyjK47Ogx_EM6ZDQENWnakdvjJXuc4TVkO9e6ePeWSkzfG81piCtwA3q5mleCKJy7-PSkhGXF1YAXsKfbSIvQRtskjY5vM0JX95zwcNjy2Iy35BJaHqnlrOwWwrq9uchBM-VOLvcOqg7sYI6HTcHsmYXMZVbtGb172W1C-4ujoXb28s1FebrOnQEheaJSG2q_lkzl0NNB78E2X4dmOImNPuBQH7rEwHNzwORTn39zMN0ZRFpJ7Zc3g0DwZWiykf5BdJPLD5OQ6bc-144qeh_rR7mE2Ld5e4EWrBBaUgaISxC0ZdyHdWo3NtC5B8S1gGiSlOlgjftlscDcDoATHwvAHPALjL6No1MkXLP6t2GFmRWAXMYV3BR9Kym1gN-5kbTRtvQ_w2MVCvSKZONVyPorc0m3E5lXFnI4NOm4alF2-DJUiXxKqO_nXX58OamGnhihvacHj9nHSgF23Pcyt4tZ_ME-R4--SG9hkWEYmKG9dnn8szToaz1uEvAqShHAImJAOKBX-Dr8OAkKRby0WaFgT9dt36ftEXGLGjcdp0fgTVLscex8sc8tPdPtKHZYGpYY6qMFsokvTT_rMqI5fPE0koHFrsEixxyG2jNVzteCPvtU7u4ar0pmLcM6HDlhv38MU4hq5dpKFB1XyNcsI0GK0jMofzse0y1nxAGoCHXihXfQexEGYQ-yxgOntPcJAJFTUYJptrkN-AWvC1-HQ1Bd_vo4WJswKh9X_dmmAgV02ubyl47HhDiC1CaUJH7kayoUySywSQ1lQHLeUthNMVW0ZpHfX1fA5Mz2CM7wF9g8iip0lq4gc_kv3MFCTyPl70Vq-zG1bqtkeALS7DzffeMhu4VA69S13i-Nf3q1l-HHqgcqOnxojL2h9oTw-K2cxrBZwbaIHiQRy6zPgOz-HwgOJlRIsZqA9UkTXFOMnKIK0jOduwvxfKP452dIQq6999KDvummwptJlOoQUi0wSUpNAe0qkQ5VCmYykzSuxqQbPPA9odZ_7Q9SmH-yNWI8Ea3gnB3ZN6Yceo8BgqOgNF7Z5o5UpQu0i4kgXNCgzTTfXXAdKILdKYFBqM_QiChAJmSV76IHhcNxDg4vdxB2BosvurMa9UWm9TOUrMk-CMU9_vRYAFofZmBEouR5lyW57ZmPAnic8VsBG_s0_1oIH5iEuWZzmG9h_HSNsY9AHqMyLJTtk_xFA1aUEnElMJD_DxyPYpgKfOyr4ZSH4WOF0k56Ku1z-Exi6YpnkBmsuqXe2-MYzea-t4xMF8054fEItlxlYxePUDCj6lTNC9aaeXVTbeQMuoH34uqKk8QrylY8jpR6e-Q4BdmSMpzbJRn4o_3R7RrsP8S0gfQhIEkDQbmLG_B-geJA3M4nxdSC2hm1XpkYarQmhnwcE7wtZV2fCxSqjyENMiY2aoORhxcSt8E39FaJR-oo0qks46sfm6PfVbkAyd3G56CqFOYpurxLiqKmU_3f3BvlbRH7rhDZeBtwSyckwZ1yb7AeDin357OulFMSUHufI5rLYHus70BnywlYMdNp2JxbxFcgzGypmQvmP75NZTwCqCVU0lUdd8YR3gCU5XhFWxQ2PAehOic1c2jj3bTG1-Y6lw2zEs3OTt6aWlmlaMhYlit_nubmJPFjzMI4PM275Cj79jlPBOGaFFtZMk3Hknh3P02g4OJjTRx3txkaBGE0Fv1SSyO1C2b1JEWmyZ85DI-d12tlkeP8jFycxXUHNQ2F7CWnpQkssopBgQInM9Y87warMQ_tbH5Qu-IAT9Xk-8nJiU97xHLEj0oNxg8tG0nUpiPgK4eKZxNFoEIpqlFdwKFE20TyhKAkmTmN4bTrqcwrkyFb8-iP29dQFCfbjRNsioSVxWG06_5iwWzCHEQ6qmmVAnI7cn_H_qcvMZLBN69gOg9h2zz7CcaD4Oep03plcn2_mOfMjq8EWx7-NLaMae3Ef-Ij5OVkKnhdcG2C9zdwnb07Qao4EG1mChGL-jrZD6eqJyM00nSubk0vacIU93Qh2qiEsDyHvbFZakMdt5TqxrQVr-HLtvT4WnociOL1upcTlHJYJZHHDWhacgTqszqGWyxm4zbyUP1qFMi2fg0LpJbBsmC-NYAg_Q9jXIQPoKcqCsKynDUkVfLnyXzGZe-VdG3YPDotPt-aGE-lyx4-wQlE-iYGyJkxoGxeZDXGAZ1R7Q_FuUt0FJydVQXTPxN-fyrDZhdf7aLGcjXpuYE0FJovdMhLMDCN958SHdROyglxSxZmwxdNgr8rDtKvZ0ExCS3sjhUbLB9btdC2eILgicpC3bMVuVOljgLx_n2oDl24-lKrA0_WOk_vlPxeHxMkV5RBAHSkJVKzhz-wrGoc6ZtMn6fqIxrSrZHe_8L7mU-v-Xr8NPXU7ayQ3zMfVyT-6YIouMx2-P7CBbvylvpyL-bGMwPf38pO8Y6Mln4k3Ie6NFIQHuOqlgD-_04l4H1FCckAadqmfQUwgEQh1dC_M5WT6xVDNrbQRt5OupzTugz-n0R1xrogwbyxhv19pI6vdSKdbchbgM_6Plo_Efz4M41F8reak9jv13nxz4YBfWv6-sB2CqpMjC2kPGV1503MSCmvT4JomciPXkIJ18Y0JrJkqn18S75ZPp_BHW5eY604ExNe6SmhsTQXB-z6FN2GG-LelABJkedXS7vKaKJ_A7IM_jO4DEl41Pu9I-7WcRU-bJGdiAIQLXDaiwh-UKpST8tFL2xUBvCnhxyo5yl00Q0-UmHa2jG82APPIK7WTA80nH1-gF9ZAr27Uy91z6nkBfTmSg96rokdZHcGXeDze9Rz90_zBA2wCXNruNUZIxrSEskiek6NB6E1YBAEiyqJGwXToKbZifpB3ZkoDtTuO81WdMX0TaV5qGyaJ9tiT6-d9V98gi8gDtAilBKY0Bh6890KLsrggDWtLFSvu9obsBRV6YQn8i82GXtIMAd6cFh3dOEo2FPZ6DiS7SunO8KGXLn3vJGJZzeSvX6mYLIPul1yONf7_UViFLe_jBBjIscBCS8bDBDiCboel1YQP2Z6UthUfVjhpWl3_H3tz9LQ5hoJdnAwlQRVwEW_ShjrQocvvR6e8YbAB3Bb8otpnr6U-CLDdEE6fUMuOBvF79dfjjm5czprGnGH5ELB5YP-ZNr1iLdZLwXCiWlaLq95mpw9vm8TFwG0fqddy1XDjUqH0S1KB_3tPS-J_3QbxZBfOnnJj_IAXyxvN_R_PWBbMkpYvPbqlgdq85jJqDocX2iBh3OYQ3JBwN5vMZspnAHOI2NxLQmdUIS8jecohDjdrf_-QFpKVlHWG7kYh8EZnMb3Lhk7nZCQK9kqrd4tO-0daEfXlpAZ9rY0gXVv7mOl8OrzZi4slXtxG3o6KwsA9bC05eXwGb_6NQwiMZl0Ngv_q7c03EiXdMuX-fPgfn0nXXDv_lF2D7ymLgis4Mnz6P5QOJaEsql0AFzx9IMCcFFDozlNEF9mtLDHpKJJwNUQGI_pk7CIVnaN-wqsjurjDw3grBtxdtH3ZiafvqWtbHWAbTtKj68yBSYjLh4zKsPOjtFtgRUBbTTnjE8WcLMqerPGqv9zfFMtDFUZz8OHXYvBgc0CK0OVE3HmuAeJiuu600GFa31-TI3KqSF66jX0vI0kv68BiXuAwXI0VgE5KQdvvfZaW5sYsu6CDwZu2zT5FqmIoA_s_24SWclOb2VfOiW0rtf9ggYcdee4YPpqDiDg2Ybu0BD8WeUPpl-m42JEPciYNok5APdfppQDzOE9XX5oImYWH-av-zuq8ez0dQGzHoyPT903Msf9SGHIw_GbzZcuJuo9yAI5t3m0Ie5P2Epnj5WK5nBHy9nLA0D1jUMtKGTN0Pj-OH5Vza4JtIQ61NSLImGCRtu8gi09n5jCWoUpflY5FMZR5XP4Ove-e7Ecx6TpW4uYBBCw9WO_MsNR2jooSYEYriZsAKbh2-mK7s-izghV8ZyMUgGzq9uAQwwtIAijJqk0-0-zZ1ShXYLLMUoM1ZgCQqzvgrFw2TGN33mn6IKfKWiraphm1aKRsqImebK7h1p0nfV9X39UcyORGWORYXbAbMCwh9wjvSczznrCyhJuAe1ztRZ4kgdL__HHznzRcODQeIuQhcmqGVbG4PknQHtbwzccwctf9CoPfHw5qMgeEbuSURdWS03OOPWlCc8fJT4JI71Xz9SbetRbVCUPqoM3Uzr0Eq32W43sagFitosfd7zqbq6-rXNNaBTyJg60ByS83zhVZcsNPo-SNmg1vFA6qeV1sUnO5hxeO5HF91dBUUsuoYZuxHwzAwCalEptVEMwu3vbE1elPcqpPkeKC2D5sF3Vdj3VNGHbWI6Pdl1Kquk39MpDTGfeFhc32oE1xaccf93L3pxxovucfleS4hIo0mQtQfAo1cKs2NW1mxeHHstUGSUAm-13dF0v_yHnBYExjd8lT4wkvXAkwIx_WukpFD1fDeaVMawJghYS21rMVyVIE9KQ2kCfFzgx4an9CuDsWTXF8sjwHGdbSvx4zfGQIsL4JWbpwH0egUaP1bubX6sMS1lSnVT0bNxwBE4s-Lsf13fh7O-FF0MXWvRlYIejb9YMaRR40FmIwENU-n40qZnx4_S1jWRN21uyppcXs35KFq3ukFUSfTef52nAXVX4sU4q-bfQVN0lPvZBxkOwgype9UaPF3nPLkCsyS9iioZhTzQSyD2e4woqbrvDrA2FJL4UvJqH0VcQreHS-q082WfAiReGuZG7XJjTEHX6Trt9gKaPanvx4pV4dLD07-bT_q6DHWd6PpE_eiCBjsgwB1GBqzSEnOpPXEG2HY-XP_tCwyC3goNthj1rDImoozKUMNp-4icNqe0DIiwgQ7GB3UNbdC5ExPPYgMtNZUswv6rO2ea0hrVxIJeM-lxBZa8ZKvbIZhu6HIEnKzoVioQpQQUweE_t83ai4XCuBdrA8RuUPyW4JwXNRYJeFLfN0BrKQD1MimkcQ1oIp3ivIiMbHeKQBIh4Hi_6np222OkS8tqy49-W3O3sZsiODym9iZIRDTMyul5NfiwmqnMboqFKVlPVI5osdvtCpai5BnaFoHYKfSot-DkrdeHytR5jy3LPoTDmLmAVgVdZmGTOcp_1Tt8fAOKV6y_DmztW3FMlaABlGlrq-NwBHLklnGW4bHGgc5O1btAhXBFJ17ciF2KVXjoT09rdM9WZNHdGA8UC96Ccf6PNxtyJPBvAxb5nH4f7xmzs4gRlfCz__56HBx6_jFRxCMt4n-icm0LmHFEGExc1pfV2-WiBLcf7nmE5e7VSAp63RlA8qxw_KlpqqhUddrcX_8w_A_mjFSTIsA-GwJRkPhCoQP7kNQq84K-wUNyUuzE-Z1ZvtUaLTRVtkX6xmCpVE-velH8A0BKYTDC6na_MHgY3wcSoLF-buK70l_CtQV_QvM25rWqDCqvLJSWIusi5gOEn3K-yODCk9cRUlRcsckP0E0yKrVKx3EIHtNSNASDQJmqU-ckdFwzkCSarxHY1k3W9eT1Bt1pkMCdUlSP-wmYP7cEF7zob0Wq12raZQCZ8kAOg6ZZPDGdBofcSXOnjHfgpBD96rsfFK2R9zTXTuuwHMgLmsCHkvBYZ6LAm-S62Y0ijMo-codpnyb-TIoTxwbLp1A4JqoAMGcK8by6W2v4xS0ro0blVjVeycFQPMqdNY-xax8jjbHevvMbtqeLu6C2z_Y6xLxY3XNXf7xsY5lsgV0Zwzz96clr7hsvlIQxJQQYrB9q17mNc5x99t1QA7AIVOlL-8wEcwnnh9CLqBwGv1pwXIW_v6r73R2zWYmbTLKyQ0hbl1avH-agR7uimXLk5g0slbxMdYvm1l7Dii1qdaWadnNKw3V5oqOovuYWlvPI5VH0tOcsNygqb4Z3FOmSrkdSZUWPlG2Sle8-y-E4OABDjLXL3aRpxGL2AhdbV8QePHzGaOyrB4wqZzXDu7QMwVaEzuqVx2FDn_WzZcrYc2mRf_ZE6x6p5tDchEGc99yVbm6WVQJiouGvFrUW7ULxAcbit37Ns1i4olF1e5CjhvdofYaj0GKPECBdj6n4MizTeW-MdeSa_6fKwANZD9-uy7jHritsA6fNHJ0bxkPzDHfHJF3zIe4vKgzQ6mkNX5wva0OX-SlUsnvEsD6nzG_iQXZILF0epW74k48v1J95U2esnIpJ0fFwPWrbXQV-w1ZV3ZZ69qbpzQIsAQjd05KV4msBOJ1_m34PVR-evshTgJsCL7-JcWAncOhJJ4cWcLd9cEYdb08K7JhorfX0-BDoaPhy4ACYBZqCRVFUlrPZYQiJLQD7URu6d_HaFj4DokCYoLFAmze1IWslj9TXaVVfrnGiPiQd0Zcpnh08Qm-C6YNanPfmdH1TU4kn36xCizyvtkYWtU-_arZPDNYCB4mnEcGPcIN9xQTEf2gwmbXKza7zro7-ArGKLBagOfttpd4HL4G5cZhMFfnZdLwkPrG-coC7llYPKEEAlQcQRGh42ez0kTKfdEPMLaLMxfhPyBYpBeRdIMZ2zy_h62bo_I5oTbK7ICuGnDYtwfuFdFLvJk1gfSgMLrQ_bWwtX2_B9gOGACIacLDAj6U51ROQTZH45llYsUps7YzD9UGcgbkhn6Coxgm6OkixrfP_raXqVvGhiQJlXxhLU0Gf5RUkIMu2mhCLXYijegIuZXtwyF8J_fecarVaiJKCSLe9u_3VbLPd8Y6JTUWTRj7uVibJjb9yHVSHJyQhoF6xa2URjEcthzQXSQU5a2s5uu1_e_c5yYHkH1mvU57n8WOIZdgv4Px3DvXv3yubm2XwmM9qXHWlhCNLMbeJQjZ5OfmvWp6hS3bXoj0AHpAqUkqSN7OPvn_2Dd4Lqw5FZS7nAgmuOBWlceukazwzJgAFkoUi_SKA6JKenMPsn9MLGJu-BLBSTtyH9Q8c0nxp50saiJZv3QHFkGySgdcqnCSSF4knXbHJrocQ9pPO8cLi0bq2W613XFeNcq6U5JMxTIyl-snUo3DhfePoNkLeRQ==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "I8FqadjrFc2R-8YPufbKqQc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3875,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 98090,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 97762
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        }
+      ],
+      "thoughts_token_count": 2484,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 104449,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "So we'll work on that."
+        },
+        {
+          "offset_seconds": 1,
+          "event_type": "inactivity",
+          "duration_seconds": 33,
+          "description": "Tutor waits on screen; placeholder image and tutor video visible."
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi Edward, how are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "inactivity",
+          "duration_seconds": 10,
+          "description": "Tutor waits for a response."
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "If you're able to, you can unmute yourself or type in the chat.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "inactivity",
+          "duration_seconds": 41,
+          "description": "Tutor waits silently."
+        },
+        {
+          "offset_seconds": 131,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "View switches to a black screen displaying the name 'Edward', then switches back to the tutor."
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi Jaliyah.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "How are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 142,
+          "event_type": "inactivity",
+          "duration_seconds": 6,
+          "description": "Tutor waits for a response."
+        },
+        {
+          "offset_seconds": 148,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "If you're able to you can unmute yourself or type in the chat.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "inactivity",
+          "duration_seconds": 49,
+          "description": "Tutor waits silently."
+        },
+        {
+          "offset_seconds": 241,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student Jaliyah's video feed appears on screen."
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "tutor",
+          "text": "Hi.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "How are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 250,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 251,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you know how to share your screen?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Okay. Um, so if you look at the bottom of your screen, there should be a little green arrow, and it will say Share.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 304,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "And then if you click on that, then you can hit share and it will share your screen so that I can see your problems to help you.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 314,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "And if you're not- if it's not working for you, you can just ask your teacher and I'm sure that they would be able to help you.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 324,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Which one is it?",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 327,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "There should be a green arrow at the bottom of your screen. It says share.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 330,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "But it says like whiteboard, website URL...",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 334,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "and it says iCloud Drive, share camera, photos, and screen.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 337,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Oh, you're gonna want to share your website.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "So it's website URL?",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 344,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Y- yeah you can try clicking on that.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 347,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Or, it should have like a window. It should show your screen. You should be able to click on it and just hit share.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 353,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Says input URL here.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 401,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Um...",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 403,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Oh, so I think you're on a different screen. So if you look at the top, you should see a part that says screens, documents, or advanced?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 417,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "You want to hit on the part that says screens and then just hit the blue share button at the bottom.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Do you see that at all?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 429,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Wait, is it four buttons on the top of the screen?",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 436,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 437,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "And there should be a part that says screens, it's the first button I think.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 442,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "The one with the question mark?",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 446,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Mmm... No.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 450,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "You might have to ask your teacher.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 453,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Raise your hand and ask your teacher and she can- he or she can help you.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 457,
+          "event_type": "inactivity",
+          "duration_seconds": 40,
+          "description": "Student raises her hand and waits."
+        },
+        {
+          "offset_seconds": 497,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "What's happening?",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 519,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "She said... I... if I don't share my screen...",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 521,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Who's that? Julia?",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 523,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "I feel like you are all missing something.",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 524,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "We have to like press the button...",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 527,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "What do you mean?",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 528,
+          "event_type": "inactivity",
+          "duration_seconds": 10,
+          "description": "Teacher leans in to look at the iPad screen."
+        },
+        {
+          "offset_seconds": 538,
+          "event_type": "system",
+          "duration_seconds": 3,
+          "description": "Zoom 'Screen Broadcast' dialog appears on screen."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:54:19 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=95944",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 9,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"No. You may have to ask your teacher. Raise your hand and ask your teacher and she can... he or she can help you.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches to the student's camera showing the classroom.\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Sure.\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 9.5,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 20.5,\n      \"description\": \"Student raises her hand and waits for the teacher.\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"I feel like you all are missing something.\",\n      \"speaker_name\": \"Jaliyah\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"What do you mean?\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 5,\n      \"description\": \"System dialog 'Screen Broadcast' appears on the iPad.\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Start Broadcast button\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps 'Start Broadcast' on the system modal\"\n    },\n    {\n      \"offset_seconds\": 56,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen sharing initiates; view changes to iPad Zoom interface.\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yep, it's working now.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 100,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"from_window\": \"Meeting\",\n      \"to_app\": \"SpringBoard (Home Screen)\",\n      \"to_window\": \"Home Screen\",\n      \"details\": \"Student swipes up to go to the iPad home screen\"\n    },\n    {\n      \"offset_seconds\": 103,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, I can see her screen now. Um, if she just wants to get logged on to IXL then I can help her with that whenever she gets a chance. But I can see her screen now so it's perfect.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"SpringBoard (Home Screen)\",\n      \"from_window\": \"Home Screen\",\n      \"to_app\": \"ClassLink\",\n      \"to_window\": \"Launchpad\",\n      \"details\": \"Student taps on the ClassLink app icon\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"ClassLink app loads and signs in.\"\n    },\n    {\n      \"offset_seconds\": 117,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay. So, Jaliyah, log on to IXL and see whatever Miss Lee has you doing, okay? So go into IXL.\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"ixl\",\n      \"details\": \"Types 'ixl' into the search bar of ClassLink\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Can I get like five more minutes?\",\n      \"speaker_name\": \"Student (background)\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"IXL app icon\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps the IXL icon in the search results\"\n    },\n    {\n      \"offset_seconds\": 129,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"ClassLink\",\n      \"from_window\": \"Launchpad\",\n      \"to_app\": \"Safari\",\n      \"to_window\": \"ixl.com\",\n      \"details\": \"The IXL link opens in the browser\"\n    },\n    {\n      \"offset_seconds\": 129,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"I know.\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"target_desc\": \"IXL Dashboard\",\n      \"direction\": \"down\",\n      \"delta_pixels\": null,\n      \"details\": \"Scrolls down the IXL dashboard\"\n    },\n    {\n      \"offset_seconds\": 143,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 14,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're just gonna pick whatever math lesson you guys are working on today. I'm gonna go um check in with another student but I'll come back to help you. So if you have any questions you can raise your hand in Zoom or you can just ask me when I come back, okay?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Skill F.6 Greatest common factor\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps on the recommended skill 'Greatest common factor'\"\n    },\n    {\n      \"offset_seconds\": 149,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"IXL skill page loads with the first question.\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer input box\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps the text field to answer the question\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"3\",\n      \"details\": \"Types '3' as the answer\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps Submit\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, I'll be right back.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 159,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer feedback 'Awesome!' appears.\"\n    },\n    {\n      \"offset_seconds\": 202,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Video cuts to a black screen with the name 'Edward'.\"\n    },\n    {\n      \"offset_seconds\": 203,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Edward, how are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 205,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 21,\n      \"description\": \"Tutor waits for a response from Edward; silence.\"\n    },\n    {\n      \"offset_seconds\": 227,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Video cuts to a black screen with the name 'Jelize'.\"\n    },\n    {\n      \"offset_seconds\": 230,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Jelize, how are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 232,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 7,\n      \"description\": \"Tutor waits for a response from Jelize.\"\n    },\n    {\n      \"offset_seconds\": 239,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You can unmute yourself or type in the chat.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 243,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 33,\n      \"description\": \"Silence as tutor waits for the student.\"\n    },\n    {\n      \"offset_seconds\": 316,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View switches to Jarianiz's camera, showing the ceiling and an Irish flag.\"\n    },\n    {\n      \"offset_seconds\": 317,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 320,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 321,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How are you?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 325,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good. Do you know how to share your screen yet?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 328,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 329,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, could you share your screen with me please?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 331,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know...\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 339,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Notification 'Zoom: You are sharing your screen' appears.\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen sharing initiates; view changes to iPad screen.\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"from_window\": \"Meeting\",\n      \"to_app\": \"SpringBoard (Home Screen)\",\n      \"to_window\": \"Home Screen\",\n      \"details\": \"Student goes to iPad home screen\"\n    },\n    {\n      \"offset_seconds\": 344,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome. Then you can just log on to IXL or if you have questions you can just ask.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 348,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"What are you doing? Do your work.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"SpringBoard (Home Screen)\",\n      \"from_window\": \"Home Screen\",\n      \"to_app\": \"ClassLink\",\n      \"to_window\": \"Launchpad\",\n      \"details\": \"Student taps on the ClassLink icon\"\n    },\n    {\n      \"offset_seconds\": 354,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 3,\n      \"action\": \"type\",\n      \"text\": \"IXL\",\n      \"details\": \"Types 'IXL' into the search bar\"\n    },\n    {\n      \"offset_seconds\": 358,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"IXL app icon\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps the IXL icon\"\n    },\n    {\n      \"offset_seconds\": 358,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"ClassLink\",\n      \"from_window\": \"Launchpad\",\n      \"to_app\": \"Safari\",\n      \"to_window\": \"ixl.com\",\n      \"details\": \"IXL opens in the browser\"\n    },\n    {\n      \"offset_seconds\": 359,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"I am... IXL.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 401,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"And it's hard.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 423,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Step into the arena button\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps 'Step into the arena'\"\n    },\n    {\n      \"offset_seconds\": 425,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Enter the math arena button\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps 'Enter the math arena'\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Edna likes to go for walks with her dog. This graph shows how long she spent on different walks.\",\n      \"speaker_name\": \"App Audio\"\n    },\n    {\n      \"offset_seconds\": 428,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Like it's hard bro.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you know how you're going to solve this problem?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 436,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 437,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"No? Okay, so can you tell me what you do know about this problem?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 445,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, stop touching me.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 448,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, are you serious right now?\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 452,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Where do you think we can start?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 455,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Stop...\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 458,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"4 hours?\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 500,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer choice 5 1/2 hours\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps the option '5 1/2 hours'\"\n    },\n    {\n      \"offset_seconds\": 502,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You think it's 4 hours?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 504,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"5...\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit button\",\n      \"x\": null,\n      \"y\": null,\n      \"details\": \"Taps Submit\"\n    },\n    {\n      \"offset_seconds\": 509,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No!\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 510,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Thank you guys...\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 532,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student stops screen sharing.\"\n    },\n    {\n      \"offset_seconds\": 533,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View returns to student camera.\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Everyone log off.\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Have a good day.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Have a good rest of your day.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 543,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"You too.\",\n      \"speaker_name\": \"Jarianiz\"\n    },\n    {\n      \"offset_seconds\": 544,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Thank you.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 556,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View switches back to Jaliyah's shared screen on IXL, skill F.6.\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Zoom notification 'Breakout rooms will close in 2 seconds' appears.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EptZCphZAXLI2nz8mgkZagarAXx8gBPOFbVOaC29y5Ji-TxTbLZsxcQBeVXFTH5I3L_aqXiwdIyQ4dr_XD3F7DCOPv-NRvG8x22b-rqJ6eDZlNE5ZWsGhefZwJpuGFbbC5n6JBdMYfN8LKAFWPeJufGff8E60GABXFiiIjdF6a7socRsvchaFPHel7itWWPgG5zhgvM0n1bpjECh3NCyVnoBCKz27bofVrKXwrbYaNcM2uNZGTVkCOeYK_GN7K0xrnNmWddWE-xPBEIrLdb0CTn2MYRn-Q1_9QY0U2MkE6lEK72hUCZTB0nIYYK5s2SSQV7GXNWsueoLQmR8Im7WmN7KeQH8D4w7jSiRTk8EKZbeuDGuWTfKYjn-KQNmmLX0gM6qKPxRstAQm1ntYyUkZoB_pA3oepdVmhFv27zaOx-d2ComoF4BLGsZwr6m2-CBbO2EyYxdHH_P9SbJye524lnXPLyCcPibmCQ1V7-y-Vnr0Pd6I6M9H2nQDaxjaZ7Q7bjo5sH71Yqv-EOMgLS2aEa-adwtNn4u_tHug368Bb_M7MgueVInj1XO3GWEP-Po4e76oPJD50rIVTT6TzIuHEPNhBkSm7pjnZ3WLCNFSoPGwOtXWaN_lDkfHBLrweSJwIeZfOTXzyF3aYgi3731r8zPM7B9b6R2CNqzCJXVc1KmdwPo7D75NC6zEb7u9UWkvZ6I64SXdl56qHgblbm3xsLkau3Y55p-Vn46oBEgSJafF_8kYMT9cgfrFB53beQX--KMu3WqLrK4iOINLAEm4Ric3bOrM6pMbYmTDxzt1LUaTwTFyVhWXbQN85lTvl_iIuR-Gux1Qi0fdXLiDeotnkZs87hRCsEp6TgqoCmhDEFas1nnjKBYQpFdFLKdlJi7bTIwp_8-A9m1wObaHFke3UghKrFcSNZGsSwsj0H92NomqkypNFGEjb6ZUgQapN_Zy_ya6jjDWlDZOwp1rN2lro90zH_hmsl0lTxdIqLaKKe3Tyz-bcKx561G9g9oZfBQ5-y-hpkhm8wz4AyLl6Xf8lpArpPWwk_43BekdxC7czUxFeIINjcK7vOlBUdkBD5sY1FIy0nOGxXwebBAE8Wb01-YslmaFLarN76tzJUcbRKVYCnOaLPWJ0eNP4FHIFrX-SvGDtUEeJ5zUemOD-Jfbv_sR7zlbcf9b5Jg5kCnHgT1QDtg_a7wPA33hFQPgtm2I90aH2kC5DgMMhKPWJjecE0rseEdu9D7tyPO0_-D8Mmz8CXKgFP2kPtlHvDtXGq--H5HdJyxsAyRDEKHsZ0r9zcOaqlH3yUQew8HusFqplAGq8r9wwaxGWQPh3oePhnK1AjjgLtksqhLqICZ_JHhMMv2tcTG1-DYdo2O-r4NOD5boCMgh1tr4kItfBkDxVIBuLI_-nzPCeUudwIwk3yP8YbiX_j9J4EI1GuR6qVRt2mJGK90cI3bDTlGLCePvDDTEkFxpLHhNTTSLi4s5DcwLpSANevL0oFfJRZThQXGeEsTru-AoYcEH3hF6EN8vUXoT4mxcjlzU8VU7uXnepHF1pL6DL4zGqxe-MhMrZD2ILowGoez9bUk-2Z8IJvUskV7lCMzQ0flYxhkDTyGQW_sQsufSNkIg-Cnx2A_XpSFT8hZUa4XMwb14wx4PkOD6Qqh3YV9lvvNXnijI06EyZuNF73F09uA3y8I_M5spQNBLQNoOdBunaKzydVrU7GAAqLlbniFAa4x_awxWPQBAKKFpYI26h0FTLiy78w27yVMvTSuqvnoVc2ayJX--_CKCkoQqo-63pRWvIxL2FaGEMeslhiqEMXaMibj07c4av641PDvYg6uyPb6TxDZwggYZKXzWncWWoxbuYkhKvSB3u3uszLn_A4s_3J1jMzAlKCBNfio9DemE86eeZLRfAr5PUan-uq_R54utKOtbQ9p8Mum9sAWJGV7p60s9pdnMyTcNfoO2cDi5uk8u4qCK1zik8lDzhB5ArSJRwH0rEHCIUAIhcGYb-p0cZPipos-b_7sYDcJsjymFx87MVr2QCAl7LQ3L_uLhgkzgZlpFsEDNcO6_KF-HsnuOO_oBUriyPgQNaQ9VVLyjjd1F8abhgWl7WrVRi-E3-9RX2cmM-StXfUII8BKwUQemqAAxU96rhVudfm4VTzhPn6Zs0XZZ-3Cekx3g6IWhVhl1E6bvftyEcZRpDlCj-lNsx5YZ1hrh04n6EUMBPOoawswI3wHBPMSI-z4NETclS9hFKkXb2RG1oiCYj8WEWm3dtASH3riJoTjqVmAw9l-9uEzR35sI-RkfW3xCh5nvhUFZ1NuLvEADkVTC0SdBvhgQsr2qeYW84tQipL6W_CoYKdn8r8GFptOTc5qF7QL6PPI2GwqUB7Y9BhKUexJMFMYbDWKu5P8_EUcVksC-3hc3yuRg2fGhtQgEN_cbgbMXkjpgMEc2lM3TzNQMQDs__vaWLURiU-Hox9Vd62xJ68DK3qHhjji-JsOhTWdR3tjZGkkqhajDilvid1rQwnxMzqDLSNuudkJMBamNVt_IMRjoqaPzsSp7OM7tZv6_3Zc_Eg-9uD31Mdqrc3HROyAkGYiS3C2nfZUDWOuXS_cq-KxlhSxBns2v0nig94fxasBG9A7QATO3_nQqT86hEulyp6_1VjM5hrYX61xCWpiki3xaj8uAB95zHQ2mADAeH2Dm3CBXFH7Vd5F6OUizV5f02AWxH39Co7i8FITdKztTkWy4rbA_1UGJhqtmaaljh81SDN9tshYvtbwQpXpU6BtAPibTZV26s_H7-O9H9tE3zWejaKi5KOh8rf2t7M-RjbOgK7nchopW-7hNe55Rx01NJE9oqFAHm7L9LNOoufoKk5TBBYeMqvEq-KbvKxBhxy4_E0vXR8i74Y_TLTdQU6C58vphvS52RD7WwGHDH647uqlet6UD1VUOjDlABPh7dh92hSRimtCIINs4lFBAhxOduG4c6vMQbhkCkt4n854ho3ixu1zcP6uwmZotlCr2_mq-xlu5Vy4-La4q4Xe2VAdhRUAWT06GAN0zgWZtArztpQopw0TPl4N4UQR7M7jRuHxgBPGReh2rOoBohLyqn9s5TcjYLDCCuDqW4l8BSZ7y5LlqanyrwEKWksnuAFwsz4psrd74JxmplUwfnccDzBjdx9uV9tPQx-WWiMnYocquVlp3MstDUhxo7xAx__RivQClC7eTuUqA8bwFnEg5Nt8umKHIkcsy4BFxvc1hS_dpkiKkb99j1v_gYWKUSPOF-wD6o0BoxTcICpZIE7dgkdYWOdb-tpK1xL67mBuuFs18MUwoRyOj_R8lQTbRQWgv3-HNJbxRtYGNNn2A8jaYA2I9TPiuckD9lKbPaJaQ5tVX4fj2rGLRhWgknQBecAsu9mnHsW2XAndcS1TdUxzOZXP_iE1kKzpkxY2oU006fYfPT7dhMiw2vu2zL-BiGBpOx7NY0lOOHxNQCljS8PJg58EJQiQD5BMD63MPkPX6k9OTaj57K5NzAKsjGQqrmMRUYgN5N_HXZaXFX6zbzWCmCCmojxPn_MSFMgvMUgaTCV14BIPag18ePF_ssJtBINmVnlxflJb0nUeJj-JmE4kzAG1MGbxOHpia5EmtpSURsoBMQ7Ev2ZaKFp1U-KpJF6tbQCYIPodtxX4tjlSdEAHKlkewBK1nWiWP9M5-YTnaAdm5KlnUGd_xELXMsiTNuQGqKpF3yRG1c3b952MW-vwv5Z4yAjOVb8D0-TR66x1r0HtqE8-WZ2XBhVha34q_Oi4HLDr8Yafi9u-fPNQhceh_cuGSzI_haLGWVLbDXYKkAj3Oucta668kdMF_jrPMDf-OurcmErdRd0qHIp15j_cbxiam46tFZoJ0zWoF1K0U93LpH5hWoWW3usE2daZKWPP8YhpiVlRcRIQw-I7Gbcsi7FkJVbB5woHkzuawfE-eruuGsSg97itPoMS7H049VXZalIMgTlI8RRJWbjROspsZIWO4rQnqqtjwR5yjUmhSAq9EgvPGFo9nhqVz5M7yMTeVK-AQa5I3jB01tTf9V8gKNrP1kpnHVKGRhlP0Lztqo5wQYzlg472bzXPZAAOv0bQD_3UrfwQBO3CCWk6B3uE6kIbm5WDLfnNkSlGMJlO-uV778Pv0CMcppyPhL3KSQYr-F7T63xhO6ObWQsrrLb3ub91C8PuUDk-BPxEjbHdcYCimHMrU5ZVlCh2QvuBmn926Ii3b2MnMNBT5bG6riJY4zCaUyCQU1y_ZgGspIiBsZx_LhdRPvu56FfcGpRnRr0hmT699vqbgOk9YY2_PNOFet662kjnxSxUUenC9RMuxoFDEoOSeksdxFVfRMXKPFhKG3CS3HtBdCPcOlhIoTkmb9I3NYgWkiBaDrgQtIFVkJXI6kkj3DXkzuB4Xq2ZxzpilhlRsjARiOh5Zimio0NocBAWZc6FylDn3DXzlyxkZ7c5KjpBjhng2m_QAyPQ-AR2D7qLzRHmucsv0KVwEHR5y20Dv7yY1ETIpWVF6qeOnBC4IUrpQTq3x5Quty72Ue-XOAEv_NlkIYXgA4d90sar3Li4xunLhGWtZboD710WTHiQaaHcJp8wq890HK_Bey3gE417TT-afR7OmGFhPzydjnn4RrSNg_CaXQhmS3VpE_IYtaC53iytcB9jwzYF1HEkFMm0gMyq4ixwntDXKtO1Z2lwjP6V78E8eN_3cYiMdWPFihvCo1XI6zjXafhgPK7ATJzmCiOkUrDptfvgJ17OB4BK5dLbQaWeVdwHWIaT-SC1FC4ZbHHGDq1oFxElaRZDJvlUzhu8B40bRXo0zqrL9KMA4HLklRPEhLleBPdPaFW8q3omAlOOE27pJRfc2wm3SbTXz4YH_tBM2fc2Ar2xLbD4AuIjXD4RWWz27xkJHU8pEJd7oH7VTlZDERWk6AGpjyR-qOHLSsATNAApN7_IQDwAN_a3croodBUGk3-SvNJatgbhI2cVqTiUoVvPHaUSzzM2xOh5c9j-th66tCdbQmBHJkzt6gTIAXtpZ5dkzQ2S_PnNcuQfo5yN8wwSnStYwfGBK-mRfyIDkq5W9Rc7MKiCBYudCJEoBQb5tvfRkvhtc9LFubOuYEIOB3bO-k8sxP70cRFIPxh55hIiy8p_u-fWdZheauFnVQxzZvkioRospFbjnrxyjxXE3kHKqDpI9FJPQxJwp9jEld1mm7afOCjrF-GOwo6jp60jvsDH9dzN-ippRuJ239qZK1a3_PO7Eq1GiFpjid3wFq1mDAFMbC2853MV4fIMwkStaEuqSeO7xYSgPkNuSE4Hr2109aXtxXWDdFyUdlQkr7NMQ4gW8i7wX1tGdfbXuZekqANbrTXR0sdTI0RjQ9jdYQE2Zx7Mfr7HvkbXQtWRmyq4nvITXjhrP5-OXyvEQbip2A8pNzp3yWOfxJ_8C9ZBbLEOjnSkP3Adw5JXK68ZN1UzKnQgtbAqi_GLGKUAU5dqsIY6gB-1E95HkgyNKuCVGBtsE6Gj2gTmW6Ilad0jVwjLrYjNN3SwRfreavYvfjm-R4StyopVxCskRTUTewLbqcDwdJZvWHrOikXhto1TnExGn3W-TrGnTef-bNcbC6Wp9G7YHfEAfZ4e5dhhGZyII5LLZTh_Hom4JTVwUR0DvYzpsKMzo8-edlvVCVApHMOikng_odY1PYU8G6WQPhrgsntQJAULY2KaxkGfw9cXUOPqp_x6OQFaHsgxmr0tpm_7AtG1XVpfJj6ZWZHSLh5vuEQqregJyRexKDdMeQnKQiUWuBxOnE-fgExxce8Xf2eX_zwHPPNkJnVJCv8f2tW6fKMKfr1hWN4N2yafbAjMUU7sQ6gV9n3Cdc4yk6isFWFUPKC1UOpYipCsCmldeSUjaI3Nm4kBDJq9wNpT30uSpawUZDgRkFRTRDk4gSdbgk8PtoXk6Rg20NIYpb8bkf3yHsr7FHFqFVtvMPzHOVxZ1U_ZKQal0edWaE6eypH8vlNklBSl4vJvnGmafdT8lAynfPVPqZvrpFlPp8J-QvL1LnWP41y9TxW1PND9KksRzsGgJuTsXuVlU9KWe3JyNkFs2OzGaQRBsx7t6nXEx0Ag9vHEl2TQ1pFkcy16xVoNOJK8q-Dx8t0YZVPhT-et0stVa23LVQFx1cQ8CbPlO8SY8WiEzTGlGgZ8KiLbbbW7BUFe1uNtp6zA-aor7QDpQ3DUPMrQBD0zuVqdAFVwFmZ_V2_6VqIbiNP3YarwcPZPLTd9L-TT8bNpJRmYQPykcsMGeFGTleGbbJdSwjz_2Uq5TszYdHz2QwbKJacQqHRs6YBQELvaIqH3K8PL5zFYYUcAhMAz9oz_UT3tBdtUhAiTDvS9bFsW2nZQiZXO86mlB6GYgp51Y6ObrhEF014E7dns6MshwbLG4xUiH6Q2fWhFJuG1kDIHDZF5p9GAG1uqWAAAHceZXomfPtFBTyKuC3XUFv9xh_f8I_mH6tV63AT0rvg2TcCTL6Iy7sHeM3Jdj317KUdmRtdG80i3ccAX3_UFDg6FQDP14obKKnUFTWXUuDx-4ejVxdOtj-MDl7xFfoQLciiOXiGqMop8SDrLlhB5CqCAEDyxi5jdxCSt4Weifz2K3A9mhGcor-a-OTgj3OKCwa7Z44XrMEUsKeQl9zlhzs6lqzRqVoaWp44Q3wxqRfX-Q9Zg-iU3VUk7kVBwHcpCFNd693xJrZOoH0hsj-F_CHrlmC07OTgKvcMyrnOnQW6OjRDMp4Y_Ser-pM_B-SSNFJXhs5NFmlAm8WSMnnlg40vL8BjmZML4KjZ9G9tq2K5OAq8910oPZdiHVbE8osV1kQOmD3kxdsX-_H76kE733A0MzElNlJwybbZ7XNuDCy2Hvn-YNJZDuZ8dSTL5da65D5657Obxrv3b9hFe-nfE_qCt9SaiJV5MQ6gYW8Y1zmOGOsPPjPnx1nXH5uPFpFAvLegFa8ao0h_7x6wMVksPj_KeYcVTRsNt4VbPr7yWPETPFATUUarTKCdeXw6QMvA7Y9EFYckJrI78R1E5OpBq10x4xEOy1xASZJi4SToWbWl4fOcRsthd2qrQcg2k-A2AMdpazYbbI7Bfxna62Rwm4ofB0gggrq4dU2fVGJVbkoX8JmP2TEz2j-MA8JpizrXXj4CqCBs87c_sVx0bEA8Mtc9rRI2ALlG6AdClz6u1X9a-fP4guEDLzC4OvhdR-zKPNYRbLHMqrzT_3-Ed5nVxkGjQtm0H810KSpnUeFK63ZwJHWl8yYoxi47hildZ2qUtqBiwTZS5o3fb6Swxf4X_pU_10mjByKTAIAcb8KBwWgYPmJJ1ClF8cT05Lho0ye6OWlnjfemenAamAHwdzn_y5lfpSEgTPvCoOhxwXR_2ZRVwpwlR3PHghGauEU2Y3yVmqd98NaDW25m1T4gDSTi5SHuaETZmMHcH1WaQqAIaR3Ab37VSNh-G3ULXUuGdEXY1nMSSAVkzUDkaWdCLroMlUDaTzb2-EbPfUch2EgoZ0YQVguM6oYBdPkxCdmHcetnBr13cDVpqLJAfTi01EcXQxq5_JaM1Qgj7SfJPS4lH1vYJLLhyXcMN31RpFn5KPmwKHMr3CaCr8pFN1FjwM9ODfaot6dKtzw0g1pMNJnPWTkBqtOb41hWMd3ZK3uXqfYuJtwzv6pkpsKDjrbolPgCDnFkciR77WlPybP2R_u1e-yIGDkE3QwAA45-rPl9yDs-HdubG3YM2g3k0mwHJKoN4SbRiIM3QFgx1yysZkaYIkeTZ4aixRdbEE4bA2yiE_CpuNYcZZwOWSZqrzy3vn-f61e7F8Hime_ZtV8f11dizDp3k4__dlWBp5013WJNd49mOLM16FCvOCpd3DDAgM5wKBW3wEM8ihRwizzTGILAE1HBLWXq9tJaSqsLDmBPPhvq2GXI1TSFBJioqZ5Swk1Q7sKD34fu9ws9Vz5e9uzRzNB-m42C0c7fdsqTOfFd5fM8KOaaXgKrECBsUpd75EGvaRahUqVmUQEh51D-9tPBpLn829m9kF8-NgbfxOE35LwM8ONAsNXD2hnd6TjI-knxZG3U4UlayXOqkw9J1S_9hALdkKHqEiHxDIwll8fI1XobbQHOW0AjUrv6B-bnuxVwSk4qZWlDRmGY7MOlA3Yioa_9HVFbXunN45dGSo1wH9koDvBHvGIkLFCSkL96RB8TjAmYBMm9eUS54GTq4oHLvjzIozmHS40o1lQvkr9mIfw1WZcbIiRkwtuhnLLmxJ8h0n-iUaKuZrChNSgN8uOEp-M58HKlNeJCxv4b9JEGxoPM3odvyrrGblYWRdVC8SPjpLMAOla4ZNTHlqyphDugLcqH91Ag10-hZtKbfaRadKHjd0HxyLkHKzgYRWESgTKuZn7NAr0iTT11Q0TOBiEVjcyRqIP_RwtFqy--o5yE5vJhCudDgILq1eDBH-T89eTc7FMpBGjUE3YDCF0lki0PW9ThcMbrf1vbXksfBNDA8aRz5YPb4hYdWq4I4IPxPtUu9q0wf76ylFo0EPYL9CojMV7NXWtBj9O5E19zgIwXFp8pfR0KqDZrLIV5XRAY_tIt_31IDGRSMLkb5fzY7iGRAhHPeWUzczUWEI7N3zG3XOpRzKF-PXdMykaUIy34rx0IB00-_AKFDepQP3txLYTvnbGJr8PTNwC5a16FvpjydDmsC00Mwyh-_E1b0HGWRxtmTtOFqo999CKsI0ulAwGzuOjqLx6vhtfYeKAe0ZZvJvi5eXPqpfM-GkC-WYmJ0LRyHuoQYDzI7GdPvjkzYkpjVuvCgzATbCL-mXF1ukNGbEvNDcwXWVd7-ZNWMmCNZ7kYK1P6_THiP3UmxujTO4By7fhcqBH5_XdpioPUAXfpx8C3D25zvy6NWaN392slQVF-o26R_KMaWFsL2ARIYZ9Y81ifRVNO9JpA_8M_PqheeRaT4U6bhkEGd5rR3fMCgZQ5-eUUKsaHXnMFUKIXER_QXxOYe3F1r9FmzK-kZeQe8WVoE0WFqbn1FjTXeK3eBZUoN4c5fn1UhlqP6D4mJUbTms0X3AmAGaYn2TG5vBdrKhgGOXjF9_80wL6rScTbRWcqusbl9IaGlPvqPkGGzDSyRP_RkNST0CC8tAJmm7iYUiI3GZ2OXsVGR7c3NKGvGjnUM-jxkx4CdThcSKF2IRuaGvsqdvWTM4Ex1A8fbxJQ1fCl5yKFl97ToXdpEN18-pqt5NJ8u5zFO0IC9bocsUGOYRcEo99q1fde-pyBMzWG5xAvPmAKL8FVWPfgsOfFt6tAvHxOdiVTxDlAUvHJR9G09q0G6PIP-wArRXBOIufnd-EkDpwugSaoQBORPa9SFMZv7zslnS2bawNlwxTyuLnS4i2N08sls0Xtw3Wv466m7SNy-ScFU9RxwuMNrr0iBDTdwQtbMk7gavBFtOVFYD32fJfzsRtOjHQVv05enW14HiIX2X5XuGA_yvepRD7cVS24EIQhUuGEd1FeNsM1tYft4dplSe2xFQ1fe9-nK2r1qGB6ckf_rKRj16PeGfYsbFZ93-nIBgUg7GXHiHAIfERL0A-kSue77UZ4GcgJ7V4Z5Ttw7shKomFQbGz0r_5u0LRkAiRhS8L9-L-3odyJR11JwwD0Nfe2mnkmPqGFAN7ikJncbyyqwB-hJ3fwKdSnfQF1n5fCdR9bhQGRSSSi_wKneqQWV_YaYSHGYtfMO8goJnstfB7lh1ijHuVVfxPAgS3rsswLevDwLLeGnnJHjsUBBVlMt4qJrT9ZvvRaGQyFBlMLQjbZ2JRTFylDBTtHJL54Hgz_6JcnrrfAFBAXDgnx6y4k1qovy2QuhER3VLztmbvyQ5nB1Y-Zvnf9RfIl69f8wiHIIHTr-YRvpj3zdUlefFdH6jxbWU_ho_tMEtKzB32Ail5z8suxsW5OwRItaH3ExwMBBOHRsdn6c5Bamy3BoY1YNIRb8sjPX9SB4j9G3nFqTrLYhKE-x7P4cRiUkhuDzoYOaGvEZi8OnEp1PxVj_IsCiSMokWFIwQeuZzcSZGOmzmLTY6EtwPxq34LUmGDjK-Pq_4O8kAHj2e5F4V-olfgxlbTx2GhC4b7iWYthwFT_ZnKWVin5k8OFSo4z_8jdmEiGsC7TZVi_MC5zLx5wt8u5fqoqcpAbQp7fVXcUOFUOFxQWH-_3HOfHt3anLR9UTxTNIINGyGV97ITxvVqZ-3Ikc5JSF6px3Z52EOWLAz2Zia-miCA_Nk_sP8ul9jqe1YKPgX4fKZvG3W25ELBI46ZsJ6vLatZH4kzSLbaVgI83ZELzZD_tCLa1_aRceEn_kHgZm2UUEfrM_4Wd93GNpQvpcNYNA03a0gqDYO6x7mEjjz6akBxJHtVAor1t2Ci7LfjDTtAs3lFps6KPI5rOc_KpnsQzlzd0t-TVNIMzfcrvDzwDcyrer6gIR7M3-NmkkuDlnvc7Iv0ijISIZEi2xVK70C5aXmVEYR_LrpvHLYAqx1phBOvXOVAvltXmmOezRlJkxbBqMpnEDCI9gBlC2AnmWbMOu5-8pqYTgHw8Y0dt0MN5J2OWgvo0fTnYYcaobXDTxZk_-dr9ALMa6N_kl112gePvyLiYx60a1ukzJtRLMGYNoUm4IbX3kTvvMsgLJ52Mg39Zr3Y58CDUdCl8rZEpju5jaPrhwRB6MNZkLdeKBn_gPZBNNtG18N4E3gZpkjXgmZUYuC3M0OZzn-sWzcCFQ3ctLcxwhCHCDonbg9UM6GkeWlPpnLOiwqPTP3HbRlgmomJA4Hpld01iUzDt3fnqT7unTONo_1r4ldsMUTmdlDdey7D-XHVd6X6xlVDJ7NfHPnuni9bZBhQInZlzkW-3mG-qvyl8Qc419K39fLSYl-W09m-IL0gAbGaOfipBX_u5LYmMG5kbeT4m5c9VAaVrDgBfidiJcdjkf8BUPYp-hKzULR0QLjo6ORawFku5kkojol5VpRv7uDfY9bbLWmnODJXiYY9JfEZvrTlZsUOTqmme8MamMvDnXqZFEkUg6jb207kHKxWC8qLOHM24v-_trxxzfke0sdbxOTiTSbfo6AM3tXno0ncYowyVrpPktIa3Z5PL82HRxY8k9-gYNEhZ1MEtzN1V5C7PuVDIGJ3HO3ioIqlxkzmR8nBD0cygCnLQgx3BnwXAmkZHz_czoUNW4vh18v2b6HAS7M9gKts6-NgeAJtHBNB1EDsY9nr7NMFi5g13cjpENUwTb9Lwnb_k-aSpoDN--QO3BVzMGnFoVykKFJOI6xOBi51omu7SDFUeHUXO9CtO2XKXZZcv_sgWCzunCejUNy8SaA2-yKmns7nUaZySTue2AX30T5c-sfpHFn9QHESf-ewyfKxyIIx3-xovQ6jZexyaB0uUc-Q0OmRIxlwCTCZ5ufHLA5N9Gu_0w4kyRwDWEVxc1WvKFYBuMQjCk5MaW1dSZo9pbgv_Sq5nu5ZkH_By0-tKv_idZ55LqCK71ASymhTRunlieVoGFD3bB-zkPmToYkN8mc5qwzlWjNeB1DeY7SexGAkQ1k5LYWzTy5y8liQHOslGjUUtpIjRQ9q4XsJY3T1WhPVBO-lCCMph5kIkliw0iGdd_qO0-rffajHyIpLoXgxDFRJ35GzW2745NtgIka7KbAiCvLb_hcJBn0_ENO_dkmvQoTd-szufwXMDRCDRpAyPzBrungDqHvypXUgntXY77bkxAyZPPOGSLn9GDZPvM3BgDaqaz5lMR6CcaUW3rEaMzTFUN0WGr5FUSBRtMr9AGQD7LYO3v8yVNQGiQt6WSbjkHUWKbPRXacExQoFQHWQi_KvTQRss4H1Uld8WfSNlCk5Pefp_bS7LCcQNnjHf_ukWn4U6W2iTlmUIUR9dsCnqjoxLrny4Z627M4uCOh4oE__kphv9AgAe6fHUFhU5HsXMRvDJqHpq8iccTUuadBKSCHhO4q0QT35kJccnjv48Fb5TEmAqLp-m6aR38iGLPN6aA0ZAAyN0foKf7ziBJVHMCy2Q40gfB0c2_35C01g1nA3S9Z3izj4acd0Dcr7bg_6iw8E2ji3mqLoGm4huJOsRep2TDFd2nrJbIX1zCiuFAfmCt7Org-0PZFVw5LHxckihrVst9Wuk8Uogw0J9W_aa3bX7RIc9_1s5T9sYAtQj2Wdd1IC8xyIFK70RZI98Rl5ZmY6N8nyl1deCpS-RC3ouTOPXb4RmuLwm3AdInn_zvC8Wm6AUqz_qFL10gXcwz0gAuFBoK3DxnEHLylAQGqJlIJFNWrt7HBbsuv-KZGgxcqv8NIzdlfFUWCGLqy0ZaAcm2EOk-xniHXFrqZJEt49IEGvY-vqXjvCmTAW6extTb35nXMWxwDdolB4_tNe93lPczfFrYyf5B0SBXPUVqBh2BfugVgh3tiD8-fpw1Gpf8Dtw4kPujwrvApwy3S_DdUBZqM8-UEHveeOTNcq0ocQGcas1kywoP-nAooaZeTs-AdRlDvQzPUsVulemwTpvuiIFCU7qSSeOWcMsOkrLSSuqXFwCifdIpVEaPHXhNNBiInOrIyo09EGI2KHXyuYaRbqwjEXFNEgig_0urk7cPoG9Vu44vJF7WgvlBXBkDkCkLb81NzPe7bjl22wKaECWyNG0QYM3ohdWloGQKDVWrreAdouA0adefaK-lCDBqRcF2A850ByEm0ltZIsgEbpQsQ4GYBDWyoOXRh5vvggGodCoOttXAbtNuNbrkkoMfH-QjNbaHHCTVsBiwhNPfGjdxXRb_DdU88HzeERKyoSnDvulGx8UWw2XdWYP3J5lCN3kGxzxylRfWqIk1dN7PVMW5peOKMS-FomFd6eleFOmmIG1AVudKPMlqqYS5DXXev4gzBXAkW_mrABob4684g-3PjWNrS_MmI-pzN5UBQnZ8JFYtxXpChw7UFjKY-F0fAMslNNle6GLNAURm13slISBBDsYwQ6oWIUtMh-QY9iF2vXCf9AZj-N6MpPj_Q7mv4vLG4Hh5yTJeu4ZtNaF1pEZaxcOu6GBLPNaEqZeKrLrQr4KMO8ncl1nURNOQpgoktH4bt4NObJV2q-8xXbEPIHnuoXfwXtLdVTPg1NRulBaecSi7xsyFIzPnb530RTSF3A0fHots2ub317Oyv07CdN6bz0CUAexgkCW4Q0e_BcRjkx7nLrlR-3CEVMFTdw1aq97vPrbmHhMYutgt9DGHHMKCfczyJNmSsY0Rd1FWp90-DIOGNfbYgT2-Lk-Tt0VgUwHWM7QCaSZZzsTaGazhBJmJnWFKMsaitM097JwtSBod-G4CCsXum-hhlpa5FOr2ZSCAIcWoKVXrApJUWEvEL8h9QVs9_Aeob_AC_uiBjM0mtng579k28sSMPTL5ncpMC-uA2jlKzXq18S103ZUwu7cNTi3pldL416Isr-zO8z5QYxdcgvP8-AHDHawQlsURiZaAgAYWhx-c3RxrHiTBNV3ccEdZmq7CvSvqhSnMYQc5xKpGyRpeqr0pHyvUYv05Z_XrcHS29Dc-0iT_c2xhLk0EdOuD_Pqk9oVgwYbehcf5VxH3qkcUNrKYOa5_pXABVKtqOxac_ZntmVbQePoatHlybElANF_8euSvMljvhR1FOhSZrw8L0KtKx6PMJsVCDUCwekLNb-d40BD75C38iFcd6xJU6xW-2fzX-dvf6aNX327p2b8sVCfY83dmLXG1b6gM0PkbYs-2KaB6iB5JsHkgRN8u1D7ZCYvQ5iytloWSq0EHKC1Ze6ugfwnhECxVCmRdCRpMCyoKQnFvr1m-lsWKxxwJkCGyaSvcznYYkOBc8cYFD9vr9HDbztMgzMqy5w2tMLUdeah8w7TE9iNnsoZM-QTjSHkdks6dXSjiM-BPMkQNcfmlBBYvl9_rqhZmhcpFzvWcwrzDKoc3-r4Cl2EZlWb5HWde7ytFLn-42AYzHv2VDuAwe6fPuATWGKFs8xt911C73qq3I2lTqKWWn2oTKRDq-4W5-_B2jTt1hp_erCZxgZWB3dthnUBEoV9tL1RClLwH69vAe_6nirPZr1Qh13_e1Dp2ZrgOhClD714flobYXr6nwXzPPOnM_GJbSxT8Kia3v98tdoHwLbPP66UFGnrqR5b4_R6ZlFys7T9doKwpIja4cvvCzIXbc-OZqSOj0O8fCPRAdLqG9nYh821ehG4P7VZM6ITuXTR4HwDU3mcJ26zTMetWdDn-fzvZMd7j9yze79RElcJspmzLePc-kGHSgwdOm1Ortlp4VCQp60i7jGgGAZ8gLkvTL3BgDo1WTll7RjImH88y7ftjV_BTYFpD9FotpzV630F7Lf6IXj9dceYzkj5BDf1X7RYwE_1y24YZZJqDO5v0Qx8fOC4WEUSm7LnQYZKR_AstSoV3gLXyMPCr2o8R404xVXtU1IhZqUJYlDJNJQgaMIGqouM-8_U8ReKMX9tuuCQl-7IqKTfJ42hGDVNNzBoVYEX6h5Jm9hmf4Aw_ajvvKSBY-Ym8kc3ePt4BNw4zoFfVDpmCArQYfQ_LRf6kmJV4o8oOq8HqRv-N7cZwxDZv9RH8Nl6uyejrd8xudsnD8XHsoK5YyaFBOsyZFbeNxYiGKWQX5ArOc-hTT_EnaREgrscKLFpzx-dXJ7IHCnPnNew44BlDIBXZQhidW3cLfrtRIrg4f7Gw30y8wq3ygQ-kaieaUsj2L4v_sBZuz3meyDOCra9Z3xATWpRvVnepbb6AzJTYrfMU-AfGqUz1Ad0QC1asDXyIhzTG1R41Se2hmDJ4h1MkkrSx_U01tAvpdNvYm-xE0wVzJ4hxuaZ9gxyct4m1EYW3k9H7v3WsRKpRcxQ0Rl6R32h6WplCW4VWAaQQ0igaZh6oNPSrgmN8l_2ENN0Lir1btI4IKRHzif-zdTRs46Ignh2OW7szojjH6OBVFGdXPn62uoIRw_f6NZS6gvKjd6Jox7u_ebygoUa9BARR44O6unCFfMgYm1OX0wSVxFq3Hqlr9fO5EMb9DTKlEk71fIl8D3_ycXnU76kQhhZIjJHyF_Tk_jOUvgVouXmrkePwKrZZd6VxelePPX6BOnUhT30DBv6DrmyBPAj86jkSRVIGwrjwTL4EOo0iSI8ZmOcmfP5irNBufSFRFpIycBsSbmXMO86OKtrcL7-_12RYNgkhMSoiOahfbsmqXq79X_VmJnXJXVjMwRlXYHb3qOjkr4mbwCIfQ1vDAz2PDHFE0pVvk4XdxvmvsnYjFvAbR4VrlQsIcx7s8UTrde9TTn_F3i6104gQrd0iSA==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "m8FqaanlNe61qtsP-P-xEQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 6564,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 108331,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 108003
+        }
+      ],
+      "thoughts_token_count": 3924,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 118819,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 9,
+          "speaker_label": "tutor",
+          "text": "No. You may have to ask your teacher. Raise your hand and ask your teacher and she can... he or she can help you.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches to the student's camera showing the classroom."
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Sure.",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 9.5,
+          "event_type": "inactivity",
+          "duration_seconds": 20.5,
+          "description": "Student raises her hand and waits for the teacher."
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "I feel like you all are missing something.",
+          "speaker_name": "Jaliyah"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "What do you mean?",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "system",
+          "duration_seconds": 5,
+          "description": "System dialog 'Screen Broadcast' appears on the iPad."
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Start Broadcast button",
+          "x": null,
+          "y": null,
+          "details": "Taps 'Start Broadcast' on the system modal"
+        },
+        {
+          "offset_seconds": 56,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen sharing initiates; view changes to iPad Zoom interface."
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yep, it's working now.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 100,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "from_window": "Meeting",
+          "to_app": "SpringBoard (Home Screen)",
+          "to_window": "Home Screen",
+          "details": "Student swipes up to go to the iPad home screen"
+        },
+        {
+          "offset_seconds": 103,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hi.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "Yeah, I can see her screen now. Um, if she just wants to get logged on to IXL then I can help her with that whenever she gets a chance. But I can see her screen now so it's perfect.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "SpringBoard (Home Screen)",
+          "from_window": "Home Screen",
+          "to_app": "ClassLink",
+          "to_window": "Launchpad",
+          "details": "Student taps on the ClassLink app icon"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "ClassLink app loads and signs in."
+        },
+        {
+          "offset_seconds": 117,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "background",
+          "text": "Okay. So, Jaliyah, log on to IXL and see whatever Miss Lee has you doing, okay? So go into IXL.",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "ixl",
+          "details": "Types 'ixl' into the search bar of ClassLink"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Can I get like five more minutes?",
+          "speaker_name": "Student (background)"
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "IXL app icon",
+          "x": null,
+          "y": null,
+          "details": "Taps the IXL icon in the search results"
+        },
+        {
+          "offset_seconds": 129,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "ClassLink",
+          "from_window": "Launchpad",
+          "to_app": "Safari",
+          "to_window": "ixl.com",
+          "details": "The IXL link opens in the browser"
+        },
+        {
+          "offset_seconds": 129,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "I know.",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "target_desc": "IXL Dashboard",
+          "direction": "down",
+          "delta_pixels": null,
+          "details": "Scrolls down the IXL dashboard"
+        },
+        {
+          "offset_seconds": 143,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 14,
+          "speaker_label": "tutor",
+          "text": "You're just gonna pick whatever math lesson you guys are working on today. I'm gonna go um check in with another student but I'll come back to help you. So if you have any questions you can raise your hand in Zoom or you can just ask me when I come back, okay?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Skill F.6 Greatest common factor",
+          "x": null,
+          "y": null,
+          "details": "Taps on the recommended skill 'Greatest common factor'"
+        },
+        {
+          "offset_seconds": 149,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "IXL skill page loads with the first question."
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer input box",
+          "x": null,
+          "y": null,
+          "details": "Taps the text field to answer the question"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "3",
+          "details": "Types '3' as the answer"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button",
+          "x": null,
+          "y": null,
+          "details": "Taps Submit"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Alright, I'll be right back.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 159,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer feedback 'Awesome!' appears."
+        },
+        {
+          "offset_seconds": 202,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Video cuts to a black screen with the name 'Edward'."
+        },
+        {
+          "offset_seconds": 203,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi Edward, how are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 205,
+          "event_type": "inactivity",
+          "duration_seconds": 21,
+          "description": "Tutor waits for a response from Edward; silence."
+        },
+        {
+          "offset_seconds": 227,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Video cuts to a black screen with the name 'Jelize'."
+        },
+        {
+          "offset_seconds": 230,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi Jelize, how are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 232,
+          "event_type": "inactivity",
+          "duration_seconds": 7,
+          "description": "Tutor waits for a response from Jelize."
+        },
+        {
+          "offset_seconds": 239,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "You can unmute yourself or type in the chat.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 243,
+          "event_type": "inactivity",
+          "duration_seconds": 33,
+          "description": "Silence as tutor waits for the student."
+        },
+        {
+          "offset_seconds": 316,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View switches to Jarianiz's camera, showing the ceiling and an Irish flag."
+        },
+        {
+          "offset_seconds": 317,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 320,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 321,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "How are you?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 325,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Good. Do you know how to share your screen yet?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 328,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 329,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah, could you share your screen with me please?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 331,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I don't know...",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 339,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Notification 'Zoom: You are sharing your screen' appears."
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen sharing initiates; view changes to iPad screen."
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Perfect.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "from_window": "Meeting",
+          "to_app": "SpringBoard (Home Screen)",
+          "to_window": "Home Screen",
+          "details": "Student goes to iPad home screen"
+        },
+        {
+          "offset_seconds": 344,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Awesome. Then you can just log on to IXL or if you have questions you can just ask.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 348,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "What are you doing? Do your work.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "SpringBoard (Home Screen)",
+          "from_window": "Home Screen",
+          "to_app": "ClassLink",
+          "to_window": "Launchpad",
+          "details": "Student taps on the ClassLink icon"
+        },
+        {
+          "offset_seconds": 354,
+          "event_type": "keyboard",
+          "duration_seconds": 3,
+          "action": "type",
+          "text": "IXL",
+          "details": "Types 'IXL' into the search bar"
+        },
+        {
+          "offset_seconds": 358,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "IXL app icon",
+          "x": null,
+          "y": null,
+          "details": "Taps the IXL icon"
+        },
+        {
+          "offset_seconds": 358,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "ClassLink",
+          "from_window": "Launchpad",
+          "to_app": "Safari",
+          "to_window": "ixl.com",
+          "details": "IXL opens in the browser"
+        },
+        {
+          "offset_seconds": 359,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "I am... IXL.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 401,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "And it's hard.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 423,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Step into the arena button",
+          "x": null,
+          "y": null,
+          "details": "Taps 'Step into the arena'"
+        },
+        {
+          "offset_seconds": 425,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Enter the math arena button",
+          "x": null,
+          "y": null,
+          "details": "Taps 'Enter the math arena'"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Edna likes to go for walks with her dog. This graph shows how long she spent on different walks.",
+          "speaker_name": "App Audio"
+        },
+        {
+          "offset_seconds": 428,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Like it's hard bro.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you know how you're going to solve this problem?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 436,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 437,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "No? Okay, so can you tell me what you do know about this problem?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 445,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, stop touching me.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 448,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Bro, are you serious right now?",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 452,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Where do you think we can start?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 455,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Stop...",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 458,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "4 hours?",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 500,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer choice 5 1/2 hours",
+          "x": null,
+          "y": null,
+          "details": "Taps the option '5 1/2 hours'"
+        },
+        {
+          "offset_seconds": 502,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You think it's 4 hours?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 504,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "5...",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit button",
+          "x": null,
+          "y": null,
+          "details": "Taps Submit"
+        },
+        {
+          "offset_seconds": 509,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No!",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 510,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Thank you guys...",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 532,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Student stops screen sharing."
+        },
+        {
+          "offset_seconds": 533,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View returns to student camera."
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Everyone log off.",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Have a good day.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Have a good rest of your day.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 543,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "You too.",
+          "speaker_name": "Jarianiz"
+        },
+        {
+          "offset_seconds": 544,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Thank you.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 556,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View switches back to Jaliyah's shared screen on IXL, skill F.6."
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Zoom notification 'Breakout rooms will close in 2 seconds' appears."
+        }
+      ]
+    }
+  }
+]

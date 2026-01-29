@@ -1,0 +1,893 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:44:03 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=83012",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Who is this?\"\n    },\n    {\n      \"offset_seconds\": 1.5,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Do you want to make it smaller?\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"MobyMax icon\",\n      \"details\": \"Student clicks the MobyMax icon on the Clever portal.\"\n    },\n    {\n      \"offset_seconds\": 4,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Yeah. Oh, that's small. No no no no no let me see let me see.\"\n    },\n    {\n      \"offset_seconds\": 7,\n      \"event_type\": \"view_change\",\n      \"description\": \"MobyMax loading\",\n      \"details\": \"Student is redirected to MobyMax landing page.\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"It's just so awkward. Oh, they're asking you to go to breakout. You click join room.\"\n    },\n    {\n      \"offset_seconds\": 12,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay, that's small enough. Okay there.\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Math button\",\n      \"details\": \"Student clicks the large 'Math' button in MobyMax.\"\n    },\n    {\n      \"offset_seconds\": 16,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome. How are you doing today?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 17,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Man how come I don't have a teacher?\"\n    },\n    {\n      \"offset_seconds\": 18,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, good.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"view_change\",\n      \"description\": \"MobyMax Math Page\",\n      \"details\": \"A loading screen with a sunset graphic appears.\"\n    },\n    {\n      \"offset_seconds\": 21,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"What do I do?\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"What are you working on right now?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Math.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 26,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Do I share my screen?\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you know what in math you're working on right now?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 31,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um, ratios.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"view_change\",\n      \"description\": \"Lesson Content\",\n      \"details\": \"MobyMax displays a lesson on 'A rate is a type of ratio'.\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Do I share my screen?\"\n    },\n    {\n      \"offset_seconds\": 37,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, well go ahead and get started. I'll check back in with you in a little bit, okay?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 41,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 43,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Next Arrow\",\n      \"details\": \"Student clicks the green arrow to proceed.\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"You can begin now.\"\n    },\n    {\n      \"offset_seconds\": 48,\n      \"event_type\": \"view_change\",\n      \"description\": \"Stop Share\",\n      \"details\": \"The screen sharing ends. The view switches to the tutor's video feed.\"\n    },\n    {\n      \"offset_seconds\": 53,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Adonai, can you hear me okay?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 60,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 50,\n      \"description\": \"Tutor waits silently, looking at the screen.\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Adonai, can you hear me?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 21,\n      \"description\": \"Tutor waits for a response.\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Adonai, can you hear me?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 59,\n      \"description\": \"Tutor waits, looking concerned or confused.\"\n    },\n    {\n      \"offset_seconds\": 199,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Adonai, can you hear me?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 108,\n      \"description\": \"Long period of inactivity. Tutor is waiting.\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Adonai, can you hear me?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 106,\n      \"description\": \"Tutor continues to wait.\"\n    },\n    {\n      \"offset_seconds\": 421,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Adonai, can you hear me?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 425,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 15,\n      \"description\": \"Tutor waits.\"\n    },\n    {\n      \"offset_seconds\": 440,\n      \"event_type\": \"view_change\",\n      \"description\": \"Cat appears\",\n      \"details\": \"A cat walks into the frame and the tutor interacts with it.\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"view_change\",\n      \"description\": \"Screen Share Resumes\",\n      \"details\": \"The student (Winola) starts sharing their screen again showing MobyMax.\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"I don't know.\"\n    },\n    {\n      \"offset_seconds\": 542,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Winola! How's it going?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 544,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 545,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 547,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Go ahead and keep working, I'll just be here while you work if you have any questions.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 550,\n      \"event_type\": \"mouse\",\n      \"action\": \"move\",\n      \"target_desc\": \"Text box\",\n      \"details\": \"Student moves cursor to the answer box.\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 554,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Do they want you to talk to them?\"\n    },\n    {\n      \"offset_seconds\": 556,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"I guess I'll just do it.\"\n    },\n    {\n      \"offset_seconds\": 560,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 40,\n      \"description\": \"Student is presumably working on the problem. Screen shows the question: 'A Ferrari drove 300 kilometers in one and a half hours. How fast was the car going?'\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"I have to use my whiteboard.\"\n    },\n    {\n      \"offset_seconds\": 602,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Just... don't let them see it.\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Just tell them.\"\n    },\n    {\n      \"offset_seconds\": 610,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you turn your camera on for me? That way you can show me your whiteboard?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 615,\n      \"event_type\": \"view_change\",\n      \"description\": \"Video layout change\",\n      \"details\": \"Tutor minimizes her video window.\"\n    },\n    {\n      \"offset_seconds\": 616,\n      \"event_type\": \"view_change\",\n      \"description\": \"Student Camera On\",\n      \"details\": \"The student turns on her camera. The screen share view minimizes.\"\n    },\n    {\n      \"offset_seconds\": 617,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"No, my person left me. I don't know where they went.\"\n    },\n    {\n      \"offset_seconds\": 622,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 626,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Can you see my room?\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 629,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"English?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 630,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Math.\"\n    },\n    {\n      \"offset_seconds\": 632,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Yes.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 634,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So what's the problem?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 636,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Yes but I don't know how to run it.\"\n    },\n    {\n      \"offset_seconds\": 639,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 643,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"300.\"\n    },\n    {\n      \"offset_seconds\": 646,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"300.\"\n    },\n    {\n      \"offset_seconds\": 647,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh, or...\"\n    },\n    {\n      \"offset_seconds\": 649,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'll do it closer.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You can just write it first and then hold it up and show me, that works too.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 657,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Or you write 90.\"\n    },\n    {\n      \"offset_seconds\": 659,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Are you sure? Just check first.\"\n    },\n    {\n      \"offset_seconds\": 699,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"How come I don't have a teacher?\"\n    },\n    {\n      \"offset_seconds\": 703,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um...\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 707,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"One and a half... so that's 90, right?\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 710,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"90 minutes, yeah.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 713,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, 90...\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 716,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Equals...\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 720,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh for...\"\n    },\n    {\n      \"offset_seconds\": 730,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So let's go back, let's go back to the question real quick.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 732,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh you're not...\"\n    },\n    {\n      \"offset_seconds\": 737,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 739,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So...\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 740,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It drove 300 kilometers in one and a half hours right? You said that was 90.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 747,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"What, what did you mean when you said 90?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 750,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um because it says one and a half.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 753,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"One and a half hours right? So it's 90 what?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 757,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"One and a half hours is the same as 90 what?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 760,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Oh you think you know? You think you know?\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 803,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um... 90...\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 807,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Minutes.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 808,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"90 minutes.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 810,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, your friend over there is right.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 813,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So...\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 815,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"We, we know the car drove 300 kilometers in 90 minutes. So...\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 821,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"We want to know how fast it drove per hour, right?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 824,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Yep.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 826,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so we want to keep the same unit time on the bottom.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 831,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So because it already gave it to us as...\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 835,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hours, we can keep it as hours. So we can say one and a half hours.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 840,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So we could say 300 kilometers over 1.5 hours.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 846,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Does that make sense?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 847,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 848,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 851,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You could turn it into minutes if you wanted to but then we'd have to go back to hours.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 856,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 858,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay so if you have 300 over 1.5. Have you guys learned how to divide decimals yet?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 905,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Um yeah.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 907,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 908,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So if you divide 300 by 1.5 what does that get you?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 913,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"300 divided by 1.5. That's a lot.\"\n    },\n    {\n      \"offset_seconds\": 916,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Write it out on your whiteboard.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 918,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 923,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"300 divided by... 1.5. I have a teacher!\"\n    },\n    {\n      \"offset_seconds\": 927,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"That'll give you your answer, okay?\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 931,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 935,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay if you got a bus to catch then you have a tutor in your room can you let them know that you gotta log off for your next class?\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 941,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"I gotta log off for my next class.\",\n      \"speaker_name\": \"Winola\"\n    },\n    {\n      \"offset_seconds\": 943,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, nice job today.\",\n      \"speaker_name\": \"Kristen Lamberton\"\n    },\n    {\n      \"offset_seconds\": 946,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"So when we get up...\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 947,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay once you are alone go ahead...\",\n      \"speaker_name\": \"Teacher\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuY3CuM3AXLI2nwfyaPYrbyRZ-EkX4GlB4Onx2qKJfFfbAJGiu0-9QFJrIkq1lpKey3zy2Xc6YZHHONN4SvU08iktyG5jn-h7mXpMZTZkx5rUl7OfZwhwOt9Vk-YpA6kNOuUihOxx3pJY_SvooTzZHSfSPiGJZT1AwkDmez3wpS2NQGQLu_e0r_6uU3ni4bw3LbfjIXVTDCh70Om6srEYgjZrSItzzS4H3IDWrXhmFY50m92Pie5rvG7Tiuo6CwieOgOVb5ZJ9zzhEiHhsNFHAKEwtVtGShSHMvrBBwybCwf5zMOnq3VqnvJnlgWgwxCWlbv1IFAF8ZxMBmmzUXeITwmtxULb2XsAE4ppox6QE8VBw00UKeHT1YEtUou9yjIzlE9BttCjbwtOmqd4ND-LnTZ7KO43PIJB4HoCldZtbtVfFOlpbUG50JPCpVJUt8c5e7RMf0YoFpbmar9Y_StX33fFPpL_nNbw5601daPPmHl_DXgv97b5LlcDMiUpFwiQd-xVWA7P5lpGgMjQGvezXGQyMBaKGQ_mn1aB-I18BdpHS0bL8-sgsD2MCL2mmiYY93pI5sppN2E3B5xB4QsQ0B6mEV0zYOcSYoqLyDgtxAxijJpDpcilhYQe1YEgIz3IJrXBwkea5M19jU4vVkAThvZnQahJOpM9SaVPI9rhVOPgmy85cTxOmR4FZt1LzJQ4n98mIJHTd9Z_zT_8mfYLkSt35cU4HrOWPRpKqaKZQ3BeytaERahTj0HheFGXq48jZXS6oPNbClxD3f46I-CnUTpGJNFiKdrtYd_1j_F0vddUi14UsD2iMBY_BIEa86rWiRlDsEd2O_3_RbFotHY1giKcy0HbfTG5YVeK3Ai-eGv3Tldh7yfNuuYoU_KBoQHBuUxhHVHMROXecHRKXdLTaMhX5K2eiBrmVfa8W9WYlqSw7uVb7_mqf5BigHXQVekDuS5uoeffOhNwasL4039WPVQj54M3bzhlamkqsew5noNvio64nFEzxFG1I9ndavfaBUJUp964JtNyCmZJnNbmZjnxBj8giu4sHysYghKgiR-Uf5tvHmLskNm0eXXsMkG98ThncpM0-tmR2b8QZE6dJieOAl2quX67G9lHy6xOUqiAhUeBHYIpCZmVkzlBj31A5W30QfDJCiP5zjf4EIE7BLZGxD-5W_Zk2rItigXoaRMlPnXMV0D7ZLy0_QFhFhp61-yn4Ty_nySqBVxZZuUevawnmhWf3cajcxJ4ZdPhQc788MfkmXMjtjQsv4QmXfXiojiULdH8r0Vu2lH1zNM46ve11f87Wk8dA0Byix_rz-3z7TnpwVtOWv6vC0R0C3vheDjMga4ceH7sULA9jjyJ6BjA6dZhVwzAWMlKGXJ7IulOTyqkfD_v7JcInjzw0Z_JGxp7cpUlCCHyQ7oI9DjzJVgOL8lawbWt8GSPnZiiB4nNK_MVHokT2UExe9Jzi9U0BCsBWOOqRvPBUrDTU1XS1uVK4FYQkc27D2FufR11Zps2MZ1DV4ELkOPluRaC9BZ63ERIKoFBaN_RTkKklN6PDzk7VC_0ebDQPFs6nHGm3xxNaAFLu7QqLpt3IuDwWsNYonO52wzWgf0_nr5z0DpWqBdC1o0YX8salVQCYqgb1zMPSVSuqqfXvSh6b1cURolsHhExSO6isK8agu8wOfuK-IJ_5svREVQGJhJ3Wi4AWISOvZSMJo0mApWbHPNyfWO3hWMarfp8Iw7s_hnrPov1C4EU4jjNn63cacfVBSgECcu2sx7V0TBm2MqxLkXGvhRZvAZGf9zBcIr_4_Qmd2Rt3Sxnnl65BCNtLRJg3xw5fpPVHwPhHugkvw_CUsiYYQaZNEcGpH-abhLKZOsyukWn1zM89iLA89i3InNZ1bY0ai4-EoiDZzqu_wnQyy7ThaUsgfBKbFhok_KrN0Mwos-OQAiXLXq1TSZaqB2hegGdm1u-whixFI2OMbFAMeHtKVD1p62N3SM7MHxjKTKlpqR4lJhUj4vxRkWd3SGdNkPMK3OeKNKGj5P4HSFT4TLzIgTapIQBIX7AhaYVOurGVltIFNiucLGZbfdaJFx75caEnZby8uF4NMkW-mFRYEbPgTS9zMsXijj3BvX2OCgeWQkljg9TPQQcbQalpG0VzZJAYCf842T3H2hnwtEp-v6XgYztT-ABASZt9w-0efayG_267EstEWQ1FZYFZ5SDDwlfB6v_eODzGJQO9OI84nalVD9k-aPhpYWdqVYINF5xrTGDLeT-GzjoUPHFBuK7cysNiW0_V9wVi9qqr6Cc_rSHY1Nrxcb1PoOnXlRduPJgx78GAz3WuKMgB4UlkNi6aQpNCbL4XIlrTtN0oMYI9ut4NtjNPHzBu-Cb8pLWRK4ooSRsawqjNYMqO2Otgaec4o9cEeHsHtmvGqhjtcjwGI7n9culjNMGI_X7oRzvJ6EYojKmGJ9vIrnHscTvXgk9PDxrWZZ8m0TWA8MQ6ZiwYZZ1GNOYr85LKgM62kN6fgYTevAKz9s_WYjpE8xZEYlfZIa6oogpyWdNAGxViDRs3xe8DpOlnmZqOw74IvW04hGLwfGc707XmPIU7FUX5e-5VdUX1OhQeFNc7KW3lHvfAPLIFK-3lpH7RrzkiVlr8WMKm8KjBmohUBTSt0ky-dwWx2_E-ZBVK6ysxTEx9u60p-JPszQX6CIp87SKJEmoZgWkICvi6tgi8W08QndM1gaAytvMohCX7Wc_w6-ksE_Qfp5JHH6fvgpVkMuaqDI8FF7lCjGOxehmo4wVhLgUsQ8cgpVJ4voud9Ec5sC-uTeuWz4jxcNLU24zt0gsrQakk5V_rLgnmcJaH4ziGUqtY1CzIRv7qqabmmER6xixeKg62zjJytGX1e1jDMNR2fweZgls5FLVCRpBIhikSMlcCr4PMKq4oEyuR-xLAFK345Ym9sI4iQ9LOTebUQXarmk5LytBiQQFK0NXR1AJMbHV-gsUMwZHI7M_UAUEHtE5d6Y_mR3FPElGiDoXZIOZ9NWqRPc5pUfOWJZq4HV2zSBv66ztmK7WvVdGXswSCu1K6EZ4vVm6zKICbIoeEMmgjEV84cuJ4oxvKv8omTuB8JZyz_kTdniOklAxvp_fVAEtgP2mZIZvCyXEYwn6VrRdU9l8fuluLUlzUgkRMNWNw1fHaRtlABlVvIarwpUjP4NsTeAEn-pERc5sl6eneT-B3x4-F1JqCjx5dEn7XpDcNkhOwkoVOxd4j99Yv2mX-KbJBtPoTnybhLRPOGMWfwXisV7jzThDcvs_GtR9L8qXnY6ZVSNNM1VkGbTlYp73MRnWeTelmG34fzC9NOms4CxQTl8DT0vqkxCbglfnHI3sX9a9Qyikqw9Chy9GEPUcDoTfTQXGyuNS1H5OJnVUJsh-SRskh1S8kGUymCeSKs1AngFnazc_lyboFZbKFpzFhc9_oCBOSDuTbGj_vz3y6ZiNUPfPFjpf-VqpL5VjVh2p1w1G1q_xHqQCX1PlMUHlM17RuQuKRHsOyNQ1ISRSnJz9B1KEK5f4RnZ_1kZQzhQlvBmEh7tkMK7BJc4Jv0onu2jLOwOkFr4YVyx1UIk51eUc89PD4zbj9DLluKwFDRBo6upTaOoPbO0SHgXfslXlxT2ZkYcfZNd3JGIhssWKCDNHJoKevmdDNLGydI_AEYJc9pVdntl-SnE9_ptm5wt2t2yj3NfctdiHDmPWrkfwOUN5Yut3EvM0KfYlJMfabBxeh39Mulho4q1o1sQXptC-kAmzhbOdJ0_Pxe-EvHT2Mg7-cqaoXAm-5tP-mdxq--8iGC4Zo0iPljXp_0XJH1yaERPFkhcpWyU22KjvJBx5r92I__aAQNQsZ-w_Kh4Xenf6HnsOTTE7VPA4awGUzYAA4e1hy6fIXozs67sd4RcPJW0pivXomzsQbrp9c--1BsECUKRGrXz6tX3-XiAiUfr3s042h4gSVkAj2GT2FGbkdDrMqySpz0uX-wLwegfnHyKrh_i8KpQHEQxFoyLvo48_Zz2VO4o4SqP5aViQUHcIB_1Y_7hc2jL-PxGgl54fbUsYHo7tWnNLwEMxg8ApUceStyFRfFND5w3LG1UvpVAcmOd3uQ4oeVInI2_pdqIOVzS0iR5wE3i38JcPg8yBB5jHPU-qVqow1wAvMG_sfMGKiavddMOElV_3OuVPZxUw9hSGCuo1RklHuzsQkonRnm7FIrxIAEanXrk3OIDuuEEcSHc0Pa67QtT0eEz9XelWAXVnhTtDAzmUikfP8NQFWHeSz7AGoBPI6YeaoWEvV_CCjdLbkx9moerGGV6t6mCKX_nnsHp1UsvIk21P3JX3apnctPBf-jTA46l4Fq9MeV-3JLKc9kZjhPLeONmUUKCGdx7CxCH4tptF2YWPh52kghtA67rbC3YLRu62GUGZcr3bQVzvqog-dA_txMCy5AWoY0akL-mnSvOq4OI_j8DRdgFCpxXULGu-dMZ0-6XCYfRLZGjcWIitdpsIFDlWqtP8romzj52Bf-Zc9EfFvcBIbuxfYZmVJqodtjRqCwrDDaBIXAiyL-QDbWd69gv8QeHUIQml3M_dukhhb6c2j81J8qKiAiEyF8LUFcqDejPlq6KdkOuRpFpUrKyF0UBOTlOOotAlVuZnuTn0M4KuZXKTw9DJLyT757bvIIRbJlRr94bC9lj7_gcNAWhdcJ7sbA-1zno2Ddh0S7N0mz-Hly2phI8yLQqOX-ccKQntSxuYLpoIB9F8sgLyofLccZm2BsYfN6ppe7aCY7tjSBE43GuOel59_2wEsovfP-1XG0d3HQK0bpL5fdXMNhTsbsdiv24t0xe_Jalkwh06YyiweoFiTqALYjl1vBiWIAodS8tNpbIp1qj6c0Rlxe6ODfzGYVPLxl8RajTOaAQEKtU70BsdLQZ7TMj_XdhKjmFtttOkpk3dV8TlC-7nTgXqgJgYB8KVjE8GdYmV3fcTlNI59uSq1DLEVNW0JyEANNyPvgleYsC7yBGkHGBGAidOOiygfN-8SbBrnHTJmrMJaZkG0Wju9u_Y2wgjEB2PNyi1q8n4g5qRUqxfayoad7D8USWFEPfO4PQnR0PLzbZ3effe_gG3r5mFWymBwtPDd_wACvNPvO4SS4UCaHOoPAAS8gCLJ4v0qOpBTyUFWYOj1uzwLyz0vU43OYu_NgIaPYPgd8ZXcCkeNeFEHJJkKq1L3_n3QJ0Sr0sNDtEpEBVFYuHGyFK-IaVj1cjlwKv_vMbdKgP5iRHoqhJr8k1A8d6E9Y3VMQJI0Eumf-XAiaHbpv18gtwDXRWZ5mDqREwu6WwAJT3yhY094Wqda5DFz81vk7m0ubwYxy8eWXEX3puCbLmu6w-1iuc84uJto0mI6KdpqDLehcWL3mdAV5yLp7H2AGht0C5maiayz3IJZ71BQm8eGuf-OOlmNqBhCG9pWTSybH9_1UrI2WF3fpzax909YcNdm8QIKtkVyboqxAEbx8uwSY49IK7rLqx4H5hOx3xy25yndrtvX_AjT338xVweJWV99r1U212tV_0ZEkEWOjq0bLHx8p9ZNe-WayyoimphzfJdMvbzUQIMksjCAOwXbqMM6v-J4Mkld0wJD6iixsI0SAruD1w4v3ldzQf3dP5nlFHQpUpNi27ssCvduygR39P7OvnPbXSEvFcVg9HIKFby4F0OwqnJeVcrYPgcoW9qH26gXexI8vYGxgugpBe4UOdrUhsNHeqmmDln-wy77Y3hBaHRuRmYBa-P-xESGlHGx39CubCH0CQb1D5WmqYUPUW6CvJ7lzJfqnwbt_WFYk70HjMCQQyWVuZJo23BjUNBWNP6XysMxz_rVSWqeAjUT7DN-xMOWLdDpNZ0InRC2TkEbekgJ3-0xzQkfrNEbgDMcg6YYBOH8OmRzQUr6gJt43oE5EBxsytyZBgJZ5yvWDySiYoiIID08kGNk5UhxwO8SAxnatYaRcTiHpTz8PsXmuRxlCY-WfdXPDf1s3Ecs5xg63s0ackb8WHOCACtWNZrvnYXuVspbebiv573J2R0Ver9DIDh6rEf6DbpcuxG9jTt8ZTEu08vAM9gOeaI9q1qmenZkUJ_griXLCLhssCyOrsBGE5jDwUasOU_XI8aNN1Wbjo0lRU_coMu_ohWk5fphhkzXnhwruJ4DDFeC1dWR4l6bPDMgKxoiEC6JPPb5Rw78o7nDQq0NVgyw-txJ0YdB7O7TdI-SN2w-ILW94HEcxC9S0xwBQcD2vMq0BhVgKvEKDcRQFdz2ZcCYs2zDpG9D5AWkmsrI1V001vJOxd3bQ94tV7ahT2rahKJRd8tRNQlK669iVi_pu5A-Q0U5pB5mcbQGAi_kSbRPyMhLrksh66Ptv3rYJFSckFR3IX1fDJI9D-uXtUXmrex1eRQ7KapfdA9SjKtpE9ykZgR77ac6RNMIRa74x34ykoaTGVgp6f-27LJqmKt68728QP5tiJ5tK-kMRdGLC1cJS6BCfv5BdhdC75FHrNvp9LpEN256P-7rhb0FZeHLUC50gvmjAtWEPW31kz5VkNs17sR17JMaMG9eZ7xZKJH_25POL5j9kgdkp5GVx7L0fbUSpLptOHy8UsCxQ3briCMTFlANslF08lMVx83GnY6fd1nHlp6ty0uNZAMpl7RCTxAIlHQqQCloVTmspIC0sETyWQm0K-JitqFDdN2yPVvAQuCl2eULRomzB4VgIM2jSCtxw-rAsswmnCl86rm_Ci_KPWneI7StSaRKq1ngWKzfpzjcuQPdpxL_kReFF650jD0K-Y81TOjyzbHNDy5BXKXAPvI4E3sjAnzjNJepk3uSx8l3aSEJ2Dt9ERDvHcchqIqFRZy-iRbWOjnu-PQWOrX2bK0JPVVegHsBX-31SDJWKu9IwB3mvZfuIaLuYvvQyw5iXQpZBqn-s1p4R5GgwDImk5n7oJLMw68I2qvUPSeQVv--Kul1R-6qCFTZ4VNNAE7Ml2v31-kRhh84kE8rGjhoNmCAibacSRHj039RR57BJKzAg0jhzApc33gdxAjxGM-SxzAKGMJp5gs-cVERM1FKaZQ-EBgEjma6ico0BB4e_oUzl6CPrC-TLlJqJi68HYvb93Fqi6iSqNAnOo9H5m2OcrPOQVOJme5zb68BQDbFFbFdZqByg2t5QDRACsL57r0o1vgmuNFOC1iqA0uk-0UlOhPPQb0aGw-BL8wVmVCTXiF2Rdk7xubfZMt8CbvKFWIq-l606th3Dq9teQxz4oIGoktrexj2i4a6i-vOy8pK9FYjzS9AUT93AhTmLuhnwD0tA-l1f_B7xd5l9nt9nrLtzJsJ1gSUpVr-Sr2F_lDO5mvmh0iKmGGbUHcG19rVwyLZ4zkU_sR2hgKF0Qvnz1pL5AfxE27JsINeCgZlQ0OYPxhBeknkIz79zFwZkb-dZ0lerRWrTfRJAmskgcS6UQr8dPQW32QB5_2dGqUsyfvERdEgBBs62b-FP8fsesD6jaudBOx_5C5yoUUaRfhzTCJouQl6xl3J3Tzx4SaBvWq3rNddccHWcWC_k4L4g4uJ_J5cYPc_PnKu7d5z39vR-cZvX_6Ad7YiRutI9ii7uSlr6znmS6T_pwl9TI1r2wYsXvFtWPMfmC641JOB8xYXkYWGx5VaWGinKSzWDs0-2VONL2-vE97ysb0xZ20yVot5MPoUOyQC4yIRgI1pV3qTJsF6QzbE654YKH9PBj_H4SH6PwCUadijW7iqMLFRsLy8A0ahiza-ncT70p8afDH6GuqOZrVEE5Alab8TtYDL4AIKZ18DnlxGRWzr-2SBT6L7Jxcw-lf3sG1UhPEOU0v-4sEZHUlqecFLLSNpeMLwBOJ3QAXGKNNW2w1a0Mn8pG5ZM6o76Lp3NOOrqUWWXtqbOxgJySJQ6EAkKhchhER2WQL-SPmOD4ShW_ZO3KpgoYREsi3FTyLh1I5blIb3zBzfHNBaEsRijY249-Ut3sIdcz6TsadKaA_LzgIgdWU0XehB4sdnx1XLGOkn_zboUHVSTQwwev99vz4e2jHU0gRDl2GWPOV3CnJJwsdUVQ88EtNcG6gltNl2Dwww0Hd_qFCxECkD9x1N4pJskMTrN-7ZPHwJMbDwUY6uJ5jYui2EJbrxF3U4LpDoneYiVhhr_igIybEPM3wdmChnSjVEyI0c1HYcybsEC2fZ1JO2CIDjG1C_ijS2IF5_n-Xp0oTvGoHxBEgqNzHv9p-g4kz7iAJIEcHh1DHqU-_WJgHG8Vl_hd2lAqNczNacrya47I1W7wJbSNvGzUj6Zaxd2dY596kghdNCb7fC0hvF_TCS-hES2plsGevrAmBMC4RtB5MJC2jpoihNbsvnZG7U2nEgatv8uRqwlRpF8KAFYg6gVC3Kgh-QHX-qtOzxTLiHKNogNoI3rr58E6vwmfWN-kSUyy6edDy9K2lS-IULBEdylU6AiKLVHI7qo7cYxhC4cQbaJR3TV9ADyWt6kzjVQAllHaiwYkCl2KHNpeJeLd9cXQ1duMzHlK-HOvSjPcPBWqOZXxQ4El741sCigxtDCwxcxOUQpXL7coXl236ds5kWCLdz6Y_GrpPts7v0E7OE-TI9WfJWTtEwyCrN_XFONZFWHd7fEvYCSBLRZ4x3PX3MSxzDwMaw635b924nDDpntyjAboGSM7n4Vfk1-chHITz32r8GTDym6YGKpyLipDf9esrU4b6TfCbtcFTG1I3AHRCFOhLBslB6P2if1Ifb45Zi1VwTboKzdF8cvk_qgydkPwjLcBx-THIMEuV_K9hWKCihFu40mok5PlUoeFIIoLxEsG2OQJf9kV7zOPDtotPPkxGDjAF2bb1Qokm_kCtyvG0k-PDFp_GJSXOvN3pfG6UG6EYuPOQQGIJov8qBXPBkKmMV6xOMSJhY74glzpWnvlY14BqbBxKzS4LAdhhYp7xKXmOAZcQaUgb3iHKsRqJP_GX9Pw21Y6IT8N1inDOFReZl59lB4a1_H0gp9U1e5tdukn5GgSxHd5Uvp8hV6UtM-J6ubXM2LOmBImyK7-8PvdQcuKJeHJFruYXyJisqPHMxfVP99N-9lpRdFv4kj9-WS0KCq42rllAXt2i2jBXlLrnfvZmbvyP3n-pudPD8NDYd2UNxu_9GNdHD6sBH0hDe4h9engHOt6hgwQ8eIxvM6MBoPKOU-7vjSlyvk6l4ZuECw37yYuEMd39jWX_revNP01__6fJZHM0Df4X1pwFa_kKDyj0kCHp2ELtJMEqezQUa3gpxHdosTpmPq0waqfVBf-eqNLVR_yJZ0DncdI8N7_QqA7cS44S9mLJjSTNqrqAM8w73ePsxuizc9MEGOfSRIe2eWOUReNpFYN7ptFSgTd6zhll7dgOFuER_e4bXZmKa0LeoorsV63cs0vbWfAijmLGSGbAxzXvnH-ol-PIZhrSOg_IAnDh5Fjnh7HLUcVjpU3L_RGukmj3r1GGWTNmWi7Rp39vL-02dH8gSEJyDMuHSp43uAGVMix9pc0sRo82g1jez1ASdXvFG5WtJtDxDZjg5RCz4IpiNM=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "M79qada3N6W_qtsP4Yqq0Ac",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 7802,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 170848,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 329
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 170519
+        }
+      ],
+      "thoughts_token_count": 2229,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 180879,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Who is this?"
+        },
+        {
+          "offset_seconds": 1.5,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Do you want to make it smaller?"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "MobyMax icon",
+          "details": "Student clicks the MobyMax icon on the Clever portal."
+        },
+        {
+          "offset_seconds": 4,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Yeah. Oh, that's small. No no no no no let me see let me see."
+        },
+        {
+          "offset_seconds": 7,
+          "event_type": "view_change",
+          "description": "MobyMax loading",
+          "details": "Student is redirected to MobyMax landing page."
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "It's just so awkward. Oh, they're asking you to go to breakout. You click join room."
+        },
+        {
+          "offset_seconds": 12,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Okay, that's small enough. Okay there."
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Math button",
+          "details": "Student clicks the large 'Math' button in MobyMax."
+        },
+        {
+          "offset_seconds": 16,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Awesome. How are you doing today?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 17,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Man how come I don't have a teacher?"
+        },
+        {
+          "offset_seconds": 18,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Uh, good.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "view_change",
+          "description": "MobyMax Math Page",
+          "details": "A loading screen with a sunset graphic appears."
+        },
+        {
+          "offset_seconds": 21,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "What do I do?"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "What are you working on right now?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Math.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 26,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Do I share my screen?"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Do you know what in math you're working on right now?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 31,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um, ratios.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Awesome.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "view_change",
+          "description": "Lesson Content",
+          "details": "MobyMax displays a lesson on 'A rate is a type of ratio'."
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Do I share my screen?"
+        },
+        {
+          "offset_seconds": 37,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Alright, well go ahead and get started. I'll check back in with you in a little bit, okay?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 41,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 43,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Alright.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Next Arrow",
+          "details": "Student clicks the green arrow to proceed."
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "You can begin now."
+        },
+        {
+          "offset_seconds": 48,
+          "event_type": "view_change",
+          "description": "Stop Share",
+          "details": "The screen sharing ends. The view switches to the tutor's video feed."
+        },
+        {
+          "offset_seconds": 53,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Adonai, can you hear me okay?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 60,
+          "event_type": "inactivity",
+          "duration_seconds": 50,
+          "description": "Tutor waits silently, looking at the screen."
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Adonai, can you hear me?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "inactivity",
+          "duration_seconds": 21,
+          "description": "Tutor waits for a response."
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Adonai, can you hear me?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "inactivity",
+          "duration_seconds": 59,
+          "description": "Tutor waits, looking concerned or confused."
+        },
+        {
+          "offset_seconds": 199,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Adonai, can you hear me?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "inactivity",
+          "duration_seconds": 108,
+          "description": "Long period of inactivity. Tutor is waiting."
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Adonai, can you hear me?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "inactivity",
+          "duration_seconds": 106,
+          "description": "Tutor continues to wait."
+        },
+        {
+          "offset_seconds": 421,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hi Adonai, can you hear me?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 425,
+          "event_type": "inactivity",
+          "duration_seconds": 15,
+          "description": "Tutor waits."
+        },
+        {
+          "offset_seconds": 440,
+          "event_type": "view_change",
+          "description": "Cat appears",
+          "details": "A cat walks into the frame and the tutor interacts with it."
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "view_change",
+          "description": "Screen Share Resumes",
+          "details": "The student (Winola) starts sharing their screen again showing MobyMax."
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "I don't know."
+        },
+        {
+          "offset_seconds": 542,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey Winola! How's it going?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 544,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 545,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Good.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 547,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Go ahead and keep working, I'll just be here while you work if you have any questions.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 550,
+          "event_type": "mouse",
+          "action": "move",
+          "target_desc": "Text box",
+          "details": "Student moves cursor to the answer box."
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 554,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Do they want you to talk to them?"
+        },
+        {
+          "offset_seconds": 556,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "I guess I'll just do it."
+        },
+        {
+          "offset_seconds": 560,
+          "event_type": "inactivity",
+          "duration_seconds": 40,
+          "description": "Student is presumably working on the problem. Screen shows the question: 'A Ferrari drove 300 kilometers in one and a half hours. How fast was the car going?'"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "I have to use my whiteboard."
+        },
+        {
+          "offset_seconds": 602,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Just... don't let them see it."
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Just tell them."
+        },
+        {
+          "offset_seconds": 610,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Can you turn your camera on for me? That way you can show me your whiteboard?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 615,
+          "event_type": "view_change",
+          "description": "Video layout change",
+          "details": "Tutor minimizes her video window."
+        },
+        {
+          "offset_seconds": 616,
+          "event_type": "view_change",
+          "description": "Student Camera On",
+          "details": "The student turns on her camera. The screen share view minimizes."
+        },
+        {
+          "offset_seconds": 617,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "No, my person left me. I don't know where they went."
+        },
+        {
+          "offset_seconds": 622,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 626,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Can you see my room?",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 629,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "English?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 630,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Math."
+        },
+        {
+          "offset_seconds": 632,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Yes.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 634,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So what's the problem?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 636,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Yes but I don't know how to run it."
+        },
+        {
+          "offset_seconds": 639,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 643,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "300."
+        },
+        {
+          "offset_seconds": 646,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "300."
+        },
+        {
+          "offset_seconds": 647,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Oh, or..."
+        },
+        {
+          "offset_seconds": 649,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "I'll do it closer.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "You can just write it first and then hold it up and show me, that works too.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 657,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Or you write 90."
+        },
+        {
+          "offset_seconds": 659,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Are you sure? Just check first."
+        },
+        {
+          "offset_seconds": 699,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "How come I don't have a teacher?"
+        },
+        {
+          "offset_seconds": 703,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um...",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 707,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "One and a half... so that's 90, right?",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 710,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "90 minutes, yeah.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 713,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Oh, 90...",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 716,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Equals...",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 720,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Oh for..."
+        },
+        {
+          "offset_seconds": 730,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So let's go back, let's go back to the question real quick.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 732,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Oh you're not..."
+        },
+        {
+          "offset_seconds": 737,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 739,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So...",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 740,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "It drove 300 kilometers in one and a half hours right? You said that was 90.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 747,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "What, what did you mean when you said 90?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 750,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um because it says one and a half.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 753,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "One and a half hours right? So it's 90 what?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 757,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "One and a half hours is the same as 90 what?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 760,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Oh you think you know? You think you know?",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 803,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um... 90...",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 807,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Minutes.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 808,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "90 minutes.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 810,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Yeah, your friend over there is right.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 813,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So...",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 815,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "We, we know the car drove 300 kilometers in 90 minutes. So...",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 821,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "We want to know how fast it drove per hour, right?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 824,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Yep.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 826,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay so we want to keep the same unit time on the bottom.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 831,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So because it already gave it to us as...",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 835,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hours, we can keep it as hours. So we can say one and a half hours.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 840,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So we could say 300 kilometers over 1.5 hours.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 846,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Does that make sense?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 847,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 848,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 851,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "You could turn it into minutes if you wanted to but then we'd have to go back to hours.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 856,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 858,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay so if you have 300 over 1.5. Have you guys learned how to divide decimals yet?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 905,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Um yeah.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 907,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 908,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So if you divide 300 by 1.5 what does that get you?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 913,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "300 divided by 1.5. That's a lot."
+        },
+        {
+          "offset_seconds": 916,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Write it out on your whiteboard.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 918,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 923,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "300 divided by... 1.5. I have a teacher!"
+        },
+        {
+          "offset_seconds": 927,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "That'll give you your answer, okay?",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 931,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 935,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Okay if you got a bus to catch then you have a tutor in your room can you let them know that you gotta log off for your next class?",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 941,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "I gotta log off for my next class.",
+          "speaker_name": "Winola"
+        },
+        {
+          "offset_seconds": 943,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Alright, nice job today.",
+          "speaker_name": "Kristen Lamberton"
+        },
+        {
+          "offset_seconds": 946,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "So when we get up...",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 947,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Okay once you are alone go ahead...",
+          "speaker_name": "Teacher"
+        }
+      ]
+    }
+  }
+]

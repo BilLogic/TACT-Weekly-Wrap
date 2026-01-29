@@ -1,0 +1,1366 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:33:50 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=92620",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Video recording starts showing a split view of a student named Iyonna and a tutor named Riona Duncan.\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Iyonna, how's it going?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Iyonna\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Student starts screen sharing. Khan Academy window becomes visible.\",\n      \"details\": \"Browser window showing 'Patterns with numbers' exercise.\"\n    },\n    {\n      \"offset_seconds\": 10,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome. Uh-huh. All right.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"move\",\n      \"x\": 300,\n      \"y\": 300,\n      \"details\": \"Cursor moves slightly on the left side of the screen.\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, I just wanted to check in on your goals real quick. Um, we don't have to set anything right now.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 21,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But um, currently you've got a target of 30 minutes for the next week...\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, and two skills to be... four skills, sorry, to be updated.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 31,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sound good?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mhm.\",\n      \"speaker_name\": \"Iyonna\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"All right. Perfect.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"The following pattern starts with 5 and uses the rule multiply the previous term by 3.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"hover\",\n      \"target_desc\": \"number 5 in text\",\n      \"details\": \"Cursor hovers over the number 5 in the question text.\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"hover\",\n      \"target_desc\": \"rule text\",\n      \"details\": \"Cursor hovers over 'multiply the previous term by 3'.\"\n    },\n    {\n      \"offset_seconds\": 53,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"hover\",\n      \"target_desc\": \"number sequence\",\n      \"details\": \"Cursor moves along the sequence '5, 15, 45, 135, 405'.\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, how are you feeling about this kind of question?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 63,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't know, it's confusing.\",\n      \"speaker_name\": \"Iyonna\"\n    },\n    {\n      \"offset_seconds\": 66,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 69,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"All right.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 114,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So one way that I would look at this is I would just try and find cases that um...\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 120,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"mean that the answer couldn't be true.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Cause if it's not true then I can move on to the next one.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So...\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"for this, I would um, look through and figure out what can... might not be true.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 160,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 51,\n      \"description\": \"Student stares at the screen without moving the cursor; Tutor waits.\"\n    },\n    {\n      \"offset_seconds\": 211,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 5,\n      \"description\": \"Screen goes black, participant names 'iyonna' and 'Riona Duncan' appear on black background. Connection interruption.\"\n    },\n    {\n      \"offset_seconds\": 216,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View changes to Tutor's video only.\"\n    },\n    {\n      \"offset_seconds\": 221,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"All right, I think I glitched out. Can you see or hear me?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 241,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"All right, I'll be back.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Black screen with names appears again.\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Video returns to gallery view. A new student is visible, labeled 'Dazjah'.\"\n    },\n    {\n      \"offset_seconds\": 251,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Dazjah, how's it going?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 254,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"[inaudible]\",\n      \"speaker_name\": \"Dazjah\"\n    },\n    {\n      \"offset_seconds\": 254,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student makes an 'ok' hand sign.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome. Can you share your screen with me so I know what you're working on?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 259,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 63,\n      \"description\": \"Waiting for screen share. Video stays on gallery view.\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share starts showing Khan Academy.\"\n    },\n    {\n      \"offset_seconds\": 327,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're the best.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 329,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Khanmigo chat close button\",\n      \"x\": 880,\n      \"y\": 120,\n      \"details\": \"Student clicks the X to close the Khanmigo chat window.\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, the first step I would take when I was trying to solve this problem would be to substitute in what I know r is and what I know s is.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 420,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So I would rewrite this as um, 6 times 1/4 plus 14 times 1/4.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Also just as a check in on your goals, given I have them up, um...\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 445,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Just so you know, you are killing both of them.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 450,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, yeah.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 507,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"In terms of your goal for time put in, you said you'd do 20 minutes, you did 26... 31.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 514,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So the recommendation is to do 26 um, minutes as your new goal to put it a little higher cause you went so far past it.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 521,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Thumbs up? Perfect. All right.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 522,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student gives a double thumbs up in the video feed.\"\n    },\n    {\n      \"offset_seconds\": 524,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I will set that for you.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, and then you did 12 skills, so the highest this goes is 5.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 536,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so the recommendation is to keep it up there at 5.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sound decent?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 544,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student gestures with a salute/peace sign.\"\n    },\n    {\n      \"offset_seconds\": 545,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. Awesome. Great work with that.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 553,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 116,\n      \"description\": \"Silence. Student looks at the screen, seemingly working on the math problem mentally or on paper. Cursor does not move.\"\n    },\n    {\n      \"offset_seconds\": 749,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You might have the answer? All right.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 751,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You want to run it by me first before you put it in? Or do you want to just check it by yourself?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 812,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Want to check it? Perfect, that's what I'm here for.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 814,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So what answer did you get?\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 816,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 118,\n      \"description\": \"Student continues to look at screen/keyboard area. No audio response or screen interaction captured.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Er14Crp4AXLI2nxVZJvuSpd78HOpUsRHIcV43Fo6eTOaJoWDMiovN3Z-wukK-wSj7UM0s5OpoaW5nDdWLYLkhKtnXhVkKyuhPqn0p25iUhAT8IyhwlkM6xRuPTMF26JH7CdLM8iqHWRoAdeqrDH28uOiImtopzxk5Nlx_fTfI9z5lbTVCfdcHsYdKUdkBYMInXPVwhe1QAbhVguE926bUxS8E1Qh9K9SNzUtsL1u29J6z4dOfEUM3FvwsYTIL1_sASdODD_83aZ1Dicl2-HJvTLDzp2w8iOc3Ntx1sgKToB_mPv0jHcwtw4V4biICflT4TM8ALYn5zY-T3kF720msGiizjTYeno0Q3R34kNS8pUiL320WiR6HvPTOWmqXoG1c_3eo6BJPB6cSR-T-TewzE3BGPKtKUGpYRwraS2ER7AoIK2JIwGpMshYK-PxiFcWpn3EB96h7oOW5bu5bB7X_LRd_bMyuVcJUmOIZ1cowxAHSBFb9r-xaaozS7axEcD-7sktxJPTOf2V8wKeiRdkzc1B6VH9vSFXOEV52I2cxqRg42Y7rwZmsVhxrrMXyTe91dRGONidadKazaQuXs7H7LF-QuLLOzdlB8Nc9e0DM0couL69HME6TtZAMIrr99B1p8xFxNbi65uvrHstZFVsj49QKNTgSkxFDSfzYCc4tXHrzluSi30wz6r045EWej_HFLbnEjFuYmYX8Xvj5jz2pdPReGA0Qdnm89_H4oZTuZGKxOuUh21c0g-czkhM8TskmlK4np_PWA74XNmRWeXyTYTVvCOCQ4RWoD6gVnAzLMixy8RL2fX1RgwF_fdrIIjq95PBr38nsuW33O0SRoiS5gwhb5caO-VhpgiGgnI1mEcZXy7lRViDpBPr8ST7oTKhXgPRaEzMZd_k-GuJV8hBEc6Lv9MfN6iN-KfZI708U0uCKDc6WILxiev6pgetFTEl1sRVL12krDcp_cbqcxVQd5mtP_GWFCigYXpgtdWjUoRIhVudyEqE3qXsLyXy-EHvD0cBKNy3bU81a8K9Daac-7z8gypyL5X6zjImADumNUt2e2YwfYRhaDwEq-u3qvMTRRkcfM259HcRJTkTwEAD705esC3MkiYRxBAd2yoEuFri54Io4tU2Fxlg61hUgOi33lddU_yU_Ahle1iywJqe5pZcRO2ODVOFQFAvTPOrGSkC650wUhUqX35uRHv4uMLDurRWquW85otiSvXLs7Abi0MrL8PgCvSWqNKZkpwhQh_xMa5CNn_wJ1fP9mWPcJ_lbiatsKpm-NwuRlAwZGO_7ZyP59bdXiNFcc6gaq29xOBYooo1GykoLKLh7TvUFbqrRICS1F3sUsUJ-BXgaQ37YUAirrhuR62rETGmrlPreQA67g9e1RdJwn9V0FEEEWR_4w5zn5Vcc0N80nJGfjrurLUw-OkFHMe6cG1TH4DH1Upi8_z1Q7syrp9KweofihYXF551ULm3EGbepQPvdvvUSQmf3AYccF5DAPeLoPiZmIuzbAoykS-6G2TtWDKLEAbRkyuSEnkGUnXikZMSTD2kHLYDtzJxcsQsioRrfob0dQAIziV7LvZj0Wv7DY3NcURcsg40_nppT-pOKCNYy5X5dDNjvps7ONcAMQTzbhm-llgM-NYkyMFCdLlBseGA1QhKIuXZM26r8nbOqXOuebJ064Al977VA1XZjXisIsRW-0M50joccGDNqr0nMsDuBfhcwnpaJLXCXfPWUzJsqF-nL7oPVoaKuI7IkFkHZGjaF3E1tWfq3z25_GZYyMuL5EBuAKy4AvFXuWIrff3aieJ7EAkefK8CJrhOMsiw83_rBIpKTEU0BcbUPRVZqQ2HIxnQ3H-LMplC-FZcIlCU3UMBxcWMdg_0rboQ1Mp8k2UOwjubI5JHVrDjpAfRxWECUUiKZwQBd8Jl_PP8eZB_feMnoyQvbW8JOymZv6942hX2OrAq29o0SMUL0nB6dMTGFjpmtvSj4bpJ5DqX9u51j-dpvgqvgqQyjs8E6e1gVIanmDThc_4mrUearUHoL0j9J83eDdAuyxkrogZiTrWOsZtENWAwMpe4NcmpP-VLj8GqbdJHFlmVPLINxEmMkDTRr624eYnBRcMWq3T-rhsc58EED4cYRs4bIMui4-93i7YbSE-GaS2u3wTYHoRoVaBRweTdF1EywCu59ZiXHeKMzwrwwgEsjSeTNqcqRTp9vrRKtAqdQlrAXv1D4i4x2_jkOXONHw7VhLphz94eBeGpmTZ56WSBNBa578kw8jISmyGi4jgDgxJzBhGbqeedDDeOncMa52ydLH8P0eHhv4pdCyJAbrIvZws9JqPrPfINPhhAVtWF4QYSd4wcqQzisDty_nALEqCIXyUiMFTwBAXess_-Cl6PIUSAnQeLgbWildOjYl4bfo_Dvy7yYr3Gbbr6EVOsaEOp8uXV0_xJl2LqBIANmQjOQngfWI8SzRh3YXP243uqO-hvsAQK9ZYE7IWBAwHA8AYKBXIeT_1bjqWatgUNN3MqQTVddJXTDqYGZ7LBek2hKXZOOgR4jdk9YvBuleTjMrdVDYoWWqj4uSfCCgYz-886giyREdVUZOwt31uRaQXBmjwPenuHyzRAKHNfhbqCWBJXwQeNcaRjF2xCfv5JYQVfaql7L4HkbeiAgWCAQWeQ7xYkDtQ09VP_5_I28YFboFwpoUQx4HAVIxqHRcepElTFZpNg3A5JVkhSMRqFi8o1rwQhm3O2nsWqqk-nKjov-uP4yLaLK0Ef-Xw1MCDS6KGN68k60DfPOzC2MtcV4abaIyRZAgwK6HG9fcn2FW0TZz0U12FFuGOaqQW46LD3yfnsnvlw7kFPEPZGwpJTRl_YoBpJ0j4LHJzAvx4mKQUOTT_lTfu-t_YG3zqJSw04IXWqP8NHHBlewmcZLL5iJVTkBlDmyj05naCLABTyikxeOjov8bOphdswZ9wa2bzuSJ4yVWQ06M8yxQH7Jv5Epoi7PE1YdCUrFWjpp4AtYHg1LR32tgJyXaUJorErMtnrP35lWSBAfqpbOjZCOLTLrttvDQphsB6B9qb9Ylj0Za6t13xUGPzYJj3PsJoMlqqsD3F-8cQqmvhLOCnGaiZnUxYDbl6qA7eYGcsgMPpiKGWNd9UJAhjms4HjuDXlTlSyvjTtQ-10-Xm5ibISJZHzMB0-hvbFWQ4I67NS9AClrMijh6p7v8vj7lvwYTqKQ9lpd3BYdSTXsPHY89hcWbgkACF0HWI6nokPI6qiP1jkN4oLm2N6_fF6OmEbtSAY1M7TIPSwLErdOF69z00ct58KYpaSZiwsI7WpByuMyqq35_MnoV4i46kj2EPByxG4x2vloWXdxk-2a6e6-JFe2KvMdhirxb2ZP8DqZL8LoJNPynKed00hdEHY6IfhDoPdqUCO8KS3n2XNNHdc2QAxcLg_OBKXEzxXLjvVKYT1raGN7Qkxp3scqQS_kxWrxaLbN7AsNtpYo1CZGyGs8eTEgYpQyUd_B4DCV21sm9u1qQ_X4VhZulemd7GnCFJfQzoX0Aqb_c4XPkDzx6z1drb27k5KwKrsJctseBYtz2eyQwRANt513bIK_ufv29F8PnWyXnr85KjG-kdcZ4H5z7DMCRY_lUIJY9ZefJ7fXu9Bh7srUumImaRRUYfFTj-LUIbXxQNsgmzbTEyfiYIdpTU4lGAg8v_yJZ37pNS_44x7LMVyUtvZTNvgJ6GQWOxPmWRTFt4mAeJtG947cLkOd0uXN8sGZjbTyCp1k6sylBAmg0sZQyeAuAsEdY0Hl0t8vc_OfPoBZLmsqa2MdZLqUtCeXajuTH8Bii2NMXZ-vXr4zkq7569OA5bxrXjyOz7-ADyVDVU5_bEePjP-WKJi1WJBY6UrwR_CxIuIANfedgZyDgRHxxdOmsSLLx-73JzmhDLr9zPXcdUH-QAE4R58HRAwvMkZvmKKehdHQ290PMI76TeyVl5ZtAJ5jN2_zwMWuvx8pik5B1n0-66gbA56Y33Y5VDjHTqmFLdYmLlqce9VD1EdcT9Mlg_V8y4fQqtiLZU03R4JV9u08G5oEwT9AoJK2NXccv7H96qyuJ9T-UhTr_P3otM9kPjK4BFB0FopPBl5jegsqvfHZnjMvoH9PeqV2sjGLnIYxLXrCVxBzK5nLo7mfkAYf7CmByr96ALnMRg5ZmpDIzXwAPkIpnCLxp060iRCWZYLWezMZuXb3dT6Jh1wuxZlH-YlH7XpUmsaqO6K4TvP60CkB4meEoPCMszncyzIOrvN9yjtReSETTn4y9Q90f46zI0483DpjeG2gh_kHatgDUCLtuXDjkNpUsMR4LRWA-Hte1505AI9C5mVtb4xsz23MJ99RfeAGHaH1wBIQd42Trc-PwPpCtEfHBwB_DKRGXU0gV5bwS36PPWiUJs5M2V1O5aL62Sz0jfwN62ULqrziJ3b8B9hq98dc_G6OQ6i7E8fJWJHQba1UH8K73SfMVO8JndDDFrHG_Rsv4qQy2UtN3FwikuWHx8mZSmT_Zd0D1fdfgORvn50hkB0UFdrpBU2TaksD5zx0V3HsmzWUIEoF9F5f-gJem4jqxMG63XLvW9VeOjArTVkW5UAH5P42pjyDAeH1KYHrnIKnou8ISiXfEPGXhuLI1gQfvwk5sPY3Nwae8MR1V8U7QHTzgevy9Tw_vBzdFkcizrDfAapUySeclfc72njvi_5tzP_inPYVMQAeXjOO-KNlhDANp5_JNyGCA-6-SdqUyH-e4VNb4S6BDvXHUITu40hyjcH5BOwpSwLsng-YsxhSX5J9UegXNNQKla0D3RDjY6EOsaKYqxqdu6N7f2u4XtjQ0_3LstDEDzTLesBLpHGZQ2kNwGr0kNICwG009VRvOSFmPnD-hpP3nSXjQsiPRzegQqgylXjEcQ2o_boG054qVQFGIru63tXRN5yB1n1elEAIRJSyWxVCZxoG3LhIAM58HbvYeIjgJWba2KG6wCWGvRgGeuSYEGu9LM9G5OAg4m-zvzMp0_FJmVieDgCCxkiC76xd57iSyZU6E5_k-ZERXJyfXM33mu39hqUPg9AixB4ZThcj2mgjyZbO0UAsEr6cbr-XiAj2y9dnClZefkRPOypROGnll3OMf2C90nTzzfrHi-g2cgC2zBN8wgj3XDy9spmS8m5_L3wUvMpgu9owBAFjoIifF_vDOrQ8V8gyicS8bKSXv0sUG44bm9ls2qhffhqsJxtKgRzLHxk1Sgwy8hHz2bEiynb_7UHk7yyWgYR4Ig7UUT5bJJ9tURJDp1sd277xfZFXF_Dnb-K_jgmWJKTU-WLlD5ewkM_onNs3RNaKnaRZB16cCd9fiAkSSrtIe3g1jeK7RWafCW950UHxXJ0hqGA2SinbjK1baiWdKW9Zma17achsxSGMhfJ-FmbS0bgcBgSJac1vSs2YOGwEIAnhFLXAmVpmZwrKia13iworneH65c44ZE1n7TomU5Q-8krwPecm_cOZPkVx5Mjc_w7DwWOZXuYKOAtPIJUoM06lMN62S5lpf3_h_HwphZ_Ie-ai1YBi8be_CMwWt8az34vVCmIH9JhNaDoX1vZhvNXvy8-irUzS5YS11VD_vTeIsq5ntzgHdmMsdrQOMYkXS2Z4OT4QGzyvtgY8NjwZMj3IRUeUSjjqAj48tfg3lw_n-KXv0dWxisQoB1-bSjCfcFgPUgaCcj3BnsfD-ddGRbU6E0yEv-p0Vp-137c9WKAUwPh0_22BxTK4tH_d2liEcvsdVM4a46oKidgUL_H6S4bew8lB0LQpcZ8dgWxMbp5tHQqhllmuIQ1MqXXsluftGfr89TsrNDwqFYtNcQWi-yLgDh5GMvpT-0huvN3_EtiTkQN9i6MCF0XyAC0TH7NQCwhR_TMIo0pOktCxv8vGIxlqPnOMvITEkTD85tr0hVROmgVu98w_i0Ko74v4fqFmxQlnpxbs_xQyPM4ChkAGH6tHBufa3pAD1YG2lwo9bQAKWssK_W8jCt4vc6WDcmWsHFiT7M6-_Z_MrxYZoSClvjG1E9V5WAtm_TeGCAtMWs6CCmZmX39HuceyxsIfPIP8zSvO8b1E3MHuvdEg0ORXajS5ROosKhVE2sbz8KuZCVU1Et2IJEpwrl42w-2C7CjU_jCUZ-W66n8pegvCcOfchfVbvTtv6VBymcsZytaA13sSFiHMI8av8_TKtRZC0-3gVw5ZNrkgt-eLTNiGijA272nB59GYYULPAt6Sm7oE8PpQdDnXd0lMYeEtjyL4sccAJDdrX15raQ3vsU1SRm3vqTJxAfwh6d1AEk9-daeqskfz_acjqhp9OK2U7emUbDRHujq-uIbl_prpJa8cIkkBbmjCJFI5IWtxSYSJTtqHwJtR2gVVtZPKcnd2vN_2VNTw0yZyE3ltX0V6o3YCNFFsKUOD5GQ-qqtUZKABTUOQ-DEiPLR9zqb7gTHsXoc-gEyx6U67FxSg1Pe5PLyAaRV0UM0p5th11-h7b8vtQgUYgEfKb-CaKZXW8yBl0WgZpDV9e_NfT287DQbNlR_16zA5rJun0EMSrHSoRdSFiYuBQ40nB4xRhZnEJPsX8wjxXHqWoZNswvY_dTfFU0tdP5dTXwKiXg_5ep3cSSu8rhR0vok1xtUeIlDN-6HjPMZR3jNYXwfVmDs6ayE67SnvV9nOaBEAfxIonPm9NRlyoy9IOTVeqdn-nUZnlsI6oPjp5ioI4f1pt2V4ISVrf0eJax22Mg8bO0zSB4YtwBMoopMvIEI4vAEjDMQftclhOrADVpjviMoFwsE2VgTJY7viPTf0xoske5fBHPfsfftKWSDQpAmFO6-4xIoKJMYiG8eZt4NiV1YNFGLo2evSOOLjCj0_qb8KTZgw17JZ6zXgvGRZZvB8skxhXLksm-BzIOKdwlvAG1QBnTqGSBFqNsROuCdYjWVMfxan4xYsD26gLLIyU7jbyxOoHsr45yP6Z5GuzxnbgAVcl919nY5QdC5eYBBNGH5gWBiCgfzjVosffsFVUIvBVKGNms4Bjy5h7xsGZmxEK8axkwfm6IcY4RlvfsDBusqVN-4BeIwp_rpDwur_rfk_4Mdq-wt73LK4YZNZpYZ4sv4QY2IsurbnaeR37_z7JcZb4K_SMGF1cHs7Q4_PsgrCBW6aPFaZM0S-_4ELCtoGR027zg-cAITc4pj0M2NJiDiYi0gPqswGvxnAaoMZ0DOVoF1cYFjGKQiVm3r1q1C5RoHWwCsz_izd0Tq7pTfIX5nlvGhkVZvyXlp44JbO42eeg7OWRmBJv3GOeocHcqe7AX6gLspT_8XorIOwVfTGn1MCutOcSi4g0K3fY00-rvUV2XoSxemF2-becQOKjnyL1ilILzhgq3AqwYcMgaRgRaIMjv2gS3teVR12inQTeWaVr11AcMwIZHA1ppjR0FcNkG6u5ZaqTxClqTaQfRGYq0qEF9dFf5IisYBz0HonYeQG73JBgG1B8q5TUSbTNj_A9SopqLhDUpOI-MkYIncYU99dvynDzs6P0kmivAF_59QTG4zCTTKxIJPyXu-RHT3iQ-wNsc02Ql5EoxNRHYMJlvn84lxY-zaGCthVGnBTdL5xK8XxHMFKT4jf5vDkunG3vyTMcQglqmmWNM40mre8DUT8CEJu27M7C9MGj5woSEJui4E_kxWUbHo4zB3VjBER0fd9cR8NZb4iYM18ykvvzES3l_LmQqgFr31oSiGmh1hb4hA6nW59EGXHsGWkB7Mew5h9dYF1EdRUNFZxm4Z3fN6Gs94i2cdqGesqxBLCaxx5E30GNtCx4pBrykxWpuiM48TlJk2dwyDfc3frL4hlEe-rmr20l_jL13zxcxzVY9PDhZslJqOO6TXWoKWfCwOriK7s-fNSZJajFzXU-_zaifIh_e-V_9wzBdiYvgpulBAPd2YNr7LxGYZEZtIy5HlTcA9ht1aiMHQUe2nDHk7Z_sEPIKbalBxENw1ZZtaQsWV85x_YtPPnNKCm4rU0ao8lx93mNkZnJbf3S1NZSsa-XirDsCnz4bYwZ3C8Ldb5yqRv8sZDSxsas6UrHxMAfr-0nu5l6gphqZyO61qR5UjtKYKeAGBKO3-wCHsso-agzeKAIcHqpVb0nN3lSZ1NJh8H4SllQ9nYnW8z-TTtjjNepZD0VVxEgeKvGywxNvpI9h82rrFENyaGi-UHZO83ykTXcqTsz6Wmc_JHLhqOsBSUYV4uxEKY35T-WCH5TmRRTr6_vCzPhQb7pW1prgyfPITczxJbTPcvB3B4Z1uqPDprgNzmdGCm0t1ju_UXhzYjdfddtgTxgLUPSMMaW2nD0bRJ3WMCEVOwyMnnAwrZF52xKgYO8B36TE_o29hnaDiMqQXqkIjIrnIDm9fBgmtOc_uIAL4oacUgY_eMYXOfNoS5HHcR8RORBAOeJ0E988wTcGsqemuXLyYdsANrSZ3reVyzI4F5a4ghSKmdi-c_3_wnNXZlW-Qn9Xo7g3dhTXOKeSBAO74dBHv1M5r0y7G71E0giFtVXCGf6ZLEb12uMigVoAAYJxX_DYh8H0RzvhbekbbgXDnkhF8Qp7bGvoiSdsX9n_uGaLmMji4f2KTwGVew_wkP3Cc38CV6UVAsCFodB5Hc8weDeiRE0ozYCXjqvxZU1_aspQQUl1kUTfGNLgeBiQALVafdu3-WUfgOuVB3yVZDFW7Kd6fwpMQNymFZA6DHDjF5VwjPbyPTdoVNaoT1ypmQ8OBgd70r2_tweztfnln0JCwiwjrZNnTyWwnAdKil9Cmbz_VfTY6lURAmNZSrem4YN5P3AgozDNDZYlaFoB3fqjF275gV7NnxLLlRqnndny8ImgxvcAUq15skwdVA3zGiF0nKMvs0Rhl-o4PpsbV3uXblqj_Ts3O_09y45ITMt4v1HBzj0wqIDphDJGrsxRzKNFp9OmCK9Ot0DMDOg1-USpcMm2_HRpaI_GXRPlBZBLs_RciXacspmW1u6rOahV2KUjB2BN18HTaIgJSj-q6OqIUjegw4fTKTB4gMAzhlwuAeAlkmJGVZ4vNx6lJg6wM06se7BXNf5LyKmVlSBRzfff6nGYQLF5cikOmfTUwYRF13bq7PT7JKNpdhka354SXFOv4pDBjRvxd3Ump498fNYLT65s6J99bMUYGDqIBMAkOwCTmVsdIFGtDgBLCxdpDFtuGcIXOegzmkI_ZDGXNNBSYytOC34s9zvbw4kydixnzZsnwv9zstXjLa3Luiz1u4beau5xX0hmKP5BmBwPHdoas4atqHDIyr3lNEmMpuBowhEjBc8zTymn7a8rhEplJfiY7ClbXwX_fvTtRrWyuNEHEwmiTIPyFCHzoFwvHKrya9p9xaPmOhhtmyuV-BAwF8Ff5J8_xrkLzgXeumGxaGkKdndAGumhUJpvD2L0Nz9cFxK8_FToqQJ94fN_YFO5h96W-_wu7eBO54pHx_6bUsZ9PJPYubQSm6CMoRlGabyenYSlIx5I799bHiLB-C-cynBYRtLkApMiqRWjeqbF_RNHdF5wwPEEX8X7_0XRMLIylAvhb5qu_W2Z2QzzM7uf6osM2BCeY8nFYETsAKnvB2QjD4cK1fWdpFHzR1JXaT7ZHUFZpB9L3OikcuOTPJCkiqWO1gVolfgAaiZB_H3GBgezY6CcFYC3tCdOpPd__SKfTe5dVJVFQ1T5CUsKCZ_A3VYMBf6QKzehlxqYAvr_MVuNoQOPG4NqAS1gvw-Gy3bKkjOVzE1zwm1Y3mIpHpbk3KFg2G5BSTWWXl7l5FLIeHhoJATJ2XgGlpInrD48gNrEfQLcU5EG75kA6xE4EsdwO501hFDUS20pd7lsW9cXXzwqAR0LiRSeTpTg3ooxOqehJJI-XMVqY324B_w0t-0FUKtHzJQmjiXdVzSa1mfNv7PlUH7kGKIMmMWutb0QPqDnwUVItghQJMUyLzgPO-vdrMGhsdL-mfskiFAEhPCWFKJwJp6a5vupfaNyAXja7VnuxeDqB2ADX149SBZcZAopppOIh6G_K5HicAe46CPwTBtrLAzWUzouI2JJXt6CzfpSoUL7zDij_g8ydWZ1BuDrH9od8uqM5Eko3CKEy9Z_rAEe9tnp91XSMR6_eBpkU9dwM8yYD_9JAcCWUwB5PizkBj0NO1u9g6m-UVMXBQJ5AduqrnB6OQ11UNtpFt-xBO737Gt5NadkODYkCcv7Ybp-tEIBRvYednqZvap3X_np5072-kmDZfXO-F5DbTYxMsGs0hqIfCa8_NY87-i1Bdf0D4BPjinhQAkc4DkgyerUOTO7Vx7qMLTR7GxP44RwRRni08dsoaSJEUveteYNntgSxlEhHUteORmwZLrpxwXhcl0PrAlrur2MhHDGQTDyFGfVke1RJwWDVxmZ1ac29XE4G5Hk1NfjK2wE0yD85TT2yZ32TdrheyZyXZxTzZw9sCr6egnBsb6BYUUkouQpSWa3VVHkVlwr6a2eM_Xp5z_wuIHs80SFsBWuftf2YsEnP6zJAJO-kl4VNQvpbXcXZOQAu5_EH0VKoxtiHVlR1JIS3AMWWVEo7el_diGEuER2zjpwGzQIHpBMGwsKdVk0CZO0AZI9fghby6oOKrOelfkTNRGOsvuHYGE-bQcIZn9QK3cxLDs_rxeny6J30eDDSOZW9mRt9MlX8LjfU_uJCQMW_htNtR1OkqYqUKhR9DxFLHDbxNZ-AvzjffItVDTLMz2YAzMnlkGbKxp_G3l6SJ4_3jm15feZUzQ3FB1qSLDbp4EuAer50fKv7N3bagT-__5VZ1q-w-A6TGN9obfrPtbkDCBZvY-kOAMiNBWeFh9RpN-w3YHvDZsIT2w18JywPDnTm8l6u4xlGYZlU2rrA3T5azvDLijFO7UofnAOHEB-PUZxB785XQayr_3Bna4wNHsZZh074Pa4p9nr97QI_Rlg4N-oHzyMUQW_0M7gB9waTtvS8mbWcWleHcHkufun3br16h7aQJswrOAQsgto1mcbhpG7CUit_BbFjQLn0I2EzQ-vT64pJQjmeIu6sXanJd-LL6W07qgxBJ9bOJtGuAddVp6Nt-V19INjKBKlXRVi2w3rk3tJSW1Nh4GlRkrmPawJX9We_lwSoc3w7NjLk2_ayfzNXhTwYYZh6B-p9I5ABJw2r9T9WKSP_NVcI-SE-Yy62Q2TQFUJarL8Tn0AkMDa50BtDiwHxmXLXTaDY0gsW5RvpdTyYC2m7W1JBlc3m1_wuyZzJrMm-Jjs6HlT7EKKE60JzRWtphc0e-JHWCgAd-4i_yKIqanxxNb2q3wnVh8hjKJyOWoOaDeq2BhvgJi-umQ9ZDofwjebXa9x3TKOqRuEZ4vR-Hue1Fw0-ivPZOzCWrJK3CH5n5qbQzNbKzB3ZVcX7Cv1L6F0T8yRAjHzSvR7FyzgaH-ilNcW36wO_ZHHBlafzHnBhFIBArNn_lD2Y3tx3HfkyBFSXTK0CDHNvLiymhDTA6DlnobFC1AfgcL_p3zRbhkEcpUFVkJ_SdhdKjDArDX9N9uQaXX5CYxAz_dny-Se6rS-eZ4iy__TIFkDns-tjMc4oBEsKst-I4AaaawfyR_wfrpIrrysBQTqYbCIDGml18HfsnEZTNQGP3ad_DEcCQ_xxUVyeusFlear7LwNSpquIiNAxjl9KJ0V_MwGz_YOqSBv2fTLujNRrm5oAsChI7TGVQIKGKT2NzCtPwqf3nBYb9nv930xk53D_myk0L3MbHjqQKsBeq0CoLjSItE6EgxKbwxQMw16TqhxQz1E_TZ4PegwpS_AZE-ex1N_FhFA8xsdsdT4mY0kmtZ6D7s_eHs3tstS812hAza1gA4ePwqeDbw50HUVRPqtTcTNk0LwfTCn9mWQVkxYCNUA4kX_OtMVSJQE-PIcA32XOeXhiTeOWo28irylA5HzYO680f79OabdfKmqAqk5lPoaBYgmZeMv8Smo7gRHgiRcRFKn_mQZbffR89EPgLt1Ifhzy3iRS1wjHpingAUpyujuqOS19o471J6DyW1dqibvtzIZyQ1NOsxnFO-x_WDduo5DYoPai4jBuUwhZ934uVsbH1x9Yi5C39cgMqia685udQAD70Ay3ua0RwOCJvsVEaxW3kAK5814noFWU0w5O2_Kc8_bpg6j5lFBJp8L9cL3s6qj1-CJQHPQUU_yLWkvuZhJ25XTNzTGJ1QDmCEXHWxzKYsC3vw-pchya5Drto07UUoAQ3JcQv6l2CBv0uuSFKJXCGA1bbk6lbjAndLfqxAAhMd56p_Kkv7RuHyNEUUG5RFcw2F6Qbvu3vJcKakCyHdOuVHGSAKBMt57Eh0yhbcokU_ekHDaUuZL_F1c6Bygv_W3qzR8Ruw2cjbetvzpCfK7YDpIMFUYhaKSJ8W40dx4N8q_i1byq5qWgWqj78t-NOljnr1KkeuJ_dqoc6IobXPTEbBpIvYkEfJQ1y_AT3gNbQJuJ3Xq7K1O8YUYc-NOxD1A1DIoy8P03GjslSOwF2RARM8dZKn7vqXGvQar8H0iwPsSq_0iZ4XsjskmBHjR0RP1ufhj_BXK2_AI4VLvZLxaAslcvcdHE3uCRFkfsa8sPbIXb5UUVdMPm7jy0dH5Ui5vQCL_vULTtEc1fU6Fu7o9LzGou-jeYLtng0iCr_R3Duol8xoeEy0rogIquLFCl2Uy0IjQk3ADD99f5zWd7MyNzd9ZI85xPFmjkK6v3N8CYXo8mKSrgbz2CbVk0QA2ZRRMvHbzsbP560S_M1GxOqD-0oSWLYwSy9LJrtcbWVud73IDrbQ0W7qXnabsaWT2xDxp8mvs2Or0ke50a1ncUtSehMfNvJ9jAKhaVEZQG51jmvrT24KlsVymA2Ixdbsk8GBEl_S60HBjDV_InYGNpUZ1d5_5uDI0gWi75eqDXfbg-gpvhK2ssC47SMnbNzQSy3mBCzUzHayrJkOHNZAY0M31JqK4Xxvga7HZYDc9J8R9b26x1QMGWUztSWSlRft7Wfjg9cOZeqil154ZYvvvEQuDJE8O-qULuBSOLOzesATTEaT3AAqUfClT4lnM-J9fiC-I9Pg93AAvnBh0-Bq6vx0g1QLL2gfczRLiWOZC9JNVGPACdrCHmAzRUhoKE7SMA-fBhd9Wzw-8iGzjoh2c9UXEL0-llEu2pz2lQjJclwTMDdIqOdSsGQETHvw5goPTqOd6k1afT3ufCMg3gU38YYnF-MwJ9QXfZXEiDMKsCNitWKIUzvxE2s1RosinMFstpeMHHL99l7aA-HmGjeVas6etcHW0Qt6BoGovHDNUM2vpMG5nsLagyDmal0WonDgQTZ67auPoYEBu-EYbUNdsYIMVJkH34HH2qtUMs3JWMyV3_pXjM_ZmGhP9y_Q5sixahLEZb4k2-IPl4YyPc173kQeJ27etsXngjhQEBOcgaJLv4aLiF9Ob6fcY6_g_SgcaUKv4v2fGYIGbXMZh7L4CaD0YynQN9sTHt3PGiEOV_aCADOz9FRaeUJcVaFiVBSKlQ3dS8AFZHLWXIqOhxvDGMCw-2lTztSa_bof0nKZiIJa1hADBRLXdSWvmtmHTcxHhk1jcnIBx5YwxV6kYoA7vYiXhIc_SvsWz5T2C4ZS0Vpn1vBOorE9Ws-wc8G0GJMNiBA-X22jVd6p_3-IDlgBa9pytq_bJYiG0Zz9mfb08lwlFpXIb5K2QGZshUrnVMbyOFhTNYwmoew6UEI55OoM7oLpdjsIBo43u6_-9WAQBelq3PFBz6GnZrn6w0oG1m0qkV65iHxhlLILrIq8BG73re7uJtWf5ZhS2nkj_ZP_UNidG6MdNkSvh9r8kcaILxeWXj6WSgF4DUq-dL-Qf1pmAgHlYYtS-xGUHdjo_sXrVfZTxzHXrkL7l24TMcSkSVZa_Zj36VVgBd6oDwtsEvmtsSPKjTo6RRKvCZGT9JkE0QZ9qyG6K_R7WNY8Wgk_g2QcC2cfSk_3m5MubHbJgtZYuNxE0md52ZW1NTaj5YpE7hzpeRx6bkYBNT8Gc29jTufbyPv92225GBh1NxrD6v07DIZst0yc3WElIChQHQ6u9yriRL-rFpwNFeGkr4gCWrf_nWqnk8N80s3YGabdFv_YsTflTJLglRLv_AjHLaHRFMDucYrLMX-QKPvqgSnm_LyB9JEgcu0Avi-4TIwprQhLfZLeHLfmYdJ6bdx5jvSzJ6wN0nKTvT3N66g_-en6iPqByuCdBI5tT1WkhuoLsRZ8Ia5janLPSDhYPrxmw9LTxVftwvoxqOtkEIdD61hjahnI_ei8y2dXWbaU467Do5TctLChJW6a_PjSMAICQdYSg1qQzbxjdkkEweswH4BcHmQfktrGvjdUIZR6RmGfmjiky8SVCFlM6QbUlqHW3sa271dSX0rtHxLapxFY_FWN3hCQqgn04-6mQM02wPnidc9kMqKa4Qz5t4IW8BF0Pbl4ImUAhfTQgvarlvWmTpfQ4FcfEu_i1EP2NgyUF6bZAHtRUjdPhkIVOCfy9qa7DyQWEZomgt8bvqpjXxqU8ljNTOWCc5T_BUE9KHW3VSAAkpwkdCyq56THycjPYo6wNZO0NjbHo0sSvxCthHvzFbvGXemSlT0iqRaRu8hm8owuOAIYCij8LnQBlkph59Pjx25fMac7iCNAsw1_9ve6h21UJ3vRV_SvGBNf4QaXqloui4BMXtC7opjvAyL1tbS8rzKlofInGTEzVNdZzdwX9FRR771KkQ4yfciT6CuJDJbMaVmD2hYO-nsAYkIGoLs4DcvvGqII-TgEl3NHzcH80ss3ZfGuXUHq-0qlUnQQCctPwhP93zHVrPVZy20NCbkm8sZgnI3qpwHqLEjvxSfdEgBWW-yDR0Vkgdtqy0jaf9nOYiATIOLiG-ZDEUghyrIejJ1xcp6Ym8rKelm-LkYSrGAb2Xb3Zc__Cj7pRaoRS5p4MC2__wjScTkAw4s6W6XSR5n8lpMMdD2_dUCSK-uY63HsO-CD0arcsyt4Wnh7VrYG_bLQ_FJ1zNE0HGiVo73gMF3v4mPpKGmO_16fgIpXYkovRtqWGJYmPGY72ID_lq4LmzVct6dC8ksg1gWoCih8S7Kk3P31DEDKXgDw6B9Si3Q8CuAGNdt4SbFFfFqEcQaTjf8Iz67Bqqn8vWWh-6QeOXmMmfCS49idSnVppogU6xYm3iU34WJwemjGTwp8SX5vDC96cXMO5XRvserjZ8gTda4AIfgZoZnQPt7xV0a1zPkAejkce98TA5oQfx2JXjatWiEz3jjtXAPvMOppY9XdKwCortpmLLAdPl_YijdZeZ2_OcEZmhX0lWAkdouerQiMNiN3eIvRq1nhg6wj-biNn_cTRWCfUDRBmnUBsf0xYcIawAfXXTXzzKr_rBBTnUCCiI3uUSxZtQGe5i8QZv1KlDvrM3rzdktWaczIv6oqltM9X0bkRYRrNemls3G4l6DiWJ7zg_lExAbCOoKUBaDUr1rVzCXAcwvvQX9xzcmz6PNC8j0F07-SyJKrRXwN38N2NfNDLneL4ao-mVPGLiUByF-ngxh_8Dukf2VIRJEvvxJzVu_Gz-MC7ak9O2FIXMdsxKZhht19cEVqzoH6LXlEaYT1TOrmjtshJThSm0qQ2XcRQYmswPfDMA3zwUpk0ZpZ_Du81ZPJ8k4QtKivtkE7cbckU7eE_U8lna9pd7CBgCRv1opq1uea_Pr98hUnb3XXfYviUtA0Men0qIdUavI7yKecGU6TB6gGQcJyGrMnpo63V8AOPZY2jd2bYXIYuplMNbpfrfO1xs4H47fC-F9EUI_BtwHtTkaqsIt-UkqIc3rZlbkmLzCHZ4EpUiimyXHKF-6A9FCNlwZ5V7gPfiA6SDp9zcjBnIIZ__Jx4fOv2TA-qD4R5VCPL2nWFOOEPsPB6SHG9rdYkV5BSqo_FWJ6uAxGn691AAzwp0E3vVKBgnnBfwwH6lANGq510uN3WP0mg-gXBDqfAMkG2oVWLX5GyWVefcpTHgNFGJgdKn4V2SV9iHrMIhv8gzqKgH6VrUFKARQ-QqZMqtxRRiKgKpjfunhKM2LRiqyWXU8MQn2AeiNCZ_TFr6sRmLLI9ZIWvpBHBAJ0ux9GK_VH1EtGNxAQVAywS7DjX0S0KHqftgzfjXQY3hLOcgqadKrM-CNj0L-7KhTqIKf8KErwGpGHYGHAPqLd10pJq7k62MYMHn2BGOMo_s07CCd6lpFLbBYmFsdPazbVKAi_VkNHLsAFnvZ0R4F4DgkMI0-leXNmYQ7b-Yr06_K8DzyJyaE9ClhVYSXR5oZzwC5nr9qowcHjeJ2LYrIVDvzA6TppcbFX6zefcea8x9VaUGdVZCRTptDUri2az-VH57Zfqf_hl3tFO4fA6WbhpaKXqRVlfslifhPgfmUBL5EWxWtZYpTUZ7-ucfv8bc6JjU4zJ2NEcP_5m1Zk6_yVcEGG96iEUu4SyrScUgowD3wGpq3PAtZyTNHHYuJwxd9fgyl3s85EqiPokBdHu0Qtig0WBoEX4K9Fnau9mDXPE6Db-D39CrBBwNdpJofC9M-1vVBV5XiyWLdgyAO7rtVsCJvT6Bm_0IOv0ZaCkFyaZPBjFXougFAw3kT1K86P4UaBiG2Je0lOUIT5IqjCOxXYqvNo9UQK4RPVP14FWddLz0q8mEAByPVUBBkCMwnn75pL04_-SXX8UgOna26IGplwusuQuHmqE737xx2_xtMyCMJ__qA9xWnIK7WLmAXDhI_ywcyW4t971_jFneN4NzULhmmHEJiBlIw9sQIi81kk_3dWnXaYg0NgLODMAUl5KK7IeW-Nan6-Sl5KQzILg-wRoW71sCnmZ2hyBahLMEWdO3UD6_i_FcHQD5Z9DSGRxAIoe6JcgRqzv82TNTRONbNw773faqevsRsfmzdqzTCq8sjeU9QVoULujwjz6uWA_zfG_gWtTwM0rOffWxNvl2LXZF99_DDUo-y6nToFC-F6pueDOYNYDMIvwNOSZRbMGFjnPWAdOHa6UmfZf1YZPDEEx1LAXsPkzByEjqDxDD6aIzO0DWZe3dPLy62DhN9GJ2zYbguL006B5f0OBBXvtI0xXhBPrYA5OfmSKXfJHF40ixO5bRm6GB344Yfr1AFslM5Rf0E3qTIyKl3o67GE6ig-N-pIkBQoV7yo0ZH7emml_g4uXQl5mWtkzuXBMKG0yLgRsw9nyNPWsxRRaozU24-wX1X9sa1DonfA-jOJiCGrU8aY3rF6f3P8M1CaWncCqQzdXL67CSLf7YmS2ipvE_-qHEk9S9gOMcXp6veRQ-bYSuIy2UHbm2d0Lw1LoVT7FZ22KmpF6W2i9ha9ImqOt7bQPd-WGAWvgGWcdgMNRBktq9S-zCsukiOh69xSu5rCYiu1fOwsFv4K9Yszntmd4KfLi7aK_YCoY_0Ew2iDOYXIc3ITMRT2jjHm-L7EeesH-CI1U2qh37sWim9XJl9PQHJRYq6Fl7DZkcUM6MfMtQNvP7VJ4j0zR-G6n1GVR_amw3dnxU85c3jdA9bZaL681pMoSSURZlrHz0kkRbUO0HCHvzg2-DTmwVrsLr8Gjnpk4klVJyhSGIKEOab09m4Hw9h2-mi5oQUOw_uEWGQ789pYwiT50t-OaOb3peCGvn1f6dy-Ur4tBfGsETgZYD8uHo4N62Hxr_XNUvYaYflosKKEXtO6dkois4b2EuVrpP1i81no6xMrpJCZsAITKb84O9uxozYMX9ZxinKHERgJRRu1KnSumAx0LNOm18gqCmZfoL-R_4D9IurXDvrwLnunC6aFUixdv3HQWoaJvEndoSMtEHL-qGgg7mysu43q5Q0m-ak_tNoyJpsKVJyuEYzI72O1BGGFqnvkZwV4Qlfx5y1PZmkkyMJMvanUfXmv3mGgmIg6LZIyVsRb7kC2u4v5AgMInOiuAlddFTBcthpB8HOKKtEcxpU7SuEaPcJS8Vc20IuW8qbWFlB8qMpPGsNi1sDqLzCAB_a3cUHzcWX6MfWLocY7mZ0_8Lx0Ly84ooxPiXtfos4AOzBPwLAkCbDs8M-TrfFgaC6HKNSDOo2zk00yDg-d9vkZEqGz-y0-6DH6knT7_-GpRhJ421kcrP0UwqtYNZzl77f4F7xATYfJps1UlEEapRUL7ZqKz9j1jc2dTTEEx6Xt2HdvLgV-sivIMRjtctZFLqxW4R6fxQu20Q1Q2WpdfriD0unOBFM_-juYFdy1hW9IyXN10DTS_Ytri6qYwZvcl3eU4CRSOA3n5QW9rSGfztggIGK0DGpY7bA6a8EMHemMac1EtVC7WWsGe9rYK-JnrOWYm0a2yDxk0qsJ7O5DgKBfcu37VzL4uOgcLFTHOXdsmFxvl7u4AQaNHIdrIyQ_UV-ZyScEx7hcVFSgB-XI35BUecdj38jjBFU6htWHHiQ31oXqsHUs2wkqbGPG2nY3LtmlWVhmO-Yg0TiPelSqdvRDsGp8O3Lvh4f8Pm23z5SVhkonYym0eeQOtFcGU3sUmV6dbyfvyrMPwLMXuGxRo1KFY1_lqBl2yZu9tGNLEMc8JspQVuLtYEt1QdI2IDDNZGI45Z_ctnP6KIznAGlhxLW8QJ7Iw7uwKSf5yRzNxNwlN_nYjq1bvOjgtBqFdihxwpeGFA8ibUeSsMRuULKje6Fr1lpDM6AYXarUxeHwSZWrmIqG9ulfvzCeytKZLO4ykr9RHx-Xqp2ZZ2MrglPOSyceXTXvvDqCJy9l32_ss4UhA2C1HjzYz41gUGVLwocOHhWxD5SawCN7OkiWM5KbCVprAhJLFB4Q37G90-QR0zHCWd0bPQky_3Wy6tBFIpQN6x1THnszQnniAVTY3zyYwM7H6VA93umolFOj7bZnaNFmihe4rYQV7qgZ4RBF0FCSSYrGfYAkzhGhouVfiUqQPkWuVk0jUpi3t9YQDXmtkdAd4MYcuWx4ixm7QfX4u6ZPvlldYdkpXJpAO1F3Z4oizi0rms_8rAv6hSxAzRPjY74WiC4-9RZQ31oIF10lp2HqjN4TSrMCqQFU-TMK0DufjSwsIWcMfilks5kvq9q4RZRH1cTU8Z6mAGleVQYJkzUhEXpeo1_W-V_2xHbqfzYadp_yPRMShz_OLgmwQc_zBsGNSTjiwoNFg5A5dO-D5BTU-CQ4ElGU6pB46EqBeeodvjfIizH_3NhZwE2F9vkeP8blWsm433FE7V02le1PIS9tD4T17T5E5Um_Mx9mwqsNj_5x-yQUgGl_nhZtd9DWAFzRgmFewQqakujg1mCYpFIuPxySBgfhDoQa28zjox58Cm_Ue3d_dpcHylV3aOOuXRKecZmFnqC_-bslaR1uRfQyOLVHvXGTXjms-mZwfdkUuwTb0tWrAjhE4PosuDvNYoC-cHNtWNjClZQpNDQFEIxK9RjAfe_YtwF-wRX-EVVrPNFuyyGk0CokrirR89VhfVWgGtt9YP2ZHSVYLJaR2n4_gWWQZoyzZmCsuCMJE_F1UZjPCFn8Tax3jfuLvSLYVi4DnPxq3AC3NAqj32uFOh0QHS4NWpPh974qn_X_nP9xdbyXAPi-VlXYdpTMNJVTCPcWO0kwWZLz7OknR83-X1FPhhJs9gjK9ycVmzhVHjCvpsIPZ-K2onSCh2ftoy1tzWaqLzRdl8AK33IAKrRPW9t2SF709pElfio5XN6-5g0oIab381DsyQ5Z294hxjlk0UZeA_VN1vRzYxsjLUzrB3_PS0dBPh5s3wuCyKOMICipfg7fvBxf-I_KVyj3nKYObpk7tCYvtGdGtOsHKhGxwgawYM6ZiR0JczBjbvnmxEYKv03pu61QFeGcs2fE0yWGuZIj2olSGqVfmiFdiv09JDK6hbwN4rW5mHA1ln2Y_LWJOzEbY4BDH41sFFf9JtDPey6aWnICunPXqcWoOQlyte_L5SHOEoWyPrnvicr95aKclULVEhjopkmsoZoex5Y1odb22XKcOL5imCahMBBwVEEvxISeoBiAUE-nYcvZICu_n6S_DT4v7qq_sISCG675EKlf_uvSPoLygOZkIMULq4I4gCgctCm08CyGkl1PXMf4HAsWW6JxZzC1a6D02EcSkaa8HEf3u-5tZf3LZxW9WVnulIyZhbkmpf0c5BjjDSVfrulmz9TvYpqhZ2iDJ49QN-ZaaotzZ8kc1NmnGtInOUSjF0YGus_IW0JstKJLKfqLvcaK4mOhUzTenjKK9qSUXJ--ojIzrk-gDP2PuTXkMUC_1Y4ZARyM-L12FlPctxaDeYJtMxqsJDpM2m1O8MW-XkjJCQtpbMKPiXJgCbzZEeWXiSu8rT4AmxfgLvxApE4BNEYs_W_cW0WD3dCextHBQGJG-HHNb-2FUP014iveYcwPZ0hxZe9N0DS71GbJjzdTbnhdOG5CUnDc0X1wte-vm6AbDhbnjdYD-pr5u3K03ne4HCf647JEZJzMZNKr0wQQ6RGpHdF674sa85UMV7Aq2jIWPgv3GCERK89Q56B_prf556GmP_UMlNttYkr2-Ka_ryj-M17K_LRSTLZvrSjVCvF-re8nkken4K1kxsIyLB9e01CCtHoKgFBNVXWDad4SFYdn-IoMBCL8Xh2Qc4ZbNKn7n924puO3sOFtUNmJClYR4st7OUNxQPeQ==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "rqBqad_kLY2fqtsPtPicIQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 4742,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 171388,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 171060
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        }
+      ],
+      "thoughts_token_count": 5028,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 181158,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Video recording starts showing a split view of a student named Iyonna and a tutor named Riona Duncan."
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Iyonna, how's it going?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Iyonna"
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Student starts screen sharing. Khan Academy window becomes visible.",
+          "details": "Browser window showing 'Patterns with numbers' exercise."
+        },
+        {
+          "offset_seconds": 10,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Awesome. Uh-huh. All right.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "move",
+          "x": 300,
+          "y": 300,
+          "details": "Cursor moves slightly on the left side of the screen."
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So, I just wanted to check in on your goals real quick. Um, we don't have to set anything right now.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 21,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "But um, currently you've got a target of 30 minutes for the next week...",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Um, and two skills to be... four skills, sorry, to be updated.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 31,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Sound good?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Mhm.",
+          "speaker_name": "Iyonna"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "All right. Perfect.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "The following pattern starts with 5 and uses the rule multiply the previous term by 3.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "hover",
+          "target_desc": "number 5 in text",
+          "details": "Cursor hovers over the number 5 in the question text."
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "hover",
+          "target_desc": "rule text",
+          "details": "Cursor hovers over 'multiply the previous term by 3'."
+        },
+        {
+          "offset_seconds": 53,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "hover",
+          "target_desc": "number sequence",
+          "details": "Cursor moves along the sequence '5, 15, 45, 135, 405'."
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So, how are you feeling about this kind of question?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 63,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I don't know, it's confusing.",
+          "speaker_name": "Iyonna"
+        },
+        {
+          "offset_seconds": 66,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 69,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "All right.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 114,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "So one way that I would look at this is I would just try and find cases that um...",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 120,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "mean that the answer couldn't be true.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Cause if it's not true then I can move on to the next one.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "So...",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "for this, I would um, look through and figure out what can... might not be true.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 160,
+          "event_type": "inactivity",
+          "duration_seconds": 51,
+          "description": "Student stares at the screen without moving the cursor; Tutor waits."
+        },
+        {
+          "offset_seconds": 211,
+          "event_type": "system",
+          "duration_seconds": 5,
+          "description": "Screen goes black, participant names 'iyonna' and 'Riona Duncan' appear on black background. Connection interruption."
+        },
+        {
+          "offset_seconds": 216,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View changes to Tutor's video only."
+        },
+        {
+          "offset_seconds": 221,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "All right, I think I glitched out. Can you see or hear me?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 241,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "All right, I'll be back.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Black screen with names appears again."
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Video returns to gallery view. A new student is visible, labeled 'Dazjah'."
+        },
+        {
+          "offset_seconds": 251,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Dazjah, how's it going?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 254,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "[inaudible]",
+          "speaker_name": "Dazjah"
+        },
+        {
+          "offset_seconds": 254,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Student makes an 'ok' hand sign."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Awesome. Can you share your screen with me so I know what you're working on?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 259,
+          "event_type": "view_change",
+          "duration_seconds": 63,
+          "description": "Waiting for screen share. Video stays on gallery view."
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share starts showing Khan Academy."
+        },
+        {
+          "offset_seconds": 327,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You're the best.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 329,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Khanmigo chat close button",
+          "x": 880,
+          "y": 120,
+          "details": "Student clicks the X to close the Khanmigo chat window."
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "So, the first step I would take when I was trying to solve this problem would be to substitute in what I know r is and what I know s is.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 420,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So I would rewrite this as um, 6 times 1/4 plus 14 times 1/4.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Also just as a check in on your goals, given I have them up, um...",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 445,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Just so you know, you are killing both of them.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 450,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Um, yeah.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 507,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "In terms of your goal for time put in, you said you'd do 20 minutes, you did 26... 31.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 514,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "So the recommendation is to do 26 um, minutes as your new goal to put it a little higher cause you went so far past it.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 521,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Thumbs up? Perfect. All right.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 522,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Student gives a double thumbs up in the video feed."
+        },
+        {
+          "offset_seconds": 524,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I will set that for you.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Um, and then you did 12 skills, so the highest this goes is 5.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 536,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, so the recommendation is to keep it up there at 5.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Sound decent?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 544,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Student gestures with a salute/peace sign."
+        },
+        {
+          "offset_seconds": 545,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Perfect. Awesome. Great work with that.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 553,
+          "event_type": "inactivity",
+          "duration_seconds": 116,
+          "description": "Silence. Student looks at the screen, seemingly working on the math problem mentally or on paper. Cursor does not move."
+        },
+        {
+          "offset_seconds": 749,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You might have the answer? All right.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 751,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "You want to run it by me first before you put it in? Or do you want to just check it by yourself?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 812,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Want to check it? Perfect, that's what I'm here for.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 814,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "So what answer did you get?",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 816,
+          "event_type": "inactivity",
+          "duration_seconds": 118,
+          "description": "Student continues to look at screen/keyboard area. No audio response or screen interaction captured."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:35:15 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=71277",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 52,\n      \"description\": \"Student reads the problem 'Evaluate rs + 14s when r = 6 and s = 1/4' silently.\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"answer input box\",\n      \"details\": \"Clicks inside the answer input box for the problem.\"\n    },\n    {\n      \"offset_seconds\": 52.5,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 17.5,\n      \"description\": \"Student pauses with cursor in the text box.\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 9,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yep. Um, take your time, double check it. Um, and if you ever want to run anything by me, just let me know.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Types the number '5' into the input box.\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks the 'Check' button.\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"System displays 'Good work!' notification.\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Great work! Killing it.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Show summary button\",\n      \"details\": \"Clicks 'Show summary'.\"\n    },\n    {\n      \"offset_seconds\": 131,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"loading screen\",\n      \"details\": \"Screen loads the unit summary.\"\n    },\n    {\n      \"offset_seconds\": 131,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Up next button\",\n      \"details\": \"Clicks 'Up next: Quiz 1'.\"\n    },\n    {\n      \"offset_seconds\": 134,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 5,\n      \"description\": \"Confetti animation plays on screen celebrating the bonus question.\"\n    },\n    {\n      \"offset_seconds\": 143,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Let's go button\",\n      \"details\": \"Clicks 'Let's go' to start the quiz.\"\n    },\n    {\n      \"offset_seconds\": 145,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Quiz 1 loads\",\n      \"details\": \"First question of Quiz 1 appears: 'Evaluate 1/4c + 3d...'\"\n    },\n    {\n      \"offset_seconds\": 146,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 12,\n      \"description\": \"Student reads the first quiz question silently.\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, I'm going to go check in with another student real quick, but I'll be back.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 208,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share ends\",\n      \"details\": \"The view switches from the student's shared screen to the tutor's video feed.\"\n    },\n    {\n      \"offset_seconds\": 210,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, I had the chat I guess.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 213,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 44,\n      \"description\": \"Tutor sits silently, seemingly waiting or checking something on another screen.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share resumes\",\n      \"details\": \"View switches back to the student's screen on Quiz 1, Question 1.\"\n    },\n    {\n      \"offset_seconds\": 302,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 11,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, I'm back, just to hang out. Um, as I said, feel free to let me know if you have any questions, want to run anything by me. Otherwise, I'll just be here.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 313,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 27,\n      \"description\": \"Student works on the problem silently.\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"22\",\n      \"details\": \"Types '22'.\"\n    },\n    {\n      \"offset_seconds\": 342,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \".5\",\n      \"details\": \"Types '.5' to complete answer '22.5'.\"\n    },\n    {\n      \"offset_seconds\": 345,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks 'Check'.\"\n    },\n    {\n      \"offset_seconds\": 346,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"System displays 'Good work!' notification.\"\n    },\n    {\n      \"offset_seconds\": 346,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Great work.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 347,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"details\": \"Clicks 'Next question'.\"\n    },\n    {\n      \"offset_seconds\": 349,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Question 2 loads\",\n      \"details\": \"Question 2 appears: 'Evaluate ab - 0.5b...'\"\n    },\n    {\n      \"offset_seconds\": 350,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 13,\n      \"description\": \"Student reads the second question silently.\"\n    },\n    {\n      \"offset_seconds\": 403,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks 'Check' without entering an answer.\"\n    },\n    {\n      \"offset_seconds\": 406,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 5,\n      \"description\": \"Khanmigo chat window displays a message 'Sorry, but I'm not available on this page...'\"\n    },\n    {\n      \"offset_seconds\": 414,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 12,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, yeah. Remember that 0.5 times a number... could be rewritten as 1/2 times a number if that's at all helpful.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 110,\n      \"description\": \"Long period of silence while the student works on paper.\"\n    },\n    {\n      \"offset_seconds\": 617,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 5,\n      \"description\": \"Student holds paper to camera\",\n      \"details\": \"In the student's video feed, they hold a piece of paper up to the camera.\"\n    },\n    {\n      \"offset_seconds\": 620,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"One minute. Um, if you're trying to hold a paper up for me to look at, um, it's blurry. Um, just in case you were hoping I could read that.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 630,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 14,\n      \"description\": \"Silence.\"\n    },\n    {\n      \"offset_seconds\": 644,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's not autofocusing necessarily.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 647,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"Silence.\"\n    },\n    {\n      \"offset_seconds\": 652,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"answer input box\",\n      \"details\": \"Clicks into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 652,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"2\",\n      \"details\": \"Types '2'.\"\n    },\n    {\n      \"offset_seconds\": 657,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \".\",\n      \"details\": \"Types decimal point.\"\n    },\n    {\n      \"offset_seconds\": 658,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Types '5' to complete '2.5'.\"\n    },\n    {\n      \"offset_seconds\": 700,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks 'Check'.\"\n    },\n    {\n      \"offset_seconds\": 701,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"System displays 'Great work!' notification.\"\n    },\n    {\n      \"offset_seconds\": 701,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. You got it.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 704,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"details\": \"Clicks 'Next question'.\"\n    },\n    {\n      \"offset_seconds\": 707,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Question 3 loads\",\n      \"details\": \"Question 3 appears: 'Evaluate 5c + cd...'\"\n    },\n    {\n      \"offset_seconds\": 708,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 40,\n      \"description\": \"Student reads and works on the third question silently.\"\n    },\n    {\n      \"offset_seconds\": 748,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"Clicks 'Check' without entering an answer.\"\n    },\n    {\n      \"offset_seconds\": 750,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 3,\n      \"description\": \"System popup message: 'You're almost there. There are still more parts of this question to answer.'\"\n    },\n    {\n      \"offset_seconds\": 753,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 259,\n      \"description\": \"Long period of silence. Student is likely working on the problem on paper. No screen activity.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EphZCpVZAXLI2nx3-HYNOydHiDV4_g2OEryJtf0w2ksRkagTFETFAHbjE-8mBitO9_5NvUpSsjU5FYbisLDucYZuhEGct_ilaB3g0w08LFkOMoA0yr3ufoPLzw5NP3QBRuTYaaGM6t41Je7LDk9mM2f8lhGNAt0ZudfgsHj7nEM9QmLSQlDY6wgitzEVlESg0AyWSZMnsbChJJiRLvJZ6_rJa18mLZO4qiIa6l0J6fHSmadbK5d8sN1tywwwmycR8K2PFvhMGYb0yCGKJ-KrXQ5BCPEc5Z_icazUl_sy8OT0zjvDLmDqHxOOiOCemo-GUbu-jz5H8xYS55FXfo4u6D9MTt0Iu9iV5njmFTSMiVI0Z1NkP2jCCUlfU-GWiUbCYZq1OiuLBV986fCq8GIB9MPcy_eZFuQDJRzYUjLjvU-cUuYwBMN2KwfYP7TQq3qdHT683lkbc6_o5LLVPbTP2DLqB5XV97hD3vpbCUcrJDLYzxhgmpTdVeq3kBuQl_hM04Zi9s8tTiLVZCBt_fux5t-woYqhJ1o_I7knlTJCFDyRGD3UTrG9mXBqBdBwOI8aMCCQMWP-ujj_pFe_ZBNfUxRXNe65VMduzfVnxr1fE4sQ0dONv8gwv5tGJdAluJNFmWXZkwbvRn35M3j0wdshZab5WV1yikPns7sPm9Xe3jIup83a8MjpJr1esTgYbCb_Gh6HcontYRMg5Utodk7vJdiTeFftaoVzgaO-0DpWpv_bDigZvez_kbBCekqJ1UsETzUAx37NwUGESpvgGrCb64iQWkUCmg1OvflrFy4VpPMEOYjViutTwCKYqjXwWA8UXKEstyWgZUZrRJcoUNFLiuLVeocbsVOwTMfgylSVQGb5EKwjmnKUhyNWalJcoTj2ktWa-1WruWxx-XSHARjGi8hUlPQLyliiF7ojfaA4SnzYrsL2ws7z0vIg1_2Ly0W_9Wib_mXU16VISjTse269SEuz9JWcAuHsNj8wPoea55gw-yb6lFtbCEQlBUtzscI7a-5f4XuCb-G8TSumGU3ChK6ZsMitqGTbGCLefdSZdpJ35HNUMbBzRODYgINHAqmFxNfk_G3Yy1fK-YWgJCAk9Rqb17VHjTRUBVs7qx1fVGXbKEiHG1CoD0BHKnuyjJTmaOiHiXvssk3NXGn7DkAgldt0oXRrfIA4WspsFl6Mw7D1uKr9ZlN5eo5rwy4lJNYrX3qIRwiyrbQYXTyGOMpgKoz2MBAf0nYzoeeJ76tVoLbcRo0-s_Hiq3vVIyt6jeaCkhgnoQWexwa9rbpK_UYBK9bt8dJeTklJ9354p-84DoQpicXv2EdW_WrCl6HToe152BhWU7jopdOpQnLB12SOhAwnJmQwhuO3JmyHFtoKLHIgQbTmHgwNobwrdDjgKzUHX3wLtouYEztKgRVXHNHq20tYS5Phkbyd-G9QQPHzRre42awVQYFqPW8R8dHYFPoJV9WkuysjzfFOyU_whM7XarDGjVGRWEi9LkyEbfAfFszbUQc2wMZ6CU2CEyZe38zT4vcRPSV2lHV_cjTDFGzxLX6nHNtvuzYvRR8WFw-WFdouohdO8tQ7pMDPlKiiq3yo29vDJ5nkrCEY638F3nDS0WOfilLGhiEiOuTVTbEoMkwyQFcJ0_vH19XoZ4sIdtrfzhMfoUbq47OLNwL0qrWh2Cvh_Bj36YetbAsr3sXfTbcRpccVt5_TRJ9Ym3DwkrLjK_XZz0Z1m4SerxE5QLwOopewhr42rGuNJFDsiVuKRka5bNPvNQXQ1jkbcVUFPrkvpfpOGoWCu-VgzaGZn35hT64g9CKhrdhEm1wjz3XL3kbFNjw2PgZtjCrg4PKQ8w9WxM7yCKb_Cs-VYvFZlKAI2sWeBpFMjas5yW-mM8-oZ8BM-CxZNzgi30UUU39L5xe4EOTUoACgmoK0EvKsq7YtQdtBp6iOvqMOqLLzkqZ8c0tXIdfQA2hDLz9KdPxqYq9-kcVnVKeSDdnX7ItskFFYo4V5LKVDtKvk7JydmqiSMTxp8TzlcfFVOLYzPncWLNdPQP4rPv8tfM5-wqoNoxv5IWeAJwbZeNExir004sLuaRDhEcOooJsLVn0IF6zgfLypDn1bNhPejj6_QD9ZFiYxJEr9i2N819IdfygP7a1LQh5PSZ8UVGOWF_CbdTgE-bHpLUslXMOqrwQioMRh2riMNIILnJw6lfC8CneJvunItY0xcCq3dTblmpFKZdwNuYoXh_UgHySOehmJBCc_p-T_2FOvj3HvW-ARvJv5qOKi1d11BNuswNgG5nT_7wHaMI8siy2gIP3GC0yvrh-wsVla993k7gJ3V43mNDh9i8q3DXyxGratWnAVl3oQlGX7wU45jxAUQL7ZKKKBRnOCypqI5g7HtGu-ZkqYW3uWBm8PReIaROXK4fim0H9U0-K4-8UhhWYd-BYXr0hbx-spshFFlUso83liwy2dW4g3_NiBcdw81yWlIgi05P8C-4jo8IDdkYmaJ_Q-D-kYv1RannPl_WH7lEfctL0ZLr_9xXA_ReRuLLLvSyKi5x8xefR2ksNuNJT_k8IasY7I4rnk8ZSgwfO2sVURC8RDeFU7jnD2aY5S_XrN_pNNOpX-inUhZjRyrpQLinVlDz2yBPxvu7IGnMmlRc2o8ZmW4Wgpai4koqVFzVmpsKNX70jXfnkSgqai0W7lC4dWl-GG8Ac87sNWwM22ccOjMumExa0-NRe3_nfhVce6Ev19B3M9KzU5lG9YYWEaLFO_edFLJH8lh0Khfy35EMRm6WWxIaO33LVqmDdAX-bsahTu_I7Swo7exKQF5iuvGVPTzQOuR4Zc8HXr-UaWm90b4X4XchNuCi_mlu0YvezpD9nQ6jTclDZBZlluBrhsgdeDHfJ5ygjE2j-fzdJj0s8X1CF3VtrnAJDMJ7V3oCPbkoo0Ei9j9b6Id_7LtyiXsQFKNWsZtTnSMEdxpHia0tK4hRMaVik5DbXKLG2VI93s2NVXR_4wnWQGu6wuez5W11OEOFvI0BN2s2q-zHsw01fm-N5ZbTdkzPzNTA6zcxGdUHe9mte0Hhnj8Q2nhcKUjIu6xJzS6kUp1yKM4VPTZ161WWBm8i1l01bOTTFKChDluAbsDZ6s0YLLfYulvKi_kzChgufKJ_9EpxuzbmoMuSQ8SpXTxxrN2yO_TSMRY2ON2e6COdRuzoWxWmgYnriet0mghepY1DkcWPaF2HaafFA7yCpqhJ4ww3Z1ipPNvd9clNjhrGm2enUbK9HkDTsusPAv07eOlrMbYFBK1R1TPtIU660K1SZ3UNMogbC4_Yy42RqQ0ATkvXV-WPKu6ftMkkoOmomwGJFYW2CnVmfo63EWt6ukh6C_eOo3KMNjkf2xt_AUI-MXpufCgyTbOav6NuJeOUxuUYd1Z2_SCH7Rk6ankWYE6pG8N3_VyDe0c6aUTlERlcXAtfuR46VViFqim0m--pl_Y85-yRfBJiVqbP9mxIGhyuiHblAY8um5FQAejnnevsyKv5-EC-BJfmOIDTdmrIvOxv5J9x_zMwSt8FSUcrkLm96xfgxUmNORoWsnzZTNEdiUk70j2CUlv8EQbCETEM4x_kfBQqPcN-qNZFGgZET2rGiq8ooUKnYqVXYgMpI860nW_DWWaukB9ZmRB8sdGUUDSGSckEo9vsCLzODXLA0Nhm0I4oqUSlGtcxReGZGIKVh7fq175k5CQwzBj3CHZuajLOfsV0BJ5CDBeWnpMWAcL9ceqfi3OzDT-P-uwDhvGk9odCVzUZgkkOwsX21UqL9zzDhnblIGxDZIRPkCR2T81vYcGn-5c6RID8P0GTx9jwwWiaID3Z7lEpnGLkwKv1x7qNoGO5hWy_BFOFSVEPH7UiAAT799v-L8rlFos_PHJRhvUJMPkjcxQXR4rEVbYS-3br5BPPzCvtaxIoTTYlcDhAS0RN3NgV2AmZahgp3zW4zdlzjcoNplWR_XnKcuV0e9tKDdEXoJvk65zWkuCEMY89hqaXZzb3oqr_GaCvkD9vBrGbZK7Gcom21UWiprM9sk-qdu-IzONmik4-4yZ6o7ssaU7m-hkDd_CZC0eyNbr-CnoemxfqXSVhy7UPVR4uLxurTzMzNPrW4xUVsY-UjtBmqO6z-NyP5SZZ18mdsx0Sd_J52opy7Ag1GbSX1P2U0qnmQCH8-Fawoa3Hb_geEyBkpbkfhKkpS1SxfNJh2jXNK4uH3VY5e7IUnVGVd7elpmjdelLBxUptZpiBEoDFnaDtg6c-zOfzE2tXDPk11yR8VzoOEjR7NpkfRPaUn3GCnemABmCXki-9QGThQiykVA9MkRWVUe_LlwAD-mnANk96GdjcuPJ_pAIcHQqydmoytzqY29m_8ZEZTDmacriIBQcLnPQUFcqnS_OZHycIeYmJdVrY4Go_yzk3W9xYzIfSey5namZt4YKnOZPV-BlQrxKQi_rsGDUD7oOCOtnnJynzGoZUyLGoSBweJCjLgPVO3Tr_1r539Cvg6Gue5gj7r96l1MdkaHAv0q4rsNSDxORrHFKM3DgqBj0HzGIrUuqz18xCIJbZtO3C6Wotkt3LFXn2ohznG58LLz7ArH6YutD66BGEPadomJLeagYw6g_ZnOLTV3TzxR8JRBvrS1QMMhE-fiErGrq4lXieTmOv5GlSysHfNxAYqOyTVdpFbwmpv1u42xwTHOfRXYo2QtoqEnEcq1-Tg2ygYn-h3Y4H4I6F1MCd6kuAU7WPaaz-sQLNQLtlg0RsJdVhCOJcvREqIVh-LYqn4r-G0FCfrnktlLWD86a2iF90HJBhFrgh7QH4woL0Xqe3y8Oaw0M9-YiKi_RVlzcpc-cVaiB7snoPrR77PKY6mwWNyftKlrZiKKghpA2lEhLAtWUoKlae0zD56SRROdk5QsyQMxEltnB0mUCgM_zQ8QoeI3wS2IpqQpUYW_lCHQVDbDg57q_SCNaAmT8B3AWeoZSA6kg4bmHAmp8JFZ0w4jM6uEpE9B1bdAW_VVqBVCpzYcdyXNgtWkP3o8ApheNPfaSYtubFq5c2trBTZTTbvJlbJlfScmHvuuF5oV-2soNNnenuKhsNa4q8-dHZ-wOBSU5JS1ekxVT0YUzhfrYmLHNm6V3U-pRZ9IEsVT_T2N14t9Qh8pmOQcCGc1gCDqwDi4tiC_O6NP_5fOvXOaEejKtW8lApib17iLh4KujD71cKFuUDwkIlg2O0XzU5XQ8ADTT3ZKrEEnOVzWEdrNksdfMkm3q2_E8czAWaGoNO7uVDa32TDytihPAZj-n0mhnYN-2jzQDAjlSdJ4diTtWGxN04_uYZGCSwhtH_KetUHM_WCswNP0xFyUN00syeQfXN5rsFeNUUeZjF2JHQtwzGiDgYRGvibPIRRyY_t-w6uNVA18METG2Aah1Lncwn_T57T2D5LCq8TDucsFUDQYAQlrKBHqS-Oq7PXUp2u-M41Xsox6JbcfIREsqS1JXGpnjZg0D1PYfKwtQ-4tSSZPGc1WZrdPBQjAs7l3z7opIMKOiDLPi7KAjodVr6KtKStTci2pqMY-o2sCj-Pj9_IRBIs-WBimZVO6OCf59_-JKy83_K0ld83CI_ywKbn53ZJ_zsrQH3D5RuyjpIX8ig97M8nkBYNkXcvT15DAK2MnxVyZ01EmYaW--iq9OYa0_MFiVrv1vBPG2E2soAGL0Pwp4xBSvE-mItn9yfLovRE5K89oKrKgms4DuNCaB1ys5RGdhmf7fN77ASvFSt3usKV-DSOa6bEKg4QFh3Hx3trmP_wSggjt2kiWMlynKVQJcEPHSyvIv3xMJ3FzeKx4S8FSHEyBocdlARODHS8dLc6_K6ywACuITExb6ToZ8hd7zrlWfTCN0JinsualcWiQszjLuSqByaUTXIltnFb1FSrz7kQ-1G-8YLIsalyZprxyxKRz5khSn_w15iF4xF7ptJ36IkGlUgvpbhRU4nkEDLMGnvDwiNEJXM3iC4lGw-Z38aIH-gWFc23thr8RwrQ6Wn-c5oIEu-2_mbQNryJFAfhiijCs1yogpePj3vDC61NvLYiqrTqx__o12KtcoAoZRdVGQfhO30S99dQua86LMjvRQl6luJXS1P4riwefGUh7xvT4qbqJUXjXJ0rpmjxTyXdYVD9g7z4gvTfRvVl_Zf5p6Aaui60erla57QS0zdAyZGn1xANOBqGwVAazKP-VcUOfuMTRro8XJgpslbDeJ1ljHLrLDhvwoFp3dOzcUgpF0LztRhX7II2PTxpoaCoqMMiuPzEoJbt6k2wQNp5Hu5aI_d2cwsgpkrNoqpvwVcgP13bNwEfas1Hl5_PQF-p3_liv7K7aWV8IojiNx3jwHK9GlWbRdbmiFpnHYAbcnS64yIUA0cCH3XtHqR6zAM99P6Ru_RqWvSXXRQP0KMhmDyy7M8CjC4Mz4mjThASkWEI-kluIRahnOQReC6Cydlsrw5sikBA99T3N_zkT1AFnDet61TTDxrjxhTiOQ-9GtKnRlPiHkYUFQyCqLnHa6Skl-l8-aa80ZLcLbrmJghC__Q6jWyWdiePlI-Vbvf0FZcyjfkk5eFbn5uvkCJ1_3WoNF3LLOUa0CDRxl5HqaPcJUlaz0bz5_TglEgjjgULlGffTfi8EaMz6T9eozlgbvhxFpxPMNrVR2HeuCTGj1GmJMEexppI1bMkMM2bRrlgD2DD6l6CORl1N1Rxg-7pwe2ByIgKZ6ugdvb8GyQIUJ46t4HJhu236BX8Sa3yOn8eqZZ4kg77Zuo9lpUp8G-ZwLhSTaMUvx8RFL5_Z5pwepjfQ5YZMul30o-kB_dJKBa3qptMgcihdN7ud-jNtxZvjI51fQxSsUSqR31-p_oSroHbZSc4lZ3kZD0hps8_D1NKKIo8To2rEZujczSW8oROzp9YFza21UjR17l9jZp-XnT5bpleJAJt1U9Hp1UWMe9uekbcZmrxPdkWTBZjkbPFBBfwTc1FYxr7jL5kRzgistdMaIy2C07xuKmrxCpwPRvL0YOU3VrrpssJzhm1BzB1drALgLj6wcxM-ORg7R50X5zCRd3UazfORftnmHfPDmZsID99FMXy9RQUem9bSCvmz2QptJNVRq0HxjBsiEFQZMJxAw7uS5XkLg0yrjLrxYOgPe4RBEI_FNyuOi5bkZDS0liy2kucmebRqaB3DO9bDVZ-limOvKZi5JP4ag7d3ZfjZugqWBuaZYPQRrIHCkrGUOWd3lFU5SEYwm7HKLYIjKCe48I1if3yhMPOv7rXmJPUonNDv8Tiv9ZM_4nfgQeSYzL0ofQ76VcZLIBhre697hG3RQ0_ZkmPkDkqSVyMgyevflV3woRKVfwbDZkMwJAUHbRiCJHTxL9eXald2yE3OHUDiY46UXyVkY8OsoanHqiTl9SKEh777YGA88tvlofgLhjSuZsub1wKzh8QRPtcXEC7ZCXMIt70eGwJ1U-Ip3TDA7ODOVs_IPkI6KQaIPa_Bm5co4HAS-jxebciERnEo_mq2Q6upZlU2RhXw5IB4HZ6jYZGbYwR-uvBUAFp-cWh56z-erJdJPq7rVg3FN9jsSad4kA77f5vjYe4PXt0lGk0-KOZKRbw8wuQVmp9sNWy2Y9pGzw_lW3ae_MYFnUVts2kVXgTk8jWb5iVc_P90wpZyh3FA3uf31_ei5VVdwA__MA0uGk7KWIuJvo7m5z9g0kKVSCdPcvcPi8u5coDbpF96lH8hctjuC-Zz220_RiXnArdz7PplCch94oJgl-KoQw5gUF2A2aj38cPWE8RCATsM056mc1ccKqbg4rzejKgax1eLDKlYnNDjEvII1MgfnEPUoE94jei08ja3XyQM9sRyhD8KFU1bt6IU_BWm6i0nzaavegquQV0wkmRgG77qvVJGCkoJctYPBicKrzg9fc1mg0bUPTVygKaKg_HuOAOYkG58-NAZoFowu36nF0i2sOCCz_kkoHdZ11bww1-wKIcMlJKnqmsWfQTYcjTC4iWKbmZYUZRzW2SRDRNmolBS2XiS07PCSLvK1p0pAByXxB-dtB6SBO-IcYWxR06Ygv3Lx8jO0kUuqgjUPkz1rp-SNWwilYjQcoe-7ByfIzCnA9PY13LvEilyMcZE6JvU4gFRQssZ1uwa1PXA-OxPPi-XMFESJN_UfiJYkffrawXgxB4NebccqhsZT5vofimGCmL9ZhPjWfr0rSqjfpw-W9K904jwoH525XmfEutyjfUCkQIBJh9Hv3eUHvAhgHcdZ9E6dxE2tiC7AWrFNKs7YTcvfswiiOk10H-68opVvPmB2pqKdIlttkVjyKSU9wjeY9Pgqkbz34XIZtgNBQ4v5WxO86FmrIYIWVmWVVuDq2VcYY_BhEXeinr9gKKWloeJM1kd9mUa7lQFIQvQKVnVNGC--3spOeMUS3Ll07qaE69n4yssaEkBKqytqHcEdHectGGvUnNbbvtQTkHmUlagwanni7v2P1az6g_kghMDdjuE8zhwdXKZI-GiVlx8KgftimZq_Eb95vTj_5m11BFIdbbbuXZgVsu7llbGIUdwa4TorVCKOmZ3k3Mzljh-G2dfmGViMMupyYEVUtNVndurRkYG6hYtnS7K_vqz3hNAbIhVWmmQu-8oZEuFTFN8SMPcD9bgBSXm8rBmtHjzAK0YA44jpsB0E0nzgtIAaEiy0AFlg1rfVfVc9a4P6zwfRxN6R8WIb-c9epoEo066ws6xM-3bXqUrr3ApmXez_VYpJW0V8Hslx0sBrC7iMw0VXTZGwy0OQ8nIqa5ph80oQjtk436VccWFE48nBG7WYAzeoKH5-Aesfk0kJBPdKSgcdCy_mG2ClgBqikU3oAOeAHnNtER1lKOD_0Fq3Mx5IL5wXrtwJbn9SlVbjuPCQiJlWPtiNdGlU-UK2lZao7sI8k6oAK1XCU3CxExri-_ucfoTdn6_umxqQ_VWp41dQ1oWzNJ58wD9OadrwlToBRv41AJxq4m6GXa4eZBe_8JSJN2oy-PL-R1D0o70glG0v9OBANWsmlixW947NMhf7nSpGNsTOCGRRyOePQOt9DXdV-M5lAd7O3DRMwYIlqIR5SM5ZoT6f0q1fxpEC5vqJ8bafgmLazPFFWWSQALuUj9i6VUFW_Nl6U6u_rOmbY7rdxWcO2A8xCgvjWi7TCwVtMwI8W9IjDYMrLWtHs1OWw0uqrneVW-tzn1_8EzhjbNIwz_dp9vkwyCAd9-AuiWiJKkchKQTzPtycj7khSt7qR8o_oVp3JOlRigQVFWIfDQo4TQt-vYjPjWl_9HqETDfgkNllscqT1g-akSVTkeed9TUP0Y_luQMGI08uJKpHT-fytKe6BLuAsS599ERxNS4rcOjeOxaOoc7_I8GvMxeDguKKij_XTOKZtiuwPtweNCroiwDt2majx-c2Lej-t85N6yuAAEI4p-UvD0WK6Zosnc2rujfoH7nBiTVu1jfrRRe4yIV3iWr5PhOEaU0kXFsB7RMt5VDehomZb-SeZK5q5lJx_Nd_955CCWMAvpYLBwEyjbOvRWqIBO8LsRekITEugkkGJ50V8HWClDUxnsmGd71EZbzUChczh9UvVgSBqHXnmzmjEivdZEMQBh97MsyrkP4ZJmMX37BM7CEgIPWPRpN_3zGN_fZ7wB-1u-a250H2bSuOK1w7jjc7VolvdOSYqtWV925BppRUrPa38LxyDIIcZxQIrmeSsn55W-Yb6RzCK1f3q2WSgMY2cm-wGSgyW1wSFoK20GpykjifD6W6uMJZXBIe_D0CDqB3dYwxjr_3H9RAe6P7NvTSx5H3M5Uee2jx-1jwd03ULvY-HCtfFqGNAc1MeN0_CHUPFWuEnwlD2tzxo_wJnL4ei34i2Mmvf03nFhly-ecEnZ3q2M_6YaiitXfP2LEaitoD2nZMOO0xOxw5RuWKYCW_k_tcxq9j0dLl8BLFtnmIrkoXlt501NuNAVPKykzdMx6zeso71Koa6CfIg0v_t2gEJRBcmi6C0-z0FqMEdZp15gWGqxZeB_pxJewQG5yus97RMIaaIAIzFQ4HlVY9R5CaokLtQ7tQaXs4DcdUKtGzUPcPsCTY3nulVEqTdPMhw44JXDqtR1mTGKM2YX1i1FPjeVJF863wHkGf0vl4wyf2SjywDmwKVuGbYIWoOgIu3ekwcpuap9MSuQRKSjo3PMSUH0tP4ZPwBfnYeQcrRkfuIDYnkZJ9h6rwoSqPfw6Fg0rmwOgiv8NM9xdbLjIRYMZVsfop_My6QpzxcX5jkH3pwfFcgNXVw8t_2Yf2oD7aXuDJTPZ-hNHDpVL8t-qEjrG2HcPv8Lw6RUNTI9UIotVEuRgg1Qcb99AXTRYRjEYKfW52LRHxQtTBY0yfUaH8mSX3MXKgvKhS5wDHRuBw-5DrcU_VCzNXNbgkwvpG3lgat3axhNmIyZevY-lbGu1e7bBVnIjmhlf2o7Vty0nw-hXyZTZWp0zLrLoYZ-TFaYDrJTUTVwZGtYHx3wp0ZoVse7ujGD1xQXzxqOa3gXvVdcMW8oNq2p8T3vrKE5GabHKf6ba-xgZPHzdNxokVxVs-NuN7K5C1Y-RMixTkO2LpvqEjJNtPwYAtc95Y1__2r2XG3SY0la688eYehCuGGfKnkXb-5q3B5LzJ7Ev1dALoVpvtZa_Pw0R14oEsloT2iA9IYNCESb4nucJQkK1VCDI1lP8BKkrHZJ7hjhCZi2nWXcRW2QzbC2_aly9pHtOcr02dXyjV1Q3lc9C-2z5jPgL4MNCOKdkc0P6Ix-wF6i4omXNCfmpQUEHpXvkp_CiZEUK-n2qGbIrl9zCI3tiebuRLy57LkGnPrqyqJpn26j-TRyYEAOdab2OQnsrJ7X5Z3xJWoOO65HzlXyfcn_MYqzvyXvvWByOkdwUdnt4gzd1yAT2Byg7q8kFjLqNw-erJyRXfF3lKB_hEYn9hlLNlSDJSHg6v-_B9Oz78buCa7UwchiSGVGXnCqtQ_oeCUvwKbJDB2V382VjvCOkiA6ZCTihleQZICLPFORpH6yuLLA3mW2VKmM1z73rm_CYI9ovuqKXmXeAhLZS6EuOl8Tm0tH-mR9Ym87lxCOewDXhuHvyP4zzXvZRdJ2ivf6JbXNIV7ekO9B3i01-m6XffN-T23F6-zeAJN0irjCJqtY3K2tNuHnKsVPT0GpHbAYad3TM19vBV0rR7WUmXnCy6oaaGGZTwvthSwrztyAfAMf0WU1XMde6dUUA4gylKi6Gye2OI2salgSnqd0xpE8374F1h0P048DQAq6KBW9djTE8gbR7wRYH2P-53hWt7bLv45esCT3F4VxHE8-eTuY6fvk1IFUCJ7UlA5OgcvWVFguVPKaVkK8qCbjmwKIaD0kxHWxi74AQJzoRE9jxooBy6XP1sjkaDoTwh9ETpBl6AaB5RirACU1egh5USoUaUZWTzfxC6cUHJmLZfyuw43ZcJAuowY_PXawpoWzvvvOXaC9HIVPWj-uy3964yUxOWOX9OQ-WIDwnhpN-H7uNnvD6g3NCriUVPXJlLL4nyDF9zAxC2xaw67teUT8kvhhlPm86iJTxoov-jtM4NaEkmM4eWCmul3alrpSEaOE1qKUwfsvqpAmYquQDc9NN0GTNH5rp1OKedABcdHMLLwXqbLk0_qMWImD6uyri-QHvh2c8E13OPv50tuV40ltWrbEBlGLBXi6a-WDQ1W3XxpbgevmNCgUoLHOtWbPTugA6TjzxU7Nnmq1oN0Rz0DhP7RUZ35ri7_AFphnnzFZbOE5KzmkpRzBvI2OG2Zjg9iFr78Ol7x0nlOe2i5HiGyDBeTW54JfUsixyXp2TnLCQQrU8td_XFDwPIRwG8gM28waW2tPGTaoTbkQvDii8_hggk6BPXcVuxlsP48bMuNYMmC4S1TT6AR15ufSMRrl0z16JOqwBzNkXYC6KNhc5G4dGmwnHYchm3Abs41vZgKXpER_pDeVtmmux9NJksw3q5KLWlz3vzQvThpWZXFodTnMa-HqNzvuLLFWyluCss-FlRisVJg-Ln_OwNHUpL3chNwURDJCEDqrEUDCdNaN-OJat5VFSpi-b2eNhWNIeFGRGH426d-YBUX14vzozVzxCi93dJUPQt-BCMcMVcJfb4EefMlKknkOpSADZCqYCx9gIaS1uqLR1FczJ8oc0nPeQO8v7V4X0QN4pqgohKrUbH_zZDTQREw6j_OmeKatH1HdpYv4XoQt6wwmT3a24-fcfQ2otAZaPhSOZ2I00vFyvsi5Yj74rVznhdSFi6r0GL8VLXWw0QMIWAbgYdu8oV-uCP_mXtVqlLYrNPVDd9t9wbGgE7vp5cwGb4YKONRJyyMMLeSi6niw-87JDoU2OFskH1i-Ltl1imNFccl9nqEtoEhxmQWKg0MznVT72C3NrhoAS1v8NsBtUXB7riC6egA4peZN7xXE8y8xWwj08oAHs0oewJxKvZxh6oFJcu2qrhPdzR-FUVQ9Tpl1wlEf2rgiTbC5q49LdbAyir41Xe8mlzYNQbUQki3Zu09X_9DPgH1uu2re3QkgRPLof_Zrs_UUtgwn7zrtzc_oEqpxZW7zcaM02SgPPHQDG8GDCz931FKfsVHCH1BmDA54gftX0UEDxTJj8B7ooW9qtQHILDywzXl4XMoqVca0Ts6f-Wn4ge7Y886hpx6ei7yiVTAyp726VhpA7kMH4vohLyuxuy36dOMFNsaSUsRwWE344sN29E7JkJsknF1M7iv8c-xfduoeQirba8rsZhgbLQU--XVQHMFUwoWbmaQLW5YMZSCy9ZFHBL-9fUCBbXclOwnlH0ymGsK_EmJzLfqeVq7K4Kqy1ZSyvUlvzmBy2-wBB7oYmKYkuXT3ffKXeZeCcGKHtJ9xZZidYRjOdDldxBZ1jSZ3Tm15DUqDPF1ln8TCp7wxpox79-biS6c7vt6NlTMzrTNYU31jnZfRu4IIj7rW5F1A6Pyt5uA-fizobE8Veef2aRbfQrOtVYfh77RqBRQmbMs2SPlbJnALecWSTxXrICO0MizHX7EG_rrtxM695TVXS4Rpi2oT5JaxY-y4svXA6ARky_tijwvD6NWpxRJxE2U8J-aGh2Xe4ZfYBE1Hg-epfa0bp8dsn0Yq2_-alY7QzJ4AZcBwCtoF0CN2uwuwjqr2_eXTvV909Br9sgGn81YwJ8-fg-ujRVwU7HZ9v5ZiYmEXpUzhomnaL2h_zq2Q3C3GZ6KF_ptSxspZkU00wzLfgawIDbn5-5mj7BYCWzy2mi1c9nRa1bgb5qcFlL92q96yHqFm4ZPwoux6A_IAatc1ttuz-x_gaq4nhpNB2w-Q52DlA1BZQ5HSyqTclgEy8-rtH0gOS6nxaYKd3Jzkiw7p-AaMLZpgW5Q-_AOlzT9LI77dDU6Pf0YCweBfC3UOqSrpulcrE5zegocOb8jhe-snYU4NQtuBo42ptISFayyfJtIgWm5kYbDJmm-iHdg0Kbelai5RNxM_v2Ig1E1iCroV4EBR1AIqkBsbwrWPi0grj5tU0i-26nluIxen64w8WiuTazJ9miEUq13FIYADNhTYi-b7m4wIQIs7tn0qnHllcsRDbsfQGh3G9SJaIATMSV00eKG63Ka5jsk1xt5567ts21heyQ2w27BGHFhPE2UJu6N_xO6gyOktfrN-dsmPnGZ8OJxVfiF9ki7CCphkLs7BZIWi0LOjaWWKjbMSTZs_1qXTe94xsTNIDAZYXYu9bZ3E0kVBAAQc_igDBFR8L8bK3j6IhD_gZfoZmt7pqjrh5E-Dh-qREwMsMDMbDeiAF3ijfMofJzNt-1gGB6f-FPu5PL4twzzXRx74scnnic-H-txQnzPnKsEyVPw8-KDX2IBrjr0eanwUheQ8dBIlW7so1c9Gf-amsUpxKsb0hO6btNxSQLQBP4i-UILsPeM4YqpMIUUwXoMDjras4XlTZv6tyOswBkT57lPnps64Lc0U9PWRRcbIfnLsNin3caKEOMeOLnMVa8J6YBLcscTKSp2xM14XoPRM6L9PTO97N0RqSUPYvcadpnIHrWEN0IkPvXSDi9-tVvrLZP7Q8PlLs5euoN_E3remAGUlHUwFfk5mXruKFoeq4TRNcBAxdngjcVvQG8_WH45mZfuhEhP_tsjcfZCsgWGx_pMuKkw_uaaKYYB48hd3EU1CArSc0wlWp3bOZ_zO688jVNPQc-PsRV2QZnLf9qgEG6hKVjxEi4FKxT7dubnZW8Bn5MXf7UocXSVI8zS3Wa8qaTd3RY_GkGeAMqlGgjZvUqGA3jN9HKfn-qFahosJSEe41mATsFpwUe4QdqIBQRAMhTK-O0FMKQIeFvp3SJOSsKdmQVLaInRYZrKvsvFN1CR9Ed-guKeAa4YEzwbewKSG1LzUDxLADh1eq1qG9qrwvWNM5VSGEQHnWMDxH0OL7vbSNRWajaqYZneMFVGir9LauuAErpr6VvruLiqL08xZoijGdahXaB1hLGUMYgvQW0851YFl3n8SDQa0d7OHGJlu3FkmWFZJgHS2dajJlpABgI0dJj7jw28K5ZJBxt8iSxMgJe6cAk96dr4Wt4yjodyQ9DGS9srXQzFH0vucdhftzWSVhKh_j5ioPy1TsVGvk7FHwMgro1uy7EJf4qSA8R4NAFSmnZln3jh2R4OUBNEkOqp_NRLI1QvFWWa3xuGvaYxjZzR4AjlJAULbJ_S_aN9G_bxGa4q0B_U8GADrHsdiWCSq9XGpHFES4e3Qcz2D9P7myCFghY1D3jPxg2QNR_I_VHgh86gJrEf3djHYkYQcZBcgZzX3fHh5qYMpCtxc3GUCEoRG_QkvK1vBuBmOTRvL1sTZloX-dKYcCxWC8Iek_8MFZFjmNDclBZ9SmrUeN4L62DCEKgIrQk0EPhbiucxdVZ_X5tCeDFLpOFb5rJBuA40UE6VkQx5ambRyYU6atnc7s2tCa_yUTTL1XHtfbnAEF-KFeYq5uXChAqqDVpIbPfTJYoBOpLN1XLcRMP82YXJ0qyrtatIXxcyo9l9F31vkALyjtCQZMBHfahBsQeqJorugBpha6E-BOzVzCL2ySUKtnEeot78CVbJ7rbZivEMsx8-mYrT9vHQnu1NVCFeGyQBJjSl62CJrr9IMBfBEWdPJDa9L_UmcKyQVhPVMkVrMZNDL6l2AIMy0SPS4eQEaHAKg18zSGVknhHoxERQ7uxHJ6AOI-PgjftvNGxBrcLRBA50Da03QFr1r7h1HjLw3mZICTtdJmz6WE7NYkJJrcZQ7avg==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "A6FqabuJG8W3qtsP8azHuAc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3675,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 183000,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 182672
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        }
+      ],
+      "thoughts_token_count": 4072,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 190747,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "inactivity",
+          "duration_seconds": 52,
+          "description": "Student reads the problem 'Evaluate rs + 14s when r = 6 and s = 1/4' silently."
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "answer input box",
+          "details": "Clicks inside the answer input box for the problem."
+        },
+        {
+          "offset_seconds": 52.5,
+          "event_type": "inactivity",
+          "duration_seconds": 17.5,
+          "description": "Student pauses with cursor in the text box."
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 9,
+          "speaker_label": "tutor",
+          "text": "Yep. Um, take your time, double check it. Um, and if you ever want to run anything by me, just let me know.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "Types the number '5' into the input box."
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks the 'Check' button."
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "System displays 'Good work!' notification."
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Great work! Killing it.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Show summary button",
+          "details": "Clicks 'Show summary'."
+        },
+        {
+          "offset_seconds": 131,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "loading screen",
+          "details": "Screen loads the unit summary."
+        },
+        {
+          "offset_seconds": 131,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Up next button",
+          "details": "Clicks 'Up next: Quiz 1'."
+        },
+        {
+          "offset_seconds": 134,
+          "event_type": "system",
+          "duration_seconds": 5,
+          "description": "Confetti animation plays on screen celebrating the bonus question."
+        },
+        {
+          "offset_seconds": 143,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Let's go button",
+          "details": "Clicks 'Let's go' to start the quiz."
+        },
+        {
+          "offset_seconds": 145,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Quiz 1 loads",
+          "details": "First question of Quiz 1 appears: 'Evaluate 1/4c + 3d...'"
+        },
+        {
+          "offset_seconds": 146,
+          "event_type": "inactivity",
+          "duration_seconds": 12,
+          "description": "Student reads the first quiz question silently."
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "tutor",
+          "text": "Alright, I'm going to go check in with another student real quick, but I'll be back.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 208,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share ends",
+          "details": "The view switches from the student's shared screen to the tutor's video feed."
+        },
+        {
+          "offset_seconds": 210,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oh, I had the chat I guess.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 213,
+          "event_type": "inactivity",
+          "duration_seconds": 44,
+          "description": "Tutor sits silently, seemingly waiting or checking something on another screen."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share resumes",
+          "details": "View switches back to the student's screen on Quiz 1, Question 1."
+        },
+        {
+          "offset_seconds": 302,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 11,
+          "speaker_label": "tutor",
+          "text": "Alright, I'm back, just to hang out. Um, as I said, feel free to let me know if you have any questions, want to run anything by me. Otherwise, I'll just be here.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 313,
+          "event_type": "inactivity",
+          "duration_seconds": 27,
+          "description": "Student works on the problem silently."
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "22",
+          "details": "Types '22'."
+        },
+        {
+          "offset_seconds": 342,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": ".5",
+          "details": "Types '.5' to complete answer '22.5'."
+        },
+        {
+          "offset_seconds": 345,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks 'Check'."
+        },
+        {
+          "offset_seconds": 346,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "System displays 'Good work!' notification."
+        },
+        {
+          "offset_seconds": 346,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Great work.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 347,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next question button",
+          "details": "Clicks 'Next question'."
+        },
+        {
+          "offset_seconds": 349,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Question 2 loads",
+          "details": "Question 2 appears: 'Evaluate ab - 0.5b...'"
+        },
+        {
+          "offset_seconds": 350,
+          "event_type": "inactivity",
+          "duration_seconds": 13,
+          "description": "Student reads the second question silently."
+        },
+        {
+          "offset_seconds": 403,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks 'Check' without entering an answer."
+        },
+        {
+          "offset_seconds": 406,
+          "event_type": "system",
+          "duration_seconds": 5,
+          "description": "Khanmigo chat window displays a message 'Sorry, but I'm not available on this page...'"
+        },
+        {
+          "offset_seconds": 414,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 12,
+          "speaker_label": "tutor",
+          "text": "So, yeah. Remember that 0.5 times a number... could be rewritten as 1/2 times a number if that's at all helpful.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "inactivity",
+          "duration_seconds": 110,
+          "description": "Long period of silence while the student works on paper."
+        },
+        {
+          "offset_seconds": 617,
+          "event_type": "view_change",
+          "duration_seconds": 5,
+          "description": "Student holds paper to camera",
+          "details": "In the student's video feed, they hold a piece of paper up to the camera."
+        },
+        {
+          "offset_seconds": 620,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "tutor",
+          "text": "One minute. Um, if you're trying to hold a paper up for me to look at, um, it's blurry. Um, just in case you were hoping I could read that.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 630,
+          "event_type": "inactivity",
+          "duration_seconds": 14,
+          "description": "Silence."
+        },
+        {
+          "offset_seconds": 644,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "It's not autofocusing necessarily.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 647,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "Silence."
+        },
+        {
+          "offset_seconds": 652,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "answer input box",
+          "details": "Clicks into the answer box."
+        },
+        {
+          "offset_seconds": 652,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "2",
+          "details": "Types '2'."
+        },
+        {
+          "offset_seconds": 657,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": ".",
+          "details": "Types decimal point."
+        },
+        {
+          "offset_seconds": 658,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "Types '5' to complete '2.5'."
+        },
+        {
+          "offset_seconds": 700,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks 'Check'."
+        },
+        {
+          "offset_seconds": 701,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "System displays 'Great work!' notification."
+        },
+        {
+          "offset_seconds": 701,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Perfect. You got it.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 704,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next question button",
+          "details": "Clicks 'Next question'."
+        },
+        {
+          "offset_seconds": 707,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Question 3 loads",
+          "details": "Question 3 appears: 'Evaluate 5c + cd...'"
+        },
+        {
+          "offset_seconds": 708,
+          "event_type": "inactivity",
+          "duration_seconds": 40,
+          "description": "Student reads and works on the third question silently."
+        },
+        {
+          "offset_seconds": 748,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "Clicks 'Check' without entering an answer."
+        },
+        {
+          "offset_seconds": 750,
+          "event_type": "system",
+          "duration_seconds": 3,
+          "description": "System popup message: 'You're almost there. There are still more parts of this question to answer.'"
+        },
+        {
+          "offset_seconds": 753,
+          "event_type": "inactivity",
+          "duration_seconds": 259,
+          "description": "Long period of silence. Student is likely working on the problem on paper. No screen activity."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:36:28 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=49833",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 38,\n      \"description\": \"The student reads the problem 'Evaluate 5c + cd when c = 1/5 and d = 15' silently and begins working.\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"4\",\n      \"details\": \"The student types '4' into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 40,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"The student clicks the 'Check' button to submit the answer.\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"details\": \"The student clicks the 'Next question' button on the 'Good work!' modal.\"\n    },\n    {\n      \"offset_seconds\": 48,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I really appreciate how you're taking your time to work through these problems.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 125,\n      \"description\": \"The student works silently on the problem 'Evaluate j/k - 0.2k when j = 25 and k = 5'. The mouse cursor remains mostly stationary.\"\n    },\n    {\n      \"offset_seconds\": 297,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"4\",\n      \"details\": \"The student types '4' into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 300,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"The student clicks the 'Check' button.\"\n    },\n    {\n      \"offset_seconds\": 301,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You got it. You're doing an amazing job taking your time and thinking through this.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"details\": \"The student clicks 'Next question'.\"\n    },\n    {\n      \"offset_seconds\": 306,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 151,\n      \"description\": \"The student silently solves the problem 'Evaluate 3/7 r + 5/8 s when r = 14 and s = 8'.\"\n    },\n    {\n      \"offset_seconds\": 537,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"11\",\n      \"details\": \"The student types '11' into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"The student clicks the 'Check' button.\"\n    },\n    {\n      \"offset_seconds\": 542,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Great work, you got it.\",\n      \"speaker_name\": \"Riona Duncan\"\n    },\n    {\n      \"offset_seconds\": 546,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Show summary button\",\n      \"details\": \"The student clicks 'Show summary' on the success modal.\"\n    },\n    {\n      \"offset_seconds\": 553,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Up next: Lesson 4 button\",\n      \"details\": \"The student clicks the 'Up next: Lesson 4' button.\"\n    },\n    {\n      \"offset_seconds\": 557,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Page navigation\",\n      \"details\": \"The screen transitions to the 'Intro to combining like terms' video page.\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Play button\",\n      \"details\": \"The student clicks the play button on the video player.\"\n    },\n    {\n      \"offset_seconds\": 601,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Up next: video button\",\n      \"details\": \"The student immediately clicks the 'Up next: video' button to skip.\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Page navigation\",\n      \"details\": \"Navigates to the next video page: 'Combining like terms with negative coefficients & distribution'.\"\n    },\n    {\n      \"offset_seconds\": 606,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Play button\",\n      \"details\": \"The student clicks the play button on the video.\"\n    },\n    {\n      \"offset_seconds\": 615,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Up next: video button\",\n      \"details\": \"The student clicks 'Up next: video' again, seemingly skipping the video.\"\n    },\n    {\n      \"offset_seconds\": 619,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Page navigation\",\n      \"details\": \"Navigates to the practice overview page.\"\n    },\n    {\n      \"offset_seconds\": 622,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Let's go button\",\n      \"details\": \"The student clicks the 'Let's go' button to start the practice questions.\"\n    },\n    {\n      \"offset_seconds\": 626,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 123,\n      \"description\": \"The student works silently on the problem 'Combine the like terms... -12 - 6p - (-2)'.\"\n    },\n    {\n      \"offset_seconds\": 829,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"-2\",\n      \"details\": \"The student types '-2'.\"\n    },\n    {\n      \"offset_seconds\": 831,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"delete\",\n      \"text\": \"-2\",\n      \"details\": \"The student deletes the text '-2'.\"\n    },\n    {\n      \"offset_seconds\": 834,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"-2(\",\n      \"details\": \"The student types '-2('.\"\n    },\n    {\n      \"offset_seconds\": 836,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 3,\n      \"action\": \"type\",\n      \"text\": \"5+3p\",\n      \"details\": \"The student types '5+3p'.\"\n    },\n    {\n      \"offset_seconds\": 840,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \")\",\n      \"details\": \"The student completes the expression '-2(5+3p)'.\"\n    },\n    {\n      \"offset_seconds\": 841,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 41,\n      \"description\": \"The student pauses, possibly reviewing their answer or the question.\"\n    },\n    {\n      \"offset_seconds\": 922,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"details\": \"The student clicks the 'Check' button.\"\n    },\n    {\n      \"offset_seconds\": 924,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Try again button\",\n      \"details\": \"The student clicks 'Try again' on the 'Not quite!' notification.\"\n    },\n    {\n      \"offset_seconds\": 926,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer input box\",\n      \"details\": \"The student clicks into the answer box.\"\n    },\n    {\n      \"offset_seconds\": 930,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"delete\",\n      \"text\": \"-2(5+3p)\",\n      \"details\": \"The student deletes the entire answer.\"\n    },\n    {\n      \"offset_seconds\": 942,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen share ends\",\n      \"details\": \"The view switches to a side-by-side gallery view of the tutor and student webcams.\"\n    },\n    {\n      \"offset_seconds\": 945,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So yeah. Hope you have an amazing rest of your day. Thank you so much for working with me today.\",\n      \"speaker_name\": \"Riona Duncan\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EqwwCqkwAXLI2nx169C5ajjABPraN2RlyZIYR--wSCENSUb2E-mutgGSt-2A-uH2AKzj-NC5IOt7JnhdJ4lVE9WYrYHNaplxSxt8Ds8GDUVE5jyXn8wxVqDT86QVtdtzF_k9FGhNR0uieAVnmgO63avx_EFH-NkQv-qJwE0-XsGrmuZr_HSdF42KLahfSv_XTm1ukbvBRBAjYmuAEPWRLZ0rGj_J2we3sFliwMjjJsGx-_qvMOZiy8JH38mQSXeUcyEsOujcb01SHakYewdTt4W701XwzBW8eGVCJNErzjhKQMV6fGxo147pyXzrDJRapAc-ZWJHrv8HJWfSHrQfp-kJp0YGSba5nxAGCVD9Zvz45d686owENSH3S2ePsvgdWB0XQWKDGt-yoD_ZLetie1kprtN2Nf8wylzW5T3F_V6VBWLbSjpUMphdxo0HjcXthzukYUKOfUb5YD3DsbTfat1JVULOm5TvK1-L8q_yp5Oa5uJbqHZOUwySJwX_Gs9O9cmpsFuquQz5LXYB2-Ml6KMFz3MZ8MCEhTvEeQgmV7Hwuwfz6lOUG7lZFWnnyrkPIJiV8UzI0m5BitloTmgIJl4hKnrZjH-mTQTPgURUQMPoIKz5Pn94E_wve5USttRrYoNsmw2KmKJziFjhnn0vomwmlmAYx8ukkpeVgNY43Df1kamUkT3ejhykpOJOHoZKSQ55Tvz3tKW2s9QVVJ3xDxxjfb6KwH_OEsmHQnqfUZFc8iZxx3gGjZlxg7uOTQIQWRxJHiwW3M5CfUakVzgs8JHlvXqL7axMyRIs-dlKlZh6C8qJpbnoHP2cNU-DLDl--M2ZnMijCf-VsuOvKKfaivXHRpyHYkaXvCL02J56b0K4fOCgq7j3s5P1J2_WLg2U_NgWxbXp4pZDvNgLJoIo6mPw4r0igtCBI_CBQX6VdoeQNJyYg_X6JSASfaJRDMc-CNwgo6yTZvrzO63QBilo7AM-753hA1lLOT_TZSXqLaIf4Tg7A_JgTSalpbL0Wb5hYdbybQIU2J1-gMlGbndPvoZE_bHi_cZv1pVuE4vVSEM3abwm7tunqoXNVqQYRBN7SLFyNNrZeY4nNZen78-CsT7TU8jR0OJcfuifE9_zWGxIdBIJkNHwV2hfthZ5A3VeQ3aQwljaTkPczk1jZ6xiUfVdmS2l2_U6dwJoBhWZvwAGj9-bIvBnMT-_MFf3wnn8hYkmQli7sLMCzVb9WykB5jeaz1FFN0fYe2bBxzFGmTMzAGqKYpSkI9mKBewHJk06wQcpdJU3XkmrnWI2PhFjgbpARWkt6mzT-gcTpX_OI6MA9YYD0WLAO_8bqtKiPk8be4QRnNPNN0kOtJRX_MX_iitEajp4bp4YyOfRGwcKISTm7VTxvVBUzPDkosFUFl27pVbHYAZ-uKlPLrhFcnLyR7CcGLfu86Ajm5vHCve4aZDao1o4r1TKKzslkJgE3asivwr0J4YMXR14jWvtSzXkJZLa3tNqs-yWNmOlTkgVd_ZMjV4gumk0vDKsrfTsJ5BWEqrYqiX7o_Cnpi0G51aCQVeEE5CJSrYvDxOy7lcXpxwXN0YPkkAxwoIohuQM14zXo255aFw929ck38e0vEMQfugghE9HW6A7ZFfoNcwwBEKUz5bILlybcqVObsU5H2mgDby-DFC_qJwYzecl-DDWaQj-XRyu8JQaNYzIeocsTZTGnja9-6q_ms7L6Du19fLL31jmiCfETm7JiNdQK8BmGTtsxRUyiaJlopKvZau77JcpWurWaK9DGARnVQhLe7NzGWuwmLTXPQnd1ui1V-BrW4wGmrLFBTJbP483gr7eUGcP-LJPL_JkAqB8hjwl0TPszDQYbl9N2Bw6OY5nRwb5KBp5568TfbcCGUi9rnkOdUoQqdd75jJIgY-BSzFQizKu693afUnv_PacvmqherJd-_OHNi4v7yPiHBj-Bwo4xbuYly_Fl9zZqCfU9-mvqpim0thXZdkGiqAmekrpJ3oSU4JUrWhh9Tq7dKdms6ZApVOKTIa_QuTqTvDubulYFJqoHuRjcrJxKm5WBfQ4GXnmefxO_ZLe1dZ8f_8L166IWqKbRH4dpVttouo0fE08Mk4BBpHP26rmybbnSo7ET9mD8neJDhSuNU4Ug6-dVowgIinrbzA-VYxINicLd3qjEAESbSgXGbr1r6d6KaW8dPSRX-xsIbDZtoAfPKYwMXrnSd6KaHNMIEOXijavQBXCPU-JvbMWTIDb3pgeeBFp0gEnUA_gNX81F7WeMahb6P49mJ2sevZO4jdSurjQtrCVS7o3XQ8upkORgB1LTI9Cmy4tPNLPS13M9a6T8d1VjSa_2-TwXE7md0tmi7IW2Wllwy099Ppn7OXeubaPWAp4UzGIOwFMv0YIMwGp5iP0SpvZllGu1JNxMjcdQbxPcXWML98G8PTMqlXNEoa6LxLHjApaYV61iVyK-pWPWGosMrJ4i7jNlB5MsPFsQuNyB2wO7233oaMg3vP4BMtTjd1DWg77xcbSe5uCjhtax7Q67CqRAatYdiBb-GPTRI-zRNIPiNmXT2b7IQnW6oV3krRu3WpnmvBvH6cLpSecsH2RBuwkUHc1syMCccB5PijOCDPEk55kCzkeyPW8ZE4w-ybMyX8hGJiEtN6j7kr6YG7G6fDj-LhL7oFUNUFTFXPO9lMhrSGFEGIPiYpT-NK0LAM70u9idH_iTtyQsuGv61PfjJDzM7iMrNL-O3vsBaUFm4m223QJJZj2o48ApLTtDp2xsM20fxLoHxE9nQhKuqtgbfbzOJJRQ5jpBvy9BybIRBhtwfTUXe23D2xdqNFWHIZ6DHyq7X3fglvY_v7babubyFA5tPD1EQkxOuvB_65kndzGmgRSFiFXEtCGLSvn83OF_DoC4h5stfaMMSVImir4wjnDLdoWe6t-yNJWNQ036n0gMCdHCWppbxA8rdG3GB0zsRU88cJR-39Tj5RP642VV72aF8ZOOMBNrOGBEXtRofEEdmyc5fUGq0yoGRHTY9ozJqfJfgFemCgUZYOsCF6CPEOxy1TrvuCwuOVZJyVJ1qEEdfugJ2dgd-tHmC_OT8zsQfGs6Fbi5IlAzgyTQpnevIMGk9rSvhmEy5Onzz_3E0IrKN1sx_d85Ys1wllZvST1Ujtao62KOZTCEaVkAVH5q8OWLx2VrgO9wbuvUs1gksLxC8YDfLIdPp41jMjX8x6EZ43wf7TiZ4-46CQ7F1adprCpUhLBbttWe2gHNe7gMRBqZYYByASKO9JlYjsDN6-MoNFQ-QaOrnvi2sSMjcdr9gL0I-gXVM8TDzQMVMog752_EWv4xeuWNY_J60FbYBvFOBnBxx619eaPfSyGPcwTB_ZhMcx5J8bkjDOXc1VCldDnW_DCse218PIMuvW5-38kUt2ZCFRRdDcIOtZJNL69XjWxaFtUACPirWnUJfrct8m58tYoXR9HYDNGL0xQrz9SDObi1ob1a3FFEKoZM5JWM_8Q8CvmunXEw0OR9HaUCZkNKEGszXCxvhpGs9jdYnsXH4Mxs8RoeMpdGAcsT4nqbBCt5pUi5FJ6FDXgWt-363NPWM2G10CIu6D-WSG3ZxSwNqRfIfpGOToimMvReWulHUHwGiFVnwntyCKn4yriAsorN2RzhiufOi9pNoP3W89aajvlQsRIrjIvjTvKvRuv2VTCWQaLOJ-AfKZg70ch3gjOjmIyn_wW8bQINWzZCVTOtmDbLVTpEZssj9eZiZEli_3cbf_vymdauwXZpgH4LUAvb0ybm1aGOZGQmIVtSMGl533iyMhGOxzOHQnsgV3-TWxgqiT7tRALUkFaLofr65rDyq7uI6t0Xhb6NXNL_0Uk3eA1UJQv2pQaf_9kZhJhdVbIa00hjjUHqpp7EP__dQrLrRx1_Y8eOpVS7arRmX4BdyKqS9DPgSJb0e6KNln52kgLd8hML2qA8KIfMwPuNzI7Ti-BxJPvJdtMn6YbsPIYGkgIBBR1EiGmeRwZO6Q3antCq0qu16ej8brV--fX1q1uq6HCYmPSivWHReo8uL_1Q-q83RjVlhEeL-Gw6K3t3t1VgWpG7LaHLdwjGAPFTDdh1UUadqeWAyvKIDsHwgM96X2jDJ0e06J3ZwxX0ISmKBzeB2CxSqnnDtykxLaWk2WcryKLYGGhruBJBPN0oHqiWEgTrfynjf5CgR7sJu2N5IucYy8jv581uBcXLC5Y4IZTqmhk1PGlIZzbQaR4X971A4PGjsbSdF0GBHiRXBzj1sUhzcZYPnyECfe_pE6axp1e7gbALtnhats_uX6i1xXIoxS2d4aOgYGRZhYMbxi_X7333u1hOYd9ocmaWxlt-Jk1M_p4jXMVkFW6KIDnjq-AAp8p2EcoKm9vQ4p20gylXNlJCsueKRMUzuBfHNurHVJ5SttzZv-nkn6aHXfDhQC8hvQRVu8hR5xyoYDE3-JdXawST4dA_cN5V54yd7QDmX0lQKp5jNdIABBVm48vFTXiA_aCspnCEJo8xY_OsXmU0TY-zk5ccrP79UHpB21stSGx5O7N-qslNxnHiJuqh96g9PUq22CE2KwKszGNCJ4LpoPPKQrGsMiYXAXKJtcUzLe8d5UC03admRE15aHyB41itzjizEUAm2y7v-1gAk4IfQNNlfMqgwRgmLj9PDEeZFn35_MuL_ECBimEtS_YeRqRbmy4F61sLhKbVmDoMOIPGeSlW-loJzBkoXx9RSgKgT5cB-SlihcR150XWLMfXewwY6lAAXcYr27QRApvShGFA8dPQyhGRqkVxIJuFL3HAH0l7sA2m8-RNQIs88_UmFDLwPDVKbTWLTOsQLdc5V48LtvQeFt6cz8JbpYpScGetv_gZs7wQgmuj2rrqcP9j3pxNt3qq5jREGJT_T2IeYphQ7FJoBgTNTbXPIJV8D9lst7z6a0_Gxa9nZ51LYARc1mnm_-aIgLNV_Emi4V058ba6bJbkGNbJsj6W2RnvCS5FsC-7JjZ72NOzqVoYHVj5qvntTA4kZklLEPOqRd_Mp8ieyJ6Pp-o8hIuwy9EfCAxpO2i8t7eFd2iqBkPI-Z72qA1IJNdci_ji8BGZHLYnePtPIwL8cXFSiMgGqfb4fZ-Eo_f3XwJhnlhmRPeQ8CZgXT_YrHttaUZje-cJYJsfOX3DouEerJo1wRJCB4z8rrcWnC89DoC5LwTFmnlPuzpOHHKIAvQ1WehXItPM4vdmTKizzytuqZLR6JKJpqkwl1vYyjmIcvTudn_YLoTK0RWm6O0NZ85gheOJZNMK33pZMT87fc7VatKhGYvEbrbR8EAoKAgagfJHc0V35r6nqgCHiUuNd-Z_1nk2VJvnhP8_2kCwWpYLpdz03TetYdSAGsHDmK4X_NzCFeARLckNZFdzR7LAUisIQKtSjR7ASgYDt13vfRVo5zNfKqiA4AAgKnP2W8mibI5eqQD3mRqLrZyx-TicvBDK6z5IqUTCnbhugZuQNjkfjtpYzdQ0giOsCYCN-Isi83QRWIIou-qLoXc3oLGnB01c-3loZ7o3W_ZMhwyoLv1bcdcn7fL2pDte-cntSpTyTrY0AK6wI24bCrC0LGZrPjayWqSj9M_oS8pHeveeYz-Yd2ARi-J1mAcIl3xYk9S3Mmbi8wmqtU0MtofHu-AyLVE9DkUZHHANsNgEdqrnwj5liO3DD-AveshsWswmjNPCIAKTS5JsS8jdAqQWpasxd9vFNwqSFRLawSKbc7Q5OQ4NIQjSc13IvYhcxVWPxlj6oOFG0LqYV8a-Xt2JsX22MyNPbMkG9-1LGm1OISC_bpbzOW0xkWL7Fh7yDQpN9FJjtHmWbj0M_H7v3-VLyImY-G-MIesdIbBJh3IHEe0b9_MO7GRHy3cEUKqf8OpyqVzzVcMt0oJQmtlwaCQlEZk7nPwhcDzpfCBPzd7QlKZRFGEQykzSuqPLLH3xjQIzonTPbvpqpj5zEpdl2Dm7CNhQ_kFfsMgGJliBjmsAb9KuQFdnMwZT0Vl1xtP2QiSnsD3wluVMs2CT2f9TjLPZBu19q1gHmacL9jYI5yubBv9IZV8KDp19MZWA0k7KSF0kK1tmYfXCNeC37zja1XD0IJz4oDLheFZ5qUP98asW6iYIwcKRCPPIMhxRrYkyzvsXOugsM3W0oTW-oFETc-M7WQ6kAoy0nX4KsGjNYQSEDYXYjRMnXQw2xRqc_lx3USBaUij_IQi81chPS8JysxHP2HDgm6SCLRpXLDUpvmJBGmj2cQDGfDIBxnCMBoY-UlHxV05JO56s2ZrnX7yUZxT8JWWbDkz8D_-y-NLAWU_kfqbdtk-UELRfFt_qb8n3ebYHfOaLkgjbN5Wo4QKKDJywdy8mrxqVQX3x30Uste8oWHofi_u9HDMhrzAasDMhsttDZPAFP3u23kXvYhBdJdcaayTnRzBKJIVVJDhVH60BUvCEkAlP0x75l2nJ1vCXskyebkM1MYcc3jNnb_GYcukKspbGKfYLuCYg1rG_kr5RIoHpV-bi-UVL-n04SfvI0mR_5_kbC6_hN0ptfr0zAZyO35zknEq_1o7s63hiGbxZvGu97KrKzNMCyH9r8mdlGnaWo7sbITTf39uxUL96cLlL02Bh6v-HWQU4rwkVSW6akY8kDcjbuJ91YcB3Iwuw316nZ3KCsaKHdnze15XE82_YewdkgsmLk8mmKc2UnWnzwLa9IvDHx2f_pBT_Bjou4BKJX51e2wObuvH-cj7zXf7L1m7laN5RMK78TEcqmK7WAuooxCgRwvkK_8eIE4Sxt8BgAe2d71zz4fhPMUTwC_wmqseoOVguv3pSq4V-uzb7j02WVeCSQ1w9ZVpM8PAm1kLJ-QIM8SFa_h_M0AqJirWRtTwfpCw0Ds8PNtCo8dzz67X2ap2TQKEtP5xz7eQVgVFSsTfJhf8Obypggc834xvs6iMhAOsXPEht3MafVoNuvo2yO8z1Q3Qbds7tVIV3b-jtAiDr8w7rZ7-MaW3HBc4A9F2aQGvXc4wXlaGi-HrT4sLP8uorJPaLyr70loSsk14HE9Wy4ifTre7tN4rbMK7TgcOtZOK5zAXrZIiZshz6GawOeJd4n_-Ni0CY8rnMX5tomEdoY48ofJdy_FzaeimpxMDA4E296yqWjv6grEh0NYg_QHDHdzNTTOeuL5IYDwg_NX94iK1pkx6Gl6TlUe__1o4RZGffI7u-KC7Et8Z3yup1ww17MZaL4Cpfmy5bFIIv8qWiqoM69AxLkyYVs2OY5dArHdU2ynRzuBrmM-byb2sq5XvKNUDsE3Tnvob8OrWarFdYwQWdsvZ6Y7xHXu71UhTnl7L83a_godhYHqPokRQHKNSS9U9zKPv3cCrQLsl-X-uQrJXsvl8R2Q2twCvDcbjp1qnY2IrKqaL-6Jh5_fwF96p-5KSxaoPQmib6wjSB5E65SqZql2H79l0UuqpDC9_I9L-nS3Sl2mZ0nx73nLVRSQK4gc6tTzp2SCqKp9nlGDVC_BM-Q2P0WrBuMiUQBGgdR47LtAkuN6aQTdpIoURFjtJjFlfuYVNdnjDG1c6vVxl23mu_x3qJNdcElJhTGwwQLW-h9fMvpkLKT-n3hQq-7JPIJu19G3NuFlN_4KraPaRhIRXQIPTmj6yIEXqODsNC3SGyNDuYyEsKUOeQHS17lCkaDrZZM_TLUpiQTIBzX37bun1YYrdZN7u9PHdgj5o3kgDfat4P46ERxfVv2_wHhtmBgrjPoMBM8rron2h22Xhe0u76E-FZlLIhlEKMgVTHP6Fwdzg7beSwRUp0_Mxb30c49IvQfOgvpT1tLzw7_ZbangaKQgwL_beLaPW_7kmdGtA_5t6YOa6-3Ona6edsTSBweYd0Bb3f1ik0E6twBJsp1gdVaBW6wbNY9R7_aqjRQaaQjoRUn4rtX1cLaPs-PK-TlpgnKxULtyLqmxbXLdM1N8HHW3qRg8hmWBuoXMSJF9tA2l8uFNOcNXXewgZG2JrSvVCSStdUmOCJlz6BdnmEoq4ZQc03LB9O8YMOR80-n4LtXIJK0-EC4xt8czPC8etI-VVOEZvBSyEWdzKnoTXkbzWR0C0cFOiF7M2FedOJRmUY7mikWKXD06S9xYRCX1_is98f5ryerutYIXqQvwTXSbBe8bvbsvut3U1ba_dgBJk7fMS36qqjPLaIvJ89TmgMA8130KxY8pc-nrCaj4-RUgEqMjk65JycRvMv7oyNs2FUFuQMUOC7N7enJq5_4e-VKSsVNKNkDLlwz_nSselffk=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "TKFqacH4KpS4mtkPydqfAQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2783,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 177347,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 177019
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 328
+        }
+      ],
+      "thoughts_token_count": 2196,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 182326,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "inactivity",
+          "duration_seconds": 38,
+          "description": "The student reads the problem 'Evaluate 5c + cd when c = 1/5 and d = 15' silently and begins working."
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "4",
+          "details": "The student types '4' into the answer box."
+        },
+        {
+          "offset_seconds": 40,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "The student clicks the 'Check' button to submit the answer."
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next question button",
+          "details": "The student clicks the 'Next question' button on the 'Good work!' modal."
+        },
+        {
+          "offset_seconds": 48,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "I really appreciate how you're taking your time to work through these problems.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "inactivity",
+          "duration_seconds": 125,
+          "description": "The student works silently on the problem 'Evaluate j/k - 0.2k when j = 25 and k = 5'. The mouse cursor remains mostly stationary."
+        },
+        {
+          "offset_seconds": 297,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "4",
+          "details": "The student types '4' into the answer box."
+        },
+        {
+          "offset_seconds": 300,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "The student clicks the 'Check' button."
+        },
+        {
+          "offset_seconds": 301,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "You got it. You're doing an amazing job taking your time and thinking through this.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next question button",
+          "details": "The student clicks 'Next question'."
+        },
+        {
+          "offset_seconds": 306,
+          "event_type": "inactivity",
+          "duration_seconds": 151,
+          "description": "The student silently solves the problem 'Evaluate 3/7 r + 5/8 s when r = 14 and s = 8'."
+        },
+        {
+          "offset_seconds": 537,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "11",
+          "details": "The student types '11' into the answer box."
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "The student clicks the 'Check' button."
+        },
+        {
+          "offset_seconds": 542,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Great work, you got it.",
+          "speaker_name": "Riona Duncan"
+        },
+        {
+          "offset_seconds": 546,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Show summary button",
+          "details": "The student clicks 'Show summary' on the success modal."
+        },
+        {
+          "offset_seconds": 553,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Up next: Lesson 4 button",
+          "details": "The student clicks the 'Up next: Lesson 4' button."
+        },
+        {
+          "offset_seconds": 557,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Page navigation",
+          "details": "The screen transitions to the 'Intro to combining like terms' video page."
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Play button",
+          "details": "The student clicks the play button on the video player."
+        },
+        {
+          "offset_seconds": 601,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Up next: video button",
+          "details": "The student immediately clicks the 'Up next: video' button to skip."
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Page navigation",
+          "details": "Navigates to the next video page: 'Combining like terms with negative coefficients & distribution'."
+        },
+        {
+          "offset_seconds": 606,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Play button",
+          "details": "The student clicks the play button on the video."
+        },
+        {
+          "offset_seconds": 615,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Up next: video button",
+          "details": "The student clicks 'Up next: video' again, seemingly skipping the video."
+        },
+        {
+          "offset_seconds": 619,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Page navigation",
+          "details": "Navigates to the practice overview page."
+        },
+        {
+          "offset_seconds": 622,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Let's go button",
+          "details": "The student clicks the 'Let's go' button to start the practice questions."
+        },
+        {
+          "offset_seconds": 626,
+          "event_type": "inactivity",
+          "duration_seconds": 123,
+          "description": "The student works silently on the problem 'Combine the like terms... -12 - 6p - (-2)'."
+        },
+        {
+          "offset_seconds": 829,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "-2",
+          "details": "The student types '-2'."
+        },
+        {
+          "offset_seconds": 831,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "delete",
+          "text": "-2",
+          "details": "The student deletes the text '-2'."
+        },
+        {
+          "offset_seconds": 834,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "-2(",
+          "details": "The student types '-2('."
+        },
+        {
+          "offset_seconds": 836,
+          "event_type": "keyboard",
+          "duration_seconds": 3,
+          "action": "type",
+          "text": "5+3p",
+          "details": "The student types '5+3p'."
+        },
+        {
+          "offset_seconds": 840,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": ")",
+          "details": "The student completes the expression '-2(5+3p)'."
+        },
+        {
+          "offset_seconds": 841,
+          "event_type": "inactivity",
+          "duration_seconds": 41,
+          "description": "The student pauses, possibly reviewing their answer or the question."
+        },
+        {
+          "offset_seconds": 922,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Check button",
+          "details": "The student clicks the 'Check' button."
+        },
+        {
+          "offset_seconds": 924,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Try again button",
+          "details": "The student clicks 'Try again' on the 'Not quite!' notification."
+        },
+        {
+          "offset_seconds": 926,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer input box",
+          "details": "The student clicks into the answer box."
+        },
+        {
+          "offset_seconds": 930,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "delete",
+          "text": "-2(5+3p)",
+          "details": "The student deletes the entire answer."
+        },
+        {
+          "offset_seconds": 942,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen share ends",
+          "details": "The view switches to a side-by-side gallery view of the tutor and student webcams."
+        },
+        {
+          "offset_seconds": 945,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So yeah. Hope you have an amazing rest of your day. Thank you so much for working with me today.",
+          "speaker_name": "Riona Duncan"
+        }
+      ]
+    }
+  }
+]

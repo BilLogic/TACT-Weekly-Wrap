@@ -1,0 +1,387 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:35:43 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=48095",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 1.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh shoot.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 2.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How's it going?\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 5.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh shoot. No. My bad.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 10.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh hold up, hold up.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 14.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, hi.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 16.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi. How's it going?\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 18.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, good.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 20.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh wait you wanted me to share my screen?\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 22.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, that would be great. So then I can see what you're working on.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 24.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 29.0,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1.0,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Moby Max\",\n      \"to_window\": \"Math\",\n      \"details\": \"Student starts screen sharing, Moby Max interface appears.\"\n    },\n    {\n      \"offset_seconds\": 29.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh oh. I don't know if this is a video...\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 30.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"background\",\n      \"text\": \"Hey if you [inaudible] put them down we got three minutes then we're gonna start cleaning up.\",\n      \"speaker_name\": \"Classroom Teacher\"\n    },\n    {\n      \"offset_seconds\": 31.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 38.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.0,\n      \"action\": \"click\",\n      \"x\": 483,\n      \"y\": 579,\n      \"details\": \"Clicks in the answer box for '10 - 6 = []'\"\n    },\n    {\n      \"offset_seconds\": 39.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"4\",\n      \"details\": \"Types the answer 4\"\n    },\n    {\n      \"offset_seconds\": 40.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"Correct answer feedback\",\n      \"details\": \"Green checkmark appears overlaying the problem\"\n    },\n    {\n      \"offset_seconds\": 41.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Next problem appears\",\n      \"details\": \"Problem changes to '13 - 5 = []'\"\n    },\n    {\n      \"offset_seconds\": 43.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"x\": 483,\n      \"y\": 579,\n      \"details\": \"Clicks in the answer box\"\n    },\n    {\n      \"offset_seconds\": 43.5,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"8\",\n      \"details\": \"Types the answer 8\"\n    },\n    {\n      \"offset_seconds\": 44.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"Correct answer feedback\",\n      \"details\": \"Green checkmark appears\"\n    },\n    {\n      \"offset_seconds\": 44.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Cool. Thank you so much.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 45.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It looks like you're doing good on these questions though.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 46.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Clicks the green arrow button in the bottom right\"\n    },\n    {\n      \"offset_seconds\": 47.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"Stats screen appears\",\n      \"details\": \"Shows 100% score and earned game time\"\n    },\n    {\n      \"offset_seconds\": 47.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Nice job.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 48.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 48.5,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1.0,\n      \"from_app\": \"Moby Max\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student stops screen sharing, view returns to Tutor video\"\n    },\n    {\n      \"offset_seconds\": 49.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh, keep up the good work.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 51.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Taylynn\"\n    },\n    {\n      \"offset_seconds\": 51.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"background\",\n      \"text\": \"Hey if you have Moby [inaudible] we got three minutes and then we got to log off and get ready for [inaudible].\",\n      \"speaker_name\": \"Classroom Teacher\"\n    },\n    {\n      \"offset_seconds\": 54.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 4.0,\n      \"description\": \"Loading screen\",\n      \"details\": \"Screen flashes white with Moby Max loading spinner, possibly unintentional share or system transition\"\n    },\n    {\n      \"offset_seconds\": 58.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 19.0,\n      \"description\": \"Black screen\",\n      \"details\": \"Screen goes black, likely waiting for next student or connection\"\n    },\n    {\n      \"offset_seconds\": 59.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi Mylea, how's it going?\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 102.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Thanks for sharing your screen.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 117.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"Tutor video reappears\",\n      \"details\": \"Black screen ends, shows Tutor looking at screen\"\n    },\n    {\n      \"offset_seconds\": 118.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 34.0,\n      \"description\": \"Tutor sits silently, observing screen or waiting\"\n    },\n    {\n      \"offset_seconds\": 152.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, it looks like... everyone is gonna log out.\",\n      \"speaker_name\": \"Katy Jones\"\n    },\n    {\n      \"offset_seconds\": 156.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 12.0,\n      \"description\": \"Tutor sits silently until end of recording\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Ep4yCpsyAXLI2nwdxSVH-sE4aYsLNPpciGogqwHT98ALyeeC6THbmoR2WUHHqjSFz68iHBZMl2nlUWUZCOtNV445pXKGnAH0CTk0pXEEMz-T8yhpAZ-WSk2LN2xonWlUizuDHDHQAm8UeN_pTFfYwaQ0g9Y2LtRqtJVOIDR8ANwj3tUV9Y9Q4ByCxURtmt8NhU3P0wmdrOGhu-W1oi2-BelRFDcgAFWx_RDBr4KFzdHxrNUnkpzEcqUv_eT0hSAwb1FIpws0W2o9pZlfA-zF9QQrkcYWFKoKnVby0jtvNOULpICUz6jxr-eZVqKSYiLU2zhjKPSsCr0yxHPIEEbjo_gC0Z3b8CPfWj4gaoEoMPFvvMH6rLu2FzrQPOPhRmBzMZbORQLEO438Ql40Tb762mle-wKcd1D_Sl_sKimAxkIptGxtzyoUw6Ty26d9v1tLQsssIcNVS5HfsdTRm_AYPd6sUwy2GUlyOe6z_HqsXu3zQAxTePyLIq0M9v14M1eJH_tiJbuIi5qw1MZ7glsgKG4ZJLtfKn1FWFPWx9rzWQpUIkSQ2Zx8p5KhJigyoArNNSdzWrS2ORIoktu2nhH-VFoREHk7m0KfDxCgyXLAFj4TXK_pIkJ9srx1O2i19inRkyDdMJXGOFfT7Jb2UTsmRhZyUL9cs4haRAOdwl5Cne8AKFRmflisnNB8r6pVzbNOhvelS5EreyTfX2k_TxAWi0a1FNkuHR1mUSZEO21DNUaPzqbgEMFpJUJCQfJlMabTZ4aLV4Z5Xn2DGvO2frWq8VSc945CK4GuCIxqVlGiP84mUL1aXK1Uw2ssN6dHiBLDESoQuxfynVVrqQfQQ6O89w0hAE1e1lxWMaTevHgV_5AFsQlbxH0G85McP-JRFat_chMSstoWn03FKOk9nrbZn0gkE9K9tGp40HGHmM5N5GUSZhCtq-o4biWzuPquZddd4p_iSfIOjQ0pPdNbItu_UzHI4AX3R042xRzMJkz_-EARt-JT4jCw601YuBdyb88eP6damMbyv2szo0dTAhC6YOB8raiGb3lRSC3QQoKo87fQdrcRwdQ8h3NyFj32zmrr68li9XzROAwmeWc9Q-4kQupPs5BQxLtfbJM3giayQHpWocFlTroTWC6czpdxMXv07GZ5v4gA3PD8fxYaXXJI-qLzSxvl8PA4GllHDG3O6QbEtWwfuI_Cq_9Tbk7VcP8jfJzGv7b7w5-ZLz9npRKX1k_AIa_HrUGbSaX_K8fYQHFmGiawSXp8-7pA5bgfRYe58ADfvOqhTwIx86UhJjxTcmB3vOj5NfjwZnWcwU9LBbA92ONZPowqf0cMX1NziR03CGZM-8iZGFfS3Udz6VvE6fFUTV5Co70flGXkzACaQf5u02aFuLGUpRiEm1i_v83srzNayYBndUGrgF-WEWXanHftjQqgMZw1dRCP63sdMMzSqGJZI_tBocM7UzMSp7UpU8Jd5aTZ7hV8DNYlmtTcf01qkKa62Ese9867Th9m4AbFFSvY_2c1wDK7wbC7WC_ZGZeimrpMuKSVFoHV9yj6_urk2KZQW6fC-LwXqwcuv5XHzitL3mFA6uh8PMs2M8g5OqbnGfWzoSSRTampS3fpsC-mxgW05PioWiHdn-DN2LafoQYjWA7UQptvBBEPJYcejfkee9DlDLJsTrUiptzRadyZazrwyUkkiv8Um5G_75HD9pNF7WL88JMNvZ6Byl9oQAJ6YRYPK33OaBDaqbhXoLVaGFkYaitglEPeAlk9QrgLnebwh_-tVQaCgyRzDBiJH08faHAgSN8_Cli0FcLFaFGxuEX4Zk9dB_XTQw_ovTRAzM5S5OfNQ5cKX0z3-7atf92_JnnitTxXL6lz1KnQbQNZy0jh6-FEh-MHPq3EPOxzsyqkXv9Y1azHfOnwu7HSO2Ux2OQpb5tTwHj6N1R5aIAKH2cTDkVjSuGx0XM33o8ONZGOWmPOlJHUpdx_8pUuAniqU4OPMsarWYF-af1XekfNZAaDe7XUO7F7Dm6TS6-tZUCBAMPwbq22pmC9RwYslsISM-t_AjPgE2GLp8dGgyNarCoT_lJuoVW39m-NhmlYu8f35YJVlAfyn1DCBlVdYyxoGZuluvTeL-2pWU0la9eIyozkRnJAMFAJ-GgnhYMSe4bKozJNg-MeIzTLnLtg8dzxA_M7JU3ocqF6nYCHHFhlHABFeCDWJu-Dn6KovdoyQlqYSWjB4ghQMB9ZzqFc0pteXe5VqJLS5R5ciaNdbxuiKEwB8C-AL-RYVAOlJeNH95XKqQ_d5eV2DRaTWQKJSygRCLdKamcNhSb05oG43NVrc8_dRiLL7HlvSr8T98wUinj4ZfLH-B7ByQd7uu8jGi73hheBkKIuK9CtZnPqX2KFkkdXJLOaoHogkL4X0VR58_KVieJbRwXcP43v_ta2c8bwODAgsOvNyo7BA7BUDda5zx1SggarGE1YRIUh9jZV8KQtVyM0qv0qX-rq8lkXyGhwB4STsjlc9O43LmVMm-Mh6XPMCayK93bNfKKqNj4yrrnW8WdyijWzGRv_FOxOXoxbeBBW_jzJnF2I_XLvOd8nRW8N2UzVdeGtJcdnL4xD66An5SJSUkr9oOiPyIWjwZ65KDeBaZxYoPD4tNFsmOR0cKkhRmoU_ZQLFpnwP8sMxRBcLTgnO-8Nfj_URnd4QYHgGHWrP1rtzaVvgZfi45grV7fJZb4U6tXFBI2zxxLktO4pz33WdwPXpJzHecz8sqgwNklnn6yZcVV3ZKuHagn9W5iFkryWRiUjEzPAIqMLmY29lvz3cZhV6YKiIHtY8mAIB1dhD1Om58mQs2xG-j4m5y7xkDPaWxTSZRg_mQn499D9UObafvjTs48X1vIBkB81hV-X9qjxP_XNgYxL-ZrhgcjnhmciEhJM_eDag-1Sym1rIBdf-SB47nwN-J2JbZ4_oI2lQpiDy_izhcj87P8XI8s0eX5piJcDTZ3Bh6N4ICm2ER9l351r9RjPQpJjs4AxzTitwAZu7sdsIw6FhN3dZ-zxxhQj0dkh32GaYJ2Edd0OiJKywRLsdkQSNpv9q6DejsrUSnLtzFqxekbiciHAzMLR_3Z5m0Rt_AYrnyNy6laNlkcPre8rH_2hJcUO-jQ8YfkgHnJypiq4HIv0zl8lGee_2ecl9OYNOE82Pb5xeWh4cS-lmh7rb5_2LoSApz8V9fvjGNzKCKM0DFmK5rQYBB6m2PJRhLk0lSlr3DQoXm-WvMBAQhv71zeDMF26SnVzb-w5XPaKOz8_fwawoTQtVjdVUqrCIynRGz7R0fKk-YGoB8gfi0b6mr_GPtsjJrG3zIzHjYPd3VZNpr_rUb1NSykT51Qpeew7R8WgxgNdTeqSjPh32WUmxCxBDbkjaox6XTFuPT1VOgL0pdd1srFFnBZ15E5lEGDtzrZZbXMGKNXYDNYqExqpn_hAF9xaS7EZsNzzGppqymDjMGlzlAMXdbsCoNeSuWdLeRlsxiccovliFbbQzidq6EYJop72PHhoT1e33Dm1S0r17aOy88HxOd_yqFpQrIhorfjkgumrkPTVnOL7lQryraOLxmICyPZRa5KnhnncyFu1jvd0AxW9HRGu_oeo5QnDBiPyi3D8njGRbcH6bFO1v0Dqy_9Qe0mn0yI40tRo0a0mclNIKCx9yxPdMkPrDR7inb_jIqvruMk0TZeeOBtUbtAmK40tYGu6GWofsfbYUehmpgFW0f-YB_CrxN7LRCL0OMHAfINwgZC71PDA0Y5pFOgULQFvJdZL4SD1IQzLTQwwcsWWRhicDfeELmDlRwT8o_BfKyxSl6ThTGLVBwjidRra_9It04-efH0chTm54mrvtdPP1H9PJuhUTNTJaDbxlkoQhQu_VLKHSdP5HNL2TVL-7I7TqVaC8JdDlHQIyZYs8MldUEIi4DlVBTxYPT0iMxCbzWHOVbQ_k5-77zjKu6eU4cdLy9mSkLbw6NrzVz1jAVJ2QPIsk33OPUSTEGMNaIOImnq0GNlaUapWO_USbwYg00odz4B-cP0ZbRUaxwpOV8qFnJ_HnKxBQGh3QSfHo_C1luUUhGSXTIFYs4vC95tWSdO0jzmELnBuGHUxf2Fo3oQgRdzolhJ7I1EntBhVRbILMEKwb6bMb4IVTPCNjhA7Fls7LIZu7Ha_B6mp5o4D9E6pjFzhV61LIEm7BJgoBfEmH1_--PzsmC-1f-3MsUSGnEWnsSJdwzY8FDkSYSmP6zQ4S9pc1a7ZhlYE0QHOAGwNOdi1ibqoPdEXQ1zo-H402pW5mL8OVSxUG3eLw-J5eX2Rmn9D8KMQ4LHaXdKfTFbZPR7IyybTneELK8VA2Mpp0nuDfTuvAQym_lDoQ1S2wgcwwumPMlzNkd0ysxXT72BsPvCcgKIknM-HWc05m9YLI59ShCE3vx0yyNbU-zFXgGlY3IIgnvdBdtyRZHy3FgaKL1JznuwBmudLwt7f5JIbjpI26G1JoIjKDLIGUtm3A5irNnIkZ4LDih0RMMNZs-Bw5SqiUiLgEwJs3h8nX2oquV0AvrgIJThc0dn8dtVFXkPhVgcDlGM8BbBQf1_jpW5YpYLY_8r5E-qYwfqlDWxQN9vMeYo52oBK3_iddmvby622-WRmAejdPncMorK5v67xGAbo2waHaVqYkkr9G9po4GBkg8nnMwtwxfL_nO-uPSYzykVl_8FnsMZAxHYujeld08yRcQzSrnZWvBdsNQSHRQIFsKBODXKcmm88tNV5yR4fazk-kNkZe9hEuHoF8xjUwnPTNu2FseTwVkJ-aUnLs7BoHFjqwU-9IHvIj-PsR8pI7cWYksM5swI_YoQaVaIdGvMzGuyGuKpSz2loXAUQT_gLYRtvw074NMJn9wxl7Ol8RBBWnD3xVupNMOkvDWputiRs6JG4iX159YQEK1zvc7icmPAm4ea2R5LknSs1YPsx8Ws1jTV4_qJPuFSkWsGLsIucn52aGcfimycRmhxQ3ZO_p9RmTuk90O5-He6NJyAGkDKJPK1k0yPbwSCEpNKPj8XWvxIlUcBO98BDfNZzXoijpe2gg1u9oVD2EK5aQjzEJSgkkr-dmcayjmRv1Mdj3pu8FHAoI-d27UhNebZAHIn8rZ13a6HlhhpZpK_JSoS-_vQKMZwO2O8Ok08JVcfQmIqfb_-RVhpmWr5CE1xgzukX3lJwCAc-3kaVCLqc7Vj0TknOusxt7a_ALzLrwbnJIQapOzImc0MAdymwQbkjdyCHmv0tBUXHi_HZuJ3MbJdw8HVfVV4G8050LaTRVblJyHv4NDSeV5jkQs-UODe3dM7OiUEE9OVr0tK0BrRaR2Xw5Y9MUI1rLV22fgIgmEJvodTZ3hHasZM3UWkpWskJaMRwXOLeUnxFj_skrY1p3sbMEIN8Ibg4N8kV69dQGT_9_uKE6GgKQKq7nDAQijgBCw5jfTtyQnSoN6A5-o_fZOVktMPcUj9lqrrnmSmCJo8JpwQgeVI9YSQHdAFVf2_H677tRPz3KpfiS7FU29HeWiDff7TUMxrylX6Xv6mTwlGJDpiaEQxpGzoDzE4O3U5gZYZF4rT2w6a1bA95FU_Pag1uGmpQSqAo9nafniugsa3ghioRi2qqJQXdbkAqK1NVJxELhv-4kBI5FdbBWQnLwBTQkVU5W1vKzjQVkGnwQvQC57lB43MW5XJ-Vv81PWHGTnW7AO7OKN13Cp5LhyA0rq77ykbMG2JDSpDYy0s6IZEz28o8L0SBd_87m33ADfzdefay1mPaA-uVGard7kVpSzbT3X5OZ9u1NE3kDrRQ52VKSvxYHIgM3ov66G7UCaTkRigyNW02gs9zdfdiKukGfwKXgV7Sl2gsw9zNNLQ4qAQ8bwk2PoaHV81jDaUj2IWUv58hxF0W_QVkSDQPCy9vC7G_oHkvZEGmvE4dfsk3vBJ6scs7we1cxTHIW4WJkUJs_m_l-TvVaO6td0sLwLycI7ONzYsntZ3OGdggkkZrYWipLlD8-YoTS4HVH78s8u4M0LwRnLoIOv1c0qxXMuHedUuwLCiofu7849iW4T595LRzBzzNBLigWF_31oSYzDeBS7SRgMPkOVjg7ZaykLcfKUPoHKCo9hqlCm9KvMVukgCQJESRo1vB5_xvRxRVCV54cK5ivV5hFKMs5p8mqyvd8sOaRUEWtxrd6rxKGTfiobjtXMWmcVvwJqeCwgCj3qr4IP1S7rIY4Vf4P2VkooDv-GuK8kO-jXlDGhFRO8yWd2elA6eK40tPKz9c5w27P15N9WFtpUp_wZ13hlo8ac17FsHa1owxABcTmDB48Nnc7oVGYCN4ZrMK0o4qnbxtzdGEyuv8qp_gTjwTEBMg-_v-3ht0u4AimVjHpuyikf4TROYWm2fdci2GvqEo7EHujGF5itj6LDXiVUgGxuqTV85hThAZfgTk_PC95OG2m1O0n9fGX9ja9Ol_YjI6mpsHhurcjnqZ8__HDTvGQ1PBM11IVAX4frpX37jeDwshCsPqO3-tEdw7yz5R_X6qIHUIDjQiosPZ32FyNAZHnNZo_yRu4o6Yld-vhe6PEvi_9m9fB8TPZUcKgsuVIS4WDpMvIyZQ8h3Z-yQkh_OIYUy9G9dyZgenhrgIo2N8KcnOcTPbEey-v860VEsgcBXtUFiZdKWUGEUCCAHwlfq0AfKH2S_ZirJeo8_6-Nefyg-MPbetYQGV50AeGCBq381tRS52Wxlp8eQx01iJlpreTfXcDCWRavb4iO8lYXZ8vnGJECHWhSGpsnVtgdmjim377ars29oc3l8CWxvdiBA9eIqWmSR34c8tf2eIZ250uLyoijN9DTsps0yb_w_aVIycjYbM76kP-QknwK2OtdX2wCMWdWFxuuiCGjfnPbpIATNKRdwtNZEvEuuSDtWuS_2lGB1AxEuqOzQPwKihcdDd7Fy2TWDVYL8MTJjqYQ8UvyJMUymeI5mPzPs537KW-1vZyi4B1i3DMXBt9f99xb4ohzIhAM58BUh8chaYfcPYTLG8RurW1h_7iVKv9uMAX0Qb65SHz7ztnoBuPOY9atSypoFGX-oWyzaWnWG8uZstM3BuL3HKtZr22Lsnfej1Uqyo2IW_Q_Wl8152sE8BEPLZ0-iYc_vAGQ932QB5rVRHXwzt-exXZwABJw22MQcgfrcRQCpXQ2OOwItOHvTv7jbhfS1Wq0wFZ-fM1UiJt-8CPnjBFvEPmOn3qi6DsCI3LssVc4xkrLDzemDd20qw10Wi6t22CfIO6QBK2H7h_oQcSdri3EeQkJHicnRes7ru_OZZSSR_HMtdM3JRVYUqvI_ITOyWXK-yDCnFUp7raNF0eUkoFIlFMor7QBcflhvRsIyZLszZ6xa2X3oq18oT0Ta_qQiV2VHcHD5-j_EshKOtBjma9Vt2DG59y_fo5LEVU2bYbKBWGTvxnvSJMuDS5PGCV33HRoHPzt_LhMIs9Palz_NJAyUl8FNHmKdhHsuWilhj0McvAZ-9s-ujOv7H8Py5hjGEAauIaVRpDMjsbiyug8gzRt7upBvkOKAmUHhCUM5emkRNEcUPuk6oKmXZ2jZLQKMOJL84tjfu4MMwAUA0jg9Zw7M2Iylqu3bbofjJKtVoXCWftHUd-TyNp9CzRYxQf49KQcBPW7xlyWnQE7BKqE4Ec3Q9Yt2uSC_xpiwxHg1KM4Gxd8aty-TmdpdxXFR_8Veuyun-IqGRAyXhVKKSsY_vR3QDz1LzAqa3dtOu22N67-l5BGBbHwoGRrenI_5bOZJaA-py17RJC6-GLUpHsDg9t4BKYsOW2VyNiDywYIBu_xgFursRsrFCEg9I2Wt77FukU__bqZyj5w4M14Sg65KtzqeyVCaWiuVzA9dls0ZfVvntJY03oNE_wOj5IWpmxeHG2o2MysXbchKUNbPzgWeQ-ZfIcoXaRJ0FhKWMbNtsq1UmoPdtITGrPOMBYd65orLH8cTulGp0mlDRpheWOADklPYaiyqHHZj7sVy8SLqq1DAwTB-B8f8ALvycrMiHvDytlmHGFNPrt4wEqpeyFYnCGDtM0e_QG4KTWab0CchDMsy9K6TlHPP8gQvnMhDPaPaFbYv6jdZ-38S2TjtlNUfYy-6G8_qwJtnFyhkQlKshh0sFOFkRHc4VURHYtaubGgqP4G_1XmXwEEnBvYZiCkE7fpdtzaEkQM1WgJIy3L3YogwQwGcxZKAYbI4aDEl5FVlsvpZgrjnqfyK3PLAc36XnzmryglGsgkqAaxqKdfpb-Mt_V8iWHlXM3gOZPWcXZ4RL5aD24KXNc7XeJe_LdlwH0k5bv6EE2aSslteDtYOW3CXdAK9Pxl2LhRpBM_Aisk3EoLF1pB7qL6Dd38AYyHs32bhyLzU0gaL8xiRO7i-ND4T6xALAfE68jTNFIMAalkG-gInsj83atL8aAVXMea6YKfhVjzwvtbwewFqhVWPaSGzkgnCGUYbTDzFjF4pdixgyeJUrnFDMpe_iwKwWHKQHOlcXdApLSYno5-FF4x_ZKXBcfrPnfFXyCo0w5rW4D55NGJsOJEDEqbaEr06nAKRMwRc5RM3wbxoY4HXvtCD9xFwIx8oDAxcr2A==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "P71qab21BpKoqtsP_aeamQc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 3054,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 37603,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 37276
+        }
+      ],
+      "thoughts_token_count": 2283,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 42940,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 1.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Oh shoot.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 2.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "How's it going?",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 5.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "Oh shoot. No. My bad.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 10.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "student",
+          "text": "Oh hold up, hold up.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 14.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Uh, hi.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 16.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Hi. How's it going?",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 18.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Uh, good.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 20.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "student",
+          "text": "Oh wait you wanted me to share my screen?",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 22.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Yeah, that would be great. So then I can see what you're working on.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 24.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 29.0,
+          "event_type": "app_switch",
+          "duration_seconds": 1.0,
+          "from_app": "Zoom",
+          "to_app": "Moby Max",
+          "to_window": "Math",
+          "details": "Student starts screen sharing, Moby Max interface appears."
+        },
+        {
+          "offset_seconds": 29.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "student",
+          "text": "Uh oh. I don't know if this is a video...",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 30.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "background",
+          "text": "Hey if you [inaudible] put them down we got three minutes then we're gonna start cleaning up.",
+          "speaker_name": "Classroom Teacher"
+        },
+        {
+          "offset_seconds": 31.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 38.0,
+          "event_type": "mouse",
+          "duration_seconds": 1.0,
+          "action": "click",
+          "x": 483,
+          "y": 579,
+          "details": "Clicks in the answer box for '10 - 6 = []'"
+        },
+        {
+          "offset_seconds": 39.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "4",
+          "details": "Types the answer 4"
+        },
+        {
+          "offset_seconds": 40.0,
+          "event_type": "view_change",
+          "duration_seconds": 1.0,
+          "description": "Correct answer feedback",
+          "details": "Green checkmark appears overlaying the problem"
+        },
+        {
+          "offset_seconds": 41.0,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Next problem appears",
+          "details": "Problem changes to '13 - 5 = []'"
+        },
+        {
+          "offset_seconds": 43.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "x": 483,
+          "y": 579,
+          "details": "Clicks in the answer box"
+        },
+        {
+          "offset_seconds": 43.5,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "8",
+          "details": "Types the answer 8"
+        },
+        {
+          "offset_seconds": 44.0,
+          "event_type": "view_change",
+          "duration_seconds": 1.0,
+          "description": "Correct answer feedback",
+          "details": "Green checkmark appears"
+        },
+        {
+          "offset_seconds": 44.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Cool. Thank you so much.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 45.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "It looks like you're doing good on these questions though.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 46.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Clicks the green arrow button in the bottom right"
+        },
+        {
+          "offset_seconds": 47.0,
+          "event_type": "view_change",
+          "duration_seconds": 1.0,
+          "description": "Stats screen appears",
+          "details": "Shows 100% score and earned game time"
+        },
+        {
+          "offset_seconds": 47.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Nice job.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 48.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 48.5,
+          "event_type": "app_switch",
+          "duration_seconds": 1.0,
+          "from_app": "Moby Max",
+          "to_app": "Zoom",
+          "details": "Student stops screen sharing, view returns to Tutor video"
+        },
+        {
+          "offset_seconds": 49.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Uh, keep up the good work.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 51.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Taylynn"
+        },
+        {
+          "offset_seconds": 51.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "background",
+          "text": "Hey if you have Moby [inaudible] we got three minutes and then we got to log off and get ready for [inaudible].",
+          "speaker_name": "Classroom Teacher"
+        },
+        {
+          "offset_seconds": 54.0,
+          "event_type": "view_change",
+          "duration_seconds": 4.0,
+          "description": "Loading screen",
+          "details": "Screen flashes white with Moby Max loading spinner, possibly unintentional share or system transition"
+        },
+        {
+          "offset_seconds": 58.0,
+          "event_type": "view_change",
+          "duration_seconds": 19.0,
+          "description": "Black screen",
+          "details": "Screen goes black, likely waiting for next student or connection"
+        },
+        {
+          "offset_seconds": 59.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Hi Mylea, how's it going?",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 102.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Thanks for sharing your screen.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 117.0,
+          "event_type": "view_change",
+          "duration_seconds": 1.0,
+          "description": "Tutor video reappears",
+          "details": "Black screen ends, shows Tutor looking at screen"
+        },
+        {
+          "offset_seconds": 118.0,
+          "event_type": "inactivity",
+          "duration_seconds": 34.0,
+          "description": "Tutor sits silently, observing screen or waiting"
+        },
+        {
+          "offset_seconds": 152.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Oh, it looks like... everyone is gonna log out.",
+          "speaker_name": "Katy Jones"
+        },
+        {
+          "offset_seconds": 156.0,
+          "event_type": "inactivity",
+          "duration_seconds": 12.0,
+          "description": "Tutor sits silently until end of recording"
+        }
+      ]
+    }
+  }
+]

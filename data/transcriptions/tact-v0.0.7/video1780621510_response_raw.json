@@ -1,0 +1,2160 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 21:49:42 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=113253",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 1,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Eddy, how are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Alfalfa.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sorry?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, I was talking to my friend.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh. How are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 10,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 11,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Eddy begins sharing screen, showing Moby Max interface.\"\n    },\n    {\n      \"offset_seconds\": 12,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, to hold up.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"So, Eddy, the same thing is for Raysin. If you're going to continue to talk...\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"How do I move this thing?\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 20,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so you can start with the problems and you know the drill.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Questions you can raise your hand. Okay?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 24,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Browser\",\n      \"to_window\": \"Warm Springs Beeler\",\n      \"details\": \"Eddy switches tabs briefly or moves the Zoom overlay window.\"\n    },\n    {\n      \"offset_seconds\": 26,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What the...\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"This guy's...\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's in the way.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"How do I move it?\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow button\",\n      \"details\": \"Eddy clicks the green arrow to start the lesson.\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches from Eddy's screen to Lester's camera feed.\"\n    },\n    {\n      \"offset_seconds\": 37,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Lester, how are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 41,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're on mute right now.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 43,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 45,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you share your screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 49,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Can you see?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 51,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't see your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 54,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No, wait.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 56,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hang on.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"Lester looks around, trying to figure out how to share screen.\"\n    },\n    {\n      \"offset_seconds\": 103,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Now can you?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Not yet.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 107,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Um...\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hang on. When's... always doing this.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 117,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, um, how do you do it? Do you see the green button at the very bottom?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah, I'm pushing it.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. And then are you selecting any of the tabs? The one with Moby Max?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Now can you?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 135,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 139,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So when you click on it, do you select entire screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, yeah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 146,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, and then you select... then you click on Share?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's not letting me.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, everyone has the permission to share their screens.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"I'm right here so you're not talking to him, you're talking to me.\"\n    },\n    {\n      \"offset_seconds\": 207,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, hang on.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 208,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you ask the teacher over there?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 211,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah, hang on.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 215,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so I'll be back in a few minutes, okay?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 218,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay. 'Kay.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 229,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches to Raysin sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 230,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Raysin, how are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 234,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, you're on mute.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm good.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 241,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Raysin types 5 for the problem 10 - 5.\"\n    },\n    {\n      \"offset_seconds\": 243,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"Raysin submits the answer.\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Moby Max displays correct answer feedback.\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So you know the drill. If you have any questions, you can let me know.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 250,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 251,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin clicks to proceed.\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin skips the video lesson.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 5 - 4 = 0.\"\n    },\n    {\n      \"offset_seconds\": 301,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 7 - 2 = 4.\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 8 - 4 = 5.\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits answers.\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 8 = 9 - 1.\"\n    },\n    {\n      \"offset_seconds\": 326,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 8 = 9 - 2.\"\n    },\n    {\n      \"offset_seconds\": 329,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 8 = 7 - 1.\"\n    },\n    {\n      \"offset_seconds\": 335,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits answers.\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 3 = 4 - 1.\"\n    },\n    {\n      \"offset_seconds\": 345,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 2 = 6 - 2.\"\n    },\n    {\n      \"offset_seconds\": 348,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 1 = 9 - 8.\"\n    },\n    {\n      \"offset_seconds\": 350,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits answers.\"\n    },\n    {\n      \"offset_seconds\": 351,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"Lester, is there a tutor with you?\"\n    },\n    {\n      \"offset_seconds\": 355,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 9 = 0 + 9.\"\n    },\n    {\n      \"offset_seconds\": 357,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"No.\"\n    },\n    {\n      \"offset_seconds\": 358,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"False radio button\",\n      \"details\": \"Raysin selects false for 8 = 9 - 2.\"\n    },\n    {\n      \"offset_seconds\": 400,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 4 = 5 - 1.\"\n    },\n    {\n      \"offset_seconds\": 402,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits answers.\"\n    },\n    {\n      \"offset_seconds\": 407,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 2 + 3 = 5.\"\n    },\n    {\n      \"offset_seconds\": 408,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 2 + 2 = 4.\"\n    },\n    {\n      \"offset_seconds\": 408,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"True radio button\",\n      \"details\": \"Raysin selects true for 2 + 1 = 3.\"\n    },\n    {\n      \"offset_seconds\": 409,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits answers.\"\n    },\n    {\n      \"offset_seconds\": 410,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches to Eddy sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 414,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"8\",\n      \"details\": \"Eddy types 8 into the number line box.\"\n    },\n    {\n      \"offset_seconds\": 422,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"3\",\n      \"details\": \"Eddy types 3.\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"delete\",\n      \"text\": \"3\",\n      \"details\": \"Eddy deletes 3 and types 7.\"\n    },\n    {\n      \"offset_seconds\": 437,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"842\",\n      \"details\": \"Eddy types the sum 842.\"\n    },\n    {\n      \"offset_seconds\": 445,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"842\",\n      \"details\": \"Eddy types final answer 842.\"\n    },\n    {\n      \"offset_seconds\": 446,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Eddy submits answer.\"\n    },\n    {\n      \"offset_seconds\": 448,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good job.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 455,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"9\",\n      \"details\": \"Eddy types 9.\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"12\",\n      \"details\": \"Eddy types 12.\"\n    },\n    {\n      \"offset_seconds\": 499,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches to Raysin sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 501,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"0\",\n      \"details\": \"Raysin types 0.\"\n    },\n    {\n      \"offset_seconds\": 503,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin clicks next.\"\n    },\n    {\n      \"offset_seconds\": 508,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"7\",\n      \"details\": \"Raysin types 7.\"\n    },\n    {\n      \"offset_seconds\": 512,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin clicks next.\"\n    },\n    {\n      \"offset_seconds\": 517,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're doing pretty well today. Good job.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 523,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Thanks.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 527,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"3\",\n      \"details\": \"Raysin types 3.\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin clicks next.\"\n    },\n    {\n      \"offset_seconds\": 532,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"View switches to Lester sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 533,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Lester.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hi.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 537,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you see it now?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 538,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, yeah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 539,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, I can see your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 541,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 8,\n      \"action\": \"hover\",\n      \"target_desc\": \"Shell images\",\n      \"details\": \"Lester hovers the mouse cursor over each shell to count them.\"\n    },\n    {\n      \"offset_seconds\": 549,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"14\",\n      \"details\": \"Lester types 14.\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester submits answer.\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Moby Max displays 'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 552,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, which... which shells did you miss?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 557,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, maybe I missed the middle one.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 601,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 10,\n      \"action\": \"hover\",\n      \"target_desc\": \"Shell images\",\n      \"details\": \"Lester recounts the shells, hovering over each one.\"\n    },\n    {\n      \"offset_seconds\": 607,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"One, two, three...\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 612,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"18\",\n      \"details\": \"Lester changes answer to 18.\"\n    },\n    {\n      \"offset_seconds\": 618,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester submits answer.\"\n    },\n    {\n      \"offset_seconds\": 619,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good job.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 624,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 10,\n      \"action\": \"hover\",\n      \"target_desc\": \"Tomato images\",\n      \"details\": \"Lester counts the tomatoes by hovering.\"\n    },\n    {\n      \"offset_seconds\": 636,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"10\",\n      \"details\": \"Lester types 10.\"\n    },\n    {\n      \"offset_seconds\": 638,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester submits answer.\"\n    },\n    {\n      \"offset_seconds\": 639,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good job.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 642,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"target_desc\": \"Coin images\",\n      \"details\": \"Lester counts the coins.\"\n    },\n    {\n      \"offset_seconds\": 646,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Lester types 5.\"\n    },\n    {\n      \"offset_seconds\": 647,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester submits answer.\"\n    },\n    {\n      \"offset_seconds\": 653,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester proceeds past stats screen.\"\n    },\n    {\n      \"offset_seconds\": 657,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"hover\",\n      \"target_desc\": \"Pencil images\",\n      \"details\": \"Lester counts pencils.\"\n    },\n    {\n      \"offset_seconds\": 657,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"type\",\n      \"text\": \"2\",\n      \"details\": \"Lester types 2.\"\n    },\n    {\n      \"offset_seconds\": 659,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Lester submits answer.\"\n    },\n    {\n      \"offset_seconds\": 702,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"target_desc\": \"Bucket images\",\n      \"details\": \"Lester counts buckets.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EvmHAQr1hwEBcsjafISW5NFvamLLREwesJ06FcorMr2IxMDZ_QlQxhTlkV_yXCjdLBR7Rdpye2gDh5s2S8K8VZiXNLMuI2eXAqDxdpels96g6ogsacgZvyEsvlaJWV73wdi89AEjgCK4Dodm0LUTbKpc7GjHJ0mbLSsFL3FMdLJ_gbXjiD1_1pKuENji1bnb7ZuTwkHzXUDQRoFtccrYyVik5y5f_fDXq5whmr-iNBakLt0jJNqsxEpWA66XN0un_QmH9RmsemHUbAIcKLiUsePqv1dkDrXHYYJYm-APhXuzX85wTuYHr3HpqtvvvEMM7ahNrcolrlfBS0IcrNa0O4BiUyAeDq8b1dMCKW2btj8zv9hk0xmaYQI_osC8XzC5CT1GKuOoIQow8uUUGz5Ks_tB0wzR4Cms9QT5PQGZEevcmisOl4pRj3HPiHtn90rBJty4o_QDwb0UxjFo06Kz1Y3g5XJ_WDwPN4kPlRxaYWSUxj0rqFr1J8gmZI1zbnP1zL36ZefQU-r0oHjMLadFmwXoGc9sBxFsa19kmgkWT2hBeDCnKNcB1XnWJhTdP9qnp_v6DHYXSguzm0H0ledwKsVz1gwnEJNT9dU2Se6Mh_LKEQAFlKU8GVwL-CGYV_NEXPE7ucaV_wj6jx-wXLd1Z35IEW9FNaxrjPngtfAZyCM3nqW5B9uc9tKeS6Ti3Sr3H2sUaqMrg-VkS2NRD72zxZDIQB8phrpDI0-wbzy5iwMcgF5DJ-jXDv6qu97ugLKmPrZWrbEBH0iOTEz0TNOz9sY_7RLPn2uidfOGYADdtvrgzjWELjrcoyUBW2frK81iYn9hWqmf9mHS3KI2u9-ecvkHhri03I_7qpaymIxtx6ap-txRWta-4OBL96Q3S_t6Ml4kkODmgGr_OpM6VALSqhOlxrVS1zRSnaYgMuFwl9wexTDuYAN8fWPC3D2x6quAmMwUS2AoV7o6A0z2jisEFlXV4t26_z_IddVeIlFxWvU8mCnHUGBi7SkTd2tFYOAoNL_suexExRG0yVtkqX4o8kEvci7R3jP-9epka5lHQZ3rPmfSFpYzHt2rR8lqmIfZAC0gNDkLXexlckfNwElro8V0HxprS2CX5xiWTnA-uD3wj2N6i50IJRLysVI_OyFTr_FBnIwh74WMVdv3giEBDnfZkceZjzLhLbWIT3GVc8icyfZR0RjSjdHwZOZTStXdPCioooiGEFpNPNSmvWPI1_LJsaeFa864YbxoeYHSlWiwLaDNpdlTXNohmr2i09l7LKF0Es1cEBXg_eQT7_co8ELP5Z2p_g8U1esv-OL5NUwMYYU9Zga6oz8AtnbmwGqMA7C8UwDeHbpidkb_Rb2M4Mhi7s6BhdrYzBHiZI9OB-q9Y9WOc3tR94-y8EFKaXhS2u61oMW8gMEY0z6KP1kjoE1n99r_eWK2hGyKMfm84igAPs5qu_fI84njI0nG3aZeI4mgA9vXXmnRF3IpTmLM1F232BNSFaoxqJeIOo71EpJPLd3gPXcy9SgKTeGkXP_irfyfisTKvRy3MNsnvprp7bfem93wZeTn1vXiMw5_qL1R9hHi4xQEm7nZnhEgdIDYy_chCgb0Gcari9f2auiqcZbLbd15P9BVxG0-WMKHe6Jqx1G2nHUg9msM721f2g1xvfbQHSv4dBZpG9xncu_kRIy8Zg8ApRi40dXa5GLVIrTGfqywjVaYe7cVobVB_Vcx4YL-IbfPZkscvU_ShmPGGayZekxXH_oGEYMoW1XtIBWQrbiqkzXGJzT_2yTmLe7M16GORndbyNdIDKIrMDu8-QhgVHsEX3flgrs_vKvDHRlsdPFWdEevly_bQ48popscoUyQL66VC9YKFkxJhhEmMXFPtniZwyKng3RE328F9pwuoT9DN09xQSv5w1Z7z0edkHi2hUBzjtNjZIcJXy3oYiHUB2HnSGoyJ-DdaVLecWda2hSHkmheT496B15rAyad7zEmjeX6EwF9YQ36o8nWrotkgTA18Feu5jLRFgwzdFZ16TCfmSOQwufvYMxSnZNyr_bfPf2KTdlIeJToxYW7MChMZEFfCcEHOQ0nboq38wlh9ZXgNymd5p50xMYe5hJZZUvskqu9DakBD9jRGJpGMkyMjVZV0YZPrnL20X2Wju_2OW0wOMDlmtb2_Id3h6OY9V1yteBYOhJBgoiHASBmA5WaxRXOCv2SGSIGfi6OeRa2dUE9eSWtKD0zjzbC8S6dZqEhOhJ4D2RLnmR3kONG8qUu5CGSUNWlaeWblbhFs8zFxpZagcIL-cJMuR0JuDshBWDikHmUTQchJutBs3DQ2_9DMncyxtb1gofJE23C493uCx2hQKtBHLjPBMsK7Vu-9sbBt1lpKMhREid4jXomjpxPvGVHrHknqOi4tU8YmruS1lfkvUv8w6qy0KH0BMtW7h2moq_YIzXfLPG1mSLh1Ei4qPEbaejZh7Z1xKCNNOMXzwjAtrdPqHgcXDkcnfZ-s5aP50sjrEoQCnyjfiOXaA37i6RdYM1vQ1tVApSvb0TnEPe4DhAD7zIqRbhIU9EOSb5Fcn4i3ocW-25w09vigFC12_sQTGoJqVfgissvCxBmI_j8ERcMG6Dj3ebWM5e8IkvhrNvSkwmyrOXzL14QuEQM8Kjp-rqaiZZXsFKwnac92ojLGbk4XoTdxyG2NiLtGJk98xRdh2KjsTNaNZeAieB1hrISSmVyhcDNcZMYQJVcZqD190QRqxHbm7_z2HgSoivgKfoTgBAjhUrSHxmc7mv8JJd-U4fXnaBdAPZgsqwwgQJ7nBdo9BGkhADcnv0VUbTJDxyDd4Hz27PI2nj1Z_wyrQj-2M6RsivAXvJkEh-VfnwBI_EwC7d2QwpUVael5gnj4ubc4SvbAuT1sfv4VfmWYMf_RelmFqRXv7yniP2vR1fvLzqMOO_d0aKaGMMRIfTvrLI4xlMkC-kNkZdjm_BUnt13kWGfuF5WjDrMqo47Z85L1I3sqUMe25zhqK6nqjjISDHdzM83RwF8kvlbsObs6rPKOTFFzOzcK_bRCBLb-okLyoXw39GJAZ9pCCULgB4BUg0NY-V_-tzcxkYpQvQhz3zIZS2MfqT2xsijDsL9aXahV3owEMPfOw56ERFZs810kLAxaq0tVnoBdyJyw287qEH-x6qBVrtZBweyOBlWb1tEEQLfCxRaFNsfK9UFuCwGc8QZglh5SRZZNSccOZ1ajGlBfGArQyKQAUPQ4XYzWmzuDCU5socEaukBOYTBLdcMBIBsw-kPJ3nQzfDVeoIHnhHC8qu-lDBw9LrwUttwQ-okpmfuL3-MTMoLnYKqsU8Gi4_BLMSU3i7OlKSXKJXLDp79FJlyidfP_p9Igipo0mFS72leTg26LoBeSs5XjBARIzeJu8vnOlVqUJV4IYwmqI8p5j5N2P5M1fSCpecTcCPvic_eWSmWPH-_Vy1HLbrWUCrr64y35CGM7fA22tGSO8dAq3Ka5NnQO0fn9Vwa9IkG8y49ZIeyGPiOkaOLwkrNh9T7xsa_FOeFMwGwS-1-Lgd29ned-ant7FNPB_96EywLLpAfVFDJkoSjNig_xpHfdmK07d0OeFoeSQtw-HQpnioH_xet25OWxpo1LTzLygRIOvuKGCDv-dSnjzt50Hga7FFSTvOwdGuG26x-oWbxzZ6GPvSUikt81hA43wfBmcJ23D72tMld8sHgjG4uerqbRKVBhXlz5cuUPGSCfEHVKS4eTB29SL-KSSnCdr2rh_HLv9WpELQfkuoSw81z-9B6uYkHhvIcuzrj3kZS47HdGhGVIG7W0xlhqfD7K5ucJ5btlJnDFKfxg1dCowkd-vdkLkRHf6O_Klry5RrhA7-9LjaTEXNjdHt9mWKD9BkpE7UfoaMdX_W-W0e_SiRAwYKgiCa7TEO5pCn8YXr-C5bC0RcMOs99UTW3qsxWC2Y65hCzicR5Nve9RdeJevNqcf50T9eEklUIwi7bIBGgFrgN9ntKp0BUD5nP-Ht0AwbXoaLVjbZ_wFdVdT1y0-LKFhcYNW-2cxe_OGnyYfCpiv1bHJMdgLIrrlb8IfpqhmmPkRN6YMFmBjXI2V0Br5Y6PAxODgTWMcqEWGdNurOIfdK5pca3zzK8umiu892sz5XWB-mD1bnrDeSAz3LYBHKqEn8Yq9B2-Nkf_CASqqqTTJuPq9LOUc8Z1F1_CiCD09uihvBOPKYgleLofrJPVgmFGpV8M67dLEecM6HQ42ktSW-7aiqCfCub9S54AkveKYY40SJ3iy1tciAEB79E66gBYiNX72kmGPQGyENZDTrWLJUdpblcSYM7aSrsQE0-BOzQe6SDO_txs8Jm71p5QzYHKj-scMKXtf--W2KjYgP2N8qe2VKGJO_btCFYCzI6236c0mfEuJ9O9AqyAPwC4KPvtVc1P9kIWi1hQqVsL7IRQl_QQGNfILzx_6aqjKBcat90ZhhCz2DPAJsDkCHl4_Up2Z_IxSsZiJiRqf-09bQhlFQPAp_g8VlEl4AUl1afUHQepvRHGbIaDXhX5hfoYYEDXtKk64aKwJZgugy2a6iEE876MBbNGsofntiQjWnBgahgvpvuUGxhCbAtYLqfsXKLB8BV_9SEnVjOv6-3-WYwsc92F3cbD5XWxumbB6Vy7XxpzgckE96JQSFpezbmzKE-S7O4-fmEV_Zn6CbK3cip2Y2UUmB2YKoJBsK1jt_8jJ8OYMaobUeiTknPv0bnK3-B5mCZD0HWCyKxnlwn-aTR_M1ApN1nu4VwusL3oiCNp8ZiZxnTbm_DG5qModuaeVn5xQ-jv1dn05MNQKRrDWajxr1oEvznjTGLhiaEkb4l_1Zmz9xeBMOu4Dlb1glRuCX2uLKdhs0aaQHMC-HfaQSPodDNhEiC47zAwnvJ0OtsaPhSVvs_Zx0vaNegySRMWVaCUwQ3yd_SjFqPk6qAnFYHkbcIf_beWxjjiDGqOm-4Xos2nK8D-WJIgEKH5hi6dAucBUtoFOWRfeU0QlC-wNHp3o2vOBo2QL-y48Dz3VEgrAp5uRxaEZEGYnmTkE7vXKaX4M_CvCvFPeoxatWfPHq5BjeBkkGURgZdmOJMZ4qP00EgYbaBQgxcQzXQgXqhxPXI1UUPjZG9m67i9m2ptX2Vq4li7Bxf9S9_lvelGqmxYA2XWJaNOiu3o9Ejy41Mb46EwWDgM5haHGrynSDqRR4v1Xqu7q-Eq3SxqwVeq1FvLspO8Fy2uBVi_GUVuaeut_FdTyYTErrQM0Cyz_d_rf0B68FOHrpqdkSlMWVPUJF5JUstKqsjtalilQcPlfkSAhMFbxETpbs1NWbU4EUO7o8QYCdFFFgOYt11ZWNuwxdUStoJfMuKWmiEBPwIK3tAcuToE2WvhUFsSaTwHFImFhqaPtuLvGUdIkGJI69MK_XiF7Tod5Y9SuASX--J4bvutxzH_YNZRfQEDd__UeDe95CQbSJKzqQ37WMtGh8ZG2-0dbZIBYSjL7uy3CIFkR50yucKrkW9KkXFySN7570Vw_Sr29KMruqG4jWdvYiCDJ6AetjRZtMnVtye38p3auiNKoU_tE6vIuPycvRA1RXxxuspHD3m7I4oCID2DcgS1L_a-tldptN3mRGDbJN6D-jA4n2nXn6zdE5dHLQppxMb3eYSBu01V7LwM9YmS-QjOfVWO8zD5qnLQp_tgUJ5A0gsDshylN-8ozkakdClSM2m9BkJKkd9dNQfoC9cuqFtyBtweM2aE02bVJQRSBjz4vz26-v-B-fqJq_FeXy3v-pA8__voOr_l4uEtHaLILOm0W5vG28rbQ1OhIu0kTGQ-AxuBpEwojyOWbg1LIWComMTxJQNk8CEjXZCQTWZbJAjHm-7B3JbgMfwrdz7uqe5vBp5PX1Lf720CZB84Rh8xSgDI5fiJaO3e_L3oUWcyehRwtMNKe4Wk7KkZKnOPw871w4MZNIy77dOFxICLSkI0bU7_Ys9vip08WkzD6Tc6FQPyOdbFpAoPJ3M_-9pmt3V4SjgwjJ1FWSqYuy02troHmZMs4ffNgSu_LTDLGEqAKSigzOJq-se6euLo2CjsnRKwq1TpmuBfiDfOmuV8gQXXKuLXpERRsWCgoSuSaC_m1yqdu_5Mefjd4FbtMt1e348mYQjamzctAe4K6926zghZvV5QLnbs_zxRolpPxcMTCzMuzDa3WbXZBFFf592wlTVQvZJFIzJn-Hq1Wtjo6gM4urHfAFnBFLgnAvuO2z1i9RpqNqMP5EX97xVkYbMw8RyyECupCd0pZrXgKhR85R8q_yQJoqDfgFkkHRz5vY8EK1IN8rTfvAKNOIYZtYyl1aVWt2aFeqdc5tws243mDLLOs-IY1UH3gtd9iUJI9Ecvi8KU3O4yFnoAzzT5Y44pyxrYwQ18mWe6tlHwOLT478fKWgpH1oXUP8CJvAz2xiAm5Ql7iAK8DseS6ZsjXk4LijLsfFZD5Sx4UO1TX7mq3NYd-jZWCujD8V1U2s6F_WU5lRnIQ7chabAnKnvXwN8Qt5RnX1zrW4hqiZcwnVumS2o0PTSWj0SrZfKLAlXeyIyc4uWEW_CIlk2cv19reS59cUAG9KQJd3KW5IBHR-UlXvRbZmC0D8whKxlrP2u8ftmj79mta-v2QJSB-vpu2frb-JFZpPQfNE6JOZDhF-HVnO26o6VOJSbLvkdJ0aKTsCsOKKv6ycyqMnz5n85O2SHqnjRRM8Lz1zWZy9wTE6Xli-IpwWGGv0YedRgpFfpDc8TJZPi_wRaYTAN-VCRiIGEuU7Xg5OYAAKwBtOwuzatpwLNsgp0CrGIIdwS0fTK5JgBDi9f0-RGrfQs7nBxkYX9AsWqUmcT5tM1_XDI1jmcBuMiSW2mE_1MgO0dzaqVFxG9lVw_uP6DcvFdX1VWnbUmWOeXV0QZLCOYK9f3xXwTKjjkoiEwCiXsfI1ZV37V6JJqiFaAyDNWCYB-0M6zBMVMEazAci2I7DXEEToBFYqP4_q63-2vZ_9d_NcmqC5kNvUWdhvXwvqeZ_EDMcFwXJXRgaCi4h_wWHrLDvwThJylg5XnRd2RgGYmQKomXxakh_ZZs6X0hBbT_ZsD3spWmDFPyTEKVEZmT65wxOePRw2JjOAYTfEkcvd_CYQlKBQFISIb0ONScOQqVKPUx0CWorY62CXKC5vQ5bDe9lTzngEslvf7QNNJjwG6kC1765NxhlipuJR1lMqzLh0gPpeKYS-sQX-K4QU60DEVFcEAgHQmm4jy5Nfaod2QjE8fzFGaWCXxeWYNV4YyTEsFUYEcQKmc0b4k5Jejd2n2ITDymHMVrff_Xc83Ri_9dHs2VSOz5SBQDSYu88u8cv3qDM5jBSl9FcpByjxJ5vbAw9WLp5HpFLArBcUAlG8A8fREvBVoWs0bMtOPyNe69EFczchXs6wnLn_CM8fTuGJVCvSoVEgeFKl4rA22dZgdgcaghpUMUAm9M71JteGPtQYo6V3YaxDSmOewYvwWgnrFcnSngs9x0gBCSNZSjXXRjQ-Baajqqd7oMRo3Gq_YQx7CihI-gqPIDWv0JTvybxO2X3H7K5q5c0y6SZWT8t1Zp2cNvlcvHiPYn37OwqR5hZ7UZBod-lePDO0j6OC7TR3KlP-dKQR-1ZKHuXmIMl41Xjv7nC4UUpN0ROp0hpkMFTWpRhdQwCk7_6Ordc7EbbBwmGqRwwYlLq6SzaHXuhnjY834kSHN9KclwqjiDbxX79ecUHxmj_NP1N-eKIWR1UNZteOoh16u4bZ3u1S867CwrVJYS2SRy4hLisi-9IJh5Vn4DsI_7Z6WOwo4FtdMOpGN6lf9nUzhmnyxj4D33ui2dJXA9Lnyk2r6wpm7yDfvdkH4eN_kVcIvgKGWRqt5mk4rLncBuBW3uGGQ5pn1RKbjBc-iY08exzOix4SoOY6Rv_NeIKySBJD34JMLrP9eCuWEA_-KsW1kXOxMPWlNkTeCOzbCASxMqog2y8egvsmpHSO9DoJWsfDQyK_uiuXAR6Vkp1GvEdWKvK14kwzfJYimdUYOLM0bkGpFyb3zHkGlu5X5SNAKawyzAiIKmqBrzuzHuevaYFR4OJh1qJMGmKcD3ese8ImmPAxhzbqKqdSwOb8jRReauYQclViDE8wvHKzrWlvHEB1rzMvdxwILby2ui5p6kjHXhkZGeewo10XN2huL4xD0oYd0P_TMnIVZFOlJ59Oaib9tAAB13qaN4kh4BhZ0u3FJr766ydD_1U7UkbG1c-ZYBBupCwge7BZuSxYl2uhjnw7z6uktpbuJ2_oMrXctZW1TVhGAvMWH_-lPD-7boOlx1zIlA6SNFsBQMHvtZP6-fMeZeQdJCc9tc400M05LqvgUXGKDdg0rT4FbaaLk9BEueoVBU2IvdUvW8mCKdn4SePXUdJbSaLEU6u9t65h7JuO8TNqVW68nGMB3OLMpiSKd9wmRJ4UPf9ZnB2oYxW2ecjdKk-7GUc_JK9vp8EHz10gMU2lL2EED_h89sggSzwGQPyZIARlQwe-IBSLHZSML_g3QKqfyZN15ZkC3HXNvjr6j36km8VvRZX2sS_r55XEzjnVzWZqqdwu9MXDJCv7MOvSk7QM54heBk4oI1wj05aPwI-LlkOi-4aRqh7RsYu7yvWqr6pA0ytzG1TUHz1GCCEq3Nv_irXXfnhL9ME02n8U1XOTsKvSppHp6VvLYxuynjBNeyHoADI-YMOz7CQEQF5geW6YbYDY-hIWn5kNtciUVZUJYqJeKOlsST-TZJxPRvoYKl-yVZ2eJaxLIr7EgBx6eCoHS73gs17CjWMRV39L0l8FNdibsVfBhZAuSWyMrStxSGA5gDId2VXZvbir4fk9dt_sqFJgl0Mc2TY8n_UUcrr4oiQm1wH0nCYb-ATgXU2JEjDSQ7ht5zYdARr3SfkzWJCgNP5QihDijWNKa-SM34UH7welftBRMBZQY4pF7EBjLhxBKyZfKlHUgvi7ZtCX4CkebHq9HTAlVqHfWTKJru4ehm0CQFpJ9OT7a8RY6LoTuNZfi-8bEf_IXygQebBbvhStXRPYcnpYkm4CngcFLVurPjtwhcTtBZov5JvkUjAep4jfsmV8HMz9Ly7iu_-MFrF0PdZMJ6xSi5yaOwfuyhEooZY1nICeb2MCjtBqghis7k9s9TP-WCXRKASj5ciILKjljoc2iMpnrOTVNDyj4yyJvspxttPcLsogujlUrFkp4A0zv0eQBdHT96Smw-zToCt2Tn3GtQ5AzGKRFIlo71IkNtmh4Y132_0T9nzYiTplzs3B0rSNuqut0pW6fPVyGghBbYh-8VtXKsLOEctZxABXhhapEmpqBod6V8QdF4tynTbR5gkmv4xTuAbRC1h2Ii1YuZc4bMxwmyQ-o4rWA5SYZPti5Lk9pFawM7SFBrI_5UHPO34483vRXOaa5RMW6bPINc9AOIMxq-HifJxv8vyNCgOUQczxZP1MlB2UADDS-GxwZwjlAMYHy3eb8sg3UlOHh-j9l7ZlvWpJUCedVKwbRAuRRy70hpafrm98Vg7fZxfeWCCrtvtVKR3y1gajfrMVdsrSAiOjWlc2_xMDegX1Y1_D4ohsZrVUKxASF_0NiOwjZKipWU_v2ez9Ei_IdAslfdj7cOfyp6D3vd54j3QUP8B_9OURP__2-kvEuezolkXD0RUonNRfhDEPvbBV9mLHjCUc3CLRluw21hCrJjcLUu_ifu-pfTrubh-eVIulwY0AKQ6-FkRndSnFvoMjINrNXQzsGe9nTHg0L7bl57CfGnXCloKqLEhWA1OI7wjn9J8OJxDzUCp4wLKjUr2QgsZEsa_uP_p-V-M4S0P6yfI0yRhLP8JiWzbxxQPVZFGHxcHX1G45MD87BqL3RfdE_5CmNInWJi5h2nzFqZOBUgUaBt6WyJhS2guvxV7yHYRIkF3P-zskG9MM0Yb88P97rxImxpkTJOjG1xhLE5uXs3uoopE6UnZHBeN013zY2mHzhKJna25vIyF0po-a7wmOOeeaon8GBgAblaXC1ZEbW5I8gymEZhmro12d5t5BdJAG70BNj5UuuRwK2NjFn1HMl48TY7PTMHYJeyRIJdRK4EUzj2SKP2_pnQbubwaPHL-k1esP5_vPj9ZrNyNuE-2I5hJEC0R5G-hDzxPc2HCcZOZb0iUoRqIlROeCAxe02I-WhaY3zWR86k8sX9NHAdV0OUA9U_d3yuSXwcjo6-VQ_XZBCZrJdE0IrolbYw2GgNzjfg-mZ_hWgRgQa5j-RrjSEZLHs620Xq6AFrLQ3IhHxP0LMsO27xxBoW_ei4GQQpP6wIsENQr8YdF8DtUpg6NellJ-EOk5QlwBCvS1bjgRCZH8yKtYS0DUfzPMzCe-T73HAAnZQscrwz6zE_3AyjDRSzcWnDkSnKP89cTPL6pKDCbXcK_TyvjPk3o4EloJxAQu2QRzYpvUT-l75A21rU0MB7F3iZtKS3NrzJifiU_qHH4gbqOUkeiAYu7JcEUr6LSEhwhCZ14atuKBDXonoZG8jyXJCRYjomcTaXqdPyAXFApN3ymDsOJpZS2n7Xq64GJ6bOoi2SRGRt0dFTLItd33nYa_f7iFYirFdm9BPatDM9NPb9o7gQjROnHEiFPn2KIbKMsLFWiJyxNZS9o9WWiLkuKRo3LeQiT7gmZE7u2B2MYBfcmeijOelMGtnRM_3teotEfX4ctL6efvIqc3PxmOz9JnyOgJ_KTHFqZPRYmqpvG9wTq3yk84UcTifx58Ot8w8glOm0OJzPl3uwEv4caHaOq6BbPSMm4uUqy-Il5H2N6rvXJuKOTaT8h2utz9TSJgiHADiK46KDu7Zc5qv3Dt8YOPr9I-vawvnParxPM1Yp1HdvoaqISOTzaOV6_2YWE6FIs0Z1dcYE4kIQt4Ikr6vplckiZqpkxdsdgrmFxA3AJybbn3KDtQVpxPYPhTmSpTJSpBREuGtZ4gbCAmdX77kgJjXJoN-wCIJO1wQGqg-wBhAJ8DAMdawApC7-gUFj7O6_4y35q5DtLW9EOOMANKl94jDR38IXRr8OpCDbASCDAVu0C6KaVDof1BqUxXFydTGeTKt2VjCKgDjdWpcE0YtmM1eAWL8feDodYee4NTkzQ2hEzRO3KbwFuDNxLlS00FzrgmfYVzjtA3Y4i7SnftSR_0Uxht3bCSlfYCo2hPC8BlYbcxSLINQd2p2fEckSXnpV_eVlQdWkwTXv_ZXoezoQD9NwQAoe5fga2iriT9N9TvrQnCRJ-wf71EcRulENTyxYzNSYEXJxK7iJmR0oEbpDAULnHbuSWGeWXnEPTV59XzO3hsBSUtTG_CsgWfF0xpP-sZkCQ7hMnN837JStqw87Hr950liH37Sm3emLA3KrlSpfvCS6K8oivWnhX1_DorHxfX990ismlxPGHY1LPwH7eJ_4Ozezsj0zkC4acLV7_yiCO7re9D7cZDG4IrD8XDmQ_lX6tKWaQ0HUN7aYceKE8ERcNmF68z21N5xeUCS-cejuwlp77hv1dZZSeVKxUYN4O4UUabSBMENBEJ1fcCUH492QvkvyBxQxcre5UHkZngMFiCGrpk_0WbS_kQ5iyhTX93KuOgV8f7lXD4L56U_uUGWxO-JccUFcdmvi2GezEnBtEMNrDlCp7IxaGCREO33XslVc_3Rte1INE0cRA2z_r7UT_DIzoU4gnHv-xVECzDMQgkwJtnqk_kGoRc9iabf5gZWoPt19xzOeE1Ii0McGeMLCqEPqRvCofDwflR55WXt5bFdMVFtGmf_FKvhzss_8dX6AK-iuWWdR8A6TJvliANk2ZyqOLdt6XJcTOQJiaMsAJMUUQfNdAR_tuNgrz7wyZo8e1xyDwzgQFv9WN3N1Ct4oLLMJrhDY5CyQM2CCa4bARK4fpOtIpGUPdeshidmmPoRAAgSjEAafCCpCsJLVhC4mv0yf1fjecsW3nMP9WUBbGefrycYzo0EF3Kfpq-f_jpCw-fwc77flSysuv_Ovoeg3yd0XQMs2_YGCeZcrRc-ybiLzjVHY9AAxuKw4C48HfLPvcatJs29edE8K1h1JpcL0MmwgPikiBq9jO1xgqOu6NO_eXFx6sdH-yE1sWtAl8iE8EmC5pyEMCztCGtifInAw7e9-iHs1BNc346jgt5QP6LnIWG8vNHL_EtcCSPMnjSqvLDgx5U9LqH3hoH71JEQWOesB-bbMRchVA1n1E1aN7ddQrfPYslHyU8CVWiJpKAlcEGak3zMoIWDYvXJgYooDTzojfDI2F_9KZkyUNnCMCeSwOhJke91GZOczpJYN-Jlu-4tqTWdSnIvlDWcox1b42UUzh0psTyp-laGghfSBmT6EvZLLBgPIxxThPjMrVQeL7qOJPh7R9pR_YkdCT6NnuO9xXLPQmpAraP6epWtuWqCNZpVav1Y65t2lQwogNpMz2XiM2Hhhr8otMMHZ2tB7RzHxljhVoiQHY2W2oC5TqNYksblCZMP4FmhGSRONgTwQKg1_jL_lp7emy4DjM5K0_8KAGI_5k3mjxaFXEIF_dB4Ml9BlQS2lwOXqGjOjCUAwgRRaqRZAjuclHF8AojG28H1-aYla94lrQ_07amnmCH1oOK9d3vfr6pODk0_MPa3Tv8GA1h6PC_nxJzVm_YdSWAA_U5RYOLIutMMpxOAFfxsyfFvN-NNnyjhFUqtvZxtFo_vwc_NkwWGoMyugiwROmbUpjyXbkybknvMnzT4pusqlp7UDIxSmTL30bSLGtKUyn2AFZgDAZIEm_tqCdFWnTcyZI5T88JLqUvDKZFFwAA1-_jwxZGnZDcjyQqHMRwv6OmPoVi5IKrBMRMW-lVRsODuC-6L7DSLfep2UMtWnPvPvp7RwOJzvVygTUNzt-J7WeWGHH1iFPIxsrL1RZQfwzPS7ch7yDouyUUvHQ4C9MdDwR-istrZTeVYJztQ_GEZjqObjgOZ-vMQhgs2qdXJYDsKZj3ybloitSiEy7OYGKuogiHfinBu6Sp1OXOKnROwFbSMDneNmhREV4HZ86qUwGwiMinGqffbP9j6VVnK3MG6vdQ1U8HqdjSR3YEY16dGGZDXGjD3qDA9wfNmPCjQCLQ0sNJHcFfuZi3j9us4YESx6dcGqPmM-2ZFqbCJIwzgDuGQY2qYy6bh1tfscpIglTyX5xisCGdQvvYW_9sMZnIY66fxK1XsDFnQ6sAOMa5zJA3pTx-GMMQ5Y95Wchyy_Nux6zXbdarzu-Lg7MNUhYyJlD4Bbvfix5pzH6qmW4LBa0s2uJ9p__r-EQ4arPjkZzjlfUTDT0RtukzcemE9l-OIr35hpAzgsj_Hh-IcL8wzvu9mQB3Y6uFY6uZ89QnPqkuS3lH5CdY5JzPafUUv30MF4VU_Ex8FRthS1aA1RDG6dc2M1PZgPN1O8FQpMu5v829TV54SokTl8StpzuwLjOXMvvxjvFRsEwv4DnElWVpsJUpFfz6JPJT59OKRuYerCP5JnusLYBOeDhL24lY8Creg7yRQ0X7BZWzaw7DzUqnfq3RNBzTriogtaRC4uj0KTtWMbtTunjoXRNDkSu9yGjr3xat-hLEK4QOeE4zsIhFEaIdDNdWEeFrMlP8FiSA4L5oqf6mBny_EV7f5E30TCVCRx6QayHBwvft71u9ZmgJaWYmROuc8XZa19Z0ZZW2MOrltij2J8jdujarw7c7WaAMFfuBB1epPjZbDFCJQMEsDaD9Si9GYcNRVQjjMzW9XkSRhpaFdlegqcs5txiK1wptm6f3JPatrjiTrfGUv7Qpr3KVoLmQAPJA09frUHmiZBH3UKPdbQ3YMBnhh44m9lZn4ssG5vekfiGUlh_CYSVC9Xvx5O4_hFhVMKwWJuQ079LzKiRns2efRbmtcyyIS1BIJ3XSv8o2ovBrfDserqadkVWmOPzxyGC2v3Ih-r6EyLpFlk5BSyuMIYnVejPDhGgujBJtZ9FIETXbDv541FFW-BVC25YRabMUpSGkAUvnn3PNl7tJ6aBuS264xNOzNuTYS9EfWjuE3mwhHvmsHFM8QdsY0pNxd6K35qYFZG-zZ__eS1-4pZ83mq8nM-9qwZIyM6B6BmKZa5VqsfP0E0fWQ5ZfUkjfaK8mCjI-1OuSATAPqKPqJsOEnZHI-UFfL3AzA7xtGBvB7bmMmuQ9pvQLAedh0jiIHI9g_4AdgVGNnMIjF33TJuC0lIebEBsLIFi3W2tzjP96xExPLLhXWZxgqi5oC44mhnpm4dfCosaECMCdITBCqYzZy0CXJF4ZyLSbUd5fO3tFMmnHGx-h7_6rrkMn77_SDLpnthEhkyMb9-EL9-AjWvz1qvyis9IVr3KRSY9emBkRg2yuK1DrhHZkvT1Jza_OK0dPyTJ3C4zvWNIobq8Y40Idz7DsJ5c1qcbAT1nhAVJP0in-tMTb2ukl7_BlWyqaRF2yeBiK9FKWT-PfNA2RpX0Ejve8Hzwqx7ovDWhVxmvdf4cQL96wZ6D3-MGdOrXazgGVcMEzQczxlYerb3eGcVDjfQcSzT-N4YR6EXq8cSs8vx0TMlTDk7zGNUAuMJcU1IrbbqgaR3j3_vecTk5REGsmvZUdpZcDnBZxWET1FBJCemjDZDqfSHcYESBSLRGN_52qjzCOvyUJumjUO5AkDV471uBX8AdXY4avIeC36gK1A6b5bLMwOCxpQrm5CyprgzM-p8s0xBWXEFlr5pEdoeQyxmgXBpxq3i92HfwagRB1g45IzvJEmtLXLzlWcQJDuo65jz8KAutuN63KrQ39PaKMZ3JYkRSSIyLwdU2jwnxz2sTOSCDe0v8lW4M0YEuIpCJee0LlazyVhopoGcjffbBIjnv0QmVzI60E2ewyQ8Uo9kiWhXuZLxmLNXigKLV84F2THhDD7ovlZPox7q9GWvFLwh5F4Y4jabRkl1urHJmtB_2iOEQdjXwXagCBDX59plDdkwyyjH-pz0uROEb2RLH7ImhFPlX6y91qwpVhAN-NivIfxiEIcFCE5kw88GLhqtPdw7jQA-TUd2UxZOcgItdSB17w0ca0SR75mpTeL4E3GZltAQLa4G1fZCLwBamTXbmbD5bBo6sseESoPcp1FBKF4-ER1nVA3GVfbLLf-UuGGOi2rrs1WmI6vSTlyYrG3qNmXYYJkmixof65RmY1akNCLW12E953nDHzOY9_n4aV5ePDMEdpxHJImq0yr_2suBvAv2oUph_lvjNAC1dIE0WOioXHEwjz_EIJGcT0MOUiBkyGdZaIs_f3IgnWmfW-Pl-Aa072oLv00SWlUT4-QFqkP1UAui3FDbl0ExAuH-r6K8fBNeC7AmKivJ1qM9ankEta48KrJppgmd3XPYlXZ2NAWa12xmZyKh1hl648R4F6asV1nnTXOot6CN8oaInMuEusx-g4dTlXgqi8U5wkEBnrPZwGTqub0eC1yjEhJqUeV10qteoSaiJq2KALEp8at-SyL-ai6ea4qvBkVlu2LxKNn0_3kQ2kCGxaT95rBnYdvfRogafgJCOow95pphucGsR1BMAFBFGHykKR6dVx_GdbfAPC_b8cf-WPROc3S2GQxfPEWOKVm9S8BnfgwhJZOObtsFgV5dxvX53vuXMBxjXoTkXLyga-d17LxRFLCR_nYNkvPs30t8uNXLFwVqsuAlE4N_oLhEnvCUFVOt581vyQIyVyaXje76uCY_WL_WJJbA39yuwZiBGW8yB4KwNpvCy6l0yIndj3uXEXEzRHFW88VtI31GP_hHMs65WSSw3jiP0p2THaNhlWjhL57_MApznnwUvDkC_fj4B1L5MtQ7NXsjvsMFsKtncxc62gXE4PqxPNCDAVflZX97PlUrSsoEsuNeLK6QYehtuIbvExXFrrzERvPwgHb62xOj2KjYGOR-Im3vRIfABUHgRZk2mZrRzrlfRwn0gTahxaudvL6SaIvDaYg-K-vCy53SnDvMi0EFI64HrSkGJnF_29jg10gPEsHHtybxs1rIMQLBPyez0LX8VzDI03k15LUNTmgOnh0QcfUYJ4OB2Z8PzWqefmSiRp8iby_PFFnqRMvwd8p51SOE5bjjWOI2Zz_aJU3Z5sVHTKdwggvGdqJOobbJ-aqvPq1gNZKg7qQjNPobynLQjFiG3Tpwioij5cP3hQScLh-Yqv0rC82k4QU9spDO5GSj6gVupwtkq9oDKr4kcJryGDqnwc1F8Y7THbowYd6_I5At2Bkbp6bR70lIQBI5m_Jkg2vMpm55Eee5YX1zP2dBQ6CkcSzPs8Vqq2gAyONfBWoDfQZP6Qci-J9le4zfNqvmUa2yF3yfA31cYDhbxcTphPTL3VSxZtdsiZr-5wqM6lUqNIDGupfePFl2HChx41bScwFJZr3JXWrpC1w9HsK2LZk1QZBGJcqdxBh2iOTuGt1V31EJ9blFhoUpUIYqICRcNa9sF9Bxt8q9PEJNmxBmuMgsGMmAnGNn132vJdierG_jzinQ4lJYdbCUaOBIkqbBPQMbvhj_qKxbgPrP7U14CfNZJiP_IWW4-V8w1X54NufFrPXel6fWx3L8e3Y57U_0hsj4Xai-N-CBrhsSRjCMIZQrKIsis7LgRaiMXs8MKtnyXHdBFe2kutYqg7XjC4Be324WJ-Diy6YQ9ZEsJ1A58loXbCMbNTmRPCiRssJbzOxgAP5-OlNGMNHeg-QZhlWJkkSeE72hm21klWtDVaKKKrhdm50C8KSwuaGN5IjgDdFigotLuQ5maQP9TJm8IaelAeaSuRIkOq6iWGkkIErn6deiEj9KzqYSCMg97wFbWIVM7iWOhaHw92L8yeZq_C_xM252cLjaI8ziV79HaIPB7T4BB-4Vg0ofMYhrBVccIRzXIJ9yWTS1nO3bH_VGhlcDda4Vd6deShEFHpcUgLSNM7OM85Wob6w5uoAvuZOUon36r8diNr9O_3inZZoxiR1r9LkGsYjSATqHAhGLsrNymextbdlZNW6-2l8HHvuL8zRS6zkY3VcGLOTpp1vxVbjqSCfsfdwJk9N-7EVg2vzCkWE27qpIh9UZTNpA-2KnpF4JB1PO2T_Kb_LtIcn89kcLtXZ4zvNhWUCXZpEFkw3cN5orYT6fUNz2u3ulqFAsbTioIq0rMr1KrV7QiYAWYyG5lO4fcVOA9m0Uclr4FO1FMBqnauRq6sz9HFdpEnkf2YfqhMvT5_xE7_58ybNabyf8xMPiaoK4BYItWRM7MYlgA9Aox6HwksIfZaJ6-Ww4HJJkhvl_Qz9SKWuMKz8DCjEf8awlXWhbODfArwwgC06LWQuuq5J73Ut20bCCTsanyfWNHe2qmP8fpVRaIrFxUezbexIYa_g_42yGmxx8JDOp78uX9ELvBRrxbT0oeBdfbdutcgHfiIO1_1qfXxXw8KiCpYI_QnloMT0Bh-927cIlGzT0P_YZzv7Eo41i1H6oG850dlK4DcTkjx7aIQL_HBcHvKBQtkuLPhscK2i740SkdwJddod1FlimZXZCCiLEuoMBtAfhj-hNnQXeoxrkckUI3kFurYMU5HFkXGenXw3qrw2v9lkE_8Az0srZNfn3Wy50qfX9zqaxDEdN0R8UOFdSHEZeBQLLT43bHxpKhIt4M2fohJSJpy6ppUXbvB9rJzm6KHUlMU8qwSzRew2R6ZQpH1l-gK7ANJizzg-_ufJ__2J6Tza8D6oLi07PQvCpGPm7AcuZtC2rvvv7c-rtN59YvF349MaoeVJQgu6v0bLGGS1JlsI8eZ0dSim6ap7XYdSnpSHLLUgsfAxGfTykhKx_9RCz4CXp0OqELsP_QUDjqLNQtkYPB0v4FrgxjSOtuOX66V6FYPkBaeijVKb2AcMJEV5gt_zaJvzIcedjiH2uRms_dvUM_8lh_fXqCKnza3kNY1u8-UIzI_ahkjdt5kiKsmBADWQH_eb1Gbi5Wgt2R0UORpXl0vlWQA66-iXKZbY8Q1H1JWxT2TyWJpZ1fZ2VL2Qh9DYw8DcOHFMQdyPujzsVpuOFLZrNqBdbV8fUCYKLhPo8Zzwdfnf0qo2uqw6aT4w7RgJlqOqeygVdtnWyCC1CFfWTtDZO0yTDE1SA0EOarnaP9OJuxTtqH5vzTLyebV19dpM1cIibJgTyV5EHknhPsIkww37gJE5mZyxfanotTSI6ffRzLHM7ps0aLPUOHm622u6u8fLA1604xmPVNeVRV1-6tQ8gXafIchnWdnKVser7NyQxJPfF07WyKgzOB2f2PVfji7Uxm7gtXFEDMX9Gzcgok-c2ZVCDXVraCEXWPcwYdGpz0W7Ib-zGZjFRmp2tog-7PDLrwRaKQKsV1R4mCBeaXiBdf14BVPIEdWfnrgMx7icU0j4lC7Q47MQOZ7it50OEC9qqwIjJPo61voT_-fVeB55lvy4FkIXHUqbkyezRrtaJtSgMPMC1f5HgfynaMLMjLOR6EwVqtm7Y2RDMWveEe_TcY6oc-4Va3GA9SK_bl1kQMKKClVQmwnC5cRG8IHk2QmxQYV62nQmTTzML8Dso8abqrrmleG55pKlT1gTcw5tPM0_FGzru83Td_2ZPFE_q8XbDH1Acsmd2b8oTZZ8QEB2whC1Bvg7cf3Gb2t3NcqkwjR8YEBvACJt3CMfxQ446TpKE4dwBvkxmFcE3PWOoyVP9C-fti9ko9g423jYA-_LXDp_a2HaI0oxGISyk9GQMTJQmoCxEOF3GAL9ww46gzVP69RR-PVSCJQVqdYohULjk4qvHQOqOMGfQbevE5nVRHhz60rsKefIhc7QvLMjTAfGcxo4S__MrnOmSOAlW1A9SwvPeF2ZjZQazKBhI29FvlD92_Kri6WewVqhT1Igh_a70ycZpOAT4-QPzhUDFmTpXTxpNHYS3QN0BczOnaYc_e3i0zvwFSek0cAeEIvLhIqDDm3NULHrVc9NOJ4B4R8Vk14VIEICpGoAZ7coL32gqwQ2gUmM5BFYHnf6u8GlZIH_vCPB-Z_lcpdgz5zympG1OywQsdUTv8ZT1LtIyUiqvJdnzdmsJmKmkma3PXhaDQnyEYRmgA6D0WcOubyaWK7tV3vD85yC8ckvy0VtBXxaUFVTgcDmwNA1B1nTXi-etauWnVs5AHd3LZdIwFY6z_gJ2YodNaxVcoPGz67xVG4WtSSYvmTzigiz3i5SyWjxeSGFZnMvnE-NNeiz1iRsKqayt9RvMFiUP1hMOac53Uwqb_0P3Q6rrs-SK1KRJKccGs7kpbX1-4unx35P0WqfYZ6igzyq4HcqS3vypNjXiEfPSfAWenvK3fJUqO-0K0qHLqdaLn1BlYKrYNcgdkrhpd1AYGisJXXOxV62BOXd_YseYaLneofyLrJqbR1uCkSOTcfOIBXP834bkPQBIYTAfR_pufs68_EIB2HwP8S1quL7J_af9b_KlY0Ae8aVp57kVwWqMT_ivW55QRhHAnzJ7-iKRdtpeTKSPHBjoQ6XHFq9yoKtVNEP-AxfF_j-KgPNwT_2NXb-EtLLUclS-yQ053ptbOLTxgQQoCKREOGQM1RsmnOQUKz-Xzt3VwVIYO_97Ske7z8JJ4kWet8IwhcIbOcH2ez43inohUe58Q2hOJ5JN2g2n1pzQHywYJhFeRb_x6pTolYX_PgJbXqr3De5L2iiXIF0Sd39c9Ozh_hEf3hk_fc6jj02TVv_2_RKjI_ywTFs1a4MB9ES6ZaTJpXAxowAYLq81hn0zOjoJJ2v9Y5YmyiZsMXpm40saFZhea-5cIIVpGSmI06_KbvGcW2xRjKmbf9yQuEwNpj3TkZK4_96FNQdX66A9AqW55IOYB81vaTGpUIVh85yJ2AtZFVxX7Eept4mHQGDlo-kDloeDuATzuFMb37vBzOSzNL0AUtC9mri8e8pFNpTmwV5BSPb9QNmEWE3nZAf47IWDYksRHoFZC27PIbEHbLohpk9QT_t3Fs3BH5fWjhC3HQnMmqJhDoVe_bWhHp9qpRtcvtw5z2l-ODgH5jFga9C0b_Gw0TEbTZP8O1Sp71VqZtbwa6So_HqHdoYlgVTmXC6ylRLn3ZOmIWyB8CMdTjppK1b0MA6dWaKG9po-PzZOS7NTLbV_8-RMORkLrsoEUbeer-1O1LRSz8xYM1WAnfaMj0rYZiMQuezSMyLwnvpEAsrwGmAy32ZYmL_6yf5NPnQdlSt0mDGaSjTBR4LfpS8i9il_QKMnhyqR0HCf6_TeOyJuli4EobgHUg-QtH0UFvi5u8VfoXdat6UVlIW2q3SbBTeu5b9voI1ZKaIxixFW6fJB_qLlu80FgXiSMSTflDPb7ADUKJ1p-2kjPzx1i4WJFSgKW6OmYuceEJU-xhARq718GAOb4NfWhLe7tz_JyZycDSXHKtJwdHnq9Pb_GUrQIoXeYu93GfH3SOCzpVFCvHu1FP3Fn6dywMl0rHbWtyo9X5OBWGF4TvzIj8iCMrdyCTjBcAEy9GGDBxbQdY7IMdcmmW3MX7esY4gsYddSWawFGqQBriZDggHy2A4L80kvirxsw3q3aMv4Dj51ydlLXNSAgkO3DCMZCVUijSPN1_PFTDF9HDr_bvudAAqHUG_cUfItEHQPl2966piQa6ZYG6ibZx44tIrNYqiC0tTL8LvWbmBmSzB3wMTl27mESYzZNzdLZaxTbFN_9YsN4vGh10rzZQ5XuajGg7OCX0iFUr1OXzGkuQPPJUZDHY7_9evEZPhvf4vC6yAmMKVIIYdIO734E3JsYlZQDSuPI7ofqFLsnlgKJsBM-fm_Vpvcdhyx2rk05hoaExqzQJEVu7HgvDqK9rciM5tl10jgZYwzqXGebgPkPyavAhX1VeBiKE_hTaLi1W2-SIdV7Qb-uuVGQwihPWi4StTnMOZBdx2P-3dwVEPE_CN9heyL1e7jZ4AtFNWFfvl_iNnK5qo664ND6byYBOWYr43dr7ibnnBWguLe2lUsa5Fu4lpUTv_pMZtxfaAJtP-zrTM5p8C8-u-iaih8QIC0WQz32wchFsieiucN4BYCMpbtknkZM46Ik5DVxPQKy39jim0Wle5wlD7clGHJVPSKgEQiU29dca0IqFP0oHk4ZEzmL_JS8E7g9qSQBfpQ4UiJmQwWkiP0UkqOYG0maRUYX0Z8g0b-omvwpLi6g8lOjKsG-2olqOGTP8FpM03oaoFAC-rjhMc8Afupt5b6rEF4VgT0IA3GLAiFuJEQ49LRo4UIHV2nNBBpFNPlxLym1mYbn3Z7DJN8cexq_C6yah3ubaT0SZj-5E5pnzOZsKDHjH3QIf-37okHsxpJQgQW4ncdIoy1Fix_Ia5OMLFhnReAUobIAfoby02bwNSJZ3Z_JZ5x-WDtEjd8EEmvkMfplwLxSefwke38DovXsV0xitUQ6x94ojo7PNH-6sfq8huX9_0t2yxra3ZFrDKgMd-YADV5yAKCg4ehzg8E1pGfuHpXaiAAMV3NuYGPvaqzcBhb5kxgpbYuRnpvIsB1s9y_ir8laVGYd6cZNu5HEfnjBl_aTjOB6oBlvuAr9wdWqdRhPAKrR4XoEyU_bwEKO0IATixo9Wq3ZDHC1CbQOB2vnKwE5u19oG-nwmQELlP5AMt_9JbkwxHIczRdaFnfqROJs9VGciLIWqQjg7dNMa818eJxs4BB8hg9WomFxCYptVN0Up0GsSfYnF5aajRvlufLEJIDJNd14JXngg4yCCoxdaZear8qD4-dkqHjwpKnAqCQYN23J_p-KKD30vWwgSEulmcYJj6s5lIZ15fIxxcyI1kcKi1lKEC4ozw0xfD1PhEoHPqVmLdAyJxna7ettXzFxTLGztzuX4_psLGnAfDuPerqIWt6MncJVaxritDb8lFzX1HhndSUbW0cAjlRB5pjZkFi2RK1du363WwCjyX8EWNz1h9o1GVoaXnJnp4MNsO6cyrmLDwb4C_twEir74bnilkCyrO52dYBRAzU2pRvcqSTs16kNnyKzjien61kq2NSxeKq13ePpf05l69cuaRvWKrAdaDbn8L9HX3qjiDeXE3nRGxCmmeYwzH9Ntc0Hxp47i46OmidNOH30PSnW9n0dZKzKw-Wvp-JoGx5Z0Y7gfsIOJJjqHCbW1sWchh_89-SCHB5wV_cGAgPkORSkGmtTEV5M6CXDO9tzw26Vvvna7Gn7R7yyibrx9sYDz2hbLRm-kraCZoevXhaPvxg1npKVNEzfVQQP1Ez4ARH_j0-JMbXT-jwE7lxCx_TeK0q1WRBKl-FWhqzngFQufVHbtCjxO-UM6rKgJvPIKARNhkgloFuWmGvE5LFpc9vQ7PrkAMZallE0JaZlmtDeq0z64e1m_CZDdtc-6H9dEOPnfx14vCxoMbiaKXOPEiJfY4BwLkOcsQhVTS6wFxcDG8Sz_hYqjj-qaP4p5oAt5Giax-K9Fj8-QMt6Cmsof_2Op5MNEMzvI3nu-AYsJyYuTEx1hPswnroyg-MMY2sVcQMPfYHbmdk4s7XFxpQBLRILhLvXWlo9SSg9RZuXWbJplHqEJtgj5n2hFAofZq56yTOWSp8ByMDcrtLQ_5J1Kg6LNBwRWp15lF08O4QziAclBs5iu985kGpcrCbockAtVrEfdj84ctmYE4MLwJlorX7kuYGqCI6BmG2fNeJ5vi-0wV9vpGRODZf8eVnNCG4erpV9BGGZwuAvKSvXg1Z5Fhd0S3gG2OnfbC2R4VX_UdKCfWdKYeFvbcp5ylhrp9IATTxlvhLhGVVUSjb67C7hMJM_7NkF86yaCTsiUIkP3WKifw2FquAAqmSb-D0hoiPj79g8NIiVoX4VOxz-5rZ3l3O5AaL7u8bHngpBzms7vNS0N2FUPn-ZD20JLKP9-3NgViWtXOjyRGp_vw-qIF7rXOMtHvqdIDuHt7vVBuIJJO_oAhgf2ZJ1uhvNb4bM0JcgikCIzWazmf-bVl5TUaZz-wvZxzekht2luiXOlPcTdLkc7a6g36IBzLCF9n41WORnbiHOCFX6ZcabiYzRnR7w5ZA-H592zbY-LWUO4TazAfZ-ib_NcJ4vcY3eSyCHC31EULiKDRh6U7qphiuLg7z7ojyvpe8xyiY5XqmFEq9fw-PEwVcWhWoapREW_Wxh6yvaYOApFL8YtYR92OCiLpsmeag1qYH-3n93a_iZE4_go4gROJFXfO7vcadGbBI115xlDmFK8xBWr5lv2OKZv_HBgxcB6K2cmQ5HEnQMDQhkHbcFpg240XccoVN7Q6a7zMxQnVxZyZI5zs_jRu6Z4Xhmn9C0zIuD87BZ4amKGXgSf1-AHnEv9aFRg472nrDGdIiG8=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "drJqaaTFA4K9qtsPytnNEQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 9851,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 122016,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 329
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 121687
+        }
+      ],
+      "thoughts_token_count": 6732,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 138599,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 1,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Eddy, how are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Alfalfa.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Sorry?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "Oh, I was talking to my friend.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Oh. How are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 10,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 11,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Eddy begins sharing screen, showing Moby Max interface."
+        },
+        {
+          "offset_seconds": 12,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Bro, to hold up.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "So, Eddy, the same thing is for Raysin. If you're going to continue to talk..."
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "How do I move this thing?",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 20,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, so you can start with the problems and you know the drill.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Questions you can raise your hand. Okay?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 24,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Browser",
+          "to_window": "Warm Springs Beeler",
+          "details": "Eddy switches tabs briefly or moves the Zoom overlay window."
+        },
+        {
+          "offset_seconds": 26,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What the...",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "This guy's...",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "It's in the way.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "How do I move it?",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow button",
+          "details": "Eddy clicks the green arrow to start the lesson."
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches from Eddy's screen to Lester's camera feed."
+        },
+        {
+          "offset_seconds": 37,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Lester, how are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 41,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You're on mute right now.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 43,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 45,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you share your screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 49,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Can you see?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 51,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "I can't see your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 54,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No, wait.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 56,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hang on.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "Lester looks around, trying to figure out how to share screen."
+        },
+        {
+          "offset_seconds": 103,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Now can you?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Not yet.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 107,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Um...",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Hang on. When's... always doing this.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 117,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "So, um, how do you do it? Do you see the green button at the very bottom?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "Yeah, I'm pushing it.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay. And then are you selecting any of the tabs? The one with Moby Max?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Now can you?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 135,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Mmhmm.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 139,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So when you click on it, do you select entire screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Uh, yeah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 146,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, and then you select... then you click on Share?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "It's not letting me.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Oh.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, everyone has the permission to share their screens.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "I'm right here so you're not talking to him, you're talking to me."
+        },
+        {
+          "offset_seconds": 207,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Uh, hang on.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 208,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you ask the teacher over there?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 211,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah, hang on.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 215,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay, so I'll be back in a few minutes, okay?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 218,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay. 'Kay.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 229,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches to Raysin sharing screen."
+        },
+        {
+          "offset_seconds": 230,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Raysin, how are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 234,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Oh, you're on mute.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I'm good.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 241,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "5",
+          "details": "Raysin types 5 for the problem 10 - 5."
+        },
+        {
+          "offset_seconds": 243,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "Raysin submits the answer."
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Moby Max displays correct answer feedback."
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So you know the drill. If you have any questions, you can let me know.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 250,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 251,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin clicks to proceed."
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin skips the video lesson."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 5 - 4 = 0."
+        },
+        {
+          "offset_seconds": 301,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 7 - 2 = 4."
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 8 - 4 = 5."
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits answers."
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 8 = 9 - 1."
+        },
+        {
+          "offset_seconds": 326,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 8 = 9 - 2."
+        },
+        {
+          "offset_seconds": 329,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 8 = 7 - 1."
+        },
+        {
+          "offset_seconds": 335,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits answers."
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 3 = 4 - 1."
+        },
+        {
+          "offset_seconds": 345,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 2 = 6 - 2."
+        },
+        {
+          "offset_seconds": 348,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 1 = 9 - 8."
+        },
+        {
+          "offset_seconds": 350,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits answers."
+        },
+        {
+          "offset_seconds": 351,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "Lester, is there a tutor with you?"
+        },
+        {
+          "offset_seconds": 355,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 9 = 0 + 9."
+        },
+        {
+          "offset_seconds": 357,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "No."
+        },
+        {
+          "offset_seconds": 358,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "False radio button",
+          "details": "Raysin selects false for 8 = 9 - 2."
+        },
+        {
+          "offset_seconds": 400,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 4 = 5 - 1."
+        },
+        {
+          "offset_seconds": 402,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits answers."
+        },
+        {
+          "offset_seconds": 407,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 2 + 3 = 5."
+        },
+        {
+          "offset_seconds": 408,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 2 + 2 = 4."
+        },
+        {
+          "offset_seconds": 408,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "True radio button",
+          "details": "Raysin selects true for 2 + 1 = 3."
+        },
+        {
+          "offset_seconds": 409,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits answers."
+        },
+        {
+          "offset_seconds": 410,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches to Eddy sharing screen."
+        },
+        {
+          "offset_seconds": 414,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "8",
+          "details": "Eddy types 8 into the number line box."
+        },
+        {
+          "offset_seconds": 422,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "3",
+          "details": "Eddy types 3."
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "delete",
+          "text": "3",
+          "details": "Eddy deletes 3 and types 7."
+        },
+        {
+          "offset_seconds": 437,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "842",
+          "details": "Eddy types the sum 842."
+        },
+        {
+          "offset_seconds": 445,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "842",
+          "details": "Eddy types final answer 842."
+        },
+        {
+          "offset_seconds": 446,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Eddy submits answer."
+        },
+        {
+          "offset_seconds": 448,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Good job.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 455,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "9",
+          "details": "Eddy types 9."
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "12",
+          "details": "Eddy types 12."
+        },
+        {
+          "offset_seconds": 499,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches to Raysin sharing screen."
+        },
+        {
+          "offset_seconds": 501,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "0",
+          "details": "Raysin types 0."
+        },
+        {
+          "offset_seconds": 503,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin clicks next."
+        },
+        {
+          "offset_seconds": 508,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "7",
+          "details": "Raysin types 7."
+        },
+        {
+          "offset_seconds": 512,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin clicks next."
+        },
+        {
+          "offset_seconds": 517,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "You're doing pretty well today. Good job.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 523,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Thanks.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 527,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "3",
+          "details": "Raysin types 3."
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin clicks next."
+        },
+        {
+          "offset_seconds": 532,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "View switches to Lester sharing screen."
+        },
+        {
+          "offset_seconds": 533,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hey Lester.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hi.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 537,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you see it now?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 538,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Uh, yeah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 539,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Yeah, I can see your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 541,
+          "event_type": "mouse",
+          "duration_seconds": 8,
+          "action": "hover",
+          "target_desc": "Shell images",
+          "details": "Lester hovers the mouse cursor over each shell to count them."
+        },
+        {
+          "offset_seconds": 549,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "14",
+          "details": "Lester types 14."
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester submits answer."
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Moby Max displays 'Try Again' notification."
+        },
+        {
+          "offset_seconds": 552,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So, which... which shells did you miss?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 557,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh, maybe I missed the middle one.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 601,
+          "event_type": "mouse",
+          "duration_seconds": 10,
+          "action": "hover",
+          "target_desc": "Shell images",
+          "details": "Lester recounts the shells, hovering over each one."
+        },
+        {
+          "offset_seconds": 607,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "One, two, three...",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 612,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "18",
+          "details": "Lester changes answer to 18."
+        },
+        {
+          "offset_seconds": 618,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester submits answer."
+        },
+        {
+          "offset_seconds": 619,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Good job.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 624,
+          "event_type": "mouse",
+          "duration_seconds": 10,
+          "action": "hover",
+          "target_desc": "Tomato images",
+          "details": "Lester counts the tomatoes by hovering."
+        },
+        {
+          "offset_seconds": 636,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "10",
+          "details": "Lester types 10."
+        },
+        {
+          "offset_seconds": 638,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester submits answer."
+        },
+        {
+          "offset_seconds": 639,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Good job.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 642,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "target_desc": "Coin images",
+          "details": "Lester counts the coins."
+        },
+        {
+          "offset_seconds": 646,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "5",
+          "details": "Lester types 5."
+        },
+        {
+          "offset_seconds": 647,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester submits answer."
+        },
+        {
+          "offset_seconds": 653,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester proceeds past stats screen."
+        },
+        {
+          "offset_seconds": 657,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "hover",
+          "target_desc": "Pencil images",
+          "details": "Lester counts pencils."
+        },
+        {
+          "offset_seconds": 657,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "type",
+          "text": "2",
+          "details": "Lester types 2."
+        },
+        {
+          "offset_seconds": 659,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Lester submits answer."
+        },
+        {
+          "offset_seconds": 702,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "target_desc": "Bucket images",
+          "details": "Lester counts buckets."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 21:51:32 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=97705",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"The view displays the student's screen (Lester Culps) in Moby Max.\"\n    },\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.5,\n      \"action\": \"move\",\n      \"x\": 0,\n      \"y\": 0,\n      \"details\": \"Lester moves cursor over the coins to count them\"\n    },\n    {\n      \"offset_seconds\": 0.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Five.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"click\",\n      \"target_desc\": \"input box\",\n      \"details\": \"clicks the input box and types '5'\"\n    },\n    {\n      \"offset_seconds\": 4,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter to submit\"\n    },\n    {\n      \"offset_seconds\": 6,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks the green next arrow\"\n    },\n    {\n      \"offset_seconds\": 10,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Practice Set button\",\n      \"details\": \"clicks the green arrow to start another practice set\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Two pencils.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 16,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"2\",\n      \"details\": \"types '2' into the input box\"\n    },\n    {\n      \"offset_seconds\": 17,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks the green next arrow\"\n    },\n    {\n      \"offset_seconds\": 22,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 5,\n      \"action\": \"hover\",\n      \"target_desc\": \"buckets\",\n      \"details\": \"hovers over buckets one by one to count\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8,\n      \"speaker_label\": \"student\",\n      \"text\": \"One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 31,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"12\",\n      \"details\": \"types '12'\"\n    },\n    {\n      \"offset_seconds\": 32,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"System displays 'Try Again' notification\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Huh?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"student\",\n      \"text\": \"Three, three... six, seven, eight, nine, ten...\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 5,\n      \"action\": \"hover\",\n      \"target_desc\": \"buckets\",\n      \"details\": \"recounts the buckets with cursor\"\n    },\n    {\n      \"offset_seconds\": 43,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"close button\",\n      \"details\": \"clicks X on the feedback popup\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"11\",\n      \"details\": \"changes input to '11'\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 49,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"What the...?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 53,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"target_desc\": \"anchors\",\n      \"details\": \"hovers over anchors to count\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"types '6'\"\n    },\n    {\n      \"offset_seconds\": 59,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 10,\n      \"action\": \"hover\",\n      \"target_desc\": \"whistles\",\n      \"details\": \"counts whistles by hovering\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"student\",\n      \"text\": \"One... three... four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 116,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"13\",\n      \"details\": \"types '13'\"\n    },\n    {\n      \"offset_seconds\": 117,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Ah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 119,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"14\",\n      \"details\": \"corrects to '14'\"\n    },\n    {\n      \"offset_seconds\": 120,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"hover\",\n      \"target_desc\": \"onions\",\n      \"details\": \"counts onions\"\n    },\n    {\n      \"offset_seconds\": 127,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Nine onions.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 128,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"9\",\n      \"details\": \"types '9'\"\n    },\n    {\n      \"offset_seconds\": 129,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good job. So I'll be going to other students. And if you have any questions, you can raise your hand, okay?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 138,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Alright.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Tutor switches view to another student's screen (Edward).\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How is it going Eddy?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 149,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"538\",\n      \"details\": \"Student types '538' into the answer box\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks green arrow on feedback screen\"\n    },\n    {\n      \"offset_seconds\": 153,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 45,\n      \"description\": \"Student is on a reward/progress screen, then a lesson intro plays. No significant interaction.\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks to start problem\"\n    },\n    {\n      \"offset_seconds\": 205,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 10,\n      \"description\": \"Student looks at the problem 740 + 175.\"\n    },\n    {\n      \"offset_seconds\": 215,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"8\",\n      \"details\": \"types '8'\"\n    },\n    {\n      \"offset_seconds\": 220,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"appends '1' making it '81'\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"appends '5' making it '815'\"\n    },\n    {\n      \"offset_seconds\": 223,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter, system shows Try Again\"\n    },\n    {\n      \"offset_seconds\": 226,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Almost correct, man.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, Eddy.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, do you want me to give you a shortcut again?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 251,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Eddy?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 253,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 2,\n      \"description\": \"Eddy looks at the screen, touches face.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, I'll give you a shortcut. I'll give you a trick for solving it.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 302,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 303,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"menu button\",\n      \"details\": \"Student clicks the hamburger menu icon\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Scratch Pad\",\n      \"details\": \"Student selects 'Scratch Pad'\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 5,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Tutor (controlling screen) writes '740'\"\n    },\n    {\n      \"offset_seconds\": 318,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 5,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Tutor writes '+ 175' underneath\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Tutor draws a line underneath the equation\"\n    },\n    {\n      \"offset_seconds\": 323,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"5 plus 0 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 327,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '5' in the ones column\"\n    },\n    {\n      \"offset_seconds\": 329,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"7 plus 4 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 333,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 2,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '1' in the tens column and puts a small '1' carrier mark above the hundreds column\"\n    },\n    {\n      \"offset_seconds\": 335,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"One goes up top.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 336,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"1 plus 7 plus 1 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 339,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '9' in the hundreds column\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"close scratchpad\",\n      \"details\": \"closes the scratchpad\"\n    },\n    {\n      \"offset_seconds\": 343,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"915\",\n      \"details\": \"Student types '915' in the answer box\"\n    },\n    {\n      \"offset_seconds\": 346,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 348,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 350,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"menu button\",\n      \"details\": \"opens menu\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Scratch Pad\",\n      \"details\": \"opens scratchpad\"\n    },\n    {\n      \"offset_seconds\": 354,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"4 plus 4 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 355,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"click\",\n      \"target_desc\": \"clear/eraser tool\",\n      \"details\": \"clears previous drawing\"\n    },\n    {\n      \"offset_seconds\": 398,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 5,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"Student writes '324' and '+ 474'\"\n    },\n    {\n      \"offset_seconds\": 435,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"draws line under equation\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"writes '8' (for 4+4)\"\n    },\n    {\n      \"offset_seconds\": 442,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"7 plus 2 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 444,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"writes '9'\"\n    },\n    {\n      \"offset_seconds\": 445,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"4 plus 3 is?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 446,\n      \"event_type\": \"drawing\",\n      \"duration_seconds\": 1,\n      \"type\": \"drawing\",\n      \"tool\": \"pen\",\n      \"target_desc\": \"scratchpad\",\n      \"details\": \"writes '7'\"\n    },\n    {\n      \"offset_seconds\": 453,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"close button\",\n      \"details\": \"closes scratchpad\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"798\",\n      \"details\": \"types '798'\"\n    },\n    {\n      \"offset_seconds\": 458,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"enter\",\n      \"details\": \"presses enter\"\n    },\n    {\n      \"offset_seconds\": 504,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Tutor switches view to Raysin Miller's screen.\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"Raysin types '1' in tens box\"\n    },\n    {\n      \"offset_seconds\": 507,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"3\",\n      \"details\": \"Raysin types '3' in ones box\"\n    },\n    {\n      \"offset_seconds\": 510,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 515,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"choice b\",\n      \"details\": \"clicks the second picture showing 15 blocks\"\n    },\n    {\n      \"offset_seconds\": 529,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"1\",\n      \"details\": \"types '1' for tens\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"types '5' for ones\"\n    },\n    {\n      \"offset_seconds\": 531,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Tutor switches view to another student screen (Zoom name Manraj Dhillon, likely student using that account).\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 2,\n      \"description\": \"Student is waiting for problem to load.\"\n    },\n    {\n      \"offset_seconds\": 537,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Perfect.\"\n    },\n    {\n      \"offset_seconds\": 548,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh my god.\",\n      \"speaker_name\": \"Student (Manraj's screen)\"\n    },\n    {\n      \"offset_seconds\": 550,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm so stupid.\",\n      \"speaker_name\": \"Student (Manraj's screen)\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Drags 5 to first box, 1 to second, 7 to third, 3 to fourth\"\n    },\n    {\n      \"offset_seconds\": 557,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 3,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Rearranges numbers to 1, 7, 3\"\n    },\n    {\n      \"offset_seconds\": 600,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Tries 1, 7, 1 in boxes\"\n    },\n    {\n      \"offset_seconds\": 605,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh I get it now.\",\n      \"speaker_name\": \"Student (Manraj's screen)\"\n    },\n    {\n      \"offset_seconds\": 606,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tiles\",\n      \"details\": \"Drags 1 to tens box, 5 to ones box\"\n    },\n    {\n      \"offset_seconds\": 612,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 2\",\n      \"details\": \"Drags 2 to tens box\"\n    },\n    {\n      \"offset_seconds\": 617,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 2,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 0\",\n      \"details\": \"Drags 0 to ones box\"\n    },\n    {\n      \"offset_seconds\": 620,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh I get it now.\",\n      \"speaker_name\": \"Student (Manraj's screen)\"\n    },\n    {\n      \"offset_seconds\": 626,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 1\",\n      \"details\": \"Drags 1 to tens box\"\n    },\n    {\n      \"offset_seconds\": 627,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 4\",\n      \"details\": \"Drags 4 to ones box\"\n    },\n    {\n      \"offset_seconds\": 632,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 1\",\n      \"details\": \"Drags 1 to tens box\"\n    },\n    {\n      \"offset_seconds\": 633,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"number tile 1\",\n      \"details\": \"Drags 1 to ones box\"\n    },\n    {\n      \"offset_seconds\": 635,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Tutor switches view to Joshua Momo's screen.\"\n    },\n    {\n      \"offset_seconds\": 647,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"number 8 checkbox\",\n      \"details\": \"Selects 8\"\n    },\n    {\n      \"offset_seconds\": 648,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"number 5 checkbox\",\n      \"details\": \"Selects 5\"\n    },\n    {\n      \"offset_seconds\": 649,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"number 9 checkbox\",\n      \"details\": \"Selects 9\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"View changes to grid view of participants.\"\n    },\n    {\n      \"offset_seconds\": 701,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, um, should I close all the breakout rooms now?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 703,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, go ahead.\",\n      \"speaker_name\": \"Manraj Dhillon\"\n    },\n    {\n      \"offset_seconds\": 706,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright, so Takoda, we are at time and we apologize for this but next time when you come in for tutoring...\",\n      \"speaker_name\": \"Manraj Dhillon\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuVCCuJCAXLI2nxibbwh0XsRkSG7O5n_w_KZyUcnTGL_6ZPkfDaGoxZIYRQCQZQsLxqJnTuidApLqSuodT9W_50lFDUgrIHIS3UqBevqiZgBE_MCuvLRSe7ExsA7Q3iHtF6mp-RhKPgGATaIHjsOpayZ02M1ULNb9rUfkGLJlMoqRNZrvZHyPsFbsPGboun_LU4QZWAda4xNUZ3FCIL3NFFvsXWUhmSdU4zjRaWKePnZPS32rzCHgNzoaDjoSOHwLWrrzcu8I72NKl5484q7HSd-4tDVZci5XsAyGFBkV3NgqraOg_2ZHbOfkrCi4tSXHtPJgyTLZdW0oZoOu7iov5g-VsITNn0Ph3sepQQQ6A4AYwuTVLhthZPyrzz6vhPvMPOU_o3SZXY3rMqcplISUjpnDEWowYuxrN4rm9m03N-YG_QCgW8nfV8ABlkx8hWO44csHsUmLwMWFWHOrEGofvu6dQjA3vWIFoDEpfqI-Xoxm0GAl_NF-0jVc1hM1aQ-TgydP15Lo2AUz0ExMtQ0X3oKkEBzvjqYI3Oj8-p1jsC8QHm6AYqVILAKD7liIeCI9UKKq6pvvEb4gA_j5kvwVK7pLLwc_cgRxbNM0Dx_3tEHDPShZpWKEHNl0_wkuMfhodYUsOFei3W4zXJzK7XGCWesLDWvncfdeidbhuZ5igdEoFnCNz1MS54A3x7ngIQJ2Ke3FJ9BIDx5gHiKN-IG2fBbFOK8XYvZltJQWZHe6qcU12sa3fh92RXlNIJrjZd8ieka3-AAuqiXywZnR_s0HjX_lzV19uJscioBjJWh5hFWaiCm_7w52XqnfccD02xFyG1T07QG2qi6548tX3CO-02TjBX1SzPG1g6GKz5mlDbw8E-xK5VDE_lt-crnCda6MJQ_0RdFd-ZofR88upzHCCeOgQUmtVMeTXc_vUh7wmEf8YhKQsflkWcxCG4vzOp-W2vzuqtby-BHdqfcwVbVi6_SAoK9EGVmvhhMnxlsbLHvmRsZS3nxBu3BHOByAyAeMbRv67m2TUWep-htCMSTrPuKMEqn0ok_1m05TWCP0qrXC75HagNjEmMURJyUa4pJ8C9EsBE2ew_jnKsYxCtXisM43NTNYHWlFQ573taIjkhSAM2Hl0yfwefVJErdmLWre_mbj77Oe_tptYRjYqCrcMtk62lVDv2qmHeQh8nQImFk28ib9RyoYAWMYU4NuaS-y971xQIjGzVaKxp5FnrCdntuJLLIHCfPAaOUzE0-g7qa0YRcappeQEFaFaIbrhUw2znGvDt-PzdbLB4dQ9fWirZfRG3-GwP_X2toyHfyODcN0wnntc-uolHgGurDCTpS5lDRrLDtu_gpL87h_tv7QVGkPv1Q1PDmnbz5RGk2NB6TXBbWGK026cuT3mFHUd3TmKZfb3OuxhuU8KYm8TdAUNJAhfggY0eXaloGwmwy05CzTjY8De3yFO1mhVCvqDTJgrDVrAYkSCotaWyiDMnTPYVQyqhpBZ8Rct_0ICJxhVz_VQDLbTEp_7pyCXjHlYSMDfAHmjL6SsdHLchEDS_yvTWesIZuzc0eUodrWKUPbIUJDQN2NCs67sMiCSmSQkvfcMNpsdAx0HT9eTwbcd28twMYdIrsz_0iXq3UoTB-alwakFhWtfHx5I0TKzqZ34-FA93CTERB_y3rQtBAluT9qwXSykoQT9iASJrXv1nUnX-IimkiNV39gcY5qRdILTyioOe7DEOFpJW6-zghKVQ1UwX4G_Xma-YdABJnoLCJwXtxAOsWYq1d2rhLcg7RYjT8ITwG5kII8CkKMF8O2YTb1rMYWsuiiLJRUKrhGadQTkpmmQTcCAvIDx9jCIqGjJnvKGYxJlI-3-XMf6lPI18bo-aU4Jj6XSe7n9WPV0Vwk0uR-9zOQUhttuEogqkOmUQJ2xvVlXSNHCeqkg8PzSj8gppglayPbkZ-xSnmFkpIubJaNzXNYoJWB04Cn5I1X5ABfUrS53dVNiJQ5mkaN6rJ8ayA7oT-wKokrfY4AM8YstNdyoLNwdQTOz6_uNIzmv7hdyMxsxBLQ33Z5MqzMd3QDhQJg5sbPawWghUpwG3eAa_1B7cCjkIX8PzubTNMD8geE7tUZ-d5kAhmDxcZXxn6azOeMtHYdoMNgzNR7-D8Q5ZPD4-aMTpSNK3zD0fw8mldGVsdfwjIWmue4bPxkIy14KZcRfsEg22uqREtWUe9qaqoLyN4auvBH-OrVdu70yn-hJeRRM6UWlU93NCmAHPVVDf2NTBmH1IzFFgKlGptisixkPp9mwPDl3JkXn-zvEfAc26tnr2LmTSirjRr8O2N9Itny_oqJUxtLyk12t_H3UQwzTylCeWZTlo-vD5ktIajt1sMttTKFajr9puTS5b_tpHhfzFMIx33kzOpRuPt6jAPhIXKpBer24NEYQVHOJmfOneGFe-7XVsM4wBcf4xR4xPUDpcBe29uVobb9wH9-j24ANU9h4mT-s2DlNacMrK8jGXpMS2KrSjE4IvpBPj2rFKnWUql7Ph9iWFEFUva5BhSRp9tib7uw0EUuA8QGThcf6jmJz6ji9lbQlgbnGSkrpubxfJtTrQoBDvNOcIZ6NaWPA1Uck7ih8n8m1jFJQc5xKyhl2ntLJvWq6n4J891msvHpIPa3CAjS8ofnuIr482VdY3F-4MH1KsUgJB1pPcMqV6bupoh5W-QIK25DIPurRGXJg9FiVfF6lpmD66POO_UDqFRdR3Tce8pXumUGZ6aIWYq5EiZad1IeY47twquoguU9WlAz3UsokkWbw2j3EudxizdYGR6zPUWLu4XeAHLarrOqE98r3onPFtMe2BHNOnt77ePxStUIyPpasQFADIqP9cXGRPbblN8M7ZJca2wPb_SsE6717uMaCRPpYMPa4hP1MWojmLnShc1MwkCt4xolPF7jYXNJLCNCCQWG2A53q1u6fcIpVBdhKj5VUfPsnxfyEL_2_3wcbwLcLRNRzPl9UviXUuvQNoSOOlsIlxmI4B0TaB60rwSQOcv3e4PpC748y9k4O2sgCHciXlut6RjG_TX4lLPiYnHkF47QPfp8AFcwQ1EUX4YR-GFAqddPKq3XDeWQztLfz1AGtGOIMjfa0ojyo5mRHdmldviEbnVueqGzlGMeNKno3nvcdXcnBz0qwDCGCLTbyvCSxRAc6ua_PU80fuAIQElQPn3u13AwdxB7ln9QjKmoGb-MhMsEmHwjY4ARFOYTUAnB2zO1Z8b9TlejQdHySjAEA4Tra6rD7OZ1Ph95j-ZDqHy4XSFReEyGxpdM1ADTtRXkqlpnOy4jsC9xVu-Inkj5PVZcDKrMmvdunbgpUhGBidkpchTwT9rbGFPElfLtBkyEh5b5i4OA74GIawDFSvdIk4B3Tq574tDAYyhJydHpm96v8j3HUwmwa61HNC44mHcWPw4foxT9EATy4emwa2TXG5dubaYpJT2y1_LAGamKAx8krPPjzZpquSOv9G0B-flYjmo_5OKH1YotvPva7zOnsGS7-GxfogWwquSqWYOI3kzcLduZwNhXF3X-C7JVDGeYWPemanwsUIdDd7ZjmLrZ1XAu77glRKmZ3uNzZmGO-HKY_FwKnv0944wVP3y4ysQQCwrQ8f5VpQZ4f5JwSd1ToQhsI3ooRQJSuAjKBWr8-1gNugPUiSApPLUP8LXyAtATQ6SMkpxM0M1rJ9tLC8tw_nGi05wg-vunsxngoJjthZOjgK8ni0qrKdHdTox5jqDv8UnmURpu7djzcfxsGsoTkYa8SVsCmVSvpnv6m9e3H1QUFzjZx5_af6MuCiyKArhTyzPqq2FMaWQCZEfbH6HighZvbWW6yE1sJ6XihbXBYGSre4mYemXjDOJQHfbyYuuycq7vZISLF1UDGIkXYZzi8-LJnay8R50DPKxHmtKBsuRz9Ge1OSLANaTxBm5Rk5deu1SwLCfeGOdyH-cJz7wtoz9Dso4enp94QlH6N-ZWsH9ILqZ_7SnJLjF4TSImrZlMW_nmkPQk8d4f1L-TkmMqtyImTgmnwQqLvNW3OMWnQSH4K4-s5IWSGLi_dq4mvntKwop212loWgeUDxa44YSYlGjb2Nyc9P67XSDmzbp-a5L_UkkM05CaYUH4Wy3jbgNm6S7nS-_DrS_8thRaBmEZutsn6rR1Zx8_VQqz4jiMJbfb-WjZwG0O7mE5S2YcSXo4a8k-lkfFBAXCyxtANDxyNMgihMgCi-eBSa1Ur7QP0Sjrboww1orljFmk0E9NO9Wovr0bBSjbpJ3h2jagOl_efy6WZVpzXUOcJILpaZNi2JR1Qe75-MyaVzzk0UGenrLVk6HsuGb5pzggWm7CYH1r7z4NXKL69PwBRhzzFHaQCF_qAoLSApWjqEbHbUpXkq3tTBuJYtCXcNCXWfr0KNZb2vnTpPR-E4ox07Pck9hYq1SIH9kyx5Z_J1742_4WXqYH-8x6zFVcn4HCUOgjrtbhZ7vSq9ZvU30EQd354IglFptLmNwurCEYyYeMjy6BsBbSsN7WGcuFgJvC8xJhwQq7a-qtmUCvOQ1cQwEo7IIkj_7jUxpLbzm8yexZysZVvUenn3iYosZxSzxfTWwF-yo2H7OqbSE388gHtw8hxRVQdvm85CFcuKbb6WHYSMOoO50QSyxtNnJV8zbpjsjjj-b_pJTAUh4JfNiggDMFzkU0lI_Fq1aHs2bjpyj_kvEP5b1CeOlbnCO6VOAg4MWs2biD3hH1swEDtoppy8gJd2PJk4GWsLj8VK8JI_rtnc9RDvciRsnUeIkVyJmfNCv3cB6RdiEsUcN8uak66Fs2to_nBNMJg4E2dSRzjteqxYXSpmfWSnb1OHkZhthhiZyU7Kai0yTyHjzrLR8PaZku4IR9KacIeMyFWEeJ4ANMyxEkzBWLS-wyxC2w2C1Hlsmxf2FW7N7igUyXSSMrdZ0iyrj6yDDByBwxRqo19vzynRcP6FoaFuKwsoCiLh5GiZe_RT-SExmCP9sp-AyEPb4MA0FF-quf8Tjaj6arBlamdHX6zw3lqruMYM2beHyWakcuG5H18c2ehvZDTYA7PxWgOEXOy1dRVPJGfkyBgy81ScXcCVt3lSXHiv7FcLMDuZ1mls6luJ_IStoi2pmXDf2Fftft90ZnYnRekwmsDOtqagomGq3_FM-gvxIaVtMzj3GFeCuotx5CNLRK6c2Lm_E6kHLSZVYmeolMoEXz27PmF5cq1mtkYvesi99hHxycfmpAB806zEljTXFmIagsiX0_xKNiu0mR4Zycn71Rxa0k0nL3fwPOsV4NACJ5nQR8_EhtblO6rsUEcu7PZJCosO2lH9rPFUUUSQRliOcNrELWQoiAobzXpA4FlspNVt5hAqfOES-IA4vP154O81p-0DfEn46_h5DyaFNtIq15ZgTVQK6gw5dce0no6Qr9njiaRdShx_IU-TFYagnSaFZH2iri3aQnz_OJnia6HcUNwJh7Hklj-FnRIuj2hj8x8aTvoXLdIR4YbEEWLQ0HHXi6tAAUFZtvB7Aoh99evD2n73szxGy13hL2rfgkJPTys1f0qvbu5s6JgD-as_hgd0rwyL_7mDo26akoVDUOe-4l97CqqIcLpIfciwC9P9H802rmeaAjaw8DaQbHuP4D7tDeGMtmcKuZbSl3D8DOllEbfHaW7qM5hYOEGGsC09pmY2AjBWEsTGyDckSzwNopAmV3Roc51QcMnEH2xIG0Z5lSx4yI4Z_pAIr4BuKhaui1AS-TZKuVarm9PTjYdEbZUAi5Hr88QN0t4zXJogURIFIeGHiOMDdTZXKOK_s8wfptq5sAEAu-Edyl0vUsgwa6Wih5A9LBIYbbWjDWq8lIXePtSTLXZ7MRHpBErdJBKNZAslEVcsvsZWZQ-FdiE9DyyqAo1G3gdFW2yoBx6UXw0ry4lh3QVvRvCsYEY_iORuwL1uVNLp3EZHJIAZI18sFQT29uBaZs9_gI2fpYMbVy1-wxYhX0IzvnHThM5qQVy1_wvMMvgQokSSTxfoRTvNAZ9ZqVKti3HGJvxfvuIjWRYm2wAYGg8PRFi_sPtvm-fS1wZWzuewxKnBii0fDz8kdM1TLnuPcL8JQ1LKh4UzceZplcWuzgA0UVwApfN0DCsiknOXdCB2CJeWfIkYNb7SsLNoqThtz5IKZUzleZEcfcbq0_fEASy7t92K6LaekQecdgUXdQL9RuAnAy6UvAGkywDg-nOpDBHPQ4adEvBB0CLxfyH1KlidobT5oFnUxngPxaE6D-2hbJf45GiilDnfEr9C6tu-LRqoQN2zJONRt061qqcMIhcLbUvjJYs6VI2yuUoOC1QmhT-nGM2acPd_MuKaf-_0k55yRgq2cdSg7yHE0PCbCjexduHifHkG572NJTfYpg-s3CoLB-fs7NCkvFKZXczdW4MdPi4ctO7xhZ3lCkgiUiuOXFDmYqC-dyN325zbAnnKRV-aTJykL5C8PYoIK3dNYK0GW-ebWPP8uk85kpdabXAn0XR1fwqV0pOgUb-7Av4sPrUWprkkn-o4JbPI_c1P9bH8qRTu_JuAcNFAQj34z-JaJuPj5R_RBuVLXLOiwn8_bS0yh46LRg9DTUV7HNHpMLv16dHiAfpgsEsXlKNYn_pFi4503lfWkMBNorl2xjdMdFkadr1H5hcGyZ6zgMZT-DxqJ4lL5e0CR_YQfGzqc0afN1uzWcS4tSObLoRNniQ-eN3AB-NvPC_bsWqJ_IXsIyJxkUaYLKEr7Wnma0FpeMCxJHjEBAG8SoxyuenoJ9TpW-H7p4V2BmatRwV3zxs2bEV1VJ7_TqdPcuR9aU-rTKX71HkMu5wxQjZFrE6xRLcFmqydvevPtJH-VzqYDaQ7AdHnMVzFxozHsWJaF4MztEWoceOtrZtpPbYCy5Ql4D15twoobUtcNwVxuqs4Esc4uRuTMSkUVNrMw128RdqPnGTl6vEW66-DDoWMD2GjQu1QAnoN56t1InrhDUkGn1LhM2_6yYdSSDPDbIHjxQTv9jDzlK8XN0htT1iC2liJwGoBcqEAO00bPq6CWTLhdm2kT6AO-bgLfTsGyBCqhI8sx2AaeoJIkjPPpyf46zbIrjz87-FZ1UhhblW9T-JSbD8NvGqW3YOPpLRUti6FPSF6m2XqlKhxnA4z4fPtdSedWcMIb3YPrdVytX7UlhfHbEFjewUJ5t8UAHXyNvOGtKybJs1rFjxI6UGsrijnG8-GVvdiIlTCpp64diHqYD3WwvpA8W4A3BPw5_B_igtrOwZTADv7APApaspgn6d_YcWdZ9PSOMm2TwXP2FeWsVw1xY-fJIBeMyRt_0IS93HiSpCSd9mye7a4iH-D1-e4pD8jgSZEw4IIUIA7Hd7AADaQ_-DVUfs_9xZmYMYEOISP4oO3cYh991g0lWuJ5Az5JAvS7PVtqLB2z_WqjFIwzBmaMhZDa1-10ZhBSHvPKQhqKAhWiF2DlnS2OS-gkxCRby7XOjvJL4-XCD6OfbIpf9NUszwFoUQ4a7QrTLJytgdDj-sPG0B2r8BYIGPKsPvcIJRRf_EZil2M8jYbzf3R-eN2x6WnK68PU-Ont__i5DbDdJjfifhs2HFnmnK4tP43RRX7xKg9pG-dOPQJXnGa87-IxAfc8DQV7C7bCGWsgIuufIJKzbH2peWrD6zU_n5R4hSoTdV4CNmCqS8ynsKQ-hQP0COpiske0QXJC3joK0lzQAUlapWHJYjRhY4-IQk_K4F4J7OTGEotD1m74zpfb_TMQEyOYPtBEHXZGSBgQ-zmM3SLrHmel0c72k4qKILWD_7dhouv-LA1QAWAn1jGFpSuTaSLuaKa3g_Vfe6C-yW6L3Hfk4aOZCeqMoSw8UT8BJtKzaWvLLtNOfF_isWgvcSjRiNk7HI4xB6Ufeel7-BxtPl2YwACw0gl9rIY2XQOa_14NtuwZgQn3iwIdOJSrqa4sfdIpw7eHr9Hi6NEwHds9yJvsqZUI7ywCT4CrJk9t5k35piOP8er-MoTJ0_dxP8Q5whFvHvT0bR3A5Bx5yJpNc4iGgyJe6KDEIDk7oSa2O4sZUf97Uf2ymKNiub2QY-4ALePcn0rV66Wpv0ja0xtcvFCo9yKSsWpW41jvrap3e0QaNhAwpN9vPEy5CdQDsa-ojabQjtvUPFk_BkNlT8DVTv_qq-kaOD9VIF86spvQwBIyaQztz83GENjEN2H5BjlXpEYWr7iHxZCmA1F8j-ZDoBEnXPhyBJNa4ZvttE-AOaV6mxpEwUendwOwf8iWaXT2rYzFBMyQ1j6v4cJwhe3wflV_uT5vWNCzviGRr_6kzLIk4Xz9ncrw1Hxo9zTISmWkYvoOBZt31QqECHLhzePwN6zTOiE1XHosL-JHnZEQn8sITuqjCovlHLgu6Mm-hq3tj9P5AS4qOW6uXmWjwwcETvotsmyz3UupMTtUeDH9fQCpd6JnEjXUqOgIjtEKVxqlu6p9lMTXtYyuTVhYMGllLfzTkHJmJX9Jwb67IPWMWWw5RrvWA4buzmO2pyM3LxYCaV4S_u3ZtYNz9qSvpb1e5W00k7BuO5V9Oxt6YFqtU5uO8CtxJKVr3zbVfTAMl9mnKKvpfOnsYzpDivbk7LUAXEzQAD800DJxHFdyDSSAkFwFYL7v6UXPkBHjRjEQQ5O0mY5uqyV_kPi0KmpR41y7oa9A7jZjlnyTGzTrUlV4FVQg0BpK82Wt9X8xyemo7Q2HZo5WYMk5uV_gIEgv569_ZkBJ2RWp21rjdlhwE0WXggZhrboghr3SMjn7Hb7cXi_0BGJ3MmhyaAPVSJpwLRaFS4YiN0knDBLop5Lkajk61mJmKA_40HtsHlaOnGaiFI-z4SoQbNMLOSwKGjN_UXxoTe7xa80Hj9LHATxetkXZDJvjgXxu0w2S-F6kds68Shlwomo__xij-dG_Bj6uIREbi9KNXOaeT-80RbhXOS5Q3G5-O6YrvBj1i6J1I24_TgWLq-p3G7pRW6aRCf0D4EvdtWC-NeQErUs9cp_NPyWA_pYXA1LL1egrbzXhXdfgVdSnGSyMN1b3kvFaqBIExRSd7ksJfk8BwZMf79-gv2vsGqKiViE-z5pIXqJMO8FRUaPjLRYspED-_udRcjzyeVoPazZxcLEIBjbjFzV6_M2EWE7FVlvPpiCayVdkTU8032TNay2jjzTgptOkK-FhDdekeXQsDqXqY1UvIQslCPu30gn2yw9uWPY9AWeKMWOH_-2eSHMyhZecv_cWVA6rxyOmLLG8qjhsYOoi579W2npOUjjrRgqewN3Quj4oBgiufm0N0E4Yyo3Z8Vvrja6PtR1-s0WzLnxsud2i9fDpsZzy4G8lqyY8yCdfeojmbryx2uw30kjq3nLkhofBhuJd4t-d62h_lhRESjVP7yeTuhhZz-J7Xz10o3OP_XDAvw346LsZBQgrDscm2wIQ_c9dDpLTEd7T4B5bry1EGKmjznZIVagaeJtNPEVSIQuGa562Z6dCcFqvnSnTjbZJL90JfFQuwsYCC_aKc8V78P_PD14ONeV8G58REI1KyEdAAiFCwwY3l4PO0z2MDmgDt2CGuOlosZSaHCQ2_iiZS-RIt8tiHzD_Q4dyKx7ILEAjl1nqPPEROSUm26FlZXqBLcOPuGC_55jjSexDIp6o0hFlQrtlc-uzMNQqIVrwQ8BBye82OmN41MZfJjMs9dIsjPsm5XpTo7CHp22jf2rESBsq6CL_87TWicez4UMGZrrUfvHs2mYwed5zRyDCmgG3b9KyL90riB-KKbH_2qHMI5_OvrSJ35hRgZszBwZTkzOHRLPxqAqz5MAuG_-YxGVpW8_aDQmcgyUCvc4iA2COKIuHZU714Uv2fqdLXITW-wkyjJfNwJYXZ34Z3apMiDhTjQnO5f9okuHfvX4fIVWzfv0UhrIR85kkvZPtRVzgzCMEpoUF7-1X6JYK5UW-_QV4kSl3gC7kNiOGgs-VlDkY6cvmhVOiSLPmVhChvkiH5OmvCzZ3TPPl-Mh8eRUpohwYLFQ0SYr3pAiRpQ5qkL6e4MAgfvaBMCEcMpbo85FKWzTsMPZDcuZq1tD415cEL06cFNIuERoOYVOpwZ4npFbW3ekxy3ySpIzSMbWKKNGSZYrVyQbDqkEHrWX00YbV1oIkiCCQ-VF8SiZF8PNiGCeyIkyjnzvo_QRP69ROQiEdVtfaJZ9sxBs6h093OGmyq3SHZZDueAZqOVo6E7KWbxb1tEJEs8ssdIxOS-TqsP4Rq5vM2TuugewoGFUx0mBvl-Wh4Lbt4iorei46YYCq87zydVbDOj7NJA7lHHoUlRqlf7zyfErWf941LSxNcvzu9Co68ji8g8a6KMUVrxTZncfzZC1I6ikCTLNoTDvWOJIT4m_MIPm7r16CtZvPa_EltkkU9YJxZYacCY0IPM-CbCjww1rT30jBgn33t1GmMqGuPHAPsCQ9BuGqj7oyVcVLL3WCmZ52QOB-XN5US1mT1iOUhF-pzz5_jVhE3R9Dy1YYlbv2yGrGekzeXBY1gNLrtdBMV-QbzzUcTooBYc-xN9oxBaHhZLZlzw3GyrptGGeYDeE7Dwto1m9VAxHWvyiQ1PDlQMutRKJgzh1BE6mEETUN_81v3E0oSYqqNrg_k_wdypn74lCKDdH6tctVz_jZZBljqOWVlVRvGjV0dZJZ0AMQlqoe4EJ1txeKciOrIJfgYpxPdnFXvK-lW2rghsVXVeRRVbegS-ILG046qULRJbsYQ5PxM-IA7e9rQOMpQOdzEMOFikKa3e-OxBmQLIqk4x8C_VEBaBN78NCkP2_mn_oaPjySCtqmw1duAMwdR45XlZkMoIrc42J2GISdobmhjtr8TB3rnuUWoVvBjY8CKmz8yzelALu2IGX1_jcRRDPdOfzbL9Ao9slaPVoHFMIPiW_hWev5JpURz-9gLweJVxDYbN_mtmV4VG8p1s-7T6nU4zTdZIVFVlj5ratJ-X0RQ5YewfVkoIA072BVijYMtE-i0flniWCoG6bya8K1MbsCgBFEy_Rbb0anDxU1ynJ6x9NTQ0vLV7NbXhvTLgk36lgxQiuCjm8jNwsqq26znZn-3fEoM44BDR1JVbci3T6kYxVQ9VIx559erBW8wspsOUxgmYxzr5-_iFb9wCY6gNTHKx-EmbA28w5uCxzHifB606AapTYWRfz8Am9XK2BG-90uvY2lYDls5Nh5abboVWqcOsnsJmRZr_lrBG_lBP8RUV-aC13BoPASYqQiyhFUungXEwLBVjyp6_GL54vjCzV-TYjyi15cTKOC-AXn3sMCDllWYfs9dOtLpwkcPu0t-rTvbzrK4IH20-w2t8AU3S2ejJDGAlhU5iCmsWXSPgj5CodisYAL836jYk-kPW3h0tvmvQeYlZYwq4VnZR47CnN7JkG2JSS9qRvRBOzGuSk=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "5LJqafj4KOCqqtsPuf3vcQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 8631,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 123452,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 123123
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 329
+        }
+      ],
+      "thoughts_token_count": 2923,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 135006,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "The view displays the student's screen (Lester Culps) in Moby Max."
+        },
+        {
+          "offset_seconds": 0,
+          "event_type": "mouse",
+          "duration_seconds": 1.5,
+          "action": "move",
+          "x": 0,
+          "y": 0,
+          "details": "Lester moves cursor over the coins to count them"
+        },
+        {
+          "offset_seconds": 0.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Five.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "click",
+          "target_desc": "input box",
+          "details": "clicks the input box and types '5'"
+        },
+        {
+          "offset_seconds": 4,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter to submit"
+        },
+        {
+          "offset_seconds": 6,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks the green next arrow"
+        },
+        {
+          "offset_seconds": 10,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Practice Set button",
+          "details": "clicks the green arrow to start another practice set"
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Two pencils.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 16,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "2",
+          "details": "types '2' into the input box"
+        },
+        {
+          "offset_seconds": 17,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks the green next arrow"
+        },
+        {
+          "offset_seconds": 22,
+          "event_type": "mouse",
+          "duration_seconds": 5,
+          "action": "hover",
+          "target_desc": "buckets",
+          "details": "hovers over buckets one by one to count"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8,
+          "speaker_label": "student",
+          "text": "One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 31,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "12",
+          "details": "types '12'"
+        },
+        {
+          "offset_seconds": 32,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "System displays 'Try Again' notification"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Huh?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "student",
+          "text": "Three, three... six, seven, eight, nine, ten...",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "mouse",
+          "duration_seconds": 5,
+          "action": "hover",
+          "target_desc": "buckets",
+          "details": "recounts the buckets with cursor"
+        },
+        {
+          "offset_seconds": 43,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "close button",
+          "details": "clicks X on the feedback popup"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "11",
+          "details": "changes input to '11'"
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 49,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "What the...?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 53,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "target_desc": "anchors",
+          "details": "hovers over anchors to count"
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "types '6'"
+        },
+        {
+          "offset_seconds": 59,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "mouse",
+          "duration_seconds": 10,
+          "action": "hover",
+          "target_desc": "whistles",
+          "details": "counts whistles by hovering"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "student",
+          "text": "One... three... four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 116,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "13",
+          "details": "types '13'"
+        },
+        {
+          "offset_seconds": 117,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Ah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 119,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "14",
+          "details": "corrects to '14'"
+        },
+        {
+          "offset_seconds": 120,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "hover",
+          "target_desc": "onions",
+          "details": "counts onions"
+        },
+        {
+          "offset_seconds": 127,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Nine onions.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 128,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "9",
+          "details": "types '9'"
+        },
+        {
+          "offset_seconds": 129,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Good job. So I'll be going to other students. And if you have any questions, you can raise your hand, okay?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 138,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Alright.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Tutor switches view to another student's screen (Edward)."
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "How is it going Eddy?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 149,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "538",
+          "details": "Student types '538' into the answer box"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks green arrow"
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks green arrow on feedback screen"
+        },
+        {
+          "offset_seconds": 153,
+          "event_type": "inactivity",
+          "duration_seconds": 45,
+          "description": "Student is on a reward/progress screen, then a lesson intro plays. No significant interaction."
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks to start problem"
+        },
+        {
+          "offset_seconds": 205,
+          "event_type": "inactivity",
+          "duration_seconds": 10,
+          "description": "Student looks at the problem 740 + 175."
+        },
+        {
+          "offset_seconds": 215,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "8",
+          "details": "types '8'"
+        },
+        {
+          "offset_seconds": 220,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "appends '1' making it '81'"
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "appends '5' making it '815'"
+        },
+        {
+          "offset_seconds": 223,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter, system shows Try Again"
+        },
+        {
+          "offset_seconds": 226,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Almost correct, man.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay, Eddy.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Um, do you want me to give you a shortcut again?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 251,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Eddy?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 253,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "inactivity",
+          "duration_seconds": 2,
+          "description": "Eddy looks at the screen, touches face."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "So, I'll give you a shortcut. I'll give you a trick for solving it.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 302,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 303,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "menu button",
+          "details": "Student clicks the hamburger menu icon"
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Scratch Pad",
+          "details": "Student selects 'Scratch Pad'"
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "drawing",
+          "duration_seconds": 5,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Tutor (controlling screen) writes '740'"
+        },
+        {
+          "offset_seconds": 318,
+          "event_type": "drawing",
+          "duration_seconds": 5,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Tutor writes '+ 175' underneath"
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Tutor draws a line underneath the equation"
+        },
+        {
+          "offset_seconds": 323,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "5 plus 0 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 327,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '5' in the ones column"
+        },
+        {
+          "offset_seconds": 329,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "7 plus 4 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 333,
+          "event_type": "drawing",
+          "duration_seconds": 2,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '1' in the tens column and puts a small '1' carrier mark above the hundreds column"
+        },
+        {
+          "offset_seconds": 335,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "One goes up top.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 336,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "1 plus 7 plus 1 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 339,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '9' in the hundreds column"
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "close scratchpad",
+          "details": "closes the scratchpad"
+        },
+        {
+          "offset_seconds": 343,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "915",
+          "details": "Student types '915' in the answer box"
+        },
+        {
+          "offset_seconds": 346,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 348,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks green arrow"
+        },
+        {
+          "offset_seconds": 350,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "menu button",
+          "details": "opens menu"
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Scratch Pad",
+          "details": "opens scratchpad"
+        },
+        {
+          "offset_seconds": 354,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "4 plus 4 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 355,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "click",
+          "target_desc": "clear/eraser tool",
+          "details": "clears previous drawing"
+        },
+        {
+          "offset_seconds": 398,
+          "event_type": "drawing",
+          "duration_seconds": 5,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "Student writes '324' and '+ 474'"
+        },
+        {
+          "offset_seconds": 435,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "draws line under equation"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "writes '8' (for 4+4)"
+        },
+        {
+          "offset_seconds": 442,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "7 plus 2 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 444,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "writes '9'"
+        },
+        {
+          "offset_seconds": 445,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "4 plus 3 is?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 446,
+          "event_type": "drawing",
+          "duration_seconds": 1,
+          "type": "drawing",
+          "tool": "pen",
+          "target_desc": "scratchpad",
+          "details": "writes '7'"
+        },
+        {
+          "offset_seconds": 453,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "close button",
+          "details": "closes scratchpad"
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "798",
+          "details": "types '798'"
+        },
+        {
+          "offset_seconds": 458,
+          "event_type": "keyboard",
+          "duration_seconds": 0.5,
+          "action": "enter",
+          "details": "presses enter"
+        },
+        {
+          "offset_seconds": 504,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Tutor switches view to Raysin Miller's screen."
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "Raysin types '1' in tens box"
+        },
+        {
+          "offset_seconds": 507,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "3",
+          "details": "Raysin types '3' in ones box"
+        },
+        {
+          "offset_seconds": 510,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "clicks green arrow"
+        },
+        {
+          "offset_seconds": 515,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "choice b",
+          "details": "clicks the second picture showing 15 blocks"
+        },
+        {
+          "offset_seconds": 529,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "1",
+          "details": "types '1' for tens"
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "types '5' for ones"
+        },
+        {
+          "offset_seconds": 531,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Tutor switches view to another student screen (Zoom name Manraj Dhillon, likely student using that account)."
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "inactivity",
+          "duration_seconds": 2,
+          "description": "Student is waiting for problem to load."
+        },
+        {
+          "offset_seconds": 537,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good."
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Perfect."
+        },
+        {
+          "offset_seconds": 548,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh my god.",
+          "speaker_name": "Student (Manraj's screen)"
+        },
+        {
+          "offset_seconds": 550,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I'm so stupid.",
+          "speaker_name": "Student (Manraj's screen)"
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Drags 5 to first box, 1 to second, 7 to third, 3 to fourth"
+        },
+        {
+          "offset_seconds": 557,
+          "event_type": "mouse",
+          "duration_seconds": 3,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Rearranges numbers to 1, 7, 3"
+        },
+        {
+          "offset_seconds": 600,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Tries 1, 7, 1 in boxes"
+        },
+        {
+          "offset_seconds": 605,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh I get it now.",
+          "speaker_name": "Student (Manraj's screen)"
+        },
+        {
+          "offset_seconds": 606,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "number tiles",
+          "details": "Drags 1 to tens box, 5 to ones box"
+        },
+        {
+          "offset_seconds": 612,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "number tile 2",
+          "details": "Drags 2 to tens box"
+        },
+        {
+          "offset_seconds": 617,
+          "event_type": "mouse",
+          "duration_seconds": 2,
+          "action": "drag",
+          "target_desc": "number tile 0",
+          "details": "Drags 0 to ones box"
+        },
+        {
+          "offset_seconds": 620,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh I get it now.",
+          "speaker_name": "Student (Manraj's screen)"
+        },
+        {
+          "offset_seconds": 626,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "number tile 1",
+          "details": "Drags 1 to tens box"
+        },
+        {
+          "offset_seconds": 627,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "number tile 4",
+          "details": "Drags 4 to ones box"
+        },
+        {
+          "offset_seconds": 632,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "number tile 1",
+          "details": "Drags 1 to tens box"
+        },
+        {
+          "offset_seconds": 633,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "number tile 1",
+          "details": "Drags 1 to ones box"
+        },
+        {
+          "offset_seconds": 635,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Tutor switches view to Joshua Momo's screen."
+        },
+        {
+          "offset_seconds": 647,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "number 8 checkbox",
+          "details": "Selects 8"
+        },
+        {
+          "offset_seconds": 648,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "number 5 checkbox",
+          "details": "Selects 5"
+        },
+        {
+          "offset_seconds": 649,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "number 9 checkbox",
+          "details": "Selects 9"
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "View changes to grid view of participants."
+        },
+        {
+          "offset_seconds": 701,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Yeah, um, should I close all the breakout rooms now?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 703,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah, go ahead.",
+          "speaker_name": "Manraj Dhillon"
+        },
+        {
+          "offset_seconds": 706,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Alright, so Takoda, we are at time and we apologize for this but next time when you come in for tutoring...",
+          "speaker_name": "Manraj Dhillon"
+        }
+      ]
+    }
+  }
+]

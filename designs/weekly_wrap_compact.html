@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLUS Weekly Wrap</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --teal: #00BFCC;
+      --teal-dark: #004248;
+      --teal-light: #D7F9FC;
+      --green: #4CAB65;
+      --green-light: #E8F6EA;
+      --yellow: #FFC94B;
+      --yellow-light: #FFF6DC;
+      --magenta: #DD2AB0;
+      --blue: #4DC1FF;
+      --blue-light: #EAF7FF;
+      --ink: #1E1F24;
+      --mist: #9CA3AF;
+      --fog: #E5E7EB;
+      --paper: #FAFAFA;
+      --white: #FFFFFF;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--paper);
+      min-height: 100vh;
+      padding: 20px 16px 60px;
+      color: var(--ink);
+    }
+
+    /* Switcher */
+    .switcher {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 1000;
+      display: flex;
+      gap: 4px;
+      background: var(--white);
+      padding: 4px;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .switcher button {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--mist);
+      cursor: pointer;
+    }
+    .switcher button.active {
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    /* Container */
+    .wrap {
+      max-width: 420px;
+      margin: 0 auto;
+      display: none;
+    }
+    .wrap.active { display: block; }
+
+    /* Tooltip */
+    [data-source] {
+      position: relative;
+      cursor: help;
+    }
+    [data-source]::after {
+      content: attr(data-source);
+      position: absolute;
+      bottom: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--ink);
+      color: var(--white);
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      white-space: normal;
+      max-width: 200px;
+      line-height: 1.4;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.15s;
+      z-index: 100;
+    }
+    [data-source]:hover::after {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* ===== HERO CARD ===== */
+    .hero-card {
+      background: linear-gradient(135deg, var(--teal-light) 0%, var(--green-light) 50%, var(--yellow-light) 100%);
+      border-radius: 24px;
+      padding: 32px 28px;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .brand-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .brand {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal-dark);
+      opacity: 0.7;
+    }
+
+    .session-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--teal-dark);
+      background: rgba(255,255,255,0.6);
+      padding: 4px 10px;
+      border-radius: 10px;
+    }
+
+    .hero-layout {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+
+    .hero-text {
+      flex: 1;
+    }
+
+    .greeting {
+      font-family: 'Fraunces', serif;
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1.1;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+
+    .week {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--mist);
+      margin-bottom: 14px;
+    }
+
+    .archetype {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--ink);
+      color: var(--white);
+      padding: 6px 14px;
+      border-radius: 16px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    /* Hero Stat - the BIG one */
+    .hero-stat {
+      width: 110px;
+      height: 110px;
+      background: var(--white);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(0,191,204,0.2);
+      flex-shrink: 0;
+    }
+
+    .hero-stat-num {
+      font-family: 'Fraunces', serif;
+      font-size: 42px;
+      font-weight: 900;
+      color: var(--teal-dark);
+      line-height: 1;
+    }
+
+    .hero-stat-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--mist);
+      text-align: center;
+      margin-top: 2px;
+    }
+
+    /* Mini stats row */
+    .mini-stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(0,0,0,0.06);
+    }
+
+    .mini-stat {
+      text-align: center;
+    }
+
+    .mini-stat-num {
+      font-family: 'Fraunces', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .mini-stat-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8px;
+      text-transform: uppercase;
+      color: var(--mist);
+    }
+
+    /* ===== STUDENTS SECTION ===== */
+    .students-card {
+      background: var(--white);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .card-meta {
+      display: flex;
+      gap: 6px;
+    }
+
+    .meta-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      padding: 3px 8px;
+      border-radius: 10px;
+    }
+    .meta-tag.green { background: var(--green-light); color: var(--green); }
+    .meta-tag.blue { background: var(--blue-light); color: var(--blue); }
+
+    /* Goal legend */
+    .goal-legend {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--fog);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--mist);
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .legend-dot.progress { background: var(--green); }
+    .legend-dot.effort { background: var(--blue); }
+
+    /* Students horizontal scroll */
+    .students-row {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      margin: 0 -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      scrollbar-width: none;
+    }
+    .students-row::-webkit-scrollbar { display: none; }
+
+    .student {
+      flex-shrink: 0;
+      text-align: center;
+      width: 85px;
+    }
+
+    .student-goals {
+      display: flex;
+      gap: 4px;
+      justify-content: center;
+      margin-bottom: 6px;
+    }
+
+    .goal-ring {
+      width: 36px;
+      height: 36px;
+      position: relative;
+    }
+
+    .goal-ring svg {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+
+    .ring-bg { fill: none; stroke: var(--fog); stroke-width: 4; }
+    .ring-fill { fill: none; stroke-width: 4; stroke-linecap: round; }
+    .ring-fill.green { stroke: var(--green); }
+    .ring-fill.yellow { stroke: var(--yellow); }
+    .ring-fill.magenta { stroke: var(--magenta); }
+    .ring-fill.blue { stroke: var(--blue); }
+
+    .ring-pct {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Fraunces', serif;
+      font-size: 9px;
+      font-weight: 700;
+    }
+
+    .student-name {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .student-sub {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8px;
+      color: var(--mist);
+    }
+
+    .student-more {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      background: var(--teal-light);
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 6px;
+    }
+
+    .more-num {
+      font-family: 'Fraunces', serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--teal-dark);
+      line-height: 1;
+    }
+
+    .more-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7px;
+      color: var(--teal-dark);
+      text-transform: uppercase;
+    }
+
+    /* ===== INSIGHT BLOCKS ===== */
+    .insights-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .insight-block {
+      flex: 1;
+      padding: 16px;
+      border-radius: 16px;
+    }
+
+    .insight-block.strength {
+      background: var(--green-light);
+    }
+
+    .insight-block.growth {
+      background: var(--yellow-light);
+    }
+
+    .insight-icon {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .insight-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .insight-text {
+      font-size: 12px;
+      line-height: 1.45;
+      color: var(--ink);
+      opacity: 0.8;
+    }
+
+    .insight-metric {
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    /* ===== QUOTE STRIP ===== */
+    .quote-strip {
+      background: linear-gradient(90deg, var(--blue-light), var(--teal-light));
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .quote-mark {
+      font-family: 'Fraunces', serif;
+      font-size: 32px;
+      color: var(--teal);
+      opacity: 0.4;
+      position: absolute;
+      top: 8px;
+      left: 14px;
+      line-height: 1;
+    }
+
+    .quote-text {
+      font-family: 'Fraunces', serif;
+      font-size: 14px;
+      font-style: italic;
+      color: var(--ink);
+      line-height: 1.5;
+      padding-left: 16px;
+    }
+
+    /* ===== TIP STRIP ===== */
+    .tip-strip {
+      background: var(--yellow-light);
+      border-radius: 16px;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .tip-strip.success {
+      background: var(--green-light);
+    }
+
+    .tip-icon {
+      font-size: 22px;
+    }
+
+    .tip-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      line-height: 1.4;
+    }
+
+    .tip-highlight {
+      background: var(--yellow);
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .tip-strip.success .tip-highlight {
+      background: var(--green);
+      color: var(--white);
+    }
+
+    /* ===== FEEDBACK ===== */
+    .feedback-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    .feedback-label {
+      font-size: 11px;
+      color: var(--mist);
+    }
+
+    .feedback-btns {
+      display: flex;
+      gap: 6px;
+    }
+
+    .fb-btn {
+      background: var(--white);
+      border: 1px solid var(--fog);
+      border-radius: 14px;
+      padding: 6px 12px;
+      font-size: 11px;
+      color: var(--ink);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .fb-btn:hover {
+      border-color: var(--teal);
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 16px 0;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      color: var(--mist);
+    }
+    .footer a { color: var(--mist); text-decoration: none; }
+    .footer a:hover { color: var(--teal); }
+
+    /* Responsive */
+    @media (max-width: 400px) {
+      .hero-layout { flex-direction: column; text-align: center; }
+      .hero-stat { margin-top: 16px; }
+      .insights-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="switcher">
+    <button class="active" data-id="baik">B</button>
+    <button data-id="dalvi">D</button>
+    <button data-id="gandhi">G</button>
+    <button data-id="lamberton">L</button>
+  </div>
+
+  <!-- ========== BAIK ========== -->
+  <div class="wrap active" id="baik">
+
+    <div class="hero-card">
+      <div class="brand-row">
+        <div class="brand">➕ PLUS Weekly Wrap</div>
+        <div class="session-badge" data-source="Count of Zoom recordings submitted by tutor">📹 Based on 3 recordings</div>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-text">
+          <h1 class="greeting">Great week, Baik! 🎉</h1>
+          <p class="week">Nov 18 – 24</p>
+          <div class="archetype" data-source="LLM: Classified by highest metric (praise_count=45)">
+            🎯 The Encourager
+          </div>
+        </div>
+        <div class="hero-stat" data-source="LLM: praise_count from transcript">
+          <span class="hero-stat-num">45</span>
+          <span class="hero-stat-label">Praise<br>moments</span>
+        </div>
+      </div>
+      <div class="mini-stats">
+        <div class="mini-stat" data-source="Zoom session logs">
+          <div class="mini-stat-num">3</div>
+          <div class="mini-stat-label">Sessions</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript speaker diarization">
+          <div class="mini-stat-num">7</div>
+          <div class="mini-stat-label">Students</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript duration">
+          <div class="mini-stat-num">73</div>
+          <div class="mini-stat-label">Minutes</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="students-card">
+      <div class="card-header">
+        <span class="card-title">Your students this week</span>
+        <div class="card-meta">
+          <span class="meta-tag green" data-source="MobyMax: skills_mastered">157 skills</span>
+          <span class="meta-tag blue" data-source="MobyMax: time_on_task">51 min avg</span>
+        </div>
+      </div>
+      <div class="goal-legend">
+        <div class="legend-item"><span class="legend-dot progress"></span> Progress goal</div>
+        <div class="legend-item"><span class="legend-dot effort"></span> Effort goal</div>
+      </div>
+      <div class="students-row">
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="18.8"/>
+              </svg>
+              <span class="ring-pct">80%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="9.4"/>
+              </svg>
+              <span class="ring-pct">90%</span>
+            </div>
+          </div>
+          <div class="student-name">Jayden T.</div>
+          <div class="student-sub">28 skills</div>
+        </div>
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="9.4"/>
+              </svg>
+              <span class="ring-pct">90%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="18.8"/>
+              </svg>
+              <span class="ring-pct">80%</span>
+            </div>
+          </div>
+          <div class="student-name">Reese J.</div>
+          <div class="student-sub">25 skills</div>
+        </div>
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill yellow" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="47.1"/>
+              </svg>
+              <span class="ring-pct">50%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="28.3"/>
+              </svg>
+              <span class="ring-pct">70%</span>
+            </div>
+          </div>
+          <div class="student-name">Sienna C.</div>
+          <div class="student-sub">22 skills</div>
+        </div>
+        <div class="student">
+          <div class="student-more">
+            <span class="more-num">+4</span>
+            <span class="more-label">more</span>
+          </div>
+          <div class="student-name">&nbsp;</div>
+          <div class="student-sub">82 skills</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="insights-row">
+      <div class="insight-block strength" data-source="LLM: Generated from praise_count">
+        <div class="insight-icon">💪</div>
+        <div class="insight-title">You celebrated a lot</div>
+        <div class="insight-text"><span class="insight-metric">45 encouraging moments</span> — your students feel supported.</div>
+      </div>
+      <div class="insight-block growth" data-source="LLM: Generated from tutor_talk_pct=81%">
+        <div class="insight-icon">🌱</div>
+        <div class="insight-title">Let them talk more</div>
+        <div class="insight-text">You talked <span class="insight-metric">81%</span> of the time. Try "What do you think?"</div>
+      </div>
+    </div>
+
+    <div class="quote-strip" data-source="LLM: highlight.quote from transcript">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">You're doing great. Keep sharing your screen and solving the problems.</p>
+    </div>
+
+    <div class="tip-strip" data-source="LLM: Recommendation based on lowest metric (wait_time=1.6s)">
+      <span class="tip-icon">💡</span>
+      <span class="tip-text">This week, try asking a question then <span class="tip-highlight">count to 5</span>.</span>
+    </div>
+
+    <div class="feedback-row">
+      <span class="feedback-label">Was this helpful?</span>
+      <div class="feedback-btns">
+        <a href="#" class="fb-btn">👍 Yes</a>
+        <a href="#" class="fb-btn">👎 No</a>
+        <a href="#" class="fb-btn">⚠️ Issue</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="#">Training</a> · <a href="#">Help</a> · <a href="#">Unsubscribe</a>
+    </footer>
+  </div>
+
+  <!-- ========== DALVI ========== -->
+  <div class="wrap" id="dalvi">
+
+    <div class="hero-card">
+      <div class="brand-row">
+        <div class="brand">➕ PLUS Weekly Wrap</div>
+        <div class="session-badge" data-source="Count of Zoom recordings submitted by tutor">📹 Based on 2 recordings</div>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-text">
+          <h1 class="greeting">Impressive, Dalvi! ⭐</h1>
+          <p class="week">Nov 18 – 24</p>
+          <div class="archetype" data-source="LLM: Classified by highest metric (avg_wait_time=7.2s)">
+            🧘 The Patient One
+          </div>
+        </div>
+        <div class="hero-stat" data-source="LLM: avg_wait_time from transcript">
+          <span class="hero-stat-num">7.2s</span>
+          <span class="hero-stat-label">Wait<br>time</span>
+        </div>
+      </div>
+      <div class="mini-stats">
+        <div class="mini-stat" data-source="Zoom session logs">
+          <div class="mini-stat-num">2</div>
+          <div class="mini-stat-label">Sessions</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript speaker diarization">
+          <div class="mini-stat-num">6</div>
+          <div class="mini-stat-label">Students</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript duration">
+          <div class="mini-stat-num">72</div>
+          <div class="mini-stat-label">Minutes</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="students-card">
+      <div class="card-header">
+        <span class="card-title">Your students this week</span>
+        <div class="card-meta">
+          <span class="meta-tag green" data-source="MobyMax: skills_mastered">26 skills</span>
+          <span class="meta-tag blue" data-source="MobyMax: time_on_task">50 min avg</span>
+        </div>
+      </div>
+      <div class="goal-legend">
+        <div class="legend-item"><span class="legend-dot progress"></span> Progress goal</div>
+        <div class="legend-item"><span class="legend-dot effort"></span> Effort goal</div>
+      </div>
+      <div class="students-row">
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="28.3"/>
+              </svg>
+              <span class="ring-pct">70%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="18.8"/>
+              </svg>
+              <span class="ring-pct">80%</span>
+            </div>
+          </div>
+          <div class="student-name">Tion B.</div>
+          <div class="student-sub">5 skills</div>
+        </div>
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill magenta" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="56.5"/>
+              </svg>
+              <span class="ring-pct">40%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill yellow" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="47.1"/>
+              </svg>
+              <span class="ring-pct">50%</span>
+            </div>
+          </div>
+          <div class="student-name">Zayvion</div>
+          <div class="student-sub">7 skills</div>
+        </div>
+        <div class="student">
+          <div class="student-more">
+            <span class="more-num">+4</span>
+            <span class="more-label">more</span>
+          </div>
+          <div class="student-name">&nbsp;</div>
+          <div class="student-sub">14 skills</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="insights-row">
+      <div class="insight-block strength" data-source="LLM: Generated from tutor_talk_pct=47%">
+        <div class="insight-icon">💪</div>
+        <div class="insight-title">Great balance</div>
+        <div class="insight-text">Students talked <span class="insight-metric">53%</span> of the time — you give them space.</div>
+      </div>
+      <div class="insight-block growth" data-source="LLM: Generated from praise_count=1">
+        <div class="insight-icon">🌱</div>
+        <div class="insight-title">Celebrate more</div>
+        <div class="insight-text">Only <span class="insight-metric">1 encouraging moment</span>. Try "Nice work!"</div>
+      </div>
+    </div>
+
+    <div class="tip-strip success" data-source="LLM: Recommendation — reinforce strongest behavior">
+      <span class="tip-icon">⭐</span>
+      <span class="tip-text">Your <span class="tip-highlight">7.2s patience</span> is exceptional. Keep it up!</span>
+    </div>
+
+    <div class="feedback-row">
+      <span class="feedback-label">Was this helpful?</span>
+      <div class="feedback-btns">
+        <a href="#" class="fb-btn">👍 Yes</a>
+        <a href="#" class="fb-btn">👎 No</a>
+        <a href="#" class="fb-btn">⚠️ Issue</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="#">Training</a> · <a href="#">Help</a> · <a href="#">Unsubscribe</a>
+    </footer>
+  </div>
+
+  <!-- ========== GANDHI ========== -->
+  <div class="wrap" id="gandhi">
+
+    <div class="hero-card">
+      <div class="brand-row">
+        <div class="brand">➕ PLUS Weekly Wrap</div>
+        <div class="session-badge" data-source="Count of Zoom recordings submitted by tutor">📹 Based on 2 recordings</div>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-text">
+          <h1 class="greeting">Nice balance, Gandhi! 👏</h1>
+          <p class="week">Nov 18 – 24</p>
+          <div class="archetype" data-source="LLM: Classified by highest metric (question_count=48)">
+            ❓ The Question Master
+          </div>
+        </div>
+        <div class="hero-stat" data-source="LLM: question_count from transcript">
+          <span class="hero-stat-num">48</span>
+          <span class="hero-stat-label">Questions<br>asked</span>
+        </div>
+      </div>
+      <div class="mini-stats">
+        <div class="mini-stat" data-source="Zoom session logs">
+          <div class="mini-stat-num">2</div>
+          <div class="mini-stat-label">Sessions</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript speaker diarization">
+          <div class="mini-stat-num">6</div>
+          <div class="mini-stat-label">Students</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript duration">
+          <div class="mini-stat-num">42</div>
+          <div class="mini-stat-label">Minutes</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="students-card">
+      <div class="card-header">
+        <span class="card-title">Your students this week</span>
+        <div class="card-meta">
+          <span class="meta-tag green" data-source="MobyMax: skills_mastered">54 skills</span>
+          <span class="meta-tag blue" data-source="MobyMax: time_on_task">30 min avg</span>
+        </div>
+      </div>
+      <div class="goal-legend">
+        <div class="legend-item"><span class="legend-dot progress"></span> Progress goal</div>
+        <div class="legend-item"><span class="legend-dot effort"></span> Effort goal</div>
+      </div>
+      <div class="students-row">
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="23.5"/>
+              </svg>
+              <span class="ring-pct">75%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="18.8"/>
+              </svg>
+              <span class="ring-pct">80%</span>
+            </div>
+          </div>
+          <div class="student-name">Lester</div>
+          <div class="student-sub">12 skills</div>
+        </div>
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="32.9"/>
+              </svg>
+              <span class="ring-pct">65%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="28.3"/>
+              </svg>
+              <span class="ring-pct">70%</span>
+            </div>
+          </div>
+          <div class="student-name">Eddy</div>
+          <div class="student-sub">14 skills</div>
+        </div>
+        <div class="student">
+          <div class="student-more">
+            <span class="more-num">+4</span>
+            <span class="more-label">more</span>
+          </div>
+          <div class="student-name">&nbsp;</div>
+          <div class="student-sub">28 skills</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="insights-row">
+      <div class="insight-block strength" data-source="LLM: Generated from question_count">
+        <div class="insight-icon">💪</div>
+        <div class="insight-title">Highly interactive</div>
+        <div class="insight-text"><span class="insight-metric">48 questions</span> — you teach through dialogue.</div>
+      </div>
+      <div class="insight-block strength" data-source="LLM: Generated from avg_wait_time=3.0s">
+        <div class="insight-icon">💪</div>
+        <div class="insight-title">Good pacing</div>
+        <div class="insight-text"><span class="insight-metric">3 second</span> wait time — right in the zone.</div>
+      </div>
+    </div>
+
+    <div class="quote-strip" data-source="LLM: highlight.quote from transcript">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">Perfect. You can start and if you have any questions, raise your hand.</p>
+    </div>
+
+    <div class="tip-strip success" data-source="LLM: All metrics strong — reinforce">
+      <span class="tip-icon">⭐</span>
+      <span class="tip-text">Your metrics are <span class="tip-highlight">solid</span>. Keep that think time!</span>
+    </div>
+
+    <div class="feedback-row">
+      <span class="feedback-label">Was this helpful?</span>
+      <div class="feedback-btns">
+        <a href="#" class="fb-btn">👍 Yes</a>
+        <a href="#" class="fb-btn">👎 No</a>
+        <a href="#" class="fb-btn">⚠️ Issue</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="#">Training</a> · <a href="#">Help</a> · <a href="#">Unsubscribe</a>
+    </footer>
+  </div>
+
+  <!-- ========== LAMBERTON ========== -->
+  <div class="wrap" id="lamberton">
+
+    <div class="hero-card">
+      <div class="brand-row">
+        <div class="brand">➕ PLUS Weekly Wrap</div>
+        <div class="session-badge" data-source="Count of Zoom recordings submitted by tutor">📹 Based on 2 recordings</div>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-text">
+          <h1 class="greeting">High energy, Lamberton! ⚡</h1>
+          <p class="week">Nov 18 – 24</p>
+          <div class="archetype" data-source="LLM: Classified by question_rate (70 questions / 34 min = 2.1/min)">
+            ⚡ The Energizer
+          </div>
+        </div>
+        <div class="hero-stat" data-source="LLM: question_count from transcript">
+          <span class="hero-stat-num">70</span>
+          <span class="hero-stat-label">Questions<br>asked</span>
+        </div>
+      </div>
+      <div class="mini-stats">
+        <div class="mini-stat" data-source="Zoom session logs">
+          <div class="mini-stat-num">2</div>
+          <div class="mini-stat-label">Sessions</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript speaker diarization">
+          <div class="mini-stat-num">3</div>
+          <div class="mini-stat-label">Students</div>
+        </div>
+        <div class="mini-stat" data-source="Transcript duration">
+          <div class="mini-stat-num">34</div>
+          <div class="mini-stat-label">Minutes</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="students-card">
+      <div class="card-header">
+        <span class="card-title">Your students this week</span>
+        <div class="card-meta">
+          <span class="meta-tag green" data-source="MobyMax: skills_mastered">27 skills</span>
+          <span class="meta-tag blue" data-source="MobyMax: time_on_task">24 min avg</span>
+        </div>
+      </div>
+      <div class="goal-legend">
+        <div class="legend-item"><span class="legend-dot progress"></span> Progress goal</div>
+        <div class="legend-item"><span class="legend-dot effort"></span> Effort goal</div>
+      </div>
+      <div class="students-row">
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill green" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="14.1"/>
+              </svg>
+              <span class="ring-pct">85%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="9.4"/>
+              </svg>
+              <span class="ring-pct">90%</span>
+            </div>
+          </div>
+          <div class="student-name">Winola B.</div>
+          <div class="student-sub">15 skills</div>
+        </div>
+        <div class="student" data-source="Progress: APPS skills goal | Effort: APPS time goal">
+          <div class="student-goals">
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill yellow" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="42.4"/>
+              </svg>
+              <span class="ring-pct">55%</span>
+            </div>
+            <div class="goal-ring">
+              <svg viewBox="0 0 36 36">
+                <circle class="ring-bg" cx="18" cy="18" r="15"/>
+                <circle class="ring-fill blue" cx="18" cy="18" r="15" stroke-dasharray="94.2" stroke-dashoffset="32.9"/>
+              </svg>
+              <span class="ring-pct">65%</span>
+            </div>
+          </div>
+          <div class="student-name">Montay</div>
+          <div class="student-sub">12 skills</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="insights-row">
+      <div class="insight-block strength" data-source="LLM: Generated from question_count/duration">
+        <div class="insight-icon">💪</div>
+        <div class="insight-title">Ultra-engaging</div>
+        <div class="insight-text"><span class="insight-metric">70 questions in 34 min</span> — rapid-fire teaching!</div>
+      </div>
+      <div class="insight-block growth" data-source="LLM: Generated from avg_wait_time=2.0s">
+        <div class="insight-icon">🌱</div>
+        <div class="insight-title">Slow down a bit</div>
+        <div class="insight-text"><span class="insight-metric">2s wait</span> is fast. Try counting to 3.</div>
+      </div>
+    </div>
+
+    <div class="quote-strip" data-source="LLM: highlight.quote from transcript">
+      <span class="quote-mark">"</span>
+      <p class="quote-text">The Ferrari drove 300 km per one and a half hours. What did it do in one hour?</p>
+    </div>
+
+    <div class="tip-strip" data-source="LLM: Recommendation based on wait_time=2.0s">
+      <span class="tip-icon">💡</span>
+      <span class="tip-text">After asking, <span class="tip-highlight">count to 3</span> before speaking.</span>
+    </div>
+
+    <div class="feedback-row">
+      <span class="feedback-label">Was this helpful?</span>
+      <div class="feedback-btns">
+        <a href="#" class="fb-btn">👍 Yes</a>
+        <a href="#" class="fb-btn">👎 No</a>
+        <a href="#" class="fb-btn">⚠️ Issue</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="#">Training</a> · <a href="#">Help</a> · <a href="#">Unsubscribe</a>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('.switcher button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.switcher button').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.wrap').forEach(w => w.classList.remove('active'));
+        document.getElementById(btn.dataset.id).classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>

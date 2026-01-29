@@ -1,0 +1,1485 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:38:56 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=123779",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"loading screen\"\n    },\n    {\n      \"offset_seconds\": 1,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Khan Academy exercise loads: 'Move the dot to -(-B) on the number line.'\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Move the dot to B.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 2.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.5,\n      \"action\": \"move\",\n      \"target_desc\": \"green dot on number line\",\n      \"details\": \"moves cursor to the dot\"\n    },\n    {\n      \"offset_seconds\": 4,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, B equals zero.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh right here.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 5.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"green dot to 0\",\n      \"x\": 485,\n      \"y\": 420,\n      \"details\": \"drags the point to 0\"\n    },\n    {\n      \"offset_seconds\": 7,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Check\"\n    },\n    {\n      \"offset_seconds\": 8,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Success message 'Nice work!' appears\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Next question\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"New question: 'Which point represents -(-10) on the number line?'\"\n    },\n    {\n      \"offset_seconds\": 15,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Which point represents negative 10 on the number line?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Where is negative 10 at? It's not even on here.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 23,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Take a look at this, right? It says negative negative 10. What is two negatives make?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh... I don't know.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Wait, is it E?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 34,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Option E\",\n      \"x\": 190,\n      \"y\": 750,\n      \"details\": \"selects answer E\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yes.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Check\"\n    },\n    {\n      \"offset_seconds\": 38,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Success message 'Good work!' appears\"\n    },\n    {\n      \"offset_seconds\": 39,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next question button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Next question\"\n    },\n    {\n      \"offset_seconds\": 41,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"New question: '-(-A) = ?'\"\n    },\n    {\n      \"offset_seconds\": 44,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh... It says A equals... or it says 6.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"types 6 into the answer box\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Check\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Success message 'Good work!' appears\"\n    },\n    {\n      \"offset_seconds\": 54,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Bonus question button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Bonus question\"\n    },\n    {\n      \"offset_seconds\": 56,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"New question: 'Which point represents -(-5)?'\"\n    },\n    {\n      \"offset_seconds\": 57,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Which point represents negative 5 on the number line?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 59,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Option A\",\n      \"x\": 190,\n      \"y\": 660,\n      \"details\": \"selects answer A\"\n    },\n    {\n      \"offset_seconds\": 100,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Check\"\n    },\n    {\n      \"offset_seconds\": 101,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Error message 'Not quite!' appears\"\n    },\n    {\n      \"offset_seconds\": 102,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"How? That is a negative 5.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"It is A. Or imma just pick E.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 109,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Option E\",\n      \"x\": 190,\n      \"y\": 750,\n      \"details\": \"selects answer E\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Check button\",\n      \"x\": 860,\n      \"y\": 790,\n      \"details\": \"clicks Check\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Success message 'There you go!' appears\"\n    },\n    {\n      \"offset_seconds\": 112,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Show solution button\",\n      \"x\": 650,\n      \"y\": 800,\n      \"details\": \"clicks 'Show solution and move on' (text varies)\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen updates to unit summary. 'Awesome! You improved your skills!'\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Up next: video button\",\n      \"x\": 860,\n      \"y\": 780,\n      \"details\": \"clicks Up next: video\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Video page loads\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Video playback] Opposite of a number...\",\n      \"speaker_name\": \"Khan Academy Narrator\"\n    },\n    {\n      \"offset_seconds\": 127,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I do have to do this one thing today...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 130,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"...um is it okay if I screenshare for a sec?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 133,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hmm?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 134,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I have to do this like, I'm like required to do this one thing.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's like goal setting.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Chrome (Khan Academy)\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student stops sharing screen\"\n    },\n    {\n      \"offset_seconds\": 137,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Chrome (PLUS Tutors)\",\n      \"details\": \"Tutor starts sharing screen\"\n    },\n    {\n      \"offset_seconds\": 139,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um let me share my screen for a second.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 3,\n      \"target_desc\": \"Student list\",\n      \"direction\": \"down\",\n      \"details\": \"Tutor scrolls down the list of students\"\n    },\n    {\n      \"offset_seconds\": 151,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yo what am I going on?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Goals button\",\n      \"x\": 1050,\n      \"y\": 550,\n      \"details\": \"clicks Goals for student Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 155,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student goals modal opens\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Where did Khan Academy go?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, one sec. Uh we gotta do this first for a couple minutes... or one minute actually.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Update Goals button\",\n      \"x\": 1050,\n      \"y\": 250,\n      \"details\": \"clicks Update Goals\"\n    },\n    {\n      \"offset_seconds\": 202,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So they want us to do these uh goal setting things...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 214,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"These are just like the default goals right now. So do you want to...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 219,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"...update it to get like a... an easier time so that you can get snacks at the end?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 224,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"How do you do it?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 226,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um okay. So what we're gonna do is we're gonna just set a new goal right? Because right now it's at like 50 minutes...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's at like a very random like default goal. So...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How much time do you think you want to spend on like this every single... or in a week, like 7 days?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh... like 15 minutes.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay sounds good.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 250,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal Slider\",\n      \"x\": 200,\n      \"y\": 700,\n      \"details\": \"drags slider to 15 minutes\"\n    },\n    {\n      \"offset_seconds\": 254,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then... uh... for the skills...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 259,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you think one skill is enough or do you think two is good?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 307,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Two.\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 309,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Two? Okay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 310,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"drag\",\n      \"target_desc\": \"Progress Goal Slider\",\n      \"x\": 650,\n      \"y\": 700,\n      \"details\": \"drags slider to 2 skills\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oop achieving looks good. Wait nevermind I can't move it. Wait yes I can. Oh my god. Okay we're so good.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Save Goals button\",\n      \"x\": 1050,\n      \"y\": 350,\n      \"details\": \"clicks Save Goals\"\n    },\n    {\n      \"offset_seconds\": 318,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Modal updates with saved goals\"\n    },\n    {\n      \"offset_seconds\": 320,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Alright... Let's go.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 321,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Close modal button\",\n      \"x\": 1100,\n      \"y\": 150,\n      \"details\": \"clicks close icon\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay back to math. Yay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Chrome (PLUS Tutors)\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Tutor stops screen share\"\n    },\n    {\n      \"offset_seconds\": 325,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"You sure?\",\n      \"speaker_name\": \"Jyvaughn\"\n    },\n    {\n      \"offset_seconds\": 327,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 338,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Chrome (Khan Academy)\",\n      \"details\": \"Student starts sharing screen again\"\n    },\n    {\n      \"offset_seconds\": 339,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Khan Academy video 'Number opposites' appears\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Video playback] Opposite of a number...\",\n      \"speaker_name\": \"Khan Academy Narrator\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 10,\n      \"speaker_label\": \"background\",\n      \"text\": \"Everybody I know that we had headaches with the scooters not showing up at the beginning but great job to all of you...\",\n      \"speaker_name\": \"Mr. Antolik\"\n    },\n    {\n      \"offset_seconds\": 504,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Video cuts\"\n    },\n    {\n      \"offset_seconds\": 505,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor camera view fullscreen\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm back.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 509,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are we working on anything today... doing anything?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 518,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Black screen with name 'Core'Dai'\"\n    },\n    {\n      \"offset_seconds\": 522,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 523,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"student\",\n      \"text\": \"Excuse me I didn't hear what you said...\",\n      \"speaker_name\": \"Core'Dai\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EueYAQrjmAEBcsjafPIErgVG_LPWzwO7bE75iLVZITfqX1DcsI_51aEudJPGBFot21fLIOaSD42mUlPkjekH9IZUKyniBGmsYge89XcDY1L0uliZ8P_YBI82NcsX1U1gcVBr77ILjpn0gXjULqoUWDpjxNNF0zFcEYfo_29vOvX64E5dgbkOrLY5lzVT7IOIGEh8VGBbjnlXCQM7xCmaExVCccvPqXPLlUzmPGC9uQIJl9a7u2Vv5b_5-rgfb56ttnoysqNdKg4Xhn0BOylbLH0NDQm7FehMuuu2UoPpUxBQK7cmunnX7ZBFn9R22ugCA9KFzu-nmKcKHEgXGDsPLGh0WxDYA_SNekHBxDYftwAHY1_uyRjhMpymvmlZDp8Rws-20ptQ6bplj1EbHcWgliOvid6A-cyYTVfCtBzXgZ5Oo-3GEYI9aUByofuHCKxgno6RXY1rw_bVXScAS5vcjsj2dmGUrmudBL8K8fIRv9BqJNFAdtwKAVkm8lwf_s9KiJwUOyIktT-8m14qLV4cf4GZkVrviKKtvHqYqWBk4xTICinFV_NleDkAE0Wi9U-zim37myRhfML0dOYsmDFLdsuZ8M10dsGEmJJM-Y3EXR5DzJM98YdSSKMqYf6ngfe1Hd_E_IZu879VFYVUX4EwvM1pOYjeafrqLjRFmnWGfaoZcE7gLk9fZylVU4XdFSSMA32GwGBeEf9AeZQYvxG7vo3El8g-_x8e5eYtz4mlG_bEQSvSWZJeud4Lc8ofp3RzTMCk1RJ653whuH_EQRBu4GkwrilEKUInQtVlxzZTHd0gd2-5SgYcPBC8qyyH0FjzDuGJPm9b0FNtmYThce5yBse_N4-buJHMzL1tV60C8UwMgJQHddfRvqLt_erFt8XZM2jsLYlvf3fmVlfnCdnyyFnYfYVFpA5A6_TKZizx6GD00scn2pvvImqA0pKFfLtgFgsHcBzgGr3OknYZGAaF_VQFwd0WKWpRtwfGBMk1dFG5G2yvUdEWnHZwuzQhlLYKDUsRUBV9LI-sNT9LIsBobu7Jfod9k6UiFXsNYISntjYqw1PbB4bCXorBogbor4NIgrAUi6Jq7oks1NFITv-QAuorXmc5f4HqD1VunXcjhEfcfUI45zIHm2A4GA0d-ViwckMRvAL8Lv6Srn6obDqNZB2e4Ia4tsAKBmDCN1Pfr4zSz5fA4yK-XzF7z2B354hfmpJ-bIOXO9va3aGpR4_1W2_BlDkwZrsE2nBXTpDfPUPyioSQmWqVl-VlpWKi_ae0P2jtohEukKB3hn_72Ty6P86yfD9mG4YeMw7_4l25aKFa7Wjl5642CmMV01G2kyCVpGlWA6UVfE9sM_wSHTlf4rmiEIK5E8BtUIbclKSdE4gGdhDkPB32DIjvc3OHNZ3DqB2FCqNdrRcSJYl2Eu1KWOPiuSEy9R_bCZHwaXG0KDU80ySSQr1UnfJ-TOi-LD55ctfNizboyqyIoJmzlkG-PePZhMT-1qm0k6PcnQAzYfZ-yUBJv4VLLHYqoi5iOH0c0wyxggWuVduZAMPU5AfIemNPQ21krgoC7LVV69fZ5etS_UgfinA3oua6xHObHsW7ID-41DyyHHF2I63C7eT5grHxDxd3GCPpI8sB0kQXAbGk3pddU6X-7z69-nBd0mfvPrEJshVCe9k1oVvGSegm2Iq_WdGorlcz0CA7-YcyIgswyxLI9Mt_enSxWw16IEk3Qk148Lo9rP6GNApEjyp_ykUUVoq7MXGtKJaE4lXnopxUw10z6ABXUuVKCMoZ7sj0ybAWR9d1XhTr2DfIEHMVkaO61we3HOxXuYmlOe3HgE7G2bUosJ1EOtdnp71deBWPXhjR3hdNG9h39FESsFvXvJMop3Fp4LB3UOKb2C7rFN23_vYElW7h-lbSHpM7_JudtKbue9W4kiSPLDlq2qBIBWN4QlRQkWZwNbMCSMGVxx9KQEPwP4fE0AMz32MTJRp_BlqpZ2sTi0ChJC4_GO25IuDsGB5ZmRZqAjrcul_ldLLrJVAXkyhV-tkjwk--OmUKki5Yi3pXSiNdIIexUJtsizUCHf5g0a-U99p30hTLPZa46whVwoM0txuIvt6iWB6p-VK7OvFLcyUb10LGD1muUxVPn_wDXsH2L8zv48y3tZD2ZRHCsFd6utDgpRUnEH8J1cBWRr6ZGTwzcSTTXkFW7U7FvbNqg5p2M980KbG4acgvW2Zn6LmIMwvKXpQSXZiCfKFrae2bKAmapZ3fWIzf97-eOHR8riXdCwKmLtvGu9VUFdqrV3K3WNKdY_eEyKI4FZywUBAsJXNjODdO0OkylKPueogoyzs6ynETaymiK8PAdDugV6ydlMGBNhakU0Wo8oyNeSaOIQ_q8v8FOvwU5JaqjnhTkVDnsoBQzeWJpNLw7garshX6lxsKASgQlEhSM78rAq1ggVgsRIrAeYE9Hbb_bRaPaMfJDLSWos86KW8myiuDHal7QKzEGakvSTibL4kbbiQtlL1XcKkwWckgvrgMVisFPvyN8Afqmv8c7lQSOtp5k6bvuVVoFIpBIMAwjEuYefkLaI2nmFIjXw-q0kRa8TC86eBRtYW82MIatrd3p2g-qF7QZJp3s2Ri5oOV-TyabXXdhWXWlH4xbwGnrTwL9XB6C9Qzydb4gGGaUJK1DGEAMf_Kk6E4b9VsWADKVdvfORHWDugMvfRX-HuDu3pGPxrgtfY9yqSHX-aVWgYhsXR6AWdmtFzdw_SW5lAnDyDA7312m9xkdh03Q0iQSOOEjj0J7wGR_3SPMuz6OKBaSO2YfQku8f9ZsbWNLDVVDyXnxxAAuGxvUS8duYq4yrpBG5nCf91C0QIntvXrn-FWYIITuJ4-thAtxGBEdvVDUEfpx1EP_bFXIkHQPG2h5nrWtJlsqSxz0LKSbrzWv3OCu7D8vPt7wJjWGgPW2kJF9ZVTHaF9gygi1AwA9JDUOyUwkWlPquXvMwY7CfNDHIa_MCNxVGA9hFl_CFpFlBjcoRfwgV-eu3cwVaOGfsi0E4Y82vov0xHSzb4iGx3UQnpmszoTaYAxBTZx8Wkrz7ZK8X3klLQCrHlSSiyG9X7UlOsASe0fVgTvsoSyxwM5svLIhpcOXz7VZ0A-N7Fb3q7-P1lbJKB8d4xr5INwrX58JjqbQleD2k5rpH7pLr7YqENdWpG0NshsqT14Ci-dvnoZvSoxI4uy3BV9yqGhWbORk0_W2-lqDx9JpPQ6fYD8ywkMH8WoHz9CpxNUxG0v1kFPenDF-sV4MV_MV8S490s08Hd7SD9nYNkqLVKdHf8Wuu3cJXUDOMZtn8f-hBvFJ8Fyyp1smLpFqJwRfWhrLeUL16LQRXXwEjtjLj7jFWuXIwsqiCC1HkxXqsoA8mPU5nxvDGsRCQRXBIu80q-LLZpNU19v3PISOnQ2CWTteGZheW2aronIaFY7qvq662QSZpxlNYgCLfv4GvwX1ocT78z91R8duU9HYDrfBcydHxLCuCNrp_NEY6nCasFes3Ea25DK9YfaQ0l7wjgEU9VqZWoUWWMOyErEVafjA5yDRq39jcbiIi24V92yysp4QVqrHOl3ysiMRoz_H-ZhXaG051iqlhGqZZjB1omy2NcrR_Aycelutpx_PkZFSDXpbqeCRmi3GKtFkdYv5lVIdAp3DdUtnfDqU5a6bRDq_uEYHH6yuR3-oievqIke8VRdYAFbkmM9252HcLhVlaQS0mMaNb0UWd72ob1xuc5xOlFOSSSSD7Nmx_rSW4167d1J11xTbfrPoBMRjTPxUrfN1BDszaw7Fhvu9e7z2wQWFSOlc1M8IfJUNDtywuslqG95J1pYUBWU1GviDGtzqPXJUagoEGqQRWpqPd_Yu0kirrpjcKH-EvodIe7We7mTIc0UhCUbjGi86issIqFgRtu60QHkpAI30bzHogMjOaLqYIPm4TJFFqG0VFyVWr_rwrCJWaOuoNQejYjowPJWk0pV6LtPX21yMUPdWIEjFyIGK5xbypv_FVDuSqaMbvORvA2sGfZoXlU5vwjPp1BQPJ0X0ZSwvTSWQ4koaQgTDMaQ3rlW1y51PLxF7jSQw7w9HzmovyuMFWvifeoaCYt6MySXdL9GhB-PrU4I8nGq9SCNGOW1GLyQ0puBjVnyugyaGcHEgZrGwoZpSbtkBZwLAnwJz9bg9rllL2rGHngTWod_HE9kxQml0TRFgYjIQ_HPWk1-kxNiEYSo8OsQVKbD_VbZ_5zSl9LFgzOFMjwpAhGL5zBF-P4aaGNmq1YesSnR7eOSW6nIEWOWVfIqL2Fu1MJhk3U5AixVpoRSbyuEbTmi02VjwCFcz6EFueGGIYy53vAqcjXWEmlAYIK2Py1OLaLCyYa4Flfb-XTqDh6UlNAz37dqNaj2GZa83tGHVQqnwckaddOjMIf3tf6u4pXSh6ZbBHuhFIh3HRLm0PjhebJkocGfHTNeEGUY6wkJEFb4Pnj4fgpXwSbScaSTuXs4tIKJ5CHgOMMYlZRLsBD-8on3arXsGRhKlM9onj7Gm0UV1fE3yNj2BeoPCrwC6GkJTE1qUrvegl9985bHDa4TON445hCiwvcw8TlJHAj5yEADgWlaaSzlXAakm4OCt9WfCJrCpPwByHsNldHpVobdPv77mTXrU5YFH5lP-VNvN-vTe2VCzHADuaVa-0AlwBHK6kgJAGUdtlFqjIhcvXY1puRrFUVjnXKCth7_WuGst-uWWeRhIQQq6fGWlmNOrlVaJKdTH3ZkbawE-QmMGHfYz5opeOLz4XWWhv9EEnNoFdUG_dQO9SWEc_S_PGXHUPSWvt3NmQmQm2UP0aqaOE5-2hGE-FhG5qhePbeyDtYM75hOMo66TxBxiUghDkrlx2B_ZfgF5azO0VhovYWnyV5DTpJBLW-vbM5yuWZsD1SVxayHu9qASmVxv-veNi6r4vlz8twRQrfXcNANmTsrBaItDhNTj12tmh1TJ1mkkALesrKh8yOZq_QxR_Ng2KIiPqyEHZuHYLeBNbC5Ak-r8TaZIlGpUJ9Yco9d3UvKLf8mrpvBkswc7KJcNCPXiIgfFPint3memYIRQvPwmIs0LIOjLt8jlhsNLszwrSA92dcFaIuombfPH4Z2zd9DBQiVRxT9FlTRDvi1GNRLrE5FcUJV8CZaXyyS2emOUH7z0dnuRZRkZBz1PQSjuez8bWp5t6JH3lupSegcb69KSTNGkzL6Zm1V4honsgZPlU8snUawTCjC19-WdHjtduJ9019eDpLdwICk3IFZrNd8Za5X3vUiw_PEM-JmFu7At_npDTnKzu5SsjkYdQ6yO2KREutOkXWgU5t8TyM6poeisF17ht7f8TCj3A_fT6L_23ok8_KBjorDf7c4PxoxTljw-9ugq5jH51XosAO0jHIFXb37Ns6fDZ2oNEMvHkPznxcYpAoU83Q_fuBVuspyrHfw4LKlanqsYWNdKw4wt4gdEoQZhKKikmSLM7mFit-CYAOeWUGcS81ZcXiVVAjlAeqwjxjV_Tzhp6PgekMQCW8yWqZXZooBXPUqIdHgh2AjpVUXMBsssIjRHckiw-lJp1MX7MGmgTm0WcA7W4k41I8NOmx5hlocyhUq2P04RiD8lfqXJ_b0tOIhRJpEBjpPIF42h3uB2Dkmd9FESN3wwCx1cKjltOrIbm-LhQMi2YwUfpYHGlEAqZtE8mu3DTUw7WHg2mJlR3DEP6-cgEyHKT6qJE7MRT_1RiVFCJRTBLsgxkuzHwEhFCHZo5J2fnJpomGLqlXAz52ZXHemQqIGgrXLkZXpLSt2RgP9Ev7rgTvKyrnZQOIC1XvfWyNQcBYhdG0xBCln49pmSnS2XHmXWozoB6PhT3-bYvPrl3wKexujM0fXrF55OPMW-36HaRA8VOuYa7uex85fHTxKrfQ5NMpSn6eCff4JYPeXfa-Sva1NABStvOLrzosiizbcVvknUzTircHGPcps7sD--04-73o2GNy0BJ6NSfKY3Mce5M6irieH4-GJy1UG2-zwtCnsAH7QiqLpg6fXtCZWPyTFwNMh8vgk3Dp2zWWqjpM7H66gDjgohikLn-qIHDF-YiawkZ0Wo9QQ21T2aDsM0f-aaFOIzd8SwkfQKggpCXum-OXWDXbz-t_dS01WqKGpq-DopoIBGaf27GwzHdw4-1BqJWGhBhAu8wM35RzWSj-bLBm7SGCQBAVld71lu-TKTyvJR7VHl_yWCBG_6GCBuHl9f1if_7CSfVmF5Z3AuXOFscXokhrxQ3E6RWozL8Df1VFLRUY8_7C_Es4xIl1T6CcupZZFSDnO8eNXSG4R73yjkqILcPp8kP8MLYER66a9vhoS2hImANSyEoXWeT7CG73jC2boiS0xSC2FWOYky7heL1Pz_oaWF6dJul3_iCF7aVs0Ubps9yrkduHMa_6XPw0mGMUZE6O8EdnVzvZd8WTolbtWQFui9cqsqAUegzGFVk63SThRaUWKZEosWb43VPaVNMqCqH_jQOX8yy1JbTkyzGAjY5Msx4nFvquZ1IBWaQUFwAOJK4ARhkiCH1mEKn7RPjuXiOKVi__L1wWIM4TnrEfb4SNVRDHrqfihsnvcO43joTVFq3Mog83RksRDnLtCELhqmJg9gMscC6ZZ-aK9iOsiftwARMRSWSTDs9uo2g8MX4xlIdaxN6dm6odothyOfVfMZ_gqijx3NC-9w1fMPv4Mz2JqBiqo10oIDAHJVwX3m9-tGTDRozGUByWrvYDyDnriTocSjs6Sc_STPp1gtATvfD_YagDtiCW5hWDSemI9Ysq_Fr5y1x5Wbzxso3sdQZrup3bgFUmMOebKQm4agWlDqeam4iIoiU04KCgiyHKZOkxTS5sefz3Mdq6OWVUQNDBxbRPVojHNKBY7sB07LeTELH3oc-95MkUUf2ZiXKYh7R3pxr40POW7MFRgyJeMysBCKRVq_CKoPgfDZZzPYq_tvLetUOgbKjlws6kR9TfrSF4Lh0fxfEP-z2godGfQWIfFOJqHwM2f6k2dflOXFuytQk0Bppx-u573cODdgEH5QchP1UHpjQUOANpJo8xaHA0EifNc-0QZPvcj3AIrtxKN_5BCRegj23cWGdmGqPpI5Sy2stoqjR3zKDxYUnCxqTolBZoZ6dTJXsYmLmnTyE7Phj0ItMwORBdFqGfur7T1Kli5PInECg_7fXPgBOa2nTEWTRQXSyiaAtTuJlWNlgEBF8iajyGi4OjP_3xM7RtW0_08DvroC5JQxT5ZqtIShpT8c30A9kkEXwMPNkAYlO5ApUfUzDgEhLTaulOrQhKNqOWLbOqQS8Y42_B4PEnsdNB1clzCrLVM5OFo2VCTvy0k-Y6N5xNDj3gDloNw9m4E5oJW3eR7il0LXboiyrcuX_Lw7bzxQ8iX660QcMbkUelN4jy8N8fkqp1gA4D8-2XDbhsg9hShfO7FYtnDq4f0mS4Yl8nYQkKFYKnNnWb_GZrCfn3-AFhfpdZTayAcyr7dpeqmKtAuji17J-AuOQr-Y9ExcIQVlzOKrb0ftAf7EGts8qUvh-LWxQblQBQX1Fkwa9rh_lpitKHiG50nEqcMuEtwl4VIEAvhf0rK8zffHzDHq6QqmL8FVDDILMf60YqCUBnuCAgMbXgAumHwp3521hVV7iHM6qKNh7DcfAKU0EiFhW-6MdscGzQqUmQya_OSW9jy0yrGNvYSzs7GE7PYVSIXhH4YM18R940aP1ZdnVbteBQakgwGONXWDaGQAycAqVSKPyCQ6Kwm3Y_zM09kkASLg01QkuFY9ATkTgSpA09FOkf04rcUz137UOtBHqrBsn2R70jJzuhLa5r4pjBZNr486GpXHO40NjLO7W1xCAO3pMT4UdBcJj2W9PlfVrbF7dX3FGR4GBhoYoPirXysI4eZJog_iqTS4h2Kk6hiYyUNRlXMLmp6SmuS_HICwG0SXXhC8B40K-9cm_mKNoRFqLc-hRrCiGj-5sKU_5TTex3ycNjwRc27ND-v1o_6y3z-MJ1odR5NYQS5X8MbeV5CTaZWoTZQzuXhYpmHwVgnFLNssUgYNKSmNATpWR9ECjRgjv2PpUS1fzuji1XpmcexeKhmCE9F_gSND9XYTOBNxOieHUojNTsUxP_LTW8mnBBplzFj-FGeRXPQbxGzUUcUFI8Deeq-q8ArTF-Gnga9mIe1yDv8DScOzX1K6TALz0T7eBuEvRXC6C5naqEtX--mwJA6FEhAhmRBm1dY611inIcbFyDyVTrZVWYdKDJk4UjkDORYPGvEzrRWfLrxR0nYLcdg4fBo0NE17uMcMH04PpdcyECcGpPj7e0J8tc-8pC0Qwi74w6YIIM5A2i8EaSaRmNtvi9cxEZvBuhQiKdVUWHPua-XlppWStYLi5DIZYb8cvql_waVLulYOORZDZwjdxCTUIXCc0hUu168krcvAZZZC3X2J2s_rw6lhIeN1C2AnahUZgNriniAOU6IBjxbdzg24TLzfSIjsW04XovBXGpqiFelLRMbYnK0QGBKrPy_nsu5fAC02R0zZbdx2Q1bBrSO9QHCThf_SOWGVaw0vrbjMTbi1wggUk489lLrlIRYh6L6cJoFuTl8-ddAxi3kRtR9pkeRKGaC01NJ5eqUOLXoXw_MavAzbrDkF2rMCERTF9z39IjkWBpXOVNcTDirGnnDsp550QBDdn8jxsCKg4nk6NDMbIJFEhildwxSkeD3aPCkXLqaRdE9FemFFoISwg52hcs1CEIEG_cqFSyS2Dfn7enSwpCPuTbsdPDcQYe6p5PuwkCBfUHhipL-OqC3gv0p2kqqNfYgqfyNVYk0tvv_ci24gu1BNfo-cX-gJXzz8SSDpXx_gjSiRMc-JjVLYRPqmJ32akVZ5Y344coLKtypjFgBmKUKfsfx4QoZljPSA8rdaTmkNYFuAscd7OCvUbgL6z9PpRiCzzqsaBfalyTugJU76hURczrzRPzX-A2HI7ON8X4kLKs6i2QyeOt1bWBis5wYBqMS0iE0T9HsDGtTnPzCi3G2fdNi__XQJbwvBDVsvCGVtA-Gz2TsVqGzXbf19Xtco0OUJq_lXnDuOUgpKsM9AXqk_2mTQpNaraCrvFUnk5rLuiE5ZYMuJZZXN8HmW4WJMgykcmdg1eD50cL-fBRv_JkREUNLcxgbi40DotN_NYbxePHawuWnVJIfhNyhpSziG0flDE5mZBS3AjbfhLOftRaMHhb6po2WsJXCwKOh8m_ryzPr0Vol7gVgB0lIjQQ-5Z1B_7qrimhmbTkofaZcWJPKA9-PznAMXiiKJVWopV5t16Qtab7FEpGMX5k0K3xsShpEWg3hkpL4IdaYU4G6-SYVdi1ii6o_YTVlFt650ae5SfSIGbbGn4qo19B34lCzaT_cmHDBJPobj_C6xQEkOb6w8f19Q0BOxduxLJUHWozMjiO9wG012erEGnhvhAI31HFCgUniFWFG3BbssiYfcepdpxtDG9ABCE4e8l-7n1bfYmOhUCTIZq_Bm_PrGpXrXhDn6HgNkNwHWFo-A0WV_SWQdeJR1vSPtRF70gO10nxhQOndY5jV5FsSG7SBQnoKR-qI-GD2tZJ4_TD-C3J0-5vaygjPGUC-ihIhdFSMkx_alNKDCazcp76OqV62etuoD-FM4E8JlSklTs3hGJOhN5FaryOgajRIl5HlGNF-asq7uoASiElfauVGDROhfo41GkhgwoaZ3ESCauLA2JI1CD96SIi8nuU-sXFRinPU9VY53lFTn03jkkQccbOC9uvvbdWTRjUyvzYBJ-Qu7DMngaKWn1BdKnRcYZoLW9nF6MDO_zTiJPtd0e49bmQNszYWOSm04Swka51NWubpQniMX3kVsU3kdMbaVJUvFsLsq7bUMp_If5mh8Bj4MwQUUdaPsGo1nK2XoX2ZpJQg6-Q475YQy1TqpV6pRolfOfYt98HyFjc9J955-4fAni2qTCXUoN5dJBo_IIJQV37nGMzPdr2mljvK6j-6INkQGWxzEWyiBhBYnipbzHrbHsFKQpMogRU1ySDrHUQHniOaW89RQbvXMyk7aZ_97xLtR5bAwWOEXBoyBcwwFhkL1tDlVu6_aZN_6pNuq9WCIPTETGLorsw0-2GqPKsXzl8cJCATxFpA2FZzL-0E0NCIKZ0mzfwN9U9bN_VKx9-eFc7SQHmohQbW_Ymvu9kBaEHLVLBfjk3BPQdGErroYKzTn6sMNBOB3i82q02ydSkr16daTErpQB___ARhBSpD4SzV33Ps29HZOLuXHfSr0RW-OgfS0HaoLFFCJxJA_I0-d1i6Xnzbn5sxXv5z7KxIlf56aXaTgg6ZOtRx8YC-q4W_TlmfPnzKJHxgCnPqGJ2bQGH-xhKoV_PtLldB702_m3IU5i1UlQ9RyhqW2hHwwdIEWYHu9GYVRk6OOR_vEIl81TyMhsMA9cBUzqTdMLE_SQeopNbW7HKx-T7DoUM7_F1Tl34nPE5dcdwuUcD3bm03Hrbzo7t2JzcwS0wTOKHUt_NjAfsgsg4ShxMVbW5FdTy7UpnzW6MCf9J0IOwqytTdMzXcHY269fzFRtu8Gvk7jz33M5Jmz2Qkh5Tg1VFebOQav3bFSWqkv_GT5F-YETCWalb_1Yh6DpGXsXp4EIUzvSZBbOgfWaAiDlEEqV0RUfCq98XDtQn4YudTcWhMlViVw6FiPF6vvZqSdyX630PqGI1DvwpLWcAu2F0q5mYp3r8f91J50pK7QmmsRN5G964MWMTqKipRtZxxzMfqY-BK7ITHpY-KHds0PBaLWGouishM-WiLnn8bd53KeGsVTMZziXiTWT11D8VA6BvDfm8eKCv77-GJUeyHF2Uc1prFrYZ_BoU27U5ZqOv3k2z0TumwB3JGRad60QzW-LBG0HsYkQK8Z4cHeEoOhrFQYCJv5WNe7ac2kG8-Xqr9RgHTCd8Unc9gPwmko8_T9g2s1-mZkM7iWc8Q97bedn4Aw_FNrqYe6QDwXxnxGSgSLaxvNCpHlTQ_BMRZXbbl-fgwsupcrkjgt9JYmz3XENUedjrkbxtjsp4Wc48TSxaWmpZo-Y03p6_6h2GnzcJRE4LJ_hsUzwZicaOWG2Ib9aiNAPha6LywGPtw0GcVTRtE4VAbQ8QnssLlkmSvHMR0qxizFZTanHGTNnUmwrW0L_umTbV5qFEgeMF9Yb-EdVPze2FMDT063qpDIMlgm4jOc518ZAUi_4I11MvLu9-Ytkdxsm4xZPBUGGn4qYb4sAzAXXeZrzYT5YCxl1lqc-JB6UO5E5Os7bCUAdCIGY2XRiLDI5QfozCr0BEZcbqdevCMucyEHv6_JwNvq1BzBf0X7BkYA1RRF7n63A7Wa9oNbzGG9Hpoq5xJJGuOErzrbTXKp-2YgRpivscw-1TIau-H08LJuiPXH5C7mjuExpoomhCLoVnfHI3PDGgv1MF2jcyd1d_1eX1AmPX1sheaAkQ3Unfp47kDnhfh8zjomNI8a0LacmE_bjUgQgMDA15ekLbQPrXIlVuInQcgRWR0lqOTX9QPHzAJrd4romZYSriPp9MFG5TUSwhE8AMuIVrgg3RN0B9z4NcpwcCXnEH43LwvwCv4GQrTdrYS_b4AEzoUdSOfC5To1I1vPXAowADxmIi0a2Nf9uPj_2r8kTrGeL4bGG4Wuxe99BNhzHPZMT9kvbTsfwteon-yr1o9Z87_Cc6UvdkVY6G0ge7Om7uT6dBc-vdD1c-h1Yb74ZkfbltsiofNVXApN_isVSr7FV30bN25CNV9P1eerdWOVvOlj3FtZ69EdiGSYgmRdopQKUsfLmPSnHSkonFGzZkSXgia6VEVlNnBiWONEOL83uQT-bAvH1mFdALufEDfuXId8l7zhBhmAquATN_7BZHRCO6IpAI1cv3AnX6orl2LQ1Yuv8sNz5H4-vT94ME2_yDO1dv9katlCy1uxuX5btmBS9fKZxGnbEpnZym_pbxVWCF8oolHQCGC0fsg1QdGDbND3EvIw3toQBwyIZ5UD0VcPcyaovu7LSqCS9GWfIE21u6KpsRlfLrq2B-PR7Rq8XHslkkiqg-L-bX1duBY6knvmvGXsC4MxY0IbZXqnsomA996WWmhu25o1Zx_q-c5vNy9HOfydOqmnW61Sav_9KkHgYICo1ol8fUM8IEOrqP36Vlb_RWbh5jrftoRgCNyG_nUPplr0eaRgG81t0N6ItVbn_n3abqCV8c_-pRNYeaqxiQhHYfbJMf9-ZuOkiHxn_6c4DxRygoi1TiFk4qnkmv6QMwcnaU1lo9JVrJSE22W6-io3K5in7d56at1r4adqj5FlUuve9R99NKVgJIx-jrwHje6zIFgQ2BAwmT7rgTCkjpbvqhR5_APFjtMdIrcyfTtecNljvGqbB9BBA3ISh3Ld3CEEzIdLy-tjWqAKQbZgHCIOjBTkIKD8LcWg_dOm8Dbd-SvQDU793hLJBwv3mPmT9RdewpxMMAr7PwJT-4SpqmZJd5aMjyJZPlI-opKKDyeqo_pD9h_u2RglzO397YNnlxtydcmkvJrd2G2vrQ9Wbj6qB4j4tAiE6em12h5Q8-SdoFVLI4tuHHN556x88NxKVfbcTr2pM6coMKjWOJ1O72IVWe1NqvMjG_1JPbMvdecNaHvSLN9OB5xcM5CK5jvBuudV7QUPWj-6o6tPpqKJsITv5_I4AxJEBeWpqILdkrFGDb_XGlNkkSXVV-yhbyM4myYkYANlUakWhBP-KX8vwr9L-J8HeQoDrm1JXYCW7HUa_chVtSa_Sx1otRKiG2D9ILnhdRu8eHfORA1sB__Yrk1GKbS6UgqXN_e9XVl54isqKttmM9v5F0GnPfwmoiS7Oe7MzkNkGGVNP-f-DWETt08-4j2bWiYO0-lVhNSxwIGw6oCNCSXK4bfVoQWNn4tkqT7bI0ylN9HUfc8jQVLLH6XbAu7zqeccTtlw1lMMo9jc4LnxNx8S1N18CI50IvXZhX0BSciSxPdzwl4HJ3JA-6bQFTgo0TK_bP4nrKggdPkCimual2MjKyAiio-c_WuIulgsGk--o0ociYZ5-PFTPeDxL5yaBlNJbKxMCJ8y2pfMxxB4wHxUVzgb1IbbPc4jnlMWUVj7OESDBXtYKg6QqpDWW6m3_StiKa8BqQpkOQVWafzTytjIL0Mr4zTdCz0iP_tbtWTAFtAvV5ZMEMH67X0IziiEf8tNpdQfg6gycd2nsrS81mHDRhpjcUJXMB4kAWi-7uW89I5LNGTT7QtE6vcBERhG5yNEBi3x7MO4-ypujvpe631AsFH2WaUDcOvpeIECDsRX0tsPHHaRTQ-5tzCmBS3Din78StlI9YpEsJ3MgCEFizDrkrHSaVxGc3EMwo7vfxjqPZYNb9jb6AWi46Q1h2dfP4MU3sPK3hiKvW7q9Ud14uLe5lVI6FwrydrtTDDToE75taNvoHZVzlBCrbVIg524x2E1LA-j92hyd46jozi2BhTMDA8701ZFh6uWRACgEbTQBNwyJiBooORTHr8BdJ5VFBwvoPkhKnLs3C4IiI-JM0xdK8RTPLZMlhKHOwgD0kWMN19X4FdklZ_UJCEsh63cy5xKe4lUteYY23-bNOu-igaWPZ2lwNvhkTJX0tztZKelfnMbla159X2pO19qF5KXB7BquydkO1I-E7upbpzITzb0h1CwG1QgJVvX49yvyQTQcBAmVeHn5AaO5zFOpzVXn1unXCFEmCqkxvNauumk5Vbt6B7k4O92ZITPI501J_QvHBv1hSwuFnOJvMa-h3UjbOFtbvkAKDooZe5sw1jrD8YWHw21I5yen3c523ToJW4XX7kG1JWd1K8c2dKzad0BG68ssB8Wp3fWQGaLQpEg30GDZv7i3sCRARpAgy9gtqUZhCo8IcBAZxDFJsJruU3i8nmUT3CgqM54xlhTkJmGf2zLifTJSn6GYMcQ-zAlegpeU_gbWS8CAQd-5CgdTuVOWbA7hM05vDxwv8X_Tiu0LAxT6IJAATXKc8bc8uIoR2_fvwuXXS3TZqNhmQ1b7KU7AOWK3d6Z4IExq7ewtnbXSmWbwvPOMQxucgFc13W9cnPGDj5rxw3DR6A3J7NIGVA8A0m0v5Pdqe2By17veUh3I20E2DMI3JeIly9Xp0vBgjjN8wR3XumLpJ3_v7N-oKnQ4425zz2YFzlGwgibvBuE_d__-oQKuljJCDNlq6leohUvWK20DBIDYGR9WkfzysLz4Mp6nsJv4iJgg4tXpPuGxXyswpaB1kwKEynxNHEiYBqoLg-zxfB4SZXqIDVJD-Z09qqrqwNAebqHuxMNtDIVde96AZbJDmoJO8UUsFvJu90opUhZsRpo1HcSVxE9MHUZfMkjuVgJivjAVQ5mQhOybCS7wtWeo-ptQ1N3hiqGWcsvUVfrItxs6tgbPfcMReB6Y1GDMVhcN0n75XeupcgpUp-p3wl4v_Q5r1oFlRvSkfiWhRdx5nGe3GQZthpISwdQPBg8Gqp33TaP4qdWHDSNXv3SdGk57jXqprrkog-34OulLV0V-HomVReZVzm0o4TWg7R5mY4gY7YGnp-BMgGWei60yUrlsvwYV-POTuNuL6qMpPcM5paUikPgg6VBXqtBvawGc_Crqyj2h3wwGe0k10ibMfGaBAN6474-rzLNXBQG0gZ1pxXPpl1SEmWQQbS9cG38erFZCYay2alPth776reOD2dwk3MU72QXMOYTI9dtf0uxfxqK0kiA1BriP2YuuopvouC02C0Q6nZ2Tt3dZ1OLhFt7lgIPBz4MELZiVaafgzNSUe5uNhh_t8vBLMQyPC2rRDjumKaQh1u4tqML3N6aEqNrXLh5vBQHOWL6Uhr8Ba4s6cKGHKW5sJ8VEP-fEsxn44euR044YcPCbgFsGjglfoI4mFhIzi3bcEwO0buNUjjqeiN5U5UmT3GPgJaF7rzNP1ViyBVtNiLfGY9M8gvSYdAJoT9kCsEzatBW-rPCxBFcK5aRmYOYU-Ek5cgpRbeRrYFCVUDceRiAL4H7lerNfnmbvSpt-cD930ViJVHSeenVSNOBQwVf_i0rIyyctYNYjB1hX-sP_O5Mmhhgz_2WZyhjzIaePIrw6Nz4yDXhf9TPMgxm5QbBPCgvNEeMggiJDpPMT4_wWcn7WKs6bmNerXbS0t1KGT85FtCcJ7cJPt-a8xYrqUFxagzgSSJn6ZiMs_fM-ZWlzgkpVqEk4qr7__SBvKkumUEuBi7dZPAGeYNLnrxqeRF04wuGP_IH0IR4RJVGYLpDJnmo1LeBMhvpjH31tFI7bObf_OONYLbxV6UWwV4Ct3ShRx_5g2ZIsxREsQVMkoo3Bo4IcPZ4LXKXedpJzmtVgtlrAu7K1isqmcw5wcRGdjHoEwyjxiLYWlrQXg6YlXVuPHhmis7j0Y2Dq43Gwg4Ue99auFvQI528n81U1vTN0JXfOc9q6dGehmfpQM78joBjwvDy9YOzDyCPZo6Ou4Rnsa8SO6oj4WaojebGp2pObRHI87qrtJxFEtxcncFA9uMP9_PFAOD8ppTo4mbP4HdGjLqEjup9Tbj6JRb7yyLReTVNQhhsiGnoYzlI-5QeQjakpxpjNhVBSqcHnkjxvcp2MaQRrDXV-rd4Cv5hI9ubt-yUX4TvnrUNXMSOPLBT4cagdgvpNP6zrIvD-qs2sSUsawF8ox21Xtx3Wuoa6Yidn93e4EKmPhj-I390015BdB6tSR4aQtfB-x8Pl5sp_z_it3xAZn4mnrO9niPC8Q9OdaoJI6gGdaoMRcE5ry6bM_3zldM6aPZSZRtK5-q-Kg_AH9QdHkJKM-IM37t7jSMaUKsJEsPT4ZkN-Wrl_an-wefWeMe8uZFfqkYGbZ2b5CbVo-rVHkEp_inxvbmU9b9G2xJw1ASQSCNKy7cmy9vAdOPJVIl1S_vjeaZoraLkDyB-GjJcloqNlCrjWQY5iRLn1xs56nA-JlKQ6xYXw3-hBCyn18IkIG0fOwgm8JY4DwKuJBiKFZHC2Dv2Vge0BQGN9DHynt-Fi03bCeJI-cJMUQdphNaNO2UqeINpb9PC2oWbXzH2WgKEj6gJCFaM54wajkYs7eSQ9BMFMyTyxyOrY9BjFvsBYTrjoo3_zcHtkGMxkQdVnOayy38bIYsqFEcBs_3fTqdS7XOA2MyqYcKAF3MLTfcuj5J-4m3b6z3yFZ-AHtqTUSWAvVUNgs4kVVTG1hk6X0c1dDISM3pWDLXhg5tNJo0t4PtwUIoz0FXvmwVILjrDA4AFUulgpH6qbZFfHjyUba4VtXTJQG8gJZX_9Gp764Rd7GzXj6GKKn8knHgoy13yccbLiAJF2IrRivuI6LW3wU5iHmY1ds0afSkBoimd65dHEeW9uasL06n66wpz_98pDlIQBLBdZqEjVg01RUWgwiH1XdIhcpbPDLDLhxNF6Yhg-f6o1bjtTkXtsv_jZjY2q5rNIg9pbjD3M41qKxksMoVMAggkCHJIvTBwCzteXpCkm-1nBFAUWRpr7q2LE7yBNBR80HHZre4eeC1oQANtsadRg_GBi7GGM8g7qncthm98tSp6mrtEikUpMg_zcO20ZIBNty9Qv8BM7NzrjRrxyEmuloaEao2KJzxBJSRbp1i5QTGl6bkXkNB_Bqy09N2hz3Rz4-IUwPkyRZgZoDvfB2o--_Fn1As0GnPGtgv9cb7FhYXxw_Ls4BwASl76P46iEii8n9TO_3hEMRCbmO1lg81xyjcu4N3ctzLjsJMRVZZo2w00ga0qG0ydZnLo7OSDMno15PwuxG7xhFU8LRGWNCa6aqnEbaAbAc-z0-AICXN0Dz6i8F0mP63TfmrImuaJfM7NwdR6T19UluDjBKANdR06sAN01D3Aoda3VLG76sTid0Rrt_7VVUSEojDLtcSluoqyJy3JB7hR4KOjBTN9BoBxpC-wZbSBWPkonh8siAvKQlZRVjXR0r4IWgoUcv7BT_Kd3IPvPgjp94HrmBXhieADoSDqepAhHqnGIxESNK8X5htIvdIj84kKS2I8CVJJ2krT5tUHggUGHEBmwjIT6Ydf-NV5JF6oUju_9zzIjb6YgVhQNr9_kj16qrc89-JgyfZOOUA0jziHbdWnKoUg9Zb9FbR8XEZ97n-dD35f2fjEPfoS1lGab826eyRIx8YmcpYtBk-9DfOGf8GRqHDdD4X6lA6F3tP_VQtJ8lxoqGJ-RYHaiHyU5VE1qsFSUZs252zhNj3LJOH7sbes72VLITCjiXnuGyZFyGWk_XHmSL5_8_Zw8tzB8dKhOQofOInYEO9Cxtp9bc034NvfeEfVFDJpOeSDix5rT7ahH9ZW3nJo223Bz5QpEpliHiDolil9sdakMIX-34EVXiTH2EK3uY3N1ROWt6DadDZwQIa7wg4WrRR92FJJUSlMfrJMkBUCv6AGanFWcX7oGAzd_znhtCZvyJCW9TRQZRNmNBn3Elb0CyxPjEKc6y8Sx37ktzXo8FZj9eqxIbuYh83IdNHem_vGHdxrfUOP0Kbr0ARJh1R2QitOyTME65UMG9GDhFkaNSlyr-CpCrk2rs1-ox342K1A-SkK-oceWnOYfM7i1pDI8FSrtd5SpVe9-u8LGIuaM8wPBOiNeggUnSyVJE0ZW2wUfPgpGQu9IEHi_vWuBGpI_Hpu0kMG2D-7qc-CU0wsx6q8Ag9W2JD4AmF45E7o0p3BPu4oJx5Y5VwLMVHz9ze-bk3G8jz9xjcFfNep5Fc4DTNzG8GviK-rd1s17FaeRbp-_EFUVduhrBRrgziZQptaN-wmSWi4qP8NMN0SFEO2Fir_bNQcSP2dwkf9iai4D2TOuXHntY259EeKJXec7FIxhIfROrv5fMUrkp8EkNTDcpUd0eF7W5UbxMW4MmxBEayLBNsCrP3uR3Ey1uzqrgRhlb7f5xr-580cP8n4aJEu-4RmEfbP32etX4F2DA9u9s7KjcHteqPh1vCZkNgr2nlVvQGbY9ZjS8BNJ6b1_oqbOD3zuHpJuLwiS6AueJJrxaAq8Qt-1W0HY6SjtPg4FuAMv_1BVFipWqo0hdBbA8jLYrspAUHoxpfxQaFE65TgHuU2v6KQJAzJi6ByKqHNwC0ESg4jrSDQEFJLZxeBaGEqfAgZu-0GqHtVtJIGAeLiUjwweZh0eNpUiVPrG8WoDCSj_mpmFwNrUPSkBaBjfAgtvquzCteI60KrvKfEJd_-JR0la9v4sFGpGxdzvqgBE5YASU8uNlDV41EvtMJtPVvLJZceLFB0YI1rCqXpG1CvbRb6Um-ObHgNv_ln6zNIMFsd_6gwm6BBEbetdJymKvsUk9TM9dEUAKOP4-Ch5QSYdk4AX2Rd-jM1PYChKI5bwfOiHBR77llpfAJbnWv9AtCCF10FDZo7Te2kEtDvsKLAZiXTRZTi_qGttcdvm8a0v83OKDyvqs6t8AB7F4txIu1ex-s2p0HxvEc-Fl7km9DLmYbyFcI8HBGosnBoE1uWnT1vEwcUt7lF2xZ72lWp_1fAazCzBeCY1BAIUkj4oegd7hh1kTrYibFDMZ9X6J1PqRWtC3niJg4qYjZKHYKKj0ULkYtuhpLsaTjtW4dOvCBPdczuu49UnJAavYGqH7Z7dl8vX-V9XzOhj6mlbhVI1IfAV-ep7YHj8F-axjjz0E8SLjd64ggTTiaxo0XBIkpox_TPKhQVKzoq-P2ZMHkMw4tyXzpFaGTkD9EXUC3YEGhNrc74Q2ssFgb8dErF8lxq-l9k5LXm8RShtuB0kzmok56U_Cc7VLRlxtjXRBoDF9qSpnQOFq8_j_EY_YEYZQlLVgpYOzaMdYG4JqkE3iVAn7zrPg17cHu5r2aakMlYArroSGqAfH70v2mTivEON887RZdzZV4AFFX5kwKUafy80v9KLVWImPMfdbLHSRCT269mXNiWZ9rRjT8uymLC24KUYlK7G7mnYDd8nIUxQZq9wFQYT5rgBM3mmx4mqr8Df8P4lZT2O4BrMk5DZEzonB5QcD55NYpGu2JpmI-S3oRd1-15mpE-1VGydwbz8vAsrQM76Cq0V6F4bciBrQ4XZ66loXJoUs2qTNO-qiEwJWSM7yKyQLNQhvd51DxO5zMir7kfL-CNtzAfi6v8HDnxfZO9I7pNhVlrt8Zms-rMDQY_2eE-zjAcW_moVWyo4Ne_phghiJ6ApT6jcO0YzBBbPGEH_F-0pEbhaqZCrI-6d8EiXaYHJPw4tUl00WLtgKmoQI82lWFkgADllzqNHEKodJJjlRV7jTiDib2H9lnDwTBO4y4JtY4BuVq94pvAChZKA69Hl-F-cEq-SzrsMJ9owbNwbT7olNTbiDJwVHJ-7kQK08fTiVcUr6VjfGT15QpYEnsCigPG-3etvg-z6OBSvznmbcdOU5KlYgzAibgrcgX0DQnYUVIxd2PMbTHp8HGNkJwiqWesYtSaK6JuCs2aeCR0yLPcqFWS73vzlUTO8Gv2k-HsUJdvSnCEtLMExNPryrvEkD62T27I2MEafiKyMAf82UvDtOe_509dkuthVcN148ARmmXdipLDLP7Nsrw1-MzojPgq35BTaWmfAVN4fH1CufnMU1gJvZZVjPDFWj9jjCfC5OEqqTw84jtuk8ZWqZgJv-qJCMu-MLSuhKSe3thlcrw0vWdOevCIBCx4azniuwMQMbXdUPHv9EgLv6-6QvxtV7fDxtItyhs-Mcq-V9TvmVzFZ9zvi1UO_6lwuPclx79vuUhSIVfNrOptqWkpb9Ys0BtOHLGHc4r9ZAF4pNSKFiNm331DVGcgHvEI1LW0chWWFf6T6KDXJkaywphi0erA-JjR0WxHZ9tg__B-P5RGkpT_rCKVUeo0OhwEbW4BnUjf2vnWS0_Pe6mwKgLlHwVJ5h09aYz_NZ_W_a6q_R6P7r1xJ3WzQ0zyonkMqcZnJCv3VoQgwAx9gfkkCZ-odbRrS9q_DN3BWQPSULEwo1Ma0MfxvWfbL1ktoCeFyCgj2_TofQfJifm0xC1EXkniTNetelXpEskL1J8FGGGDt-g8rAp2qun9OamF-KYLALvhIjArVZ1HmsLZpdvyx8eSnZaSu1mGo3aALviWnjzYoKw9Rp9xJm9Dc93fAJ8GQGa5T6X4Y6vZ-BMXcA0HYoGbKwbJLdlotKbz_6tEF7jWtpYi2P7MIqstGgeQtIOzcWPecwdaxLtw1h0BwAgpthmyKaGvaiRdG5_HQ2uRYr-EIdk9GLZUBor9KjF40gy-NGSyHLDCGMQCwAi9lXgV5_M2oVBJ-DEMOPO9lYGEhXkkzNOCImxBoS2qNVshacXP0lmRWMoXqHd6gNsgqAguADQk7IpHLM-khiXerF0RKswT3o4MSni3AcpniNmJrpLsKACJNXhjqTM-f1HdTmfcsd-8wMj0xiFKBgNxv4infwYMz2Q-CljjScOSbaFBOlf2TUlZq4nuuO3wzYOHHsrMCiZHsE_1cZZMyh4gJEYUSfH8KiXmhsA52vC7-oIbEaYbphLwfbWqQAqc6TCBD9ceyevYFa8acf27XlQthNz57hu29v94DoApOcwvVOjvKTMp8bP_7083sUjDbPk483M9-bEI8NLxrXiYhRe7PTtwOKnw7KApHfE5DH_k2BRJ2pCwnKi7HhNLkl8SBqEpd2nwYUNmeNc1DMlFz6_0-R_qSrhHMFgkWWaMR-oQ-pkDcqDK14oFg1qF-uUXEUb7DDRY1FXTuxaJdNt0rE8kx2Kjcag8BSo0XgtThKNDWXnpcQSFjVrSLGBwdG9YLht2A1GYmfq8evAWUSlfb_15UouvICxm9kJ8iARkLSTNJkqj3uYl8L9e2ebYJsyRKd9pgKGgqo6iyeqareXnDDjrI6HVsLUNZfP5JPSCZ6vorrLOPGzMhfJLWCVzOHNBcjwW329NGfif8L5ZR98nWeUKs9SRTeoO8YZwCOMIn6zropkEnQBYWpNK77IVkSUaKR0-y0jcdSQSXUQf2imP51iZj4hGM5vYVM642nwhbpMbAQfKcIn9HOCTKCI-rGW9wLXpnSLpx4Y-4jNmIpJ4nVhENMbXwTl68ItVnE2sO51UzxBVShxad3WbNkWJri5C07lkiLEL5Sa6w2EZClDvWs-tDPTsWMmbzbvmbZDaPsv-XL9O094PeSFzgovg3z9Ecl1BrzmmYfX3HJvhgpl1lbWiXmE-xh2I9xIXgTGhtCNsrYvqxCtpDKaA8dBvd2Xs67N3fNCZs9JKDBTHEmGsKlt-ClHPMIjwzJMBMpGrv5w5dns_drTG0SMQRCbMrOq5j4-kt_8HADZOHO--W1rpHlFw3Nyyfxpk5kz4CZ-hy7lWbYdK0nhxfEFJJ0joqekw40jrdZks4eYEKUrSQ0-4izXl3QXYc_qs-Yz21nvdMFrVYQTy_4HyeQLOvtV1qo3mZT3Y3N2k7zmbOojawzx9yFiM761cQr9rTXL5E-Bpq-h7XeBIauEomKYnUyWmIjXYQImBjpiVVXXu3IZ7gvuwwy9WrAKbgC6NcOHNBkGGEGd8RInk3cB1n3A3jZB_REd9yzocfEXtOyy6eQdmGudbLOvjN1zEh8Opv_niIchBMOrN2MltB7CqxDmxsehJA1pIts9HKsZXQVKwWu94wpmkQpBLN33M4bVCj1jnWTFWDDuBLqZfXLRfRqW9CStNZt_C4_LZ768TWQubMEq02jtcYufvZkRWEmvAqAXFcfor0HZ8413DZokKyRMbYcrMB19oQLsbT5BZSSjz7qed1liIaMfMxlUKc8ToMNsRbKgJfBAulHQGGVNkqgN3CjBEVMbp1Hl7WdneZe3WJP1PNlpIMsJL1e3binizBkRu35T3D8J9O8bLADFbBLC_95PoY-tKnx2VMBmhd4MjNjOnlqOOajWWogrRSuax7yuvsvdubSRNNSH1Tvudm6mTtTk8TdW8IwTaW2RUF1g9x3Gn997U25VQQ5KBD0-OY9ITn84RRbkNeyT8dQGtpsDck1NRg758d7r3ZnKYYJAWvaAOfpVZ7ds7CFa-npyXBItzmLn27G62GP_ty4BTVyNkaZYgbgjeIiSf9I078kDKFhtQzGh4QC8Dv6Pfby6wsd_7Y-gbQaipS155Gi9xCIc7Tmyt5J7AVWPAIVli8cZi93oKnE4LjfbZ0UOUqxl8gjWEZCRfamY17mqU1RtkF45GoI1H-BnG0kqRBzU-K-AZliu46iuZNLj_D-Pr3TJZt1VSOLRKVlwyraJ-m68_5gkQO6g6YD-rz73zHX237ApF3EWAIC__iaEVLqec0Nvf2VIuLaxg_uMyCGFwLZlubWLvvq0flL4JjIpj9Fqf4EVujsRPAA-jP3gTkwrkDjoaMH-ZjnYWOjMz8gDeU_L1cNw7Dd_ke-sHEUvbqGE7T_jK6DUXpDJEHd80rNfMEtd6HEzaaDc8FTriylgLC7_gGiStJrOPAL2g3pGSSPve5tEQBnwBFl-9Cf4fI-80dC16frX6QphLosPRE53KzC707VF2QDKHHPHt5sycAH09Py1uMhGUS_mJxv7yA1SrefCQkLTVBti_SwTIaPE147tH3bS4nXDg08XhkqcnAZVFqkvYQRtPRmpv_A_bpw_MFbtYIA7sCXv9PrkI_9WA9xMD79EMSLR03mGTreObau4An3-bDeAp3ysTYznBVNh7MsCo9KdyluXXoZ1d7dGW0VkkDNsIKXOlzXAKbDH7j-AI79Z5FRUWhST8uusLcbYM7Wp_hzpNGbMyXPYn0nPaw4t1nfPO5L44kkMpoIjV3quGD5evZVv2K0yDdJQ5OmGNGEUQpH_SndJoIOhB5ijJsBgH_J__PEiCkaPhJpg7UdoQbzgNFowgoKckqj7cV5ibFg-PHk0A0_MvaLi1vjHbHPBKB2RPzWSaz4H-YLbv_uKoIpZuhOXNBb52KZMgJdkauCaSF72-DRrKBnnlHAA6PFUnPx5dpGAqKm9HJSMop7kxkphxD2cEo_LkglejfVIze00glstBu6ou0v99-osWjaSE1bJcsmy1ng7GXNKxVW1cdl7f2_VARezSF2oiXekmqS-MqYFhzhcoUgjCq5D0MGU-r4CVwLQlIZtgIYr-NQjZFNRT38DC7n6dpSxvfV_YmUkhksEkFtYfxFTasAYEYndecer8yumZkcFI3E5dvfiBB7GSEtncXUOif_a1bHLhZWVX8xbYNB0G0qVVO5GJY3pP59hu7xSQMbhP7d6KMm-ROKXRedCDmLcwbVKlkQx2PVVM70XNzdUY9hEL_NXWaCnbHfFOZ9EH7VrANqytUoTKyNTywGMbqmFj8tbDntgYIHRxl49eM3HHmNkZ0Zme7fiirKo8LR9CQxLQftTMxpz0aXuBaZgCVkmeOUHHBaXDDiVHXk4woOwK27sd5jGkTUIs8w1IpujDS07XTQxA9Rfs8D2BWXqWhUE8p8J48_rb1EnnnuyQcEwEHs_35mx9M0-CnwZdEjIl19wpBv84t42jFBcp1qRkJ-VdmX5kU-9v2xQQJvxuNkcZz9WGHuUlTFS7dZDSE34rMCbeCkQoNnxeUabtREGgHYqqSlYW0uCF8UpMXvyJsH81ooHos1CjkOSApZ-X6lo800Qtn8ZR7COAL2v1Lg31PJQ-PBmkWQg0_s5hKkUIfAY8uMh-T6D4y-v6BXrxndJJHgraFVpkXMXGIEm2onU-unrjotvGLGqlmRhnU7QVwHFRI6ErDthFwUm7KMdktyvmsduJmUFFIJOQQcomLw4AQG5kSa5jAXFoCKkGDN4fBPOlj53QKB-P28xvQ10C-spHL4btOQcTBLuJw1K1j_44MVuSyVAtkCRQqpsN_ci2j3kElab3SDkRf-E3wYFDwruEirswvADRp65pFrd_P-Wuf5gj95ZHoBpHD7CulbRsaFxa0lsGWfFpcS915snocS_2mBAL_3vRdY_fRK_fvMzx_c8xMBr9PRKw_4s36-uwyT8I4yWQEMcY5-r23FY0Kkc90Uhvw0GuFz5Hz793QvTtO4HyNULoD83A5FSJyKM4vT3I2RbhX5JGiEGHjlvEn-Io7rQ443zze228WCo8SuP1nA5xniBUz-uJW6C8vxsqsBa6JMhjmJr5xQqkmjECTofkugzTMjexnpRmn3ee9EhQ7u39B8vqijOfOxQb-GIEaMgs7-G6yESSt3yMLY5zGTO5uwFPW8NMlial3QNj7lbvij_KoDhgmLe-elFsOB587lLeRPezI3fODQ55_wD9xQpkTc_Z9wJ4U174rtWgvRftzdkDpHWyaEFdoGNZPJUd8_N93Jd5z-XBluYPSaUZzimqLAl0Uh3LcXN3dyXUPlDODZirSTU7LzamhSp9mCCG2anVXzuP6us0R_oeYYdnnEhTvgZ_KGxwAJZxvMwdM38PMFS2kUXlueVPFLNr7H97IroT40pwxftnuxmQMrSLZq92UWK_1Mug8tSv_G0pMklLLTnC03l_sTd6z7EbgYJVTqve3G3VcgEbj-faRGGphqgm1X11NurwvbnMsqz0nXNRF37qD5eWfMfErHgINz-9g7r1JF0b-cGO0tNYbvADP_TzO1ZtZyLFKvi4syrxEUBcFWnr2UNly-IkDQCwPJLKJ2L0GFpZrMvLCLQkGiaBbjDyZ_XGEa4uWraUXi1nQLQCYcPuar1wBTD47Hh5nruqjzFYSfYPdxA_zmW0BPuec7noV-ygNXcpKS6a9kXW01fMwPDOPGpK5n9smC75VAClDc-_qSnaVZsj26e3n4YpFn8B6sex-xnlI4V-9dUmyK3n6KrOZBy4E1nqro_TmatgPkU1Z8bHyitYib06rm0PnzmFQpi2FxOd0iKYXrjKetfi-CQwX6dTatW_7mtrJOsLdkUCCS86cqkhm3_S5suxun-RtPP-o2YLoSY87DBly39Ae8n2pXSF2l2SqjDbQdUe83XmX0V5R7CUYc-0XaDpSR3dvuqBftVsk9Gy-EboFf6kYD6_tPAqvdKc9NTXxRWQm8Ec0sn2QGlgPq2ABRsLtuZbnd9cUne2D7X6nW89LXI24xjSE-HgT-TR6UlsTog2tnAogGfsVxyseoLq6CIruXQE5Sgl-ota2IDT3r5n1Xns6BUdlLSGhTBix9DfQt9S1AB6Hu3HdSKJ4UH_E_2W9Eu0JGlkbu0onJdCpfktLEE_jPTPKRzg56u13xNV8yEN7oVNFizHLn_twZp5kxsgtD7VfV7qXXBTZiigjSYFO-pyx1b8WdReECvQqBs62EZLZfpeL187PNvrDWufXakkkHrNDQfRgnd_YFDp_fglEvxzEIJvFLSTUM8Ym9QpJpAoZVO66HAKkfpBjUAPQCsRduYEV7iGXhP7OObvuFeVT0OTHDShXmiZ1VHKtdVLOxRiMO1NgaziISg8Fcc8zI84q7lIScjDg0UwBYEGBE9FwvxWft0SLC0VRBecSokWjWe5ilf3Qo0k7ZKuzzH6U9G0Pu_OgK2aqM8zLba9SO0kRHFMf2cN79GtN_AA3_nnm2Jo4OH-K-smqwRt7uaCsyGxYdu0bEJPgQ6-Bt9l9JB-38Lde-FNJKCwjYMONbMNHVkFmN51g-mvRMz7QbTmEz7R7QKag7GfJjRXtQXOPMZuACoSfu0eacOFNdOrtb8lRwL4_9sPX6St_LU0fHK09GuLHZncrPmjDncoJyuzCbjMpahfkuCaFmQ9WYiZGeEmhGIau3zYnugxiXslV6JtV6-rKG2279LdwK8Mz89yxiEtHcvrPJ5S1NQoSJW8hvnyjKgvqTx464OGVnjyKUtrFffkN2WisZDwLVRfq8jGgPaKkfkPDktxm40Cwz2ddjucuQkUtA6oUCL3jJrmOjfCg_D9_Ad51xkkl1UwujApweaLujmASZyIKoKM8BNDGFtYNV3ilrmMPkZdVhlwvdQdMskvqGp6Xfcin64didFhJKqpf2LmS-PmBsqgRhejbWWTiHSPtrBnVkmEH0Qoyc-sq1QYlVsXR8J6s24UYBer3A9HO5hqFIJuHlYg0wFvAWW_ET3KuYuodmUMhnEvPXrHXAVF34DJjcZv0K-3ma60ZIgY5rJjjvkTb-q9mGDex-lVruxE4F5Ny1TRuPfCnOxb7NMIk1UUi6UEV08p74f5Au4Wa7KZz-DRJWU7FHOUwTL8va330doCFE_t0YHww0Mx7Jz35VcntTKNQodk1cjloDm",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "4KFqaaC9J9KjqtsP6NLO6As",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 7175,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 96283,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 95949
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 334
+        }
+      ],
+      "thoughts_token_count": 7122,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 110580,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "loading screen"
+        },
+        {
+          "offset_seconds": 1,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Khan Academy exercise loads: 'Move the dot to -(-B) on the number line.'"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Move the dot to B.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 2.5,
+          "event_type": "mouse",
+          "duration_seconds": 1.5,
+          "action": "move",
+          "target_desc": "green dot on number line",
+          "details": "moves cursor to the dot"
+        },
+        {
+          "offset_seconds": 4,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "Wait, B equals zero.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh right here.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 5.5,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "green dot to 0",
+          "x": 485,
+          "y": 420,
+          "details": "drags the point to 0"
+        },
+        {
+          "offset_seconds": 7,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Check"
+        },
+        {
+          "offset_seconds": 8,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Success message 'Nice work!' appears"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next question button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Next question"
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "New question: 'Which point represents -(-10) on the number line?'"
+        },
+        {
+          "offset_seconds": 15,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Which point represents negative 10 on the number line?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Where is negative 10 at? It's not even on here.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 23,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Take a look at this, right? It says negative negative 10. What is two negatives make?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh... I don't know.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Wait, is it E?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 34,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Option E",
+          "x": 190,
+          "y": 750,
+          "details": "selects answer E"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yes.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Check"
+        },
+        {
+          "offset_seconds": 38,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Success message 'Good work!' appears"
+        },
+        {
+          "offset_seconds": 39,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next question button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Next question"
+        },
+        {
+          "offset_seconds": 41,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "New question: '-(-A) = ?'"
+        },
+        {
+          "offset_seconds": 44,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "student",
+          "text": "Uh... It says A equals... or it says 6.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "types 6 into the answer box"
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Check"
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Success message 'Good work!' appears"
+        },
+        {
+          "offset_seconds": 54,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Bonus question button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Bonus question"
+        },
+        {
+          "offset_seconds": 56,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "New question: 'Which point represents -(-5)?'"
+        },
+        {
+          "offset_seconds": 57,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Which point represents negative 5 on the number line?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 59,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Option A",
+          "x": 190,
+          "y": 660,
+          "details": "selects answer A"
+        },
+        {
+          "offset_seconds": 100,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Check"
+        },
+        {
+          "offset_seconds": 101,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Error message 'Not quite!' appears"
+        },
+        {
+          "offset_seconds": 102,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "How? That is a negative 5.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "It is A. Or imma just pick E.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 109,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Option E",
+          "x": 190,
+          "y": 750,
+          "details": "selects answer E"
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Check button",
+          "x": 860,
+          "y": 790,
+          "details": "clicks Check"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Success message 'There you go!' appears"
+        },
+        {
+          "offset_seconds": 112,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Show solution button",
+          "x": 650,
+          "y": 800,
+          "details": "clicks 'Show solution and move on' (text varies)"
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Screen updates to unit summary. 'Awesome! You improved your skills!'"
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Up next: video button",
+          "x": 860,
+          "y": 780,
+          "details": "clicks Up next: video"
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Video page loads"
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "[Video playback] Opposite of a number...",
+          "speaker_name": "Khan Academy Narrator"
+        },
+        {
+          "offset_seconds": 127,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I do have to do this one thing today...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 130,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "...um is it okay if I screenshare for a sec?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 133,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hmm?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 134,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I have to do this like, I'm like required to do this one thing.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "It's like goal setting.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Chrome (Khan Academy)",
+          "to_app": "Zoom",
+          "details": "Student stops sharing screen"
+        },
+        {
+          "offset_seconds": 137,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Chrome (PLUS Tutors)",
+          "details": "Tutor starts sharing screen"
+        },
+        {
+          "offset_seconds": 139,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um let me share my screen for a second.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "page_scroll",
+          "duration_seconds": 3,
+          "target_desc": "Student list",
+          "direction": "down",
+          "details": "Tutor scrolls down the list of students"
+        },
+        {
+          "offset_seconds": 151,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Yo what am I going on?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Goals button",
+          "x": 1050,
+          "y": 550,
+          "details": "clicks Goals for student Jyvaughn"
+        },
+        {
+          "offset_seconds": 155,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student goals modal opens"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Where did Khan Academy go?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oh, one sec. Uh we gotta do this first for a couple minutes... or one minute actually.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Update Goals button",
+          "x": 1050,
+          "y": 250,
+          "details": "clicks Update Goals"
+        },
+        {
+          "offset_seconds": 202,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "So they want us to do these uh goal setting things...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 214,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "These are just like the default goals right now. So do you want to...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 219,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "...update it to get like a... an easier time so that you can get snacks at the end?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 224,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "How do you do it?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 226,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Um okay. So what we're gonna do is we're gonna just set a new goal right? Because right now it's at like 50 minutes...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "It's at like a very random like default goal. So...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "How much time do you think you want to spend on like this every single... or in a week, like 7 days?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh... like 15 minutes.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay sounds good.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 250,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Effort Goal Slider",
+          "x": 200,
+          "y": 700,
+          "details": "drags slider to 15 minutes"
+        },
+        {
+          "offset_seconds": 254,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "And then... uh... for the skills...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 259,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Do you think one skill is enough or do you think two is good?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 307,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Two.",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 309,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Two? Okay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 310,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "drag",
+          "target_desc": "Progress Goal Slider",
+          "x": 650,
+          "y": 700,
+          "details": "drags slider to 2 skills"
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Oop achieving looks good. Wait nevermind I can't move it. Wait yes I can. Oh my god. Okay we're so good.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Save Goals button",
+          "x": 1050,
+          "y": 350,
+          "details": "clicks Save Goals"
+        },
+        {
+          "offset_seconds": 318,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Modal updates with saved goals"
+        },
+        {
+          "offset_seconds": 320,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Alright... Let's go.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 321,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Close modal button",
+          "x": 1100,
+          "y": 150,
+          "details": "clicks close icon"
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Okay back to math. Yay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Chrome (PLUS Tutors)",
+          "to_app": "Zoom",
+          "details": "Tutor stops screen share"
+        },
+        {
+          "offset_seconds": 325,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "You sure?",
+          "speaker_name": "Jyvaughn"
+        },
+        {
+          "offset_seconds": 327,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 338,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Chrome (Khan Academy)",
+          "details": "Student starts sharing screen again"
+        },
+        {
+          "offset_seconds": 339,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Khan Academy video 'Number opposites' appears"
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "background",
+          "text": "[Video playback] Opposite of a number...",
+          "speaker_name": "Khan Academy Narrator"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 10,
+          "speaker_label": "background",
+          "text": "Everybody I know that we had headaches with the scooters not showing up at the beginning but great job to all of you...",
+          "speaker_name": "Mr. Antolik"
+        },
+        {
+          "offset_seconds": 504,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Video cuts"
+        },
+        {
+          "offset_seconds": 505,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor camera view fullscreen"
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "I'm back.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 509,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Are we working on anything today... doing anything?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 518,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Black screen with name 'Core'Dai'"
+        },
+        {
+          "offset_seconds": 522,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 523,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "student",
+          "text": "Excuse me I didn't hear what you said...",
+          "speaker_name": "Core'Dai"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 20:41:16 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=115878",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"description\": \"Black screen with student name 'Core'Dai' displayed.\",\n      \"details\": \"Tutor's camera view is not yet visible, only student placeholder.\"\n    },\n    {\n      \"offset_seconds\": 1,\n      \"event_type\": \"view_change\",\n      \"description\": \"Tutor's video feed appears.\",\n      \"details\": \"Tutor Iraine Taine becomes visible.\"\n    },\n    {\n      \"offset_seconds\": 1.5,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, hi back. Um, are we working on anything today?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 14,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 17,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey! Okay. Um, doing any math today? Doing anything?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 25,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Excuse me I didn't hear what you said, what you say?\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 28,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are we working on anything today?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Pretty good.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 39,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sounds good. Yay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 41,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, okay. Uh first, I think... sorry, I know this is a little bit late. Um...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 49,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Set some goals for like in general I think.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 54,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so I'm going to share for a sec.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 58,\n      \"event_type\": \"view_change\",\n      \"description\": \"Screen sharing starts.\",\n      \"details\": \"Displays 'PLUS Personalized Learning' dashboard for student Core'Dai Hodge.\"\n    },\n    {\n      \"offset_seconds\": 100,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh right now it's just like the very generic goals. Um, so it's like an unnecessarily high amount of stuff.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So, would you like to... if you reach these goals, there will probably be... [inaudible]...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, so would you like to update these to like a smaller number to start off with? Cause right now these are just like default ones which are very high.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"mouse\",\n      \"action\": \"hover\",\n      \"target_desc\": \"Update Goals button\",\n      \"x\": 860,\n      \"y\": 120,\n      \"details\": \"Tutor hovers over the 'Update Goals' button.\"\n    },\n    {\n      \"offset_seconds\": 120,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Update Goals button\",\n      \"x\": 860,\n      \"y\": 120,\n      \"details\": \"Tutor clicks the 'Update Goals' button.\"\n    },\n    {\n      \"offset_seconds\": 121,\n      \"event_type\": \"view_change\",\n      \"description\": \"Modal dialog appears.\",\n      \"details\": \"A modal titled 'Update Goals' opens overlaying the dashboard, showing sliders for 'Effort Goal' and 'Progress Goal'.\"\n    },\n    {\n      \"offset_seconds\": 124,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 13,\n      \"description\": \"Silence while waiting for student response.\"\n    },\n    {\n      \"offset_seconds\": 137,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Say that, what did you say?\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 139,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh. Um, so...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 141,\n      \"event_type\": \"mouse\",\n      \"action\": \"hover\",\n      \"target_desc\": \"Effort Goal section\",\n      \"x\": 400,\n      \"y\": 300,\n      \"details\": \"Tutor moves cursor around the 'Effort Goal' area.\"\n    },\n    {\n      \"offset_seconds\": 144,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"...going to set goals, um, to one that you feel comfortable with because right now this one is default. So...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How many minutes do you think you're going to spend on, um, your assignments in like a week?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 204,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Like an hour.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 206,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"An hour? Woah.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 209,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mm, let's say how much time do we think we're spending on like the computer? Like on your program?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 219,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Like...\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 223,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Four hours.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Four hours? Wow, that's a lot. Hmm.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 229,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, let's see. Right now it's at 30 minutes. So do we want to... take their suggestion and set one at 18?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"mouse\",\n      \"action\": \"hover\",\n      \"target_desc\": \"System Suggestion\",\n      \"x\": 350,\n      \"y\": 450,\n      \"details\": \"Tutor hovers over the red system suggestion box for Effort Goal.\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"mouse\",\n      \"action\": \"drag\",\n      \"target_desc\": \"text 18 minutes\",\n      \"x\": 380,\n      \"y\": 460,\n      \"details\": \"Tutor highlights the text '18 minutes' in the suggestion box.\"\n    },\n    {\n      \"offset_seconds\": 245,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Or do we want to leave it at 30?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 247,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"18?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"No, leave that at 30.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sure. Okay. Sounds good.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then for the skills, do you think you can do one skill in seven days? Two skills in seven days? How many do you think?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 260,\n      \"event_type\": \"mouse\",\n      \"action\": \"hover\",\n      \"target_desc\": \"Progress Goal slider\",\n      \"x\": 750,\n      \"y\": 350,\n      \"details\": \"Tutor hovers over the Progress Goal slider on the right.\"\n    },\n    {\n      \"offset_seconds\": 309,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Two skills.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 310,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sounds good. Okay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 313,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, it won't actually let me save it, that's... Um, okay, I think they're going to make me decrease it actually.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 313,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Save Goals button\",\n      \"x\": 860,\n      \"y\": 120,\n      \"details\": \"Tutor attempts to click the 'Save Goals' button which appears inactive.\"\n    },\n    {\n      \"offset_seconds\": 321,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So for the number of minutes, I think we might have to actually decrease it a little bit.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 326,\n      \"event_type\": \"mouse\",\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal slider\",\n      \"x\": 200,\n      \"y\": 340,\n      \"details\": \"Tutor drags the minutes slider from 30 down towards 18.\"\n    },\n    {\n      \"offset_seconds\": 330,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Uh... So do you think... maybe 25 minutes would be better?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah, could work.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 343,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Sounds good.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 346,\n      \"event_type\": \"mouse\",\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal slider\",\n      \"x\": 300,\n      \"y\": 340,\n      \"details\": \"Tutor adjusts the slider to 30, then 20, then 22, finally settling on 25.\"\n    },\n    {\n      \"offset_seconds\": 354,\n      \"event_type\": \"mouse\",\n      \"action\": \"hover\",\n      \"target_desc\": \"Save Goals button\",\n      \"x\": 900,\n      \"y\": 280,\n      \"details\": \"Tutor hovers over the Save button again.\"\n    },\n    {\n      \"offset_seconds\": 355,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Like you originally said.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 358,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, Goal Achievement Strategy. Never mind. Okay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 401,\n      \"event_type\": \"mouse\",\n      \"action\": \"drag\",\n      \"target_desc\": \"Effort Goal slider\",\n      \"x\": 250,\n      \"y\": 340,\n      \"details\": \"Tutor drags the slider back up to 30.\"\n    },\n    {\n      \"offset_seconds\": 404,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Let's move this back to 30. Just... Okay. Like you originally said.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 407,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then... they're also going to make us fill this out, I'm so sorry. Goal achievement strategy. So which of these options do you think might get in your way?\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 414,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"What might get in your way? dropdown\",\n      \"x\": 300,\n      \"y\": 620,\n      \"details\": \"Tutor clicks the first dropdown menu under Goal Achievement Strategy.\"\n    },\n    {\n      \"offset_seconds\": 424,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Not understanding problems.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 425,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Got you. Yeah, same honestly.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Not understanding the problems option\",\n      \"x\": 300,\n      \"y\": 700,\n      \"details\": \"Tutor selects the option 'Not understanding the problems'.\"\n    },\n    {\n      \"offset_seconds\": 427,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then... let's see.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 430,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"When I... dropdown\",\n      \"x\": 300,\n      \"y\": 680,\n      \"details\": \"Tutor clicks the second dropdown menu.\"\n    },\n    {\n      \"offset_seconds\": 438,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Not understanding the explanation.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mm, yeah, that's a really big problem for me too.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 440,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"don't understand the explanation option\",\n      \"x\": 300,\n      \"y\": 730,\n      \"details\": \"Tutor selects the option 'don't understand the explanation'.\"\n    },\n    {\n      \"offset_seconds\": 441,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"I will... dropdown\",\n      \"x\": 300,\n      \"y\": 740,\n      \"details\": \"Tutor clicks the third dropdown menu.\"\n    },\n    {\n      \"offset_seconds\": 452,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Ask my tutor for help.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Got you. Yay.\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 455,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"ask my tutor for help option\",\n      \"x\": 300,\n      \"y\": 780,\n      \"details\": \"Tutor selects 'ask my tutor for help'.\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"mouse\",\n      \"action\": \"click\",\n      \"target_desc\": \"Save Goals button\",\n      \"x\": 900,\n      \"y\": 280,\n      \"details\": \"Tutor clicks the active 'Save Goals' button.\"\n    },\n    {\n      \"offset_seconds\": 457,\n      \"event_type\": \"view_change\",\n      \"description\": \"Modal closes.\",\n      \"details\": \"The Update Goals modal disappears and the dashboard updates to show 'Check-in complete'.\"\n    },\n    {\n      \"offset_seconds\": 457,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Great. Thanks for hanging in there and...\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 465,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"background\",\n      \"text\": \"Please put your headphones, wrap up your cords, put them in the bags...\",\n      \"speaker_name\": \"Antolik-Allen-Bennick\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Have a nice day.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 507,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You too, you too!\",\n      \"speaker_name\": \"Iraine Taine\"\n    },\n    {\n      \"offset_seconds\": 513,\n      \"event_type\": \"spoken_utterance\",\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Core'Dai\"\n    },\n    {\n      \"offset_seconds\": 516,\n      \"event_type\": \"view_change\",\n      \"description\": \"Screen share ends.\",\n      \"details\": \"Reverts to black screen/camera view.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EoeJAQqDiQEBcsjafCQaho3fugqXGHulO-PHAyIVUd-ur7M5RvN_276NTtNYucGbFLH0UfHTj6T9NwKr7FHQbSdiTxF_8waYDlzvle2HB9g66ekwg9MJSJVJx91KhE4hYBh0L_4Ndlj3Pf_FiGC1B-dl_pypOlm0Tn7couO07CasPPQU9mTzd_wsxFQOvBzBflmk1hAJsFcHhg7a_TTR4OyPdYu5KAclJmsEgf3mFwHREBr3BPBNg1T5ncuMQp6FeFfeFXLKslUhApt8lJK35uZD9_p2Ge_wykOANV7CLBLppqRkAa2XPu07PVarjmcY_RDwoGBGwE_BvvmY2csjLpAkVlOACzF03_b8fASqXk9kMyx2sRZKeXiwPU9kyWjakMpPBSfat0W9EITqEuVAHFCfqfE9nXo5KcQAJqSqlsA6u026-SBvywXxJ2ixYHgLJqrpRS41zJ0lgya349PqmOklOmIQXtnkJvoCoOMlhaKRyvAC99guglQjufMTPrVJzi3fhtfFOTkJ6OnzOAKRNyTXubhYnt78gHFehgXtUeXgX2zc_-jcbiV9gVbB9PMHChn0FnMlAznONFD3ThbMBNihx0D2MRAGDaZOSkTi-lgVe8mtnDIdjMdswbQq6GNg63ron8LJWwMN1A1Tw9Guf4D3LQaYR7hhJzuKgqj8lBXL734oZrV73edO0hcnb1-PWBsDlh9hkXrT3wQ6aX-uZV8WKV3TgKSWvftTmrPKMsbryN8_buZTCMUZ_HCp8sNMFqCfQo_Jqe1kYsg8027wbwADyUu2PC2SiPYaNuqxONj9biTXdZqf3JRnNgMIOQWDYqx9u5d96tNGINDgKYoELDhddI8qajiORAbtMScMzJ19cby8XNHiZJMKx1FqHtge1XqgDejs_sKd9jVm87j6ofQy1Xq9YntUop0_Dqvo3rB8FHFCI_mmuWcwlOruS-8mZGZ49QEE-ATwKPaivIimPFRwcogaodIkA6RRh6IRAiU3ex6Rem2hNISCl-qOgq2zmaqNXZR8NfzeqlunSVzgaD3CVIi24IUFPRvF_gvk5b_sO57Jt84B1c6aUEoQhyhjXeNQxtkhqgRUVOegO_BJYDnArzNgUKkgtj8b8mBsmtuYg4EW4z8kJ_B1_HCA0hdzcIOSiVLyyEoZP7gnp5tzL-BGv5VUeWw1t1pJzXqw-DacFn4ySu09Qici-2yr7rb3DWe54Gb_VfggLZTuSAQqfwJV6fhViR5hrMGlTfMYfmCbUIZsQXuOznD72AJksDCWuXWVueLmiAZjZDmVpo9NeiGQdzRrjLe7CB0xsSo_UktSpHM-HR30GTiLE35jngxZKLetUXwGqQShFDwWzP5O0ZhylzuerYXRczL1-gMS64O2z36BYpEVSGS9v9X37ddMnZ7jCDIECyqAZBAvQ1m5u9Y2osq_TT6lkhIFKrHYzCheADFIt_0Zleg_VtmXDxFmSGhuYPwcZPAmgI-SoQFNurns4cy71GjfRCfCkZbWoHfIJ6hcMcg-g65gTLeiEdXjT_bCDdF8Xe_uQfbLwY9VF6HFuY0NN37n_SCLDpotExTho3mj9SCQnP62ut-jCQ2cDd2eB5MKb7C53uM2j9mA3aABNPafvn-Cj6iHS7P_x6XZBY4R2otcfbs-4UlHA3piCxIQyH9ymJKsWG-x19_kaFCJlQcJQbKIYDk-SYi3w1NS4vSaFvJ07qi08GkCebPDT0yxVmJ_UiXxIkOIcpP8PPgj78lyuYSTh3akdmCazw9zMtGNP4IKcVvibvXCdzZIW87cUK5W_dskXJou0xDuL28eqPi3mOeKoVYLIUKfapkJWaN_xzIs9FvLzUeEMWY7JiICBRujVpvGSIBcExihaHc8GwYSqne7WZPTYK9sRa3tzRuc42FH5BSbCHr3rduKi2Aig8Xvp-RodPCRXiEfDP3Kpm-l58DyK1pbHyTWePRSa6k7012TNlC9kiyuVU0uzYBCtpWM7wqpMsRfnyXPYkQHIDYKEsheEvimA1UV4vaCmmxPpJkXzPW7OzSVFwjKAAI7_4JmjvA4McbqFVRtbffUpYI-_3QKKLVI_DFUns7X5E0GEk-J-g9EfHeeORQGQMEZGbIsktm4vAjQ3mAMsMCjJmgiXUjLbiVYhpTnVvA0hxf0053i7JqUL_hGb-QgGOk2LLR7ue4uuovjA9LnWxv6d3dQSNFtG9F2zT1KxqINogHki3q8lGIuT5T26E9f_Z_I6oyQe8xZ573SqVW1n_v3KRSaKU0_DVrvyBG_e78TyjnDXqXsCVJQyrExS5xVOn6ZvS6Z_Knmraz_X_tuskAKCHOYD8kuXDqvkDQdeHYIMTe45-gXuFh1UD4pXZC7EBYt2DDAP_R3ZXToz5AwTM1hAnL5x-KW8hDbvd50VUQRhPeS5z2fShqriM3rgmTU5MGEncil7XnTj23R7Ppl1KD7y8uqAOt18ov2mRYP9YZaSjYAy71pX03IUXIEL5gNblCuEKAE_SyA9LBG8FL4g1r8lwewAXjdm_kWT-GwcvT6BQmHKPS-o5ZBkgccfGzkgjcQI8MeegFDId6hbIjCBjapglMN0-hGnLlB8bDiWj8JfdcUKUwHK2ayrBLStZCz_F6T-vZgUZQqhpRlAd8jvWjk7sSrnWtoJS4WQerjyR7Mru1iEXvdm0_W4gGDrzjA6rHOPh59_-FYTznwuWhbpWBi3YK2E4yW0Mg0ezixn8EMYeWCHOh2nAnWVNou1g-zSO5OGJMwVThoDxVNJWwmBqadH0NvDZCV3iZty45TMnMAkKQlRrXr0OxmxnQ2VP8KgfkRqLRA5Idd2M5QpoTJn7BQqfcM9H78zvDC1jiq8tH-BOmCm5BIRpr5mCXvuxMkS1Tu9T2XYxCg9MUULsIxh9PJvfuQ9AGP1FDbrTF7sqmvThpW7aa4csFizmgz1bv-vORueHVWWy2R5G4A7LqLJ4To-alWuQsyPxC8Nfmb8T0rN_oB4nFfFGbj9n9s8iDoQeByWTjG-TXAiMjVSc1ocwmtEWl59X_el34gXUXaMeBKOSXZqJ7pneOxaioL6ABbv9OI0Ixhk2OU0rl3IgLmcOb11ov-zn76_-hco9OK5_0A-Ow4jG7cj6eF9dggHAt6Ji9_4ycImG6DK9HNRI2hdWnttmMtM6QYLmrFN1kj8-q2zFAw0BYohfU6YsuByOLEkB52ZQga2jmI1LMVDf31hPBTkxa_SP-Wuc_viW0TnrGMLzAH7Bd_HQnc-4FncQgfty68wNkodt_yqNHIRujoap0QKSRmTnl6AWqphTtZ7k-49DhZl_d9Zbrd_Z2Ajb8q1wLcENxl9Tacww9lcOBJ5_AW_KBYiH9ckzKethuQXbGHvg8uTCtpj7hD-V9ili_URVbJrCHbZW6zq-Y9OuAnRbGnKl0vKGaXpW3axNA6sMhRQm_knYpoTj9adadgv_bYHxzCLuMeejpW9Jl9dcSEWgMRAevpczJ793OoOyJVOnY-LipJgfDZgN2B7CVru2GOpsyo8q-g26pYFYRDZ1FxMKYOo4mEtz0EJDsSsdHMmFPfvUQ9DAodDGHe2pa-GI9Uxkbqi83Dg46ErtWh0_8zepyNTtjQf8DyhhAlZ7kGGy1WuGHpVO-Dap_YOU9CZ3wFXuNDwodCf4RTyEuSMBmF29t3AHbXWqYghfuPK_qFad2Vj3-xrrKfeYDkvPRXmSZXBQay9-XP-zS5LCE_ZT5-LXgUdctwK4tzuJa0yXQLNiKTZOHx9HLfrVEsHQqv8RmpNyV07NkrPdv04uSZECqlaXcr08zNs8ZMs69B5zJnGUr30dDs6uWiZu8OH_tv5itCQnrFDmP53BBNm4UX0d8JMjT22Sq9m3Mzryx-HkM8TfS6-y3M_37SLFbHccBYoX2WE9O8_zIoGysTCLVQ5T4RtcPHRTxDBpQp24BbUPdVG0YU1XDPq-hFRF0VqQaz92MK92qPf2snhF6ML7WsqKCHSZRsc0fIVDP5VmjdBgkkL8PppsABOvkE8D3jbBxAKbJd4hSX9ERR4rD5A1_S0_HYGQql5PcX5aEzWgLnUEksFaWxkOajc2xcrS-DkOR6iXgQXaazN6F6UOyvvW2ZEPlODkKmzeoh74rqtdiwxDU9R3ucMMtPEFyZTFKYMIvr3vWHo4TEuwF3gs4TSGcSNdeFDorrr5UIYv3TZYJkOtYuoD8JTKdwplqLH9JpRiIDMLqYTWrfc2Tot_cTWRO1LLbBv7iUY74iv2q0glg4ot-NujX7jYbEHxcddXQ-gVi2ce7tsecc064xoK9wC-JOFE98hsf6hlo2Fck0NVpIcjZLoTXGWygAr6m0CiWkb6lsvUOod9wU5BkFNqEs9t-B91YHdt5dnnCro0Xwx2QCeMIuUsUAi0hJFHMLz9RCjl8GGWHaTnNWJks7d9hCHvZpBLT0ygqvsFxID1NQKeqLZPrcbl8C3EXk4ndqcaGNS_KvmW6TzjASjGh8tUgtVTnzQsaQ5LyoVnHNEIQ7lFycjJXtJWTUbh56dgddyPzeSD3bS-z99whJo2HxNwHsSuwoGdDwRjDMz0faY2Yci76i9Qfu6j4XYzPUddrtcquhzklh_ZZ2Gs1CgKRiJL80RTe0pRlM1Iz0qsOYa6l8vnf3c0ziJUTOQGb4r04oIrRNg58fUDaJ69rTUK2fhYTxZvZ6IKzF5ldFlOfsAwlsf86bMiGDEF0PWCVO-xMH7IKtoVQ00lkQATOXzCnRnaAQ-tE06K4K0XutQsnPc2szhGl63LmsfA7qDjE5KK19O3HZ30mFCIKm_eUferEmcmyxlziCMlpYMkpl3y6Awm66z7LSVKqUEyynbmVApeG9LjrMhVDPsuRflFjB38gZT6hkqBZZHizg__l8PS-UZ3Wn3YalTOkC2I9uocAdTIm_LpaKgRheuXtNzVjQ6r96PHmD8RB_AHtjKCtNI8KssIHAzERtdcozSUThG0sP_lb_r16MfsYAvsnjhnUsU2445h0UjA892SOofzvLaurym6kTPYgY94_xiK13W2mVAsutichKDi8D_EJMfT5O6LychELbSuLQiHOgjJWUS08sZQZhZFz9MvmDJPPMZPgyUUo40WCfQN73zH4Xb8-FUXLOWch108sf-nlZ7e4EawNYQTqYoHj9vWVSR0NTH6l6Eo_uRAZWTr-7ld8kHBju65DVAMFqolzSMi1A_vaq-NLg3W5j8Ohi4XBrXPYRUCEm2TX9b-wIBbOH_kkXzPYbK4k_MzQ28KXvT98EaAZmqeAfebQUMd1cej5dcya8M_eWhxuhYB15iJbeNUBKaGbpQtPFt3ESUdzGLVZwrMiz_FPQUNdf3pd-WvNpPyH3uyDD2OtFiA8ggGtN1QoiRv__VOQkOsa78lQ2BrEpqQWh8NXunPNn29zqhbrCL1blWhY95IAiTwd-nbb_GPjN7V6QrLyHpx1bfN-jGclk1_sNeVbspA0wsgs5Ei8bEtDv7U5TUQo7z1rR_wGDfIGYD8bdLfoamDIm0hsTCYPRLAsJ_FHqvul0-O1LjFL5OZHTXkQaX9_ICXV-bDnDtuZ1hQioPkJ9QKWkZPYEXVKTBVOiCviKNOqPXL5HB4hR3r4Cb7Im7ypKtvnb-LEGwGzLKoYdTI5bOXJsGRx6QUn8voXU5T9eKA0X_7jV9-wv3jqqE7zG4tIGqNALqzwOOO0kcsWUO8fjxY-KtFiI20bMfaFhpjl-vX6amxfuTCkOf4S9a2HBa5yMhxRhXEwY9qLRV9zedyNNoUYXSZODC6ivKEEVE200EQt2227VKRpxPgQetXeRG7PincFP7vpdccT_DXlhvnLdJe8zo2UijNQbWpqJuLJyxbtahuKqlsM4KB_QKsMOypvhF-Fntrl186eMx0I6lNzmFm5rlFwxb2LFo90-ML168uDu3U8LbZX8FdR-eDdnj-M8lVjS_OqSyvRXAq0REKJDakIydqASSn5WwpbtSUbN5r88ep40xYpaaaKkp5JKJwSwhZoYOM7Zbq0c6J4t0tmf2TvlgvupLzYEYqyoelf0YvKQWiY1R44AswwnKv2QZbtGKgt334j8SFA1KgrIoGqYQgp2_BPn3QbZ0hgxM8hM_lAGn_as5bocQxccECdypzyCoNgKKChIhxtlty6_pSGs73MvJ7dfJEOLafDOIi8_lJN6TQvfWCerpxhrb1YLekiXRV2chWceIWmbVJ1O4ofoBDSxDV7bqfJxD39rug4uC6d7UU0XcuM8C4uQmsjTACuxeL4dqMlKYUOawqICn-sV17KLeo_qLIRE75FLHRDUYj2jV0UXFKtvIomLc9sfP3UdCqHazKGNizZ5FmmqLER-ewAfSY1lTUZlQ2Sva46h6znPBV3tv9_Q1TQAiHlNR8WfL4jv40I4PVjQI0ObA-1w1CK_K764-i-WWTKTLDn-g7e7oXZH4fB2yKt5Uy4zYp_xx-ALXq14z9Yy3abF9MfAQD64VgMaMnQWQ28xMRC5P9v6kDfimpHrvhYgXO8qOWyBBtSst_FOVl-z3mqgWCnxm73dJHIEPQqEWy07awjlyU_TdjizAXhJU0u5Ok7C6h-fRQVzCYer-1f58sCbDv2PZ5ndSvlpKS27cXY3P-Fq0a4Sj2QTL1L2ODYOuGut27mA-iAafH_cEFqusIrhT9HAe689Npdz_ffXhCpKBUXfqyUcHejgRw78HpmA8eUpKCEnbF5mwhnYFH7Uji5YXOVJ29FWM_MIS44eSWosMPzl9yTpN-_356i0BC9Qkt17yp4iI6HAevvHyiAoPcrcQNUIwZ2P6fgKhpgSsqjwcn8Il6ibZQdkOXnTJ8yFOkHkdP2QtOngGVJ6cmVmD6vNgaIVUGFlpnCsqG0QALJoKxymRqVNOBKwzbyDDM20rwBReh5QHZdNHD5sMUJlSeZo2KEVs5qhihEe0OBrZMpjXaEc3VI3qg_4NgnqlP9QhhYV_sy2_1G54meJsANQNo0xGTQze0KhnIZbehYuC5a22D18JDUy62uzO5z7n6a7Hpg6_CBDo_wCYP2E6_R-Z8kZrPav0Vz6YZcK3D2PG9ktGDroljCM6NCI8stx67ohGBzwTHcFNoPF_oxlTTC8pXXKwZN-UV7qTOsBncrZA8fXWoc5epL6uXjEKLr6eD7u7GvfKbQNfMbDBPU8sgqpNyrWRHbTeU_gLpT6bWDkf9pwf2lU65WUAYUOomtJ_yA8sL4EhAacAHIJVOwe4RCSvshkEe4c6hxSfwhxXXHTHcpy-6TaPNcfTSak8Ci_jdtlDzCG9VeJGN__l4Ig8ZpaK4jDIeLu8d6HaHwuXFcBZ45k50fA8llLUWWDebwkUonYewZcj_ullLue3x5A1deSL5dD8cEbVNbmUdfYsJG1cJRVvi2Opxhk_cLxMo6NUxAhOElpkbSyWrA3p-JYIHNeq9EwOnLIKObVLnfzHvPVmspe8MKCXlCXYmy6wsfIvgyxh3zku_uArrGZmoTnCgFBMH6iC5DMwzQuwI2N8ncs2CcbLH7BH_5lOye_Ty8jBOdCLo0J6Xt0Rpx10XyMarGC7N_lRECs5-8U_nNkm4GGqUaPKtvelW5DAJ_YoJHQQY7pwDgKFANteqJt6xFvWqDu41wlp-2J6fqcrg93GYrEtxNdXzMW09e6m8DuyxywFkwpEk5AoOSZGFmz4Xq14bBM5JxeRsxoFLxSzi_4X8vdxblbxrkLRzqVeVvyQH44m37llDVKBaYFS0UtH-xsXfHA0cZy9aQjP6ClP0SurdBwGgz7mcUkC3dvDdSGavpNMRFjlze-tWUPK0Z0jjgT7H1thY337wnwYxYZwY96iXiFiEYDPxXQTnUQhOMozt3JNAkVTJvBLwv7Y6usI4YRHjDKkTfyP2c0MqHfRVpUP8MyRUCx0owRg7AP3ihlUk_Ju3wZjoFYMi1RNMotHTbR9vErIFL9JdmhBL6iqbrJWD4VeG0e7VhSIfksW0z_3r8PL6xmRtf9eZ-iIlNvWPgsWMkrcHdbAT5kuVmdjRcFrxd1QEGR5gCY2ke09eJtjaKv5lOPRFUA4lzBbktPPuTLabScrbgafPjoxnvYp3Fr9dn1WcCw3eiXX63Mg84j356f7BLOpwYrmvgaVkWHI_mBJThampnPj7BgUMeTPU6J_XPghvHvSN11U3OUiDT3Sh1ytdpMs2tEv6jFTj4c0VgzsUozupyYTSAzYRd3AAdmCi_QPSBphCpdCnc-MD_KZDmdaT4apeiETRZAI112aqYfWsGEEkxZHuKr6lsRNj9ThOi0brzWNfCo0cBMheqtw3GrptsdUTJrjIxYKuLAWV9tSy4orRxE3lwvPK7G7W0NCArVXCI4iN4OWNH-iljr0R-3Sx3l-rDx4WjGVWyuGNF-4qDd2IP5Z_-WFgCZGd2cjKMMiiKPyuevNXP3_VT6G5ET9hrpnSrjUkd_WD2A_FcHnKzX33PlrKAjNU6f-SxbgsBW4FZIloKhdC0OwmdOLnHhS121pu3uZDChBZuRCjcyVeJ0A5q1fXbNRpUatuCBN1Ut03298Wpybg57XipVTsJyIjwNl45le46B4np2QTLPYxyeNP0KZ4yuSKDTPTbP-PgUaPPrq9eEfe5Qu1ftcmk5VNwKbgLwT8yjVm3zeOcgDm_3DR3ZkFs3aQci0J4x7HB2ZCD15LpfBC0L9AOVdNw7fUSRpqbH59UMeo2L4n2CRskxdPkXmkmqcmUXKt7_2y17fB9eb18UUdGtSph2p8pA2jIzANaTty0w0ulm5tarbG5j8FfngiH5r1WZP7VBRi8ImCXQ1MCaQLjHODM0IoBwh_mdXDuCMVmEJ3WmYJ77YyvN1UqYDVXM3EhdYWmnT_zobytlYP9eX5cODSJRTpgWxkcaZ8BEuUeBZGeEujGYnwRiVVw3TckeN852rWze75NfQ4cute0Q2N-YLeK-Kmf-HlaKV4cWrfDfhyD1XDR4KA_ylgqZZHGjJ3V-m1hNXsb1zg-f3qQ8gXHSKpaycnZjvBP_Kff5nJbiFz9T1nb8GLg6pcqZaUmiAycRywLRbPW6F3n2vpfzp2ZbEXZDb9jZaGXU1PyPoWd9wq842Tj3K7zAZAYOsctoIJd2iYB9VjvGpOSw7_k9UwrcbUyZ2rDFCxQ92rj0FQDkOQq59y0fUoQgqvdh3mjYDn8O9lBIkYHHNaJUmqP41ugf0vyEOkepyXMJQRi4bIzhq_DtaDilMuN6rV5_mhiC6h447Dl3GWvHo04MJAWiNCT6u0bhpPYZhkphurSJYT-Lqy5dQigX0x6k9zKVYB225NPd0U_Z1Rvq54b3NT5pw4OGbWduEpUyIZ7TVidNLY6B7b1qkodmrMR0BjXm9nCB-iqpUkJG3PQVOXjcKsasouBDs2q1sZORf_cFXq9gAY3FGdQnG_GuEchu3mSKQVnHv6BNIrsnunQcCy40DDyjejagVHtps9GbkFMbf6HcmnAFyOQ2O-UFzjX6_zWJDhZCVyOgkLAjIqZyEEppW80NT-mZIab6sXeRdCAjTnwp9eZ_5NLfVKfaeszD3wx03_lEHNH3DfA2491b_hHzrH_MJqWcj-f-eTjbZ-7yxURzp_3wFSizl0sl7kOoM4jTSFBAx0ZJv5pzRVLhtB7gGbTsfbzRiLWnN6BLrU33o5vgjBATCQVhCsNoPG75o-29vRKY0skpIqU8KGxQZBF9N-fuDENSNVhRNiuTof2Rmy0E_qDQMWKnKlZJ4Nj4OhpxXKAqjZ9r87nMrprpRWgBA8WK4Q0b6fi7wyd6ODhOhGAMIOeYt7pCV_JsG5Q-AKus_JcaAsBwTcws-4p7AWIgGaiufTsIEssrFmggBUUpgb8iCfua2t6W48SMomq8GKoZAIRKTo_687sVsJ6JADRkSGVBP8Y3azbcnsg4122yH5ok1xtv8UppK6rWVvkXI60zdktt2PK0cVFg-H85R2xHdGXI9D7HwbsjJjs5GfTCd1y7Dlk7PSmFJ-yqbT2gGSmoNgaqxDkDI1q0Dp6oIdOHT3dnKoC01BLwURT9vQcdhl__TnQwxoY04u91bMMDYAFyr94NijCVgtNFz-LW9WGdUzfsz2gCt2M5bdFy_XjoV886Ec3fiWUcoQ78I97cgEr5-tJHGu81uWQP7weBlA8G9IDkmWd2EYKlRcGjN451Ic2qO33MBVYpO7kU2jHkfFJeQk75UESm98SnU5RpI3N39XlEQbfT0ROerpMPr7AXLuMr9ToLARtqhjOpyovuGkAEIJgrlsC-7ekbP2N1e6pylqd50ORJ8K68rNL8fpgUS7-ftaiMwDPlYWEPr2vvw_wrPdBTmpWKJOYBKa3RMogWbc6gmXZGVjy6qXYppCL3ArO_vza4yUkdcyjY16UwGRxQXU8BBD_47cDS3MrB8VF8vxXUvFPZJupOldNNO0z1pnBvxa6mLPjxWX3Tu-AsKIQlBSGg5_88WGuc7w-1frF3MWavLwB7eqENlwmQhSY9sD4Qjo-T-3UkyhgNshJ-FQRpDPeIe8FgVk6SN10v47i-fCnmEdh79ewlqh8KOV-zgMUT40a0eW5B6KRZVbeM60TnivcSvy6_A2zJ9ZYEDg6-5DBSaSVUcvgSqC2Xh7yEAYi5iL7Ye4F9uWhQ6O5QvFgpwAL0yF5NPQpH99dFFuDhhBxiSTiqLiJ-ySK9sTtBlXYdtA2B2cCLOJo4spvYknzLXHRG62IryE1TTMogasHaWHg3nDz0TYkG-jDYfQmmjLizBoT_50pypDOKD5Kf_JvYDz03BaWPcwBOQGSPV5gYGS-FtbSsnUky-XK_VGIILVLyTv3myya89xoQivrPmUTml3Y5uWIXNdF6wRMLhTICeKhnnQbnOu2njXzhoHTYlVEr9SMGyVu3j86x6ypsFedbgc6Dg5VjHr30ZgcPH9VukC12wXlM7E2_QHUj8t6WbnFldJix1JCTFpfB2fFoAXPMntUhNp0ezblBHbDKoY3jiYQYBildFaV9-EDtoplVOUdUrx4pjVuAoq63IR5xAZuQB_oO3a7nLshi_jKDWFvqAgZ_h_JtMBHbxikZjizNYRcE2T1f32J0BmVAKIpFCJcE_WG81zZcSEC9snzgDznk8tlGksx7-arB0V55BNUqP025iWJ5nJMH125VWP_bwAZFH4ca3hXDoV8u6fVe4rmvETrzq3KF17MBMf5z52o6I0Cb1NwCcqgBiiLeEP-fgdhulS_RUZTPBR3FdaNoBFYq2p2ZqNmaZwLgOBg35ByEdVigPMzyNRdZ4yQiXdVhLgVNlwB6BIgLT1lbI6OebnPuaod_zzBeHYSj_Y1r4sN0aM6L1uV1jR_3bNzrZpFIp63dOdx8hLXa4QVznjZw-Vx4JyPiK00zNikitFum-q1fOyPRb_PjNo55Eh-mVFdQiSLzbB_El1mO-ZniiV8ppSGY6pgEywHaxn2QBsQc16IrzuziDuWozkSaDffruJ1W6eOCePbmV6CwkE19KGSzwsD6KwTiCyBRNhP35LJ27B6ug7Dg4qWEz2_tV0oKiyzbDqE65zq393iB3VsxfcASTaApgrSt3ouwR-QmEKoN3goEiTCJJwmiZ65XPaRVyUXq7yTzulU4T54QSPWPPFBsf8kRCM9O9ngUcwMCMWH05CFvKXx6a7sDp7m8aI6f0y1C7-TZA6JDgTWkgCfaaRTCH6dMl2jrn72kHlBfiR0n5_OqVF05f5wxDejgQqky42s-2OM4HAGW7Ykn9uzPzVAh3nTWJ_fKzRXAAG4Jj7lf9zn92qrdyiGWV-TDqnASbmfO6uC56dcD6uF0UFXRXOwQ5sAu2BkJZWIPB7Jxijlms6sIoDXg33nd3aG9_HWlXbY1Cd7CHn5PCGV3Nv0nnvsNLvTQyFqB2_pgFWKLeywZu_Xz_OWbSGPHJD0gXYmDVWGRf4VX4HokPYr6Ljy-buzGPxOyJqEcOdEWyMbLTQ218wcPIiNT1_xbaMhujJ-91cLf7MgXTUeJ1g7X2t5QrJjl6gWb4kl9EFAyUiFxVFD8WE2gkrIrkKJld_RMC93iGf-ZrvdWhKmyWly5NUqm2_2vEdN_IUPKY8eeAXfx3es7_wKx6Z0cOcUVEceflboPw0RpwUJau4SF7umAzF5ze7Se9Qkpx2U6Rdeae1yrltaY5nyzwyHaKNoxBaZPR67PFE-vI-VbjT8zDKbS4W6t8UWK0FtAIJH_IOihXRob9DpFtu7WnL6fMf4r4_7_Qw7Pja3fYW9VGsRjEwmcrjTUct5tIrOtvSYaRkkVfjjIjnyZC_tvUKXEw_5x8SJIimm0skE_Iz_2cWObhVHYIf5dm2sfkERVuF6pbxGOYiDQ7c_fgr4rCQVZJ5bWwUHR4WL-B3TsuvAJDLeK1TMuzZDS-vx15sf1wAgZyfsk3MO4jdA92UDfIYVAMGmksSvwnoyXNdRmDyQWpxTA-9ZQyLdFvm-G0U1U26oce0OHT5-z8EVWL5CdP9FuQgyBvrWZW9MdwhfjSeBzX73ks5bH14pwF1vQlZFTuc2E4P8JtjWINiLIEkPTCIuK9aZ_98Zq1gdJ75o1uNJPyHL0iz-eL2QsO3BedttgwdKc-7mJacIMHTymL_H5XNNmG1nCB9Y8oSd6mijzRg2umvDGNLfkAERYwEEiB-UZyuQx6XGKdceRl27DNGBvAibF5SkbEJj8DXxmfKdEHlwE1TBYS0qhaMnnjYRh2wQCuJdzTNUmulc4b2S9N5dDRhjvDEjXG91OOPDy2itS4K-ndcWCZ3ceLWd4PxO_x5um3keS8zROlrpkpjjEObAhLT50b3MkLqr7xvttXmQcqogXHzcOk31fM0u2EaNWH6VJMYVhx1hBx6l6wKhd4UFy4ZDTFtg4f6j-5rzBuNezoYQmwD4ZBlJetFggu7nWkHedfEf32co7WACgHnMbOaM2kboHofmTUM6TqCuuRUG3-sPGLuijs-eLnUkwvpVZ5GC4RoF2hNQQSgZTmkcKZhCP8pTuYtTBoGzTd9NeL4iFJ-0ZPvUmsqiOPyS1--3ePlkDr4yzLvszLvz5kej-Ej44kUHYo2TkNscO6UAVHlG9tgywgrL2B8_fv5yRQNoBiDKjuyIRKk1EDXI3485SOvzrKuq0QE52kfDVv3yuzxgdSn1k5l8Zt-ze1aZZwzXIIG61SZEUWmqFS4MfcvTdY8XbKQknZgGVUoUCSE2hnERl8FRD0AZcOgYlLtUfCbjIVfZG3aPCL9sels6aXZxYd6eP4tvhmzvSe3ofSlztrzADnhXUhuuZWLzWmKi0p1Cy5S6iVcroqDOnMFKQ01wRFZxdC_3p53b-4Hptx-2nMcX7wIBiZIKklj3XZs4VpFCvyTKFxH5F_Njnl0bMLY8fW-QBCzWVjEv1DWNi62Ii2GZD07oXIukU2-4_dzWAsqqwAoH0lZ15DpkWdjiJX8DW7rENG2b6-ckvDN7HOFcHV5Ls9Ti3XocT01v2pWtW-TFbM4fqxHiAo28-jr_QOGQE5e2lMcfbrJbTL6IVfg7WMNoEN9isOMDfc_2EJffOugW0DHqFSohwEQrr8It_tPiYoOChJ0FQ2ITKvZU3EYpEb42e9YU9B0SvnJxrEPwCZ-nkoPPRV492mzpHEKfznm3hgl8d1I0LYsN4MDpsvYZveJtE_CYiGGobgsyNNwp-hlKv9AdlveXcDYoRNU8fQDetIymIPkC929CmeczLMN5LWYyL_E5Jo9LgvgwAoLEXiKPa03jrM4OfzXM68kiuoALS4EIuLB0dVF4tawVpWXS03vdzj1FdcjRGQV7OpGP8j1YB1qCSeWHaEikwpdAZCa2p2BxerafFX6VdC__jrq9NH2WlqcaM7MiUEnVu95pd5baKmUUw1kfivGOOy38_vDTISBjiP1lgKVBJ0CJRyZ4kUWz65gtzlBAB070N6d7BYE-1erNa0wkfSvSVpE_I50gFA84EU0ZW64SD-aaayKD917UmWwcoo3-C8BV0XtyzW3FxL1tDQMxWm-F27VwSF3qLIWbRkODF2mVHxOkEqudKLUlPjKZtBp5MLmdza3EnnjDcIsIseb4QLWnL49uEPX2tvexPiWGQSLCiavLwVjmuwwnPT3q1ExPH39lAWaliXFLhe9pun47MaiZfzGRrw1xORAFKha3e8wNYyQLia4mLdzY8LdV-pCoHsezY7yoZ8kQ9o9tQ0op76hyue8UJiBQhTMXud86VgO5YIso83VDmI5VQ5DClIe5OcniXlWYUUd9jAE6VFRv2zEInAHr7LYCsuyeUjIBr9qe-JQuBCSMbFqXTLH46PxyBjRX0_WPiGSXKlHlW4SfpszZ13wRl702e_l2KlP6TzxTDg8_Lzg4MiZgkQED1Laa6-8hqlVz1WfCVmDTYwM3rk1DUj693a-nkKPepA6FtK7Dc5F-qDK3HOJ86MHTJXTVTqP_FKCr2Ea7kKW8yJZu1EuHvkyG79wvFqmhxPjZSbVfObLcxsJ0k8jxp2yTqoDqKizy3h2qtt74rxZNeo34QopSr_HnHsl-5Nj5ffcD1uyht82XBUzNBdxGKyOJjaYLK1LYKW491hgzYg06ULSRvQtH8tCqOifLuNWeiB1g8kKgPaq1Awe9vj9RY6dxvSv7zTnijQN4E9-53Halq9zfJzQzh6Y4dqz_lksYHfMF1yJMcIZ_woCbecDVeU7WVJEP9VI71fNeJAew6VHOLBd-Pdsl1o7GRx51WtUmVwmhDFYEejcHUgQiEySq0GKIPvrlro3VGN1wFba-vyLpzqPk5ZVvWomuRUlbcj_wlSSpYMgKrktdbtYk-e0FFNt3mdInYApaY0gp5h4v_PP-KgSdsDYGPwBXG23H3w7hyWeQ3J5W6oEFu-S0JU3Uf3-YYLXJbPcRVULFe30259vw6Dfmx21wns7O2oRcrYOG0gdKZh10rL7w6T05Tz0lOtpiW-rbWyijcy1Yp7_pKl7bkxuVvL733xFhN5zUpG0SDDsZ8aEh0tr8hTRtdU08172L9ZEgzk2NRJWKmBFXAGpcLPbU5ilCvVGnR4b6eAA-Nii6tKxEsaC4BBRwf3dXjAkYVZjBjL9n2X_8VA18MrD-fFgUK8mD5vbBdWQ77YHr2kF9AS916QqVDm0OP100GamoCk5wiF7Tzmr9VLn2KSCMOka1jsdG7ZxlctRcC_sBrslW-LHWM_v2Ar574NbZspnZ87zA_lcZZcBtTOBoYnx6HEF8DuWS9m9S6eLVuJnexkiWO4WKTX8ZTEJWcudJijuK1uTGkZtAeGU-69m-PXPDiiHfXckW4G6QZdHnwHPdllOSpnjOtwrC4UF8B7oyNXJOFtWW1lcVnq06ihTM6V7LlyoNt6mMpf8OO0tNfk-HNnSwAa3CZeHsSnWszt0iyindpSbKJl3s4PLNwffHQZHS-0X1XhBfwQnY1P3jZQt8H5hJTYZ1tDOCOeR8eJOh2jg8SW7SlSRgjfMxHkTpAwGXsnjKWkR3tCs8T75vxlZ3j_9w1mP6IqWiZtI3WaOzhHmR05fEaiz7SMbJdAGIjEtZ0UzpJqBdJDBURLEh1_4EokkpyMJlhIadNs4cFBjKXeuiU6sO5SaVBUR_Ec9DkZwRKRfihvCX2IGhvkp-SqXT648sH0My_Xm3i5MYQwEHq4WDA2AaFU7g-VbfzTjnipf0I6Z-y0uMbXUDeokvCd9ac0YcSJyaCKQfqVmlzl5uEimNLpTKsk6_IfmhvxEsMI9Ik5H-9W5DUHTL1r3VKQXbGgZx8fkLrb7zmdkkKLCHlE7Bm6KdgMLM9MkSxC5pHcUimlsfh3ghoBuSYfyVb0N-E3P2hEBPafIS92tYWYW26zzS_8VFcaBb6ybpXXT9Mhm5gn0WnfiL48u2MlvHaQYtQD_Lp56JzGB3nPxZ_57AFKkojw2XSzcHKBltNbrmhQNPTuH5rqixjMTCEHZZJNp-cEijPNxEqwKjjF11kwsWho6w300HQv7JkCQBJg-gjipaBknxrR2cqn2YHJLTbsqOLeKYYEuZV_wPYQkEH2DqhLgE3gf6vQIERHMnWoMoU5rW5gPeUJGmMg3IOd439h_xdCHkhIWdYhdTweAM_UV2tJp8t0M5EY1mxx1u4w8MgptoLWG2NeGiCV90Pltng40oZslbunznpf_1JMS4rQklDa1nB5HFqpSfwOKXcTqPAJ4D0s4vePtcbK4s43_YJDqqRls3PM-c4ZwPFhFWRUPGHG4aYqXJVMMz1MKCUbdh-w71ccGaRuW-OmAcjZRGXE6No-AaygpskDZ8qjcbEdCeqVk2KJG8lpaqlpUiXzN4J1kdgD-BBi3ZTb1FoCy_hDciI1btI-0KGU-5EmR2C0SMieOPuCTVe3XECdTXXIu27sg6W8Rs-LFvVO_FpqcUdiMVnjC_sk6cyz5U_S53myzv6tiz99obOv0MprsZ1ndQRHCs7oENbfjo0XgKdUOip-mW7VFo7iBUn6RVDIuqaPsmoS_zd3XW-oBiN9y6xskR1UOlKrYCLRsad6LG_oPBrfO1xQkhvl3e5AQOr2C11fnz2XvdyZ9WHjJDjZ2p-3nnvgq6Fu3kUw6A7zFqcOhM_nwkuB-0G6J5FJYIJ9U2NBcuzOpuT5coxlL332QfDTlPEZwE4mw-wsrd6Jj-tlxiNoR-xqrzfZqdhWQ_ymWXd3nfQAg1CxfyXrEqTC-5SWKoJ4FIIU53KC9GmgNhAPCiVQSoTtvm6x7tbWkeTvV_OXLPBkuTRFOXebZnl93evhEC5-UMxSkUgVX8Oy1TSnOz7HXzVUkOmdmfiroY-9vlcN4sBuQf4Ap0WLOeEyuAHcv2P6RyWKeUazbP1wFKIil12If_1pGWIUtLCpTsy41j-LLXS22uZPgXekAqIiR_eJYXgULVAXpdhJ_BlGngLoZ4s5f63Xo-YcD7XOlPb2ZP4Oi5YVc1PhfnY7gHCwe9vWVAuDaaQ-9vqAYGemiSNBkMUc0k_wrJhXu0PbXwmlKOuKwtBjURbSgvjtpUZlX_SDRttNgfQZCy5RSod1je-O1iSN-cz4dqdpwt7AHD4VrjulKX6418vvZfSe8LPfEH-V-ZAKBdE5LS1Y5BInnhSSsG1Rcugo-FO_UKRFXkQODelsDe3ny2ldrmTyJUV-LXL82xSnX-i5eWtgVwPQdrpzeSQeL2t6xxPqmDmHQLZTVpp-UpZGzE5ZZ9EzFmGZ5CzT1stM8r8IoQkSUvLwUprCgYSLOv0eav44WMUXrle5_vFufOv7bwGPwgdxI3D00vJ4yc_iQ_il3GzYTyg2IyW-TohaA628eO_IRBTsAztWLTMPktY53o692mmCQkb0Xb3gDlNbZ-B2-KTrlZPCeoZDA4toO3IIWZaDmhimRsn8Jtv8HQNQRJYaW9guT-lQwiXwxBgTvOicr-S27SNeUUKBRKACXkI5g7cvtT9sQRPHd2yi8jt3ty99HywO-4gRcp8M4hVtGufyimMVNv0cpt2o5PWPjNpa6FkjbdELAyTlqerg635EcnpBwBgDWMRxow3eXvtBqp-1K3y2V4bnv50RExGkWJivUyKnzzcIe1vaSK0UINPzHm4N63H-CNxJ5EH1GtGTdH9IrtWROXBIlb-vSR6R6h-k1KftamE_eMXPP7aaOZkkOetH16srvT-Tug9xlYuZBrLQM-JNT_mKWcfdIZrnGjM6dD3jU1Z_4CV7LzFtU2w1U5lWXQZZ9ecS7Cqbu0cZ7KiYYOUwZfz93ijTKwhpgicQScio0Ska7IX2em2FkriUp8SuTRy2L7Rd31Wh_pBEUPieTelyCA2R-bcoz_NqMRtORTEi8AeS7nwjcIfm_HP5yl0xZy9XdMlMZ7vW_3bnzlq-KpObqc5yLdZO_XQoY7j9BE13ltbYH4XNiRhnW1e2sJYLqaHobXEfQV9rdZbFsEaDpaMC6Fe-1pi0TMfp57lFE_6niqLG_xmPtcAPKYA6Rm36yqgOh0-GT_F2OSqBLlZIMxCmHPetbTE4L3RW5JJZd1AxibzFdSUJ0TkdVNkfZAmwfOVwT2pNjR6AlbbHLndscUjzoHxhpbWYwBU90D927zXGQkB2W51j2xQ2EUjT6L3yUDA4vAMDDVtNvdcqPZLeYtgLg222maOpGj9mtDgkoQlVduBPLKVoeP5uTQ_X2xI3qyxK1EkxUlmy-RzCloTTzCP7la3CQ_BmtdLm7b9BHx1nrqtTbUB5ROsMngq9NJUHaRUi2qcIARPhZDgjT90PUOubWlDNSNYsb7DYS0_uG7ZUmaC-_Pq9YElVj2__a-UT2mH3nvMiR8PZvwSxWzHV_p-Dxv2VbPvXuOGaI1a8w78ZE6gPFJOA7RdGt-0DdlDFI_8zcF2uhhvDAGte5yIq-oLS55XUeCb17C9PH_VoX-z3nvRLAlH3Imq1t_QLQ0P4ggG-qZA2mX0ti_hrDaPyJMNdCtbFW2zwOg0Pf9a7vgPPjIA7mdIyUfyUEUEb6M3lpLNnYyira-RE5Ifc9r7bQIAjRnC4C3hlNBTHAUKXzdaSGp1peU_mqacP5JQoBaU7gG2s5Rx9oDKEFtdb7qguoQIY3-LOxbTJLATgjRceM5unvovfel__yvvxT4p2sB3EsChSq7m-j3y8i1Hh1GgAgka4Mk0QwSXhgGjaveyyW5kHKNIQjq_VQ92wHFgvOTXzQPQPb1z6i3MNCXO3Z3Mi7d0O84q8vypYQpQWq9ZZ3d5j2w62IEHy3wY-S8PSXY6G7tzpJ1Mlfy640zWqNTFUkvaOTHboUFBmEqijOhJ5sNdZu594jvWB63DCwVavCDjnmpHFCIt0KjsiK2lX3LGODKHV-FNPDXYI4z6jJoTvmz4NGTcAuS1_WHNkfYM8KhFkX4cgNt2K9_huj34iazCSH49oQi7rraIm6pTO8rB5Bb7QM0mnnT6k2LZSYJfRLWab-3eSTBm7aqge4IFAk9MJM8sf2uyO6_oAW2r9KjsD5bdMXJzqbT7Iou2tc0bNTdhvM2MKkkIhKISiSz2TvxylRUChzcl9mK6CI-aczi7txpymviSNKm42mgnYOmwqJ_xnV2QPdBRNDCtgdhv0OMfTDKYi4SJwkPGYotQRMq121JAsiNj_J5WijEK_q4hm6QiLS0YTEzhHZmg68H4FTWQtaTNTvkLoz9JJmcBfIlNIDsv5Q18-VtxTgtYE0Q_ygM2fWAjX1Wz-9wqA9lWP9FyaTeCKE2g6jHToMrcTNmP0t67dXy1EwYUPZx_VZWATXRl_JScpctb-cLKsE3_BwrCppjYYOWhNNRsrD3yW1K5ktpwLiHlBBqz5rRD0HHyMBIzKQmnRnsRP03hldhX1dRNKQ3rMWGBDqR_T7VU0afI3NmK00solFTyfTnmSSkWyNHP8sGQi1xApT5sA9rQGq119bvWNcY4Iw4z6Ur3DZmgrZM6J4E-kU3t7Pr3lW1GDitFwIT5gOVFdfZBpRhVcGGrh5muUAcGuPGKz_L2Fana8V6zQZ8J5UYquKuOdnnBDMfbWW620yNzlJvfLDo3JVzz9jlRKr-AAmlLGujhZHsc4bpKrTEjjBiU-R-_ZIgWNHxEwWBB-wF_hi6T-egj56xyXAWAR673pZkg4QdvvfwANL9vEDCgGgyJo48m6ZggIB_VxkKLeobn-8lI57S0x0urTi7X3pExEZFr4_kSDo4N4DPs0XhwOPT-xvnWSr8wg81lTZAiKyishxAayxPWbuH2wzW5p3CEtZp7w4i2AqbEHQCeGXRVkhcC3pGsGstybYY9I3YsRLYrwPvTw_JQtgy-8OfNEIxH4nJlN8Ub7y_QEXxEgbUWxaqYPXmvONMM-H37Jo49iGTJe5RMGpcWVXo87aZ_KGKlj81k1l7fFcXkjk0e-gOIymrM5X0OrCSgEDRnzWfipR-PW38JnUJpc0IoUhxh1mJaa8CStdLAjPN2_eWSEREuHIQCBnwm8wcErZNY_fP3pMZYzZyFFjzkXJP7W6rTXcmC1rzQo94Xos-mho2mTJyM5VIVRIGWt76vAjcH_Z_nVB0t82WUStTBIE1L-ljPunAnAjMXNIyKDE5AKWJIqdGzSuo7X_G8PjufrpVrEVI_givSXdGysDh87oi36BgyAiHneUFeP_r2mZ35I2eTwLBvWJl3AuaEafDzQg6aJwK3cDvV7n4TWuI88ge8mbOTUhlmeGPm_1kFVwScGco0fV2dq4refdlj83BIfPa2jo2OgR8HRAgdyXlNfW2MWGQngJvS_RKIiBV2XswwF9ezxXaKUHG46VBVVoogVlAiFdKIwrUJNMwoEWrN8sJZyEeUyRmb5DYptHKEkeCmHHuCGIZgvmVcm3uOtj0_lnbmXN0mSDgjyY5SeoE2cSsW_pYOR7yUno6bV07sEGdl7aigQbYvUCROcKj3p8j8_N57vDqholmx1j01ciiv6mYsoxGwN393iSTnFrutulv3blVJOEMFA_TENB4ZhXT180eIi2Q_7Ro4K0phY7GryosLFEG-XxzkBb2JHYDp_aqxPRZyOtQdVfjhU3_53O9JSBmX6f4RVnvfAryu2lW7XzVh18_8LSeaZqbRw_LqRK1-RkiiNUPKujA91Oz9UzvdvVUP8Kp2RgWzDSUtyhkr3PbZcvXychTGx4s4-PB123zsYbzws_43Q8D1mOkTl145WYncE6Z7bHo6UbzYP7Fv3_WEqCjbIaoRKlGE0-li_NtXuzgaTeEtlDICrs-fQaj2rzFlhBW3vu7WMgzwfrgdqmKM7kCNgEPVQdPFbYKJy3P3atzi9RtQ04mwYlATGN0x9qXnMW_1hied2SEXl-xdNXxaLxcEY7m8vcij5uwhMS3or2N7hEO-XnGKsCedBxV3rq8HSMNshXtsmMNOQnoWtB18M_wLRWC9JPo96TjYNQFPignQ4tHiZpy73Lv9IBT4_CRjIrST4sEr_HfwxOS3fiWLbUU094I7D2_k8H5tRa6FNOc6fryCrljEtjt_Ti99fRHSMXJL2ZqKGk_RPN2SeqLaqYHRXWRdOxYQhpz1uL_Oz3gL8lJJIRJFRTkg6qR2WTfpKzcFt0SlRNeVgfX71KIX3uleaUi36ZkaTcxwgNAyWrO_Tb0mmcuG4brzaSQicnygnSZYw4ER3L-wQ2CLy0pgKZ_LGgGZ-lCT8APjeZW19te2tkF-o2KCW6ZPoOpB1LJxcCq66JGJkhjE0LcjtsQul2DJzG10r2tfZ4pavpS1jb6aA2ZVXB743IhpVXKciOw5KT5uQqmWUEHvVCkO449PkPaJ9ZtIYc8JX0QAcAsyjIY9RLmiDhzkYKCXbqhNmYBgOMc1mgQyo9GCVDCf1BBbunhe5xQZwf7TAtjlEWwPJoIFN0w7ngbAcIMNEte8vEOZCZbzYsXhVfmNLiPguwlcWqMJmttJGaazIw4-4TUezmLdFiKAcxLnTlcGSWMb_mR9e3k2_vAxt9E3_aylKeKOcj7zrgkFHKNxVK-MUeaSPPrpHL6sc4E44H7GYdQAqtXszTfPygA0SZC70IGP7wO2m6hkiCd-6vM1GFa_gv00el3nBH_9GQ92O6ieyiHviygy6zHj2esDAmNVa4YZC-fF_tdXgN6sgoPYbbWc1RtWv3QDN6un750O4IKWJJgFwlo3Gbfz9tm9tVK7YsJyg9vywABpEuuqQnQ3DhJoBKFeaiLeJ8pXkQHiC4ZJutQK_pKg1qgyxR8iTs55QhzWEKjD1yLre_nSOLJzxsQ_RGtys5z8rCNVeB65FWevvS_MesWxAhqkNdXxG_rUnpYQa12nBYK_YoCGMMsFtVAxTwR90Z2hTW-SB0djMHr55Nbbb8xgcPcP0Zz7zMGMSROmH8Ju0ZvAbHLqXG_PxcTDowK5qG-MPNDguZRHge_77XORt2vT7ycm58jt46mh-46bfDYaWhqRyLy7--NvhyIWA7wuASbp8qruwPDRsYb-fTXP1HyPDXc8Fk5ENr7f80sMv53X0XWh2cajgVLVShKlXAmF6K6X92Vx-kIICRnQHlHcAtDlwAonEoOk9pP7frJX2DyHkKB8VmOJO7-BUxMjlVdz8u9Dn-u19CvT_T2PNHtKtUYuggdRAnBQio3bTFBM8nlIte8TI9hTvYJsl0-wOuJT6MUdrDrHH456XxP89zhsg9QkcatcEb19oGL6F6CWbpJ6IdttHaPK3EUL1xOoJZWTHBBy5hj1MA9RnW8yWmcfH_bHBLSeSQAj6jb_jooY_CPG80ke9kuVwl6I8ygrWcdpxFpKK5e9wQTr729EICWh7QNaLTsKh-OD-Rbc6PL2Vej6QX_IlE2qWmV-bG_kRMokJ0FgW2u6ffMLG921kRZMhTyyDnqB30kieePS5CU1WgyZ81pJI29bUOeUDdb_5oDjM7nz877ih0h4DvT3AkLSh6cL21ZT2HARAsljBIUNKth0uN0JIpHD2RjZldVdLm_Zt9C-qe2yZ9Jh0SrsNMpeUeBmKXKtPg1FhmSFOu6L1MZZyy3JxizyP1NbQQUiU4UEm975ertN6FugDvmw5UJB7c-RIyBDTjStkkfQs6HiDW5LXAucatrMUDcEKoWBUYAlP25vFta6doTuS4vNOFY_20hNNTlftapPl9oEX7kgusZ3WgOP9XiClleqbkviKAVkdyt6A4zgktTs8WTaAQnX6TStw4J8vz60JmMtHcPoMCeazpnEn4WnmZ7hrAXcBTlYFzwLqSCi4uuRgv4dz1o7ymTEBQxaQUI3Kwu771opatmt7cjmvtSY3jXGyEPqv68k0DK8Zj1fOXzL1g-_6_RnVIcFpTiN9tEl-YwdNxv6f4O1G8QA3-zlTlVSf3eO_fcvbgBNF230ZDVp11O-RzSCc1PevzyGY_s0evwUiz33rlHcS2Nh8bLqMueAaZCb_6KzohsicC7w7OEVrQzwVluxunltca5jhz0iuMJDKGDHmmlmAFhSyxHM5NuN6flYhXGkt3TGd-DaCso3sMt9uaSoQtqhg5HtaI2LzRMKcjuZamymWfZV1CXbZ_1zet_0W-ZagneLaRMRzXVhKXnEJ3QBXbcSQYOlxxAcxnkTtcO5vbDqzuu61Yk6-j0YWWP5GRPJyNbkkNT4qHiqHm8OQvpU3AVi0_hN1NzJoILNmHBWPTfEpL5-N6Y18jeQb1vDKoxRxdSp6rHzoNdSWrDC-7iQD_RhUio1P6agm5WUgxPJqidI2J3_vrLREfbn5m4j8sg2GdNzzCZBASZOLdAaDQRf3gOkpSIVnHcikd_vvnviL0XaPcd3nCYEET9ZiG8bXRo-wKuen9ypZ1B2raRd04EoBKx1bj9Cpy1N1nHNfBXq0vOr_EPuIcdAEH4BOl-AkMOlY5HH3_OP9rRF4B6152AVg1tJBdhpe-Ja71pq0_XCssyehSyl8cfjIJwMGJXjCKGEUUNu-X-FoDiA46CI5FBKbL1lJy0t__zGrlFBsXIhEzRIkCHG0BitZL62",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "bKJqaajvCMW3qtsP8azHuAc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 5870,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 98310,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 334
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 97976
+        }
+      ],
+      "thoughts_token_count": 5971,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 110151,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "description": "Black screen with student name 'Core'Dai' displayed.",
+          "details": "Tutor's camera view is not yet visible, only student placeholder."
+        },
+        {
+          "offset_seconds": 1,
+          "event_type": "view_change",
+          "description": "Tutor's video feed appears.",
+          "details": "Tutor Iraine Taine becomes visible."
+        },
+        {
+          "offset_seconds": 1.5,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Um, hi back. Um, are we working on anything today?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 14,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Hello.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 17,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Hey! Okay. Um, doing any math today? Doing anything?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 25,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Excuse me I didn't hear what you said, what you say?",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 28,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Are we working on anything today?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Pretty good.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 39,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Sounds good. Yay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 41,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Um, okay. Uh first, I think... sorry, I know this is a little bit late. Um...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 49,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Set some goals for like in general I think.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 54,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Um, so I'm going to share for a sec.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 58,
+          "event_type": "view_change",
+          "description": "Screen sharing starts.",
+          "details": "Displays 'PLUS Personalized Learning' dashboard for student Core'Dai Hodge."
+        },
+        {
+          "offset_seconds": 100,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Uh right now it's just like the very generic goals. Um, so it's like an unnecessarily high amount of stuff.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So, would you like to... if you reach these goals, there will probably be... [inaudible]...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Um, so would you like to update these to like a smaller number to start off with? Cause right now these are just like default ones which are very high.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "mouse",
+          "action": "hover",
+          "target_desc": "Update Goals button",
+          "x": 860,
+          "y": 120,
+          "details": "Tutor hovers over the 'Update Goals' button."
+        },
+        {
+          "offset_seconds": 120,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Update Goals button",
+          "x": 860,
+          "y": 120,
+          "details": "Tutor clicks the 'Update Goals' button."
+        },
+        {
+          "offset_seconds": 121,
+          "event_type": "view_change",
+          "description": "Modal dialog appears.",
+          "details": "A modal titled 'Update Goals' opens overlaying the dashboard, showing sliders for 'Effort Goal' and 'Progress Goal'."
+        },
+        {
+          "offset_seconds": 124,
+          "event_type": "inactivity",
+          "duration_seconds": 13,
+          "description": "Silence while waiting for student response."
+        },
+        {
+          "offset_seconds": 137,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Say that, what did you say?",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 139,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Oh. Um, so...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 141,
+          "event_type": "mouse",
+          "action": "hover",
+          "target_desc": "Effort Goal section",
+          "x": 400,
+          "y": 300,
+          "details": "Tutor moves cursor around the 'Effort Goal' area."
+        },
+        {
+          "offset_seconds": 144,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "...going to set goals, um, to one that you feel comfortable with because right now this one is default. So...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "How many minutes do you think you're going to spend on, um, your assignments in like a week?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 204,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Like an hour.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 206,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "An hour? Woah.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 209,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Mm, let's say how much time do we think we're spending on like the computer? Like on your program?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 219,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Like...",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 223,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Four hours.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Four hours? Wow, that's a lot. Hmm.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 229,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay, let's see. Right now it's at 30 minutes. So do we want to... take their suggestion and set one at 18?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "mouse",
+          "action": "hover",
+          "target_desc": "System Suggestion",
+          "x": 350,
+          "y": 450,
+          "details": "Tutor hovers over the red system suggestion box for Effort Goal."
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "mouse",
+          "action": "drag",
+          "target_desc": "text 18 minutes",
+          "x": 380,
+          "y": 460,
+          "details": "Tutor highlights the text '18 minutes' in the suggestion box."
+        },
+        {
+          "offset_seconds": 245,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Or do we want to leave it at 30?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 247,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "18?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "No, leave that at 30.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Sure. Okay. Sounds good.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "And then for the skills, do you think you can do one skill in seven days? Two skills in seven days? How many do you think?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 260,
+          "event_type": "mouse",
+          "action": "hover",
+          "target_desc": "Progress Goal slider",
+          "x": 750,
+          "y": 350,
+          "details": "Tutor hovers over the Progress Goal slider on the right."
+        },
+        {
+          "offset_seconds": 309,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Two skills.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 310,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Sounds good. Okay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 313,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Oh, it won't actually let me save it, that's... Um, okay, I think they're going to make me decrease it actually.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 313,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Save Goals button",
+          "x": 860,
+          "y": 120,
+          "details": "Tutor attempts to click the 'Save Goals' button which appears inactive."
+        },
+        {
+          "offset_seconds": 321,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "So for the number of minutes, I think we might have to actually decrease it a little bit.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 326,
+          "event_type": "mouse",
+          "action": "drag",
+          "target_desc": "Effort Goal slider",
+          "x": 200,
+          "y": 340,
+          "details": "Tutor drags the minutes slider from 30 down towards 18."
+        },
+        {
+          "offset_seconds": 330,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Uh... So do you think... maybe 25 minutes would be better?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Yeah, could work.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 343,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Sounds good.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 346,
+          "event_type": "mouse",
+          "action": "drag",
+          "target_desc": "Effort Goal slider",
+          "x": 300,
+          "y": 340,
+          "details": "Tutor adjusts the slider to 30, then 20, then 22, finally settling on 25."
+        },
+        {
+          "offset_seconds": 354,
+          "event_type": "mouse",
+          "action": "hover",
+          "target_desc": "Save Goals button",
+          "x": 900,
+          "y": 280,
+          "details": "Tutor hovers over the Save button again."
+        },
+        {
+          "offset_seconds": 355,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Okay. Like you originally said.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 358,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Oh, Goal Achievement Strategy. Never mind. Okay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 401,
+          "event_type": "mouse",
+          "action": "drag",
+          "target_desc": "Effort Goal slider",
+          "x": 250,
+          "y": 340,
+          "details": "Tutor drags the slider back up to 30."
+        },
+        {
+          "offset_seconds": 404,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Let's move this back to 30. Just... Okay. Like you originally said.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 407,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "And then... they're also going to make us fill this out, I'm so sorry. Goal achievement strategy. So which of these options do you think might get in your way?",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 414,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "What might get in your way? dropdown",
+          "x": 300,
+          "y": 620,
+          "details": "Tutor clicks the first dropdown menu under Goal Achievement Strategy."
+        },
+        {
+          "offset_seconds": 424,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Not understanding problems.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 425,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Got you. Yeah, same honestly.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Not understanding the problems option",
+          "x": 300,
+          "y": 700,
+          "details": "Tutor selects the option 'Not understanding the problems'."
+        },
+        {
+          "offset_seconds": 427,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "And then... let's see.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 430,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "When I... dropdown",
+          "x": 300,
+          "y": 680,
+          "details": "Tutor clicks the second dropdown menu."
+        },
+        {
+          "offset_seconds": 438,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Not understanding the explanation.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Mm, yeah, that's a really big problem for me too.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 440,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "don't understand the explanation option",
+          "x": 300,
+          "y": 730,
+          "details": "Tutor selects the option 'don't understand the explanation'."
+        },
+        {
+          "offset_seconds": 441,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "I will... dropdown",
+          "x": 300,
+          "y": 740,
+          "details": "Tutor clicks the third dropdown menu."
+        },
+        {
+          "offset_seconds": 452,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Ask my tutor for help.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Got you. Yay.",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 455,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "ask my tutor for help option",
+          "x": 300,
+          "y": 780,
+          "details": "Tutor selects 'ask my tutor for help'."
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "mouse",
+          "action": "click",
+          "target_desc": "Save Goals button",
+          "x": 900,
+          "y": 280,
+          "details": "Tutor clicks the active 'Save Goals' button."
+        },
+        {
+          "offset_seconds": 457,
+          "event_type": "view_change",
+          "description": "Modal closes.",
+          "details": "The Update Goals modal disappears and the dashboard updates to show 'Check-in complete'."
+        },
+        {
+          "offset_seconds": 457,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "Great. Thanks for hanging in there and...",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 465,
+          "event_type": "spoken_utterance",
+          "speaker_label": "background",
+          "text": "Please put your headphones, wrap up your cords, put them in the bags...",
+          "speaker_name": "Antolik-Allen-Bennick"
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Have a nice day.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 507,
+          "event_type": "spoken_utterance",
+          "speaker_label": "tutor",
+          "text": "You too, you too!",
+          "speaker_name": "Iraine Taine"
+        },
+        {
+          "offset_seconds": 513,
+          "event_type": "spoken_utterance",
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Core'Dai"
+        },
+        {
+          "offset_seconds": 516,
+          "event_type": "view_change",
+          "description": "Screen share ends.",
+          "details": "Reverts to black screen/camera view."
+        }
+      ]
+    }
+  }
+]

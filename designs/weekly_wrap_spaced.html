@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your Weekly Wrap</title>
+    <!--[if mso]>
+  <style type="text/css">
+    table { border-collapse: collapse; }
+    td { font-family: Arial, sans-serif; }
+  </style>
+  <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        /* 
+       Weekly Wrap V15
+       ---------------
+       Design: Gradient wash + white cards
+       Layout: Stacked circles (3 top, 2 bottom)
+       Data: Real extractable metrics only
+       Goals: Progress + Effort (same for all students)
+       Fonts: Lato (headings), Merriweather Sans (body)
+    */
+
+        /* Reset */
+        body,
+        table,
+        td,
+        p,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            /* PLUS gradient wash background */
+            background: linear-gradient(135deg,
+                    #f9e3f2 0%,
+                    #fff5d6 25%,
+                    #e8f8f9 50%,
+                    #f0e6ff 75%,
+                    #ffe8f6 100%);
+            min-height: 100vh;
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            color: #1e1f24;
+        }
+
+        /* Typography */
+        .heading-xl {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 42px;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #1e1f24;
+            margin: 0;
+        }
+
+        .heading-lg {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #1e1f24;
+            margin: 0;
+        }
+
+        .heading-md {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1e1f24;
+            margin: 0;
+        }
+
+        .body-text {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #62636c;
+            margin: 0;
+        }
+
+        .label-text {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #80828d;
+            margin: 0;
+        }
+
+        /* Content cards */
+        .content-card {
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+            margin-bottom: 16px;
+        }
+
+        /* Stat circles - stacked layout */
+        .stat-circle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: #ffffff;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        .stat-circle-accent {
+            border: 3px solid #00bfcc;
+        }
+
+        .stat-number {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 32px;
+            font-weight: 900;
+            color: #1e1f24;
+            line-height: 1;
+        }
+
+        .stat-unit {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #80828d;
+            margin-top: 4px;
+            text-align: center;
+        }
+
+        /* Tooltip on hover */
+        .tooltip-wrap {
+            position: relative;
+            display: inline-block;
+            cursor: help;
+        }
+
+        .tooltip-text {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1e1f24;
+            color: #ffffff;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 6px;
+            white-space: nowrap;
+            z-index: 10;
+            margin-bottom: 8px;
+            transition: opacity 0.2s ease;
+        }
+
+        .tooltip-text::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #1e1f24 transparent transparent transparent;
+        }
+
+        .tooltip-wrap:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-block;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            border-radius: 20px;
+        }
+
+        .badge-green {
+            background: #e8f6ea;
+            color: #297e43;
+        }
+
+        .badge-yellow {
+            background: #fff1c7;
+            color: #9d6e00;
+        }
+
+        .badge-teal {
+            background: #d7f9fc;
+            color: #007f89;
+        }
+
+        /* Quote block */
+        .quote-block {
+            background: linear-gradient(135deg, rgba(255, 232, 246, 0.5) 0%, rgba(228, 245, 255, 0.5) 100%);
+            border-radius: 16px;
+            padding: 32px;
+            position: relative;
+        }
+
+        .quote-icon {
+            font-family: 'Lato', serif;
+            font-size: 64px;
+            font-weight: 900;
+            color: #dd2ab0;
+            opacity: 0.25;
+            line-height: 0.6;
+            position: absolute;
+            top: 24px;
+            left: 24px;
+        }
+
+        .quote-text {
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 18px;
+            font-style: italic;
+            line-height: 1.6;
+            color: #1e1f24;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Tip block */
+        .tip-block {
+            background: #fffaec;
+            border-radius: 16px;
+            padding: 40px 32px;
+            text-align: center;
+        }
+
+        .tip-highlight {
+            display: inline;
+            background: #ffc94b;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-weight: 700;
+        }
+
+        /* Feedback buttons */
+        .feedback-btn {
+            display: inline-block;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #1e1f24;
+            background: #ffffff;
+            padding: 14px 28px;
+            border-radius: 40px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            margin: 0 6px;
+            transition: all 0.2s ease;
+        }
+
+        .feedback-btn:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+            transform: translateY(-2px);
+        }
+
+        /* Tutor toggle */
+        .tutor-toggle {
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 10px 16px;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            color: #1e1f24;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+        }
+
+        .tutor-toggle:hover {
+            background: rgba(255, 255, 255, 0.95);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Tutor data with REAL extractable metrics only -->
+    <script>
+        const tutorData = {
+            "suzie_baik": {
+                name: "Suzie",
+                fullName: "Suzie Baik",
+                weekDates: "Nov 18 – 24, 2025",
+                headline: "Great week",
+                // Extractable metrics
+                sessions: 3,
+                students: 7,
+                minutes: 73,
+                praiseCount: 45,
+                questionsAsked: 38,
+                talkRatio: 81,
+                thinkTime: 1.6,
+                talkBadge: "Room to grow",
+                thinkBadge: "Try waiting longer",
+                highlight: {
+                    quote: "You're doing great. I'm going to come back, but just keep sharing your screen and solving the problems.",
+                    label: "Empowering Independence"
+                },
+                tip: {
+                    short: "Ask a question, then count to 5.",
+                    reason: "Based on your 1.6s average think time"
+                },
+                // Student goals: Progress + Effort (same metrics for all)
+                studentGoals: [
+                    { name: "Reese J.", progressPct: 80, effortPct: 65 },
+                    { name: "Jayden T.", progressPct: 40, effortPct: 70 },
+                    { name: "Sienna C.", progressPct: 90, effortPct: 75 }
+                ]
+            },
+            "jai_dalvi": {
+                name: "Jai",
+                fullName: "Jai Dalvi",
+                weekDates: "Nov 18 – 24, 2025",
+                headline: "Solid week",
+                sessions: 4,
+                students: 5,
+                minutes: 82,
+                praiseCount: 28,
+                questionsAsked: 52,
+                talkRatio: 72,
+                thinkTime: 2.4,
+                talkBadge: "Getting there",
+                thinkBadge: "Keep it up",
+                highlight: {
+                    quote: "So basically you write the table of the numbers and then find the least one.",
+                    label: "Clear Explanation"
+                },
+                tip: {
+                    short: "Add 2 more 'nice job' moments per session.",
+                    reason: "Praise count of 7/session is below average"
+                },
+                studentGoals: [
+                    { name: "Antonio M.", progressPct: 55, effortPct: 40 },
+                    { name: "Hannah S.", progressPct: 70, effortPct: 60 },
+                    { name: "Dawry P.", progressPct: 30, effortPct: 25 }
+                ]
+            },
+            "marena_keys": {
+                name: "Marena",
+                fullName: "Marena Keys",
+                weekDates: "Nov 18 – 24, 2025",
+                headline: "Awesome week",
+                sessions: 5,
+                students: 9,
+                minutes: 105,
+                praiseCount: 67,
+                questionsAsked: 41,
+                talkRatio: 58,
+                thinkTime: 3.8,
+                talkBadge: "Great balance!",
+                thinkBadge: "On target",
+                highlight: {
+                    quote: "You got it. You're doing an amazing job taking your time and thinking through this.",
+                    label: "Celebrating Effort"
+                },
+                tip: {
+                    short: "Keep using specific praise — it's working!",
+                    reason: "Your 67 praise moments is 2x the average"
+                },
+                studentGoals: [
+                    { name: "Corbin S.", progressPct: 85, effortPct: 70 },
+                    { name: "Piper C.", progressPct: 75, effortPct: 80 },
+                    { name: "Nabetse C.", progressPct: 60, effortPct: 65 }
+                ]
+            }
+        };
+
+        function switchTutor(key) {
+            const t = tutorData[key];
+            if (!t) return;
+
+            // Header
+            document.getElementById('tutor-greeting').innerText = t.headline + ", " + t.name + "!";
+            document.getElementById('week-dates').innerText = t.weekDates;
+
+            // Metrics
+            document.getElementById('stat-sessions').innerText = t.sessions;
+            document.getElementById('stat-students').innerText = t.students;
+            document.getElementById('stat-minutes').innerText = t.minutes;
+            document.getElementById('stat-praise').innerText = t.praiseCount;
+            document.getElementById('stat-questions').innerText = t.questionsAsked;
+
+            // Talk ratio
+            document.getElementById('talk-ratio-pct').innerHTML = t.talkRatio + "% You <span style='font-weight:400;color:#80828d;font-size:14px;'>/ " + (100 - t.talkRatio) + "% Student</span>";
+            document.getElementById('talk-ratio-bar').style.width = t.talkRatio + "%";
+            document.getElementById('talk-badge').innerText = t.talkBadge;
+            document.getElementById('talk-badge').className = t.talkRatio > 70 ? "badge badge-yellow" : "badge badge-green";
+
+            // Think time
+            document.getElementById('think-time').innerHTML = t.thinkTime + "s <span style='font-weight:400;color:#80828d;font-size:14px;'>target: 3–5s</span>";
+            document.getElementById('think-badge').innerText = t.thinkBadge;
+            document.getElementById('think-badge').className = t.thinkTime < 3 ? "badge badge-yellow" : "badge badge-green";
+
+            // Highlight
+            document.getElementById('highlight-quote').innerText = '"' + t.highlight.quote + '"';
+            document.getElementById('highlight-label').innerText = t.highlight.label;
+
+            // Tip
+            document.getElementById('tip-short').innerHTML = t.tip.short;
+            document.getElementById('tip-reason').innerText = t.tip.reason;
+
+            // Student goals (Progress + Effort)
+            const students = t.studentGoals;
+            for (let i = 0; i < 3; i++) {
+                const s = students[i];
+                document.getElementById('student-' + (i + 1) + '-name').innerText = s.name;
+                document.getElementById('student-' + (i + 1) + '-progress').innerText = s.progressPct + "%";
+                document.getElementById('student-' + (i + 1) + '-effort').innerText = s.effortPct + "%";
+
+                // Update ring SVGs
+                const outerCircum = 2 * Math.PI * 36;
+                const innerCircum = 2 * Math.PI * 26;
+                const outerOffset = outerCircum * (1 - s.progressPct / 100);
+                const innerOffset = innerCircum * (1 - s.effortPct / 100);
+
+                document.getElementById('student-' + (i + 1) + '-ring-outer').setAttribute('stroke-dashoffset', outerOffset);
+                document.getElementById('student-' + (i + 1) + '-ring-inner').setAttribute('stroke-dashoffset', innerOffset);
+            }
+        }
+    </script>
+
+    <!-- Main container -->
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+            <td align="center" style="padding: 40px 16px;">
+
+                <!-- Tutor Toggle (prototype) -->
+                <div style="margin-bottom: 20px; text-align: center;">
+                    <label
+                        style="font-family: 'Merriweather Sans'; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(0,0,0,0.5); display: block; margin-bottom: 8px;">
+                        PROTOTYPE: Switch Tutor
+                    </label>
+                    <select class="tutor-toggle" onchange="switchTutor(this.value)">
+                        <option value="suzie_baik" selected>Suzie Baik</option>
+                        <option value="jai_dalvi">Jai Dalvi</option>
+                        <option value="marena_keys">Marena Keys</option>
+                    </select>
+                </div>
+
+                <!-- Content wrapper -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600">
+
+                    <!-- CARD 1: Hero Header -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 56px 40px 48px; text-align: center;">
+                                <p id="week-dates" class="label-text" style="margin-bottom: 12px;">Nov 18 – 24, 2025</p>
+                                <h1 id="tutor-greeting" class="heading-xl">Great week, Suzie!</h1>
+                                <p class="body-text" style="margin-top: 12px;">Here's what you accomplished with your
+                                    students.</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 2: Week at a Glance (stacked: 3 top, 2 bottom) -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px; text-align: center;">
+                                <p class="label-text" style="margin-bottom: 32px;">Your Week at a Glance</p>
+
+                                <!-- Stacked layout container -->
+                                <div style="position: relative; height: 280px; max-width: 400px; margin: 0 auto;">
+
+                                    <!-- Row 1: 3 circles -->
+                                    <div class="tooltip-wrap" style="position: absolute; top: 0; left: 0;">
+                                        <div class="stat-circle">
+                                            <span id="stat-sessions" class="stat-number">3</span>
+                                            <span class="stat-unit">Sessions</span>
+                                        </div>
+                                        <span class="tooltip-text">Source: Zoom session count</span>
+                                    </div>
+
+                                    <div class="tooltip-wrap"
+                                        style="position: absolute; top: 0; left: 50%; transform: translateX(-50%);">
+                                        <div class="stat-circle">
+                                            <span id="stat-students" class="stat-number">7</span>
+                                            <span class="stat-unit">Students</span>
+                                        </div>
+                                        <span class="tooltip-text">Source: Unique students in transcripts</span>
+                                    </div>
+
+                                    <div class="tooltip-wrap" style="position: absolute; top: 0; right: 0;">
+                                        <div class="stat-circle">
+                                            <span id="stat-minutes" class="stat-number">73</span>
+                                            <span class="stat-unit">Minutes</span>
+                                        </div>
+                                        <span class="tooltip-text">Source: Total talk time</span>
+                                    </div>
+
+                                    <!-- Row 2: 2 circles, centered -->
+                                    <div class="tooltip-wrap" style="position: absolute; top: 140px; left: 50px;">
+                                        <div class="stat-circle stat-circle-accent">
+                                            <span id="stat-praise" class="stat-number" style="color: #007f89;">45</span>
+                                            <span class="stat-unit">Praise<br>Moments</span>
+                                        </div>
+                                        <span class="tooltip-text">Source: LLM phrase count</span>
+                                    </div>
+
+                                    <div class="tooltip-wrap" style="position: absolute; top: 140px; right: 50px;">
+                                        <div class="stat-circle">
+                                            <span id="stat-questions" class="stat-number">38</span>
+                                            <span class="stat-unit">Questions<br>Asked</span>
+                                        </div>
+                                        <span class="tooltip-text">Source: Count of tutor "?"</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 3: Tutoring Style -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px;">
+                                <p class="label-text" style="margin-bottom: 24px;">Your Tutoring Style</p>
+
+                                <!-- Talk Ratio -->
+                                <div
+                                    style="background: #fffaec; border-radius: 12px; padding: 24px; margin-bottom: 12px;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <p class="label-text" style="margin-bottom: 6px;">Who's doing the
+                                                    talking?</p>
+                                                <div class="tooltip-wrap">
+                                                    <p id="talk-ratio-pct" class="heading-md" style="display: inline;">
+                                                        81% You <span
+                                                            style="font-weight: 400; color: #80828d; font-size: 14px;">/
+                                                            19% Student</span></p>
+                                                    <span class="tooltip-text">Source: Transcript speaker
+                                                        duration</span>
+                                                </div>
+                                            </td>
+                                            <td align="right" valign="middle">
+                                                <span id="talk-badge" class="badge badge-yellow">Room to grow</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div
+                                        style="height: 10px; background: #eff0f3; border-radius: 5px; margin-top: 16px; overflow: hidden;">
+                                        <div id="talk-ratio-bar"
+                                            style="height: 100%; width: 81%; background: linear-gradient(90deg, #ffc94b, #fec04e); border-radius: 5px;">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Think Time -->
+                                <div style="background: #f5f5f7; border-radius: 12px; padding: 24px;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <p class="label-text" style="margin-bottom: 6px;">Think time after
+                                                    questions</p>
+                                                <div class="tooltip-wrap">
+                                                    <p id="think-time" class="heading-md" style="display: inline;">1.6s
+                                                        <span
+                                                            style="font-weight: 400; color: #80828d; font-size: 14px;">target:
+                                                            3–5s</span></p>
+                                                    <span class="tooltip-text">Source: Avg pause after tutor "?"</span>
+                                                </div>
+                                            </td>
+                                            <td align="right" valign="middle">
+                                                <span id="think-badge" class="badge badge-yellow">Try waiting
+                                                    longer</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 4: Student Goal Progress (Progress + Effort) -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px;">
+                                <p class="label-text" style="margin-bottom: 8px;">Student Goal Progress</p>
+                                <p class="body-text" style="font-size: 12px; color: #80828d; margin-bottom: 24px;">
+                                    <span style="color: #4cab65;">●</span> Progress Goal &nbsp;&nbsp;
+                                    <span style="color: #ffc94b;">●</span> Effort Goal
+                                </p>
+
+                                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                    <tr>
+                                        <!-- Student 1 -->
+                                        <td width="32%"
+                                            style="text-align: center; padding: 20px 8px; background: #f9f9fb; border-radius: 12px;">
+                                            <p id="student-1-name" class="label-text" style="margin-bottom: 16px;">Reese
+                                                J.</p>
+                                            <div class="tooltip-wrap">
+                                                <svg width="80" height="80" viewBox="0 0 80 80"
+                                                    style="transform: rotate(-90deg);">
+                                                    <circle cx="40" cy="40" r="36" fill="none" stroke="#eff0f3"
+                                                        stroke-width="6" />
+                                                    <circle id="student-1-ring-outer" cx="40" cy="40" r="36" fill="none"
+                                                        stroke="#4cab65" stroke-width="6" stroke-dasharray="226"
+                                                        stroke-dashoffset="45" stroke-linecap="round" />
+                                                    <circle cx="40" cy="40" r="26" fill="none" stroke="#eff0f3"
+                                                        stroke-width="5" />
+                                                    <circle id="student-1-ring-inner" cx="40" cy="40" r="26" fill="none"
+                                                        stroke="#ffc94b" stroke-width="5" stroke-dasharray="163"
+                                                        stroke-dashoffset="57" stroke-linecap="round" />
+                                                </svg>
+                                                <span class="tooltip-text">Source: APPS Goal Data</span>
+                                            </div>
+                                            <p
+                                                style="font-family: 'Merriweather Sans'; font-size: 12px; margin-top: 12px;">
+                                                <span style="color: #297e43; font-weight: 600;"
+                                                    id="student-1-progress">80%</span> /
+                                                <span style="color: #9d6e00; font-weight: 600;"
+                                                    id="student-1-effort">65%</span>
+                                            </p>
+                                        </td>
+                                        <td width="2%"></td>
+                                        <!-- Student 2 -->
+                                        <td width="32%"
+                                            style="text-align: center; padding: 20px 8px; background: #f9f9fb; border-radius: 12px;">
+                                            <p id="student-2-name" class="label-text" style="margin-bottom: 16px;">
+                                                Jayden T.</p>
+                                            <div class="tooltip-wrap">
+                                                <svg width="80" height="80" viewBox="0 0 80 80"
+                                                    style="transform: rotate(-90deg);">
+                                                    <circle cx="40" cy="40" r="36" fill="none" stroke="#eff0f3"
+                                                        stroke-width="6" />
+                                                    <circle id="student-2-ring-outer" cx="40" cy="40" r="36" fill="none"
+                                                        stroke="#4cab65" stroke-width="6" stroke-dasharray="226"
+                                                        stroke-dashoffset="136" stroke-linecap="round" />
+                                                    <circle cx="40" cy="40" r="26" fill="none" stroke="#eff0f3"
+                                                        stroke-width="5" />
+                                                    <circle id="student-2-ring-inner" cx="40" cy="40" r="26" fill="none"
+                                                        stroke="#ffc94b" stroke-width="5" stroke-dasharray="163"
+                                                        stroke-dashoffset="49" stroke-linecap="round" />
+                                                </svg>
+                                                <span class="tooltip-text">Source: APPS Goal Data</span>
+                                            </div>
+                                            <p
+                                                style="font-family: 'Merriweather Sans'; font-size: 12px; margin-top: 12px;">
+                                                <span style="color: #297e43; font-weight: 600;"
+                                                    id="student-2-progress">40%</span> /
+                                                <span style="color: #9d6e00; font-weight: 600;"
+                                                    id="student-2-effort">70%</span>
+                                            </p>
+                                        </td>
+                                        <td width="2%"></td>
+                                        <!-- Student 3 -->
+                                        <td width="32%"
+                                            style="text-align: center; padding: 20px 8px; background: #f9f9fb; border-radius: 12px;">
+                                            <p id="student-3-name" class="label-text" style="margin-bottom: 16px;">
+                                                Sienna C.</p>
+                                            <div class="tooltip-wrap">
+                                                <svg width="80" height="80" viewBox="0 0 80 80"
+                                                    style="transform: rotate(-90deg);">
+                                                    <circle cx="40" cy="40" r="36" fill="none" stroke="#eff0f3"
+                                                        stroke-width="6" />
+                                                    <circle id="student-3-ring-outer" cx="40" cy="40" r="36" fill="none"
+                                                        stroke="#4cab65" stroke-width="6" stroke-dasharray="226"
+                                                        stroke-dashoffset="23" stroke-linecap="round" />
+                                                    <circle cx="40" cy="40" r="26" fill="none" stroke="#eff0f3"
+                                                        stroke-width="5" />
+                                                    <circle id="student-3-ring-inner" cx="40" cy="40" r="26" fill="none"
+                                                        stroke="#ffc94b" stroke-width="5" stroke-dasharray="163"
+                                                        stroke-dashoffset="41" stroke-linecap="round" />
+                                                </svg>
+                                                <span class="tooltip-text">Source: APPS Goal Data</span>
+                                            </div>
+                                            <p
+                                                style="font-family: 'Merriweather Sans'; font-size: 12px; margin-top: 12px;">
+                                                <span style="color: #297e43; font-weight: 600;"
+                                                    id="student-3-progress">90%</span> /
+                                                <span style="color: #9d6e00; font-weight: 600;"
+                                                    id="student-3-effort">75%</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 5: Highlight Moment -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px;">
+                                <p class="label-text" style="margin-bottom: 24px;">Highlight Moment</p>
+                                <div class="quote-block">
+                                    <span class="quote-icon">"</span>
+                                    <div class="tooltip-wrap" style="display: block;">
+                                        <p id="highlight-quote" class="quote-text">"You're doing great. I'm going to
+                                            come back, but just keep sharing your screen and solving the problems."</p>
+                                        <span class="tooltip-text">Source: Verbatim from transcript</span>
+                                    </div>
+                                    <p id="highlight-label"
+                                        style="font-family: 'Merriweather Sans'; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #c6009c; margin-top: 20px;">
+                                        Empowering Independence
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 6: Try This Week -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px;">
+                                <div class="tip-block">
+                                    <div style="font-size: 48px; margin-bottom: 16px;">💡</div>
+                                    <p class="label-text" style="margin-bottom: 16px; color: #80828d;">Try This Week</p>
+                                    <p id="tip-short" class="heading-lg" style="line-height: 1.4;">
+                                        Ask a question, then count to 5.
+                                    </p>
+                                    <div class="tooltip-wrap" style="margin-top: 16px;">
+                                        <p id="tip-reason" class="body-text" style="font-size: 14px; color: #9d6e00;">
+                                            Based on your 1.6s average think time</p>
+                                        <span class="tooltip-text">Source: LLM coaching suggestion</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- CARD 7: Feedback -->
+                    <tr>
+                        <td>
+                            <div class="content-card" style="padding: 40px 40px 48px; text-align: center;">
+                                <p class="heading-md" style="margin-bottom: 24px; color: #62636c;">Was this helpful?</p>
+                                <div>
+                                    <a href="#yes" class="feedback-btn">👍 Yes</a>
+                                    <a href="#no" class="feedback-btn">👎 No</a>
+                                    <a href="#issue" class="feedback-btn">⚠️ Issue</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

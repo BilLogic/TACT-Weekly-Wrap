@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Your Weekly Wrap</title>
+    <!--[if mso]>
+  <style type="text/css">
+    table { border-collapse: collapse; }
+    td { font-family: Arial, sans-serif; }
+  </style>
+  <![endif]-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        /* 
+       Weekly Wrap V11
+       ---------------
+       Mailchimp-compatible static email.
+       Fonts: Lato (headings), Merriweather Sans (body)
+       Palette: Paper/Forest + Bento accents
+    */
+
+        /* Reset */
+        body,
+        table,
+        td,
+        p,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            background-color: #F7F7F5;
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            color: #1A3C2B;
+        }
+
+        /* Container */
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        /* Typography */
+        .heading-xl {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #1A3C2B;
+            margin: 0;
+        }
+
+        .heading-lg {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #1A3C2B;
+            margin: 0;
+        }
+
+        .heading-md {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1A3C2B;
+            margin: 0;
+        }
+
+        .body-text {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #3A3A38;
+            margin: 0;
+        }
+
+        .label-text {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #62636c;
+            margin: 0;
+        }
+
+        .stat-number {
+            font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 56px;
+            font-weight: 900;
+            line-height: 1;
+            color: #1A3C2B;
+        }
+
+        .stat-unit {
+            font-family: 'Merriweather Sans', 'Segoe UI', Tahoma, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #62636c;
+        }
+
+        /* Tooltip on hover */
+        .tooltip-container {
+            position: relative;
+            display: inline-block;
+            cursor: help;
+        }
+
+        .tooltip-text {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1A3C2B;
+            color: #ffffff;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 11px;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 4px;
+            white-space: nowrap;
+            z-index: 10;
+            margin-bottom: 8px;
+            transition: opacity 0.2s ease;
+        }
+
+        .tooltip-text::after {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #1A3C2B transparent transparent transparent;
+        }
+
+        .tooltip-container:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Accent badges */
+        .badge {
+            display: inline-block;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            border-radius: 4px;
+        }
+
+        .badge-green {
+            background: #e8f6ea;
+            color: #297e43;
+        }
+
+        .badge-yellow {
+            background: #fff1c7;
+            color: #9d6e00;
+        }
+
+        .badge-teal {
+            background: #d7f9fc;
+            color: #007f89;
+        }
+
+        /* Progress bar */
+        .progress-track {
+            height: 10px;
+            background: #eff0f3;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        /* Student goal rings (inline SVG) */
+        .student-ring-bg {
+            stroke: #eff0f3;
+        }
+
+        /* Quote block */
+        .quote-block {
+            background: linear-gradient(135deg, #ffe8f6 0%, #e4f5ff 100%);
+            border-radius: 8px;
+            padding: 32px;
+            position: relative;
+        }
+
+        .quote-icon {
+            font-family: 'Lato', serif;
+            font-size: 80px;
+            font-weight: 900;
+            color: #dd2ab0;
+            opacity: 0.2;
+            line-height: 0.5;
+            position: absolute;
+            top: 20px;
+            left: 24px;
+        }
+
+        .quote-text {
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 18px;
+            font-style: italic;
+            line-height: 1.6;
+            color: #1A3C2B;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #007f89;
+            padding: 14px 28px;
+            border: 2px solid #00bfcc;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn:hover {
+            background: #00bfcc;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #F7F7F5;">
+
+    <!-- Outer wrapper for centering -->
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+        style="background-color: #F7F7F5;">
+        <tr>
+            <td align="center" style="padding: 40px 16px;">
+
+                <!-- Email container -->
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600"
+                    class="email-container"
+                    style="background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.06);">
+
+                    <!-- HEADER -->
+                    <tr>
+                        <td
+                            style="background: linear-gradient(135deg, #effbfc 0%, #f7f7f5 100%); padding: 48px 40px; text-align: center;">
+                            <p class="label-text" style="margin-bottom: 16px;">Nov 18 – 24, 2025</p>
+                            <h1 class="heading-xl">Great week, Suzie!</h1>
+                            <p class="body-text"
+                                style="margin-top: 12px; max-width: 400px; margin-left: auto; margin-right: auto;">
+                                Here's what you accomplished with your students this week.</p>
+                            <span class="badge badge-teal" style="margin-top: 20px;">✨ Weekly Wrap</span>
+                        </td>
+                    </tr>
+
+                    <!-- SECTION: At a Glance -->
+                    <tr>
+                        <td style="padding: 40px;">
+                            <p class="label-text" style="margin-bottom: 24px;">Your Week at a Glance</p>
+
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <!-- Sessions -->
+                                    <td width="50%"
+                                        style="padding: 16px; background: #f9f9fb; border-radius: 8px; text-align: center; vertical-align: top;">
+                                        <div class="tooltip-container">
+                                            <span class="stat-number">3</span>
+                                            <span class="tooltip-text">Source: Zoom session count</span>
+                                        </div>
+                                        <p class="stat-unit" style="margin-top: 4px;">Sessions</p>
+                                    </td>
+                                    <td width="8"></td>
+                                    <!-- Students -->
+                                    <td width="50%"
+                                        style="padding: 16px; background: #f9f9fb; border-radius: 8px; text-align: center; vertical-align: top;">
+                                        <div class="tooltip-container">
+                                            <span class="stat-number">7</span>
+                                            <span class="tooltip-text">Source: Unique students in transcripts</span>
+                                        </div>
+                                        <p class="stat-unit" style="margin-top: 4px;">Students</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" height="8"></td>
+                                </tr>
+                                <tr>
+                                    <!-- Minutes -->
+                                    <td width="50%"
+                                        style="padding: 16px; background: #f9f9fb; border-radius: 8px; text-align: center; vertical-align: top;">
+                                        <div class="tooltip-container">
+                                            <span class="stat-number">73</span>
+                                            <span class="tooltip-text">Source: Zoom meeting duration</span>
+                                        </div>
+                                        <p class="stat-unit" style="margin-top: 4px;">Minutes Tutored</p>
+                                    </td>
+                                    <td width="8"></td>
+                                    <!-- Encouragement -->
+                                    <td width="50%"
+                                        style="padding: 16px; background: #e8f6ea; border-radius: 8px; text-align: center; vertical-align: top;">
+                                        <div class="tooltip-container">
+                                            <span class="stat-number" style="color: #297e43;">45</span>
+                                            <span class="tooltip-text">Source: LLM count of praise phrases</span>
+                                        </div>
+                                        <p class="stat-unit" style="margin-top: 4px; color: #297e43;">Encouragements</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- SECTION: Tutoring Style -->
+                    <tr>
+                        <td style="padding: 0 40px 40px;">
+                            <p class="label-text" style="margin-bottom: 24px;">Your Tutoring Style</p>
+
+                            <!-- Talk Ratio -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+                                style="background: #fffaec; border-radius: 8px; padding: 24px; margin-bottom: 12px;">
+                                <tr>
+                                    <td style="padding: 24px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+                                            width="100%">
+                                            <tr>
+                                                <td>
+                                                    <p class="label-text" style="margin-bottom: 8px;">Who's doing the
+                                                        talking?</p>
+                                                    <div class="tooltip-container">
+                                                        <p class="heading-md" style="display: inline;">81% You <span
+                                                                style="font-weight: 400; color: #62636c; font-size: 16px;">/
+                                                                19% Student</span></p>
+                                                        <span class="tooltip-text">Source: Transcript speaker duration
+                                                            analysis</span>
+                                                    </div>
+                                                </td>
+                                                <td align="right" valign="middle">
+                                                    <span class="badge badge-yellow">Room to improve</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div class="progress-track" style="margin-top: 16px;">
+                                            <div class="progress-fill"
+                                                style="width: 81%; background: linear-gradient(90deg, #ffc94b, #fec04e);">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Think Time -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
+                                style="background: #f9f9fb; border-radius: 8px; margin-bottom: 12px;">
+                                <tr>
+                                    <td style="padding: 24px;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+                                            width="100%">
+                                            <tr>
+                                                <td>
+                                                    <p class="label-text" style="margin-bottom: 8px;">Think time after
+                                                        questions</p>
+                                                    <div class="tooltip-container">
+                                                        <p class="heading-md" style="display: inline;">1.6s <span
+                                                                style="font-weight: 400; color: #62636c; font-size: 14px;">target:
+                                                                3–5s</span></p>
+                                                        <span class="tooltip-text">Source: Avg pause after tutor "?"
+                                                            utterances</span>
+                                                    </div>
+                                                </td>
+                                                <td align="right" valign="middle">
+                                                    <span class="badge badge-yellow">Try waiting longer</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <!-- SECTION: Student Goal Progress -->
+                    <tr>
+                        <td style="padding: 0 40px 40px;">
+                            <p class="label-text" style="margin-bottom: 24px;">Student Goal Progress</p>
+
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <!-- Student 1 -->
+                                    <td width="33%"
+                                        style="text-align: center; padding: 16px; background: #f9f9fb; border-radius: 8px;">
+                                        <p class="label-text" style="margin-bottom: 12px;">Reese J.</p>
+                                        <div class="tooltip-container">
+                                            <svg width="64" height="64" viewBox="0 0 64 64"
+                                                style="transform: rotate(-90deg);">
+                                                <circle class="student-ring-bg" cx="32" cy="32" r="28" fill="none"
+                                                    stroke-width="6" />
+                                                <circle cx="32" cy="32" r="28" fill="none" stroke="#4cab65"
+                                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="35"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                            <span class="tooltip-text">Source: APPS Goal Data</span>
+                                        </div>
+                                        <p
+                                            style="font-family: 'Lato', sans-serif; font-size: 18px; font-weight: 700; color: #297e43; margin-top: 8px;">
+                                            80%</p>
+                                    </td>
+                                    <td width="4%"></td>
+                                    <!-- Student 2 -->
+                                    <td width="33%"
+                                        style="text-align: center; padding: 16px; background: #f9f9fb; border-radius: 8px;">
+                                        <p class="label-text" style="margin-bottom: 12px;">Jayden T.</p>
+                                        <div class="tooltip-container">
+                                            <svg width="64" height="64" viewBox="0 0 64 64"
+                                                style="transform: rotate(-90deg);">
+                                                <circle class="student-ring-bg" cx="32" cy="32" r="28" fill="none"
+                                                    stroke-width="6" />
+                                                <circle cx="32" cy="32" r="28" fill="none" stroke="#4dc1ff"
+                                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="70"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                            <span class="tooltip-text">Source: APPS Goal Data</span>
+                                        </div>
+                                        <p
+                                            style="font-family: 'Lato', sans-serif; font-size: 18px; font-weight: 700; color: #007eb8; margin-top: 8px;">
+                                            60%</p>
+                                    </td>
+                                    <td width="4%"></td>
+                                    <!-- Student 3 -->
+                                    <td width="33%"
+                                        style="text-align: center; padding: 16px; background: #f9f9fb; border-radius: 8px;">
+                                        <p class="label-text" style="margin-bottom: 12px;">Sienna C.</p>
+                                        <div class="tooltip-container">
+                                            <svg width="64" height="64" viewBox="0 0 64 64"
+                                                style="transform: rotate(-90deg);">
+                                                <circle class="student-ring-bg" cx="32" cy="32" r="28" fill="none"
+                                                    stroke-width="6" />
+                                                <circle cx="32" cy="32" r="28" fill="none" stroke="#dd2ab0"
+                                                    stroke-width="6" stroke-dasharray="176" stroke-dashoffset="18"
+                                                    stroke-linecap="round" />
+                                            </svg>
+                                            <span class="tooltip-text">Source: APPS Goal Data</span>
+                                        </div>
+                                        <p
+                                            style="font-family: 'Lato', sans-serif; font-size: 18px; font-weight: 700; color: #c6009c; margin-top: 8px;">
+                                            90%</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- SECTION: Highlight Moment -->
+                    <tr>
+                        <td style="padding: 0 40px 40px;">
+                            <p class="label-text" style="margin-bottom: 24px;">Highlight Moment</p>
+                            <div class="quote-block">
+                                <span class="quote-icon">"</span>
+                                <div class="tooltip-container" style="display: block;">
+                                    <p class="quote-text">"You're doing great. I'm going to come back, but just keep
+                                        sharing your screen and solving the problems."</p>
+                                    <span class="tooltip-text">Source: Verbatim from transcript (LLM selected)</span>
+                                </div>
+                                <p
+                                    style="font-family: 'Merriweather Sans', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #c6009c; margin-top: 20px;">
+                                    Empowering Independence</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- FOOTER CTA -->
+                    <tr>
+                        <td style="padding: 32px 40px 48px; text-align: center; background: #f9f9fb;">
+                            <p class="heading-md" style="margin-bottom: 16px;">Keep it up next week!</p>
+                            <a href="#" class="cta-btn">Was this helpful? →</a>
+                        </td>
+                    </tr>
+
+                </table>
+                <!-- End email container -->
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

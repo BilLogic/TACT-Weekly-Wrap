@@ -1,0 +1,837 @@
+:root {
+    --teal: #00bfcc;
+    --teal-dark: #007f89;
+    --teal-light: #d7f9fc;
+    --green: #4cab65;
+    --green-dark: #297e43;
+    --green-light: #e8f6ea;
+    --yellow: #ffc94b;
+    --yellow-dark: #9d6e00;
+    --yellow-light: #fff1c7;
+    --magenta: #dd2ab0;
+    --magenta-dark: #c6009c;
+    --pink-light: #ffe8f6;
+    --blue: #4dc1ff;
+    --blue-light: #eaf7ff;
+    --paper: #ffffff;
+    --paper-soft: #f9f9fb;
+    --ink: #1e1f24;
+    --ink-muted: #62636c;
+    --ink-subtle: #80828d;
+    --border: #eff0f3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--ink);
+    min-height: 100vh;
+}
+
+/* Controls */
+.controls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.controls label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+}
+
+.controls select {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    background: var(--paper);
+    cursor: pointer;
+}
+
+.style-toggle {
+    display: flex;
+    background: var(--paper-soft);
+    border-radius: 8px;
+    padding: 4px;
+    gap: 4px;
+}
+
+.style-toggle button {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--ink-muted);
+    cursor: pointer;
+}
+
+.style-toggle button.active {
+    background: var(--paper);
+    color: var(--ink);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.main-wrap {
+    padding-top: 80px;
+}
+
+/* Tooltips */
+[data-tip] {
+    position: relative;
+    cursor: help;
+}
+
+[data-tip]::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 10px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.15s;
+    z-index: 10;
+}
+
+[data-tip]:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.badge-green {
+    background: var(--green-light);
+    color: var(--green-dark);
+}
+
+.badge-yellow {
+    background: var(--yellow-light);
+    color: var(--yellow-dark);
+}
+
+.badge-teal {
+    background: var(--teal-light);
+    color: var(--teal-dark);
+}
+
+/* ===== SPACED STYLE ===== */
+body.style-spaced {
+    background: linear-gradient(135deg, #f9e3f2 0%, #fff5d6 25%, #e8f8f9 50%, #f0e6ff 75%, #ffe8f6 100%);
+}
+
+.style-spaced .email-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+.style-spaced .card {
+    background: var(--paper);
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+    margin-bottom: 16px;
+    padding: 40px;
+}
+
+.style-spaced .hero-card {
+    text-align: center;
+    padding: 56px 40px 48px;
+}
+
+.style-spaced .week-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+    margin-bottom: 12px;
+}
+
+.style-spaced .greeting {
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.style-spaced .subtitle {
+    font-size: 16px;
+    color: var(--ink-muted);
+    margin-top: 12px;
+}
+
+.style-spaced .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+    margin-bottom: 24px;
+}
+
+/* Varied-size circles */
+.style-spaced .circles-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.style-spaced .stat-circle {
+    border-radius: 50%;
+    background: var(--paper);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-spaced .stat-circle.size-lg {
+    width: 130px;
+    height: 130px;
+}
+
+.style-spaced .stat-circle.size-md {
+    width: 110px;
+    height: 110px;
+}
+
+.style-spaced .stat-circle.size-sm {
+    width: 90px;
+    height: 90px;
+}
+
+.style-spaced .stat-circle.accent {
+    border: 3px solid var(--teal);
+}
+
+.style-spaced .stat-circle.muted {
+    border: 2px dashed var(--border);
+    opacity: 0.7;
+}
+
+.style-spaced .stat-number {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: var(--ink);
+    line-height: 1;
+}
+
+.style-spaced .size-lg .stat-number {
+    font-size: 40px;
+}
+
+.style-spaced .size-md .stat-number {
+    font-size: 32px;
+}
+
+.style-spaced .size-sm .stat-number {
+    font-size: 24px;
+}
+
+.style-spaced .stat-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+    margin-top: 4px;
+    text-align: center;
+}
+
+/* Ratio block */
+.style-spaced .ratio-block {
+    background: #fffaec;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 12px;
+}
+
+.style-spaced .ratio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.style-spaced .ratio-value {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.style-spaced .ratio-bar {
+    height: 10px;
+    background: var(--border);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.style-spaced .ratio-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--yellow), #fec04e);
+    border-radius: 5px;
+}
+
+.style-spaced .think-block {
+    background: var(--paper-soft);
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Students grid */
+.style-spaced .students-grid {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.style-spaced .student-card {
+    flex: 1;
+    max-width: 160px;
+    background: var(--paper-soft);
+    border-radius: 12px;
+    padding: 20px 8px;
+    text-align: center;
+}
+
+.style-spaced .student-name {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+    margin-bottom: 16px;
+}
+
+.style-spaced .student-pcts {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.style-spaced .student-pcts .progress {
+    color: var(--green-dark);
+    font-weight: 600;
+}
+
+.style-spaced .student-pcts .effort {
+    color: var(--yellow-dark);
+    font-weight: 600;
+}
+
+/* Quote */
+.style-spaced .quote-block {
+    background: linear-gradient(135deg, rgba(255, 232, 246, 0.5) 0%, rgba(228, 245, 255, 0.5) 100%);
+    border-radius: 16px;
+    padding: 32px;
+    position: relative;
+}
+
+.style-spaced .quote-icon {
+    font-family: 'Lato', serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--magenta);
+    opacity: 0.25;
+    line-height: 0.6;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.style-spaced .quote-text {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+}
+
+.style-spaced .quote-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--magenta-dark);
+    margin-top: 20px;
+}
+
+/* Tip */
+.style-spaced .tip-block {
+    background: #fffaec;
+    border-radius: 16px;
+    padding: 40px 32px;
+    text-align: center;
+}
+
+.style-spaced .tip-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.style-spaced .tip-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.style-spaced .tip-reason {
+    font-size: 14px;
+    color: var(--yellow-dark);
+    margin-top: 16px;
+}
+
+/* Feedback */
+.style-spaced .feedback-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.style-spaced .feedback-btn {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--paper);
+    padding: 14px 28px;
+    border-radius: 40px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== COMPACT STYLE ===== */
+body.style-compact {
+    background: var(--paper-soft);
+}
+
+.style-compact .email-wrap {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+.style-compact .card {
+    background: var(--paper);
+    border-radius: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    margin-bottom: 16px;
+    padding: 20px;
+}
+
+/* Compact hero - gradient like Claude */
+.style-compact .hero-card {
+    background: linear-gradient(135deg, var(--teal-light) 0%, var(--green-light) 50%, var(--yellow-light) 100%);
+    padding: 32px 28px;
+}
+
+.style-compact .brand-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.style-compact .brand {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--teal-dark);
+    opacity: 0.7;
+}
+
+.style-compact .session-badge {
+    font-size: 9px;
+    color: var(--teal-dark);
+    background: rgba(255, 255, 255, 0.6);
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.style-compact .hero-layout {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.style-compact .hero-text {
+    flex: 1;
+}
+
+.style-compact .greeting {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+
+.style-compact .week {
+    font-size: 10px;
+    color: var(--ink-subtle);
+    margin-bottom: 14px;
+}
+
+.style-compact .archetype {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 6px 14px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.style-compact .hero-stat {
+    width: 110px;
+    height: 110px;
+    background: var(--paper);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 32px rgba(0, 191, 204, 0.2);
+    flex-shrink: 0;
+}
+
+.style-compact .hero-stat-num {
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--teal-dark);
+    line-height: 1;
+}
+
+.style-compact .hero-stat-label {
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-subtle);
+    text-align: center;
+    margin-top: 2px;
+}
+
+.style-compact .mini-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.style-compact .mini-stat {
+    text-align: center;
+}
+
+.style-compact .mini-stat-num {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.style-compact .mini-stat-label {
+    font-size: 8px;
+    text-transform: uppercase;
+    color: var(--ink-subtle);
+}
+
+/* Students horizontal */
+.style-compact .students-row {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin: 0 -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.style-compact .students-row::-webkit-scrollbar {
+    display: none;
+}
+
+.style-compact .student {
+    flex-shrink: 0;
+    text-align: center;
+    width: 85px;
+}
+
+.style-compact .student-goals {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.style-compact .goal-ring {
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.style-compact .goal-ring svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.style-compact .ring-bg {
+    fill: none;
+    stroke: var(--border);
+    stroke-width: 4;
+}
+
+.style-compact .ring-fill {
+    fill: none;
+    stroke-width: 4;
+    stroke-linecap: round;
+}
+
+.style-compact .ring-fill.green {
+    stroke: var(--green);
+}
+
+.style-compact .ring-fill.yellow {
+    stroke: var(--yellow);
+}
+
+.style-compact .ring-pct {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.style-compact .student-name {
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Insights row */
+.style-compact .insights-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.style-compact .insight-block {
+    flex: 1;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.style-compact .insight-block.strength {
+    background: var(--green-light);
+}
+
+.style-compact .insight-block.growth {
+    background: var(--yellow-light);
+}
+
+.style-compact .insight-icon {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.style-compact .insight-title {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.style-compact .insight-text {
+    font-size: 12px;
+    line-height: 1.45;
+    opacity: 0.8;
+}
+
+.style-compact .insight-metric {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/* Quote strip */
+.style-compact .quote-strip {
+    background: linear-gradient(90deg, var(--blue-light), var(--teal-light));
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.style-compact .quote-mark {
+    font-family: 'Lato', serif;
+    font-size: 32px;
+    color: var(--teal);
+    opacity: 0.4;
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    line-height: 1;
+}
+
+.style-compact .quote-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    padding-left: 16px;
+}
+
+/* Tip strip */
+.style-compact .tip-strip {
+    background: var(--yellow-light);
+    border-radius: 16px;
+    padding: 14px 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.style-compact .tip-icon {
+    font-size: 22px;
+}
+
+.style-compact .tip-text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* Feedback */
+.style-compact .feedback-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.style-compact .feedback-label {
+    font-size: 11px;
+    color: var(--ink-subtle);
+}
+
+.style-compact .feedback-btns {
+    display: flex;
+    gap: 6px;
+}
+
+.style-compact .fb-btn {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 6px 12px;
+    font-size: 11px;
+    text-decoration: none;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.style-compact .section-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.style-compact .goal-legend {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.style-compact .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 9px;
+    color: var(--ink-subtle);
+}
+
+.style-compact .legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.style-compact .legend-dot.progress {
+    background: var(--green);
+}
+
+.style-compact .legend-dot.effort {
+    background: var(--yellow);
+}
+
+/* Hide inactive style */
+body.style-spaced .compact-only {
+    display: none !important;
+}
+
+body.style-compact .spaced-only {
+    display: none !important;
+}
+
+/* NULL state */
+.null-state {
+    color: var(--ink-subtle);
+    font-style: italic;
+}

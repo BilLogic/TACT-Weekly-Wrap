@@ -1,0 +1,2260 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:10:44 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=76521",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 46,\n      \"description\": \"Static image of a math problem: 'Which quantity is proportional to 15/3?'\"\n    },\n    {\n      \"offset_seconds\": 46,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": null,\n      \"description\": \"View switches to a live screen share of a student's desktop showing MobyMax and a floating Zoom window.\",\n      \"details\": \"Student name 'Mykael Baez' visible in MobyMax; Zoom participant name 'oswald'.\"\n    },\n    {\n      \"offset_seconds\": 48.3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How's it going?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 50.1,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.2,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's going good.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 51.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good. Do you have any questions?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 54.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Um, no not really.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 56.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Well, I'm just gonna hang out here for a few minutes. If you think of anything, you can ask.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 61.3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 62,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 93,\n      \"description\": \"Student is idle on the MobyMax screen. Background classroom noise is audible.\"\n    },\n    {\n      \"offset_seconds\": 155,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Play button\",\n      \"details\": \"Clicks the audio play button to read the question.\"\n    },\n    {\n      \"offset_seconds\": 158,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 7,\n      \"speaker_label\": \"background\",\n      \"text\": \"[Text-to-Speech] Evan purchased 3 1/2 kilograms of cashews for $49. What is the price per kilogram?\"\n    },\n    {\n      \"offset_seconds\": 174,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Text input box\"\n    },\n    {\n      \"offset_seconds\": 176,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"0.3\",\n      \"details\": \"Types '0.3' into the answer field.\"\n    },\n    {\n      \"offset_seconds\": 180,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow button\"\n    },\n    {\n      \"offset_seconds\": 180,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"'Try Again' notification appears.\"\n    },\n    {\n      \"offset_seconds\": 181,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 2,\n      \"action\": \"type\",\n      \"text\": \"14\",\n      \"details\": \"Deletes previous input and types '14'.\"\n    },\n    {\n      \"offset_seconds\": 196,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow button\"\n    },\n    {\n      \"offset_seconds\": 196,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Incorrect answer feedback displayed. Shows correct answer: $14.00.\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow button\",\n      \"details\": \"Dismisses feedback modal.\"\n    },\n    {\n      \"offset_seconds\": 205,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Next problem loads on MobyMax: 'Katrina purchased 8 1/4 ounces...'\"\n    },\n    {\n      \"offset_seconds\": 207.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Well at least you know now for next time.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 210.3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.8,\n      \"speaker_label\": \"student\",\n      \"text\": \"Mmhmm.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 212,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 44,\n      \"description\": \"No action on screen. Student looks down/away.\"\n    },\n    {\n      \"offset_seconds\": 256,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1,\n      \"description\": \"Screen goes black momentarily.\"\n    },\n    {\n      \"offset_seconds\": 257,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"View returns to MobyMax. A new problem is visible: 'You bought 0.40 lb of spinach...'\"\n    },\n    {\n      \"offset_seconds\": 295.3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you need help?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 304.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"No, I'm good.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 306.1,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, no worries. Let me know if you need anything.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 309.1,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yup.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 311,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 52,\n      \"description\": \"Student sits silently looking at the screen.\"\n    },\n    {\n      \"offset_seconds\": 363,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"New Tab\",\n      \"details\": \"Student opens a new browser tab.\"\n    },\n    {\n      \"offset_seconds\": 364,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"ity is proportional to 8/12\",\n      \"details\": \"Types partial query into Google search bar.\"\n    },\n    {\n      \"offset_seconds\": 365,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Search suggestion\",\n      \"details\": \"Clicks suggestion: 'which quanity is proportional to 8/12...'\"\n    },\n    {\n      \"offset_seconds\": 366,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"direction\": \"down\",\n      \"details\": \"Scrolls down through Google search results.\"\n    },\n    {\n      \"offset_seconds\": 369,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.5,\n      \"action\": \"click\",\n      \"target_desc\": \"Image Result\",\n      \"details\": \"Clicks on an image result from Brainly.\"\n    },\n    {\n      \"offset_seconds\": 395,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": null,\n      \"description\": \"View switches back to Zoom active speaker view (Tutor). Screen sharing ends.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EuR6CuF6AXLI2nyme495uGkP8kGPmHDBZJ3gFnioLm3d1_eSc30cqBluxkIUyfkR1ZVpzDpIVmQLwyeANbH1o13Ns-NmAwsGocIOq6lOcbnt3NjTZ51iJoKo8aFDsAB-wFR302C8sv5NgzxH5tbkdeR-pMYhqLTAKRg8fEH1eS8cnmsIhT35TQdZgYYGCc2fb8xOyPwpsHZ2NTWn5bz2umc1Tz3ZOlgxgiEy3YVWBZU7-r05UxmfPwdO9jlljXXt8sdUNE-F9l9CqtgS37TcdZL1GCGKHR7ge3EpkQf3xvo8K7Es4xbv3dx4Gf1DpFKV9MCP9WvnYVxx6LgOEjnTf5DTCUKyRKIHX3NOoTZKaPkjn5SkJ50nII_fW4CadP0Rt5PHIdeMHgKaRzJBfW0JwX9-TB9-XsYWH5Kcs6W9C0F-Pht3oHmi-6q4CuB64NahDtBF9fZfIaIP5gplZ0o9v34Z_5TZhKX8Uoq7NU645B3X9m-ME9bpbgGPUrCcX0RXQVclIeRhvFQXZ4dLnXJ-avV5fYDSQ4h_BD0XnfHqMGNwF0vW-1nxZQ9EuZ9DGfgp95jwaxyWC_gwQ-p5f7MHOY-hgHBAwlV351rBJkTsWVuvN2wXGPVgIRSRzh8DnESLaAZubdEeW_kFkvnke4fJ0mVplgX55gP-dYakVmg-d19S9NtpLNL4jH06VP8sZvN_iMvj-5Da0OGJPzCIX4cPfkZ-xcVA23A3M1i4gH_BmEkBuTgXk8JbMd1hgubvoRREVzJUJCr8TlIRkmy-9h9nFJX8ywbzWFSdrRO0imV-w4XZkDfwFxdv_e48A-LTTS7oxniD9e1ZzuFMCSI593gYCnOyZatUdp_JfpsCVku5aGxyIbYT4PqlASpXUNckIwU1rjceqEApdJ_09s7dVHuNlg2mufuTNeVvq9k-121hfPkEwVgNs4o9xxyLz_NnSgkU0I6c73S1E45WvqyHncX78u-mYUKxHQxzOo4xrs2XoxrcUgAnI5x6APc-DPcDTPV39dg0wATbupHNX94yshtoXAje69EtHf20nLHYbdJ6829r_fY74AUbbLQog9a5oiJZg7rljT67tqrr7ZZARr42U47CuY9Hyjjo0s1hkrBNuxGD1S0HbQZ4gu6HfjXoMMKib0RNNjgOPiFWUEAJBOk5krqDi8edE-UMM58_vrQ5J7Pv4rDU6bbHdCIwTRxLVf8WVAstY6iKCSSDmIBfH5bP7Yw3tVFUqN47KufTUVhP_BNRznX3k9O3RzFwZCFV8I4-s9XVPnIS-Ljq35I6Uxuo5uEmv0p-c3bhiNnCG7kDcq5b1eYaRhThJfIQAT84W6vQVeweZSfl2Brfd9uRQLTsbVuCB_QQpUxDq0Bj7eAoY55Kg5GT9TRSO4BcYFMwSm0WGiOMi0l9DJsNFGObtGbXrCCjuQw2eOi1hrWaVGGDf8fRQ00mnWOaGzXCSQE6HvMX5ZiOxwvTW-sfY8yglTBREauJKsJK6ZX--GJqCIKb4xGnzyCh49BB0mDBaB2KsliF8kDZQ-v-EBYjEnb77us3NQHj4T-3W8Oj2TXU8MXfEA02Wxf2V3kOkv6sx3CyIF2fa46tEfvv3xjkqwSBLjw9kjgQ-LspfT4CZ68ZP7ykcX_l-y2LIsRYd_7ciqaPyR_d2YhlX2fJ2wJA8YSuoZQ0PVZ9tmOfTNrSGApRE7E4bSDuHXt1CN6TWgKeMawL9SURJ-szBGfUDS-AL3l-VocE8WhUr-Y7ncaClk5WfuGBBxB39gUKEAoze3LO49MDRHhQY4wn_gjktnVLlmY-GXjthNtbvSkFJmURO7XC8rZHptTvtmC11nttz1djO_O_Rys6o4b0BwordfYt5yJAs5xAnD_T7jpwSzX4fWOnWmj8QSW_xAlD1eKZoKEGjAPsO1lEMlYiQtZ4HNIsQ9IjTzTD6YPmSOBuJESBHlEnRDVVMvKBAmpamIXEw5NwQdfOz0yjQ2MfgYAUab2jyfd4Fv6MMKc4O6HYu_tuU2erQD5KCzIpPwyC5n3uzrSBDclw4d2RIZRg5MsLOQ9JB9znOiZHXbxaCcByxM0nrI05CaVkH8-ylXuxScaxUs4p3PE4WJsB0U4rB9Mh6sFiSdcwZnwwTk3-8Uk4g5hBnHShuy0Ut2yIkcODJkJgx7A9GgkhWDk6u4xFHmaYNuIuENbZ0i_e8_vanXOUczIab5LfvZ9oLNTJkg0yW-7oyd3XREiE4wscG5uuB2rfeTdUXOXEx9NPAhyX-GK_ntLG1SDXiTH7mRWwGhEkCK9_0s-gYyCQEPU_biZbi8Ku6akp-qSAdw260DIwQzMAvc8fH4UvA8p6ekaJeQAqSnVeLm5j5uyfh7Msag8cJpwQ34F9m-lmfgZ9Dry2IZ5OONo-xjOh-ZlEk4iM86LmpK5PEM2DbGau7vB2M7GTw3u5kiUa3QvFvT-qb3HLemWviEK3X4NDlxZhxyF3OaRv7-2U615CzklgHZiu_ovApS37dzNcRaqQ6Lvoi6JudjyQAGnHg8tRfGblwKOMRQ_jOqudghMRs8JFq5nnU2QYprUwwhSOkpGIucKVXjgJlemCdE58YESOGr1S933Qw_Yen6gLJ36psAkEKfhBuiWsjLgbQ9h1lZBYWTDaMyUadwjoWaHzhafrG8cpZ3oASLTABf_ZjQC-Bcif5ZBouE6ijPw5cWctJk-_YSeVNXOcN9MfX_lXESOHSac31uW8y4EavWNQUifKqhyBIIk8PJW8sO1GRzNHPtYAB_q-0nOv_ytsyYJP20w-amDpP_YvmPzfT5EM782LIEg7x2ME2IF-dz9odEnQ3EHMFyIa1OBWMnFXqMOET1DZqPnQ_I1ELhC-f7Susoo660RjCTy7MQv3L5OcJ9_i9mLp2oaLYLirmb-fNGRPD0gfjnXOX06NFPGfYBwA2xWpULI32vBb20s6JH6fHMWwIAwyY_iu5uh31IdniBtlA-1PGW1kX6cNsnAZcfmb2ZYsdmurZLvVyTzrcE3CFX8qHKEYVvJk4bZnzhfadPChi1wix8EPuuJ-kz9PmnSMF4s3Zogms7AD8xDP716ttL7T7CegHkppSNZ-IsE3SbRABOp9tcKVjx07kp0eExP1G19lgJsFcAoxjG2ja9ZTZ9aPRrMT9xO1GAe7NNKso9bO5Kqn8AFbYbIJiom_vDy4VL6-FEjbmEqfKSW_S4J0dXlHjd0bJyE0gkjwB-omqV3FSSIeSvpr-H-KUVvak-90ioCloQcDa2fPkO9sF78Y9Z7MkDLgRmmfQULGuFAWu8AswNh5yl30lt6j7TWKFizTyx8fOu_xlDKkwq9VIdLNlBkFaFHwBWw2FGYLLGGOgsWTd5Gq9NAyd0-9q4Z-eeDvdN4Air9SDMx8bQRAKpqKH8Yt38penNwebkWIJR0MX-fuENXiiY3i_Rx1V0Uptj1QG8Pt3K6irog33Jt5ojFh5zPD_dKcQsf3fp4D7LCfHJm--aVbLL-B0cped3SKBjjao-k_h742KdAk8MlKzHo4bRV85FbbqRmmS2fdvTKJbXdW_-7QYtXpDrZCuDpNzvW1LebAE-fDiiAbKDPHf98IX6o54W0SEGxqGGjQJWZZ-x07i5qqy8T2JNYN9B2iQVhuhIx3RbCNzVBDXOq74PI5iQtXRCq1KzoKbmnndrYG4oLKcXvx23mVFQQ-BcuixKTSlcv2HpZdWP_Ngvc2Dh_VjLILtbh_bd5z9G2Z22vJ48XiDbUKTzs4Jf6GsY-PV0_aBZWdjVqNKdxSiBiX2zLv0ecYU7q-fKjYz-q9JI8SdwkbGwwmklP9L9k8SxyZKQyeKCL516C1-lL9J9MbG6Y2pW8vqt1tuM2zxt8_krZVV3K339tPyRdV9FHC3F1SRAgEIUr-eCLb4nNViYL3h7Cyf8kvGKFc9p1TXRIwzXIoTL8WhDNQrnxnZ1GMPjuQ2vQPSFBkbBHAWH2dss4UhuC2xjfcBkLduaGLnUlmKeZpsxRQSi6l6EDx3bFHh8g6yr3jEprHpRMiXTF7wgmbf5ADfGv-ySYeYJT50IO1xXJEUDt4H6nUC3EdZfzM4I1yDbEQmlcceekAg4GppBIVTFaORIvvjPfbZEZRs3TIumE-k4O2_8BaJi9s3J4Id2wvs_9nsKukFMERU-Yko3nhzIg6dO9zHPDa9r1LyI2CxphA593FEY69EP1lX4EEE3B_61srZR14cH7u2V8xs8XhCAWgBRd7jMI60RDS7vzvH8jUSOj_f_q_jGj2GVjwE0JHFXVde3OEwTH9nI5xqPaFAPK4kFUtWw6phe_YCBy_rLj1VB1MTdaWVjFtut65h-hLKFw3e4dThdhyJGTFk7Wqns72T98sxk_2OOFd8h2w--5__KmbRnAFmd5DmLqyKnkCBlCV1oLmRjUjuGxbXRdmpHCipKAMatytiFzAswet3GI7_YQOlhf-X1JHKCRz9fbNUXmolcv0bpiPkIY3XXNTFS9-2PiYFO98WvYem6VO19StZDWCXBVWEVKQeXEEtGbXpaSTaAtWcAxP9ZLlKFwi1K_5MqjyrvP-0jEKshEy1HrHCtht_QZkV7qEgsdo6801Enidh-a4Tcn1ruMgDhFrjMrOjYwDlZzYihZLpX5q0Dn6kBNXJPIC1hZI5lDxkAo_ALB413iHykH6wRRp4Z9MqtNY-q9aSfOi7nyIzOiOH2FUx5V08W52zxAd3B5AgYjMXuxLS3pY4gJ4LXP-cltLmWeb0FqyNm3qShuP2P2NojND68WYUbWqhrev1jJb85e6sAeCufr2RDyyDh_UpB7XRgMvXnjIsJANqWRHBTx4jTiXhYefynomqtRpWatX_XCsRwfkP2DXh8R7nAxhI9NsSWFHRRD7Iz0olNX1IrfMW3cp2kPGIB9ZQhyqLoKYA2J8fvC1U5cjUQlkfW0L_eVySpQsopTfbJFXnFo60Zz1zfmBF5NwU75IhrcB4jxpxn756MaZY5WKNG-EwQPy6ml3ur78Yomyom4EOlVDK98ENnbpVlR6m3t0u5D8NTuNoMw5Fhvo7wqpXhaS9b40a-VewSel7Cq-kLtnkfWfm6RWQNTN57jk9OKcjp-9e7Up4Izjl4xIW0ojgJCz67fMrlSQylrad9oePXwSDkudJSR9065kUNFj7YZk0RMDm7-sdqPni-OyYQoaxXeZsD_TVNje_9ZqFB12Ju7ZaXiihEcJ7emqhKMuDOxoNGn4oNxJblfdtlW9ur-wi9wGXII69_FkDM7dhHO2-qHu9hCAAop_j8QmQJaef1bQlEIyI5xM1aF6ga84Ilp2vlmMkeTt_8PdbbvQzWp_iRhoi4ab_a1AOpDhwDMygwn5jCEQi0tdsyB9WQ9eZFJU8de1otc9BV30uN0I4MGfl07ru7FJ0GdKJ3E8Ch1YsFkQTdZjyjqdA4jpcZvngLNDD2EZdaUH8YyK9X3fn_pKI0vh-Wlxlvqs7n1V4BwXHb38zdHGkc85EowNzvf7Kt_2XuQfjRLkqRPBpTyPatpWxiFXtj6fX_QoZuwpBofadmgzRPppxAGczfEAPPlg1ygTNDAe-Fy7sPiHM5Rh-zD4uPoZGifacJFfGaqrkwUsEwvt4xagAL2YOyMA7tFBRjdoCos7dnJKgIvdw-Y8asnAhArO123k6mrGvR13Wrd7gVDE11jz8mELRjyaRlY5HwfS0tvPczkYYjQt773F4u0cenyKErep-4vaOCaX_3vwUPYpqSZgCu7s_SV7u2nZGbNZ-K5ELGz3n6q0bebQEpe89U6SoW02K59MkG6PfBBwEJsOlgYQqlZE3zE04eYPRlx3JkkDHr0Dwx8Tn1Uqrhhu2_4C29b2mTkloY1h0fID0fmlv8ydT2zLQ0I5bJNaxloGi0WohZ8sy8B8LvhYadFuBIP2-6ndtMr3y3CCNtVgk81I1L23vG-6iXZFWvMkgcVovAIchM106sA5Wn6Q41ZjTxOBNL56TgtUlXQXddCRcPxMn7u5nftfvd7UUxxm49t_G1c69pvTh5iB8W31MNEzA53nIy34PTZV2v3wDCrLutplfmdMHIHI0-5Us5ymafcHpXqBeMCMEQpxOYGBH_fRJUke78fyQhJ2tj5P0N3Y3wQVXvEt4Aab5oOtuCFlP2yj38GLrVB_JjplV7giMUJMsNLV1GOr9jwVxA1SuFjG0g1XbtVJ9hPrGYLM27sXErH6tnQWYsCISsFJMkMfMNDvT_qKmoSGbyGWsAq_QmbJxBP0peRIXb6nN_7-x9DZhbHjcuRVYyNkeQOcwLzfA3stOZsfAcVwKQ7-BlMVgNvxbal9mevUdPn-Udig_RDEufY-uN_aSmhyQTTFEhPVR8cJ-8asStUuNn51nFOlSFtYgUmqWFE1t06rrDnyCZExhLK2YtMA8cBnp_HnQZwuJSQRWT-5VG-w9MG65BxT_UeZcs2IQt9TBw24bNi4VwnGHY3JvF3QxpIUKJTHlZYQakkQJp0OFViELYgdYFkAvPHcuUOmGMiy0C48D7rcagxKcDmiERTGWlI-b9ix3lp6kDJF02dwabvN2mrlVOZRYP0eOhAxb8K6kF6Tp3h48q4Jn7UlNIdFmwcetvueQaKqsh9Las7z5wNAY3k0C3Dvj_ieELktjIxBRrx3UOxwd5lu3dA6eLEWvwSC-wZ_e1C530Hn16iDjQjZkJkAENqECU4o9SVgP8PAPcrTko0eUSYqpOyQgzpIRCp_JYLnbKwLki4SoRyQkr-CbmZgUjZU4dtBcgsUvMCWE1m_6iw6pdFKfQRUmAu9WHJoysGHX-XqDK55fKdyIohdb1DP8KYEfp1vmeQh64N_v4UePML3gLZ6oPfTOkDAcZC-EsaWnI-hoyUZRKGyugR5-21Y8jFDEwrxJXOtBgRDCqECS06CbrS1MbmGYFfFaQM2rNd-bRPRiZKSlrdw2_TokezAcP0UzMcDN7qg7Z5XfZgNmSl0Ej1GXcl0O4RESvXN36w0b5iHxSarkBYWCGBpzVR6qDdmGGUMwt7NjsVLgoy07RJ0yYncFjvgHTTh4sviwKPgZEe-EGPnyI17oypyV8vmVi_oUm_quI808PkAn6M7bw3lAIT_bV-CVdnIRPFe4BDdUd2E65GDwm0XySfflRxd50S6zj9440CUmaX0byB1c0gNYUb8p6ervQET29NWoem1e7deiB30EzCuStBB5_2MH91MXoNtOigvL9XxpbHER9ENajVI-MJQeyiSr1WcGZrm8jOqfHqlTCFyyeIjcsffXEp3RSq_D1qFlQY-ZdjTa9XJFtsXpHW1wzVOxJCam7mBeFb73Tn-aLwvG1l_PB810nPIIK_agsdK4AJMUfdjzFeUVAgiX7aL1-QY27Qk251eQHt-x_wb33rPd_xllsbYnrNZB8CrS2jEuB2VQ8kBdg1oYjj3D9G6vS-mh9w7JH6bUftnvDZacLLTeuv9d-dtFYuQp3XiTQeJfvyYP0pvfU_5A9amS_qDh2lTdGwQjPnGMcsDlsmtMGjRTWqaoe2SVRo351jqnKFYNhxyB1UVomIpAJHjaFWOuEqrgT2CHJO-n9e2CiSgcJOmoMdgKmYyHGgZXsW4T0DLRAWOAjl2ehZc0BSGMAAR-vlbx8OWOiIUIGziAv_1WswUKZ1NXb1T4TSEYBfFNcdiAYgHnN_DCMLQEUGk2rvRyXcf6vQuJxWCF8RM3yKoYT3WMEkyL7vTKKCejHnrVoawm8v54uXiZTb1YRizJKTDvNfXjUKf8b32RRh6FnI9FdnzMQ33PKweeSbIbyl3YksQNSaqLrTw2kZ_gAQ_cM4ITHLo0Vpe459er5dwbBcRFzR2O76GO_DDAmfJm8eM556QZ9P1BqH98qf8GQsbAFySTL4mZx0PmQmt4atsyX9_a2jD4QC9sFzNzhsvlk6XGOwSHB8n2kubHQG1RJ9R5T5RdWQ7pwvVC9pSBmVjM6v6Uc2Pid8otYBGIJT8I1r6vyaLepnTnruH66avRdIWSCvXaurg6YMLFH61dv_FBYVXiZBma2PdrYONDtQHiPoiQz8Cyw2LyAVzEm2VSxSxrE4PepZa05ghaWfp0Q_krOVk51a3ekxAmPxRNGTOZsLbhKKNVvNVu6mn5nPpFdvcAOCRT_jFXIEDX4ebQNKigViouvdsGGb_hahW3TFCCqENRXClrp4P20mSfzOOF6qabJC9iEmSS-KxdAal5OU7fMbr2aWd2MqRGCHy-zQ9FwDbTc7O2JwV4GsaQcixCg44dhlfSZsX56j2oIW01OHXIO2o_EXyRG4hYJkj-IGCYYXbxBdV-TOpoaERzM34z-Et62QPj32WQYdayiHwVzAevUFJXhQajgVp5OPJaIuQ-E7toYyM9xwVL7HRbmY3h38RP6v923n2C8IxbKep-40vwSZz-lglfO6djVpxiKwJkUHdQVsFfutG8br4uu38QodFykZV7LuSq50TZ2tB34Txh7WFeQtVX1E6MjIin3qALjWxRoDDalv0wPYSzjhd7z1RwlUKm9Gvo6Uw7QojJZyvNJ7XKbaMIqr6MmPrgUvvwOx8P6XRbo68w_viBpIgPV6gXmUilHOywPAXM0rpYfwe83gTLeJVThq0Q_B0r2Bf91w4oZ3C-HFxlKGMd47lCMWhJiuxkCKV3Mbx6bIIigu63sZFL7EL_1kEnu2nuU4TVShsZrTsIcLIW4u5EfXhBwSubsskjaE05NygYaNTDjaTwSGcjVaIwBXugZHjQDWPfEwWe-pzH0WySkPHFpi7PgU_rWpE25UbGvN57FA6dubIjfxnfYZzvbpcZZvRMzm10FygaMSyaN8ycYt_Lmw55MZdzj3NHsPiRQfc1SYbEsjActFD5THFAddmI-HZ_9h1WV0U0u7hsH8A4HWO1rFY9TAiaflTKooDkJyAqKT7fsWqX7lnBF4zQKlEvUiVTSHcRBbxD5neNczy2FOHKp0Rba8u7cdIKCb2rtjnUWZfwBBywOMULlhDe56T0_Sp53oFpC3GnWQ70KhF0Rjto1pg7xEtRubnB9R0Vo8Sq7a6ej1FE8j6XE-JneXsn7BAoBUjEFtvtx2pWedRy7ytSEwXm_4j0Ku0sKIB2hu4Hw6ruc5_37DSQzE4ckJdNYqqMa16nyarWb9hp43Zw5wPmRscAbxnsjFOfNboVoBFBHJNLzosx8KOezSUZUkAdyhQl5_zdmR9C-YOFjZaidUpJ1PPBGnhaicXVdJHC8YFxkzskiQgKbf6oGoSULbOwLz0oZjeTA0mg-Psuz6X15waV8yQW4MjR1LLcD_t40eqTByTWWJSG-YBTIh0vGYMicZvGo8EY3BUSVINnj9awnZn4V7d7hxz_rR6YSBbty55N_Zx9mXUwtwaKbCZX3BUIcfofK4zPhGpT1XrmnKpQNj73Nmo-uTfNZQwn8LM4nNvn89_3pJIn9MWxMwZOswMmlGmLSRmFkQaI3j8G0Ck5tBRhqRYwmrCHn12PUecy8ZsCJIKKGphyoGCmPIKJ22vhd5aJT_BJJq6eCe5Hh7Kfll3s6zLTi8uvLe_yUeABbfXVphEqK2X4J3JWKaOO73oiGgfcjnpa209LOlR7SHJ6nPAdZvGce9DhbM5II1djUMoskn_iUUW5ozEK3u3RqkyTq_GK5-deXaaE9O0PeFWeOV451qAj3L-5AyVCGPMI4rSDtgxFNrfMvXcv4JxXI4IvnYH1DozyxwgUEFI04APDx3864ixxp3_KYuGrYH8Ppb1c9ieTNJukDcs0-7b82hsrbVpmfYzt0FTEtzFpp25xd8BKdcqcIblpf78iD2AGIkLLqQi-XvnXPeCKTBXEo_MkwWK5Tw5Qx3pdvDa6fgMPMUy9Xio9m5zs50J3yDXYFRGocnApYdwKuRR0U8HmXxpgBJJgh5enpnpF8W5oGbGhHuRtWYF1mxw42C4_W4whsmjkamqJCAs6l81YOz7fZxvFu_uF1xk6_PMGxIVApUgPNChiHOsClOOLWNqjHOKNx_A8LPH6yAOXGDWRrmXt7SJPduuNsvDe-B1Nr95KbVEG7IL5Uy2cI3iYBE6eK56eT5MXRp9tldnC5rywmo8aaPogyXJutXBksomGx6dnuUtZXreR63jNjXLfQwsXuAzwdLS1Mn0nqfbSgyU_QUFyitH8qhGEtP-pNnIztokcL_tG4mjcIgxpTzhXup4FCk-oyR6UsWBmCL7rq7sz4Oad81OSyBlhxjBksAhPgRVySerGr0nYkjdF4rbmVGyf3LWokz8EFJScqrSjPdJPCgYZN4nlLdybofAmX0wkMM_S0T966qG7jS1ng21zxImzrckD6MrqHN0uuNl2lvOZImAtXRZ-flkjtH9ebxmoMMJ0hpGSijzUz_k8GJjErMl8mQYdc3v_yuFLW9Ydq5BV8F_4dCSA5kIxGllXBlB5y3gJVU_HOkoH_9BwzFeQ2q1UQ9kfj8v_XZKYEd8YDIPSETAelKZLY35_3pAYZMqKxtg7_vtxXTMlGjPLDpAn9X3KNW1r6aV98mzDlAPjPGfg5U4Gs_d5eXQos648K-UCY6Kl-6AMd8DJY5bfUP9CMpR82lKv_lmKmPQ7MGSUEPl8yGZWYHs4zct-vraapoMdLXK2lqJGIgebZ6E1immr5IOfZpNf8TDtBvW81ZxBSAUd7Fxe-cYopt4OJsje3famuQi8lnDeu1xd91FX4jTRfCGfmPLNWkhxCMugrmrxayT4B9eqKdjJFAihaD5Da3zfzxKs-zVUABdNohJ0KPQkldYjij4kYKPgI2WRY8DIfRq75euJj7cXO6P_ae4eHXoXcLUJf5KGY5wsOOSU6aTaQlbuZUgcCZCu5YytJwAsadZoS5zm5zjZslqkkKeM2jotlaGG3YVgJe0FvvOej4boZWwarE2GNFcmGq-QYIbrahd0RhAfOGB5AJDfNwFhVQ_LGMhuo92A9Fhv7OaYzSGcEwWUCK3UFLB9lGE6N8yr-2GlgXupKRNVsRX0pl0NkF30HKRg48v9oE_Xf8JalEYBjXIbffp0BoaaP8SxaZgecZijrxtwe7p6AInAuQqG7PJcAtJEJrdSE-rs2SGve5j0tCkbq__98PSKx27AE6jK0XH1gbOCgGvKYfHiZsCIvZzwCYED6YF3pGRyVwuW0Ql-71WEE4nc94H9pN69OCPWyXwGybYpjnZWmHFJ7bD5Zohlts_vgRr_eENAvhAf_5yI3cT0rRuA_n8obPdWyITsD-dxGHMob7QqIvC4GpMOrkg8TVec7aaew7nExrKiaWv_Pw0NDMfFvAIdTdMZPzyRxOpiojw0EtEbmwh94fAuoxQjNfF9d3kIAFIYwJREjhN_41AVJzF_qoiLd7igvTFaGZwCoW9ymW5OthqEVRAkVTlNB21-1fHXDrk3nsRpW_yVdSBh6r7FjWGZnSlt6iFOFwKhMmCbUCU6-I4WvBe35uzc_T6LyRsprqlvGxL8V-cJh9s2d22WFkcLbekGzjas8nKJCKE3xtuXpiIDXLuY3jiDTBoi9MB3_FzOPrxtPh4ElUAhypmpJmNxnDcXc0iEt87muvAIboyKKjyS1fg4EhohpSH4XRGA6fRUByleXCQOCKhQ2Hm2-Ocmm2-FgvEzm_VG0PUIMUPG0xZg376hrt2XGcF60F2QzJKOZVWn71ERJHIKy_V3_ISzTUfnEwd97tpaXiFP77GUCs-XyG1dlQ8ekBeHLtd_lo4jPszFpfdaG2MN1KEQNKAkR4Z8GFYDFq_iaFo3oA05JzyDIZ2DrjJgNoGGX-9C3bE_QCzCidW_CXlXdDCkn-gny1H-Vr-wMTjiN5dQHRmuigPy9MGQPFrBxZ_cxyPcYGTUmZSCWiZcAEpsOPRSA-CRu0yiCJnW0S301U5Hm4bC3jjs7a1fkmYdwzdkzZNf7Q1RyJFDwrLCotkyWl3-OTK1LoJBGU6d760e5IKXzNTmEiTzeWOjH2cVNnc7MiPBIPgtHETrnyjNniv6TvB-o5vd-S97WgaL2Sr7z8hbLpBAvtsVAx27xlPY9WL-XlVY59wOah9LlA3ll7ntsAvf-orWuTWusygp3fSKyM2-laFDtLZAS4nIU1jYN95x7U3qCmxDgzypK5EH79mf-HeuX1Qh_ZIlWZvHBxZijHcrNjVzJKaH5XqV2Uv0bDxc0-gnW8Z5kfSZKy8a7E_YYn9pyJV4G5jcTCr6r9NCUxxpw2dH8ELxFnjLu0EQi5HT-u4A85XZI3ikNE2sXULSWUpBS8X2uce1CACaiGIWvz1UEp2Oe-oyrkRngAPwLSICQ_PDvxJQipqrgeXweLlho6BMwFyPk5yYppEYr7ljtksah2bOasek6-qFXdDMzHQXpxvW47gRkcltV4TRWCFf7TZtDnetnM_jvQRemtmwaaLV3hNqo2cBJd5kSOM5WqfZI9KwN41eDG8ZQY4UloQXHLPoMJBzZv3zcnmBfK0RqSRK8wo9lFz9Tb7MpHOx8Wv3VTRS3hokff0fBfw5J8tYmSz7BxFdBul0GvY1hDjRK6Zs0N3CUocCkXQQY6xgy8UNhKJ5uiZbT8Cg65Wmiyxu5tFJqSVKcGu_RDHd-vaWppjDVSXCi3wWiTkiNtabf7nPZnXQwcP7iRqvP72sHPXetNAm8bIBI7wClQCgvNjmmDiPbDmlu5bYHM5ozMgwkxwAqu2UaC7A0tknhnfDDBTOmQd8Uxr7xAFvZ5szaAuS6zdJm-IChDTM2mXuSmkPqd8KxjQkmDcB3OlGsJwGFW-iBO68mK5Ji6VYpOZcMZjne6dPe9g5L-cIH8Jqf8VLdZI39Ch6pdPNjI5kAK6fZpy5xyGyGhH-i7SNXBZ26tttoA-dJ20Se34NzfgCZSa6PSep5ekGr13asymnVtmGF5l0Qz_OBip75JJJnD4gJAz7ZQfeVKk57TF0xUk_20GT7-V2EoIoEu8ar_iKSxDyXU5SQfZA1hTLjLUyyl7fsMyIRlTbA-9O1E3UkTSXaUUMV_LYiAIZEQQ7tLrKPe163RXhHu7We3qpEXwHXe8uGPgK0FoGSCfmNjajh8ND_oEzaOGp6lPUZ286vuEufKlJoJtLNJKxtfKyvQ2ROYUaiMGnNJuwxVFAPOnKzSpNf4cnX26WZxOwbLhuoCyQAyPlIA-zf4P487F7xHnwxYi3JOzqVmbosl4dwiBNxw5uYyby619-vJ6tawmtsC6925emMl5jRKdsml5ZUkf5KQ0oeMXV-NAnbX9ocub7CPHe-jN88YypoR8xvAFw6PeKBE_n7BcuyYEDC5XS93nplcQsyi-YnVFgFhX57QMTzviQBvouhXofdFI5QUFjHA4I54sc8lEIH3BgnwpILEamXBUOxwVPSeoJgiqEBdr-FYwPmh4vqev8RLDLYvwWAbDH9zSe_elFQmLk7QXvbpBIcZx7N-Pvzj14-1sBwj5LEq7ngKHgBrAlTIO7jnWUxEfCr7MoMKZDjHAvrbTi2FmjXhI6hBZCKjzIRxtXUt0Vb2AsdBlRUhFOeC3pkBinHNeV-dI03FR27tzppm9iiUIeSVnpPRIxCwTsYq-kQDFJ-Uc9XO5ExppMoydCXcLnHtAGTyQpH8I8-2Re8SUAm2VkD61aNfIIEt8X2XSPtF7ZXptWo60vgBSmRWu2-1hw2OoGq1glccWOZWEgUUmO2-a9mND4tkwmYALlpmYopqJGXo1m_od22cgKZbQNbbUy_qtFd3VMNYwGSIJGKSa9p5_bP5BVOw3HLfIJ6FJxaqiO-mfP0fxYZHVlQoaZVpoE2sE3o8QDgC08DYgHQZ7O_P8Q8XPVHhG86isKk3P1qWcQkpohygzkg2suifSADw3Rrs1vzXwQATkO_Rxa4XpSQ0OpGqYYmdr37HEqe9ZJUeAf4iZOoyOIbedf9SHt9W4MMPxYhKbR9B-XDpq18ZxsDwFq-fkhjeGLKepBfi-jZr7GG6_-PCfl2R_Zi35IpYvOmImzUmhIXS336567jq4ZINcH-4dMeOEfpovchmqWRKKMZtAn8uKHiYhb6nb2ZcmfCzj-ZWCjN6RJU3mKjKuElf818nfu2Pmnj4xaigLq857BPimxwc0bnqF3vW2eOcPc6h33BXlweOhTN4Ka7vv2f7USSB5dZi5pQOfxIHG-EmB3kpsWGoRYaKFhuqO8JERqoSNrpPUjrv_oQQvEN6uQVfRF5wKDVBEkWEWNlNuUNbvrTl756xviE4fl4itmzSlBTJGlfAJZ-a_jw4KDMRThMZNKs4x_cu6-BSJfCWhggKNY-0ejBG1NlMhOiGLL-47pTjou23NMaWdRh3WDl9OVY85x2ZBwczgrfMn2USfxgdz263rAe83_qX79QVNDaMWAZQvxyPkz-ldii59m9WIU4RLHojmNkQFd8stJnq8XbaTjI2xRzyQLcmwgqyiqkdFFCOgMKl2F48TuW1YXktKT_Zlkf_fKDcZu9nWVGaKuU6PCSRNdnLb5I9bHn7ByyMRBdqF9-gIVydsXWB2MLkNsBstyPfgIn8RXT2q6S1cbL3I_Sp7Io6lJD9IxcK0qjJOVDGAbmNCwOUyKDNZ7EhMKQsvAUfE_bsAkuCMSuO4n5RdH-A7GcM8VaMaNTf0uncP75S4j1N2lTcYDV9hn30cz8sLiZ2oXyLyCCspQz7oeTyPFHMU0gHzKJcOkZV3CpUTgc75842dsFeoYyHdUiPz5Mo-xfbbL9u9CHh2yPAcu4RlA0SNLIdtRIoQThZoJuIH9nDFpp9ypEcCNHb7r4CBpWljXEan3LUvhreLiMYEq2ueJPvCw02PtK-tfekiY_E0nQtfm7xRgJtG9FUZ8_9I8AY8Hw8Jwpx7b3HPcYbLfJPOewP7RBwZnZy3K4G4ckAbDNG9i0Yn5b3kfZlgotWDWJsxxEsoVr4ffkoGPlIC4ezHTlvMxIVbyTS9og3O_tVpakh4vFTpkwrdj9vnc6K_v_ZNA0ou94DpWUgnNJoOeCPDAfe0qL498xFdkcL0VQ6oWJ6mi7wC9F1Fp9Wda402z4dggGqjMuEtyGnctWS3or0eEqEL-OqlTwLxCl3_C63IH9J0NqXuWwEOKY4Byd5mYPvJKJ7EKBay3awFoprRP6ArxjoDIv1reB7pus32Eho1bJvq0UD4rO168DqGBAErhrnDkMiQxyrt5EvfHepjgN6lW5o6X8mV3rePZGW52mS0HAtXCia8avhypjpUbUWF6Lz5VPY0L4aSNQH1G5U8WNBwNNNIERvR-nJl9H6Mz67gJIfZxJukcPECGnfkgkFvN9fFzJ_6P0eEyeuScuoq6KtFg1GloRe_YA785E-WdlCq-ZKi3TAmPJgB0O2NBcpXgeyDUvqNLWEbXT26aZMw1wlqYvVrh9BuaC0ItqGxk6tnHb6yzum4fdVo0af3qMMSsslRq4Ev-xJAbmlrptTZO_TiX4q_pGdXoIwUvBD2TsUEQfxCEx5P3YrePlgc1RLmb2LP8CxHu-n1FSEW6SHDbXIXBf5UPQ6_0SfRjBbDlysr1PnbNsFAepgvgGKwde-0a20SeSITyd8FkCA7SQvd_sq2kRl57c4OhQz2XspQ7yWWXHXD6mDc5RcoTtPH9SNHfdtAycHPvi8TxQ6gY932hI2VFOHKiynb9fS6pwQoppXNeVSsU4gOngWpy1DzbNb86DcNnkg8QKle60HogVfxtDmeF0nLP9Qyv_gse6RxK4r_zpjeeCZKvExLEogR2KUYAiE0ge_rHY_Ml442wXVAM1c0qrycz92s8kbvzRCgsV833HxUBxA4a3tDF6Muqseh1NXwPxgStm-noD1DE6X6mAydk4hhAStrhGHDR_dJKDzAndUhhhkTMhXj9aRNL_0fUEoE9RsWWuyEmMPahJxqs0TOgi-NwvYhDvYU7jOV4CfpBY2WYVwqyxfdJEXvXrXcqyvx0U3rppzJuYb02A3ZAd4i-G5ViIpSCTuLF-tAInj4WN0txevE1Ikh2H_Yqj0tARITrsNjv8PXpInr4C3iZMw3bkCTcYRQ4ERn4ryF4x_hDn61GC0eMccowLZOIwumzq2gk8wsqueTcgstalGu8lZU1-RFiBiqBP7I9xHD8PSHLSYVUIduEG_iwNMETLomVDV6qDBGqeiOog-Ew2y0imNqnxzjpfRZ1M46iLjNNcJmKMBipWK0VsxfGeYHuziL6DydIvBYOz0uIqInz-fcWJIHjYUZ6SvmCNcycMBV0wv9UpHiYqblCvSHNlBpKHjchQDwdxGN7QkBk3pp2bH7nJwNpKwuesnfsLV3W6fMqu2-i4NKuhSKGStJ8DKk4Lm-7g2_XYHgBYkAU2dlIzjrYqJ9SIqxfd1tx6HE8n0rUTTi348PdAxUMYRDNhuGfnT3Fpw87bD1ugRpGDg_Pp_w21YIDyz9lOrqc2fTna6t_6mGehazCBYY0udDUX7IqUWABGiVUaVThTDXIF2MBC90osO_XgSwhJg9632i7fIjzHqChlEvaknKs_gyYe4PeAmq2OaLcBFQeRb8vcUgtLYkAnRtMcFGr3Pr00KWKy5lLP3VMlZgD0I-74ZfZE4g4E4Yw0zLT_ikcARc3z5HrYwIBnCiTyNYfxcHuSDf7i1UiSVLKg6oLypIOUp5HGd8-HFdRq1uny_Rv3n3L6b4lGlnUkwyEdz7mSaF5nrfW4UU9wDYPgy3uojDovavfWb8EZcXv63Gj6-u4-_SyiZ8WsLVhQwpm1amKs1Jme7vNNJZTMh2VRxxDoYkP7o2_MnD3MmJQ_nadJ1HaPLhAobOix8pZpmqgFbVniPW-4y5f4I2GsoM6XQJolWbyx9qVEYN__qU_TrFqI6bBzY4eGaSq3F9kafC8ZSYloEsWoz0d0Zb07Y3BJyzzQHFyRIRkDb5F0UlK29KqIFC1Z1hds1GfVUpW_DIuiGPprZFYAxs6B7zQmylHd4fNLr3_cQVLx1PeqAUgf7qV1F9TG1iFuB0T_51GXHgPG_7Ca13Wgma2GVjssmK0oWlHMOFN2Z9NJ2dGOPQWlrTqd87ktPVGy5sFiYXFhgVm5WY38UJmWyb0nXhtehggDZjy6zFTKbEtoFJ9PlmEB7SHMcI2774gb-DkoLDOEAfYaccWc2DTQs2TA7G4RvGr3cW8Xyp6FuDFbVm2M6CIa8L7TngNaskw_IdtZcU1I1v6e38ZP2ToAQrzjMY8Ycf8U2qZ9ksHn35tiWzxNpxmPWqUmBRLCcJLBEn9OyfwEVYHkFysvyna-9XcRAPLjkEJteZV0oWNQsHkTxlu8D--DvKXW4SsI59MbIk2_dKpgtn-wgyHuVk8lEWKqAHSxwl27Q1LrwXTvGZtprXiO6HxZZinwdwmSKFs4VNXVEkz5qt4tdyR1KOniwKvQU9__7_WIQ758-piL3TrBzluIPPAMUXQGjr5Ihc8Bfpkw6uG3wS7vHl1-Z_sIPkj5FEheEj5AEdCMAhfIlelsVPLDZJ1No2M3_VVQYBS50evFtlDu-eB0BNr0lQttE0AQ4NYU2EtJOXnFg-lCzlH--mr36t27h_zHP-_ZK027ubmxK-ieXluom-r9ALp_aY1HEmMKFn7q3KnraD6UZo5nw3Ybjo9a9ZmIkSf5ClyodMkYcwc1D17Glg2WjL9QNsNK-JewCCbw_67jwtVzHQl5uTyX7MTBgPDjsJlRSBp7eLQH_6LHqeBmsyi6FTfyXQM4WsJxYMemYTbSEYGKVJtTxbLMRLzBYgtjax_fAtI2Fh4Tp8Q9BbOqWMSNvy82XN2aiNxFEQpw_fLYFdARW2J_JGbIHyzNozGYW_9a5PO_gsaZt8AGuLPrr9b-4w2SihceisaOCJw9PRImv0VbrKwHjJ0gwAv8Z048ZGKijCvy1o_dgEbiKUjKVpVzp-BNb69srnHRwRgeOHRSjD8bcdQkTdNIPUxkCXx_cARHZtZ6xGdl12JyrJK46gnaPxwd0N8kG3hlfVDNSXCa-Eet-D4mTJErsiFtyJwpd-GwxgOFSLiiIrzxa-8PJWRKdFxCr90t1LFV9YaGVQHSnIFCnKk9lY4-qs220-Qpy8cm6Ko-bJVahS_NyVMYCEG1a8okdW36eX-YRjqO82orbPSAeZdhzUyRd7wMKIIh4iuTyRUPVPkLBONo0nCC2tG53BqWaQXhQCdfOKihUvpQ35zMyd8xAbQprbGefuliE3qz05s_H6nrW1IMgY4Sp8j0LSeJY_REmuGHIKnMRtI0itElTN7u20S4XCcV3l8lZGMTLaHI1wfsz11zeCwosHHLXAyqEpplg_yLkOehLH7qF6f7pvYU4-RQSMIHxh4s5GCmPI2pteySFzLeK4T3CXM69lU-B-2E2hd5dV_0-LSYuXcK6R-OJY1Q-0jJXdSCIO0enqXX_FSB080MVK_dSW0B50FGWmetyuIjqrCgmDPapynVIa5EVmV7gdiVLy-iGDQ46tof_gzksSWioDwcjapsrgYCwCiXHkApLi0IjUfNNOmS39RgkNzDsgCP4zdFgdrR95wq-gv1W1Sz8wpR4g9vj9PQ28NjGdnPfWIeeF0OjzrjOjT-nI-5YljfB10AmHJ1tiWau7Nsf1lxrL4VlocDfRVXOWkYh6lDWyBSow222ovc88iGHMKzBpU4bVcDh31fMlvy-niPK4WRDZeQ0GcaD3cMiJ4FbkKy_lMbUmj44OvVDAkAHOCQP4BqZUyXGqro_SfpZzwL5nfxSAVOby4cEMS1A6iG53wLztGjDvSSnlra3gq_Zq0ZX2SYGBr8EK-edaEBocFtRICKRathsbfwkwMp0GbfvHJmTGw9zymoGCmtGdW_QoVE8vQ0kIZ6WPzdzDV_tln1UDZFheBbKdzsarhV1jvPWhm6tu2a2JIl_ludePutFrUB9bNmVC50ymwtUrEvDE7tiFg8TKRjDCWOopU8RLqygV_jxglIxq58eYZp6SIaBJixZ9Z6fxOBd4QtTMHVVIb6OWvK6eTn5DozmtsavgaaBOw6r8m7D4QlOpkgMcRiT4IW_2Q25WRHwzh6lCymaeGEY1hOh5ZsfUDjaur2XmQ1D2lqUh7xfJD12wy5Le3UfmrNsnxeJYkaYqO4xLkXSVxf5yg1qo18e6ArI2iICV8wGdGnT6KRAoprUo7pmKBJZwfFPuVhpjrxB3pHdjaZ5i411Ql6__FUQmke9bS1CrosSMaezjOfxJrEKWabnDmE1IQg1pQHUJdvqSMDmxcou98w_RQL1pH8duPkK2YWtNKhiiNsUzrcSQwbEusf4GS9WOz55FRZJL-inHaBfd5xafS6IO2kKRJkuBJBG_pPdUGUKM5oYXQEQ2gODSVgF98JYaJd8m-P5PZWn-uZDuNGMPjVE95zGBp-nwHtafPp29chqIeJ1K8T8coOxyX3i81DGFjL8s2T4dYg7DeJWbtymsnXtki7-aQTk0qd4v0VP1AIr-4slG-DjPxb103ZwsfAym_727NacU4EBGE5zymuj4JTgFph_4d3pdLQwHvGfacNWfULqBxSPSSjd1XQzukAxH3eBYT0TWMfI0SttVkzWA38vNGRG7ro0b7-BR-N_Y42eKFbgEwbBPgZiGRGzdijR8ENUi5AMCBfNtxQKE4g1pdonQpRVj0dRLJr2nOG_TIrLO-7mEiUVyVN9Tvid2q-Tac4MqBiYypnpQyhKX4duwcv_FK4ynhlO5gqD0GI4qtrxllwDlGg4TdbZ9LJOMfiTt1FTNUjeQ-LRGD3GUpPQ4RGDwWaVoWgF6uwelZSf7j5-ycci4GNV__3x-1J15-7NBzuFdOuPqh3ttoQ8CNMu0enk_Rmx0-N8PT-bKRVDKgUobFAvir5dZEQ7DBCOwirznam3OCzktfquuWZH0Qm7dKS1S0Xpd2naynxlM3DmcNajHVQWYelgtwifRcLoSvpGqKhYJR-qtIoSW5g7nDepe8bEKcM9ZoWmxtM92i67vp4NONNStZJv8awMurjI2RQDFcI-ISJGmcTYuIFk1cCGw3PnPeLU0goV2wgK-c0pLjoZdr-hnM__dkPCPJesuV8NUijOik7nlF6Fhe3RBnqhhqk6gQxXaHNWCHfaQ-vRFB8cjlCXePQooPmUYBzcp-y5ftLjSRBG5xj091NmhhFnlFudytXOrcYMEMgWT4pTcclGlnjjtEty_CCOBQufm8DJ2PJ2FbE34i9cvNRD65thJ5fGDGASv67rosS6JyhTF8mrjgYnyl4E2r-VmuTrNBpXLryjW2W5i67qd3K14GGGhRLf3TvpRJMAovB9kiIur0Gr1SHGVgY7TMEFZ7sYtPo4z-Pm1ZnigW96_Amnw79fORRnIz9wcq_UjUO_ySB-XXgdOqq3H3vOkZLYndhSiFLgzhtpV0HMqQ28PyWECEKZioQYRtAwIb1CT6u9ae5GG8BfJEnh1W9SYmWFd8Z2d7PZuFKEmJfTye7J5EZBIilHnOSYH7QbPFel3OW576JgLwbq_qDea8LVVg_q6H7NahmM-43R6y-mzZw6S8uLBK5oQVPH3N7Q3rUXWbr6aeApmKbHmGdBiZhXVgT-fLSk5-P0BC1OtEYTGYWyfqGFb8surrn15Asul6PPbyG8VdOMW8vzodv1gEdIllXHdp1tFbKzHRnQW0eAagEXnWC0Q2SnkopwK6k79PXWO3mFMOf4KFPatfHwBKbiYKfuGD-iloY8jtn0vUgryH2MZy9UwcQglamlRHcGsUr4UnyNSwkNAry_Xr7u5oCAkZEGVriWpykV_iUOY_-na5FucmouGUvg_obcnfwcFdl2RgZxrop2u_KIkhGT6jvlFyDtMJivKqr_w1monBMamqikhBTspMnyzQyduATC3NX8ZQrzKUTW57K0XQ_dQPi9gN6_OKsu4iT9VNaagMDSelKLQI4eTK5T8OQePW-BAxUyEaD-hgoVZVyZ1EiWHNovbGgdQQzPNRoZ--UKfEpKKJgsInvv1l-iuGP1v4GOwsfS2jTNWmYSqnc1_OXzlyThL1TszDnxr1MrwnXr2IpCTMXlRAgEDG9DfzdtEggCAl7cUhXQ=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "ZLdqaZ_YLf6mmtkP7JDYyQc",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 2600,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 122851,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 122524
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        }
+      ],
+      "thoughts_token_count": 5109,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 130560,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 46,
+          "description": "Static image of a math problem: 'Which quantity is proportional to 15/3?'"
+        },
+        {
+          "offset_seconds": 46,
+          "event_type": "view_change",
+          "duration_seconds": null,
+          "description": "View switches to a live screen share of a student's desktop showing MobyMax and a floating Zoom window.",
+          "details": "Student name 'Mykael Baez' visible in MobyMax; Zoom participant name 'oswald'."
+        },
+        {
+          "offset_seconds": 48.3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "How's it going?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 50.1,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.2,
+          "speaker_label": "student",
+          "text": "It's going good.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 51.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Good. Do you have any questions?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 54.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "Um, no not really.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 56.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "Okay. Well, I'm just gonna hang out here for a few minutes. If you think of anything, you can ask.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 61.3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 62,
+          "event_type": "inactivity",
+          "duration_seconds": 93,
+          "description": "Student is idle on the MobyMax screen. Background classroom noise is audible."
+        },
+        {
+          "offset_seconds": 155,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Play button",
+          "details": "Clicks the audio play button to read the question."
+        },
+        {
+          "offset_seconds": 158,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 7,
+          "speaker_label": "background",
+          "text": "[Text-to-Speech] Evan purchased 3 1/2 kilograms of cashews for $49. What is the price per kilogram?"
+        },
+        {
+          "offset_seconds": 174,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Text input box"
+        },
+        {
+          "offset_seconds": 176,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "0.3",
+          "details": "Types '0.3' into the answer field."
+        },
+        {
+          "offset_seconds": 180,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow button"
+        },
+        {
+          "offset_seconds": 180,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "'Try Again' notification appears."
+        },
+        {
+          "offset_seconds": 181,
+          "event_type": "keyboard",
+          "duration_seconds": 2,
+          "action": "type",
+          "text": "14",
+          "details": "Deletes previous input and types '14'."
+        },
+        {
+          "offset_seconds": 196,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow button"
+        },
+        {
+          "offset_seconds": 196,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Incorrect answer feedback displayed. Shows correct answer: $14.00."
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Next arrow button",
+          "details": "Dismisses feedback modal."
+        },
+        {
+          "offset_seconds": 205,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Next problem loads on MobyMax: 'Katrina purchased 8 1/4 ounces...'"
+        },
+        {
+          "offset_seconds": 207.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Well at least you know now for next time.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 210.3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.8,
+          "speaker_label": "student",
+          "text": "Mmhmm.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 212,
+          "event_type": "inactivity",
+          "duration_seconds": 44,
+          "description": "No action on screen. Student looks down/away."
+        },
+        {
+          "offset_seconds": 256,
+          "event_type": "system",
+          "duration_seconds": 1,
+          "description": "Screen goes black momentarily."
+        },
+        {
+          "offset_seconds": 257,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "View returns to MobyMax. A new problem is visible: 'You bought 0.40 lb of spinach...'"
+        },
+        {
+          "offset_seconds": 295.3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Do you need help?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 304.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "No, I'm good.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 306.1,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Okay, no worries. Let me know if you need anything.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 309.1,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yup.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 311,
+          "event_type": "inactivity",
+          "duration_seconds": 52,
+          "description": "Student sits silently looking at the screen."
+        },
+        {
+          "offset_seconds": 363,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Chrome",
+          "to_window": "New Tab",
+          "details": "Student opens a new browser tab."
+        },
+        {
+          "offset_seconds": 364,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "ity is proportional to 8/12",
+          "details": "Types partial query into Google search bar."
+        },
+        {
+          "offset_seconds": 365,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Search suggestion",
+          "details": "Clicks suggestion: 'which quanity is proportional to 8/12...'"
+        },
+        {
+          "offset_seconds": 366,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "direction": "down",
+          "details": "Scrolls down through Google search results."
+        },
+        {
+          "offset_seconds": 369,
+          "event_type": "mouse",
+          "duration_seconds": 0.5,
+          "action": "click",
+          "target_desc": "Image Result",
+          "details": "Clicks on an image result from Brainly."
+        },
+        {
+          "offset_seconds": 395,
+          "event_type": "view_change",
+          "duration_seconds": null,
+          "description": "View switches back to Zoom active speaker view (Tutor). Screen sharing ends."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:12:20 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=72454",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Moby Max\",\n      \"to_window\": \"Moby Lab App\",\n      \"details\": \"Student switches from the Zoom window to the Moby Max browser tab\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Moby Max problem loads\",\n      \"details\": \"Question: Which quantity is proportional to 8/12? Options include 16/36, 2/3, 24/36, 18/24, 12/16\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"target_desc\": \"Zoom floating controls\",\n      \"details\": \"Mouse moves to the top of the screen near browser tabs\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 20,\n      \"description\": \"Student reads the screen, mouse remains static\"\n    },\n    {\n      \"offset_seconds\": 33,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 3,\n      \"direction\": \"up\",\n      \"details\": \"Student scrolls up to view the instructional example about proportional relationships\"\n    },\n    {\n      \"offset_seconds\": 36,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 25,\n      \"description\": \"Student silently reads the example problem\"\n    },\n    {\n      \"offset_seconds\": 61,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Do you need help?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 64,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Moby Max\",\n      \"to_app\": \"Zoom\",\n      \"details\": \"Student switches tab to Zoom\"\n    },\n    {\n      \"offset_seconds\": 65,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 8,\n      \"description\": \"Student looks at the tutor in the Zoom window\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm thinking.\",\n      \"speaker_name\": \"Rodrigo\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, no worries. Keep thinking, but if you need help just let me know 'cause I'm here.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 119,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Moby Max\",\n      \"details\": \"Student switches tab back to Moby Max\"\n    },\n    {\n      \"offset_seconds\": 120,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 16,\n      \"description\": \"Student studies the problem silently\"\n    },\n    {\n      \"offset_seconds\": 136,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"direction\": \"up\",\n      \"details\": \"Scrolls to top of example\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"direction\": \"down\",\n      \"details\": \"Scrolls down to options\"\n    },\n    {\n      \"offset_seconds\": 200,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 1,\n      \"direction\": \"down\",\n      \"details\": \"Scrolls to bottom of list\"\n    },\n    {\n      \"offset_seconds\": 218,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 4,\n      \"action\": \"hover\",\n      \"details\": \"Moves cursor over various options: 16/36, 2/3, 24/36, 12/16\"\n    },\n    {\n      \"offset_seconds\": 222,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Selects 12/16\"\n    },\n    {\n      \"offset_seconds\": 224,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Deselects 12/16\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 16/36\",\n      \"details\": \"Selects 16/36\"\n    },\n    {\n      \"offset_seconds\": 227,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Selects 12/16\"\n    },\n    {\n      \"offset_seconds\": 229,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit arrow\",\n      \"details\": \"Clicks the green arrow to submit\"\n    },\n    {\n      \"offset_seconds\": 230,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Feedback message: 'Try Again for Partial Credit!'\"\n    },\n    {\n      \"offset_seconds\": 232,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Deselects 12/16\"\n    },\n    {\n      \"offset_seconds\": 233,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 2/3\",\n      \"details\": \"Selects 2/3\"\n    },\n    {\n      \"offset_seconds\": 234,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 24/36\",\n      \"details\": \"Selects 24/36\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 18/24\",\n      \"details\": \"Selects 18/24\"\n    },\n    {\n      \"offset_seconds\": 236,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Selects 12/16\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 16/36\",\n      \"details\": \"Deselects 16/36\"\n    },\n    {\n      \"offset_seconds\": 238,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 2/3\",\n      \"details\": \"Deselects 2/3\"\n    },\n    {\n      \"offset_seconds\": 239,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 24/36\",\n      \"details\": \"Deselects 24/36\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 18/24\",\n      \"details\": \"Deselects 18/24\"\n    },\n    {\n      \"offset_seconds\": 241,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 12/16\",\n      \"details\": \"Deselects 12/16\"\n    },\n    {\n      \"offset_seconds\": 242,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"direction\": \"up\",\n      \"details\": \"Scrolls back to the example\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 14,\n      \"description\": \"Student looks at the example showing 60mi/1hr scaled to 120/2, 180/3, 300/5\"\n    },\n    {\n      \"offset_seconds\": 258,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 2,\n      \"direction\": \"down\",\n      \"details\": \"Scrolls down to options\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 2/3\",\n      \"details\": \"Selects 2/3\"\n    },\n    {\n      \"offset_seconds\": 306,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 24/36\",\n      \"details\": \"Selects 24/36\"\n    },\n    {\n      \"offset_seconds\": 319,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 320,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Correct answer feedback shown with gold stars\"\n    },\n    {\n      \"offset_seconds\": 348,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Clicks green arrow to proceed\"\n    },\n    {\n      \"offset_seconds\": 349,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Topic screen loads: 7th Grade Ratios\"\n    },\n    {\n      \"offset_seconds\": 350,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 351,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What's up.\",\n      \"speaker_name\": \"Rodrigo\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You doing okay?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 353,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Rodrigo\"\n    },\n    {\n      \"offset_seconds\": 355,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 356,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 7,\n      \"description\": \"Lesson animation plays showing equivalent ratios 1/2 and 2/4\"\n    },\n    {\n      \"offset_seconds\": 403,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 410,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 411,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"New problem loads\",\n      \"details\": \"Which of the following ratios are proportional to 60/1? Options: 90/4, 120/2, 30/2, 180/3, 300/5\"\n    },\n    {\n      \"offset_seconds\": 417,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Can I go bathroom?\",\n      \"speaker_name\": \"Rodrigo\"\n    },\n    {\n      \"offset_seconds\": 419,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Lopez\"\n    },\n    {\n      \"offset_seconds\": 425,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 90/4\",\n      \"details\": \"Selects 90/4\"\n    },\n    {\n      \"offset_seconds\": 426,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 90/4\",\n      \"details\": \"Deselects 90/4\"\n    },\n    {\n      \"offset_seconds\": 427,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 90/4\",\n      \"details\": \"Selects 90/4\"\n    },\n    {\n      \"offset_seconds\": 428,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/2\",\n      \"details\": \"Selects 120/2\"\n    },\n    {\n      \"offset_seconds\": 447,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 90/4\",\n      \"details\": \"Deselects 90/4\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Selects 30/2\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Deselects 30/2\"\n    },\n    {\n      \"offset_seconds\": 457,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Selects 30/2\"\n    },\n    {\n      \"offset_seconds\": 458,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Deselects 30/2\"\n    },\n    {\n      \"offset_seconds\": 459,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 180/3\",\n      \"details\": \"Selects 180/3\"\n    },\n    {\n      \"offset_seconds\": 500,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 501,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2,\n      \"description\": \"Feedback: Try Again for Partial Credit!\"\n    },\n    {\n      \"offset_seconds\": 503,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 180/3\",\n      \"details\": \"Deselects 180/3\"\n    },\n    {\n      \"offset_seconds\": 508,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 300/5\",\n      \"details\": \"Selects 300/5\"\n    },\n    {\n      \"offset_seconds\": 515,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Selects 30/2\"\n    },\n    {\n      \"offset_seconds\": 516,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 30/2\",\n      \"details\": \"Deselects 30/2\"\n    },\n    {\n      \"offset_seconds\": 522,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Submit arrow\",\n      \"details\": \"Clicks green arrow\"\n    },\n    {\n      \"offset_seconds\": 524,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 3,\n      \"description\": \"Feedback: Incorrect (Red X)\"\n    },\n    {\n      \"offset_seconds\": 527,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"New problem loads\",\n      \"details\": \"Drag and drop categorization task: Determine if ratios are proportional to 1/5\"\n    },\n    {\n      \"offset_seconds\": 528,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 72,\n      \"description\": \"Student looks around room, distracted, no interaction with screen\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Eq9QCqxQAXLI2nyzX7oPi7ksOpEYj71_cxdJkbZ7SbFlYxFkP6yKNO0oxoBU-Hqv0AWy7EFvKtmOs0JPcswgBUmMcT7T0Utua8mXqlN6Fkpk0s9Ssx6oBwOvb4FGdixAoNyO3_xX9ceUvQ2QFfzPk6eMAYd9o427B5uWXIoAdQga8k1scIOSOWkRwjISVdqL79XQqy9kaWXa7aYfh6S8UAnBLBsYmulcOojq3vk7c9Z0dhMRESSZEIOfIWDQPx_K7Lt7beOO4AcNC8O3BSNIx2OPB_sgKmrliLReUonXpSsXMdHPPjImSkP2YQwnbpZ5RPFR8n_kETl-ZoX958aRP2YzO3cJr2Em7xaCJH3NWIU72a4Gzjy2Y7JPnQA9IGED5QKiMMgmqnLXusnapPG1uqZ3bULuc9N1qSE0X2kxOWzJ4DSMi9fmGiQnGlqbHsbw9D-s2SQi2C_nu-S5Txf1Pkby8u24DfmWSTErxBUsGf-M_0YfoPCGRIZsDLCDLkSNIyQdb8Q0pXzJ7_WSR0mTknGcsitizj7qeexTlW_ohPTEMHgp1ZN3-ShHCAknD5h7LA34EiZraDuamimnQFq1glI4nlJ_P21f8K1HBo7zxWXpKxB9Y5mlzOlxCJ8MWTbnDyixA90LCNmrd_jLXjIobGlm_KEr2XArB1SsehIbVSgt1mriY__UMRCasXLlBX0ETQPektz6gbeDZQ78yC1s0HqLB7FJJfJizzaS2aRoAHsW0MPgswiSV7stO0nTl1X3jHM1eiZPa_rb7XEq0vWpTm7rGcfjtPTGlIj27Jhsk6uYFGo86UW1HBTU-ycNB9vyp6IrT8ZG4-2kPzQVli5psFwyYDBXERYi6fCtLuiG-5hDCJz_pFCC6jKBk3tquOAH90ttBn_FUQ375ckCa2-bVncno4QG3ivSL3hkueGM0ZYBMO5Eqt9ajKaduZukf0Wdu3sc6yNsvMMX8L8JnzrjoU-csdCMne4-qw0F4snxfZlR22FSixuuNS-MjgeRmodnrIQi4N2EVCsP5uVpyBe8FWbm7Nex0EigDLpJ7nGQEbumxK7qhZY89K4xVTaxgl6nJVXy2o8iLsrc73pMcA6AxK_YYdXezkO6MP4SHw1T4zPqV58hkrcdhoZ4G3V_nV_08c-jyE6qQmcLt_JmNN6kPSXwHT-bKzOqeJd9Mr4Y4GpdpmqmH7f1IxVFcW_SRqxk_oZDzeZCEeDK_aIp3x77VVzJ1SPWZeWIIleGOEUHcV4Jye3mDhRaupdf70z3LXoW9V6TGJXSkuFT4IPCIpowtfqiPSUmzrIQ-5GwQ_Vnouwg2Na3pLXb5fE4aMMpRCQHdD2-eF2ygXHpbonr-pcXztwmQmcYtks1BVcVMuTOhQOP7AgtZ9d8KNZ4skhPfFpY0QhAoquNmnnQuPHKRocQDg7ZEYIbmMLO_wfyJ_YD2fGKFw0YLO9gOlOoO9aAUGt_cCCUnddcQSMeEwThF5ItZUflRpXl53fdNioLn_VVTudtEYtPm99me6klGYljmJGi8vKnxwKEux0pa1AJdCViU5kddLHQd6g71zDu3mdFY3ni_sMZApp55FSqOcvaP94tdXyzvH9VQe8UPijWLd--C2uM0XMqZRyjoxzdvPS_24o9oxFC2rFj5rVmcO_OAdE8AVTDK9N-xn5Ov2p0t1O1Gd8RSS6RHV9nOX8RyBSB3OkPNsSwmxFrkvOjw0xSh7N7gBrVJcJQHagzqjeKIwTAW1Z8620wHgGX9kZWmgfQwo-8yDOsusdHvhmyNWD3AzDWNtEZ86pQDzFAZ-ou_Oov04vmeCUBAlM6dUt999Sg5zbNt_tBSJl0hQKfyWgAXXQZ0Bz5HlR57gV67D3-lz1OlgyEt1JLTC-cQxOGvUiNSSYsKdaWDdM0QWrH28vLGGJbSURmLTYUaY_nv9f9GqSHHCS6MKiOAIgAXTgm4cw0Ba4kO9m4YaLAQntBDHjd7WAiYkIzOpTBMUQe0ObNxXRrr1Z6SzqNIFQWztL0AcIq4m_yjInyGSScFk578dNsP4eEmtELoA4aGLDvpZKh4rxs59JD6w45uC5pw-pfvwRlDFI3fFIUI4634USq1W1SKFWKEKxZxx4HF-T32hiQZL7fac-LDnv4JxZq_EwCqepVhDHUu2TiYg72Mng01ron2Ao8G4ihEQ1cqIBVwLWR268F0LPjBmrY_FeiFxvTMdmu5bUNl3Nly74LnPNO3Z4-gt9ABUpzzrpuEvY42hxkSk3vQOZPxXVYdX9cWnIG1njs0AGuYccge5i0JSjiJ3xsJf4i4Df6z930U0togCDsvp-Bw9PgTGYV9-UvcKieqIVerDWOyEha3dgsy5biCnXvw8BEDW1e9nLWxu93M_DAy8rrukLJa-YTZXhkRXGL2Q3AMqMZyCJWjpQ6OQRg8c24DK8_0HHIpMdySG16pSRi7yHxgdHfY5ZM0gqw89_JJXA6NeXxA8w2cSzEUr-_7PY6ncCsB5vjXIoPQmEDTkZKrxRqmoPmDnT6Y_Bh21Gxy5dY7CRZ5_VQNgPeJkiE8zD9Oby-9ByCZCvXUC4On-0oraMsg8APu1ErZYSNmGdzcBF9B0MKn_5mNSk4I1-5bpYFaRaiiX9d2h7L6l73_6tC9pg75zbD2lxbQxsYty7ujLgJO9cpYaSS7nDa3AHoGg4T_IOhr5_qsyR-qY94ZFLdt8nrCZ4zV11w4z4X-DFcxLwoXQGoomZ6sPX5_8p9b_6nGVYf1oa9NMQ0MQYuMiHWTfb70gBTqKpTC3p6O6fZnfrcJy4Y5kTKU9jlZOd4cM2F6TNtFtw3phiFg-yAOcwxuUbAMKe_swgToOV2aEdpWp14o_4Qq_eO4a3QElW6171p3G4hbGW8zOT7a8dQWnqAm6VUhYUSBprA5g5gleJ4wfHazC7rNjRM-dE-4W51z__C2LG9D8gj5Y5RZXPoquKNPzs8Q9iCJbJZcQ7U2ojFRnUbc-jS6gws3qBCRUpxVEeQ8qDRdYy-Y_En5xXPsVf0G26xdYhlPswpLRT4cLdcBm6o99AsxLIp5PXv7LX1zKw2m3ImlnTTCkZKQSyyuelr2JI1Io7NG8nkOQEdnyMwq6SHwfMyS7exUt5XxGWiPyJQs-WBVjzcLz_Pqw-6oSwQmSJobL9EcLEcripu3zLJ58Sa-DritzzOzfcjxL7MRC0fzPQ4Z5L7HQwP-DVlO7xrtqwdRjJJmPwDiIVyNFJ8ulfSUoIlaR52YabUnpSG3BBMVWyDPuxX8AfCiE0j4RQuwyei3e55x2ll3xQfsiQN298bMOac8qfXj5i95XJmJKFLCRWkuOCl5jugpEvvfZK7uMGxklfvgBs7XDLiLztx5tsNkRPgGayiQ07xa74zfM0DnJx0MM2sP9xjhO2yCDjy8stWcBg9q4GiqhnkAr9HDLYEffn1_GtfaVtzhv8KhyBggeIuNiAiyTpvRNODFhsCkuC33A1awQusqIMLYP3m012y1yxYJQpM1WBKNC3uGFpkvpC8_tW0aaEV3Ebh6KN96k_QfxGu186-IUtpUWYRYUIycVztXq0gLaiwY-qxNWJwzKPap3zocYSO9AiDuT3QD2iGbqkUgZiSCLh-o_BJe0cq77aGtzDyRsZudxVOURN1-S5xXGtFi-Y8kJdDzSpFbJryomNSMK277diITWwALshCqwEELry20gRyB8zKKg7YEjg9SaaF7iG3iWaMM8CPivf25sT-vq2yY7ezofoZPZLpEQJhmjXnhgR3pGc8eFZFXea_P_VOeE6pEdWnvUIWqIvt0HHeUXmPp6P8fogu_IjErItlLr37ckG_wEBZIHUqv6x-hND7GfI4i2ai8tVaGEDLYIbZMBRKERJdp2wTDT8EJxuYWDqhtP7zhM6PhcfYLmGSiOVglNrtd4_IIiBLhoXty9XU7dC3-ZLGE_HgLFAyrdvYi_N3ABfa9n5aVkIqp8in6u17MrYB9iLq_u7MzzNppvw4DfQpgX4A1zgDIahsrGrpjunqKv1pOkDhCHQo0ilfUYc882S6enmhrj2mHvr3J4M4Xm3R2zpRKR0m0Ws-w-K8TI5-ATnzFVQcZPVu0HyHxEc2-IYmx2GYXla9Ksy71mPCbt3ClvtVUPNqQSXoa71E0JmzEuCzeW--uh6etsCBvMWNXm44uTE8OiRNN6Fza9FMWYlnrCSzBhBHGWaLOq_ZIRkZasDMBOkl2OSDlYumq3DRWDzAq31bUbzdrqXARHtySGMtM87YlLO9WKO0Ha6zj-re7UwCswaFciYNncyhYGKq21-qJgaMde3FUuz0ir8Oh3X5XHHAxgzUKlTa7WQj78L1PpKSOZ-4GL7O0G7pXqYvQTGCuMB4jj_-Rrc4VQwRJcZqPJH0DDO7gaeyni26zwc_b1uHVSVFMpYMW5FrQf50BYeRe4tgdMl1FFlQ0Y-dFbIvyCI-vGVXm69ZxtvDofKDaa1slZIl69KaXHXd2nKNCyGF5GFRC5TMMMHUCrqGHRqBiuadtOUvtTIVrqbGpnep5ovGpCJ0KrJRPeMbc7AIsLtO86DZCy0cqwF85VXtPZ4aO7EnPL5W23uL8JNZdsctYFuINV5-VwIvJotq_pOOwqFk3MBiN23muN1O0eXvuRAVTq_dti-3E6nzZyjLVN5FgrZivCGQ4w3H4g-yhUjiMjw_cWSMIG-uLzLG46FyinLOFP06i7jl-jGvVDkpybj5eAV3MgdpCp1BKFzqaRnfslcOfsE6mzkxmQ70CrZFpFhvLb0lsn34DITrepeb1jnJrbD4Xt9-8uVtJ0a_WVrDV8wg6t_o6DJMQ-fJM2VxcyzWXuG8PsMHxtGKoP-GGC-q7exB36PU8sEZoxemKhhGIXQg8fSnkI-Vj1OP7w1fKZOAn0BSuOI8Vi9fEssLlBAMuwINiTsZ7AgPDwdljVwPE5IEkY-IpfR1Lh6lxwjBDWjRlyeIIqt84tMWg0sy_CX-KkqPVVXu8u2GhrmLjHnJiXaE9Z3aWL74gEL3kGGN3dwt_pZgPSGup2RDoNKzIOmBo4sJfTpOFsVP3JzVOIxWecxmwWhBhlP4Qcfo0NswsmQBgEOsK1pPwVy8vga9NzaM7RGjffHvHj2RAnA59Pr6iueQd5nWo8JoJ-IQ4O1bTPfDmw49LWjPhz77-yZfLhjgTwK3MHJF9VZs_3ILGjvRUlKZl0X7Vf3OoMxVZeBB0wjUjGK8docn00OZPQC8VoCQqstp9H5jJ1d0OaUPR7wfzuM_1r9w0rBcEP6eToq_5cT4VRz2Nv_CNmUI3S5ZOa2dQar96Nf6wagNgvrCp1hdaRcIJKZNmYdXtwMKIIZuZ8YDFbzByoLKuNWlUpTXEp5H5P8w58eAA6uj7vs1MIAxI0K2EldhLkT_iaB8sCNXkYrs4AHaL1sdMtkQ0rnBoAMAy6gkGrdJk98Cjkob2NCEdskwi_O1UOk5Chq7SH0oly_e8mZN-kzYBZuBjkMmzm4SoG5gCXgWp0oyA66dU5PDrVmPRNCaVCWY__GiRhodIx0zxQKQm6IFgdoErheFhvcayW0c9LCg3xop8D-pm5KO_jXoRG5xCh8zeNz0Hl7ag8lLZIUIIqjxal20aBWLe7aCZvTXDEWAq_a3IqivKvce-UJRT9kJRp_WUxhdazuiqG_nomI-Rc5TuufGf9Q9TjDGVteAgabNAEcgjhTRXv14GRu4MLX3DObSzPgvustiaLLu3hBOC1XGnXZ7LILiF1X5FuWHdMXvzdQoUv160oHNl873bv6sWqiY2iVrhkQGXPKm5VBwKmgasfKft1Bh_jzl4Qz4aT7wnz53R9iPx1bxFW25SOUu9eobWYS5VrTqgSfVht7_UWbElxrG6MX6xJVVxVxsX3t8-cUM9ujI84VipNvIRaMQ3MIvvIie9M4p_kdG1oY-DNl5fSQAQZd-BwS8nlsphvWoS2VPDLvAfWECl9L3ewoWhp5w5hXoyK2IkLpGNCAO400UspTMnMXkHZIvwt9ZmXacgl2HNmxazzEf5R4FC6uPYPok7DdA5jyT-I8gZKgkvqAk7LnS0H2QgGPJb7tgpoGGiF0z7sB6JBvO4KXXaEs-DXuYcuusp-M12qqBNFLpSRPyj6ZPlxi0EjUR0-mCuSa5yx4GX-xGlTl87j9WkvywbgxeCaUv-U-50j-EtBgwZm3I_32nJCqUCDnB-FenrzB62XGO0pqisekfWD_ZGTRaFEo_jlSKgB7qE8Rd4XRkV1yTa0U7qrdh2d2soEFfFoUFqqgUSC4_wXT437cdxUQyM0WEK1dkpc830aBjK6FH7n_iDuPlljMyYlaqUzWtXLJyq3wooCNx3PN-fgPksLidku4BgnlizLcAGSSY9avq_SdnMMfHFKTw2eo988pWpjgTMp9AZy_ibhRKi989MwljeAOzOIPfVCr9gz4UkTAOy5AwVXPhIZt56tF6DkN4HfQapPhATM3c7vN_wEASN_fN7Hbl_yC4TntvCE8fWi_3Rig7VqDZzVzGP5JeZhJGVDlyI08KlvT5qYqHWi6qdPzOYIIYyiWjF3eBY6hrp6u_o3Nyi-iFwbW3bjNNVviDfbvifvvMwCc3T-0N0OG39OpzNEIwg7lJKItKf1KEUSVseuesJe-gapAdXL0noiN-mT0aVQ5osBZVWa1q2FGU0wvK-DcQoXsgJJrLzDw2CEbu7IHwEq39qsdnGsec40ix-mCLTIc0F1AFK9td21v5DdnNq01Qni75uZ2sJu6v8SEAeiNPS2nYeWw4H0xtxRYTvOaShM5J-qEJmFc7mmq_K9Y_91PaHl9rw3JtH4nop3XtNrzvEo4ixxvbxkGTVA59QkloeiBdjY72N55b0UJNQEwXI2dsL_K14ao8H0Ema4g8pfT6eHbsK3WA2MVm1FFu2btmOmc4z0dUCOQCXI5-KxfA5cK6kisRbA5OepwzpQHQriaEXySw97yzM9lFezEd76jBjuBjXbJDO7H1Jsu1D_AS7ajJcwvKd54WrfIUwhyBKo5MO64q9qsdLySYCgwHwmWfgs7Jez9pfcnX-Yuzd_sphM_fwby-vIpYJOHGFJ2kOLyb61ORV0jXvMTVVl3d_naAlFB2fNxLTh4gOBbRgorh1uenIQ_XmoWV7oVyvnIfXyW-MlLoke0QVPKUFA9ywjC2kLLm66qlXtLSkJARQ6H5AKrixr6prWwNCTUa0qv0A-fQn4Lv8flkGs67-aj1KnBSSl4TgtgVcUoi_UwP7qTCkT5boY4UJ1trr6qVbYTEVGFAjhrdxenJhRanlGvdXJXhbCcTnAncV_F2Z8pU99caPCxnlmS9NX6YvvSV-vxvD_ZwDcd5JTYHJwKcsBYDN-DXOSoVGyV3clFHoq5eZjbY87xLc_zV8qRcvfRDfWvhOWO06n0fp2Yjurd6yEEumTwSd6Dj1L3I6s9D9cWxaF8vdkmQbgYMZ1xYz1YDAscCewPQ6vtrAa2Bx0lHrYN3nJcIS_r54yZLtYxOou4SZOCO5BDjSPftuKatP3KQHgXKYB4_eKgix2X39Z-bA9N8apk9Vbd2eBHmqil8TWRa-Pj_91BsJaz5XaJcaBvgDHZDPcuK7ZcU-nTPPBSb8ofuiog2Ki2nq0GUlOE9z_W5aBP11iu3fOCLug59P1PpI9oB7on8PSpWhzBhbw55BWO-ErQ9t-czWIJzUPGmPxpdF__Its1K2OwFUTKZMvGAHUZeu0CRiH2yUNsno8Ye1lYqAO0y5MImcOikPlenKxU5ZW-L5YI8cN55vaLmzAJQzHpuCZCbFdOqDpho0fPKhQmkMdQAyzrNdWJIbJZW1WzuRUWASFqXNQOLTJrnryMLWeqYqJOIy0dcBVuaeCcgG_PZdVnqoWTD7HqzeydzRW7V_cvgWuI1muCszFqegjvUQF3KmvY76VgUYOlq2Mk-STZtvcgPlugA35sKatlmQG60W-UdvewFTjtmtqqXW-ovXv6TVTRu0h_yCOmdsdbWy4ORIKpDgn4QH_yUnHag2GzXNuYApCs6eO1S6To9bMYKJqJKOkKtT4RehmalvSZAa5yT1Fp1mepymabF6SJjm8i7wKVuL0eZS8OkXZbSaoCZeB-cJQfVqKs9dLgblY5L7XAeiCIaF7_U7X9FANUd7TiKbGm0Il8B79fiqRbJYKrR6kfYp2ICp_pmothRPzHzBZagh3bC-tHSf96OHuyXfvlAaiqjD9WwQXJ1ZsxmqDoeuBPdLWWNYQtn-I_LqCY8O3msnKzMrYY0Zx6wepivhsS9aanDFLlgXC6Mb1DP9byHPJEUlZ7mreDAuxY84XHVVA6sTOv9l4WZP1HQRFe_pTTIqWoiQ_aV02iOsUkVk_tKVbEnm03DQjxipTEn-_gSq1x0Cc3ILR59s21sInqO3M4RD6-vp_D65m4xbNgHOdOxlGwgPu3wWfaWQf5ShEDzjbY6ZVB2HFr-8Ar65cL1CKBLIXhQJOIqKPz_664dFRamVNlpfor5VfiUMdWy2mLjmrWk6_CZ2-eukI93IUuwkAAOH6udwxJ_GBg_Q617mTSQxhsdrIZdnNWm4fQ58kPetM24xMaMCKN5stOcBuVDCOH59qxhKGjj-eIGQ97ZA0u7vOiWaoAzcol0fBzh8dJpa3cup7bVgdQ1g7HTJBwIoq9Q2H4Ag6c6-N4UJb3MKHRv-3SElP_qIT31r99OpxVLjTXbEJ7uZhT35gjtMZKMmZZtmMKcvwUDryyIvR7AzupOutT5mX3FTmAyVNRwYgw6FP_oQ_bynuvmwEjQn8JNKnk5Bbgeq5KRdB9zkwOhNSgbnYY-WfX4dys8S1kBFLcxg5GVU3rActVcDw1WkS0EdFJDVF81fL_z1cCV4kMwYcME2_y0VpRAOQpGixuyT5rBuFB8MpkPNL6Eq4gT0bkXepm8IyU_A5RjEn5ymLdN5oMg1rtLRrJEfk4iHqna5XTy9a7kFa5f0RF3WnTx2NCTgkASNdv51Z1OIb-j_Xw8Iqr6URxn9faLwZP1L5qPPS16jdTqjLgFuhSCsFbHKkwO-jTpo2YrNy1Jnjs_c0n5YatVden4LyENRyeuVGlXemwEhncAWXq2yaOle3HEP6he7kACh06XfkxjKq4WWCg8FjH1_PIXhF34yDCgD0980BndLm7bwQzDfVbjc6DIrwb6fivlkoVp0a-pPit3ENrsIgyQYaCeF4k0Jm0ljwYvAGygpSK3VM3U_1gyt33ZrvZd4DMHTiIauOBt4kIQ70bAZNQnwXGsJKhrgFS1k4J19F3AjGQ6rzCHtlxMUsbszvAp00n3nV6SS_UfFayneJGGF9tjSeRd6k6cmF1cu3iA5sgQ3d5BinJhAZc3fH9oAGARsE_YhutJT3GFYPJoCb9OBb9PFfeGDwThVbLqLv8khcteFgeBZ8oAzRJG9SriU98ygePAgbMonIY0Bh9_ZcKW5AenTUgOARmsVurBLiG9AgCv_ybg0FJWZYUx853Hxq57BUlXSFcmzERksoCTyaf6Vw92uq_oc-7p5AqlPenLJzzib9sGqdWq5UOIf5uDvw2RDFtvvdDb45Y9iiuNSxgrD3sK_b0jsK_FhPFWers8K5IBYmlYfiDkfwG8CbrEMoe6zHT1z0trEvrsZALar6GPO5l4q5LBXcB_jKaevzYqLql168VMzDPEE5cH_yuyKrYnaoYSGNRhURCBrYJboS59m2BtY0PGy_NNDdOdF7kuG498v3GVmLRLPZMt_o8k7lSCMEpnDh5HzMnRf7GRb8tYQoTE4f_0QJshk078AME4AEau1CHBhnChP1QQ4mYAXECBQJGLXCapdLym5EWejqzUzNw_bhMPIRwuoqdVKt6SQspYyb3U8VjZYiSpNyC0VDgUj3OrWL8RyEWCFCYTeMRyCG17eW4Fbq-7i9rxgKAMGqLT3sT4OveuhD13jIoXk_LFS8Ir_TWdrB9uER99vBRoXSls3UCDwMbfsuUi7svHxLCpIGxFAMMPAwb5DETSPD1htVlm4aUzrQqM4yOelFsud7MuQ-Bk-c6qCMYCER5VxKlPqEnf2E7HEDW5NyHsgcW0p8y3t9llVHWA8FJMkbeqhGNGkzpLDuVC0drUQtnS41Ic-Ul8BzaVkKmJF3t3rvTMFeOIANukjTHJsIYRdQhyGYBiOpNbut4DiHQUAiPumjMAjYf1Z9i80VYs-9v97xRC2a5-VicT_Wb_I-eT-ebC1YiT9dFVNF0pRkOrjTbOa_0qrr1Srum3GEGvcWUbbyaBFr-tvk1iGqGjxFaQbWvZwgK3s5igyN0vPzIWZo0JGIzEo-1MiXft_v1e45k4OulDGdiYFy5RifPVPnMBffWUjDVREW_t0LNZe9JAj6yedZTdEdw2EB3cQwYqF0lS0QPfkvmCrABUmzQyhP8o5DuOYjJSOrKl5omPQuH3YLEdQscYGgsW7w-9FRL1mkaO6AI-18pnU-PjN_SGQfZUe0WJ1GJfCkw3WQEtLduriT3juu0uEfK5kdOXBCU_rCg_Aw1OD4RKy5am0TAPEg7cK-dDk-4cPqSZTaUUcIH0TF1V0RZSzDZgOX4mLN5g4jWUZ-uFva396hrHo3MGAUgZBt5e7NxMjDfbA0kMaIgaSckmIBCOMQRV1VJYPGN0wYo7zOs4nLbcK8hZktHxs24EKMEQjkYkrSW_mPs45lhmTZYAQERl4G-GqjD0EfBD1UDCJUSw4OavdGivaIfkdqkJCkc3Y6mIhovLMRNYgHXgN5fvz5mwiVrW9opxBlyuHdONH2TMJ5ERD2iuGszvkBSzDi_Ae_5Tq1V3elZWfzceyG_fhsfHYR-dWEZ9jIO8s-8kZAVZGTNVguI2BZD6ERLDN6ckGvlIAUSKwdsZ7iOZoqYPdxYnEFQ-FqK8nBb_mltJHKCkgjLH2InEdC6BevYIs9AFvbsd0qDsSlDMf6GMSf7HLZHSydFNa6G2HNDtGYnAzCNe0Njb1S2oxH7uvpP519kkjHSPwI5e9k31KEvkFo3DWoA3gQpcqLOvqGobT3O7Uf-lzLQnvskcW_09J6Uisl2VbsYry9kANKe7QLhoxVHkywMzLN4uH_g8JUtk1UmNyzZM5rPlHgBd2M1RmwzevuZco4mYXCEp8rtRVz71TcP59iAomS1e6FX6uDGOavXxK0J66gixJtYRDEExyn3dIRL6LEBIsVkq-axbF7uobIGgOr07ZiD26tId54-UC0cUiOIMWp7JGe_-cYgkA9BCTFhUfQQ7sZxVX9qpWocEp0Ko_K7h-5XqSPmN0uBAthzfai32oqOrliuobrCvNVBAQE903g6IPoXIXnDkxd84n8FH_WwMGqYlpr9hocWHcFjMWuknsX22DEeT7apSkD36O6SpKrZzBZplxD-ASRGm4Q_5EotHdP7u7hprRk1VlAzLk-EtNAc-YKepD3PGuDQ54Ggd9oMRAIAm0tGv2h5UIWMLgOIlM13MoiaSewiXpR6G6hjh2HEVYJ6UFx-WnThLYzKuhyuyCr2iTS-gevAPfPyhEnZMN2A-9NdG-VWXxmsuaoZI4MsDOWBSsiFhL0UuPBFZplwvwr7J3X63da29IOgPsQBwgtQyhRdoLCY0A13DAHprNLpv0axiV1R8xU6-bP_PeI5R9tlHfeLwAs2M6uskQWLa9mvShPv5f2MAzkqRzyi9B-p8Nsb6vThODeQRs3XEJzAyAAtEDFrP8QoT5A1-cCo0HHFeAcCHcBHllrdPuCCm9qDJVI-HvfzFCmllxYGGtGHiTIK3Y134l81MX_KcFyIaHYFxiITZrhaA-TGoehWRIculo7bBZNysiwW9urzOXxyCsTsQWtxcls2smQuFL9YZdnW15ghmiUdoH-MWnilYKh70Ywv8ahomLGbCIjoBwCP2JQp2eYWRXtFrwcJFQltB1_X5JU6OW4Dr7prVzH7tJwsQKuWKaqrQ9YzVfooNmqDDPWk9loOIl-fFJyG9-41t8-xGfVG4qpvtpP6zj0l-_DS89WjfqFe5US5MX9pOcWsMIzWw_9Olr_WfThHDhUhDCIg6O7TRDlmWvLwfBpzaaCEjysmyVx1Hjqv6T11N45cb3gle7Hqua1lmO0ZEH-dPKHN1z1c_6jjKhykbe8XcckIDalQdaKyO_drGxlnOOhRY35Q_pt6K61J-Rdv5tVAtFtRoHndwAnZcaybcEeguo5YUDgEsGDIOQ8MgDGQPL_4CWQNJmoxyN7bW5Ij8ep7Kykz4AVXPt6hhvZ7XcdsdnWqv8klFbXKcFHcBo0HX3kczclyR_UfefyOnBPo3GdQJlqLx6JGWhvUu3vAkIbdAAJm7HvI331ctGX89w3E0j42amprAzsJMJ8SEQnckafv64DsT-gRpu_hVaGLBUa_eh3OoHhbMP7cXmvxFJsBaztsMMP_Ag8Pd01FZ55N3ONHUrNghgEY9ezY1UHilFrAdwt1xLxZCv2M-WRYmyAb0r8-1HLPlyKvy37f3s_JA2SaABAYQzZ6qqrDZmUWkzDpUW-fAn1u6QV4QL2c6bpvit13qep0ztGxffSl5i83fFQxXUxd52UBAnnDMoRVS1Z2QUcRWuOUlrjBULtISBumyNOOPpqo9GJDzegBBheK_p_HJqytoPMsClzVSx8pz6jfbkw8m6A3H5853rLPW-gFhNbXHMheK-49OUTmIZ680EqO0R23s2H7zhaVe1J-252CD_2To0MAjIe7CseNbQ4iUuEJq1OQqyezFsIs9PDJEEXihNJIFlzMf-1la4Ze23a93PDawrQ3CIlxbxB5346WuMBUEcRhSS3uKtAQOAv8N5tqscarNPEqVUfhFhCGOO4_V7VuK85_dS_l0ah7utVE-mYjjBM03ll2tVuigatfrfyYBXFEKpwa8SepZECTS9CnUSLejIzmUZIqT4d20lqKUnYHLd9Fif9wDrv2Zaf0dnmQoUzACalMzl3bZIbQOMzzw1eIUbsAvf2JgpT1KLMDm9JHsN5rF3C9VNp7OFAXkYaVc7Ixr1dpGGVfQfsNaL7ftDlBjODLDKuYM1T0PGwoVC9h78lazR9NEAEFnzT89HNZGeM9ClnSZzjrEJee24SiO60oAyNbHa2SpzBIWKHV-3XX2WE9UEJ8_vWR_UShHVYEYuCuZzEk9JZo5syODvlJvWijBkLDcG5sJiT-E-MJ0vA6NxwHJS7i4HfliflJ7sMJUL0z0eryq3A-CF2Cg95RTMZzF2weZG4pY1DmH9QWmik7oCJ9aj2Zs253J2ZnCX9sL4AcGMlvRyXp3pM2BSJ9CR7rfxe8AOiU3MJYWlIrUzU7Jg7ue0ewrZK6K-JI1ISC3RSYGQJ-IuKDas_YamD6yoXoG-S1ERh9FgtEE1jowDQmbseA98OVcgYixH7UsCA5Cv2PRxnzbU8XJ0A1pnsviKAFoAy9N2Rr1Zs1ITRLDjLLZY5bztcg_M10WpxqGtQvSi08ksUOxr6CDkhD-r2-eSfMXUxJOy_gFgTQ6tBZPbPMy60aceU8RNBQAWqTVpOYEgbrN6y1bnVXHR9sp_-TkeBZmDqmRdSTfcCrYYgBM7YSHUxYs7ZYRe116SDyLXOkwJySsDzpoisc_CEswJtftfv-rzUq_khGiGSYE1cn6gbaYGsBbTcAt7yPEktxwKou-eh5tkvAaMvw17JIjUptomrChYeAvg9g1TdMyGIcuQ1e67wBivAnNWVwOSj-4qr3wXuBHG_M6zHD1rmCpneOiIMVqtqE933_6gg5eGmSP",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "xLdqaeqUDauzmtkP8bKkEA",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 5261,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 127189,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 126862
+        }
+      ],
+      "thoughts_token_count": 3875,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 136325,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Moby Max",
+          "to_window": "Moby Lab App",
+          "details": "Student switches from the Zoom window to the Moby Max browser tab"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Moby Max problem loads",
+          "details": "Question: Which quantity is proportional to 8/12? Options include 16/36, 2/3, 24/36, 18/24, 12/16"
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "target_desc": "Zoom floating controls",
+          "details": "Mouse moves to the top of the screen near browser tabs"
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "inactivity",
+          "duration_seconds": 20,
+          "description": "Student reads the screen, mouse remains static"
+        },
+        {
+          "offset_seconds": 33,
+          "event_type": "page_scroll",
+          "duration_seconds": 3,
+          "direction": "up",
+          "details": "Student scrolls up to view the instructional example about proportional relationships"
+        },
+        {
+          "offset_seconds": 36,
+          "event_type": "inactivity",
+          "duration_seconds": 25,
+          "description": "Student silently reads the example problem"
+        },
+        {
+          "offset_seconds": 61,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Do you need help?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 64,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Moby Max",
+          "to_app": "Zoom",
+          "details": "Student switches tab to Zoom"
+        },
+        {
+          "offset_seconds": 65,
+          "event_type": "inactivity",
+          "duration_seconds": 8,
+          "description": "Student looks at the tutor in the Zoom window"
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I'm thinking.",
+          "speaker_name": "Rodrigo"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay, no worries. Keep thinking, but if you need help just let me know 'cause I'm here.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 119,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Moby Max",
+          "details": "Student switches tab back to Moby Max"
+        },
+        {
+          "offset_seconds": 120,
+          "event_type": "inactivity",
+          "duration_seconds": 16,
+          "description": "Student studies the problem silently"
+        },
+        {
+          "offset_seconds": 136,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "direction": "up",
+          "details": "Scrolls to top of example"
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "direction": "down",
+          "details": "Scrolls down to options"
+        },
+        {
+          "offset_seconds": 200,
+          "event_type": "page_scroll",
+          "duration_seconds": 1,
+          "direction": "down",
+          "details": "Scrolls to bottom of list"
+        },
+        {
+          "offset_seconds": 218,
+          "event_type": "mouse",
+          "duration_seconds": 4,
+          "action": "hover",
+          "details": "Moves cursor over various options: 16/36, 2/3, 24/36, 12/16"
+        },
+        {
+          "offset_seconds": 222,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Selects 12/16"
+        },
+        {
+          "offset_seconds": 224,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Deselects 12/16"
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 16/36",
+          "details": "Selects 16/36"
+        },
+        {
+          "offset_seconds": 227,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Selects 12/16"
+        },
+        {
+          "offset_seconds": 229,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit arrow",
+          "details": "Clicks the green arrow to submit"
+        },
+        {
+          "offset_seconds": 230,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Feedback message: 'Try Again for Partial Credit!'"
+        },
+        {
+          "offset_seconds": 232,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Deselects 12/16"
+        },
+        {
+          "offset_seconds": 233,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 2/3",
+          "details": "Selects 2/3"
+        },
+        {
+          "offset_seconds": 234,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 24/36",
+          "details": "Selects 24/36"
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 18/24",
+          "details": "Selects 18/24"
+        },
+        {
+          "offset_seconds": 236,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Selects 12/16"
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 16/36",
+          "details": "Deselects 16/36"
+        },
+        {
+          "offset_seconds": 238,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 2/3",
+          "details": "Deselects 2/3"
+        },
+        {
+          "offset_seconds": 239,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 24/36",
+          "details": "Deselects 24/36"
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 18/24",
+          "details": "Deselects 18/24"
+        },
+        {
+          "offset_seconds": 241,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 12/16",
+          "details": "Deselects 12/16"
+        },
+        {
+          "offset_seconds": 242,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "direction": "up",
+          "details": "Scrolls back to the example"
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "inactivity",
+          "duration_seconds": 14,
+          "description": "Student looks at the example showing 60mi/1hr scaled to 120/2, 180/3, 300/5"
+        },
+        {
+          "offset_seconds": 258,
+          "event_type": "page_scroll",
+          "duration_seconds": 2,
+          "direction": "down",
+          "details": "Scrolls down to options"
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 2/3",
+          "details": "Selects 2/3"
+        },
+        {
+          "offset_seconds": 306,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 24/36",
+          "details": "Selects 24/36"
+        },
+        {
+          "offset_seconds": 319,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 320,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Correct answer feedback shown with gold stars"
+        },
+        {
+          "offset_seconds": 348,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Clicks green arrow to proceed"
+        },
+        {
+          "offset_seconds": 349,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Topic screen loads: 7th Grade Ratios"
+        },
+        {
+          "offset_seconds": 350,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 351,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What's up.",
+          "speaker_name": "Rodrigo"
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You doing okay?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 353,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Rodrigo"
+        },
+        {
+          "offset_seconds": 355,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Awesome.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 356,
+          "event_type": "view_change",
+          "duration_seconds": 7,
+          "description": "Lesson animation plays showing equivalent ratios 1/2 and 2/4"
+        },
+        {
+          "offset_seconds": 403,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 410,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 411,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "New problem loads",
+          "details": "Which of the following ratios are proportional to 60/1? Options: 90/4, 120/2, 30/2, 180/3, 300/5"
+        },
+        {
+          "offset_seconds": 417,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Can I go bathroom?",
+          "speaker_name": "Rodrigo"
+        },
+        {
+          "offset_seconds": 419,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Yeah.",
+          "speaker_name": "Lopez"
+        },
+        {
+          "offset_seconds": 425,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 90/4",
+          "details": "Selects 90/4"
+        },
+        {
+          "offset_seconds": 426,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 90/4",
+          "details": "Deselects 90/4"
+        },
+        {
+          "offset_seconds": 427,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 90/4",
+          "details": "Selects 90/4"
+        },
+        {
+          "offset_seconds": 428,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 120/2",
+          "details": "Selects 120/2"
+        },
+        {
+          "offset_seconds": 447,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 90/4",
+          "details": "Deselects 90/4"
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Selects 30/2"
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Deselects 30/2"
+        },
+        {
+          "offset_seconds": 457,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Selects 30/2"
+        },
+        {
+          "offset_seconds": 458,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Deselects 30/2"
+        },
+        {
+          "offset_seconds": 459,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 180/3",
+          "details": "Selects 180/3"
+        },
+        {
+          "offset_seconds": 500,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 501,
+          "event_type": "system",
+          "duration_seconds": 2,
+          "description": "Feedback: Try Again for Partial Credit!"
+        },
+        {
+          "offset_seconds": 503,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 180/3",
+          "details": "Deselects 180/3"
+        },
+        {
+          "offset_seconds": 508,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 300/5",
+          "details": "Selects 300/5"
+        },
+        {
+          "offset_seconds": 515,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Selects 30/2"
+        },
+        {
+          "offset_seconds": 516,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "checkbox 30/2",
+          "details": "Deselects 30/2"
+        },
+        {
+          "offset_seconds": 522,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Submit arrow",
+          "details": "Clicks green arrow"
+        },
+        {
+          "offset_seconds": 524,
+          "event_type": "system",
+          "duration_seconds": 3,
+          "description": "Feedback: Incorrect (Red X)"
+        },
+        {
+          "offset_seconds": 527,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "New problem loads",
+          "details": "Drag and drop categorization task: Determine if ratios are proportional to 1/5"
+        },
+        {
+          "offset_seconds": 528,
+          "event_type": "inactivity",
+          "duration_seconds": 72,
+          "description": "Student looks around room, distracted, no interaction with screen"
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:14:44 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=131543",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"MobyMax math interface is displayed with a word problem.\",\n      \"details\": \"Problem visible: 'Lexie earned $64.38...'\"\n    },\n    {\n      \"offset_seconds\": 2.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Go ahead.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 4.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6.8,\n      \"speaker_label\": \"student\",\n      \"text\": \"Lexie earned sixty-four point thirty-eight for working from eight AM to four fifteen PM.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 13.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Within that time she took a one hour lunch break for which she did not get paid. How much does Lexie earn per hour?\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 23.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so first we have to figure out how many hours she worked.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 29.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So from eight to four fifteen is how many hours?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 35.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Um...\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 37.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So from eight to twelve is four hours.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 41.2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 42.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then from twelve to four fifteen is another four hours and fifteen minutes.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 48.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"So eight hours and fifteen minutes.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 50.8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, minus the one hour lunch break.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 54.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Seven hours and fifteen minutes.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 56.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.8,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. And fifteen minutes is what as a decimal?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 61.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Um, point one five?\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 64.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Think of it like a quarter. Like a quarter of an hour.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 68.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, point two five.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 70.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. So you're gonna divide sixty-four point thirty-eight by seven point two five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 77.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.0,\n      \"action\": \"move\",\n      \"target_desc\": \"input box\",\n      \"x\": 240,\n      \"y\": 420\n    },\n    {\n      \"offset_seconds\": 77.8,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"input box\",\n      \"details\": \"Student clicks the text input box to answer the problem.\"\n    },\n    {\n      \"offset_seconds\": 78.5,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"8\"\n    },\n    {\n      \"offset_seconds\": 78.9,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \".\"\n    },\n    {\n      \"offset_seconds\": 79.1,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"8\"\n    },\n    {\n      \"offset_seconds\": 79.3,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"8\"\n    },\n    {\n      \"offset_seconds\": 80.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"blue play button\",\n      \"details\": \"Student submits the answer.\"\n    },\n    {\n      \"offset_seconds\": 81.5,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Page transitions to the next problem.\",\n      \"details\": \"Problem: Identify proportional relationships.\"\n    },\n    {\n      \"offset_seconds\": 83.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so forty over eight reduces to what?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 88.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Five.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 89.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Five. So which of those also reduces to five? There might be multiple answers.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 107.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student clicks checkbox for 120/36.\"\n    },\n    {\n      \"offset_seconds\": 108.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student unchecks checkbox for 120/36.\"\n    },\n    {\n      \"offset_seconds\": 108.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Twenty divided by four is five.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 110.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 20/4\",\n      \"details\": \"Student checks 20/4.\"\n    },\n    {\n      \"offset_seconds\": 111.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Mhm.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 112.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"One hundred twenty divided by twenty-four...\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 116.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 6.0,\n      \"description\": \"Student pauses to calculate mentally.\"\n    },\n    {\n      \"offset_seconds\": 122.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Student checks 120/24.\"\n    },\n    {\n      \"offset_seconds\": 124.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"And ten divided by five is two.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 126.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yep.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 133.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\",\n      \"details\": \"Student checks 10/5.\"\n    },\n    {\n      \"offset_seconds\": 135.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"Student clicks the blue arrow button labeled 'more'.\"\n    },\n    {\n      \"offset_seconds\": 136.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 2.0,\n      \"description\": \"Notification appears: 'Try Again for Partial Credit!' with a yellow warning icon.\"\n    },\n    {\n      \"offset_seconds\": 138.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So ten divided by five is two, so that one's not it.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 142.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\",\n      \"details\": \"Student unchecks 10/5.\"\n    },\n    {\n      \"offset_seconds\": 144.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"Student clicks Next.\"\n    },\n    {\n      \"offset_seconds\": 145.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification reappears.\"\n    },\n    {\n      \"offset_seconds\": 146.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Wait, so forty divided by eight is five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 149.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 150.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Twenty divided by four is five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 152.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 153.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"One hundred twenty divided by twenty-four...\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 156.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Is five.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 158.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Is five. Um...\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 170.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Try unchecking the middle one. Maybe I'm doing my math wrong.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 173.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Student unchecks 120/24.\"\n    },\n    {\n      \"offset_seconds\": 174.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 175.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 176.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, click that one again.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 178.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Student checks 120/24.\"\n    },\n    {\n      \"offset_seconds\": 180.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Maybe one twenty over thirty six?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 182.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student checks 120/36.\"\n    },\n    {\n      \"offset_seconds\": 184.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 184.5,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 186.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, unclick that one.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 188.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student unchecks 120/36.\"\n    },\n    {\n      \"offset_seconds\": 190.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so scrolling down...\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 191.5,\n      \"event_type\": \"page_scroll\",\n      \"duration_seconds\": 0.5,\n      \"target_desc\": \"page\",\n      \"direction\": \"down\",\n      \"details\": \"Student attempts to scroll, but page is at bottom.\"\n    },\n    {\n      \"offset_seconds\": 193.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, there's no more options.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 199.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you click on the speaker on the one twenty over thirty six? Does it read it differently?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 202.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"speaker icon\",\n      \"details\": \"Next to 120/36.\"\n    },\n    {\n      \"offset_seconds\": 203.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"background\",\n      \"text\": \"One twenty thirty-sixths.\",\n      \"speaker_name\": \"MobyMax Audio\"\n    },\n    {\n      \"offset_seconds\": 206.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay. Um... try unclicking the first one you have clicked. The twenty over four.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 212.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 20/4\",\n      \"details\": \"Student unchecks 20/4.\"\n    },\n    {\n      \"offset_seconds\": 214.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 214.5,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 216.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, click that one again. (Laughs).\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 218.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 20/4\",\n      \"details\": \"Student checks 20/4.\"\n    },\n    {\n      \"offset_seconds\": 221.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"This is weird. Um...\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 225.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Try clicking the last one again. Ten over five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 229.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\",\n      \"details\": \"Student checks 10/5.\"\n    },\n    {\n      \"offset_seconds\": 230.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 231.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 233.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\",\n      \"details\": \"Student unchecks 10/5.\"\n    },\n    {\n      \"offset_seconds\": 235.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Try clicking... unclicking the middle one and clicking the top one. One twenty over thirty six.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 239.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Student unchecks 120/24.\"\n    },\n    {\n      \"offset_seconds\": 240.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student checks 120/36.\"\n    },\n    {\n      \"offset_seconds\": 241.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 242.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 245.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, unclick the top one.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 247.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Student unchecks 120/36.\"\n    },\n    {\n      \"offset_seconds\": 248.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Click the middle one again.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 249.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Student checks 120/24.\"\n    },\n    {\n      \"offset_seconds\": 251.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm gonna look this up really fast. I don't know why it's doing that.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 255.0,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 24.0,\n      \"description\": \"Student waits while tutor types. Mouse moves idly over the screen.\"\n    },\n    {\n      \"offset_seconds\": 279.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, I'm reporting this problem because those are the right answers.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 283.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 284.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"So just go ahead and click the arrow again and see if it lets you skip it eventually.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 285.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 9.0,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\",\n      \"details\": \"Student clicks the Next button repeatedly (approx 5 times). Each time 'Try Again' appears.\"\n    },\n    {\n      \"offset_seconds\": 296.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Is there a skip button?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 298.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"No.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 300.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, go ahead and refresh your page.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 303.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.0,\n      \"action\": \"click\",\n      \"target_desc\": \"browser refresh button\",\n      \"details\": \"Student clicks the reload button in the Chrome toolbar.\"\n    },\n    {\n      \"offset_seconds\": 304.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 6.0,\n      \"description\": \"Page reloads and the same MobyMax problem appears.\"\n    },\n    {\n      \"offset_seconds\": 310.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, go ahead and click twenty over four and one twenty over twenty four.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 315.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 20/4\"\n    },\n    {\n      \"offset_seconds\": 317.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\"\n    },\n    {\n      \"offset_seconds\": 318.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 318.5,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 320.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, click ten over five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 322.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\"\n    },\n    {\n      \"offset_seconds\": 323.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 323.5,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 325.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"It's literally not letting us move on.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 328.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um... try doing twenty over four and ten over five.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 333.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Unchecks it.\"\n    },\n    {\n      \"offset_seconds\": 334.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 334.5,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 336.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, reclick the middle one. Unclick the bottom one.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 339.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/24\",\n      \"details\": \"Checks it.\"\n    },\n    {\n      \"offset_seconds\": 341.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 10/5\",\n      \"details\": \"Unchecks it.\"\n    },\n    {\n      \"offset_seconds\": 342.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Unclick the top one.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 343.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 20/4\",\n      \"details\": \"Unchecks it.\"\n    },\n    {\n      \"offset_seconds\": 344.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 345.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 346.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Click the top one one twenty over thirty six.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 349.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"checkbox 120/36\",\n      \"details\": \"Checks it.\"\n    },\n    {\n      \"offset_seconds\": 350.5,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Next button\"\n    },\n    {\n      \"offset_seconds\": 351.0,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"'Try Again' notification.\"\n    },\n    {\n      \"offset_seconds\": 353.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, this is broken.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 355.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you go to your home button? Like the little house?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 359.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1.0,\n      \"action\": \"move\",\n      \"target_desc\": \"home icon\",\n      \"details\": \"Student moves to left sidebar home icon.\"\n    },\n    {\n      \"offset_seconds\": 360.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"home icon\"\n    },\n    {\n      \"offset_seconds\": 360.5,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2.5,\n      \"description\": \"MobyMax dashboard loads.\"\n    },\n    {\n      \"offset_seconds\": 363.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And then click on math again.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 366.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"Math button\",\n      \"details\": \"Big circle button.\"\n    },\n    {\n      \"offset_seconds\": 369.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1.0,\n      \"description\": \"New problem loads: 'Rachel earned $85.25...'\"\n    },\n    {\n      \"offset_seconds\": 370.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, yay, new problem. I'm sorry about that.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 374.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"It's okay.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 375.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, go ahead and read this one.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 377.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 8.0,\n      \"speaker_label\": \"student\",\n      \"text\": \"Rachel earned eighty-five point twenty-five for working six and one fourth hours. How much does Rachel earn per hour?\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 385.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so what are we gonna do?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 388.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Divide eighty-five point twenty-five by six point two five.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 392.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 395.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"input box\"\n    },\n    {\n      \"offset_seconds\": 395.5,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"1\"\n    },\n    {\n      \"offset_seconds\": 396.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"3\"\n    },\n    {\n      \"offset_seconds\": 397.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \".\"\n    },\n    {\n      \"offset_seconds\": 398.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"6\"\n    },\n    {\n      \"offset_seconds\": 399.0,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 0.1,\n      \"action\": \"type\",\n      \"text\": \"4\"\n    },\n    {\n      \"offset_seconds\": 400.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Did you use a calculator for that?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 402.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 403.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, perfect. Go ahead.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 405.0,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 0.2,\n      \"action\": \"click\",\n      \"target_desc\": \"blue play button\"\n    },\n    {\n      \"offset_seconds\": 407.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 421.0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0.5,\n      \"description\": \"Shared screen is closed or minimized; view returns to Zoom meeting placeholder screen with 'PLUS Personalized Learning' logo.\"\n    },\n    {\n      \"offset_seconds\": 425.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Everything still going okay?\",\n      \"speaker_name\": \"Paisley Crawford\"\n    },\n    {\n      \"offset_seconds\": 426.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 0.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Mykael\"\n    },\n    {\n      \"offset_seconds\": 427.0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1.0,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Awesome.\",\n      \"speaker_name\": \"Paisley Crawford\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "EoiLAQqEiwEBcsjafHOAAclkFqluqlgiNMYbQdJPz1bHOtyV-xfp5zppLzACqLSVwG_YIyK8WhO8WZQUFzz8q4eLaKhjaCgrNbeWAIKZn_MApJyGCrXzoepXvu35vEjLNURXFYi5gbMC9IJMAuxxlnbjZ9WGSEMwdWkppWGRVSqPR8FQalwrXDT1cjsGmMIG_BtmVqTt0IwOlkppPDCEcoy3jX0A2BzH4iQuNPA3qia9hqqJEnILQsGlZCWnuht3ncaUFQo0xfssY-NTtYHsVpM0QSDfVIyuOR2wqxsjMxiuioid4RCO-KKO8XmuimxyhtYYyoFjjjnP2Bk-SEB0EfqLxtpAI2Iz6tFFLy-HyuIzeTh6rkeGJVf9bQ8bRk_hIrOb9doXA86f_puLxqH891mc3iN9Uci7uqZgFT33_wnhsF8HhQmqVaHIWqGvaXS9HQ63XuzLrv2drmNSqhBp1w9EUC8XqQORLBDrrRJI_HnGLSVRWY2HWSlk8ZwD9s7zUEsLeDYclDhdFJGlB02SPJxwLaXyWcVCghVxvPdaoGdaCDGCZOrecuObnS48SwB4z0fHfMOCmvcBH38zeMfPGubBlJDYtKvHoCUNUjDA-CNc9RWqfvxKkkMLS1c5AXXHgHdSwyMtXqA1wNDXqmxECWJOWcPK-fAA6RBCbliAFAPu7T4-kIS-gjUabSiwwCtdwMMD76w2CebCrIJii-dirHTTNnRl9U_3KJOKrMu2-f9We6hViPxCZjPkCNlLQvrgKtrubIslWyW7xlsM9BhvOfLnZn5ZpJyo5O3QsLm8ETEftbxS6BrRP_i700YA9YgWOP6cv3keY--adcaz_S9dbkoc8SEtT7DMvc8yswo_4ADtx31C6qvERK4QI3L7C6IH9Lg44a404jVpr5_dBA7b5N5qaNkstAlritolAQbY09wlPJitrj8LvrKgSa6JzyHcayenOwWXmNtGTawgkhe1F-qoINVv_AWFFC1CXxrcnxbXjgw6AohUrOGR-ZF-FvzBPIPprUZok2OeL8yZgKCXupnQl_ESLy22w6Fl1Wrp2X4sStUiW5MOPV3XpGpuYwVdmsEll21T4rRnpIRJXGJmgGeoPvacOe2ShpRXarBpgVo_XJwFq76nKwUXx1m7AqvG2mWn3bioT3glPPbwCo6w7M0tjp8IAArVZSLbcyhu5SCRKuaRTizo37TJP0gGTp3bOUA8AEnK2o2u1SdVINIyU6-04S0hBug_lkyPXg7zDlolHq02jysPiEaFyueZvCcLGXsofaZa54jSza9xrOPuLfJS7KeOpeCDFZM1DonLqg1UpcFuIdjduZS3_cNMZSq0iSZEzxQuykhQPXxitvICgylxL7wjMbmPF_yfv3w6UnY_JX1Fx8SLNGSRMbOBAWJnO0Rrjf17i3ok0YFaFatEqAp7ThOqzW2a3YJgLahyMVQ-p2dSLiFKEW8TivrOK1_uGEfz_mmjsQzWlm7yvL7X9r7dg1ja--SlNeC7dJfVf5UQ6vVOPq2W_qbRaBGbp0SGx94yqjXfQn6elae6xAmmw-7CIPeniYyFs8RR0WaUnKfpkWBdBLhggnLX_pTcvb_aXcndUZvZyuSmywS1jn-qlq1Wmvmd8aO-H6h2vAPmpsRP5jOR3KE4c-JeRzJGkojzVPOphUUL5C7vcMJXmpxKHVnB5g1QieBUYxHMFy_z7WJY7Dqz7KCd802cuSJx7KLvCH-8xceH0zW5IMQO96le7YX0_EE42JxPDaZCQBIuP1cktwDPwvkXKOjBvCp6-Bt4nusxDwndTgA1vMFxfoNNFVF6wZtbL0n16l7hU1USqXCf1ava9jV2wNIPJSk-J7RBTkP6kAvaNZs6pP-El30M2eiQaZlYnpvATHGxQiEP6u6L0Z_99T9UgpY7V4m5sZCKazaK-kv2k9IRE3TbQ1z5Caq0giTk3ao3gtSGUX7pn9BWkNNnpoABC9MNfU5dogvbtnTQ1uwmdKBc2sH956RpysgyiBDo9GV0-CozDDvIzZz5RHG22ExmgObUrzUHzCQOj0VOzOTJdRZ5rMriZWPxMKvpJG3b5bP4d0llSpPPjgM6jIJCgZHAMJExi9lbbplwH0bGvPaA9Jl0SyCW9n2afUzpvEKWYCVNig7w6mYTGlhPhd5JJQjVVGUE5e-K1pooBuZQv0tWJClQnPql5UBjOL8iJSY6BQmn7vXg2LH5qbm6vyJr0ULbcXV6iQiVSb41i5Y1uFwfGzGAO6qfizcb0TS9x8OVNc1vgHo7ZT7PeDM5gsFHgQs5Y8i_Zt0uNxVYhVBbKZ_-U1vuldQdViOc2APvu2MwLNzIS06CmsmSChECT5tf2_OnLwlEsY8XmQOPSmpW7E4Fjx_S8D0lcqtZzDgv15_WJ4bGcbGy3ILwyCaXIYIKQzNO4VnhIFxjcAWJpbThSpUgLEYKOHaBgta7dShrENAyci8T0pd8DObJk_EDaf3eDfZnuu355SjKGivHJE_VsVRFRrJ78YvooxUH6_retSUjsV2_VlcnT02Q7h3PkQQntAL6j4zLa_yaHLW6wKT5_DuTfEyGJIZS6u9rTJZvpUwnaO_FOtpV77N_m5o-ty4GAt1it66iie7EEmstpQdOfJEU00mAuDXVSVsTgLS3jkonO-Gcxm9Yb6UHNxA4TPcEM5v-u_JWC-LcNBmUCCgFzm4d8yG2VbQ4aZ5gremblMiAhSUoMmmbqN7Ms0vnQ9bFhWX2l2Kq-gYMUJU8ooMlb38mHYqGUT-33tZXhUeevrgFezQH3pEJkcFDhMCYTdIqHBnbX493lSoCgxThcC_ZTrMkau0RZjrP0psq5gJh5RO_UEpWMzF11mCTLW7gUIdRKdvgCL-aXfqJI34ENrvp1rd305X61FBLJ17ElibZa7FXw8RrI3ugWxUM_zIX1hJW5ICxovMpE04XW9pn2I3EKOgGt44PqfNIetGIrjrfRriZrIDMTH3C6PlB5AvMUh2rDCYl-B7IDsI6E7r_qHOf6Mvm1LZDd6IJG6E8Ry_yD_e3avFTglo5GjsmdMk-rlVN6RIWhSsrr20SwSt0ECmkT16QyWHGjWQjCd7syTMYoNp1X679lF2ZR_uREYgzqz-Vctu7Hhj9RbhYfA2tFqEYAEaB7-vQj7ikQLC487DrQH_3gCs1JytFQsrHDATdu7MjEjwfah_cFJIPzI8Kg1RXltacdDMHKhhv0-IM4R5Tcdu52JDli7ba6DLLKCMQwChrjxP_4tVwZTYGakK1gQ_KiTocOqbz4YKOROyCSfV1TAE49B1ikNFZkW_dZWcyVRVjkWOG75LtM_Oyop0YNxg8DCCJM2-GHHbBeL0NOcQSYpuekHG_OxzbggiczH8ZBQfswFSZSIQlZD68V6tbCI1VV7HYZ4-h43qacwtS7fYZwcijARJ2E-QNFvIT2WqFjhm6tRydBr6ZvXGIveiQgyipliquvFXCvwdXSy2K6Gr-IzD-5t6Hl9WlXgbwph1j60HFSjdNbncGMfEqcL15wboGQV-GNQU-KdYDn5UIOxmT_5hGfpPBBECN0QEk6OSRVgE4X8mk1LpIfr2VHCkNMl4FwZ98Dm6urQpff53o2Mw8AcS3TZf3Cck9hbNqjFpUquoK-Ma-9Z65kO-gfbNpEkPVVYPJJtfz-NDWyOqMpHY9SqIsxw02Jxvqf64CxHUYQFMFC8jIwZIdoHF3fklqhSyrTSRxBPBBav6Nxfm7f068LN_gN80q-WuUPEJI7uBcSVp_TgVDF4fesgbGVy4IO1L_l8sH9FHSk6EhVRgPn8WXtyLe64oEu_AmMuGElmLQEbzUuI4sLekw5gBpR8k2g1WnP9ju8V0kdQEPJvqvicaKU0MCP5R1Ig2VBPKYGuslbPE1yNUSkzzl37PDsspO6Nd1RSaBi4BoX3wUv7IYnxq6sb4kBN0_k5duuQbYcbDgpq3J4mwjmwxl-5K91s2UatscuuJ5ni-adqHUYESs3uV_gd523EY_9C2YaFygCarhr8-HgfUYIkH8js1ocXHuvYVsFQ5mrKE1fGmCY4rPS8Yr1-49cMJXrXxyaX5vbi7xcszDLqrEer0Nz1ycQKX0fEfl2tF4x0lKCOoLue6zkSXhFyRGKINn2EvVGwZ00AVlOd82tuAM5pK-v09eAiq-y09EjQ-FcoRv0MmM1iNv7-iBCEHPiEav7IywJjgFtoAhwXh8KmHu265BM1K8Xg78P6FS531k40-73aWlrPFGjNnZYkHRv2MWwTWpbi_3_f2eeZrAazhREKVkS5MazKQbv5Mce3TJqMtx18NHUlyfSxDnmXLT9BvuUxs7YFKsXF-TWkaSNsiq4gTkhAyH7xL0NpPHJxE7FToYt06E8VVCgGXFYsxn5PuXpZXHgX3V7UAmN0pbeWNkVyKzT-j35YHYgODxNNZ04BRa175setfWNmD9vAYx8BCu1UnVopuox84-Y1knDZX-aHrtbCU2Ir-mmEwnoae5TtESMlPFy0Ko6TtxFBtZ81PIhCQzQheI8hZT8CyQbpvenHNWhFeDGAttu_YS_jBu3GqV0AIfl6bkCBXSALSfNX6WquqN9GBeuW-Q6OkowYQ_XoUJcF0GGjznOcgxCGdqJ-L5ymNfigBEipsrRZxtCYGq2i7KE7iqNf_73K1-GGH9ddxDyy31geJnDA9I3RCGUO5iCm2knYwQj10_R39Gnm8thCPpzPK-K1OQNT4L9whzwagaYXDFSXv3HcMphj9C5TF--uRyN0KytdFpMXoMlVcnwYZJQ4Ag3qKCR_un7squpBhlWgu1UGDfWL1jfVjvYupDpaPFy6wm2saETfP0kGVfNXGp__MQfzwkaHNw8kbulTWkhDReQF9kLFknuhNYFBFcl9nHOM-rMtMSPp4X9vpoghLcsQj_X9qbkK174CNZMMZHmOTHUkijMrmr_pZHolx1CoxrTd1KQKsxjRBRCEMWw7LjPlZpeagfxXUgwo2BwY8NbfpKhksB5wDzQofUWKv_4s7QnQSL4klBfUb1GU1X26-ToZKhH2DdgO0rfmW4IxnPZXvKGlWpEEvgwPPH7QqM8cHZCFvQ6vGNozZ3Xkh8X8GQXGVKIZlwkZWpvkZJrseLD9Rpiec0cEO6Kcc5R0WCXZzH33q8VA6ogkj18bCKCHVFsKFjSBcfOcRksunFQ7kduG_t5UYaMlVswkgPKH2Jk8pn67coXwbfnGy2XgNMMU_wVXPjDFqWkDtC5HydZLul7djDmJ6epJGtaFuxujmiT4-5GL2gt0NdYSrXyd_hs9dfW4WRSvAuKpwxHlThLvwe3KfyZdSY9YOy03y-MZBci4jdx-SZMmX9qt9k5FwKrz_uK038dFVfAVcIfmpqPuqnrK-n95NckDllLja_oO6gXheka_2IFZZzDUsHGf7OMmMBRyeZ1A7nkXOQOPP3ji3KhbvFNpagoDSUVmIHGisunHgnM83YtUMEToZ9b4Y41w8LA3gq1wbak3ewpvbsDGvxBkozrC83RZP9QggU2vz-9sXTgMBC_TUJF6KpMfIKgSNlkD77O_QCgc3CLGapVcGObeOZD2F5mRkgBxL_IQ8PuEFCX3wEqubuCTSgKluyvrCf-rVIOKcsU-xD5GHCnzL-hozZ8wJE6kjujP0gasDVpwigYH5neTO634uJtvnf9e8Jls2ZdUk-eANdh0TRGe0_i1VZS63Hwn1knqHdfW8_On5RRlQe7drmzCpksLr1VcUzUMLpgZKVn0XAbt2H-0vuy-49htDk7bLHKctZzSXrwZLq_l9-32CciNXIxf75zGE5J-mxzC_IJlc3X--y-aAUX9W0RzpOlDngKUHY-a3yWB3QrVPMJ-YAuXzhVgwh_1f_LgNDoArIwTv-DV9mWcEzt7noZNSSemPZTwl8YCNAPNerUTao0gZ9eb2XoMG964XINUom7DZWdnM8vMF7t5ENVvQC2k98dWdZbbvgpBfNlHUkF8Dg1BoZXKh1KfcRjp-03jwzZyEmlWLSmBbL5qGpH9K2kqw03lGCcQw-AH8pSQZKNo_j6y4K4QgwathT2BjQvsVHPr5xG7jrVBaFx1PoX50hQS2yRK2GTOuMpXB5TauOZRECvykTp46NzQOQCmqCNRj_pgqVhubeyGmJaVQsLVV_-IT-fUDcogebDMvMNr6xymkSm75OdcO2-L1J_L38W6VEwWt9SkrTvS5XlMdnHJgKqA9nwpS2Af5xlPktBEtxmnec0dGEDJksXW8NI2RkvRDmECg3bWf_D4YAuKZ2pACWXJOB4NeJHQb368SrRSptW-937H4tMCsbfTRjFmZ6IhzyFNh6bl2VH44sL6VqR88ruKJKoSHrszErnkob_-H-XQnBZk6Fmzubyqa9DPw39NDTECo8EqYP0Acc-qMvQXEcHfuOtfdSV07uUmCjihQhyEW1BHCkM02pnXDQ_9r-Kw8iLz6v78KrcppiVOG6uVPV4hrzvXskhJ-E-xVFFC06BhbiPaKFNvxCWnh-JpHxaaIkO7tlqRz_m4YcqRbZOqblWFmdo254wRbS4N9XdvPfU54BJvz9NHdXRbaZzYLXrMii3O2rnN__f4jxE-pEy5UsJ9AakT9uEOMBs1Jyhvj0Xo6EVUutcVxmeeRHHWh_1yTQ26UM2gyI6Gri5u78pqougwAwavkQPtJKDxI6bfuPSls3BV2ZzqHhjBjDmeAxJKRFNGQk-pK1NyEG_SV5YQ93nXGS7W6PnrRNkWNI5h556ZmHg8Oi1gvfO6w-3IY00o2XNLwgwkxyWJaTk3yKo1O3S0DMydkOz9zKzqEkOBSPRDbOsA3UV522EwBt-zes3wi2-W2tuZTTkCYyCOn1K4ULA5DVndPmu2uSWRa0qimRSmGIZnkz2uOjZjd6hBQ7wmnA0rk9Dt9PhfB34y2QkpZPgSa7FgceYM7c_j5F4WIAeZ0NUK51_mamORoIgEu0cspCzG3LoPSCtXchQau9LSd3fT0ot4bkiQmXtyANSRivnFYqLyFYEhnyiuRts8_siJh5hlnSgxKwcCdd730z0sKF8mUPz45EEMMIZlVf3emeuMe38taBmOfKoCPTj4pjFjLoBkmIvn-wOjgeQLc8OFAuCSuUdKSTBMyIvnuR_eXiSfv-RUHsN5WVzZSrJ8vYUEo0xLNb6Vc8R6Oebr61qK7X_ka_tjQJWx0qpYS6NNxjWfdpEY0a1S43QeN6AGjyOMQ-AuTx4FvWRAanJMnQ-K0SMn_WZg4Jt3Ni6Ta6GcDPvh0pZF2mOMNcZs9RP1etszZwDFq6DF6n6PpdO8etH9s2fpV9J5PRFlftitTvpEDFnkUcqec6LyR-5T7utdGXB9QKGSRsBJRQIEC9wXpOLOWELnL1O8hQjcsP9zTpYNFcdGzx6uLmcM9XfD4pxOZo5f2LqCcXEYXHta1A6xxHGMGJKhjhyL4fhE9Pzj5dKhvISc-get4nKpLHJrkDy1gQ0TP4-9QcQgDy157rTOB3wjKcS9bnWTgfdatXC1SABLYVLNqvSFzsvHS3H2Apu9U47bkBX2ySg9Wvr25qKf8TESLHZ1VnqEPLw0ql-PSUGNnQ1ZSz3j_nVpl9uphSLZG6Yoc-Mv_V8SNlo6-0Zc-zPf6q2KL-e87NAFFUxltnzb_sjXzkAFW4rgR-iMmj4iXaAvwyTYjKJ-y1Zp50LYlQ6Ky2-wQCQZPRu32a4nDGL7EiEX6gInjXOTVk5wNvN0RPT6-P1ea_iP8-17V6pRv1R0BOfwu6Baifd78zBoHeXAyO-r7Q167L_085VW99yf6oKeLOD4nxaKoECWJYAxIL6XoscMnrNZtgmrXsBxHqM7nIAwt2mGvaOpQi9BMpPm1yD9AE2AWIA-PZImybCbE_OR0KcHSxJsomUvLw_je9dLfhOOeECMlJ7rtiC8eh_uiI6ZZJ6L3o6jyHogzAQGN9OO-U1n_8SHVcys7_dq9kH46E2_BcNaRzwNWtKshiGqnuq0r4XRyQfLfJ6lAfvW6dmRJVQ9FyrNk2hQ4NIcXQKtFVa3sAmqFm-73T0jLzQfYmsKYb9hS9Q91NsWB2icsFnxC7420jP0r0t5dEfhPBgi2Tr2G4SiAbEQhdjB613yv80mQgukbzJl59K1bdfKzoR-f030LzsLCvaXGWJlCTRnV1s8imJPP_HVyKeYYkqavbiom18r9WZ1zhgtWZwZ7nZiA0Tp61oGJGM6_r2gLflzazv9dPWzebgS8tAidZHCrqGF4FDNDissyngHH2EcXywDmIjqIaiTXw0CDwNxh_4R_wycgjyn5mnrPZxDnOL60N3a8eimv0TsTTSB5B85b36hDjlRuRrZQlLbK3POT2vk6pEJJX9jLYnxV0lk19LmVfcdowV6-R-jjbsHIuUXY6-nYVaHj-BeuMazgK0pGMn33jh5yuJpUE_PMj2Tve9hkY1JeZy1xWXQo8YnJV_rEBMcO_R5h7R9zkk0YpCBJX7HiVyg9NAJA8XLq7xSCrrA5-PKvP5Jbb2lPpNnJE-2zBrN23jh8pS1RIHXj4LBqCJ1wwmHjH0qwV81pUblZfpZq4d89plrrWuVWrTcL_HRLk0q2lejWo1hDx1NrGHFoFoG0PH5eFdiVmPieGVHghCr1u7GjoFHqqwfng1xdrfCREimrPJCDBCFiBwW9KAKVa5dJZ0q7Q4ooPp4vEu-qecu7SFpV0YppLOcq-QGIEdOFNSufvfCVhGfQGIaLsYiAjrjkfaMoi3qcllXZIwn55QuF7A3QMlAkdOX1tRxrSDqtAewUYMUYT_gWtpoYm-pjo-zaURK784ZPWsHX8Eq-56jD6eKri8LzOhDMdkDhmUKYHUDBvumQFQvCG7ngBBS2x3xb6wdrCnXinsSaK7ri_een4Ji7IBMrEkh00rLBU3Uqj8wQ898iElkz4FLT3BvKH6-CxckT4EyjGuWOlu3TfXGuj6U8CejzqIMBIGojjAgbBRLH4XIi2l_SToTFsQT9gJFLzTVzXax6JuNDMyMUHezLNWzXHV-s4CzprzIiZuxSYMYM749ZvO7rbLU-RwDTXDhtYjTeKUEuam6ulyAF40QrfDWiisTRY77QDQZRUcze1-X2e56flFQc3lqip18Ep8wGkvMPG2j930u0cmDHBjvF9E0RuB8vbB10lruvn14SO2SnWCt7xkQJSwy01j-GZL7a-QrC2qawkiUBjVczn8XUv1oRY4zWrC2t4e3wTlJj0rfYnbgNadjqzNfVAa6NWd8iK2ZbSwdlDnug2CEXVGV5l-hB0uDwQkjL7swmBR5cLie6RNzXEZdJeaiuZd-_lQz_P__Kbx1jItgqw8QR61VpvwJXAgkyGEryOn5-X74l1cmajrL5bwEsXbrQZs_r2RMg61ZPgn4QC94z7hQ3x4R1KGRKUZ5m0tDC-aE4LIzdgEjf_3XKQApN6ChU2ZTF_LHaYH1O94Nu-haa_85bW6DkjUYJdQfGoY8zpUsuBWbhMtCWZcZ7H2NnKJsNYp40aBRpTl38uvlMsG6dGh6H_vCW_-Mh81gTH1Yga2d7SZyRQHYH7y5Qll3jkk5ITfsba4vKamcDvov3SJajECL56YL-FXe7AQfeqK2TLq7LYKOqdWrV3Upxomz0d5piZKWAtIM1QBns5QU4psIghfsVAsWDgE98sK-_-qKCz2TpK1g14jz454eUpaZCjtQlDTykC2IlbM-9FiM7QyIgh0ly-GNXrlUyeZ80F32In0OyQquxYaAxPdrDHYI1hh_4GGRkb-_SOQrQhbHEAi2fkqmsygswpHc-YdRb01kIzLredsdNEw7sPllmC1WrZIvwkQejgnODS-v25QnTrnmQ58aE2egl62ZXD1HZMk9NXJbbn_0AaKopHrmveqyShxlzIo3I8KxQqkQbKKmHaOxW7K9NwS4tMcg5s0T1sNLd7DGABNPpWDB_1bOCtobNHQlqp2WIzBYx0CmknBUOI-49XbmlLqVuBQM2S8fj_jyUfRhqSWu20VEaG1LrgoNIBFzWIMwbgUiEdr-ivehW8L7rH1PrsG7mBHyZZuDdk0yKU2S1HKyE7TUkN60mKbEDwymBWIO5B7xRQOZmXzFP_YQJva86U0sH0FK0PakMHDz-klXSVkeRJnvw1zEe9j2SuErAmCZnkWHAn1IaRHBIW_eWOZIcGb1rlyrwE-lV8zXVejUxXTJBlizgE_NIQEFOAyMPC3ILuLHcgxbei99LcGC0IN3uIEs8dqzhycAe7kttaOoAs7xGt4EE8MjRBvoWP9SM9ko24IaCDllZkUMSR37aJ1EWhPNqCRau9NNvlz70P5qOeT0dJTtf9BpTeb6PseQQOuKM1_NBDOcI_LWvDzV6xWpkp9H_vRsj3S-2416N0Df-_Koo5fqkdk3_49mPkIIMTSmDR1waAQpLFQeCGpMy9BiS594oYmJNin1LqXNgh1x7_-0f5vkemPbfnVba6DGXhxuIRTLRm9PzQ8MHcocr8rrwe4tfH3V9hkaBeXdIt9LkQ_WHHnuqmGolJv6FFCBa5JLErIMvQOhgN5Q2gZ402_IPQ3HKt0B7d7-teh9M2bZM4xIcmrTgVk9ZQXjVo6r9nHwMnxR7t6yer7PLJXyBLeDvn7qU2ticcWvzU5qT9geqgTL3LWQfhfPzGuI_7F4UAjsVdyq5-J1qlpicczq6ApIahP-SljyNEo9ZB5CvZYjHmdbNuDEeJa3eVTPWFscUfkgG3GL4ACXtXY_EMJP56ZNcGORLJWorp0uHonnqcUnq0WdNtI-EdI6uNxeQaUUvV5jqET-nIEqG2pIDID9hTxp-s6ANR-iAYAI5t0natKoGkBz7nr12_EBD6IjVv76Vq6zerUf969ReV4RmWfdxHKGAnTEISEY7KbIxDz9LACJmPcidBagooHNqlEBMpE1qcjm56Br_EaF38BaPmjmx-5Ov6meSRRdImLJmGlPes3ZQ5jMnc5HrdhBSUV09wbV2Paq3zAZ2Fqc1MkDNdPRu46Tq8DwfW3BfffaQWdvi7PpQXR8Zj9YX7RSPPbCGz9I6wG7J3GLyodZCd3rSWAwyfIGE7OmS3-M5KTf62vflPMkLnb_tFogVnv38MKuxm72bOVcEhM8nwo9a6LZ5vYiVi_PIxoFvNlr55iVi8q8bxgA0N5CmHql9JzkMSg_NSC80_M1YO5Sch-pm-owM9eJ4MM1Ii3UezOMARqC9gz4aiqrsw1PVq-ZoD4YH3PB-puZnwThd8-TI2DxHW-D1Qjj1ET8EB66MmvLIgIIZdxY2Ga1vaGs76UFhworCZ3p3Yxu9RSFnGJywhLUehU-XnCdNH5d5v03E0SKZhGbTGbFtmZ_cNh1IQ0SbZXYI8KcXiIMAXrpXzgNQNcloaKFFLeMqWAm1z6qBiPTSA5Y1Mr70YKaWyUQ6jQfWY9JnQz6i6ejLWyQkwNnfP2fDKJHyIhfa9AcNYhYwZXCI5VO0vS8sifipHwpVxovc8ICTCNVPoamZExCxV61N1G_uCmJgFyFGzHShJWkf8SdErau1Op1UdLHhE_5r7YgmxcnqsWNYygsvmdmXkG2DpWmMX37zrAcoxUc30pVknFtN_AUj4QCames2XUIUMdfYu4VdxFPw41DE7t0qG92mZ48yb1Kb0HH498wsSDIvr4Ze09kVRA8dvbGeN1LSxJaxQe88_ZfE-8r_IiIOCqQJLYxmC0egE6VHLZ8mtPpmnRoa40A3C9bBtt2oc5Hqpr0bsODdt59xrsa1YNU3Ztx_PGO2kBOaRxF8RsIvzq6EOU1X7viUakhLFlUDesCb65jsuISpwV13HDdz_FqKe_qxDRJqmjdcObSwMYSJ3i_xqu1_5_L5zwHVAaLUfnHsUrSojuGX8-BLZQCrodK_zVNrPCJiwdJ2wgTHwq0CMvOfv7syfOV4H3A2DH-zC-z0sf-JcEgZ07fYcCMEyQvYfnd_2zJ14cxAQm9Icq1yStKHaIAatVz8iMhymsZswTwIYVlC9JNgTn5tj5qId1vQesVWD0rBO_1mHSYWvbhFezcCtBVl2SzqFlojGd3L0kWaRT4i12_Vz2nqAMBFzB8JolYz7x4lgcVMvyqatDs9Ng4JZC0sBCqJv1cInSmne_rPduUkLmZZNA1ABkP6deCV-OWYIa9lwiBtOMZpepBg-qF8imVR2BtPwN85LK1M0DKCc0N0b24479mLB7Z18qJn8PIhO6k3wqmIHqwqCNcKrx61pAAUIdA9co9zD_hHD_N786tzsUhuykD7l5sGgApC5lRS9tLDbuVFdDS5MCJa0ad-ZCcq5ZJi4UlNow2wNuacSDDEetkHuw4S6LfEjmXWBm2tsfhpalV7vyuu3x2BgEFgfg13sf5vKclZofSi8b70IuVv9GDe9nWFttPpl85BsVFTmIvehZHE9Tfer3k4MUP9Vgj-OcYy_E5q5EdtY-oIqO5H35AfFVv-7JbkCghvzIfmcMHv_Fwr1BrOHa5emHDPnG3Sip1RdaxlDSVFoivboLNLrCK8K1wHYvnI_4FQFgFWBGOx89jDUh17yKNV6UE4eNXBYWQq13jokeAcyUtEsrE11xO4pw8pnbn_kj_zmGIp_Cjn8MZjugb36YuMo0PLSws-xjHBDeFPiAjD-W_d2nRlKzJGznRuVbtzSTowDtznVFrHG5yB_HHaDApRrjmwADBqr8_ESvkbYsy9W-FrXkXeV9IADyuSO_n7SrvvpSsnLkPKnqbpMLdUh_NXKgADcb1L9P2hDBlyx8V-NE-YpvhXAOEzMEJ0KGUeBO0-w8S9kqEwQStZ9_pqWHphrLFao93LSMAUtUA95XjRCqlx5HFRK7550UPVN8p3IkP3BaBJUuLVc2CIadzDdtj3OPwN2EZXImPDGDqLW4HlPM5DvROPnU-lxFcaUcYUMro1G8soAl6Y3y8dDfWS2_mANM4yxo1UL5rSFUjhswZPRfZbyjSfoCICFSf6ZpnedqnMPQ2WP9lsgtkzmsExqEXKvF7moyTbrpRDyn51ThZm98Buoxq8nfr3uAZMW4OhMp1PV7QNMuvV-1WR-IxpQCJyxrUA0uR62_161KykvHHjBmTPbbqTdu0JQ8c9KtuoTA9KODyDw3x8n5ofbnN7_olTttEDSJnhGbGkhmU0mDp5telMC14baSQVoj26s2zQrVWs0y65QuglU8RCYw2K-AQk38s3KBLGbKom_TyFsUKYFiSqQL2a1btrnQPLBLGnT3m_XF7N4U3PzbqFbQ8Q3gNu4z_Q940ZBtPF0iyqz2-mT1OMqr2eTGwZIG08RFcuctVNnXiNs3aYur2dK7JmhsWn6KGut3dT8rDSpmztJ48UMD6ibaJPbW0L7wq8tmZhA2i47afbB1lbr9fMpL5VuLOHe7IzrG08iZbnsnEMHElo5nejP8PR2J15nXprf8NVuyDSPH34APDWxENjkRwF5ZsJUFFq_8Ob1a1mG8TC1aC32eCixboJ3oHSa5NuDwVT2l4Jy2Y3--l0K79zsdsbhi065lwx36KmYKDCMAEMdRDX9vEgiMtn-6S08XEWcYlyCTaA7W8kK2hBDLvGBSmZnaKSJIlodT18gJPbZuGh2bCZ6wTcSSyqZ-q8BcA4ZEjggF_mJx3cBKMuGJ4xqY5ceaZs9Y-0R8iNBfitToufoo3GgQe7HH_pMs2ZGvRyydXQ6TpS11UFkFGbIULfPTUx-K7P9OXxgEpGDbBIDBjYYMG6Rkc3Ktzad3ECeK77vuecqws1hEschAVrvIHjSFD-LtB8d8T1s04Gu4rUuqX2Nv5CzPTfSRsLzb5ImX7NYrnXgp4AC-OjNJ80MQlhleE6Cgfy2ebJZ9ETjgKwvo_kFtR1w_Wtq-BI_5cNl4XX-7cttvOtf-hCcznuRGJsGzl_VySdprE6SmQPup8jagPq0iqCrNyyQV21l4eg7v3eNE0Ekfai8IBINjVPvYm28Vw5sXMHtIW-Yz5sZobTHEpPc8BqWkMH1un9g6G2yb-KSxpIzXlaohSbFiJFKJ1MVxQXF-yv-RNCf95sLMrjjDYCy4S8jqolMLsukFDVgpInCuGMQLbT6W9n0ZvTSV-drMjmw9claGBrpdhgIybh1P60zRd4TpCVzdwhTPo5pVY0dK4-pZlwoIlAIuqTQpQrdH9xzA_O3k0fe6Pfvphm0MpcCe_X2dkQ16TeKpK_RLuQd3LwIqMdzNqk4Pbe3sSdaLFpMelA9jpylya-Eq-fp6I2O6P4pVynflLorSDDIkcydRfWIo9xXoCprCOrOU5oih7Pw5DkJaIglF4YjAuv-HCPR7dc2UyqzmAq0mi4ix85qyckibWNPEoFn1Xw_VC52783IqUk0vlYluceVlHE0vchkLK1SFY7rWOPCp49a_Dk3RBspaqbWY6XyIDZC1hmjA0pYVYthtRdgRVxo-XwsRn9_tb4RrFr05hchWuy-zUYXRc5AEcCmKUF4ycWfkFWdETEb9xke31o7UpFHCQJTgpk3YPkv0wsJhZ2OGonlpS3HVaqyyBPCFubW39FOTw6xUbfPNWx8BfCOc4nVTbIvEa4pkeHZLENEm72tzRv9JBuak5FHz16h1U4wX7hDLAXqp_-BKBRVHu29X4V95lwxnrVk0NTodXRF9IXZ2vHNavz1f-dhjthtSTLtRSn4gp-rAB8auaLOWjbB7NwuCu5PR6UM8GDkM8yEPs_pJGzNnoLfOlyCr_R4s2Kcl0YGjgmK68CVPMSBa5Jm8nW5_3cYAzOREOzKBWsRntEWojbl2T9MHASYqiFsAv9fz4q4P6t4m3XiJwxvSDWNH3rThWv_YFpotPH4j2Kh7OBV8MlLPH8RMCnHwzBESPGVcvsXHIFaQjkzI1PY1XOq2cX8N-TO50pFo1ASqXtRoF-0lfMmbzuoKglBXY_Qpm7oblV4y5mgjHw0o-7XsN_88qaC1FLDaLEy_E1FB1QnQuWEu99-hf-hzFpyckumK0-rKEFpQ5RMnbZfcjQDliGWsOfAEsr9HVibp7wybfXTlt_ktp6rONuxfjgieN2bVCV_cssZKi984ME1wID8JLI0pw_Vj98avQAyL9gy0rUUqqwWU4x19UVW1uTc7xdAgXlHgpldR5Qu6q5HZ2CcGnc6-JABEvE5d0U0Y3iobYgKACArSRFDMfopvMAkpROMvylL8Dkl6LYy-irx6GUS936Sd7LcA4D73LdayV7i6gh7qc9t4N8i0q49mdnsPX8go5W0pEWXxKS3-AUyLftWJmK0p3XvQt1M0OVOkSlPzH0kzC-SHv3LEZIW6TwVdqLJt2NCQj40Yf8-LrbH1cW2NFC-CI-zUpwg25P1iP65NV9y4Nk0LJbKzWPQ6SJqSWM0YmuR6amAumR1DgO2ahI3FNlzaHq49r7tcRR30-vo3kMJjHAchqwRVmlq4ItzVYkOgNg6gORcJCd_2o-Hszcru9x7o04i8e-XsIguY8K6MZ3SEoE454j7u3vJJrv7SwZZVy29nFnIjdDfadAlDdTn3CkFtkdEWLiQhjjDpqziJjHra51mIBlRAA5Pp5muWtKdgq1llXJfHskCvkoEd6UbdDqp3OvMJh-L9TniXTYUmQIn-X9e92YY6JBGmFtmZQZB7eUh3X9AAld3h0q1wHlUG_cvWcah4tqmd3uQ5kZTfF1GXZP06iCMGeLa83rWcWJ1mpXZFKN784s-5bUoiKK0IFAWG5qHC-znkGY-j-ZjWRI18gA9SMgBj2Ei4w1HyFfcUi6iuSm-6TXaOvhKhJMx_-F7mOM0ZPNEb9DSLB3lE9mpszHMASV3V3pEgoCNw3KBSBGxwX6vufvFSvZMhw89e0mL-JvRlLRUjhb_tW4xz7MX54PYY53rhhxk-qZl5DF8lHuE-K_PyXuQO5TPLDDwdX7xIp3KD4Y6c1UMCmpApO5dv_Hk9y6V07Y29qGkyfm3gt7wC84T4AqZm2YDC6-4B78xxpCCaBSoSETGH4nPBUsntALAvnKDJjhABieKhpiP2DHvMsFZ-fKCSHD3cAowiki4MtfYX9SJv7z5n-rj7g3bLbfI63XkLgLmYwoenRS02l9H68KhjZtCwuBZ3Kj4ruHdY4RrKCPww-gVBOFzrkuuBYO-7tJaMfohk3KNmxT7o8ftM23wV_kwDNkf_vzm_x7KVZ7DqFa-lFTOuJgFBfV6xa9wf_R0gA4rwwOPHTA3n06OPNVh7WEMii08QbrzKKhYME9EkM2OJgV173E3xm02lfcd3XcCdPRmPr-5fRzgRdpDEly0WjKFNX8zH-ka9W2Z9t8PlV_WbODZf9h2yr-gAJDTW7Nqt-1y5Y_VhdfFs2jvoqVZQX6fLmcxZ2T0-H_ECs03bEzLlkYyaTu03sobcSJAp4nM2CdbP31dWyh7Ed2beFEaJTLurCim6bANxkmaGhDGhVyk5vZMJZMQQF65rLUtQV2jdfD1WFl5g3rtffqlnCOKMLCxwpVns3stRZ2nuhUDoGP5Af55RAve84GAHRGwYjGsYFhiFj2dUDqlWKHahAr2V8NEyroZlzqqX9Ky0REQ3XaDqmzQL3rhpQHjGgKdD5e7x_sA6TIG0hyBaO_0rqEtfMi785VqINqGy0jBgDH6655ioo0bEVMCQhJnczezzZKRJbrkXmebRg49xxoskgMmKhLpLXgtMxD8_uIyqT0ZeCTydiUgwLO_uvDB_9uW7AP6IDNRzOZn8L_FjkXiGojE0ZG8U5u6svoyR4dFWH2TVibO2utOPMidJ11YRv-M0Kw97G9DJ1xQeclsGshQUq9qryaPmfF2rN6K7cs8qPoAz9f4l3KMxKZjLuiiDL4i5p2ggOsCvBeUd-4qvti1eqmoDTXdySaYULCWBYstURtS6ZMEO0oOAXSJ3khTQIOp7gHPzZWx-d-5YTeO5jXvVfD-Pt0jddY-0miisgFXkfy-wzsZqckVehHP_tSxkjBbW5S83oK6TWZaHKf00mmkFBGw8CaId-xguwPcnMtF9Wwllq2qasP5ouODLwq8Gy-6xpLZbRtSC7c2CKuZwDzUUVo3KNDXkW3DvbB-2_5FglJQUU-pGoRys38GLMf02V_KL_zRfGFMonVgoD7ybnuacVjw5AnAsFsRiIBZvJQAYlIudSp9-up4o9h-XpCws8LDB4yX_Xy5H1wqfWnxM8MQWpbVoOHE3zXBu-P7cm3OTrlWbVGnP16Ewl1mEyJ0ASleo1MUR6g31qLbbUHUTg_Kz1z5hY_joO65BOWRx86sYmpdHCbdP7f3qdyRG-hByA9T-WDgWp8DryMUrxiPxFTWUO0Rt3rTrCbo5AfiJ1ifH1T4VnN84I8Oo5Ci5IO_fMvhxxvyfBjbAqRln9Y9-jzUBklSiaWWOzXSH_Idw44m5u0bdGrQVqRP7Dkz6jXT08oMf38iXJwj1Z8C2s6BT92iCLxzL8e24ruPvEjJRXgjIV9KyPGUl58ILlv4UDPx65YG0JbZOVNeinyVt3AbTMPYOl_UQN5_oxeSsMbhAGRgqDGBDuZgs529zh-Gx7atjLz322IPWKXv-312TyoFvHJpvPqwhvyLMue9fskXOFuFjEuUgBCrrJMK3x62x_BaajLdhcLa0VJY7SwuurRE4aJSQ3GEQSJ5ZOSu_e8e0ElM7DbK8r-G162rW8P79iJ-RXXLNBHJgKK8oZtJ3JVCkXHxyzksSvdaIVqxcVdCRIgToa7n-kpasiS2DxiKhy1imgLIAB5gnU1B59qHTZwortvNXA6a4qMNTIAGL7s7X3co1gFYmA1pEe80TJVNy79nZCYRmIchLu7yi0ORPAgYVX3_XXJF25ZQu9tDwCmW2FYUdpbRbiBReN0VJ3e4pcCbMXRSHDzCduK0L1_-KhBbfLe4dvlCV0r-8cHe8g_eOObngW1fuEI7B7VFqzTgwvEozoGWohDhHkwZ5PruMPGGf448r_0jm17M4NuqfKXEwyccB22rUCRemxDOrorLncQJJDAukYl0wD86Zyf6HTGfuouDLiybIbEfOovura-a9xddhTODoMC37LKJEbeHlRReP0PoRdgniuBxGihMB2uKp5TAsQzKYkepJQzBaJmrKubkIJBl_JicZINi3yGYk-LQE_TWndZG2Zeeo3h-IDl4U-FKrzvyYq1F93Pr2LNZ786zcoeF8z7MACA49bpB480kX1muhY2NfjOkAMT-4Ywjy9h-K74RieQdP3hsQIhr_wI6VPmOtWg-T3P8uCpFpjGwV3QYfOSdjQgS5a_lAe4nTi1pv_emvzDq22bL7mQE2eSjfke2XeoQYvtvYMkuMXvsEXS0BR7javWFA9ZBivPyQMHsE2Y57XxUQ4YLOwVgKEZ6Wxv2qtMca8wblj21d9qqnTLMoJXdgFIasZs4vLsfN7n0LAbq0EkLvOO7n4yEYsyMch6FZgltXeSwXSaWTqZzZYVDNvjllx6L6v9g1hH_Dlzu4jBhzNrHlAmXjfZ6nL_oz-ECOKHq2Obo8r-ERvJ1O8Edpw6PIi3fAY4TQTOBSHnyRN9yzzG4tfB_i8rdXC2IQBirlXjIwkyugWFJgMZ6LHxbMv9lntMhhWc1x6EJowvBohLb3lSAfzFzgSLN7Z0qQoaSpddfYWjyAzoFzsrJuu74faTg8d2biTIbhW4CtaSP8BSPp1wITl8zbHB1oPSEEQrmesN4cyn1ehEW-RIJlscDZPTok7IbKCY_-oXZAuKsPcAl8wWKM4EiIGX6T8vAgAycYODMRRbQpyJI90--dGlZ51eZXFN7aU1etHLU1AlJaPJ--e1Ns9Whn02oZIvykqbFiMwo14kDqOM97wS5CLt033GYG7H1o38DQw1rr1dBmcRACzQVgkO-Y919a5KQ65LeZ9QNa4Ocs5k4J7ryqOq2xYbGxqlJ_am6BHIG__Y2JYB2cC9OWt1teEQokqq61liG3lHH4kUEDwyxk6H7EoF6LhDs3GMnUqsDgvxXNOfL6qjT7B5vQAUWF-nuF_t6YBpvQml_j6jGFBtSuc4dCe_WpTW-Ay4mzk23Hr3nTebInJm0n8tBbiJSsXpJhjuolnkse01PmCtoGrFbVRpBQ_a10NsGyU6HjeK_JmRb_0Oi699Md_dN6Z-yy6UiypXnC3MZej1FLJpYCnEYSbtoBa4x84K9c1y4SDxNOOs1H8RP4WJrHqNB1RkXxgqg_ephNetWrl9BYZlGhSNP1jcPfpnEkJuG8OLn_VOI-xeRszru_LSfraiZiWYExbrPbWzV4-_vF_jTGKIDqQ5VID_Nrod7mE8BoKDB_R_kO03UFbdAZKIK8Jc1WSF9RDNzKlNBuEYFT8wsvWod38-QYtX2mSq2YGTgyEs8lsyNWlowbuY-u_-187n40V6WLjN4j5D2bXu9CyUJxsqDPGpicSQLrozfSskVsPBPwHQSfnAlN052qTDOOOpbYdYhIdPPMIshU_VEwW6QHkOybuMHglbKy2oDde772wWwfjA-_4wS9q3DAjL700cItgOdZZyuwuJaP-ixOBM1sb1oDVXNIxGhUteq_b_iyADfk17B_r4u356mjkZRnYXP3jq1G44ifrYujF0leUncpJFmpx0eUks59vodCqb4ZqgnGtKxiFVncNXs_ORB18n8hpTZ-7Ocj4RT-MMoVhhT_5fa-PTulGCc9Uy_3BvaKZtW_ljk7gJNTIsv-L880TnNM-EMMt2swXIXmDzPOKD_EPFsuvDLfatrTcA-itY2XTqYukEw6__a2eqjMJbBc7veQUE2TXKSRSGY9grsGUkhMLKFyBvjVAt3-2S-zmzgSIytq1WWqiylLgoVidd2FLqna7H3ofI8XBpDy2jlzq9ImZETVD7mriLgpkARAd3-1EtfTvPqn2NZtMPbku45uutdlkGSEJ0J6JKCYelwJX0VI3eNY-0W9UHR5g3zMaG9F5fJwiEx0CNBdSdtidlryp2sj213YVkMXNZkjhI5bhrmlGHWPdwI30lTri2ESHXXrPIjb9HRJC9LoEtDFYPUuXmZyYoqq8sYwFiiYJAixVmjIynAZNvYlY4IbqPA47jBHg8HNU6xg83GKcbkL3-68ZB_5JLXmcgQcwfr4FPQaMkO-96u7T6yxIayJ99dIRfIH-KTWmTOEV76JrcyjbPSQg88E_T-MF6eUhTngm4e5jSnbAbOvsNg4FhICcdFm0RmdvlbECZvlqyigy4I_2d6NEOyaZM7N9EQ8rlZ10E07u8N4HvkZ6YSctAAyM8vnyDmmsbB7qEuDPIGFfX1aXu6AoCQ0MGUmK_wJhxo4e_FGBMY8Z2NpFacY8FV7qaotm2-IHgPCGCF_lvPaYBxPfAhgEKSiVqC9IOdP8MSI5mj47eLTyMHV-wlpyu3SBNxRvojf00011-twBNsoD3XNZ5rT8pv388cUw_h-SRptHASh9yn6tj2bfSYO-wDDgFrNwdWit7BCEYi1EEOJUfVbP_mCPiTdtaPbCSu0fbXLI3nhrmi_wdHptgvs-m9-RTobHu7h1d_VofHo2oL-oEzlYmzWf1MpDzWJ64FwgNK_ZlH9sfZPAU6EYa5VpbOZwa2qmoREPofKzueKEOm4_OO7nRKRaKJTuBNcAquubHbHPRm0vgBRV_4BjB2KIopTWr7uK_czmn-FyWDXiIBCFULAYV6RMztJuzWAVvTxWoUMF-LJ1a27dZhvs78l0IBwqpsgtKrV-YDUf-eEs40hGKuRWDhRIiDOXj2IF2eEDZczTQygFjfeT5kFeRrTooiW65d973awJWj0dD2fbXbsU9QE8Qu7ICD9R74drb7HSiLoQryKH-I8UhTW--wImj1z5FrwV-CDESrIO_AVRlLJB888LUo7CUaIR4nGEsfcsp0Gi1EqV3e_TwcPcTx-DoxaOCps2zrWTM_xTsmwrFWpQEqsrlwGzqIEpn0xycGeieN4AhxcWew8dAU7RrsdcKO2lUNm-hJEzAexSv9oUtVmTFaPg0Bt50ihIVyLkDDib3SklYtGth8-v0UylborMB2Lmr2fUJ0Xv69ZNn_5Jlhu3i5WZyKizMgi4SIrbBt-KoM9rBZ8RWzmXcDnOARCpruNQ8S9_HRY2hwiMYap4OoVEW7rwRt20jBHUiH1exyKGKPTOE81yC3odBjb4OhPlONw44CbJ6plRrkUOtFPQ9niUSJPiw6MZXv9U9kIVJ-va1XI6k022hGm9lVhsZ_szltA2YficP9HMFXAq7Yr4KUPfhUAweYrDgOgm9Et5KF1mggFm7U_360xcGOWS5rdZ_RpaftuobfTUldYhj3Ov-dEBh8-8BGfVG3XmsLnC0lynY8XUXw9kyShiCGue0_dV2ql8BDC6n-37EGcZixSP3M3HTYj0vYw1FCFI2hahBO7_3P2iuCJCM9dx3zTx4IOcmmzfeSCcBuW9h9QIeBYm8903UF-Af8r28lY7PmmpPTuRsYsqYAfp5XILa2Yq20aGdi4QJSw11SHA6zQlZYNtSVaxB8qpdaimyriG_p0sNFo-78pPkGNFNNxnSAN7_S1ciIhpLL0n-0wpK6itfHU2IKfTC_-gK5LUyI91nBTy3acoqVcT_34p2m2bOQA8JaPRyRtCgQemCEI3NteXwit7-HD5Un3bCEppBsSC7kq9oXRNfbLyilX9bF8toziE5QuEFB4INE-ERpqBWgz_WmZpnmbYj7Z8lehDzfAGg8Y0Hl00mjZRLkXVlUIZLg96yOe15e46EzPEhz8XDlCtjVEl_H0eZlAJ-XgIX7Si_RYBDtDcjejTWSSycjr1X0NeTuXzPVQJtR-I0pjHbPf1DPmQJo09nwWMaY40fGO2nLTLIHVyL_GQGq-CffkmXZl9aKKfZXLNKoLWuY_ZPJ0OFEHSoWBrrvvFMoFa193fTr4QB7oM1rgjyOULAEnmb4kB4g6yqzRIWobk1R3ccq1kHztKOhMzOhdJxi_6DewvauRW7K9qfp9ZEUYe2ZCUDrNR7bWEpPrdA1lV6R2TtRC8c9ElZPrjS3E3TnYuMWlyTDUvrW3PSRhN50VienP-Ms0Q9fWasLe_g-MPtofkvLDS_iXRhSsBU1HKlFiiFRCSO-ysdioXF_WsxGwcKEKoaQQhnUuE9icGDq2WeyBesm5FZ2RYuQ8Rzig-n5ICG8d5jdxw6SV0U0aR0NTd-m_D2Q2e-ASWTob9w5mEuCQk0Hq_lln6-WNIFpyzszPj_usLJ4N4E74h3rJWRyOfGXy5fa_X0c2Ow1vJ9clH4FWV7QMbznD3gJ6OwwFjYvG0PjxfVNx7Ga_Cp1g6L8zTBi7QHKNpQ97HHwNYkl_MlI-Na95W3HnbzdWMchwDoYnbKMCdifoTo1bQh-PkFH7bZYzruwgR0EEpKarCKqNbhznk2ywFt9VSsFDdrpkf-u0q0SgVohHvIuRH-iEyS65kh5ymGR2ZRvJFkZ28LtCP91HqmTPhPN0l6Qr1ViKk8DetXRbgyjDt4eGhtP1-FMCUstmU53asPDNxhgszJFTLTyjG_xHWqytVjcF5kp3GdOHEjuM6P0Dojb0Hg9gnAGHoxgXXZtt6Yk6jdyWPZCQXA0SJaA7rraUp1MWze2hckDqfisvg_QQ-b5EdQfhCMCHtyMNywYC4T3sA1Q-deQW8F_hI5aR-XCP3CwAgKgjSjOguFS1mMwh4qeprLFPwWYS73qoOUTK1aPoFhVm2Dj3E-WzDW6l7j6kNBpwwfY5390Fadn1a63-ldkGTDtRcMa_vaZHqHK0wIZ6jOZNf7H52L8lvOu4PxR1h1ScmWqqpkVgsTMD83W7J4_T7FRA-G4_VW7tsn0qasuheGOcf-t6lEej0QbdCNeAozisaqJ01PQAr6M4FvrlkCxdOOB2w8x9DUwnVBZoRL82K5ftOOrXo_NGwVfMQrAb26yuA2K3ZxElYzBqNv0URP1w_CECBvcIo3eRbgxXNG7noayi61frY0-uKIf57xq-3nvIVjgscgfMwJ-oOrHuXqqs_SSdtpi1plpVImPbajRTvK1OrdrSeq5mfKpRaPEwIgi6K9pcxIPLGLNgr8BCQuA9WkIQ9kldE4Fk6FmwscOiw5BHbFrBWEPrhF4nUEwEJKSdc2jlHSdb-L1eOsU5aWFVlyzbNpD7wAn7SD3iJ5GFoSM5UaNRSxAZPiOd8XeYtgEnSxAP5MxiYN1r5UnUMJy78MqYCZHe_ZC26yChv3yIpQT2m0ET8jDcygK7AjTn3Wchtn2huUvzpBV7hemcssXZDWSCj-Opp6Pslf5C_suKwFNBjUrG8bK3iZfuSQqsC_ycYQT0awD8ufg0VG0gtZS1WEx3jzsVPS2B7fSOgaLrYgvJSMqOa50hyQwHlTWcqVY5hUMY7oSnDJLZN7-Q-3FTjlUPBKx3YRFpk9_RH4PMmJsko6C3FxfW7UgUpdQT8qGve5gxFDF1l82aUAiRad_VRG-wj_g73LbIQE0n7nj3lx8dwtPTKx58BJ1JdOAxszZDraRfG1vne0lXdGV2fFdseKDxUy2weB3pIN_7HyhzI4qbB8wt0krniV9qlALxnrT8mxjFrR3Cs4xZ0qoDgxi4QFQoOZDBYVTiggNge812O-Wfg4PNClzRx1aw4KUPODXPXVu32YM_fuO7naOYGvl0d_tZvDk9nw2H18JHwcLbM97JOz1Dj-RSbrpdOWIx-Y1vRWTDwWA5vqaJy6xw50Flbv_7U4g7tqhNB4i9_7wdaEAdOkR6y2nIx2GZEaigGHtxfQ-6NiCKqcQEH22RkmhPB9e0ydQYj79KAfG9JdQ1lKZsDzBfB8X2YWFFkzmrTcsD1eoW00IHRGNhOBwIX9aBfaR9K2XnEjBzCLKhnpxRjbNG54=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "VLhqae2DJPmKqtsPzeGRGA",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 11926,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 129223,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 128896
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 327
+        }
+      ],
+      "thoughts_token_count": 6028,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 147177,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "MobyMax math interface is displayed with a word problem.",
+          "details": "Problem visible: 'Lexie earned $64.38...'"
+        },
+        {
+          "offset_seconds": 2.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.8,
+          "speaker_label": "tutor",
+          "text": "Go ahead.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 4.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6.8,
+          "speaker_label": "student",
+          "text": "Lexie earned sixty-four point thirty-eight for working from eight AM to four fifteen PM.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 13.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8.5,
+          "speaker_label": "student",
+          "text": "Within that time she took a one hour lunch break for which she did not get paid. How much does Lexie earn per hour?",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 23.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.8,
+          "speaker_label": "tutor",
+          "text": "Okay, so first we have to figure out how many hours she worked.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 29.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.5,
+          "speaker_label": "tutor",
+          "text": "So from eight to four fifteen is how many hours?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 35.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.2,
+          "speaker_label": "student",
+          "text": "Um...",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 37.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "So from eight to twelve is four hours.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 41.2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 42.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "And then from twelve to four fifteen is another four hours and fifteen minutes.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 48.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "So eight hours and fifteen minutes.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 50.8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Yeah, minus the one hour lunch break.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 54.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "Seven hours and fifteen minutes.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 56.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.8,
+          "speaker_label": "tutor",
+          "text": "Perfect. And fifteen minutes is what as a decimal?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 61.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "student",
+          "text": "Um, point one five?",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 64.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Think of it like a quarter. Like a quarter of an hour.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 68.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "student",
+          "text": "Oh, point two five.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 70.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "Perfect. So you're gonna divide sixty-four point thirty-eight by seven point two five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 77.0,
+          "event_type": "mouse",
+          "duration_seconds": 1.0,
+          "action": "move",
+          "target_desc": "input box",
+          "x": 240,
+          "y": 420
+        },
+        {
+          "offset_seconds": 77.8,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "input box",
+          "details": "Student clicks the text input box to answer the problem."
+        },
+        {
+          "offset_seconds": 78.5,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "8"
+        },
+        {
+          "offset_seconds": 78.9,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "."
+        },
+        {
+          "offset_seconds": 79.1,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "8"
+        },
+        {
+          "offset_seconds": 79.3,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "8"
+        },
+        {
+          "offset_seconds": 80.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "blue play button",
+          "details": "Student submits the answer."
+        },
+        {
+          "offset_seconds": 81.5,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Page transitions to the next problem.",
+          "details": "Problem: Identify proportional relationships."
+        },
+        {
+          "offset_seconds": 83.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Okay, so forty over eight reduces to what?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 88.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Five.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 89.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.5,
+          "speaker_label": "tutor",
+          "text": "Five. So which of those also reduces to five? There might be multiple answers.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 107.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student clicks checkbox for 120/36."
+        },
+        {
+          "offset_seconds": 108.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student unchecks checkbox for 120/36."
+        },
+        {
+          "offset_seconds": 108.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "student",
+          "text": "Twenty divided by four is five.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 110.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 20/4",
+          "details": "Student checks 20/4."
+        },
+        {
+          "offset_seconds": 111.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "tutor",
+          "text": "Mhm.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 112.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "student",
+          "text": "One hundred twenty divided by twenty-four...",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 116.0,
+          "event_type": "inactivity",
+          "duration_seconds": 6.0,
+          "description": "Student pauses to calculate mentally."
+        },
+        {
+          "offset_seconds": 122.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Student checks 120/24."
+        },
+        {
+          "offset_seconds": 124.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "student",
+          "text": "And ten divided by five is two.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 126.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "tutor",
+          "text": "Yep.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 133.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5",
+          "details": "Student checks 10/5."
+        },
+        {
+          "offset_seconds": 135.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "Student clicks the blue arrow button labeled 'more'."
+        },
+        {
+          "offset_seconds": 136.0,
+          "event_type": "system",
+          "duration_seconds": 2.0,
+          "description": "Notification appears: 'Try Again for Partial Credit!' with a yellow warning icon."
+        },
+        {
+          "offset_seconds": 138.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "So ten divided by five is two, so that one's not it.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 142.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5",
+          "details": "Student unchecks 10/5."
+        },
+        {
+          "offset_seconds": 144.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "Student clicks Next."
+        },
+        {
+          "offset_seconds": 145.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification reappears."
+        },
+        {
+          "offset_seconds": 146.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Wait, so forty divided by eight is five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 149.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 150.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Twenty divided by four is five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 152.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 153.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "One hundred twenty divided by twenty-four...",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 156.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "Is five.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 158.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Is five. Um...",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 170.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Try unchecking the middle one. Maybe I'm doing my math wrong.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 173.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Student unchecks 120/24."
+        },
+        {
+          "offset_seconds": 174.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 175.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 176.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, click that one again.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 178.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Student checks 120/24."
+        },
+        {
+          "offset_seconds": 180.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Maybe one twenty over thirty six?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 182.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student checks 120/36."
+        },
+        {
+          "offset_seconds": 184.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 184.5,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 186.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Okay, unclick that one.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 188.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student unchecks 120/36."
+        },
+        {
+          "offset_seconds": 190.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Okay, so scrolling down...",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 191.5,
+          "event_type": "page_scroll",
+          "duration_seconds": 0.5,
+          "target_desc": "page",
+          "direction": "down",
+          "details": "Student attempts to scroll, but page is at bottom."
+        },
+        {
+          "offset_seconds": 193.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Oh, there's no more options.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 199.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5.0,
+          "speaker_label": "tutor",
+          "text": "Can you click on the speaker on the one twenty over thirty six? Does it read it differently?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 202.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "speaker icon",
+          "details": "Next to 120/36."
+        },
+        {
+          "offset_seconds": 203.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "background",
+          "text": "One twenty thirty-sixths.",
+          "speaker_name": "MobyMax Audio"
+        },
+        {
+          "offset_seconds": 206.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.5,
+          "speaker_label": "tutor",
+          "text": "Okay. Um... try unclicking the first one you have clicked. The twenty over four.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 212.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 20/4",
+          "details": "Student unchecks 20/4."
+        },
+        {
+          "offset_seconds": 214.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 214.5,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 216.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Okay, click that one again. (Laughs).",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 218.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 20/4",
+          "details": "Student checks 20/4."
+        },
+        {
+          "offset_seconds": 221.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "This is weird. Um...",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 225.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Try clicking the last one again. Ten over five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 229.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5",
+          "details": "Student checks 10/5."
+        },
+        {
+          "offset_seconds": 230.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 231.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 233.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5",
+          "details": "Student unchecks 10/5."
+        },
+        {
+          "offset_seconds": 235.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.5,
+          "speaker_label": "tutor",
+          "text": "Try clicking... unclicking the middle one and clicking the top one. One twenty over thirty six.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 239.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Student unchecks 120/24."
+        },
+        {
+          "offset_seconds": 240.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student checks 120/36."
+        },
+        {
+          "offset_seconds": 241.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 242.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 245.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, unclick the top one.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 247.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Student unchecks 120/36."
+        },
+        {
+          "offset_seconds": 248.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Click the middle one again.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 249.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Student checks 120/24."
+        },
+        {
+          "offset_seconds": 251.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "I'm gonna look this up really fast. I don't know why it's doing that.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 255.0,
+          "event_type": "inactivity",
+          "duration_seconds": 24.0,
+          "description": "Student waits while tutor types. Mouse moves idly over the screen."
+        },
+        {
+          "offset_seconds": 279.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Okay, I'm reporting this problem because those are the right answers.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 283.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 284.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "tutor",
+          "text": "So just go ahead and click the arrow again and see if it lets you skip it eventually.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 285.5,
+          "event_type": "mouse",
+          "duration_seconds": 9.0,
+          "action": "click",
+          "target_desc": "Next button",
+          "details": "Student clicks the Next button repeatedly (approx 5 times). Each time 'Try Again' appears."
+        },
+        {
+          "offset_seconds": 296.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Is there a skip button?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 298.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "No.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 300.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Okay, go ahead and refresh your page.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 303.0,
+          "event_type": "mouse",
+          "duration_seconds": 1.0,
+          "action": "click",
+          "target_desc": "browser refresh button",
+          "details": "Student clicks the reload button in the Chrome toolbar."
+        },
+        {
+          "offset_seconds": 304.0,
+          "event_type": "view_change",
+          "duration_seconds": 6.0,
+          "description": "Page reloads and the same MobyMax problem appears."
+        },
+        {
+          "offset_seconds": 310.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "tutor",
+          "text": "Okay, go ahead and click twenty over four and one twenty over twenty four.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 315.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 20/4"
+        },
+        {
+          "offset_seconds": 317.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24"
+        },
+        {
+          "offset_seconds": 318.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 318.5,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 320.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, click ten over five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 322.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5"
+        },
+        {
+          "offset_seconds": 323.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 323.5,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 325.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "It's literally not letting us move on.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 328.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4.0,
+          "speaker_label": "tutor",
+          "text": "Um... try doing twenty over four and ten over five.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 333.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Unchecks it."
+        },
+        {
+          "offset_seconds": 334.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 334.5,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 336.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Okay, reclick the middle one. Unclick the bottom one.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 339.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/24",
+          "details": "Checks it."
+        },
+        {
+          "offset_seconds": 341.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 10/5",
+          "details": "Unchecks it."
+        },
+        {
+          "offset_seconds": 342.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Unclick the top one.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 343.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 20/4",
+          "details": "Unchecks it."
+        },
+        {
+          "offset_seconds": 344.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 345.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 346.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Click the top one one twenty over thirty six.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 349.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "checkbox 120/36",
+          "details": "Checks it."
+        },
+        {
+          "offset_seconds": 350.5,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Next button"
+        },
+        {
+          "offset_seconds": 351.0,
+          "event_type": "system",
+          "duration_seconds": 1.0,
+          "description": "'Try Again' notification."
+        },
+        {
+          "offset_seconds": 353.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, this is broken.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 355.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Can you go to your home button? Like the little house?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 359.0,
+          "event_type": "mouse",
+          "duration_seconds": 1.0,
+          "action": "move",
+          "target_desc": "home icon",
+          "details": "Student moves to left sidebar home icon."
+        },
+        {
+          "offset_seconds": 360.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "home icon"
+        },
+        {
+          "offset_seconds": 360.5,
+          "event_type": "view_change",
+          "duration_seconds": 2.5,
+          "description": "MobyMax dashboard loads."
+        },
+        {
+          "offset_seconds": 363.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "And then click on math again.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 366.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "Math button",
+          "details": "Big circle button."
+        },
+        {
+          "offset_seconds": 369.0,
+          "event_type": "view_change",
+          "duration_seconds": 1.0,
+          "description": "New problem loads: 'Rachel earned $85.25...'"
+        },
+        {
+          "offset_seconds": 370.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.0,
+          "speaker_label": "tutor",
+          "text": "Okay, yay, new problem. I'm sorry about that.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 374.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "student",
+          "text": "It's okay.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 375.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, go ahead and read this one.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 377.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 8.0,
+          "speaker_label": "student",
+          "text": "Rachel earned eighty-five point twenty-five for working six and one fourth hours. How much does Rachel earn per hour?",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 385.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.0,
+          "speaker_label": "tutor",
+          "text": "Okay, so what are we gonna do?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 388.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.5,
+          "speaker_label": "student",
+          "text": "Divide eighty-five point twenty-five by six point two five.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 392.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Perfect.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 395.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "input box"
+        },
+        {
+          "offset_seconds": 395.5,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "1"
+        },
+        {
+          "offset_seconds": 396.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "3"
+        },
+        {
+          "offset_seconds": 397.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "."
+        },
+        {
+          "offset_seconds": 398.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "6"
+        },
+        {
+          "offset_seconds": 399.0,
+          "event_type": "keyboard",
+          "duration_seconds": 0.1,
+          "action": "type",
+          "text": "4"
+        },
+        {
+          "offset_seconds": 400.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Did you use a calculator for that?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 402.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 403.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Okay, perfect. Go ahead.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 405.0,
+          "event_type": "mouse",
+          "duration_seconds": 0.2,
+          "action": "click",
+          "target_desc": "blue play button"
+        },
+        {
+          "offset_seconds": 407.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Awesome.",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 421.0,
+          "event_type": "view_change",
+          "duration_seconds": 0.5,
+          "description": "Shared screen is closed or minimized; view returns to Zoom meeting placeholder screen with 'PLUS Personalized Learning' logo."
+        },
+        {
+          "offset_seconds": 425.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.5,
+          "speaker_label": "tutor",
+          "text": "Everything still going okay?",
+          "speaker_name": "Paisley Crawford"
+        },
+        {
+          "offset_seconds": 426.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 0.5,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Mykael"
+        },
+        {
+          "offset_seconds": 427.0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1.0,
+          "speaker_label": "tutor",
+          "text": "Awesome.",
+          "speaker_name": "Paisley Crawford"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1908 @@
+[
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:00:01 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=142122",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Session starts with student 'Eddy' and tutor 'Varaun Gandhi' on screen.\"\n    },\n    {\n      \"offset_seconds\": 3.8,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3.5,\n      \"speaker_label\": \"student\",\n      \"text\": \"Trying to figure out how to move my screen out of the way.\",\n      \"speaker_name\": \"Eddy\"\n    },\n    {\n      \"offset_seconds\": 19.5,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2.5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, do you mind sharing your screen as well?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 29,\n      \"event_type\": \"system\",\n      \"duration_seconds\": 0,\n      \"description\": \"Student starts sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 32,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 2,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"MobyMax\",\n      \"details\": \"Screen share displays MobyMax login screen.\"\n    },\n    {\n      \"offset_seconds\": 39,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Perfect. So you can start with it and if you have any questions, you know, you can raise your hand and I'll be here.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 48,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Student camera feed changes; a different student (Takoda) appears wearing a blue shirt.\",\n      \"details\": \"Zoom label updates to 'takoda'.\"\n    },\n    {\n      \"offset_seconds\": 50,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hey.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 52,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey! How are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 54,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 56,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you share your screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 59,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What?\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 101,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you share your screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 103,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yes.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"Uh no, why did [inaudible]\",\n      \"speaker_name\": \"Classmate\"\n    },\n    {\n      \"offset_seconds\": 115,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 2,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Zoom\",\n      \"to_window\": \"Sharing selection\",\n      \"details\": \"Student shares the Zoom window initially.\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good?\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 119,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah. Now move on to MobyMax.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 122,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"from_app\": \"Zoom\",\n      \"to_app\": \"Chrome\",\n      \"to_window\": \"New Tab\",\n      \"details\": \"Student opens a new tab.\"\n    },\n    {\n      \"offset_seconds\": 127,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Clever bookmark\",\n      \"details\": \"Student clicks the Clever bookmark on the new tab page.\"\n    },\n    {\n      \"offset_seconds\": 129,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Zoom popup appears asking for permissions.\",\n      \"details\": \"Popup: 'app.zoom.us wants to enter picture-in-picture automatically...'\"\n    },\n    {\n      \"offset_seconds\": 130,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Allow this time button\",\n      \"details\": \"Student clicks 'Allow this time' on the popup.\"\n    },\n    {\n      \"offset_seconds\": 135,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"So everybody should be going now...\",\n      \"speaker_name\": \"Teacher\"\n    },\n    {\n      \"offset_seconds\": 137,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"MobyMax icon\",\n      \"details\": \"Student selects MobyMax from the Clever portal.\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 10,\n      \"description\": \"Clever logging in screen transitions to MobyMax.\",\n      \"details\": \"Loading animation visible.\"\n    },\n    {\n      \"offset_seconds\": 152,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm on MobyMax.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 154,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"[inaudible] talking to you?\",\n      \"speaker_name\": \"Classmate\"\n    },\n    {\n      \"offset_seconds\": 218,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What?\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 220,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so now you can start with the assignment assigned for today.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 224,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Assignments icon\",\n      \"details\": \"Student clicks the 'Assigned' tab (book icon) in MobyMax.\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Assigned?\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 230,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I don't have any assignments.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 233,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, you can go to subjects.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 235,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 236,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Subjects tab\",\n      \"details\": \"Student clicks the 'Subjects' tab.\"\n    },\n    {\n      \"offset_seconds\": 237,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Math icon\",\n      \"details\": \"Student clicks the green 'Math' button.\"\n    },\n    {\n      \"offset_seconds\": 240,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 4,\n      \"description\": \"MobyMax math module loads.\",\n      \"details\": \"Loading spinner, then shows a starry background with a bunny.\"\n    },\n    {\n      \"offset_seconds\": 244,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm in.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 246,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Green arrow button\",\n      \"details\": \"Student clicks the next/start arrow.\"\n    },\n    {\n      \"offset_seconds\": 248,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Lesson item\",\n      \"details\": \"Student clicks 'Add within 1,000 using place value charts (no regrouping)'.\"\n    },\n    {\n      \"offset_seconds\": 249,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"student\",\n      \"text\": \"Says 'Add within 1,000 using place value charts, no regrouping'.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 253,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Green arrow button\",\n      \"details\": \"Student clicks the arrow to start the lesson.\"\n    },\n    {\n      \"offset_seconds\": 255,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 6,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, you can continue with it and if you have any questions, you know, you can raise your hand and I'll be here.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 262,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Takoda\"\n    },\n    {\n      \"offset_seconds\": 301,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Ones column input\",\n      \"details\": \"Student clicks the box under the ones column.\"\n    },\n    {\n      \"offset_seconds\": 302,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"9\",\n      \"details\": \"Student types 9 in the ones place.\"\n    },\n    {\n      \"offset_seconds\": 304,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Tens column input\",\n      \"details\": \"Student clicks the box under the tens column.\"\n    },\n    {\n      \"offset_seconds\": 305,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"7\",\n      \"details\": \"Student types 7 in the tens place.\"\n    },\n    {\n      \"offset_seconds\": 307,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Hundreds column input\",\n      \"details\": \"Student clicks the box under the hundreds column.\"\n    },\n    {\n      \"offset_seconds\": 308,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"5\",\n      \"details\": \"Student types 5 in the hundreds place.\"\n    },\n    {\n      \"offset_seconds\": 310,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"Student camera feed changes; a new student (Lester) appears wearing a red hat.\",\n      \"details\": \"Zoom label updates to 'lester'.\"\n    },\n    {\n      \"offset_seconds\": 312,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Lester, how are you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 315,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"How are you doing today?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 320,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear you.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 322,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't hear you. There's some issue with your headphones.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 327,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 2,\n      \"description\": \"Student taps his headset microphone.\"\n    },\n    {\n      \"offset_seconds\": 329,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me now?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 333,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 336,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 338,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you share your screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 340,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear you.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 343,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't hear you. There's some issue with your headphones.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 349,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me now?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 351,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you share your screen?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 355,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Who me?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 356,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 400,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"I can't hear you.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 406,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"There's something wrong with your headphones.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 418,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you still hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 422,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Huh?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 424,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I'm unable to hear you Lester.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 427,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Hang on.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 440,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I want you to share your screen now.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 444,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Huh?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 445,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I want you to share your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 448,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"My screen?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 449,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 450,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Am I?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 503,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Which one do I...\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 505,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't see your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 513,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you call the professor again?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 522,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you call the teacher?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 534,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Teacher (Ms. Beeler) walks up behind the student.\",\n      \"details\": \"She leans in to help.\"\n    },\n    {\n      \"offset_seconds\": 537,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"What are we not doing?\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm trying to get in MobyMax.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 543,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Well look...\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 546,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"There you go, share.\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 548,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"What?\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 549,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Is it sharing?\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 552,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You did?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 555,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't see it.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 558,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can't see your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you call the professor again?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 609,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you call the teacher?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 613,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 15,\n      \"description\": \"Student raises his hand to call the teacher.\"\n    },\n    {\n      \"offset_seconds\": 629,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Teacher returns to the student.\"\n    },\n    {\n      \"offset_seconds\": 633,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"And can you also tell her that there's some issue with your mic?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 638,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, can you tell her there's some issue with your mic?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 640,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"[inaudible] ...need to put... on that.\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 645,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 40,\n      \"description\": \"Teacher leaves. Student sits looking at the screen. Video feed of student shows inactivity.\",\n      \"details\": \"Note: Video content begins to loop/repeat around 07:30.\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "Eu-ZAQrrmQEBcsjafNC6jQpoNa-a7G2JJ2L9ZDwUDYVP3aXvUjouWz90cMrLwCj3KJTLkBwZ56LWHqdCl30B7sPj8dQyIuv9qQA9rImxOZlD_lda_P79DoBwVtEGkGEsJC2icsIo8geCkW63rIlrnBRRkGQoVuXNozQaA2xl1ZhZy3Iuhi70mYBrsNG_GDVN0bwnYDUiEpNGbhHy_sqfmoJy-JZPdLeX6CHecaI4VBpxpXUrP1gsEWgz6Ye5eEMXqVf4Iu1o3PQtBR_lk8uFBbCoqdceMvKr6QW0MJsyqmL1SEDMRSefkKaVX2Iqh0RY9vEgAYMRF0T2kOUQdcL-wZHxEyl0smM3BlEfTku6ICJyXse3etkvs3eTqvehw2W0M__NNJKtPq5FWCZgwn5J1_Y95pl-CWemD80jVb2UyBJdnykK_4YA_gKzGQiGBIFHqs8zXRQtJA6mLqJVrDUdRAbZBbyKlNlA12frel28kH8rtBWyf8-TBkxa97SIdcOofW9DjQ23l8R2Wwe15USSzbzZi_K0DFNRov0osVAAescImDgcxTO0SA-lp9EE71JZ55T7jkUzuAn80WO4yy7Wjh1QSCYvLS-bhTFN20nP55lAk3BPGiFAxBhz3xD2tWCmU4q6JdEVif9jCkk9YxsapZzelL8WJDYXqKj1R-KkFNSFWpTbtzmEqJhlbGRsOZbS1M_uSrtVQp_VqAgYzwv40eBpF593X586ZBTvNSC-ergGLjgmpTEQZzlZqr4hAKxdtfwC2PMCVUSfF9nZvsjkr7mqvpNElUgSqCcTihDielCd6BZIvH7r3OkheZ4mdUL97gxHjy9d4o-JaD3hKhNqGlcx-0Phq-zZ808iDweDaZ1HuR0zjndfGEXEr_h_hbvesbU1dLOq1GxIIZQeFV9UeDhxRtRFJ0LfZfYf-8M-oI4Ii2wP0nO4zKknyMP1ZmW3CiT84jZ5hxeB_eS1B53IVMwkIaeqpUUeTqaH4pEt0bKbht5aGCY7cuqSh3LqrXJaCj2ZR1CgVJt0q2WYZAGWkvshojtFtrBfHZGYVWVkux-jKeuzg5p7MZCdOM2nLaSQcdY33_svy915frmLil1wwbdsb2-I-g3i-9Qum4_3jPoehSBcbFq-YvZNroUg_trS3AsZFAuZabdXG_xklIi1cz1TxanmzudcnUWiFoYhscXH93SB03XyQ_3ikgjo2fxyA-WmDNm2D7FSdefHoqAyEzy0GfK11kGoL9nkdM9RPt8veLKkgPAx1-FdGtV3OhfLy9_k7lyz4VGQOdbxv7MF6t5wW0mo0onc7VpDAMSA_14Zb2ZP1pNI2pwL2gZH8lMhN3VX-fEzDg2ljOH7bgZtSzSKGGCRX-IhwfHsEzNuz-SirGRw4_W1JWv9kNO6jV-dzk5druWMaq8eCkDxGrfpiE5V1wwH4wK75ErQrtMisxoWW2VG3YunHTL7OxVGIU5IzSkU0qJJPcFBEUf2k6cQBVx_PZauoEoGYmxV-GlgAcaMa6DsHSZwrQz2b0acz0EjrtLpqnQA0ww4t5Pop63LYIWfC1-XFCZSSIhvKtZzL8C9crc-_jQ092EAP5Feo1v4JEM9qt6dRv26dN3_6y-5mQwVf8OwH677BkNgjCcIN5tnt2T6Vyp_M7VTVlmgtWFj819xKMuHnTIh3GdQrQUmu0A7o-TEdkIfMAnAdKiBxgEG6l8FJ7gjRwSdtGc2KLBl8Q1SQa5iww2TL2ZgdCTsmN-zAGCa7P-PV9S-Ljdsv9U_aVdJn9Q-xkZPDTOEBZijcflGL_yoau-dZ5Iad-hJo2rveVqfyq6frYS-t66ZQi41t52_aWMRH01VO55tX2kW0qjs8WtKXYgtlfQCk4rG1mS4i13iTcO_sDpv7qpxFSEU3t6mSlmIzGEQEi9MkfrSlcuPBiOp5i8oBDTZ_3owdwxKyDO3qFDQKy9gvNiPZvfg9FIWEBm--GcGc5dzF8HRdrMh43KIqxFBsm47RnJnp2TuvM7cAf4lVB0hyi0csF15ATbLPa0yps4ug-RRzVpwwuv03njm_4-GyovbrmIpSTtpquDWuyUPj3sll8x4vKQTovgg_aZSh3JFd6hMxHW6xoKtlkYZ8G8QJMG0dOqHhyLOZw8GjbNDT8YLh-8p7iA2cZ9WlQZCiWsS-t4ch-LoT9a6NwwASSyoLx3Qcu8CvHMLvI8tTbYRJVQu4W_7o-4SWOsKnzhy7v171b_iFHvlkKZCTLmVbKv5eQ0QWWqQnxcPg5YKGU3jyAC-eblcC9lqkDlII6CtsiOu29WT8eTfAJZxTPLvdNN0faP2zJJQrZkX1NzcS7kaQnBGneimYQKPd07751G1KNQGaXVtKQDifO8aXwCarcmbYlbrhdM-pqP8zccrzHztY9nrOvXiHfdIZ81S-FD7dEpwORxR0e65n9JLtZzdNHFF-Nkkxns4uilLgnGOquP4EFD0mbCoFpzSt3nneavo7NYlJdXkz8XCgvBWlB-q0kvLdcot23U3Cr664EqY8PAX2cgCbzAVg7qeJBsuH6YrEZxHC-zLYPn39k14rvvbVHNOWAA7brjaGey6daj9rvATV_VrAZdIgsjQCL7BM9qBd2Aq1cj1Czwf7I5pQgYfKjSL60jkqJ4RsLXWC2OKHkr7AqBkptmLg_wYWZ4ZAybxrQHOrKhSXH_67SMbf8Aw2U7kQXLTHAkcD2PdX6W0-dyfcQUaWDj4JiJCpHswxDO-0dOja4JmVnk4Zm6IufCOAEymyTu-fPmYC7_8y7wjqEgjeLlLgM0ARf9VlheNZtSCWZtASMmiwBmacW6f2cH5-sWAc0DCFp4vVEj9XN8mEIOUz5qRefTyEQTm7rIySbSNLW7-bllhFUjHFOwWYQ5LEtt6nHX_yJjM5lgkzzg88UVCrkxpPrMB2pMgnUqCOoCspQ3HKRSX2EWbl5Gh7uHkvHHk4pn_Uyl6poovOiZbup2bhX0N4i_FFWj3vGY-w1DQ49g7HDIssTEg_Et0wSvB-6XrHHm5zxRCECZxplrLS1G1QGFTrjgnevC60fxxMn601l-vic-u8HXAfG5gwdE5AZHfAmPTc3QTq8dIfKi0dIIUZDDaPI-kumRh8V5hKeOk34wqxYC0EwjQtw_ygLi8ctkcGcLBHd12PoSQglcA3e9WinLA2q1gOyyZodnAeLH7gDw6exWtF-uyc6EslJWbFdeKiS5-MCZa2GcWQ0pYnsn_KRcn9VcZR2RQdH8uXXyaAHm2LuSwceY1BHKQ-IxAlD5Ay5C1j4KzN5rzRXOiVGiyIqZJYZUdjTjCd-AJT4dIP7mstORO1n4L-LRbWfZF8nKJYVza4n9TT_qaOKyOQIPmjWx5IWT_5RqtM7nfyrUxRhx2199n-IlY9li0wu5LMBsXOZyuyxNc2qV9u_xJ4nKHzL8gQUs00z8xYDWTCp3_0DPWSbUYFG1sm00V5j1dKlQv0LVsFpK5XLsYY6vpmDNC4amqbcmeI9MApgGrk9zE5cc1LS1hkxFvHa-aUWlAovAmd-eCnmDnse26lWn1LBYGMtwG33sAa6jGR4QSJEHIByNsFV6TffSlQbqjuLe1AZw98hWmm759UkVxp_ufI0tsBk9WyNZ6fm1S_LuURK4aSrC7Y0gEKHo6Mi67FT7sCk0dNYlG-R1NyJiLgimUEs9T66_ms1wo3s7-E6TH5C7e-5U8WVtOjH5MSqZ_VNKr5grkbTCDNOzVWxD2tT3cMKPVLPHnJ86HR-4fXdy1M3NtLxky6u8cz8YY4_2vwkcHcLhQi5VRAyFk5dFjyUHoMXB09tvsAOhiVsaDLXxenWA9pkCKW2-5WXjUd58LfIZ0opZV9e1vt6slsv_MqLIiQkEw2BpZAJFX00GNNbIkwRJuRPPGZCUyDHA7qlDpD7OB_A-286sqDwxIIcJzEPAHtqZ1orOMjkr5TfFOnnk60GHH1AE-UA7KtWdG-6-5nOjhRR5k1Kk_t011YnxTc0N_W8tVQAM4rLdx34XpXARKjqAc2G4XTLHRw6-Lkka7JGyYGgAALi5uYg16IIYA0cmEYmIqHVFTzTNGG-KB7LwnVr7wSCa83t7GSC3BiGDdDKzKnrk0qwBrbCC5Yxt56x_iZeHvtTwcAouPNUutPapz9tfEGuAdvysoeIjfbCNSFp3LvuhKRAeHb6eMHeddFPl2iKgIs-GNmXMdXlZwl7I78VSdblYS5YG_ZYolpCQ6d82lgYi0EeXMg7P8hbxOgYeY28Tx_7GUyGxe4jZOIG4vOOfjn0YQxAFJvTBVryJE0GR6VYoQfzaH0fc-eHKY84SCvGdSygM7oa8a0cqNO0EFs03jMHsHAYffZ9xxJdzzLZRM-PVJoHc_ekjTiBr3eGmoG73jNaWD3fVNFb9K8N0BJ8pIxfSlF-J1AOSQxQ-s8HQdYWs45SONxsnMpQ3yM3D-hVUqDnOFQn7UGMbFXHeglMMcrb25uE9veN_bv9dGVlu890pK0SDvqpAuTHUxhPxGPZs4etUEJiGpq1Eer3saCBH6kk8OqEK8yIu0uKZeyfLUZcpX8Kdsw2qOTriYgKkpxs2jB7VRTl5IIzvY8F7EEs0tx1Wnx6Ual1vwlMUr7Imhox2hBuxSb6MQO8AaCEFV2KJC9F95zg1f_LvQqYecdWNb1y6olkvMMwMZlGydnds8ZVnjkbcvQPLaS5g7HBOlBlpBKq_3ldwnZyGddgzJwvHfh5iwy67Yne-nCMA0oRKNnlKwjq2GSglxBM61cAyJiJCoE_3Q8S1yv6YuX6G_a9foBiDzEcKg4P-ZwuMv0zXC_cZtaFueq8h5UPB1iT0kZKzfDojSmszUCDXwfxX-hsDM3wiT8Snjd71x1rAzuWFHsWWQD4NmW5KMTRcWSQ9gzW0Q2HchekYfr8gs1j0SBESv2JDHYPQ3Nyf8x9EFmStNoVhTyTHMRukFoHdirn9d2SAGC2iAwhYg-CqLMBvR8v2C4xtAOHD34XDwRwqAOtZGNAQhgFtX2330IZw6wk2Ij39JRNhI7RVrXJxkj7jcc1A8LYDGXa-WpKbBdIpaKg8NgToSCU8jcoT999dLVzwYjPxrZNf5gurcToidChxP-zRWwbkto469EmgqOMvmSdV2g1iCaf25I1bP5tSsiXCPy6abDuFFwqPqAnUmgAf3oEscHMVFYr9Y0ibg6Gz1IfSigXkycUnhvNsifmoxbVzn9638JphkQT9s8P-toNUmKudNYch0aAVV9W73rzLjathOHUdF870lPFWl3AQKkQtdDQOhhI3iyx97O6gKTKDTL7LhdYrGz7O7fxAjoOKSkdYjpM96oGs4VP6uG9ntZ0adjGXPYjdawevGGg1pZrPNzaqTWJD6sJaO5gRPF67mCly2KCc0Ymnt4sZA1uo83PohHSSIep6qh_mwXWdPQemux0KMzWEcEPYrkSsCcXLsLEgCiSJBeg_uzUiqIDywVLAUrOpJ4AKqX2YF3brZD34GNYide5n8PTOIVUrcJOKJiA8znVgeWtqVgsurobmfi0BsMLE4euOGFZ0HIAxlLOGMGn5RnMGbbmToXXmmWE4eRuW0kgCyjxEtwQBZ7DCEUEQFviUOnTjAVZBLPimkSyDwDIdmuOu3ylG54cN4z-KryU_HC-7eYakAD1xsyyh1bUL4WcvMvJkXMFwwy_W0ViUHP8r5o78aFQgKo3eqq2hih5Y0y-d7Ks8IEewHkTz9OPPyPuZcLW04BwHp-alB2pNslMgpo8k1hkOJVQmJfteDoUkuLnJbgPq6Z8S_mIe6_jivxwQPyquPRNIuCbxmLbyCPYSwHaLGZJPZ7dIC3CYtjTlRcu0HGeirg2rIL3umIKoQztfm_NTOLFVolpx__zm0FMT9ImdYyBHg7uCYc58dCmNI9WU_yw9lg6FmTRX5pru5tUocTzS3rzwASVfhO0nGxb65RBOspcwoBqR_CEO5CZi2Jjvjtz7W3j-VKVSr6M3DFeUmOFPfQV-KNY8xNYmPlsZG6wU9eBo3lYrdlEehOzIs2RwXlD4EietTRpoPnRZzeddXNFBAcsQWfZducZIYraMyyNeAKJNpM3P6S7eN5qkvd7mFHIWI_zNwBRTVBXjWZ7TnB5pimxfTbhNyjvsf660pXMhhbUNIIeq0Z2DaYyiGKAt7Ul4cM-yeQU5yhCNFm5Q1fboMnsbUGh1auxO3XArLwLHM4LJE6jhveIkR_KUNSOyvfcbRqturkuYbNuH-7pbiExityyoFyo4Me74CIp6E3WfPahoV0yizqb8fJfGTBAsn5asntIJJaH4jmLCWkoGlPIzAuNY35dQgdCEeW0NljkaIJKupwWAdlR6syaFz3tRdHH-WLhbtRzGPQRlKF5aJzM4TVNCAkr3B4RB3tnkV5_19TD58j22iXJM0bwUf9gxIqnnbwjZKAlihZLvp3nNl5OcvXWdyWp7pcLJvO1LEiPY67OI9imypeXQSa--ShcWycFg0yIWPIRVKPsfXQeyIAiQNhw7AVWlxyzEeyfo4EgoJ5RM43wdObzf7RehZWGILsZ02hATYaxryyvjZWZlFzR6yc37wxfaS6KgW6qq0B44MsqgFe1YhfL3p9DtyIYAe0WiD5uX45g9SJjF_RU64__EukAdnCoT4N3BaN07SJ4BsUgHVbjErIcjudd7si-W2uQ_tLnoru1jqWavxPCS_jKsobw9gH_ULucVUZ5vVNL9e9SSB2zFzQK7I6Qr6wLmRUEJnFUyyflRNG5v-_-ZAuGvHPHo-uKrTN6-rlwFFhNYzfFx_JU1B9LFBrMVf5OStBrreQzbxRau3KRK92DpvC9RYwbtfu0-KOJ5rDeouoce-gNX9QpT2L4EC1xQZjw-rJEGc_68mbIrCoFgZss-NbGuDHCYFeLcgOGI-koxVmFsCVkkThLLIodM-O72ympe6kM3vemq4mdxAvzd5m2YHy3zx_CT3esEp1_O4nFxBHRHFA9qqCY-_Qp4xOed_M20wI1ymkOA1rUMzpO-fbb_tZVkkvYPOou8_NkLbmrw2s1b8bwNFQsMt6NlAEv8-LurqonkTRXcJ6Wb6r35NrRwOvX8zLTK4zMKkU0pvr__cYBYY6QulkoltMERvnhdqLZsu7Q-I6ArS5WEkQiNba6BZGa2k-Zq3-nWecqgUWttWHX98t2q2vrPORkRUNa4rZZRxueKoLUa3-2xwuk_K1qabE0xiwzcNlHoh3yoA1tcWBONmPYtt_dr8bLPdQVvuDBqIL9hl12kOpLw9GBr4hWo3PCGMTbAQKBsP-BV1eMQtb94HjCQk19O58ZzPz8dtvZzuZqdWd5QR5j105FRMl0N1tcNPfVLnbXxhFuYLzdM-05DUSx2PB8ulh17fv5UfWWnynRdNkZK-_mPySacqdsgAODkfscqm2at2uwbcNWXhL8yfqEl5_ur9ZUiZnnyi68L2ZTUf9Moi-EfGJTa_o6e8rekuj3j7JJl0syKiJDXK_7vQQ7JYdbMWJ4az3w92HRzFVrUSBwMv9aukirvFGkXws2AesfTDh0dprm8-iN8UhCHAeiG0ydS2gzF3nIcG60hHohwnpMfQjkkwuW7m5lfutdtFvPvNRuGRKXQmLEEUuccDEFHhBdA1shQHt3713wp3O25k0ywAYuSBUsPWHNLQymxWlo3dBdLIL7L1hdUamnVAaAY4Oo2NSilhcSNqMsmebBq6E0HNyaNRiDk0gZg4P6s4lTteJAYY4l7lw6IOktFHN9kYtG19YlsAPw53XlEskGfmoKtNYD_01vmmn3Jh4rW0n8EqKOvLWDgm6PIB1Mkc2C9QgsS9ebBKbeiv-g1eY6umFD9vByrbTN89DzTVSV525WoE3JBqMbVtbZz6W3xsfYjwC1kxFxOwH2paqjfn3kBKsEeaSqXBIlfdBA9V-KOihR7TxlVRZZoYiTNwBqwPqdEpJMtZwKSPg0NPr4D-FfROcMQe07PiG2kCPhJeZCwjJAtiyTLmQpuaV1QQHKnJY8dvu5PK1ANEFr51IWtrrA0hw9QkPccr2xtOUUsT_gO804YaKiUacpkoNS7GAc441Klcru3_Fe2y0BzJlU6-HmaOtNaOdxmSDsf_LeGX_p2S23A9SqHtjja-pQFyw52tLIX9NpS6Mat8of6CSFYJ-zMR9iFHK5x6uUr-z3Pu8rsvMZel4LTw0jAEIBAjijI66j4IdefOWp--P1yGr8rIF8ztk4RdPN3_JKBsdyWDUmHiRxLK1ltdr2dI-ORVtmGJVNRWscg2NsmLtfwS3oK4wkew6OMermE6D4bSFtl5xr0kSAe3Jh_L0LItjAph7_jeGZ_UYM3nbTShIW-LznKGqgTU7cl5EbJvJxCeVirr-P4DpC8rRAi1iiuvSiX6IhVEFI1iwXswh3roL6GVZ-_XHag0iHPg9GyugDokelaaKMnzK9xPr6KawTRTyfv-tTwQJ-HJHolnmqZyM5uALhnxLs7WiN3q5dBc-zcqy3XjpMP62tBWW0xqUaLTe0Go5adlEIjTqXbJoEaH31ACOQ-06UWdIDyTaCP_WzkzwXd4WYGpsNLwa5DTCHiGWtbqbbOCHJ-OcX0tNDun2tcA2nLVjzWqP_jVcPJaQVNLV5V7nDt4pwroAc7hbPvgExmJC1QKkNr9CxLiEEKXYXHYXyx3KCTIq5gdKwUZK531P8LRGnELkIqVzssCGRRRR777hfx3IY9RzdXBWeHCyaCzJdWTp-nS2dH5wngzqPSwuMiXivjnZjlhXtWy9ALVyc3Tf6nC13Oyo05tddTvFBRoLRqvQ1TRij4EK8BSVvlN2ogkj4lQqitAFCXqIBO1kQw2YRjkshap9mR7V9Kz-BnGbuUL8GU3SVwWx8bGsBVmG149EZrloerDgEywdrsnNAl_e2La6fdtyWSjazPWn5RAiCnHKFgqo0W4QscxTKHDpcP-R8IYRQxxS9M5gPJ1DocCWQCOlZ5yDq4qgsGGC6QKsMu2Ue03teOA6yskLz88lMdCKDvT5CN5Wp9hibLq5bYOmVWCOfHKl3YI3mD0JKyjErDiajhPB27aB8LSdKEsB_HtmMIDR4BnNV9MkvUAleLenFd9IB7NHPSnOsv6yP0IiP1VRf29ubPwQfUCzMffvrB7ryRej5_B6M1JuamMa9lNYe1OTKe7WdrCeoqBFW0Nk25G7mQImN6dHz85kM7rYY_WkfAc1vO4aaBAP7ZiaKeh9o6ftZL-lUuK_vy-c1GvPQQGery2XRkRSQU-FHRHQTbSVLvBWvGJAl0Saf8mYxnSVgWjc_th3yz5j1AMM-O2O07sDyBPxb8ZUZ6lSmbiv-WDSAWFeBLcyIPF7BRAImXmkXqaqkLn92sP1SwRXnNRbE68NYLCu6nBfaIJKdweF-oR8-MYp6dmrR7kNcuf2iAuR_tSaV7EYn3MFj_UMaTPVYL9ngrd_p7TfH4Pi99D7YQMnLwn4N9FS5obciCcds_h9-lvmclnpDV93ZUT3VarG9ia1WljPRHrqTFzrNVsDN6d11uWpNAqd-MDkj3vBU2pMSAfMbROOMeJcHyDaxI-R4Fx5pk1_s9CGU6XHXoFD1AV0m0UD0Fo30qcjVUZm6NQyYBhuHCUYEOVSM2_xf8wZVFs2aHv2BP3XVIIbgrwuCwRzr-l2_KvHE5Sp4F4Sxa3T4wMiknb2KywxeZtGATDJ50_V8YufsAheUNXmuUav3VQnTONl03QkCrYE5SNFxEYWV9G-Aemug4vGRKHcQCs8oPmxQKD3Xejj3gurx3w7g1j8kqaESKXiVnCpr_IC3BicaZtHgCNPzY5BdCM2ilbZL8octRmHxtQNGmLV9AlJGD0txYsQVWtHrwr3W_AQ1dpbeBfSLgyjA1PWNNcrDFybFaqNWxSOCasy1nqTlcEwNUaR70fP8lHhus_z7hCMzkpPkAy5AttBEULpqWB5OFaUED8UwFL5MBvmDoI8fKatq_oshpfDTv6YO0DbONQ-QX8YWgrTjuY-D5jUzA_e_yniNrcbUDXLmfZUK2I6uvJPu2Gp6naDWpt0n0s4mFsoMnUNSDEVOqhenxx8H92fqqM_k-R4FGKJKhbVgBd_GBtxQwirsCZzmLKIR1Rz2c0MPXJOROvtWQs-u3LtH8iGYwI9ujfhxqRkTqJIzp4x6EHGsBNhLMYCyb2pgXMoTZ5rBbHDT87l_HG7D5MA-LEthm_KsIPkBaOLFOQ3eo_W0cWJcbnK6EeDd5apl91k2aPR9eP4961xx2PR1S35pDlaniVnoJCM9FGQX4h77AxHi0qibH4Mktw37ZMCDQ8CmQy19jOGMjv9Lpr5JnXOPIxsqWfSrnsvgYSW3jseRzu62i4AhogqGQwrhR3aeEwlWoVRU_XQZEBQDVKLRMLnqtw9oI7xBJlSaM2JYJ2tYzYShInqOzHlurGmegxXVEq3kvDeXfgIvJ8-fRGNr0L8RCIT6wvRef0eKmUN4rbfQytaPLSdyAPCRISGwGF0BcHqwJQKuFyFuUcrLJcXaDWYNgtbqZW2lCjK-9_MaP08qCsaTAKQV2SrKFWHqHWo0QIsQuwoJDFs6vcKdz6ZMmwb8JG48ZzwiHNxtqtDcFsgIz8IgqthNGStyvQ_056Bjz7uILEd7Tc9UK016zN9zS-pOVEiYXDkMOyI6qsjH7Wk4irtQ96IQM8xYAcJ6ttfIxoj9D2BFPelgSEvw6usFvdUR8orL3xxquCeqfiVJvZXRDa2ZemBmBOb2HfcfuI6JGIHnBSUd6So6vCe-mlDjZ-nNDfs_E4Me3BWEmbJBSf0yWga0geOGN5Weu6sCAvD9ORnNCSic98ohA7O5Oz4ltlmnb_we0jeb-yopqVuWLDOAePjRY2Zdyg3P3PTXoLzaSaNL7dvNvYy8H_XVdV4t2HQ927lUkknOThhysgvEC_fiqsyG6KjyJ0p8DIV8hDHf-d5Ep_QG2QVgQA9Qwl55pnh5nQPe5tVNhNCTLrel0UwRJhmUgaDrU2SrzrIExZbmV1C3Sw9Crkt7LB2IKpgSNp2zG16VIhGfUGPRBeUsqwP8PLr6z6j8fn75RzR61Jn6z7MsGX-TA2jo4D0m9xt10l6Mq76umRsaIOBuq9Lljg6RwzLPSkwsQWQOQObmvv-NfWZQusU1B807-8uP-NLeba7jEYlV3R_wbTNw56tctd091rFkbjUZDDsSvwftR0q6AD06ozzB4kzTpYp3KERG5dGKKXSVu67lnJDlBJ6NXVlAPb5F_cy1wAh3QCaqFbqPmvtqjaHW79F9LC_xX2RhwtbQrVOoF4mTQja5XWE8R6K03msZW0oK_BbP5BtYDqKidWNbU1KWF5yf9gpfPL8tFtoSrOY2ewi_JWQOlfw5fy-u5OFeXNangGbKhfJcTrVnClZamAXgxLyPWhNbAHphYVjfl9iCUZNvJiDkaKv85ejAWe3xgECfak1nU1W59dvrkVB7pJhfRR1_PpspU4rJXzhG_gacNmd1eou3EFO3DYlaXUiO3ff1BQmVejuPF3XzUY9VypgnhYYGyJ13e9eF4m8_dg1XgNAIBrmXkqmdZXAGJf3DsQhtdXzv6Fhr1zWz5FAZooF1hSaT2H9_4qpWJSwmB7npfjZHD2wul25_9PeBW0PZRa2lTBXv9UKTArm2D2T-Cmcv1EVxblV2kPRtotW7Md0aEB5PuGcYgEVwJ_tGdwwtPS0-UsqIRJjEFTPySv9WmbSRcAxoRFvtDyvZyibiEpOoTPdtE4KUzgA3HWUqgD4-Iu1cu5Cg6NYSGes-43OwnzgFHw0Ez3CVxqXU2o_347jElCq7d175kQ_fNCDlKCcrlmVt6drcGpUgL1s3ewisDNJ9TnSwkgw0eZzFEQ_5Kcsg3MMZj07WWXbU7zDkNEcRA5x4EcZFFGaO34X6tD4TVKj8QJSpfzMLMCK3EBkBrKtWa0lwBO79LOoveuDdQFqkaHLuRDIWItQPfwWaB-3h2R0QfcgOTcsZrPun1yB89cXnZLq5TtvYv8YOaWdOOpqDUB43Q8kDbYqRZq9g4Qp8iOzN5ZG7MykMLPiclwd9ja3d02a_KE84Re5ZqC0HX4PEwcNzEfYgjW8ROvY6Utm-jhP9m8ewDLoIRtnFDv2y4uXFakaEhn-DrUVjZXp0m_dD5vuoU2v951EoUXh6po59IRbz-77xfpjqB4EnVWbnR2sDc6kwbDHQmJ3gBduXRZpSrTQGay3u85pkVbw4QuDTF6Zh6x6mneae-o2bOJszOAVGXUEp2RU8GlGftYFxuPetZR-vbHmIcQI6RESBjHjT02mX-Rqpcu47D-3KJ64xmrqkIwA9iNCSdqnjZH5DcY2_ymlnZaRw6yU1lMXKnevYLuDB_iWAMw-Ubq67UXFU5uFAEvSC0t9-X-E4klqfw4H2WlzR1brWAKEY3d_IkJ2FFt0LoAN9OowmlFL8f-KBM239w_oKZzGmddtnf0RV3Pz3BGUAiWSRB518FXoebs8rexDvtglTRn3-z8FWGb2WYfvUIu389yWGRlm7rAH01WttdGdG2zIgCNqNfddT9ZFBAdhW5F1toSDLVnlNmDbA0VGn0VqGdXOSWfBNkgCVHL6XXR55s6NpWJ8QK3WLwBXjq8b7qX8jFmpscIxN6eQAXBu6CLhvQgKBzvAdC04conIfmd8Wa1mtraAfwjhe0ZWr9fyjWPAYZagk_A-qudA2tru2xaJf8U_3DONVYX2bejOPcStmkiFn9MnzUvggnAQxRl5un9uK0fp22cl4MDWIyjfUZK28Fg0rSTFjuymsQuGJp8cNaOVM2iY6TTQFupsskDm017IgqyRaCNRsLXN4OOOyd0Wz6jD3eoZVWkpiBGFB_N5v8aIvkUFvNWF4aF7oMTXrDC-H21qYepKqyFOR1X1rusfXVsUlgUsu64zkDAVUbvRyzDbBHZ-Ry98hOw1MYAopEb0toHKbk7K5KDKCuPss9BdLPr_zSGiVrj8McZSUnvDDtS9uVJryMr4vy9P_KW2JC-Z5Ny9QJhUb7XkVoGm869QFBawzTFRmzIyvcdn6OmI8y-OekpwA-caDRrnyKSEvnRMXdrgajY4Cfb_xUmnPocreuyni9b1dbkz7RkRPhBuMQAvXGVCdy04isl3Cp9Nje8wwQjf1UcYCbibpWoSQAvaPgByi1bpENa-7LGVW4mAo9OR_n_VzrUSg6Tzy0wIZBwqbuJhToXftcyO4G54hPxPZYAJyIALIBsBvAzUqYb5np3P2ZZ1AVYF5Ev20z7UjRZCIVVQUQKBpHwHl1FHUjWKU0Xf9qX1gz_Ms7zuhyodjISI4FNHidIuxyQXkHLmeKpnohVPwyu1fJ6HfmLZFfDb--toomD9B5X-YMkEZNJDwN4RnppB9sf7CKT_CFxfXO3AboBJ6HYBGJne6dvN4y5DKzblGe_nfowOj32GS4iWH2VxVVekLeS-Wv48cByq2oufTC36FSh-X10UknHqpzJvPLr00YpuD20z_WgpPZRHJVfUC9XgFyZaE8ZRQk31hpt8X2-7F9DsGvBdBS7oF_q9s59YULZUuyMzPwP4Oxeob84VNBmZGiK6lun1iIw5wcXFGrbW4IwD-kvkV0dihZ0K6B5_jRu90Afknq4z9siZeAEFZxvOtJUrnXi5bcui-WaQWUblL8bxCizawHEmbswwFqLh4os-_iAEvLo4fCCvaCwlVRf-EMfzEeJvDeoOqJ6PO4B7zAlYrCU4pq3AWarD3Rpm7r2l-S1XeEKvjTjbyyA3gQnOQkrI9RMNBD7_U36Y-pUtbWfuzYjqtMYpwyDkrTl7XyktbgLx_drFz4R1ovG9Of4Ru4j7zEmP0ZUXWZ7NmjFBAtXPIKbcc3OBiS1nFnGI8yIMexkSK_vR8ppnMViHoI4qm8n5wOyRTu5W3llUkh6iiMWnrR3TUaj5-QPmanMZB5FyIXvu3H8OpQqsmsbRtbgxGZ7nhI5LQgaj_PMh4l5euXxAFxCgXfQhe0A6DuhUloAc4IlJbvyR5uxquZS9N4oKMp6xX5qs2qfN4BIM6DXvGUxAHyWan6k-lpTZK-8w-B2WD2TnotJC_gKUI25w2nclgwrAkYOQCFlkfWeEtIcC67IilvHvB2YBJ0dUBHs9mPlICMJ7h6C4nWV7zSeQvVgA-nxJj_WWH_FtV-FKL1DGhpFaDeyZ70_y8wQ0SSg3YkViBfLZfdDIkGMbeU6oXAOyKQ_x_nNF7aHelv0jUKapGU9lw_gaouVOsykhDBMrKShAfsIo-qhaXpAiMJFHxxX_kDX8bCPANfAT4Pz04-4k9oYrFo4-CHOTuNwwG52G0oOg7MLSsu77sj2w4m8XQmJoJEW_1l9iVJtZ6S-kL7NT0yP9tzrrueufea3VN7s_OrCCBMRsJKozR-riCk9Kuy8Dan9qbIVnMEBz-TRjHS_2zyBkZA4z_meXS7Do3EzTBUBrwQqq2nvA2LbCchLYy1H6nZ8LsyocouWfyQaK83xNqyBrnvcNVvCSaVBr-HFmHhZ1hAqgsuxwzoPCDACkedgXwTDDj5ozNBNDo7WZ4xg9zTfj_I7hZIUlbl9BYxMqB1CyQxnGbLbyoSXlo9WumY-sSqHcNvDea-AO5MPdo3dZbkY5cN-ALaSPUPMNI3Iyz4BIdP1fYpsPolOawMmxOr4-CIyRU89s7wliBejWiRei8nK40Hd2PcHCpsFhz5Vvyp5nqZzr94fit2Z5vY8zF8No2KLBUI1dOPYbnIWfqrul_UVlUpeWLaSpSze2B5RzZaI0B2fr7JkR4wyX7rwFHLNkwAvFQM_m8c_bF1vU17TmjdFRkYbxw4_3VENwVHEQUqZDyRWT2seCyB0frwBYbWTc2mfUUv3Hu4rf18_5PPNbtE43Sf5bPEIZtCpac5KnZRNGrgdXVp3SldF2clQO4UOvQuu0Xe4TUvffHActk2gYuwFa7FebFsbNx1LmMr3REWA9ZKRfaokN9TM3LjRNZi8XWbuX247EO9TY_dh2U7f-F12YT6uywrrI2qSAd-XprdXJ_7q3RTtkXkawM_Fuv2cAvPHAr6YlB0FKTo7HVkKxZW8nw4xxbKL1j08JuGudP7vvfMyjLVRxawjPKIb9f2LJAa8nXSiSzB2YW8_nmUfDkyUnokNkzWYGiklmNy_hOp5xJObk4VQ6IqpqIvauu3SJY6hhn_8VYocLXGj5scNjLZ4cEpSw8ft8REkJ9Ql8WIJp_4efp0713vPCN0ngxhE18B0h55gaXOwDWa81DvUGjrq48uOtXfPJIRsdJdof1gYzmxC7P0N_7BNOZLPZAAMbbMoFwSVVmF0hmtJ9vglzdybjGw6Jw10B4KQAX3nMH4Wk1GkyltQVVhYk6ZCnyP63YL0s1BDlvNIcWwEDpYkdk3Qjn7uN-tYqzxbX6A5TSBwI_W9EtYOUYezsYDiRJoht6I1Sq8A_oZH1Na9qkIevtZxOaWmiQHelfpPYXQvXoXv08DWdZ2WH_nV-wUVBIrYFCZwE7RfYOiuphDllrUQiPGurux2xdtOIicv28iQw1oVh-ikSgHSfY4hcYwKYTxHc4tnZg-IChLo-JhwRVbZzzp1As1BBuezIGv2UdFEihtcGIHJtAfCSrwSWXvc5mrFh4U52sqySmjwPv98BWW3vh8deBqiJ74u-i6y4euPvI8IlEqoWBfzUG6SBmXpUMWVbaM6GtNUESfIynxQrN-WOPqMV6Od2ec1UPNagubhm1PzKBIhIF0FT7j89l2DXxEjgkmiEBTk81i37LlpOxwOdwIlczxEv847BM6pwqQ0-wnFTnkjF7-ATR_msdw6u6FGLwDazMHcakHxPpau8uV9XuP8_sgVHPFJscSS138e_487VSVJRTuokRMq0h6ysFE8dzDh0MVzGFc2BKU6wjPM8qJ3_3m8OpSRMt4OMKwv1Dy-es4OrS7oexi-l1XRn21C7cNspI33Ka5ymRbS3GBTolvmB9jlJUsSuSeYKSTIxQmUPRy7PEfs0pWnKU1rNhuwKO6dN3B6hoY8wVSYn--UgSBwM5K3fsQsMSZqdxohB-mZFYU0a68vJEQ8KTj7YUNDS4g1tVLE4T2BmhPegRFMu2FhytYymL33dgRSWVFx3RL7yMLMVoIc9vEHOFsEd8nRG7YcVk4TSMct83QfQfg2MCyFFDLJ1626LIpzfLwko6Z8_mW6lr8ayHedO84xa31_2tfAIuU0_7MOxL5Pa4dXONjhkesinkF0T_dGjrp9pBKyLxXUYq5xVMKQ4fStBpWAOfBdONvgzT68OxjXC8FPu5lqNjkoDOxkVb2JzFfF8Ptv5fWHYAC8-8AULIWd09KDuy6bb15R60UVHZLHA1OhGzHLSFRCnVBX_3Dyz7tjNz7sH7l7fL6bUPsJ_wAI7SOlkbhticxHsC_mrPnzpeK1eE3x3t6FmJE2SMfjUhfs_hoxSa5VWWjmnxZTyPC4SH_Ru8lfeUlPyxEQB6M1kVN2bBeLSmt5U24GQe2aghDrgwqgxH_I-ztjpQsama9PmnBYstjm0wXCa1BG9dGISNq4ynYrUOC1prvNosZbNZ297xfbi4iPq79HRn1EeLnMjAYz5-_wtuSrLFUs4-u8G2Ea6hGqYqaGlLAtHcdt6Gvvpwhh_2wnkjjLoo7JLFeu3X32Z6AopB1TRHWAqh_wpF810vno8FcFomZ_SztcdbzNIoi8jrcb-3PcyDOxWbvcipq46J8rXcwlrcjIQhuUuASN3DoKjH6ON_RTm96oeoCujKJ86luXgB7FNedyn655cSh-6885aAGKgqgYFeamSVA2y8JPcFhAqyDCJq8nxCNUePPRzhAC2TI84o4E_1H36P9UP0Fdy2ULOMWsScsWKT0V5Zr6NJC-Ma9_tGOOdX9WW68f_Wkndn2inUwW38BO3661hfXy3I1sTMKujsZxKBDmyrNywjeQykqUaB1zQWruiH3jbfJYq0-GOsy-OhIvVa3IYnc2xVdqh0LDT501yEo5c67qVF7FlP3438_vLA-DcnoU5xMDgOPn3FhN0sCQIiPdC2cICYsxTZ8kxcd83-DO7HMccSti4EkSqG1mot1C4tHDyaF6vAzrNYiWYQqhWnoFRsEpJGD1I22YKb4fGw5Ili7tolJnh1zYLrCrQFa_JjB1ZfWkMrxk8dOGv4I4wL0xN6807ewuw_pvgY0jRwdfYpS8XHSTSJDw-7ywNQaSc_dpuQM8YhZehmAYpKf19F6gvIOiBLhXhrK-GrqpbnmzwTWfWeUzWYMGuOkwK8kSdDJ-6Qcts-KpqypK_JiZsCbuVeTyKtBpxg_ncBf7rqWm9QrWvCSlnIgYKheiDdCRBLOyi0EbMC-qKdCV4_AsMOEjx8BHO2vjsxRiXrgZZzOOsTGvxmNUUPjzeAAmKx3pj_m-WTFCceCXnWBSapOBsE1xvZjLE9ae_YKLu76GQ3MiY3-sm1-yRyjxD53pU_uizctFWM46_938DCXBS6VPuHwhm4XEQiOHWfEdhRJWy69JSTGCAX9YHYr1fAHUezufj1G3URVL9yujo8o8yrS86qOjvtmlAo_dAf_hAnyj3Wp7366NVnqLIlU-BgrkqfQ_HgzYkdysXUdK3R1olckr6AVgYiou1NZ4H1Ciw0KHKcP6qBrSwJttj9BvcjTDV0jR01HSNQtxmeq5EQwYGS30HwIuzqxTeEpA7ZfxWq2kKjsfrf2v0CQ4Iv-k2_pRUjX4ZotSWcLfcA-yXvWsxsbIqDXXBmt_49fk4iGlMmNxkB7bA6YwQVJphl0QMZI9R1h87eTD_KUHwP42-N_GzNXsOsFXO8TX2131SCgGhQBPB-mUpYp7-Ti71e3ozTTV7KgcFfxOzHMdom6Jq-36p2G2zN0lzrDVKeIBN3sI8oMsnBV9MZLmpkBYWyKh6FTn5IDkQmTejNZtu7LfjT--q4fzxliObnpIO9z8FqXs5YRoWAu8ZEBqsbzrwr3KK4glXvrdG6pi5tiXX31kg5tX-T3Wd8w89qM5G5XJ8JDeJPSQ6iX9EdzyIxJ6c4e43E93ZuBIfytFyaKleybKvcD3yAH4SDgqpqvgc68zbLnMF2YPUREn33aanXbfAf1Yy2P2WeyYzSRV6IlLg4pxOfW3j5unoBhsLG241r4CvvVwZSG4bY6Y_h1PslLHIj36vXnAU78NwRa91QK-zNV3JhwyZ_pILJmXWR1egsvhSxW2MUijco2CrGlwMQYu4lWBlKiNSfRxL4COEUpWbV2i0SYLPcEBLr-JiI1ixWivZj0HXy7JaPQT_pByMECuN_VFrVuc8a0D1Tmf3Uo5srA2uWXkf_uJ4k4AvdxrNiG-6jpIMFC1mgBQjwLFFV_D5jb8RHTcPoR2nvcZ8LdHTOoqiQDIHzcExUBHUDA4U0gZ12A8N-uE0CRr-ztNjR5UWZOB8VJgKL84JMn6Qdkpo5yUtDeQg9ENIiddVjoj2xbJByR5aO0dVv4iyR_jD_v2lKOM4lV6Z2vDAcNydm3BjOA38qJj_JoY84F71FljAaGqVj7EHSCHunedaraMmS6OJHKB6gM8T2ANAtKGPeHyxw7W2oqkRIlHyd7zY0IpMONRystH8Xo344tOQuRo4ISMS5AcFn4czhl5kCIE357OgPbgrKmOOqPwZPolIPDuXhQ-fu1IDfgcueq0g1DPDbax-2l6uNlstd11HZjGgZC4vWhMZsLFrUvyjKtfzK0Jw2wjcmDmfzCocQSEMiCw1B8Mw9XDei7cpCcoI-bHTCMcg7R2H2e6J6rwBQw_5ZP1_0TL867YYe-wpNxXqML88jNkYAIObaEhkl8LTXMUwl33yBYkftA9LmGheSqDEuucyy7f01yc-76--G1TwoO5q00MXIPSzDrO-RLDm8p5lYi_GSOK1jGGuWr1P1jYrvY-HGyeotRylWDuK9iHllMw_ktoQXAMyoGI6VPct-5ujtSjOUnZkUfSNpVvu5x9UiIWECbwRFCs737PxK6Z0xM-4O5oPLtf-h40aojkoXExA7NAjQBUlFKog0SPNDJ5kTQQGCUvtl63yKoDkSpHWzSQYJXRvNQHU3ZfwDbIhaePoO3dB9IxkRQNJqp7vecSJ7gAKlQqr2v4kENCASYicOGAacoGBRdgqiqDqictTzQ86y8XO-0SSRVf9lHS1V-kOmZDWZRQAU0I024S1QzOTlW9NyfGeI7I9iTR-tke2w4Ig-B7BiJwt-dHtStDkdVQNeXBakiU-d4_FNBtegN6wBKG84E0FvKpLKbbX6zH1evlNbYqpO_bVWZ9ssu10ekkKj0BCFb2M_7RZKLQkle8jGSJ_hDOYkhZUrk09GEu-60Ib-qbtO4MVilfuE1elDZKx-7tHsrI40d6FE-hsmfdZrykd3fYPzJnFZ9Lqxx2E5owCGxc0zCRWQO0b9MxaD5RvDMS8597fe6ixMN1vN_uGrM6jYWsEEE2Matd03E8bgGP57GhiDC0LYZujeZ1vEgpHqSfVAet62yDz-026NKbOxSrfTlboO9XtqUBhOTHD9e6GkKFuXKatdd2UJjkc0jz2582ifjXTS5TEbhqlN9a-4B9ZRKvGhaw9gL93irqS3UdrM8FwbA174hVCrFCMMvYeuhvtjbR9dj6VI3EC4ehq0tQgDqBJZSsUCvQbtCXaXhgAx3-Dpr_LJjeAsQBCl3ljKJov-V10W35fOGYxiXvmHFcrNxYAN7lWmWHzApOV856O-R0SiM5qEQRromsBMY6Bw8m4ZL7tb6K3BhmpntJQ1eO52Z9nbJQB2wd8ojVp5dx6OQYHEwGctNmErfSRloRd7HVdZ4FO9DBHE_HOmnAR0ErNqSnLQ4N5EbEfUBdLk8i75O3o6PGwz4CDUxTZ8A48F8F6Pp1Nny0D2FyfW1htYpgqJCxviFPWqii3hB4YOAT4hV2EjNUBD4LK8azAsy83-UjNeeI0YgXA_0Rlfd0sVGRB0PgGZCK4F7so1GJtkWg0trvhuR5lbZpS-_OzUhSTLvxccPxYvhRn3fTMfO_x0CeXVzBMN6JbdyHG1EA_535uNy6YddHPWnj5yz3qE29-1hn_WRXKtPMEDiIq-otkF9JP3B9dxnn1bD8n5NOx55AoSPGHMHLPgc1-c7xm_ev5pRUHYrz4Wsjho6ilD1jgPb97IGz0tg8o3emvWFhs8jPjViRWRDQDM42YPnGVAWGWuYqeK2tEHQUMTAVkI5frf5dZdGL9FZGST-HE5U1CfZaiFZrKyo97GNbxF_2hz1ukoHaOv3lpX0yRoljd7lIxJx2Br1ADgdIWLszMy8uYxftew2KohZh7JLNgmuwP7_36RqH29s2hqTWZdKdzL7TZYVt7d0u6HeGdUuRG5foBh1nVFzgQue9oVzZc8o3yhncj8iGMFuw25DSxvcGgCifIv4cWTlV-KL3foCdMDr6Hw2OceKW6yhgyhHWxNx_M1qtWCI8_fKidT7U_QyYrpYFA1C69wcRkN4v0dmh8Nxrjgpl2juzUkWU_EIX1og1pssvqNmA3zQUx2GhnEZ7inGNn20wF89VVh7OGxzK-D6LF3jyL5bAr0sGzak4hMdxTRh04HYTMVlMWDhmXkLshsucschvLG2qpYacS3wV-Tr6TrHPcuZnvsd1DoAR9CseoqMrXYIZOs2OQNouOA8vyH0LcJLZvZ5w08tHn1pVqHTIPzQ1b7PC1YcEaHJXbXybfb4b_gg59aQoFHBrdxQUnHrYATkTA_S1bH9ILi17bPLuBGhmS1FLaC3SiLegSOM9qNvp-j2L_Sf_xlujRDEIEk-DllVmZYkYMQXguTz9Yx0EciHJ4vADu81YJnIDBDBP7Kx2y6jTjv6wtIDPhTiV0gRsGLX27gfvYMME-65FErMiBOm79zrNnSgfj6PZEpRHTCVXC9hPyMiKBRaGGDpGGU_uGRRBiI_7LJ2_Pi2Qcc1i6LsM_NBaRCc31nBxtJVrm7vSdw3SiBYovDv7JyoRzTUkZySOVo2lH_0M_7eYj3xCM7Pcrg6Uolo79eklsFzOY7jFRXyi1Rnzi9RpTFfQCEbvCGdZACKe21pccpjPSjCISOneWsH5qozxPt51wxkiw5FotsV4_0FXWLOh_x3MwtlibqFcXio30Of7SHaLrALq2ZFgqf5u4QO5UGAEi_7k8wF9LtUAqo447Bzp_hintxOW_wsllxcILkECTE_DnUgidqEb1ebJVInJAXPlb-HS3nkC6KSvBHgAQgnEwflR5jZR771qAWwh4DlMRX7tlgDuVy7y4mk3IyNvYphrbLMEkKuqgkXax6A3medwm3RgkEVrjf9T9in3WkfzJh53w6AStc16DkSGTvuyljCqRDfLidm2OpTQfMyoklEKP4gA2IB4p0gyvLP4tpxFBzLsGbRPjk9RFnwSig9s67ZaMUqp19Ffv2nmt-fbHXBieZfEeek0eqcbnwPtmM901Tzt5W3Ft3IgqjiQQfmw47JQ_xxgrOxz93VgqQMD_C-92iegkSoto3Jdqbr7J3qRh7PXP-5nE-Ko4tv-Q7bGu2vtnFYrwSWPWdTL923dyccKv_PWpMa_Ffj39QwEMDbOox5L80FRu8KQd9_TAN9KwtUea7GFdb_m0F37FX2lUxwSTKpf7gfeZum1PjRXP8x2EJ1lrQ6xGw_tb4w40HagHknfu4Czbnk2u5mbGIN42PCRk0wjDnYhchbFwYi6YT29pfGOwTnZQJ_-zj8CpdZL1fjdibM8c_BFfEXTiCnnzGfTCj0FWkfwYWruby28cF7V3gek7TrQjNN8gOL8NZkCEPqQNQn1bR7DQX5_H46VhosXvsyom_olPpjzM1I_eZJSZSzGEBKCBG5_9R8ODbBmdST5HwaIB32ebKUp058pD-Pg03r42mJfwNwIMJbbIXrZKiZU0pgbVSO0Kpeko5Z53reb1a2AWSbK8sq6dF19HKjw0xndcgGCPvH4Wc6zSNRbPH4fmWAqfyv2_9wAObejCKoViRPKpdVFAK7FzZ1AkPbILhqcV-rjSV-fXxEOxheGd3BKrJ6r5vh_zvb6AdGTKcjU1elTRARXd0V1El9GcKotzhTF-mfBZ6eB-v6tPFc-IjW-uI7LmhMbeFVjlxTW8fN62loCLiSE6BbmA6O4IiNupl0MHEhxJA3rDAt-d2e1TDnOGc9G5z45GboodvL1BYgBMXZCO2R9nthlhrEL2BNjImAhUnpWiKQeHhW5aIy0KluYIXf18H2ndEpoSIfKn6AXD5vfftWKEXCOGFIZhbGGtN95e-a40_boNEQvGB4TjGHAltF6TtohAMwmb18-HfSGgIRfLt-H1aJp1degn2E--VNuYzulXdfC4TcfxAe1IfJxXW1EYmXUQ2gfG3rSn6SarufJrifUt5YGdkgefbthYrh7PJCcsPUp5HrfVMEPftTgxIAq2KyG6YbTUTGTLOSEUYtz6VsNkkHyrKqhU1GfyK9HvA2QZV68Q14mfDqwsYgMKyNTV3szM2G6AJBioO7UgMlwmKY4tqF2Icq7ejsWFW7_V_oqDgbEAlqSro5A_omXf6mEBjhlZvg65ZNchda62VD5YIlCgIwx9OeOKkYRohGoatjFu-v5kyABuSs8KoYG4fD1Bh5ggpAos1SiNJux6LB3ZFiMquFAe2MWER0G0LNC7dmpvPfbI3U54aNO7UDcDHkbhQt8gni5JzV-kfM43B6BulNPBRdyh7nEWsuS1UDjvsLECT8QhQ0G3aRubz-C5WRi85DTvPru3NsurNSJZSvyVBO4anMe79PGGDISK6C6Q6ctCbZG5hJSeoT5wl7GxfX98ZF_1JCA-zUbyZic3q_fYi9X_Trm1DKpvt48SI49edQ1JVEAGqTmgh3O_nidYAH4wpYgsObEq7VwWDDi0q9QRRmIyMZQ997c23QOtJOgdpGbLLrK97_dPTTx9sYtu38P0Bpeccws4k9hAM_xi4WyEB1jqLEUGxDH1tce3OjbttoHvYN1fA99PkOCy3xEfHIwfHGvh3GWIjfx6hf7dCJBqS7FSkIt3F2QLaw0UrRlB3LsAZgDtdweV5zShuURTySN4nfAD8gfM1TMgLalaodNecFcWl610y878UHjxmKqanYXu1uNpBrmMjZXzVmKtygX4kJqSZdrQF6Y_suQQyKRrLwScFcAXzmqfMq6jdS549pki2b0Txorw8WRhOTaU6n_pDqRDNTw_Ync-yII7R84_LUCB7QK6RQbC6g1sq6Oa7DJF0V2zc0YGFLBdzhelZRpSv8xZ_PFv-UVLbcWruBv_hZQoKqqrCnI7Uj2mNZWcI29zKGYc5c5BlqV_AgGeT80CaO3Ys3CrmuIeO75Jf9S6YcnfJsVnRWaTrSBeLk4DOs7L4oEmZj17WGTRE4zWlkjtjOcsc8Eq_UHSh-GM8_tHr0128eRG4-f7B9OvrUtUJnShRS-Njm8VC7IRYdWH90MVGlFyCGXTHGYaJF0Vo5uD_HuM7wuvJaNVNIIY_aEXKq8vvP2cqYr5r1gBKdAkO00JmRoc4KvNEAk8JgKtlmmcFxAOZlgXqajUvTMlQYlVAT-f98P7PDCkQweMF38qLt4ogQ0T74_TDZn5qNbT1m5nPUa9Zyw1mibCXe-Tl_0-Ti8qCAXGBAAPtppFv1e9X2TP1QPwjS6PBfgx64qftDq_LNtULnCfXJDmYziZAa7aoWqEhavU0WnLW3dKVGpsLnw5dWB4okriAes7nBtsutWW1uM_X8f1VsJVVqVP0DIMMtoUtK_O_HogeeFa9NBIR96_7f3hoaW4Wl3qPYBWkt_TE4u4Ywof7JJUbWDDwjKnq68l5mX0OsbbxKt7r2NC7SbF9QjCcktOnwu9cooEXZBnsm8XSTtAApnEf6UJOGzcAvQjwk4B6XPz3f9PJ1tXkV7Ps0MLb48aGRbkc5QZYO1nsSXIIdi3SeO3izNZan3094O2QUNBirv5tBpxt14pXRTmLdDZnLGCz6pmjtF7zT-9HJpwrkQzrLDACoatlIyr7JNMq4PGnJ3g4H8QNM6GfLMZ-jcajuucD6vwkJYnTRx8YQqbjQCqOk2NS0gCfAximT929QTxCX7bcW114jOLhm9RUUfoSyhKax41n4NmZK6WU3xGZLTmLSkWABMkaR86tJe1vTGpqCs_5aOXiXu_7yA7Kzy4z-4iGo-9XdnEE0N7c464k8CSj0DKLXwcc6Pqfe_m3-M7kGlUxonxykzpFtM4ZId29vr3n9QbLmIFxU5drG35L3riQIYO9-rjwLOwdq_uWb9nJzNuzYG_-033Kmiv98_6YPyhWdA4wup2iE0KMeVO867d00-61CUzM7Od8SgbGpoOkVaUoihHt7Q8NX1SRU-v0wiGLTueIYRvrGbifZ-JHNJ1-Dj-KeJLOpuR4Mur41Wm3vB_ndna-v0XfB3_RNv1R6IvbXkXHDt0DDP8y5jAoixUyoJrr6XY3lilLa1CGb8KnsdCRgICgj0edZW-YNzQNppkvnMmL2962fbUcNr2NqvL2AABdPICrBc5C6ewXtVAdxL3Vx8p58y_zkdwzW7LNr7koipk81czz6-7B2gMrCJ_ejJefPKW_uQDwA4uJj37Gc95Cm6OiOSzWY59iolEWBkfssRknf4lsYjwfejD9j9i4HTFJINZXjZXEndiXrbBINBGv-1D6Y8d56mDcG8abl0gTK1WJWuVyLLMjl5fgurbTk5Qj7i_HeDBwAOEGKuGttRQBRkC_LZWGmftmqWgH9NnH1VOQRaONN28sfUu-L7eCb6_uEO5Kxi-pKChPCmEVmiCVfTgGhjJup8s-4oXGnSklTkl3X5hD5c3MRxiELlktox09ATSsvFOqGdZDf4TDqiJaJzQQtZ0IcQS9EvhgyruolvxuaIpz_PIQ6sKZ9Zci50g4owUOd8vBf0NuJth3Qb0YPuHe5q7EG5A36tLrbFWs6ONACcYhuON4jcF6mBGbHYVki754hVRohpi8s2rqWW5aCnWMWLVviWKfJz4hnHGCZ9mT8CM9xpkya3LhccRESoNokVqMUSQnhRXOCYjVPWHcDbyuVTJQVUkRkeiGyZn5grHWUicW82Z5UvKgycAfKUGrTA1VXt15R9sByWGW7Er2CQQAKFTbIg0CoI4aOt6wXVvNJsrHSOcOGZ8V3WjDY9x7qovE9JX-Gp6QyWYNj9AdfoCUD_Kse7ZkNs1TtgMYoVN-xNCoL5ry4par8ng8eBurLcGeUtcZo5QbG_ZB5TO3YB_VdkBL1ngiVBxvMyEBawbkWGsD1D64Thwr1mngibTEyVuO0Gx7Nm_HtVlNBf8giYNfxMZqFE4BrFNQ10804Xpq9ARghAGZmx3KYDMfK8HF8vdA8prloqegFz0GBJwYwIszLIA7sIFikemCFcc2u1D2cptSn70wO-sDSYFMUW0t1XGERALWtPN5mlhpuxzwWpxWCDoAF-QfneD9Xpd7n2Hv25NNXdgP4Ivywcb8UXIbGP_1CFfcOoPP3AEsL5uUQeSXTaOf7mVjbkgpKNm_i0m4sBQS4igd6LNhgKNjNqFzAvWmuw1EL8KXyc_9EHY29iWuaB0xbjSOOggUwmHFWFaxBHUzwhvklwjT9L0STnLcJPO4qTYu29h2I9DTaPZgBqG0L-ZC5a6noc7oRjgEIsPngzaj2MIItNo38Fr97YxW9ETvzAU7VWnPvott42fjJ1f-_PENiEIStgfs0AuTIPzLTKtmAyJL0UX6RSFuSnvDIoD8Wnq6Vp8lwP2YzVJaqimlhNDbB13Gjg3wNfgeHqAD0zZddPB5A1uzB623Wyizu-gvcC6VO5EmdeSMzfRMQFB5pwsvK1tBw6LL_g_PSjD-IiZqDk3Clrh09GnXeWjB_AiE71DECLuCm-rV9wFIaddTuc81e4xS4ycKMBD59kZ0INveW9qJePBrPGzPlNxQe_QW9iIlfUvrxJQCK8q_uLg4-Rx73CA6S6Kr2eNIYyoXe-zIUZshdXagDdDezFSXs2fSGGZBeAxwUawGXXuCK4EcINVUqccG7mjvcMZvLWA1veDLsM1TfbLtfE-D20nZsNB6Z9buuZfWSn11PDXF1utEcB5rcQ08rVLwaEpSgmwCkZfK1DgQi7ifediUKJAtcqJdjVrxoOUMBZePNqywRH1FqsvoP3BkywQ2WTF_2JAjs6ZTfLe1Eg6mK-bl1UT0E3P9zUMQVwoeOffSlLviLUFaXhnXa204tmyLCnitUezFOL62oFnXOXBvRJgkeWfi2Zu4Q4Z0Bok8K9CoE_gqyfYkAUJftswvb27W96u8xmzEOkzAYjBRaTuZ-Y_ymMwFtSIwnTP84Rx5XTDs_LFrzZGEgJqawZKLMzXICi7d8JOg==",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "4bRqafqbCp23qtsP6ve76Ac",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 7846,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 156790,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 156461
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 329
+        }
+      ],
+      "thoughts_token_count": 6825,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 171461,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Session starts with student 'Eddy' and tutor 'Varaun Gandhi' on screen."
+        },
+        {
+          "offset_seconds": 3.8,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3.5,
+          "speaker_label": "student",
+          "text": "Trying to figure out how to move my screen out of the way.",
+          "speaker_name": "Eddy"
+        },
+        {
+          "offset_seconds": 19.5,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2.5,
+          "speaker_label": "tutor",
+          "text": "Um, do you mind sharing your screen as well?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 29,
+          "event_type": "system",
+          "duration_seconds": 0,
+          "description": "Student starts sharing screen."
+        },
+        {
+          "offset_seconds": 32,
+          "event_type": "app_switch",
+          "duration_seconds": 2,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "MobyMax",
+          "details": "Screen share displays MobyMax login screen."
+        },
+        {
+          "offset_seconds": 39,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Perfect. So you can start with it and if you have any questions, you know, you can raise your hand and I'll be here.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 48,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Student camera feed changes; a different student (Takoda) appears wearing a blue shirt.",
+          "details": "Zoom label updates to 'takoda'."
+        },
+        {
+          "offset_seconds": 50,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hey.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 52,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey! How are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 54,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 56,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you share your screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 59,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What?",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 101,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you share your screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 103,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yes.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "Uh no, why did [inaudible]",
+          "speaker_name": "Classmate"
+        },
+        {
+          "offset_seconds": 115,
+          "event_type": "app_switch",
+          "duration_seconds": 2,
+          "from_app": "Zoom",
+          "to_app": "Zoom",
+          "to_window": "Sharing selection",
+          "details": "Student shares the Zoom window initially."
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good?",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 119,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah. Now move on to MobyMax.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 122,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "from_app": "Zoom",
+          "to_app": "Chrome",
+          "to_window": "New Tab",
+          "details": "Student opens a new tab."
+        },
+        {
+          "offset_seconds": 127,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Clever bookmark",
+          "details": "Student clicks the Clever bookmark on the new tab page."
+        },
+        {
+          "offset_seconds": 129,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Zoom popup appears asking for permissions.",
+          "details": "Popup: 'app.zoom.us wants to enter picture-in-picture automatically...'"
+        },
+        {
+          "offset_seconds": 130,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Allow this time button",
+          "details": "Student clicks 'Allow this time' on the popup."
+        },
+        {
+          "offset_seconds": 135,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "So everybody should be going now...",
+          "speaker_name": "Teacher"
+        },
+        {
+          "offset_seconds": 137,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "MobyMax icon",
+          "details": "Student selects MobyMax from the Clever portal."
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "view_change",
+          "duration_seconds": 10,
+          "description": "Clever logging in screen transitions to MobyMax.",
+          "details": "Loading animation visible."
+        },
+        {
+          "offset_seconds": 152,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I'm on MobyMax.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 154,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "[inaudible] talking to you?",
+          "speaker_name": "Classmate"
+        },
+        {
+          "offset_seconds": 218,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What?",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 220,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, so now you can start with the assignment assigned for today.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 224,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Assignments icon",
+          "details": "Student clicks the 'Assigned' tab (book icon) in MobyMax."
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Assigned?",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 230,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I don't have any assignments.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 233,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, you can go to subjects.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 235,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 236,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Subjects tab",
+          "details": "Student clicks the 'Subjects' tab."
+        },
+        {
+          "offset_seconds": 237,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Math icon",
+          "details": "Student clicks the green 'Math' button."
+        },
+        {
+          "offset_seconds": 240,
+          "event_type": "view_change",
+          "duration_seconds": 4,
+          "description": "MobyMax math module loads.",
+          "details": "Loading spinner, then shows a starry background with a bunny."
+        },
+        {
+          "offset_seconds": 244,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I'm in.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 246,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Green arrow button",
+          "details": "Student clicks the next/start arrow."
+        },
+        {
+          "offset_seconds": 248,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Lesson item",
+          "details": "Student clicks 'Add within 1,000 using place value charts (no regrouping)'."
+        },
+        {
+          "offset_seconds": 249,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "student",
+          "text": "Says 'Add within 1,000 using place value charts, no regrouping'.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 253,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Green arrow button",
+          "details": "Student clicks the arrow to start the lesson."
+        },
+        {
+          "offset_seconds": 255,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 6,
+          "speaker_label": "tutor",
+          "text": "Okay, you can continue with it and if you have any questions, you know, you can raise your hand and I'll be here.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 262,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Takoda"
+        },
+        {
+          "offset_seconds": 301,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Ones column input",
+          "details": "Student clicks the box under the ones column."
+        },
+        {
+          "offset_seconds": 302,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "9",
+          "details": "Student types 9 in the ones place."
+        },
+        {
+          "offset_seconds": 304,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Tens column input",
+          "details": "Student clicks the box under the tens column."
+        },
+        {
+          "offset_seconds": 305,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "7",
+          "details": "Student types 7 in the tens place."
+        },
+        {
+          "offset_seconds": 307,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Hundreds column input",
+          "details": "Student clicks the box under the hundreds column."
+        },
+        {
+          "offset_seconds": 308,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "5",
+          "details": "Student types 5 in the hundreds place."
+        },
+        {
+          "offset_seconds": 310,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "Student camera feed changes; a new student (Lester) appears wearing a red hat.",
+          "details": "Zoom label updates to 'lester'."
+        },
+        {
+          "offset_seconds": 312,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Lester, how are you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 315,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "How are you doing today?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 320,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I can't hear you.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 322,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I can't hear you. There's some issue with your headphones.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 327,
+          "event_type": "inactivity",
+          "duration_seconds": 2,
+          "description": "Student taps his headset microphone."
+        },
+        {
+          "offset_seconds": 329,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me now?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 333,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Can you hear me?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 336,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 338,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you share your screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 340,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I can't hear you.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 343,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I can't hear you. There's some issue with your headphones.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 349,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me now?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 351,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you share your screen?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 355,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Who me?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 356,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 400,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "I can't hear you.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 406,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "There's something wrong with your headphones.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 418,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you still hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 422,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Huh?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 424,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I'm unable to hear you Lester.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 427,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Hang on.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 440,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I want you to share your screen now.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 444,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Huh?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 445,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I want you to share your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 448,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "My screen?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 449,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 450,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Am I?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 503,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Which one do I...",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 505,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I can't see your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 513,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you call the professor again?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 522,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um, can you call the teacher?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 534,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Teacher (Ms. Beeler) walks up behind the student.",
+          "details": "She leans in to help."
+        },
+        {
+          "offset_seconds": 537,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "What are we not doing?",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I'm trying to get in MobyMax.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 543,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Well look...",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 546,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "There you go, share.",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 548,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "What?",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 549,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Is it sharing?",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 552,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You did?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 555,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "I can't see it.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 558,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I can't see your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um, can you call the professor again?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 609,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um, can you call the teacher?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 613,
+          "event_type": "inactivity",
+          "duration_seconds": 15,
+          "description": "Student raises his hand to call the teacher."
+        },
+        {
+          "offset_seconds": 629,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Teacher returns to the student."
+        },
+        {
+          "offset_seconds": 633,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "And can you also tell her that there's some issue with your mic?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 638,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Um, can you tell her there's some issue with your mic?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 640,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "[inaudible] ...need to put... on that.",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 645,
+          "event_type": "view_change",
+          "duration_seconds": 40,
+          "description": "Teacher leaves. Student sits looking at the screen. Video feed of student shows inactivity.",
+          "details": "Note: Video content begins to loop/repeat around 07:30."
+        }
+      ]
+    }
+  },
+  {
+    "sdk_http_response": {
+      "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "content-encoding": "gzip",
+        "date": "Fri, 16 Jan 2026 22:02:04 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "x-xss-protection": "0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-content-type-options": "nosniff",
+        "server-timing": "gfet4t7; dur=99584",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "transfer-encoding": "chunked"
+      },
+      "body": null
+    },
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "media_resolution": null,
+              "code_execution_result": null,
+              "executable_code": null,
+              "file_data": null,
+              "function_call": null,
+              "function_response": null,
+              "inline_data": null,
+              "text": "{\n  \"events\": [\n    {\n      \"offset_seconds\": 0,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"I'm trying to get in MobyMax.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 2,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"MobyMax.\"\n    },\n    {\n      \"offset_seconds\": 3,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Right there.\"\n    },\n    {\n      \"offset_seconds\": 9,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 2,\n      \"description\": \"Lester gives a thumbs up to the camera.\"\n    },\n    {\n      \"offset_seconds\": 13,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Good now?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 15,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Good.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 16,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I don't think you've shared your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 19,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Because I can see the other students' screen, but I cannot see your screen.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 30,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Three?\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 31,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 35,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"background\",\n      \"text\": \"He can see the screen?\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 37,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I can see the screen of other students when I go to them, but I cannot see your screen right now.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 47,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"background\",\n      \"text\": \"[inaudible]\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 101,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 5,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay Lester, is it okay if I be back in two minutes? I'll just go and talk to some other students and I'll be back.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 105,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 106,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 107,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 107,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"What is it?\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 108,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Well he said he would be back in two minutes.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 110,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 111,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Lookin' at the other kids.\",\n      \"speaker_name\": \"Lester\"\n    },\n    {\n      \"offset_seconds\": 113,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"background\",\n      \"text\": \"Okay, we're gonna try.\",\n      \"speaker_name\": \"Ms. Beeler\"\n    },\n    {\n      \"offset_seconds\": 116,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student Raysin.\"\n    },\n    {\n      \"offset_seconds\": 118,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Raysin, can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 123,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, can you share your screen with me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 125,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 137,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Raysin starts sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 139,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"MobyMax\",\n      \"details\": \"Zoom window moves to picture-in-picture, revealing MobyMax in Chrome browser.\"\n    },\n    {\n      \"offset_seconds\": 140,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 0,\n      \"description\": \"MobyMax interface shows a math problem: 'What is the missing number that completes the equation? ? + 3 = 6'.\"\n    },\n    {\n      \"offset_seconds\": 143,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, um, can you also help Lester with this?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 147,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I think there is some issue with sharing screen over there.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 150,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 153,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Radio button for answer '3'\",\n      \"details\": \"Raysin selects the correct answer 3.\"\n    },\n    {\n      \"offset_seconds\": 156,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 201,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, and let me know if you need any help, and you can raise your hand and I'll be here.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 206,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Raysin\"\n    },\n    {\n      \"offset_seconds\": 207,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Raysin submits the answer.\"\n    },\n    {\n      \"offset_seconds\": 208,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer animation plays. Next question appears: '6 + ? = 10'.\"\n    },\n    {\n      \"offset_seconds\": 216,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student 'hummingbirdpaul'. Screen is black with name only.\"\n    },\n    {\n      \"offset_seconds\": 218,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey, can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 220,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 5,\n      \"description\": \"No response from student.\"\n    },\n    {\n      \"offset_seconds\": 225,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 226,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 6,\n      \"description\": \"No response from student.\"\n    },\n    {\n      \"offset_seconds\": 232,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hello.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 233,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 47,\n      \"description\": \"Tutor waits for a response. View changes to Tutor's own video feed at 03:20.\"\n    },\n    {\n      \"offset_seconds\": 336,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student 'h101203'.\"\n    },\n    {\n      \"offset_seconds\": 339,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 341,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh!\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 343,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh, I'm sorry, did I scare you?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 346,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Sorry.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 352,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me right?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 354,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"But I can't hear you.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 357,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 398,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 405,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you please share your screen with me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 409,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, who broke it?\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 415,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Yeah you.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 416,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Bro, look at this, look at this.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 420,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Someone broke it. I mean...\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 423,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Ego.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 432,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"No I didn't.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 434,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"You did that.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 439,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 441,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, by the way, how do I pronounce your name?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 444,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Uh, Joseph Holliday.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 449,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Accidentally put my password as my name.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 452,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Oh.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 454,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 456,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Um, I want you to share your screen if you can do that.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 459,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Alright.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 506,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Can you hear me? Oh yay.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 512,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Student starts sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 516,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Got it button\",\n      \"details\": \"Clicks the 'Got it' button on the 'Your microphone is disabled' notification.\"\n    },\n    {\n      \"offset_seconds\": 526,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, can you...\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 528,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 529,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh yeah.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 530,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, can you go to MobyMax?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 531,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"MobyMax\",\n      \"details\": \"Student clicks on the MobyMax tab.\"\n    },\n    {\n      \"offset_seconds\": 535,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, so you can start with these, and if you have any questions then do let me know.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 538,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"student\",\n      \"text\": \"Okay.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 540,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Speaker icon\",\n      \"details\": \"Student clicks the speaker icon to read the question out loud.\"\n    },\n    {\n      \"offset_seconds\": 542,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer option '3 - ? = 5'\",\n      \"details\": \"Student selects the top option.\"\n    },\n    {\n      \"offset_seconds\": 546,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer option '5 - 3 = ?'\",\n      \"details\": \"Student changes selection to the bottom option.\"\n    },\n    {\n      \"offset_seconds\": 548,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Answer option '3 - ? = 5'\",\n      \"details\": \"Student changes selection back to the top option.\"\n    },\n    {\n      \"offset_seconds\": 549,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Student submits the answer '3 - ? = 5'.\"\n    },\n    {\n      \"offset_seconds\": 550,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Incorrect answer feedback (Red X). Correct answer '5 - 3 = ?' is highlighted.\"\n    },\n    {\n      \"offset_seconds\": 551,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"student\",\n      \"text\": \"Oh, I don't understand.\",\n      \"speaker_name\": \"h101203\"\n    },\n    {\n      \"offset_seconds\": 556,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student 'Lester'.\"\n    },\n    {\n      \"offset_seconds\": 557,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Lester is waving at the camera.\"\n    },\n    {\n      \"offset_seconds\": 558,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Lester.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 601,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You're on mute.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 604,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You are on mute right now.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 612,\n      \"event_type\": \"inactivity\",\n      \"duration_seconds\": 38,\n      \"description\": \"Lester looks at camera, tries to talk but is muted. Teacher walks by in background.\"\n    },\n    {\n      \"offset_seconds\": 650,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student 'takoda' (referred to as Eddy).\"\n    },\n    {\n      \"offset_seconds\": 651,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey Eddy, why did you stop sharing your screen man?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 699,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Takoda (Eddy) starts sharing screen.\"\n    },\n    {\n      \"offset_seconds\": 750,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"Coolmath Games\",\n      \"details\": \"Screen shows the student playing the game 'Drift Boss'.\"\n    },\n    {\n      \"offset_seconds\": 753,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Are you playing a game?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 800,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"I don't think you should do that.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 802,\n      \"event_type\": \"app_switch\",\n      \"duration_seconds\": 1,\n      \"to_app\": \"MobyMax\",\n      \"details\": \"Student switches tab from Coolmath Games to MobyMax.\"\n    },\n    {\n      \"offset_seconds\": 804,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 5,\n      \"description\": \"MobyMax page 'Add within 1,000 using block numbers' with a video playing.\"\n    },\n    {\n      \"offset_seconds\": 809,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"You do know these all things get recorded, right?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 813,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Student clicks next after video ends.\"\n    },\n    {\n      \"offset_seconds\": 814,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"New problem: 'Use the model to add. 283 + 633 = ?'.\"\n    },\n    {\n      \"offset_seconds\": 816,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 2,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Yeah, so every game that you play, everything gets recorded.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 819,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"6\",\n      \"details\": \"Types '6' in the answer box.\"\n    },\n    {\n      \"offset_seconds\": 823,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"16\",\n      \"details\": \"Changes answer to '16'.\"\n    },\n    {\n      \"offset_seconds\": 826,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"916\",\n      \"details\": \"Changes answer to '916'.\"\n    },\n    {\n      \"offset_seconds\": 827,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Submits answer.\"\n    },\n    {\n      \"offset_seconds\": 828,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer animation. Next problem: '190 + 99 = ?'.\"\n    },\n    {\n      \"offset_seconds\": 833,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"9\",\n      \"details\": \"Types '9' in answer box.\"\n    },\n    {\n      \"offset_seconds\": 838,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"19\",\n      \"details\": \"Changes to '19'.\"\n    },\n    {\n      \"offset_seconds\": 839,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"189\",\n      \"details\": \"Changes to '189'.\"\n    },\n    {\n      \"offset_seconds\": 841,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"89\",\n      \"details\": \"Deletes '1'.\"\n    },\n    {\n      \"offset_seconds\": 846,\n      \"event_type\": \"keyboard\",\n      \"duration_seconds\": 1,\n      \"action\": \"type\",\n      \"text\": \"289\",\n      \"details\": \"Changes to '289'.\"\n    },\n    {\n      \"offset_seconds\": 847,\n      \"event_type\": \"mouse\",\n      \"duration_seconds\": 1,\n      \"action\": \"click\",\n      \"target_desc\": \"Next arrow\",\n      \"details\": \"Submits answer.\"\n    },\n    {\n      \"offset_seconds\": 848,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Correct answer animation. Next problem: '246 + 725 = ?'.\"\n    },\n    {\n      \"offset_seconds\": 850,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 3,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Okay, you're doing great. I'll be back in a few minutes.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 904,\n      \"event_type\": \"view_change\",\n      \"duration_seconds\": 1,\n      \"description\": \"Tutor switches view to student 'jaiyana'. Screen is black with name.\"\n    },\n    {\n      \"offset_seconds\": 908,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hey.\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 910,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 1,\n      \"speaker_label\": \"tutor\",\n      \"text\": \"Hi, can you hear me?\",\n      \"speaker_name\": \"Varaun Gandhi\"\n    },\n    {\n      \"offset_seconds\": 912,\n      \"event_type\": \"spoken_utterance\",\n      \"duration_seconds\": 4,\n      \"speaker_label\": \"background\",\n      \"text\": \"We have to do this every Monday. Your teacher is supposed to be back next Monday so...\",\n      \"speaker_name\": \"Ms. Beeler\"\n    }\n  ]\n}",
+              "thought": null,
+              "thought_signature": "ErtgCrhgAXLI2nyej1K3cAKVZJsilOGiYIah7PiEpysc5Yq7r4LTtRoC-em4AxTGS935HVjhPJ9HuPeWSmmwgti6mOTe8hXUhEZLgI-vyvOVfm9jeGgNMIEIkOk8DVGmQ1FgZTt1IPYHoxMu9hFmpCmEsnyQPFZnoZKEzpeNh3Wwku9sILTWKk2ZnLkpKo3h4V_QKVUQGeLoFpSlgrl7draYOz7cWrZRtzmkHg6m3zqMtxhoPcIqD9hDDChUgIFw9Ii9j3Tx5U-NGByovUqiB2Kugu6GsLfPvWMluc0LDRWqvbzm0wzIs-d7Q28fMfJz26P1RwwXuF_lWIblOqTFBpS2kWipDXzVHLxxC_Y6FUK_yLchNArTCJ4USBI9Ax1wdGiBU7yOw7PFu_mqsU_KP6ZIr8HcWL20KtOPUd2Iuc2oCjt3NB7Ljl0kc0YxoK5MJyA6gO54dEK2RrsJeEbWiWtc9LZi_cwY-1VNliGQWJrYsbzNrW48zRq8LrhFi0dNxvd5Hts3hBgAJij8_zpQUkwdjZ5mDBFOqZPVI424RvNjLCyIrE3AS9nb6PwPEGmJbYwudkBSx88wyx3WEGDKl6unhJuGoHo9CelEac9QogOgSAUHm9NYXOxPpAKmoEbfBHjn_750jpde0yQxR0_j6w8SVEXwCLvRl0-bgQ5dM71a-AHBJPetKjneV9oIEQqfYl4AE-Zb0i4F4V1yrq8VJvAs6UQymD7-qJ7r-atL5XponrZj64HTMHgn47n9hT_kYqjaKaPZTtCV4ItrroQVTiuZvB_1SVOihTtF-pRARCEJaHWOgd2d67gaKj4fsdeS0YJkfbDIcOxY88UiC172a1ixZdOU2Vp0aM6FJXe2biS627PRY-PfJO2BxBAAkqG702GFMCEtYlH0pU1rhgXPoZO7bCQD0_vYXaI130MNR25dh4njLqNqkasRnrUzA-GVTQ698hD12RQ_MugoO0ZYBR0iB9Fr5-TqXoD-IKO8x_mbm1amqWGfbBMh0jbIn4oQ2pxPVDZfFnyR6t8jAAW19pOd2P49P_0xoicSFWvrwMryUiKw6W2OJjE2cXxFdSxc9uB08mes4oexPVy3-Pfzvxn34fdpLsUlpdqM1-XEaq8wvMq3NecahB01VLvQKOUdFQ4Teji298J963xs2wyqi8MNAM5bdTdkztgN6fUyvLmteskCGvSulK-KuypBAe_k40cGgAQjzpVEkg1MHbP4zJLFKUtyabG_vRvuwHg88qRWb0ZloYFCo_1kXcI6wJSC4gDMURPnvaNGXIwKCC0hY6guIJQT4K1kaoY9M1Dm6oC1oya5YDoOE9DTN_hl23yOy1AZ8IE5HyMEsmL4RNlBjvX4vhuuxtMRsD4N4V6ebZlJHjxybe_ig7MTVTNQlJGyv5sljxbNyB8nMST10MCOyY2rGrClfNRvivodvTF0TchCmyGUep2Dhs72J_nmWC5X3ssh8bsjJzSPIJSqSfSVJTEMtZfVryOaGJq6Rd0wjK5sqt7wD6UGJ9sXVAt7Y_1l_C-rVRDg8ra_JtMYAB4svSOq73DggVRTaRtzHzlk9MWVBVhOGmaz6ni94UbEnXsX1_-qJ_O9jnaBjut4EwPMZICRcHlxTryklfA9Bxbm2L5DyfHi7pbjj-O3pEoMVoevJLZMqW4vi1e9BxJDYUvwd6cu3u73Q6z-tiSbfTZD0CJ8dSQN1sLJcHjrmqa5Qhj58VOqswaIXEyuTvxTPHe3x54EDUoXHUzHQb-3RP6RMyChZzvFWo5xThJAm6qxnRhlyBEJd-eVYA48aqM_mPO9GSZFCFA2MS_J0sdD-giz80FoltPLnsx6lli0UreI3TKfjM3ZxAS1LON_qyEV6LW4uGSa3DGXNYx68aQwYuXbAffcPIhDXiDA1qcFsOhzPpKUPokm1iNNbSNw5k2QMoShfwLwPWrBOx7RFmTtBhm_6LXOQveqo_MGlkthYuvz618WlkgryHoH4U4kGFqTcTh4pa2NszQ_Z6PP_2ldeznqt-sJQuMMdJBzAYIAfJM16zzn57Wep8ylbvC5hoLyWJ-aAreDxLgoGqqW6AzjBfxfpLcXhqC4slgkMnDczmL7eNcD9z-S8e7L1TzRB8DHBZiZ_evJxrOZ9eXznudLzgLKKB2w0NlDIdFx0pMHdOz7CgWdndWvdMAUkAE-5i1nAH73Qy5BZbCsjESIJ4f61CHLUgJzBdlWxx-mWcl1pDDy9hSNuKzVOOGMk_x19nYefUZ1rFpvUWCTDt5Qf8AH1TGyFDbpH225xn-clyhagPzkHfM9neVzk0PDzgRTzDCS_PlNBu11b_PdphY6fJ6th-T8qWH4_z71inqVIpSzG-InZIBi_NpRpqrjUycyc2-TWUY-d3aV32rUD-mdgbomRasJ6sRYPkZbSLUkieSW1VEqa-0CPPtcBjkrCFAaEaxNapTR5i8FuyvWXb3Fevkqe8GAFHm6rEA_ItINHBadnbPTDHdTULGNJmbXFzaOYmkhVZX2FGnQQPohefEhANAjLxcDv3BJHRfrKBRxs_Tk6Agc_6HheucnR7vxrHwmS3r9ZWWkxMnNiX5-gkN7y2_Mz1Wllpwg0DnmYU7Mi5o6A7S7Y6SrplD7mNPIXE5huydO8oXa0g5KScm_EMJ-LhicDPc3RKv_9ZiuH1X3Hm5cC7yBbVbcxBaFqQZjFmlkTPF-oGcZtGTmOMBmjMlyGUxcLX9sh77IaeO2EluRt5xn1PtHoiUpisYUVsMg38tJgTV7Yafut_uetapeKgFdkmCudFSa0y6ewvUiLwTfc4ps9r8__Mn2zpQn1iJuc_H3ICrduAZFhhXYZmH_aoN1GIqBh-yV8NBVIy0a4jnlCOobz0FL4zDzKsOWQ8XCpA4vrTfD2bqcnaTXdp2Os9GpRbPy_LGGcQC7K-_TpgVOhSGphNbO3a1PCFAuZ1kT2PEOBdDXiSi3irmLfba4NvsD2ipFR8mumAACLyzO7WP9eomlE-c7zaEmSJKzm7dSyaiq48_v0WK9rqnQjQMtEedMIapDtsszmjd7MqSZ4wssjMWfBle5ScZYWI5TKj9Of72sstodFoB9nnLK_djZFLYdaJ2x1kuillxWlzvlSL4vfUPjNQJ20YYXlESSfJSkOIL7V8jKXcLfF8Na6nvnSUNkL4dsh4OYd4TKo2cgP7FgRgAsJknEOUM-3hOuZAi4QSoAtWhVU2iC1SaKsVU6AlQrg4uHKIygoDHbYsRK0IdP-GRF-5jj5gmMw3ME1FStGmVIUp1fpD5a8GP5OKSBwrpIvTb6AOIiEp3puEgoUyYt73Rfdr7oquObHxjGA8n2-gWKjTN6Mc-f2Y-dFIKghjLLMxRgvIPS8Q260MUAO8f7Ay4R-BCB1pzOWATfO1sabOZZxBjXHeR7TbDbupLfKeq5WcUxXtb7fCuMxTjJIT3xoB-ArX7BApZaLkzh7mxUFJFz_RiQOm6wJ_tp6ChB17AmVLwIU33uaedngLh5q60DVCP0bSGmpUH9xhd2nv5zZjxOxouJP8I3kC7FBqtxUHfl6jvoI9eZsN-zXPCdQfRhovLNXqXDSyoaPgmpQuXZWJGE2GxVUvA6HfXu2ZC8BuXrDiF0DFbSCshxW3TBFphxTyNdH5-Gt15_MHmBohFvwfA8qXu4Ox3Y6ybIOOR3MSD939KVrATJidKjgjdRNm60VsaY3YHvwmYP25qfBVHEVQJv7SNK0uZweVt0-bS3r_m-peDZ5xUkkD7xzQ4LgIydbrlAzChPH1wEDZQvb51Q-QhT3zLd-FHsrwpVi7omn4nNZdhEvMpsr7u6Lf3Zj-3Rpq6i6tXoI0FW42sTVOFgVc8ELksPS9lvFkC3BysYQGdD6gCMkk-RbYhBzMQlUcYzNBeJYZtoW0_FhSQgkyg8rXFrnfZdEehWyNyfCqF93XOfBmYPYP4Kc1Vatx-jnfHBIcENqHm4cjI2QMHrEI36onW_XjZaOf8TEuezPIdQIU6-s66APf8IG9u84SflwiLoS49T1pAGEfdImu9_EKwSdn-Yios6JcUv00qq_OtfNuqKykoj6npAgUKL43-iTMeLFdCLGQRpyW4f6yS4gLwf67HhNTveISO5ikrDeioOB4XSpFzvYXUjCAZXmUyhMtcP0DkLwjXwKtPnFfBTVy7VNZb0m1UIBglucv8jbSgMf_F5Fv38XV_R_BtuYtngQW3ZlzqiJGoZG1dksbGHRPzz742VUA8wwJFR5-xZRAbKWZbk_yN_3RQ4kyigoHXZg1UqaPKgFHTxi9em8NVsp2IdjETGxAw5yjrlZis3YKMF1-Um_p4-vDhSem1c5dkpWx4L5c7naCXAFq0P2CY6c-G5u6xgekPL2kBRW7Ojc5_sM7olubz6ourDQKZlo2euobaFUFgADS9vw1w6aqBKkowPNNS0f_hQTpRnICD0HmsZ8mtjGAh51bLdrSeLaEW0kQ5E8gQZItzbGGCHGt9_aiifJpl1N6QJkExLFhRu6Wty4TODvYP2hBmwTlSoQ-X7wP0SlHzBVtSQxIolo24Xwn9dkg2eNSUFo6Jr-oVWKfAxWJwRWPaSEvE-Dp0ixc7dSMM-jXUd6UD3M8yfsET256ykpgJNQVE1z3l_JNeCpRSX7adx-Yacvkoz8DSa2n0YLYvthWhp2QWLBZAJwPY8ckZXYWGMTQbPWmAwyfqQNvbABUorhAtG0EugYl9wc5WzdLRD5FJMlQJM8K9ehi89cmKkUoVr7m8UiMLuOIFBiGigqErS0-UYoTSrgE7p7ENqIWhbHK153Ze0qW_t_bjjwt2wB8QW5MtoocoZmRZG5QIzj3zpyOP0NAXDbHhlzRaeOvsXu2jvL1_6Nple7kO0palI-tRswz6BByXmEANYIeVTAsDrtEAHdF6QZz8u7WHCW87pxRcLQS4LMXciV-TndLK30CW6Dhr7hyYXtqHk_AaK6SGMRBY6Slxqf0yA8uR2L4x1Kw0meaVjtUCAzVf3ljCBKM4v2PZfEPxOnndXsRImaZXHdWFw6bqNunmyUNZcWy46la-pf4bCdE3ChtvdU15ywrdlFVDf5TnfHK5-4hpWbax04wU0z0XcOj_fNdN5zLST6FkZ09CrVGwrfMEr_BVW1QUJ0Z5wTtV9WQdnfh1afRzOPTL1XnfNGpzIarGT-ak2s7art4vJGfdiPeQHaBQ7-zEkYJ1_HKD45oM1CNgGz5AGjeJe_RHWyRsdHpX1TIqFKE0YrZ8CfiMVD3FzWfL9gbD_1R-QBUhByewtPVZfsRol14DVbMimSIFcc7uyXl2mQ4ri_xPYjQM1x7a1Pq0imHJDc4MbR8FYpi3lq4tlo1RhwhTDBa3TzmePGU4Qt8QPo-AEarVOoC5OHcO3_LAfNty4dmoQweQCTjG6jvQ4GkvIkBV9iZiFMDAeK1OP4SlHvaCH_XBeyvtHzhz995_veFNnTZJS9RCjOiHRP1mwG1GXjA42t4Ziw9iQQn70LN00J2GrxBNZJCBjKUC0Q5_TPM9U4p1EdA6tmm22FAKiuoCGEMlo5vvIZIo87OC3TMJst3HCkCWtt0zNR6d3m4w714HHOEwDvEQZqlnBz5zXPJM13Kwz4qUKNdDo7EN9QQJ4s1Sa65FnALcYZNhU1wfR0Mp6qIWErJRmTQerHJ7agalojky-e-qC1ahEz8WivQJZq4TzRNJ9mjKLZs1pB9zxbJG3pcbvRVE1S5_DaUnxMt7NIA4oCdpB3iY8XAEqsTAdpAxrJX6FTlep618MDE_gnimsaJ-Wiul2Zj0YN-gsTVBRvfad_G2K-UKThbL9C-2tGv-dR5ZqlqePGBd61wETJW5fEdgkII87QS49jlEfSqdNNW9Fmza43FrxZynhPKhDBnFQ6kq26GChoJEzAExa0zHtKMAqsEmSyCaVI663E-pZG9mDJyCFidpyxunEYRtT2AWQxJmoZt4ZiEQaKx6LyV-C6BsFsmuH27ZQ94sZTUaopeIVLB0fC6PE60ch5o64l35ANyVeiH7X0hA88ZSfB9JBgVxv1j5bWnDXpMU2C57RE2dDYB5GIEY-T6yP_3VAQvOMBShjaFXjVcZgceHunSx6wXGAY5F-Dxk8sTYUmmaLhtfvBsBJEyV0Fp6tzg_Evi4ehI3S67Szlo4twbwxDCLksgFegob0yRRA9DyXLMSev73rEv2oZaHBP0XEVZQJVrk-q5yLH6AymhdpMpJfDSCj7S98yxysV8zMNd06pabjAyY5pzsS4PFqf8FHB650SkjYbTeuudG_QMZGhWid1MdHiXnvzST5cqlp6ddQBYzxoMm4KZ9U4qm7q6-RnUgUV5Ryro_dMTbBPtpetHG0U9Mdt8M0mnbs7e9YGxinZhfdC23SUQsyu1OB3DSSfcyJIYoKQBWlTgpPn4_qBZ4y8IS9kFTK3bBlHBM-Aw56SIwFAaV8HVaXIVce0osuhUQqflO-NFrcwlJ-hW_q-yUJ53wkPzNGMVlJk5LbKYnRLLxGTBAsh_rVddz9c-O106LSwE3OZivIaH2yUWGA_pLsniz6_OOjPZEgc68zzTUxwdT1_mhFIa6Lh1qFxmv4NufIYJKOqxP1msPhn34iRTvlJCGTeCMZhkddu9SKxudewG3nsEdX52SPiQq-8M4HSYKNBvZOj7-UWz722VrFS1OuVSP6PW2c4roJZR3zZJ4XLBkZCiWWeYX6ZZzrRFMPTO05ivGDLY9jUih7D0bU5WI9rAdSvqp_66Z5bqnWZt_nczNDCQTjvPG0oQ3ArjAd9_GY7RaAynnyDtYbCv1RAj-4fp8ntpsBXcxx5-yScg7YbvmoympUzubJp3aEW9K1eYW_YKzroydddE0WWvrzIF_sTzBn6suTq21UnwsrfDoPbVAclLiNXb6oBuena3Phz2nBgCfXSqmvoYs00nch-qIEVQCsbEKM07wEnhExgCMRXMgJIOpo2OV2dXlXAgr7VX-NmzuHzJ40y2WD9KFu6Gwz7M9jnp4RWn0Uttx6oAp7C0-qiu6W82I4Ps7pWf5Bewh9kDV8a3rC0lEb31OkNRtv-RZ7lEtXob6ATinElKVGWX2fZH4hfcyjChk0kbyW9dQQStP5F7ueW0bDdjHEsHSK8JWYfutjo8_F_S7EwCI8uI4gN4oBJbnNuvDUNi99W25J60GOptMOU8wOGeIexR2KgTjpunXULKx5hBqVN9H60l-Nx_268Uv22YVfiGbti0vOJrX-pRO4jnpx4xKlVttHYxMs8szJU7AK_BdTp2hyA71Umr1q-HO_MrzRaBenxDNa5jP5Ubn50J4Uk1Wx3lq_AJfS3jrNbtT5ESsmWWoMv6JbvdEB3Uo_ApYX1pi1Zya3M1pD4aMzpvHwN2cvZqYffqquQqHCBsOt1_WHurIJ8l8vk-Ee5GHq0RfLit0xU6trCIpnXp0JfPdf5jaVoc47lV9IkS88Cwa48nx8_VUynVcGVs0aB39vPnJiqXV0HacrmcrZxC2BEV-cGVOoTFZT8UZwvfrO2wgdng2Kj-x2q7JFnsa8Bs1RrZRAR3XMRplHIqYc73kGCsPLbUGgA7PEd7v-PZ0ceCLzUpyetCcHgqiMYe6qMrBtzPE1EqkNABU_zy1t3TJhwzW4bneU4o5NOubrNR4BXHvTEnypjuGewCpjVUuAWp0xsWTDq_-Zz9hbutYemokWh4TACS0P3rVwT0qD6jPTCaGhtED2IzPDtgBOy5A7_SWyrOG-wFflCK1OjjCk8JLaO128HTQhPYi33LIA25L7LvdA4QNRVF8dt2P5653lqa6gDIlDgt2LipMioJ2-DaRtdInEspa48lHujFjhLlvvTryHkBYVNtiDxiUmr_DJPnaLf3LoOu4IxdNEPFXOSTDMUBI8uBT_1w3X0IBHUmZ190qVHUxrnvhf1DSE0vHK3F1qJolG0G_UtDKjD-4ATqJ-SAmIYzExrwDLXQbeahrYpv63LJmvMoZpsACsguNtDJOD7KVtF0Yzf3Zy9RDpFVkNc_-JNa9h1VNrjPxsWNTca3Ffws_HbLRpH1YqHdHdfs59DP0pH4vNRbPszZjsAP0LGp3e0lLvPQKpbB2Xwv1GnskwpyhBS1lMWUTj8xh4-pfl44czS_PUFgzYoOsP2TYMT3t7Q4YyACrqUC8XV3u33nEt0julkwK3ZwfXKW1W5gV7RkcO8ldsK4-iXGhIb5CPHB9HFIwTr_ioVy9fwkk4021l28CBFH0M2FzSKzRcL5qy0rzMnoz7Id_Z5yWYUbmNQxGy8j6T7PgjkygZxmdbEePvQUMdLiCwKTmkpyEzYoRI_Ih8L_rm6mENVsDBLjomr5ZomKAs5CH-m0RXgyAYxgP97CKKd8GVqPRqkpaeYMT_l6hSUoI_caw5NMtufavvXNdJ7D_icigfW6i1fnpRgSzKh3JPomddlPJ4vOs7SJa37XV_lrOt9nqO2_NVp2kfvTwc8hO_zr-S2f3M64VhY7vPbMV3m52sJVE6nGITgDzeweSG5Lwid-M7GecB_twFwB6yAofG2JUF63nQ6Jom9pW8deBNL0Fe8AZyzo6XC_ctyQnPTdgmYNpdm-TZ5W4d3FPfANhEgSu7T8EcDzZCe3y_mn9Fj3f-dQNXcVNd-jWSI4SxNvHWI_Ub4qtegiy2bNK1vPmQkHrBWuOfRFQ5c6GHeLZ0d2UNZBaLB_pmnCJ972383dOXN1cwmF7cMvVHazAbIjpmxxMLoyOdLVdIXyd3KORDVEfXxMH759e-cFKOC6S4jjN7QfGplt3_sECYup20Uo8b8D4GQ_KlxuGExpV-DDqjjj5iFpuP-zGXM0M7-p04zqxeEuj9LFFmpYfqgYv-tyqokXSC--m7O3ufFxrxHAL4vDF1xse4bZGukqyI59bfyDuRXCeAmQXNV6DZR356rpPhIULE5QS7cth9Q6kqmvRlZvnJznMb_qrD3cODf-0x8DJknRparR_YrUHpdSLBnsmYfyZZnCWCWHCnVFLT9JPFsdzcVbHzCwyAyJKneT41RcqyCbuxWjD5Of_J2YOZuznOQfFsDBFUqa4aSYQlKj_Sn0f_IyhxOfwJ78l80ocS0RLgfBIHrkxGOR3rjMSUB27tzyrzt3202qUJFfQkcIJ5f1K08xEJrWyX3sxU3zFqyUR4LlKr1k3lidpc2Vj0r8YtYQavqWW-4-sRxxQjK_K-qfnMyNBfqwn-y0wN0gPMQgKEqaJ7FiDrCe8wUF_c7cWJcLILCaHKfbsUfd2lEJSJmHEHfY4-LjJmNRCEdlq4LWWFSnGsuJvXdHdOUo017q29i2SemXcBU8wQIOT-NAPdZzwkOZ7Xqp3Y2a_pwbIb3a1Tbswddjvn_77vQoJnvhmcXvY5zTsdKVaNgIoup48P_-K4WRxYl5M4frZwmCvnvhF6gfF6nTmGkCbSMDK-FhVwbuq-lNTLALqI5ljR6ZcxfxbS4IBQtJeiWB8rqWNDmy41swWi_LGCxMMSj3s-5Pg-DO0FS6sXcAOSZbiYMDL1F_gPeFzC2KOwMhDzq4W8FJvs0vndX9EbQD8yPxvfHdVjop802Liy0BjxPGH3_3BuyKyc4Csm46DtvWldr-051XXJRFUnnSAtMgqGIpZkXN2oiKdUDfWdnijhvnJCmIvUQBLO8DzHvDn_N23Iz6n6n9HXUsiTSfukfz-lxo9ESu4oo2nQZIFdlBtM8LNnrhVXGnwGw7r3vWbRowiQsmb7_QurZceFD_VM0o9_e0IY2-EG-R6elwy8vxUWdyWSeEDZ8aihMb6egqhcq0NKFDG_6Kkp81mMWD0GLWpwwZn9F1p40BCSUe5UPlXHjrLQ5m_hFsaccLDHMme1Rm6mI95eaaWCleAmxqTp6nNnzanaYcK2zh8YmWtWnxDlZeeWlKQFdMf65yA9HXWd28iuQTdd5P2J4gg_o_68Jp-u_VcjiVbqFlMLVgWTWc0fLl-G4YRUVXg6sViwO_gRdXLrTNc6OZTBHXb-0o4hKxv45Cr6ln_GkfkT98x4Xr45v_x-6cQpZgKpwtu7Zv9pIjejDThKiV-NsIULwKvG9lmOf6EOBURuxhWzQ-NIqwX4LKTjHaWG9O82NR0oC5azoUwMw-h9YlytipCnZyNdDmweeOUTb4WEqbLJCOMB_g5-P_vKZfg6hksptFTUqBhErtVD9wLTHr0SjaQnz4LhC359lBzWNt_95gcH_tVzc1N6twEh8lfrNRqeFnQ1BjrdzKNMvTYWuvuYwxz_BNBR3NJ1U7Ri9pEdQRomkXNBYAp3g-I1o1D1W3C5-EQ_owwqN_ahxsfi-qny3a_zJZQkO4HzBJPdRX8cW8ofdYBaKXOh66COVp22Pl8U6LO2WKXs6xw7jJrb4g7LJPaiOpEaTA3gWm11jgTt_pZ-O38ajf2qif308w8gw_mlbLxH988H0YGbySA1b0PiSp4OzzSRNQo7WU6vWteIdLPV6iEMHLUumd3bBkuSkriYpPBUQRBuK_-nWO0AfnjKvCiX85sREjL1dyJYs49J8tMn8yW0CwoFUJDkWvyVYxiLku6rfe7NqQ47pXBk_aFcXK4y2QqH-k_xRw7-GEc5lqK2XIWpl0didq-P2VtTU8Kl3Vuc5xytcbgKZCoLtvh9ihP4Q6lp1GT24mIKQX1g0JBnHAT1T7Ahwxq0pCG-JK9UhBqTluy7kmtewQcbJiV2idgdFJEteEPVO7hZHBMIXbmlUtmfmVnHQAyiC3X-JTwNKq0Uey3pvNWDULoNGra5s1Hw2_zJ5WdNXVJPrlwq_QudiK6W8UvPMAeaVtQvz4OgF7Uu92RttdTzgU0YJEz7UHSSvT1qvrstE2GmM6Xtcdu0IRymkxGElpteUIovjz0kf0SbFAXkWtYd9SLDvDhlws9U6CTjKTW2-W7LvRW6mS4JiIQAPThOFBmYVgsWnWw_lY5K0NwrezM1q2QQDGU_I5ce68kq9WKBJTIANloipLT5IM4SNY4anay3UQy8rkSrcT8GKFV4QfM1xSMjZQIrHr4KxvrkbXWmnovCJI7QxNWD1vl6PwDO_rZ0a_yjDFWcH2xuyJsuahC1HwQDJnIkorkVLFlw1ZIg2OKFSEtCppDh-SE22b6tAZZiu7hE_IiJ_1tokxErfTgqkVE0FwCg7H3MmkMJJ7nftbgZSyJULOggQ0FCp7TgXKwTmfqFBQrzry7gU9IXsAqEiCRWOrBBCsJeMy3kO1eNMnQ_PeRBACN8hFPNB9vTyvVwhEuAe2Itw05yZXKR4DJ7DWxHW-VY_ZNuX8S7zL-Bwp4SIBSoYuSLOwEUFchT5cs2iEPNRJnnSH-qM3_k9xZKgtdS7y-UdXa6wrlRCpKjOuAUwuuPDMIb-op2keu2LDLGonQdkmaCqmc_iYvjmc6NPc9hflBzOFBh8pthEl-xlQKHtjf9pZLmPSq-xNaT37mJ18xRgdrGyD5fZTaM-b1gfKTfIqzOTAZohpEXGoTsEJh5H27oINsghS6VDM08AhTyb0p4XqBJAGNIBzGMDJRRd5-TNPWFxO9797p4bMK1fX0kR3IJWwG3gei3OWE07eDRCMyLBUPMwJVDswWh3DDMCJpvkwPDnA2F8MLq_F0fNyOlPwt1tA188CBZw-5RJKEuZU_ARfuK189DsrBeEUTohUW_KKJEMbFBiFFuQVYfmpCu-zuCKC186yyxj_N9ZMwipVU3RPJ9iXI6neISXUVr_5OZXxwUPNlNVEmwThI09JrqHi1jek1AdOpVnTT06qy75K3evKTTEJQPNYp1p5KIqWxvRN-CHIsvdwrySSF91-8l4blmTNL46pPKbLhEnEk06qcmTARg_SoIbmzHWAcUEN8RjewL5vdbbQ_R4d6VNUWMaBlJ045PT60DFKPLM4NDaqVACJlg9J7ivnraToxza-99uQSlLaGNAQefdJoDY3XRj0clnfHVre2KzJKCmWmaRD88Q9upRcKnLkTsI3bCa4fH6WoQ08T0Aq4MvhEzqpOZx-tibvVA6h-hNq4OSxpU3JrqvKS3wZZMsx3k7vYfxcqIond44KNqYi8N2HUpcWLHRywdfP26qldk2d3FgDyfDyKLrbCBLaU9CjIz0Lb-i-u0LN2e_T9CypZOcaRoc-XmiwZqbzN-3Su7jrSVEojGH2QEcv-PhRT7E4g7wPy4a2k8rJL8-lQ-zgEZfwEidNNevwMaAW1Qu6Cv5-ae4Sin5j1SB7gJd64ycXgOSjSE8kA3TcynnhPE7cIrvgdc2H1CAPBTCYtKnj56N7b9q3uk6s6zVBEzJ-3P1lFcDaIVPaO4BxgdOsATzulIVKryOsel8U-nnLHKixqNwtp_VoZ76YQFXnYargUGs3HU5c3JHeYksfbNRLvnJWcsq_fSK5nIMLoEQzDaMz4-bf1kXnwEZS3aynnjoDGAG2uzArGFg5mh0sgvwdrRuPEwb8JC1r2m1EycSN5PFFW2dhOnyxfkmKSncfnwyeWEDykE0Dl2AK-a7cjUJDB9ii3xohZNU5EeQLDdEZ5URYJTndIU5H8897VzuRMLDan2OuYRy7k_nNDh4IwmUp8KZDG-Li63xJ63hoMl2nLLNViJ4qcwVx3aoZZL3kQJctArP9xKrsNHbb4J1F0Zx2NRpWsJYz0XvvMrE7UyzPl7TR-1U8AMHYy1aCadWi5xGJF3lehjcvPfXLTZJhTK2PX9go9jpuj7FtuP0Zv3c__jybWjbTwx5PS2Knyw6EDiLlXSbWIZWoUxKUO9RtWE_whYh1_vJLpmmqO18W_6Z2CY4_O-31GQfuxKTgLtCfBBoCqHvyLuQDmnq13jgld8BbLqofvVTTs1an7A6fxVcjj3_RmHjQ-Z96x_fIr71ITl2PcJ8FP9D5PBT3pGkqQ2S-D-TRrLQQ0VLh6gtvVSeythINMEC-8Brsf8PTA25PzAxVKhppe2f5xyFRM7IDC2SUDZjJ-EnaQ9qJWRK_n0lMZLHlanH8q_c5Vo9XRrkm-mk1j-XDGMWHhN5pIkxVBHGDgzzRNjbFs__2tk0anzkwTtodvci16MMa7xZxhEz7bBw2T4Am1Gx7AygOyHnrmcH8yK01so0_6pgS8ozGErKbvYtyyzoO5DqHKgM8_0tf97X9WvXhN4qUdw9EnbFgw0aWU-E6aztXRVtn8S68KOec85-AVJfWdICynR_Ei9C6TW_O9cPenUkBfnLy-R57Je3DTgqZA84QBu9eJjnM1C12KheRVQwWLT4vtOUh014xI9XlX8897mJ3k5JvUyPus_PcGJc45BvOwmpCxqeOEkTVl9s3hG49NKz3q3lJZFyti1Nzyhn9jZXvbQ-R6NeeiqYtUFrEMHKu98Wp6B4SYC2pqS4lRAHAMC1gjvlv9heKzs8vGQ-Rk2xQ9J4B24JUyEb1BhWVLwG0fIOnLeklESeSCEjSMmPIYOZsgFBTXBft0VFVoVSThViPnxk8nYbtulGqYwCS2AlRY7hMuVFFhk1fVzXl1WVVoXmS7kuh3NMDDZGgMq9Wy8zVgzE5ezh0AR_kGF5ElCpnY8yIyT_iLce4ffHWjGiNHkgyhNxddO-GKP_uTqjLoSUALNTO3ammljC0ir5zNpP8elJXcJHkaWzH5F1IwdafLZ280OqQxWuDosUC1hgb5gYPXVca1UZIhhdqZ7dMK4MWu9tZg7MU-tlT_zl7zsFdG7t2EPHPaL19Oi_5WG4J3bwv8tJ7JULS0MtnCaAiJ4BCSSGjFojxb-04eOnU9HdZ153Ic4RDgUFosOs5PRLvkdgSe6Pw174etlzfdWgt18rdDaYBRLChBoaUqg1_KuQwV4ta9pK2WhZZVhloiTFHj3Nnt237R_UvOIv7g5ASO5kKYyzokNzPqT0M-h5vavh-glMvFRACWGlSK16i-UTcMQ036Q-VXkEMoWRQap0mKmYJOKIqkU48TtTyAGpinCiLnMeef3130T3pxJP3yKcN5Tba8Nm2Ct3sauZB-Sa5frmXHftpJgVkw8cDaGXZHZOBFanRj-4rYP7-id7ycRvCJRF-fQQ7-NERCBA3JzO2tuxnc8D8FU47HC_X_qWs1393LbQqiURd0Hs0eVOlYaHEInghaykZmoDPEwg9abe8p6VL0-zCnkLsgnHKTabP5BuZzkg1XTymwNCDEkA-NnHI6Q9rwfcuIMdhv-ZAgMxWrgCAol91V3Jt6Ge9Vm8jmZjZlarbqbTKr-AiUZI16u9rLKVtjt0BZKDg_QXUzcFr2hF2_HZr9bZXlKl14NtlS7M67-oClP1Znq0aSAOLwqiTcaqzkLd67OtKQjKp_5YjH6B1P482yu3zGIj4usy10mTfLpmz3XR5V6tMNwq4WDdJp1P1sOGtzhqN2EuxVvW72pIhxSe_SILcn_E5nCyna6E-J5OWSEHVpC7q-1mRfcVl7RU_aGgZmFhz2L8mCpCgjMN4AvPCE_C4WmbMKdC8A-HLSRRvwPc5cxXAWni9I6ua5vkoqDMniwS2yxmh0bPrGOLpKkQ8U6mp9vW3Q3zf6LJjPLuIuUjvBQdVPSkpq6iyyzVeolJa5bOSQUbSe_glTvwr3kdzrdyhLvOeVN6A6i1LIqxBtzjOiJQHJ-EozCOz5MIfVIzE4GQMZWD5BBQfMo0tB7sdGkVgR9c-I4j1hWHaKRrVeYYOlO3KSMqfqidcd0nV-BfmFcOI2H93QZjwN1MWfAOd4tKoOt8jkjUNoxFEUGPzC6cCb9MSK8BGyL6gVwoPsatvYJ4Jf52M_Uqrg-L-yULN_rjdKj1pCFAxdyKa0mXACcQvflufJajRwF6P678_3iZVZd-WA7Fl-xEFRM10BBkIX0d6mb0B9UVsiH_qtgLwWokswve8pxGxdq2KhRtU_RUes-hxi8Atl7pmj67U8l3q2VB0xhyGQLGkv6hegLbyTOaRL7vrNDYXxxb1bU7DxCRqOBU2O5Qlaf3Vuq-nh3L8vsTmUAej8h7GZSJnCzqjMZa-7a95o-icShOpTiFfdFU4lf6VNNdG5LvMLBH4ms9H52Z5rllj4nMLDaMDs7Re8Uaij63mO93yW3KTFxIF38mhnEsm_fZgjIMWAXhDE6dbq5dppJKjVuI397RqkXzWkGSIuSyY7fdWch_Zh2iKjQwhGAXwfNESgbRHq72pBtsDyOVHZBg7B1UDcOJKt535z8LZDsdvQVwbP-Z7P-G5gWxrsyhKzGzH9G-mgeSYQFAp-o6H37YPufOAwS3H0Ak3cAPo5PkJLdumICIYZE0oNLNyhyhHvT6OEaRkOgRvQxYL_FZiKo6mB2bshRa3a0CtiBIlIoMwuyyq1KlqQgrrUwIpcK7nUNz91UHttyZKnxjaVHDhOVwsoeL1W7G-DlI5_ouiQ32yi_YcARFr5YWVo1odxjZanVJo5hj3dYxZ6Vt1aaJvMz-wUOJhFJ2A7Rj4TcwRaIWk0po4aCby6-s8rDs14s4TkypBsYHZJnGgUw0Dx068mTEv0X1PvNfdNqTbTS-8nN_3G1wIQV-0cFErmOGt1x4cIMk-QU_IoJN4Gt_yiR_I2YL6Hxf0lUDJ7A9dlbIzMC0ANdsdVxrT5kzv0jxCfc1rNZ3DQ_-l8PYL8Xtl2Bvj--xg7f5GNwr8jqRVRUET0NPMQ4qyrCBoNNfCcdXhax5tA080wLiFkuTo1KJ6NMdld8SN1-r9BeFKCXywMxKUtwJvHtZxsDfuhPpsrCGfYB4K4Tm16EpO32EBZ_2aD9BC9uccDfcMDd50RYiW4Pg60jPqyj0Rugx0gZKgarbo5RkyE5Lf0_RpmPOfQnUP6JNORpHoGk0_guOl5_aM7Q9W-q7UoWsx6wIA_CagG56YeZMm0GyyrO3FtrwvtMB3WUKam72e9VOtItuuZ3P46G5M0lIqiCOHC-ETZO0pKx8z6eOmmU0cb5t5OWTx0eipWv6qEuvp-_QB6bMmfkW3aKeC_sADIW7nFYo8KTfKDZKw20hzZCmhB-mZsK9QxJdVmKleF7UwG6t_MNREGTU_xTXqhsFa17IVbXDPWEjzKwEl9aCm3IJKtj4Q2nzVxy-Kg4b6-xWd7KH-GbHXavdejS2hvMFW4T4Gr6H1BkZ1NrWQ2KTnbI50G8sD7w9Usdp5rmvg5mvZMiq92Orl2YCK959T7d7_4_VkxTclx0kShRBa5AttgPq1HZIIlvGyiXLWCwHGFdFLNrGDmB4kjMK6q5kSydsZsVfm0jNUvusL5UUsMd5EGXCkjXZS4O2TYVvJihnrtdDQ8fTpN1hOViEs5Vq082LxEfZMlQrz3B-hTSWz3zYUYJhZ8_-cIvnAz0W0FMe5C6BlQptd6EiqOA1gna7aOqQpxHKovvgeuG6ps6-G5tWFyM8l6VTOyt59mP-y3HvGKpoq3OTiIxMMGuc2ZGW0jrQ0ZRDJPGCOhCelqiKzsRV0-MbpzdRFFvA_m-gywoAcGb8TTjwznzuTyt4HK5e6qdj-iR2bJuAn0lSKfIFzWFm539bQDJ1che5YyQUcq7jMGPhslmQB9K3EK6E8k=",
+              "video_metadata": null
+            }
+          ],
+          "role": "model"
+        },
+        "citation_metadata": null,
+        "finish_message": null,
+        "token_count": null,
+        "finish_reason": "STOP",
+        "avg_logprobs": null,
+        "grounding_metadata": null,
+        "index": 0,
+        "logprobs_result": null,
+        "safety_ratings": null,
+        "url_context_metadata": null
+      }
+    ],
+    "create_time": null,
+    "model_version": "gemini-3-pro-preview",
+    "prompt_feedback": null,
+    "response_id": "XLVqaYj8L42fqtsPtPicIQ",
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 8980,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 161068,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 160739
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 329
+        }
+      ],
+      "thoughts_token_count": 3852,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 173900,
+      "traffic_type": null
+    },
+    "automatic_function_calling_history": [],
+    "parsed": {
+      "events": [
+        {
+          "offset_seconds": 0,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "I'm trying to get in MobyMax.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 2,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "MobyMax."
+        },
+        {
+          "offset_seconds": 3,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Right there."
+        },
+        {
+          "offset_seconds": 9,
+          "event_type": "view_change",
+          "duration_seconds": 2,
+          "description": "Lester gives a thumbs up to the camera."
+        },
+        {
+          "offset_seconds": 13,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Good now?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 15,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Good.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 16,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I don't think you've shared your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 19,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Because I can see the other students' screen, but I cannot see your screen.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 30,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Three?",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 31,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 35,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "background",
+          "text": "He can see the screen?",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 37,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "I can see the screen of other students when I go to them, but I cannot see your screen right now.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 47,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "background",
+          "text": "[inaudible]",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 101,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 5,
+          "speaker_label": "tutor",
+          "text": "Okay Lester, is it okay if I be back in two minutes? I'll just go and talk to some other students and I'll be back.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 105,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 106,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 107,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 107,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "What is it?",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 108,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Well he said he would be back in two minutes.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 110,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Okay.",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 111,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Lookin' at the other kids.",
+          "speaker_name": "Lester"
+        },
+        {
+          "offset_seconds": 113,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "background",
+          "text": "Okay, we're gonna try.",
+          "speaker_name": "Ms. Beeler"
+        },
+        {
+          "offset_seconds": 116,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student Raysin."
+        },
+        {
+          "offset_seconds": 118,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Raysin, can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 123,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay, can you share your screen with me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 125,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 137,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Raysin starts sharing screen."
+        },
+        {
+          "offset_seconds": 139,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "MobyMax",
+          "details": "Zoom window moves to picture-in-picture, revealing MobyMax in Chrome browser."
+        },
+        {
+          "offset_seconds": 140,
+          "event_type": "view_change",
+          "duration_seconds": 0,
+          "description": "MobyMax interface shows a math problem: 'What is the missing number that completes the equation? ? + 3 = 6'."
+        },
+        {
+          "offset_seconds": 143,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, um, can you also help Lester with this?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 147,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "I think there is some issue with sharing screen over there.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 150,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 153,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Radio button for answer '3'",
+          "details": "Raysin selects the correct answer 3."
+        },
+        {
+          "offset_seconds": 156,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 201,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "tutor",
+          "text": "Okay, and let me know if you need any help, and you can raise your hand and I'll be here.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 206,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "Raysin"
+        },
+        {
+          "offset_seconds": 207,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Raysin submits the answer."
+        },
+        {
+          "offset_seconds": 208,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer animation plays. Next question appears: '6 + ? = 10'."
+        },
+        {
+          "offset_seconds": 216,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student 'hummingbirdpaul'. Screen is black with name only."
+        },
+        {
+          "offset_seconds": 218,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey, can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 220,
+          "event_type": "inactivity",
+          "duration_seconds": 5,
+          "description": "No response from student."
+        },
+        {
+          "offset_seconds": 225,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 226,
+          "event_type": "inactivity",
+          "duration_seconds": 6,
+          "description": "No response from student."
+        },
+        {
+          "offset_seconds": 232,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hello.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 233,
+          "event_type": "inactivity",
+          "duration_seconds": 47,
+          "description": "Tutor waits for a response. View changes to Tutor's own video feed at 03:20."
+        },
+        {
+          "offset_seconds": 336,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student 'h101203'."
+        },
+        {
+          "offset_seconds": 339,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hi, can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 341,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh!",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 343,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Oh, I'm sorry, did I scare you?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 346,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Sorry.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 352,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me right?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 354,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "But I can't hear you.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 357,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 398,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 405,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Can you please share your screen with me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 409,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Bro, who broke it?",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 415,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Yeah you.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 416,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Bro, look at this, look at this.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 420,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Someone broke it. I mean...",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 423,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Ego.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 432,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "No I didn't.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 434,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "You did that.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 439,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Uh.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 441,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Um, by the way, how do I pronounce your name?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 444,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Uh, Joseph Holliday.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 449,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Accidentally put my password as my name.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 452,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Oh.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 454,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 456,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Um, I want you to share your screen if you can do that.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 459,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Alright.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 506,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Can you hear me? Oh yay.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 512,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Student starts sharing screen."
+        },
+        {
+          "offset_seconds": 516,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Got it button",
+          "details": "Clicks the 'Got it' button on the 'Your microphone is disabled' notification."
+        },
+        {
+          "offset_seconds": 526,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Okay, can you...",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 528,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 529,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Oh yeah.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 530,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Yeah, can you go to MobyMax?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 531,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "MobyMax",
+          "details": "Student clicks on the MobyMax tab."
+        },
+        {
+          "offset_seconds": 535,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, so you can start with these, and if you have any questions then do let me know.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 538,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "student",
+          "text": "Okay.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 540,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Speaker icon",
+          "details": "Student clicks the speaker icon to read the question out loud."
+        },
+        {
+          "offset_seconds": 542,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer option '3 - ? = 5'",
+          "details": "Student selects the top option."
+        },
+        {
+          "offset_seconds": 546,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer option '5 - 3 = ?'",
+          "details": "Student changes selection to the bottom option."
+        },
+        {
+          "offset_seconds": 548,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Answer option '3 - ? = 5'",
+          "details": "Student changes selection back to the top option."
+        },
+        {
+          "offset_seconds": 549,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Student submits the answer '3 - ? = 5'."
+        },
+        {
+          "offset_seconds": 550,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Incorrect answer feedback (Red X). Correct answer '5 - 3 = ?' is highlighted."
+        },
+        {
+          "offset_seconds": 551,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "student",
+          "text": "Oh, I don't understand.",
+          "speaker_name": "h101203"
+        },
+        {
+          "offset_seconds": 556,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student 'Lester'."
+        },
+        {
+          "offset_seconds": 557,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Lester is waving at the camera."
+        },
+        {
+          "offset_seconds": 558,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hey Lester.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 601,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "You're on mute.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 604,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You are on mute right now.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 612,
+          "event_type": "inactivity",
+          "duration_seconds": 38,
+          "description": "Lester looks at camera, tries to talk but is muted. Teacher walks by in background."
+        },
+        {
+          "offset_seconds": 650,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student 'takoda' (referred to as Eddy)."
+        },
+        {
+          "offset_seconds": 651,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Hey Eddy, why did you stop sharing your screen man?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 699,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Takoda (Eddy) starts sharing screen."
+        },
+        {
+          "offset_seconds": 750,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "Coolmath Games",
+          "details": "Screen shows the student playing the game 'Drift Boss'."
+        },
+        {
+          "offset_seconds": 753,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Are you playing a game?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 800,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "I don't think you should do that.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 802,
+          "event_type": "app_switch",
+          "duration_seconds": 1,
+          "to_app": "MobyMax",
+          "details": "Student switches tab from Coolmath Games to MobyMax."
+        },
+        {
+          "offset_seconds": 804,
+          "event_type": "view_change",
+          "duration_seconds": 5,
+          "description": "MobyMax page 'Add within 1,000 using block numbers' with a video playing."
+        },
+        {
+          "offset_seconds": 809,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "You do know these all things get recorded, right?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 813,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Student clicks next after video ends."
+        },
+        {
+          "offset_seconds": 814,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "New problem: 'Use the model to add. 283 + 633 = ?'."
+        },
+        {
+          "offset_seconds": 816,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 2,
+          "speaker_label": "tutor",
+          "text": "Yeah, so every game that you play, everything gets recorded.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 819,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "6",
+          "details": "Types '6' in the answer box."
+        },
+        {
+          "offset_seconds": 823,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "16",
+          "details": "Changes answer to '16'."
+        },
+        {
+          "offset_seconds": 826,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "916",
+          "details": "Changes answer to '916'."
+        },
+        {
+          "offset_seconds": 827,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Submits answer."
+        },
+        {
+          "offset_seconds": 828,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer animation. Next problem: '190 + 99 = ?'."
+        },
+        {
+          "offset_seconds": 833,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "9",
+          "details": "Types '9' in answer box."
+        },
+        {
+          "offset_seconds": 838,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "19",
+          "details": "Changes to '19'."
+        },
+        {
+          "offset_seconds": 839,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "189",
+          "details": "Changes to '189'."
+        },
+        {
+          "offset_seconds": 841,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "89",
+          "details": "Deletes '1'."
+        },
+        {
+          "offset_seconds": 846,
+          "event_type": "keyboard",
+          "duration_seconds": 1,
+          "action": "type",
+          "text": "289",
+          "details": "Changes to '289'."
+        },
+        {
+          "offset_seconds": 847,
+          "event_type": "mouse",
+          "duration_seconds": 1,
+          "action": "click",
+          "target_desc": "Next arrow",
+          "details": "Submits answer."
+        },
+        {
+          "offset_seconds": 848,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Correct answer animation. Next problem: '246 + 725 = ?'."
+        },
+        {
+          "offset_seconds": 850,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 3,
+          "speaker_label": "tutor",
+          "text": "Okay, you're doing great. I'll be back in a few minutes.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 904,
+          "event_type": "view_change",
+          "duration_seconds": 1,
+          "description": "Tutor switches view to student 'jaiyana'. Screen is black with name."
+        },
+        {
+          "offset_seconds": 908,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hey.",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 910,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 1,
+          "speaker_label": "tutor",
+          "text": "Hi, can you hear me?",
+          "speaker_name": "Varaun Gandhi"
+        },
+        {
+          "offset_seconds": 912,
+          "event_type": "spoken_utterance",
+          "duration_seconds": 4,
+          "speaker_label": "background",
+          "text": "We have to do this every Monday. Your teacher is supposed to be back next Monday so...",
+          "speaker_name": "Ms. Beeler"
+        }
+      ]
+    }
+  }
+]
